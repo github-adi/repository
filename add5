@@ -1,0 +1,8 @@
+<p>ini 5+5</p>
+<SCRIPT type="text/javascript">
+
+  function square(i) {
+    document.write("The call passed ", i ," to the function.","<BR>")
+    return i + i
+  }
+  document.write("The function returned ",square(5),".")
