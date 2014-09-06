@@ -2,5 +2,9 @@
 -End Point:Shinydemos:
 -3d-Color-Histogram:Images: 
 https://raw.githubusercontent.com/operasoftware/shinydemos/master/demos/3d-color-histogram/images/bicone.png 
+https://raw.githubusercontent.com/operasoftware/shinydemos/master/demos/3d-color-histogram/images/cone.png
+https://raw.githubusercontent.com/operasoftware/shinydemos/master/demos/3d-color-histogram/images/cube.png
+
+Upload the images:
 
 In the tag body, type < . write img src . Type = . Type " . Paste the Url above. Type " . Write target . Type = . Type " . Type _ . Write blank . Type " . Type >  . Type < . Type /  . Write img . Type > .
