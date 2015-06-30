@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+
+<head data-gwd-animation-mode="quickMode">
+  <link href="gwdpagedeck_style.css" data-version="1.5" data-exports-type="gwd-pagedeck" rel="stylesheet">
+  <script data-source="custom.elements.min.js" type="text/javascript" src="custom.elements.min.js"></script>
+  <title>gwd_apps</title>
+  <meta name="generator" content="Google Web Designer 1.3.2.0521">
+  <meta name="template" content="Expandable 2.2.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css" id="gwd-lightbox-style">
+    .gwd-lightbox {
+      overflow: hidden;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .gwd-page-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-page-content {
+      -webkit-transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      position: absolute;
+      background-color: transparent;
+    }
+    .gwd-page-wrapper {
+      position: absolute;
+      -webkit-transform: translateZ(0px);
+      background-color: rgb(255, 255, 255);
+    }
+    .page1-content {
+      width: 550px;
+      height: 400px;
+    }
+    .gwd-canvas-9r2t {
+      position: absolute;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      width: 101px;
+      height: 44.2141113281px;
+      left: 199.5px;
+      top: 64.8929443358999px;
+    }
+    .gwd-canvas-3xrg {
+      position: absolute;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      width: 101px;
+      height: 45.9865722656px;
+      left: 200px;
+      top: 104.5067138672px;
+    }
+    .gwd-canvas-aose {
+      position: absolute;
+      width: 27.9831016843px;
+      height: 145.1830603136px;
+      left: 199.5084491579px;
+      top: 104.9084698432px;
+      -webkit-transform-style: preserve-3d;
+      color: rgb(0, 0, 0);
+    }
+    .gwd-canvas-iyiz {
+      position: absolute;
+      width: 29.9805806757px;
+      height: 145.1961161351px;
+      left: 271.5097096621px;
+      top: 104.9019419325px;
+      -webkit-transform-style: preserve-3d;
+    }
+    .gwd-canvas-dqs6 {
+      position: absolute;
+      width: 45px;
+      height: 1px;
+      left: 227px;
+      top: 249.5px;
+      -webkit-transform-style: preserve-3d;
+    }
+    .gwd-div-768c {
+      position: absolute;
+      font-family: 'Times New Roman';
+      text-align: left;
+      left: 213.5px;
+      top: 281px;
+    }
+    .gwd-span-4hlg {
+      font-family: fantasy;
+      color: rgb(43, 14, 249);
+    }
+  </style>
+  <script data-source="gwdpage_min.js" data-version="1.2" data-exports-type="gwd-page" type="text/javascript" src="gwdpage_min.js"></script>
+  <script data-source="gwdpagedeck_min.js" data-version="1.5" data-exports-type="gwd-pagedeck" type="text/javascript" src="gwdpagedeck_min.js"></script>
+  <script data-source="gwdbezierpath_min.js" data-version="1.1" data-exports-type="gwd-bezierpath" type="text/javascript" src="gwdbezierpath_min.js"></script>
+  <script data-source="gwdline_min.js" data-version="1.1" data-exports-type="gwd-line" type="text/javascript" src="gwdline_min.js"></script>
+</head>
+
+<body class="document-body">
+  <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck">
+    <div is="gwd-page" id="page1" class="gwd-page-wrapper page1-content gwd-lightbox" data-gwd-width="550px" data-gwd-height="400px">
+      <div class="gwd-page-content page1-content">
+        <canvas is="gwd-bezierpath" width="101" height="44" class="gwd-canvas-9r2t" anchors="[[[0.5,42.71,0],[0.5,42.71,0],[0.5,42.71,0]],[[51.5,-53.29,0],[100.5,43.71,0],[149.5,140.71,0]]]" stroke-width="1" stroke-color="[0,0,0,1]" fill-color="[0.047058823529411764,0.9568627450980393,0.3215686274509804,1]"
+        geom-type="5"></canvas>
+        <canvas is="gwd-bezierpath" width="101" height="45" class="gwd-canvas-3xrg" anchors="[[[0.5,1.5,0],[0.5,1.5,0],[0.5,1.5,0]],[[53.5,101.5,0],[100.5,0.5,0],[147.5,-100.5,0]]]" stroke-width="1" stroke-color="[0,0,0,1]" fill-color="[0.047058823529411764,0.9568627450980393,0.3215686274509804,1]"
+        geom-type="5"></canvas>
+        <canvas is="gwd-line" width="27" height="145" class="gwd-canvas-aose" x-adj="0.4915508421256241" y-adj="0.09153015680959892" slope="5.37037037037037" x-off="0.49155084214999967" y-off="-0.09153015680000465" stroke-width="1" stroke-color="[0,0,0,1]"
+        stroke-style="Solid"></canvas>
+        <canvas is="gwd-line" width="29" height="145" class="gwd-canvas-iyiz" x-adj="0.49029033784546006" y-adj="0.098058067569092" slope="-5" x-off="0.4902903378500003" y-off="-0.09805806754999935" stroke-width="1" stroke-color="[0,0,0,1]" stroke-style="Solid"></canvas>
+        <canvas is="gwd-line" width="45" height="1" class="gwd-canvas-dqs6" x-adj="0" y-adj="0" slope="horizontal" x-off="0" y-off="0" stroke-width="1" stroke-color="[0,0,0,1]" stroke-style="Solid"></canvas>
+        <div class="gwd-div-768c"><span class="gwd-span-4hlg">Green Glass</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" id="gwd-init-code">
+    (function() {
+      document.body.style.opacity = "0";
+      var pageDeck = document.getElementById('pagedeck');
+      /**
+       * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+       * fired when the document has been completely loaded and parsed.
+       */
+
+      function handleDomContentLoaded(event) {}
+
+      /**
+       * Handles the WebComponentsReady event. This event is fired when all
+       * custom elements have been registered and upgraded.
+       */
+      function handleWebComponentsReady(event) {
+        document.body.style.opacity = "";
+        setTimeout(function() {
+          pageDeck.goToPage(pageDeck.getDefaultPage().id);
+        }, 0);
+      }
+
+      window.addEventListener('DOMContentLoaded',
+        handleDomContentLoaded, false);
+      window.addEventListener('WebComponentsReady',
+        handleWebComponentsReady, false);
+    })();
+  </script>
+</body>
+
+</html>
