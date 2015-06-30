@@ -1,0 +1,127 @@
+Copy and paste the codes below at Notepad
+Save as
+File Name: greenPurpleLembingTradisonal.html
+Save as type: All Files
+Encoding: UTV 8
+<!DOCTYPE html>
+<html>
+
+<head data-gwd-animation-mode="quickMode">
+  <link href="gwdpagedeck_style.css" data-version="1.5" data-exports-type="gwd-pagedeck" rel="stylesheet">
+  <script data-source="custom.elements.min.js" type="text/javascript" src="custom.elements.min.js"></script>
+  <title>google-web-designer</title>
+  <meta name="generator" content="Google Web Designer 1.3.2.0521">
+  <meta name="template" content="Expandable 2.2.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css" id="gwd-lightbox-style">
+    .gwd-lightbox {
+      overflow: hidden;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .gwd-page-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-page-content {
+      -webkit-transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      position: absolute;
+      background-color: transparent;
+    }
+    .gwd-page-wrapper {
+      position: absolute;
+      -webkit-transform: translateZ(0px);
+      background-color: rgb(255, 255, 255);
+    }
+    .page1-content {
+      width: 550px;
+      height: 400px;
+    }
+    .gwd-canvas-6q5y {
+      position: absolute;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      width: 52.5px;
+      height: 151.6267089844px;
+      left: 200.25px;
+      top: 50.6866455078px;
+    }
+    .gwd-canvas-xt1r {
+      position: absolute;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      width: 51.2195121951px;
+      height: 147.9355230564px;
+      left: 253.3902439024px;
+      top: 55.0322384718px;
+    }
+    .gwd-div-cl32 {
+      position: absolute;
+      font-family: 'Times New Roman';
+      text-align: left;
+      left: 178.942922374429px;
+      top: 229px;
+    }
+    .gwd-span-8ai4 {
+      font-family: fantasy;
+      color: rgb(242, 10, 22);
+    }
+  </style>
+  <script data-source="gwdpage_min.js" data-version="1.2" data-exports-type="gwd-page" type="text/javascript" src="gwdpage_min.js"></script>
+  <script data-source="gwdpagedeck_min.js" data-version="1.5" data-exports-type="gwd-pagedeck" type="text/javascript" src="gwdpagedeck_min.js"></script>
+  <script data-source="gwdbezierpath_min.js" data-version="1.1" data-exports-type="gwd-bezierpath" type="text/javascript" src="gwdbezierpath_min.js"></script>
+</head>
+
+<body class="document-body">
+  <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck">
+    <div is="gwd-page" id="page1" class="gwd-page-wrapper page1-content gwd-lightbox" data-gwd-width="550px" data-gwd-height="400px">
+      <div class="gwd-page-content page1-content">
+        <canvas is="gwd-bezierpath" width="52" height="151" class="gwd-canvas-6q5y" anchors="[[[53,152,0],[51,151.13,0],[51,151.13,0]],[[27,99.13,0],[27,99.13,0],[27,99.13,0]],[[0.5,49.63,0],[0.5,49.63,0],[0.5,49.63,0]],[[20,-60.87,0],[52,49.13,0],[84,159.13,0]]]"
+        stroke-width="1" stroke-color="[0,0,0,1]" fill-color="[0.054901960784313725,0.9764705882352941,0.11764705882352941,1]" geom-type="5"></canvas>
+        <canvas is="gwd-bezierpath" width="51" height="147" class="gwd-canvas-xt1r" anchors="[[[0.5,147.44,0],[0.5,147.44,0],[0.5,147.44,0]],[[50.72,47.41,0],[50.72,47.41,0],[50.72,47.41,0]],[[20,-58.09,0],[1,46.91,0],[-18,151.91,0]]]" stroke-width="1" stroke-color="[0,0,0,1]"
+        fill-color="[0.984313725490196,0.047058823529411764,0.6980392156862745,1]" geom-type="5"></canvas>
+        <div class="gwd-div-cl32"><span class="gwd-span-8ai4">Green Purple Lembing Traditional</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" id="gwd-init-code">
+    (function() {
+      document.body.style.opacity = "0";
+      var pageDeck = document.getElementById('pagedeck');
+      /**
+       * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+       * fired when the document has been completely loaded and parsed.
+       */
+
+      function handleDomContentLoaded(event) {}
+
+      /**
+       * Handles the WebComponentsReady event. This event is fired when all
+       * custom elements have been registered and upgraded.
+       */
+      function handleWebComponentsReady(event) {
+        document.body.style.opacity = "";
+        setTimeout(function() {
+          pageDeck.goToPage(pageDeck.getDefaultPage().id);
+        }, 0);
+      }
+
+      window.addEventListener('DOMContentLoaded',
+        handleDomContentLoaded, false);
+      window.addEventListener('WebComponentsReady',
+        handleWebComponentsReady, false);
+    })();
+  </script>
+</body>
+</html>
+
+Run the codes above at Windows Explorer
