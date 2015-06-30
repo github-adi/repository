@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+
+<head data-gwd-animation-mode="quickMode">
+  <link href="gwdpagedeck_style.css" data-version="1.5" data-exports-type="gwd-pagedeck" rel="stylesheet">
+  <script data-source="custom.elements.min.js" type="text/javascript" src="custom.elements.min.js"></script>
+  <title>gwd_apps</title>
+  <meta name="generator" content="Google Web Designer 1.3.2.0521">
+  <meta name="template" content="Expandable 2.2.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css" id="gwd-lightbox-style">
+    .gwd-lightbox {
+      overflow: hidden;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .gwd-page-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-page-content {
+      -webkit-transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      position: absolute;
+      background-color: transparent;
+    }
+    .gwd-page-wrapper {
+      position: absolute;
+      -webkit-transform: translateZ(0px);
+      background-color: rgb(255, 255, 255);
+    }
+    .page1-content {
+      width: 550px;
+      height: 400px;
+    }
+    .gwd-canvas-nm4f {
+      position: absolute;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      width: 56.1303710938px;
+      height: 53.5px;
+      left: 143.75px;
+      top: 147.25px;
+    }
+    .gwd-canvas-50sx {
+      position: absolute;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      width: 59.452959846px;
+      height: 49px;
+      left: 201.273520077px;
+      top: 151px;
+    }
+    .gwd-canvas-twpq {
+      position: absolute;
+      -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      width: 59.5869140625px;
+      height: 48.5px;
+      left: 262.2065429688px;
+      top: 153.75px;
+    }
+    .gwd-div-6xco {
+      position: absolute;
+      font-family: 'Times New Roman';
+      text-align: left;
+      left: 201px;
+      top: 225px;
+    }
+    .gwd-span-ghc2 {
+      font-family: 'Arial Black';
+      color: rgb(247, 5, 5);
+    }
+  </style>
+  <script data-source="gwdpage_min.js" data-version="1.2" data-exports-type="gwd-page" type="text/javascript" src="gwdpage_min.js"></script>
+  <script data-source="gwdpagedeck_min.js" data-version="1.5" data-exports-type="gwd-pagedeck" type="text/javascript" src="gwdpagedeck_min.js"></script>
+  <script data-source="gwdbezierpath_min.js" data-version="1.1" data-exports-type="gwd-bezierpath" type="text/javascript" src="gwdbezierpath_min.js"></script>
+</head>
+
+<body class="document-body">
+  <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck">
+    <div is="gwd-page" id="page1" class="gwd-page-wrapper page1-content gwd-lightbox" data-gwd-width="550px" data-gwd-height="400px">
+      <div class="gwd-page-content page1-content">
+        <canvas is="gwd-bezierpath" width="56" height="53" class="gwd-canvas-nm4f" anchors="[[[0.5,51.5,0],[0.5,51.5,0],[0.5,51.5,0]],[[22.5,-0.5,0],[49.5,0.5,0],[76.5,1.5,0]],[[4,54,0],[50,53,0],[96,52,0]]]" stroke-width="1" stroke-color="[0,0,0,1]" fill-color="[0.13333333333333333,0.984313725490196,0.03137254901960784,1]"
+        geom-type="5"></canvas>
+        <canvas is="gwd-bezierpath" width="59" height="49" class="gwd-canvas-50sx" anchors="[[[0.5,48.5,0],[0.5,48.5,0],[0.5,48.5,0]],[[12.65,0.41,0],[49.5,0.5,0],[86.35,0.59,0]],[[0,47,0],[51,48,0],[102,49,0]]]" stroke-width="1" stroke-color="[0,0,0,1]" fill-color="[0.9686274509803922,0.0392156862745098,0.7803921568627451,1]"
+        geom-type="5"></canvas>
+        <canvas is="gwd-bezierpath" width="59" height="48" class="gwd-canvas-twpq" anchors="[[[0.5,47.5,0],[0.5,47.5,0],[0.5,47.5,0]],[[15.5,1.5,0],[50.5,0.5,0],[85.5,-0.5,0]],[[-1,46,0],[51,48,0],[103,50,0]]]" stroke-width="1" stroke-color="[0,0,0,1]" fill-color="[0.3568627450980392,0.0196078431372549,0.9568627450980393,1]"
+        geom-type="5"></canvas>
+        <div class="gwd-div-6xco"><span class="gwd-span-ghc2">Three waves</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" id="gwd-init-code">
+    (function() {
+      document.body.style.opacity = "0";
+      var pageDeck = document.getElementById('pagedeck');
+      /**
+       * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+       * fired when the document has been completely loaded and parsed.
+       */
+
+      function handleDomContentLoaded(event) {}
+
+      /**
+       * Handles the WebComponentsReady event. This event is fired when all
+       * custom elements have been registered and upgraded.
+       */
+      function handleWebComponentsReady(event) {
+        document.body.style.opacity = "";
+        setTimeout(function() {
+          pageDeck.goToPage(pageDeck.getDefaultPage().id);
+        }, 0);
+      }
+
+      window.addEventListener('DOMContentLoaded',
+        handleDomContentLoaded, false);
+      window.addEventListener('WebComponentsReady',
+        handleWebComponentsReady, false);
+    })();
+  </script>
+</body>
+
+</html>
