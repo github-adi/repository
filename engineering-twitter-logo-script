@@ -1,0 +1,35 @@
+<body>
+<link rel="stylesheet" href="https://abs.twimg.com/a/1435876292/css/t1/twitter_core.bundle.css">
+      <title>Muhammad Adi Nugroho (@WhyYouSeeMe) | Twitter</title>
+	  <link rel="icon" sizes="any" mask href="https://abs.twimg.com/a/1435876292/img/t1/favicon.svg">
+<meta name="theme-color" content="#55acee">
+<meta name="swift-page-name" id="swift-page-name" content="me">
+
+    <link rel="canonical" href="https://twitter.com/whyyouseeme">
+  
+  <link rel="stylesheet" href="https://abs.twimg.com/a/1435876292/css/t1/twitter_more_1.bundle.css">
+      <link rel="stylesheet" href="https://abs.twimg.com/a/1435876292/css/t1/twitter_more_2.bundle.css">
+      
+<style>
+body { 
+    background-image: url('https://abs.twimg.com/a/1435876292/img/t1/favicon.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+</style>
+
+<h1 class="Icon Icon--bird bird-topbar-etched" >
+          <span class="visuallyhidden">Twitter</span>
+        </h1>
+<style>
+.bird-topbar-etched {
+  color: #55acee;
+font-family: arial;
+text-align: center;
+image-align: center;
+background-color: rgba(58, 252, 5, 0.31);
+ 
+}
+</style>
+</body>
