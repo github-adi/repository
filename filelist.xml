@@ -1,0 +1,19 @@
+Save As
+File Name: filelist.xml
+Save as type: All Files
+Encoding: UTF-8
+
+<xml xmlns:o="urn:schemas-microsoft-com:office:office">
+ <o:MainFile HRef="../bmw.htm"/>
+ <o:File HRef="bmw_12395_image001.png" PublicationID="bmw_12395"/>
+ <o:File HRef="bmw_12395_image002.png" PublicationID="bmw_12395"/>
+ <o:File HRef="bmw_12395_image003.png" PublicationID="bmw_12395"/>
+ <o:File HRef="bmw_12395_image004.png" PublicationID="bmw_12395"/>
+ <o:File HRef="bmw_12395_image005.png" PublicationID="bmw_12395"/>
+ <o:File HRef="bmw_12395_image006.png" PublicationID="bmw_12395"/>
+ <o:File HRef="bmw_12395_image007.png" PublicationID="bmw_12395"/>
+ <o:File HRef="bmw_12395_image008.png" PublicationID="bmw_12395"/>
+ <o:File HRef="bmw_12395_image009.png" PublicationID="bmw_12395"/>
+ <o:File HRef="bmw_12395_image010.gif" PublicationID="bmw_12395"/>
+ <o:File HRef="filelist.xml"/>
+</xml>
