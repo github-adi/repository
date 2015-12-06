@@ -1,0 +1,11 @@
+var x;
+if (x === void 0) {
+   // these statements execute
+}
+
+// y has not been declared before
+if (y === void 0) {
+   // throws a ReferenceError (in contrast to `typeof`)
+}
+-
+Return Error can not be declared because y not defined. If y to be changed with -1, returns undefined.
