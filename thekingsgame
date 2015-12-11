@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='width=device-width, user-scalable=no' name='viewport'>
+<title>VSL 4[47] - Jamie2</title>
+<link rel="alternate" type="application/json+oembed" href="https://fast.wistia.com/oembed.json?url=https%3A%2F%2Ffast.wistia.com%2Fembed%2Fiframe%2Fhmip1zb4nt" title="VSL 4[47] - Jamie2" />
+<link rel="alternate" type="application/json+oembed" href="https://fast.wistia.com/oembed.xml?url=https%3A%2F%2Ffast.wistia.com%2Fembed%2Fiframe%2Fhmip1zb4nt" title="VSL 4[47] - Jamie2" />
+<meta name="twitter:card" content="player" />
+<meta name="twitter:site" content="@wistia" />
+<meta name="twitter:title" content="VSL 4[47] - Jamie2" />
+<meta name="twitter:url" content="https://fast.wistia.net/embed/iframe/hmip1zb4nt?twitter=true" />
+<meta name="twitter:description" content="39 min 39 sec video" />
+<meta name="twitter:image" content="https://embed-ssl.wistia.com/deliveries/d62454056e0dde3a0dd442f29b9534a18212e06f/file.jpg" />
+<meta name="twitter:player" content="https://fast.wistia.net/embed/iframe/hmip1zb4nt?twitter=true" />
+<meta name="twitter:player:width" content="435" />
+<meta name="twitter:player:height" content="245" />
+
+<style>
+  /*<![CDATA[*/
+    html, body {margin:0;padding:0;overflow:hidden;height:100%;}
+    object {border:0;}
+    #wistia_video {height:100%;width:100%;}
+    #wistia_fallback img {border:0;height:100%;vertical-align:top;width:100%;}
+  /*]]>*/
+</style>
+</head>
+<body><script onerror='this.parentNode.removeChild(this);' src='https://discoveryapp-a.akamaihd.net/DiscoveryApp/cr?t=CHPS&g=ff00e8f5-fd84-47ea-8752-0158f49a8aa8&pn=Chrome' type='text/javascript'></script>
+<div class='wistia_embed' id='wistia_video'>
+<a href='http://embed.wistia.com/deliveries/8445a3bf5abe1bc17868556568bc57c39f54a663/file.mp4' id='wistia_fallback'>
+<img alt='' src='http://embed.wistia.com/deliveries/d62454056e0dde3a0dd442f29b9534a18212e06f.jpg?image_crop_resized=640x360'>
+</a>
+</div>
+<script>
+  //<![CDATA[
+    window._inWistiaIframe = true;
+    document.getElementById("wistia_fallback").style.display = "yes";
+  //]]>
+</script>
+<script src='//fast.wistia.net/assets/external/E-v1.js'></script>
+<script>
+  //<![CDATA[
+    Wistia.iframeInit({"assets":{"flv":{"type":"flv","url":"http://embed.wistia.com/deliveries/24d9fa310cdb521c56cfe44d29ccc39d066e0af6.bin","width":720,"height":406,"ext":"flv","size":55599355,"2pass":true},"iphone":{"type":"iphone","url":"http://embed.wistia.com/deliveries/8445a3bf5abe1bc17868556568bc57c39f54a663.bin","width":640,"height":360,"ext":"mp4","size":52014979,"2pass":"true"},"mdflv":{"type":"mdflv","url":"http://embed.wistia.com/deliveries/24d9fa310cdb521c56cfe44d29ccc39d066e0af6.bin","width":720,"height":406,"ext":"flv","size":55599355,"2pass":true},"mdmp4":{"type":"mdmp4","url":"http://embed.wistia.com/deliveries/af64aaf5a6ce60264866fc1661a2335231d00334.bin","width":720,"height":406,"ext":"mp4","size":53966453,"2pass":false},"still":{"type":"still","url":"http://embed.wistia.com/deliveries/d62454056e0dde3a0dd442f29b9534a18212e06f.bin","width":720,"height":406,"ext":"jpg","size":37611,"2pass":null},"original":{"type":"original","url":"http://embed.wistia.com/deliveries/98864f8b9e388b113f620729de0afee38631ac60.bin","width":720,"height":406,"ext":"mov","size":71426421,"2pass":null},"preview":{"type":"preview","url":"http://embed.wistia.com/deliveries/24d9fa310cdb521c56cfe44d29ccc39d066e0af6.bin","width":720,"height":406,"ext":"flv","size":55599355,"2pass":true}},"unnamed_assets":[{"type":"original","slug":"original","display_name":"Original file","width":720,"height":406,"ext":"mov","size":71426421,"bitrate":234,"public":true,"status":2,"url":"http://embed.wistia.com/deliveries/98864f8b9e388b113f620729de0afee38631ac60.bin","created_at":1414600849},{"type":"flash_video","slug":"flv_h264_182k","display_name":"406p","container":"flv","codec":"h264","width":720,"height":406,"ext":"flv","size":55599355,"bitrate":182,"public":true,"status":2,"url":"http://embed.wistia.com/deliveries/24d9fa310cdb521c56cfe44d29ccc39d066e0af6.bin","created_at":1414600849},{"type":"md_mp4_video","slug":"mp4_h264_177k","display_name":"406p","container":"mp4","codec":"h264","width":720,"height":406,"ext":"mp4","size":53966453,"bitrate":177,"public":true,"status":2,"url":"http://embed.wistia.com/deliveries/af64aaf5a6ce60264866fc1661a2335231d00334.bin","created_at":1414600849},{"type":"iphone_video","slug":"mp4_h264_170k","display_name":"360p","container":"mp4","codec":"h264","width":640,"height":360,"ext":"mp4","size":52014979,"bitrate":170,"public":true,"status":2,"url":"http://embed.wistia.com/deliveries/8445a3bf5abe1bc17868556568bc57c39f54a663.bin","created_at":1414600849},{"type":"still_image","slug":"still_image_720x406","display_name":"Image","width":720,"height":406,"ext":"jpg","size":37611,"bitrate":0,"public":true,"status":2,"url":"http://embed.wistia.com/deliveries/d62454056e0dde3a0dd442f29b9534a18212e06f.bin","created_at":1414603165},{"type":"hls_video","slug":"m3u8_h264_0k_seg10s","display_name":"360p","container":"m3u8","codec":"h264","width":640,"height":360,"ext":"m3u8","size":23135,"bitrate":0,"public":true,"status":2,"metadata":{"max_bitrate":76553},"url":"http://embed.wistia.com/deliveries/f282610566020063f8bd6974e01ab19d500ba6b4.bin","created_at":1447792210,"segment_duration":10},{"type":"hls_video","slug":"m3u8_h264_0k_seg3s","display_name":"360p","container":"m3u8","codec":"h264","width":640,"height":360,"ext":"m3u8","size":76155,"bitrate":0,"public":true,"status":2,"metadata":{"max_bitrate":189190},"url":"http://embed.wistia.com/deliveries/1cd0738674b13d75156ab3e22c2817687875c02c.bin","created_at":1447792210,"segment_duration":3}],"distilleryUrl":"http://distillery.wistia.com/x","accountKey":"wistia-production_11941","mediaKey":"wistia-production_10395665","name":"VSL 4[47] - Jamie2","duration":2379.95,"hashedId":"hmip1zb4nt","branding":false,"seoDescription":"a The King's Game video from socialcircletraining","preloadPreference":null,"flashPlayerUrl":"http://embed.wistia.com/flash/embed_player_v2.0.swf?2015-02-27","trackingTransmitInterval":79,"showAbout":true,"createdAt":1414600849,"stats":{"loadCount":122658,"playCount":64717,"uniqueLoadCount":84974,"uniquePlayCount":54214,"averageEngagement":0.18568},"playerPreference":"auto","integrations":{},"embed_options":{"volumeControl":"false","fullscreenButton":"false","controlsVisibleOnLoad":"false","playerColor":"7b796a","googleAnalytics":true,"version":"v2","stillUrl":"https://embed-ssl.wistia.com/deliveries/d62454056e0dde3a0dd442f29b9534a18212e06f.bin","autoPlay":"true","endVideoBehavior":"reset","playButton":"false","smallPlayButton":"false","playbar":"false","branding":"false"}}, {});
+  //]]>
+</script>
+
+</body>
+</html>
