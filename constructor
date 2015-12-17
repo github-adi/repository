@@ -1,0 +1,6 @@
+function myFunction() {
+  (function (InjectedScriptHost, inspectedGlobalObject, injectedScriptId) {
+
+var Object = ({}.constructor);
+})
+}
