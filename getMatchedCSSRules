@@ -1,0 +1,9 @@
+getMatchedCSSRules
+
+Returned:
+function getMatchedCSSRules() { [native code] }
+-
+getMatchedCSSRules(document.getElementById("description"))
+
+Returned:
+null
