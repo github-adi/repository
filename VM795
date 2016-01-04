@@ -1,0 +1,6 @@
+-Kalau tidak bisa di js Bin, execute the Codes at Dev Tools:
+
+with (typeof __commandLineAPI !== 'undefined' ? __commandLineAPI : { __proto__: null }) {
+defineGetter 
+
+}
