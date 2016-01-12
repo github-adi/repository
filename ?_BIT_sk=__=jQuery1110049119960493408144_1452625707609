@@ -1,0 +1,13 @@
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110049119960493408144_1452625707609&_=1452625707610
+Error saving setting with name: consoleHistory, value length: 5326146. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5213214
+Setting: 'previouslyViewedFiles', size: 4289
+Setting: 'savedURLs', size: 1018
+Setting: 'breakpoints', size: 227
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'fileSystemMapping', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Uncaught SyntaxError: Unexpected identifier(…)
