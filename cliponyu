@@ -1,0 +1,327 @@
+Resource interpreted as Stylesheet but transferred with MIME type application/x-shockwave-flash: "http://www.cliponyu.com/static/room/swf/videoPlayer_ecce1d3.swf".
+localStorage:cache
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111001055793862324208_1452883166260&_=1452883166261 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883168084-0".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883170342-1&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://www.cliponyu.com/liveroom/430383?pagelets[]=widget_newRoomFooter&pag…er&pagelets[]=mod_public_emotion&pagelets[]=widget_publicProperty&t=129388".
+XHR finished loading: POST "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883171166-2&sid=9iQF14d6HC4loRFIDn2w".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110008213374833576381_1452883170580&_=1452883170581 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883171179-3&sid=9iQF14d6HC4loRFIDn2w".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111002983784736134112_1452883171552&_=1452883171553 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883172036-4&sid=9iQF14d6HC4loRFIDn2w".
+GET http://secure.livechatinc.com/licence/null/script_data.js?t=1452883171329&r…A%2F%2Fwww.cliponyu.com%2Fliveroom%2F430383&params=&jsonp=__lc_data_965140 
+init connect
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883174875-5&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 1
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/mail/getMailCount".
+XHR finished loading: GET "http://www.cliponyu.com/mall?f=getSpecialGoodList&type=flyscreen&_=1452883176749".
+XHR finished loading: GET "http://www.cliponyu.com/interface/recommend/anchorlist/getRecommendList?roomId=430383&limit=27&_=1452883176667".
+XHR finished loading: GET "http://www.cliponyu.com/anchor?f=getUserLevel&userId=1559201139&type=0".
+XHR finished loading: GET "http://www.cliponyu.com/user/api/medal/getUserMedalList?uid=1559201139&_=1452883176893".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/punch/hover?version=1.0&country=id&hostId=1559201139".
+XHR finished loading: GET "http://www.cliponyu.com/mall?f=getGiftList&catId=16".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/userpackage/msg".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/loveCard/userHeartBeat?version=1.0&country=id&_=1452883177273".
+XHR finished loading: GET "http://www.cliponyu.com/anchor?f=getSong&anchorId=1559201139&page=1".
+XHR finished loading: POST "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883177467-6&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://www.cliponyu.com/interface/micrank/ranklist/get?roomId=430383&version=1.0".
+XHR finished loading: GET "http://www.cliponyu.com/anchor/getroomcars?roomId=430383".
+XHR finished loading: GET "http://www.cliponyu.com/interface/micrank/status/getRoomInfo?roomId=430383&version=1.0".
+XHR finished loading: POST "http://www.cliponyu.com/activity/sunshine/resetTime".
+XHR finished loading: GET "http://www.cliponyu.com/medal/getMedalList?country=id".
+XHR finished loading: GET "http://www.cliponyu.com/liveroom/studio/getUserlist?roomid=430383&start=0&count=20&groupid=232&type=0&isFirst=1".
+XHR finished loading: GET "http://www.cliponyu.com/liveroom/studio/getUserlist?roomid=430383&start=0&count=-1&groupid=232&type=1&isFirst=1".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/punch/punchInfo?version=1.0&country=id&hostId=1559201139".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/punch/page?version=1.0&country=id&hostId=1559201139".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111007684055066201836_1452883178267&_=1452883178268 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883180186-7&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 0
+Buffer time loaded：0s，Total Cache time: 0.5
+Buffer time loaded：0s，Total Cache time: 0.5
+NetStream.Play.Start
+XHR finished loading: GET "http://www.cliponyu.com/api/rank/rankInShow?roomid=430383&topk=10&duration=day&country=id".
+GET http://asrv-a.akamaihd.net/sd/9160/1002.js 
+GET http://asrv-a.akamaihd.net/sd/9160/1005.js 
+GET http://asrv-a.akamaihd.net/sd/9160/1006.js 
+GET http://asrv-a.akamaihd.net/sd/9160/1007.js 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883183886-8&sid=9iQF14d6HC4loRFIDn2w".
+NetStream.Buffer.Full:0.115
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883185062-9&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://pagead2.googlesyndication.com/simgad/12345".
+XHR finished loading: GET "http://pagead2.googlesyndication.com/simgad/12345".
+122
+InterYield clickbind 1.0-SNAPSHOT.69,915 20160113-1030
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883185986-10&sid=9iQF14d6HC4loRFIDn2w".
+InterYield documentbind 1.0-SNAPSHOT.69,915 20160113-1030
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883188253-11&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://www.cliponyu.com/user/api/medal/getUserMedalList?uid=1467870003".
+XHR finished loading: GET "http://www.cliponyu.com/user/api/medal/getUserMedalList?uid=1467870003".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110041715720715001225_1452883189661&_=1452883189662 
+connect time out
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883192252-12&sid=9iQF14d6HC4loRFIDn2w".
+'getMatchedCSSRules()' is deprecated. For more help, check https://code.google.com/p/chromium/issues/detail?id=437569#c2
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110049481381732039154_1452883193526&_=1452883193527 
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/mail/getMailCount".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110014135372312739491_1452883194058&_=1452883194059 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883196523-13&sid=9iQF14d6HC4loRFIDn2w".
+Uncaught TypeError: Cannot read property 'body' of undefined
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: POST "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883199146-14&sid=9iQF14d6HC4loRFIDn2w".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110018998679262585938_1452883199501&_=1452883199502 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883200307-15&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 0
+filterSensitiveWords cost time: 1
+XHR finished loading: GET "http://www.cliponyu.com/user/api/medal/getUserMedalList?uid=1467935434".
+XHR finished loading: GET "http://www.cliponyu.com/user/api/medal/getUserMedalList?uid=1467935434".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883202974-16&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+XHR finished loading: POST "https://s774.thetrafficstat.net/related".
+XHR finished loading: POST "https://s774.thetrafficstat.net/related".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883204604-17&sid=9iQF14d6HC4loRFIDn2w".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111008022482618689537_1452883205197&_=1452883205198 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110049682407616637647_1452883205839&_=1452883205840 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110004665486188605428_1452883206333&_=1452883206334 
+GET http://asrv-a.akamaihd.net/sd/9160/1002.js 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883206823-18&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/mail/getMailCount".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery11100019165477715432644_1452883208029&_=1452883208030 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883208415-19&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110018294848804362118_1452883208910&_=1452883208911 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110008125950442627072_1452883210703&_=1452883210704 
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/wl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/bl".
+Uncaught Error: tried to reject a fulfilled promise
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883211289-20&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+ERROR: Failed to load jwpsrv.
+Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://pstatic.bestpriceninja.com') does not match the recipient window's origin ('http://www.adnetworkperformance.com').
+IFrame echo failed
+Uncaught Error: tried to reject a fulfilled promise
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883213791-21&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883217703-22&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883219311-23&sid=9iQF14d6HC4loRFIDn2w".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110043712985049933195_1452883219128&_=1452883219129 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883221707-24&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/mail/getMailCount".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883223172-25&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883224549-26&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: POST "https://s774.thetrafficstat.net/related".
+XHR finished loading: POST "https://s774.thetrafficstat.net/related".
+XHR finished loading: POST "https://s774.thetrafficstat.net/related".
+XHR finished loading: POST "https://s774.thetrafficstat.net/related".
+XHR finished loading: POST "https://s774.thetrafficstat.net/related".
+XHR finished loading: POST "https://s774.thetrafficstat.net/related".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883225426-27&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883226337-28&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883226724-29&sid=9iQF14d6HC4loRFIDn2w".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery11100875303509645164_1452883227887&_=1452883227888 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883228561-30&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 0
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111006723632581997663_1452883228268&_=1452883228269 
+XHR finished loading: POST "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883229537-31&sid=9iQF14d6HC4loRFIDn2w".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111005382886352017522_1452883229247&_=1452883229248 
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883229870-32&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=b0e736bf975bdbdb221a0cf245ac648f&vastv=3.…preme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb=1452883211011".
+Uncaught Error: tried to reject a fulfilled promise
+Uncaught Error: tried to reject a fulfilled promise
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/wl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/bl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+Uncaught Error: tried to reject a fulfilled promise
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883232686-33&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883233588-34&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883233960-35&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=96be767fce1f2a81047fd6fc2c3c0af0&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883232780".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883234266-36&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883234543-37&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883235324-38&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883235643-39&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=11921338d4b03878c636d85e3017b0fb&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883234329".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883236010-40&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883236462-41&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/mail/getMailCount".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883236868-42&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://www.cliponyu.com/liveroom/studio/getUserlist?roomid=430383&start=0&count=20&groupid=232&type=0&isFirst=1".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=d840dc405b712856c7c407e9f389b534&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883236240".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883237250-43&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883237802-44&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883238143-45&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=c19aa57dabda6fb821a2662f0ac12d8c&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883237578".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883238736-46&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883239015-47&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883239391-48&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=699325fad0d24a10ac4f5ee39c5fd020&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883238743".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883239770-49&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883240360-50&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=4624a3cf02f00234360e60763173fa75&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883239830".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883240754-51&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 1
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883241296-52&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883241550-53&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883241846-54&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883242051-55&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=f30e6199fad124d7dceefe7b2f82c580&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883241182".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883242443-56&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883242764-57&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883243102-58&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=adbbfb0d046e6a16ef7edaf657a3b2ed&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883242461".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883243636-59&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883243984-60&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=90af8c33ad323b2029be968ce78d79e7&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883243759".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883244168-61&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883245274-62&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=b0e736bf975bdbdb221a0cf245ac648f&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883244861".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883245793-63&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=96be767fce1f2a81047fd6fc2c3c0af0&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883246015".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883246846-64&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883247311-65&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883247634-66&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=11921338d4b03878c636d85e3017b0fb&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883247236".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883247999-67&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=d840dc405b712856c7c407e9f389b534&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883248218".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883248795-68&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883249304-69&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883249809-70&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=c19aa57dabda6fb821a2662f0ac12d8c&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883249240".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883250042-71&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883250290-72&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=699325fad0d24a10ac4f5ee39c5fd020&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883250219".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883250821-73&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883251524-74&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/mail/getMailCount".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883251958-75&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883252345-76&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=4624a3cf02f00234360e60763173fa75&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883251435".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883252651-77&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=f30e6199fad124d7dceefe7b2f82c580&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883252660".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883253275-78&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883253929-79&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883254267-80&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883254620-81&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 0
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=adbbfb0d046e6a16ef7edaf657a3b2ed&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883253620".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883255124-82&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883255571-83&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=90af8c33ad323b2029be968ce78d79e7&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883255136".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883255789-84&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883256458-85&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883256705-86&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=b0e736bf975bdbdb221a0cf245ac648f&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883256384".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883257173-87&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883257610-88&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: POST "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883257826-89&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883258015-90&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883258327-91&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=96be767fce1f2a81047fd6fc2c3c0af0&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883257548".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883258668-92&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883258937-93&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=11921338d4b03878c636d85e3017b0fb&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883258674".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883259268-94&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883259921-95&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=d840dc405b712856c7c407e9f389b534&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883259766".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883260459-96&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=c19aa57dabda6fb821a2662f0ac12d8c&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883260935".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883261848-97&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883262581-98&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=699325fad0d24a10ac4f5ee39c5fd020&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883261985".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883262815-99&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883263231-100&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883263646-101&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883263858-102&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883264179-103&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883264435-104&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=4624a3cf02f00234360e60763173fa75&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883262990".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883264742-105&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883265116-106&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883265459-107&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=f30e6199fad124d7dceefe7b2f82c580&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883264977".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883265817-108&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883266236-109&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/mail/getMailCount".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883266592-110&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883267034-111&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=adbbfb0d046e6a16ef7edaf657a3b2ed&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883266131".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=90af8c33ad323b2029be968ce78d79e7&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883267963".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883267781-112&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883269103-113&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883269486-114&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883270095-115&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883270963-116&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883271622-117&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883272004-118&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883272304-119&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883273534-120&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883274072-121&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 0
+GET http://videosupreme.com/crossdomain.xml 404 (Not Found)
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883274801-122&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883276158-123&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=b0e736bf975bdbdb221a0cf245ac648f&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883274185".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883277233-124&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 1
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883277830-125&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883278364-126&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 0
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883279110-127&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883279551-128&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883279813-129&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883280832-130&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883281336-131&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://www.cliponyu.com/hiapi/mail/getMailCount".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883281953-132&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 0
+XHR finished loading: POST "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883283464-134&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883283215-133&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=96be767fce1f2a81047fd6fc2c3c0af0&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883282625".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883283780-135&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883284222-136&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883284653-137&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883285207-138&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883285482-139&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883286347-140&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883286831-141&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883287125-142&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883287569-143&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883287804-144&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883288197-145&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883288651-146&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883289007-147&sid=9iQF14d6HC4loRFIDn2w".
+filterSensitiveWords cost time: 1
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883289610-148&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://ecpmrocks.com/vast.xml?key=11921338d4b03878c636d85e3017b0fb&vastv=3.…reme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FGcTn3k%2F&cb2=1452883289268".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883290110-149&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883290630-150&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883291658-151&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883292072-152&sid=9iQF14d6HC4loRFIDn2w".
+XHR finished loading: GET "http://rest.cliponyu.com/socket.io/?OS=pcweb&EIO=3&transport=polling&t=1452883292454-153&sid=9iQF14d6HC4loRFIDn2w".
+
+-
+http://www.cliponyu.com/liveroom/430383
