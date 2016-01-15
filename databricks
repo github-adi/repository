@@ -1,0 +1,4 @@
+Mixed Content: The page at 'https://databricks.com/blog/2015/02/12/automatic-labs-selects-databricks-cl…52Sr7isFOjHg5bX8xk9xCjPXID7-mtohUS20TNd8tsQSNGRJmaphopun2_g&_hsmi=23998128' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://app.bestpriceninja.com/fo/country.js'. This request has been blocked; the content must be served over HTTPS.
+Failed to load resource: the server responded with a status of 403 (Forbidden)
+InterYield clickbind 1.0-SNAPSHOT.69,915 20160113-1030
+'getMatchedCSSRules()' is deprecated. For more help, check https://code.google.com/p/chromium/issues/detail?id=437569#c2
