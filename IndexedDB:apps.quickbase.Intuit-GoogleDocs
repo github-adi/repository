@@ -1,0 +1,1923 @@
+-DocErrors:app.quickbase.intuit:
+Security origin:https://docs.google.com
+Name:DocsErrors
+Integer Version:1
+String Version:
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:24:24.876 edit:1 The key "minimum-scale:1.0" is not recognized and ignored.
+2016-01-22 01:24:24.876 edit:1 The key "maximum-scale:1.0" is not recognized and ignored.
+2016-01-22 01:25:43.707
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…Gh9GlWU0dfZBqpwnE&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+
+-Errors:
+0	"docsOfflineIframeApi-f"	
+{key: "docsOfflineIframeApi-f", value: "1"}
+1	"docsOfflineIframeApi-n"	
+{key: "docsOfflineIframeApi-n", value: "1"}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:24:24.876 edit:1 The key "minimum-scale:1.0" is not recognized and ignored.
+2016-01-22 01:24:24.876 edit:1 The key "maximum-scale:1.0" is not recognized and ignored.
+2016-01-22 01:25:43.707
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…Gh9GlWU0dfZBqpwnE&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+2016-01-22 01:26:52.653
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…BD5F&CI=0&AID=7&ar=72&arat=pJjbe-3oEVn4mg&TYPE=xmlhttp&zx=2zgnlbaovco0&t=1".
+2016-01-22 01:27:45.531
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=10&TYPE=xmlhttp&zx=923q2mhomejf&t=1".
+.
+-GoogleDocs:
+Security origin:https://docs.google.com
+Name:GoogleDocs
+Integer Version:7
+String Version:
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+DocIdEntityTypeIndex
+
+Comments
+
+StateIndex
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:24:24.876 edit:1 The key "minimum-scale:1.0" is not recognized and ignored.
+2016-01-22 01:24:24.876 edit:1 The key "maximum-scale:1.0" is not recognized and ignored.
+2016-01-22 01:25:43.707
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…Gh9GlWU0dfZBqpwnE&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+2016-01-22 01:26:52.653
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…BD5F&CI=0&AID=7&ar=72&arat=pJjbe-3oEVn4mg&TYPE=xmlhttp&zx=2zgnlbaovco0&t=1".
+2016-01-22 01:27:45.531
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=10&TYPE=xmlhttp&zx=923q2mhomejf&t=1".
+2016-01-22 01:28:40.375
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=13&TYPE=xmlhttp&zx=dpo8fzfk4ux5&t=1".
+2016-01-22 01:29:34.578
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=16&TYPE=xmlhttp&zx=80vr7z41h8w8&t=1".
+.
+-SynObjects:
+0	
+["syncMap", "applicationFonts", "1"]
+{keyPath: ["syncMap", "applicationFonts", "1"], state: {hashValue: "00000000"}, data: {value: []}}
+1	
+["syncMap", "applicationFonts", "2"]
+{keyPath: ["syncMap", "applicationFonts", "2"], state: {hashValue: "00000000"}, data: {value: []}}
+2	
+["syncMap", "applicationFonts", "3"]
+{keyPath: ["syncMap", "applicationFonts", "3"], state: {hashValue: "00000000"}, data: {value: []}}
+3	
+["syncMap", "applicationFonts", "5"]
+{keyPath: ["syncMap", "applicationFonts", "5"], state: {hashValue: "00000000"}, data: {value: []}}
+4	
+["syncMap", "preferences", "acknowledged_promos", "2"]
+{keyPath: ["syncMap", "preferences", "acknowledged_promos", "2"], state: {timestamp: 1453223955788213},…}
+5	
+["syncMap", "preferences", "acknowledged_promos", "3"]
+{keyPath: ["syncMap", "preferences", "acknowledged_promos", "3"], state: {timestamp: 1453223955788213},…}
+6	
+["syncMap", "preferences", "docs-autocorrect"]
+{keyPath: ["syncMap", "preferences", "docs-autocorrect"], state: {timestamp: 1453400663312000},…}
+7	
+["syncMap", "preferences", "docs-chrome", "1"]
+{keyPath: ["syncMap", "preferences", "docs-chrome", "1"], state: {timestamp: 1447262591697207},…}
+8	
+["syncMap", "preferences", "docs-chrome", "2"]
+{keyPath: ["syncMap", "preferences", "docs-chrome", "2"], state: {timestamp: 1447262591697207},…}
+9	
+["syncMap", "preferences", "docs-chrome", "3"]
+{keyPath: ["syncMap", "preferences", "docs-chrome", "3"], state: {timestamp: 1447262591697207},…}
+10	
+["syncMap", "preferences", "docs-enable_braille"]
+{keyPath: ["syncMap", "preferences", "docs-enable_braille"], state: {timestamp: 1453400663312000},…}
+11	
+["syncMap", "preferences", "docs-etg-lvt"]
+{keyPath: ["syncMap", "preferences", "docs-etg-lvt"], state: {timestamp: 1449508802207561},…}
+12	
+["syncMap", "preferences", "docs-fonts"]
+{keyPath: ["syncMap", "preferences", "docs-fonts"], state: {timestamp: 1412359595951532}, data: {,…}}
+13	
+["syncMap", "preferences", "docs-global_promos", "0"]
+{keyPath: ["syncMap", "preferences", "docs-global_promos", "0"], state: {timestamp: 1453223955788213},…}
+14	
+["syncMap", "preferences", "docs-hats_dc"]
+{keyPath: ["syncMap", "preferences", "docs-hats_dc"], state: {timestamp: 1452274940690628},…}
+15	
+["syncMap", "preferences", "docs-hats_st"]
+{keyPath: ["syncMap", "preferences", "docs-hats_st"], state: {timestamp: 1452274940690628},…}
+16	
+["syncMap", "preferences", "docs-homescreen-dbs"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-dbs"], state: {timestamp: 1408135854445090},…}
+17	
+["syncMap", "preferences", "docs-homescreen-dv", "1"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-dv", "1"], state: {timestamp: 1408135854445090},…}
+18	
+["syncMap", "preferences", "docs-homescreen-dv", "2"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-dv", "2"], state: {timestamp: 1408135854445090},…}
+19	
+["syncMap", "preferences", "docs-homescreen-ftbdct"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-ftbdct"], state: {timestamp: 1408135854445090},…}
+20	
+["syncMap", "preferences", "docs-homescreen-msoo", "1"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-msoo", "1"],…}
+21	
+["syncMap", "preferences", "docs-homescreen-msoo", "2"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-msoo", "2"],…}
+22	
+["syncMap", "preferences", "docs-homescreen-of", "1"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-of", "1"], state: {timestamp: 1408135854445090},…}
+23	
+["syncMap", "preferences", "docs-homescreen-of", "2"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-of", "2"], state: {timestamp: 1408135854445090},…}
+24	
+["syncMap", "preferences", "docs-homescreen-sort", "1"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-sort", "1"],…}
+25	
+["syncMap", "preferences", "docs-homescreen-sort", "2"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-sort", "2"],…}
+26	
+["syncMap", "preferences", "docs-homescreen-wws"]
+{keyPath: ["syncMap", "preferences", "docs-homescreen-wws"], state: {timestamp: 1408135854445090},…}
+27	
+["syncMap", "preferences", "docs-recent_templates", "1"]
+{keyPath: ["syncMap", "preferences", "docs-recent_templates", "1"],…}
+28	
+["syncMap", "preferences", "docs-recent_templates", "2"]
+{keyPath: ["syncMap", "preferences", "docs-recent_templates", "2"],…}
+29	
+["syncMap", "preferences", "docs-screenreader"]
+{keyPath: ["syncMap", "preferences", "docs-screenreader"], state: {timestamp: 1453400663312000},…}
+30	
+["syncMap", "preferences", "docs-show_reference", "1"]
+{keyPath: ["syncMap", "preferences", "docs-show_reference", "1"], state: {timestamp: 1443030220502049},…}
+31	
+["syncMap", "preferences", "docs-show_reference", "2"]
+{keyPath: ["syncMap", "preferences", "docs-show_reference", "2"], state: {timestamp: 1443030220502049},…}
+32	
+["syncMap", "preferences", "docs-show_reference", "3"]
+{keyPath: ["syncMap", "preferences", "docs-show_reference", "3"], state: {timestamp: 1443030220502049},…}
+33	
+["syncMap", "preferences", "docs-show_spelling", "1"]
+{keyPath: ["syncMap", "preferences", "docs-show_spelling", "1"], state: {timestamp: 1453392281797000},…}
+34	
+["syncMap", "preferences", "docs-show_spelling", "2"]
+{keyPath: ["syncMap", "preferences", "docs-show_spelling", "2"], state: {timestamp: 1453392282008000},…}
+35	
+["syncMap", "preferences", "docs-show_spelling", "3"]
+{keyPath: ["syncMap", "preferences", "docs-show_spelling", "3"], state: {timestamp: 1453392281564000},…}
+36	
+["syncMap", "preferences", "docs-user_dictionary"]
+{keyPath: ["syncMap", "preferences", "docs-user_dictionary"], state: {timestamp: 1453400663312000},…}
+37	
+["syncMap", "preferences", "docs-voice_tips_shown"]
+{keyPath: ["syncMap", "preferences", "docs-voice_tips_shown"], state: {timestamp: 1453400663312000},…}
+38	
+["syncMap", "preferences", "kix-ap", "1"]
+{keyPath: ["syncMap", "preferences", "kix-ap", "1"], state: {timestamp: 1453223955788213},…}
+39	
+["syncMap", "preferences", "kix-nwv"]
+{keyPath: ["syncMap", "preferences", "kix-nwv"], state: {timestamp: 1449608071956362},…}
+40	
+["syncMap", "preferences", "kix-ps"]
+{keyPath: ["syncMap", "preferences", "kix-ps"], state: {timestamp: 1453400663312000},…}
+41	
+["syncMap", "preferences", "kix-sr"]
+{keyPath: ["syncMap", "preferences", "kix-sr"], state: {timestamp: 1449608071956362},…}
+42	
+["syncMap", "preferences", "kix-ss"]
+{keyPath: ["syncMap", "preferences", "kix-ss"], state: {timestamp: 1453400663312000},…}
+43	
+["syncMap", "preferences", "kix-ssc"]
+{keyPath: ["syncMap", "preferences", "kix-ssc"], state: {timestamp: 1449608071956362},…}
+44	
+["syncMap", "preferences", "kix-vm"]
+{keyPath: ["syncMap", "preferences", "kix-vm"], state: {timestamp: 1449608071956362}, data: {value: 1}}
+45	
+["syncMap", "preferences", "mae-show_addons_menu_promo"]
+{keyPath: ["syncMap", "preferences", "mae-show_addons_menu_promo"],…}
+46	
+["syncMap", "preferences", "mae-show_addons_promo"]
+{keyPath: ["syncMap", "preferences", "mae-show_addons_promo"], state: {timestamp: 1438540762187135},…}
+47	
+["syncMap", "preferences", "punch-show_intro_promo"]
+{keyPath: ["syncMap", "preferences", "punch-show_intro_promo"], state: {timestamp: 1453392282036000},…}
+48	
+["syncMap", "preferences", "punch-show_migrated_presently_promo"]
+{keyPath: ["syncMap", "preferences", "punch-show_migrated_presently_promo"],…}
+49	
+["syncMap", "preferences", "ritz-AlwaysDisplayEnglishFunctionNames"]
+{keyPath: ["syncMap", "preferences", "ritz-AlwaysDisplayEnglishFunctionNames"],…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+DocIdEntityTypeIndex
+
+Comments
+
+StateIndex
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:24:24.876 edit:1 The key "minimum-scale:1.0" is not recognized and ignored.
+2016-01-22 01:24:24.876 edit:1 The key "maximum-scale:1.0" is not recognized and ignored.
+2016-01-22 01:25:43.707
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…Gh9GlWU0dfZBqpwnE&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+2016-01-22 01:26:52.653
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…BD5F&CI=0&AID=7&ar=72&arat=pJjbe-3oEVn4mg&TYPE=xmlhttp&zx=2zgnlbaovco0&t=1".
+2016-01-22 01:27:45.531
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=10&TYPE=xmlhttp&zx=923q2mhomejf&t=1".
+2016-01-22 01:28:40.375
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=13&TYPE=xmlhttp&zx=dpo8fzfk4ux5&t=1".
+2016-01-22 01:29:34.578
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=16&TYPE=xmlhttp&zx=80vr7z41h8w8&t=1".
+2016-01-22 01:30:30.903
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=19&TYPE=xmlhttp&zx=d24emlguhi4v&t=1".
+.
+-Comments:
+-DocumentEntities:
+0	
+["139W7GXdqxcy9CSTiaLra9uH17iiLdTqeCNRePW4Ti_M", "ritz-external-content-type", "protectedRangeInfo"]
+{,…}
+1	
+["139W7GXdqxcy9CSTiaLra9uH17iiLdTqeCNRePW4Ti_M", "ritz-external-metadata-type", "customFunctionMap"]
+{,…}
+2	
+["139W7GXdqxcy9CSTiaLra9uH17iiLdTqeCNRePW4Ti_M", "ritz-external-metadata-type", "protectedRangeInfo"]
+{,…}
+3	
+["15U16XSWOWkfNl7iYo7HM4RjYhjcMNPW3PCNuLDx9R58", "ritz-external-content-type", "protectedRangeInfo"]
+{,…}
+4	
+["15U16XSWOWkfNl7iYo7HM4RjYhjcMNPW3PCNuLDx9R58", "ritz-external-metadata-type", "customFunctionMap"]
+{,…}
+5	
+["15U16XSWOWkfNl7iYo7HM4RjYhjcMNPW3PCNuLDx9R58", "ritz-external-metadata-type", "protectedRangeInfo"]
+{,…}
+6	
+["1btnUjRLg_M84LdleqhATFQNdetoVwI9lR_MgjTWFpa0", "ritz-external-content-type", "protectedRangeInfo"]
+{,…}
+7	
+["1btnUjRLg_M84LdleqhATFQNdetoVwI9lR_MgjTWFpa0", "ritz-external-metadata-type", "customFunctionMap"]
+{,…}
+8	
+["1btnUjRLg_M84LdleqhATFQNdetoVwI9lR_MgjTWFpa0", "ritz-external-metadata-type", "protectedRangeInfo"]
+{,…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+Comments
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:26:52.653
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…BD5F&CI=0&AID=7&ar=72&arat=pJjbe-3oEVn4mg&TYPE=xmlhttp&zx=2zgnlbaovco0&t=1".
+2016-01-22 01:27:45.531
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=10&TYPE=xmlhttp&zx=923q2mhomejf&t=1".
+2016-01-22 01:28:40.375
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=13&TYPE=xmlhttp&zx=dpo8fzfk4ux5&t=1".
+2016-01-22 01:29:34.578
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=16&TYPE=xmlhttp&zx=80vr7z41h8w8&t=1".
+2016-01-22 01:30:30.903
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=19&TYPE=xmlhttp&zx=d24emlguhi4v&t=1".
+2016-01-22 01:31:26.978
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=22&TYPE=xmlhttp&zx=yujjmcamheuk&t=1".
+2016-01-22 01:32:23.556
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=25&TYPE=xmlhttp&zx=7i5a3se6hfna&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:33:23.408
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=28&TYPE=xmlhttp&zx=b71io4mumpd&t=1".
+.
+-PendingQueues:
+50	"1DroUhKPJio8aNkcSCWLLCjDz9isHCYDLetAgojNhbIk"	
+{docId: "1DroUhKPJio8aNkcSCWLLCjDz9isHCYDLetAgojNhbIk", r: -1, ra: null, s: null, b: [], t: "ritz",…}
+51	"1Eh77WmJNTF1SBEREP8T2yOxnGwQsDV9fBNp2K05paW8"	
+{docId: "1Eh77WmJNTF1SBEREP8T2yOxnGwQsDV9fBNp2K05paW8", r: -1, ra: null, s: null, b: [], t: "kix",…}
+52	"1FSxD9VC1_fPkhPCzIDLbvlni0_TDhQ0Q4FG4Al3eHRc"	
+{docId: "1FSxD9VC1_fPkhPCzIDLbvlni0_TDhQ0Q4FG4Al3eHRc", r: 151, ra: ["WJ2Xs0tYL_4ESA"], s: null, b: [],…}
+53	"1Fct-PLw4AOQ4Nipc8yJ0V73cs7JlZVhwBcDEyrTbBcc"	
+{docId: "1Fct-PLw4AOQ4Nipc8yJ0V73cs7JlZVhwBcDEyrTbBcc", r: -1, ra: null, s: null, b: [], t: "kix",…}
+54	"1GNuuhKXERvMU8HkwIKKGUv6vLDJOblEPzSPoV5a5fBc"	
+{docId: "1GNuuhKXERvMU8HkwIKKGUv6vLDJOblEPzSPoV5a5fBc", r: -1, ra: null, s: null, b: [], t: "kix",…}
+55	"1GV2FjTeNsGvzRZqTVl3taFCHd_QQh3c1XrOluUFEycs"	
+{docId: "1GV2FjTeNsGvzRZqTVl3taFCHd_QQh3c1XrOluUFEycs", r: -1, ra: null, s: null, b: [], t: "kix",…}
+56	"1H36Pf-_LxNLTr7UTmdfwuj1x_e6dxn-jG3BXzNCw_NY"	
+{docId: "1H36Pf-_LxNLTr7UTmdfwuj1x_e6dxn-jG3BXzNCw_NY", r: -1, ra: null, s: null, b: [], t: "kix",…}
+57	"1HIIkUmAWowPIUAFsoiTgbvC0Y3bqEZudGaQUXRYuCOs"	
+{docId: "1HIIkUmAWowPIUAFsoiTgbvC0Y3bqEZudGaQUXRYuCOs", r: -1, ra: null, s: null, b: [], t: "kix",…}
+58	"1HlrliK3c_2m3Bz2o3Jw2pjA_sPmvAkaPGSuzetvKsn0"	
+{docId: "1HlrliK3c_2m3Bz2o3Jw2pjA_sPmvAkaPGSuzetvKsn0", r: 90, ra: ["aXtHU2GcA8QrAg"], s: null, b: [],…}
+59	"1ITTgwzDNFp8l_mM9XxdQ6mt6dRjT6xv-SN4vCv4QU1k"	
+{a: 3, docId: "1ITTgwzDNFp8l_mM9XxdQ6mt6dRjT6xv-SN4vCv4QU1k", r: 624, ra: ["BQ4_rVbk8JDg4g"], s: null,…}
+60	"1I__aaLKnC07qV-6Ab5hh5ry2StJfU30uFyi1VeSqp18"	
+{docId: "1I__aaLKnC07qV-6Ab5hh5ry2StJfU30uFyi1VeSqp18", r: -1, ra: null, s: null, b: [], t: "kix",…}
+61	"1In3CCnyzY90aY9S85LJIUt5ox-aKv8OlnaHw5QjMsMc"	
+{docId: "1In3CCnyzY90aY9S85LJIUt5ox-aKv8OlnaHw5QjMsMc", r: 1527, ra: ["hrGHwHrU3tIi_g"], s: null,…}
+62	"1JH9bxjB9ijYg64vD4TSYYpcBtrbyc_MdO06zsRgjGJQ"	
+{docId: "1JH9bxjB9ijYg64vD4TSYYpcBtrbyc_MdO06zsRgjGJQ", r: -1, ra: null, s: null, b: [], t: "kix",…}
+63	"1JulPGLUw9xJd17Fw14KHHPGAboW2gsRV0pvSwwcUNoA"	
+{docId: "1JulPGLUw9xJd17Fw14KHHPGAboW2gsRV0pvSwwcUNoA", r: -1, ra: null, s: null, b: [], t: "ritz",…}
+64	"1Jw8lOSDxEya50fcR4JsXMTmDo1pghz15bXr_JhmHUwg"	
+{docId: "1Jw8lOSDxEya50fcR4JsXMTmDo1pghz15bXr_JhmHUwg", r: -1, ra: null, s: null, b: [], t: "kix",…}
+65	"1JxMi4qe6VMtEEtX6I3rBhb7sMGHJyR9_Rav-o8FfZ_k"	
+{docId: "1JxMi4qe6VMtEEtX6I3rBhb7sMGHJyR9_Rav-o8FfZ_k", r: 549, ra: ["ceOU5oa1-GtGkw"], s: null, b: [],…}
+66	"1KE4je-JAyzqlvEzbWoPEVGY5cZ8nYtvNpXuQ2kZa3jk"	
+{docId: "1KE4je-JAyzqlvEzbWoPEVGY5cZ8nYtvNpXuQ2kZa3jk", r: -1, ra: null, s: null, b: [], t: "kix",…}
+67	"1Kbwg-3dIHMfco5Ier6Indqsus-2-9_Satud8PRyaWYU"	
+{docId: "1Kbwg-3dIHMfco5Ier6Indqsus-2-9_Satud8PRyaWYU", r: -1, ra: null, s: null, b: [], t: "kix",…}
+68	"1L274npzYElxv6DwFh3PGTxk69KAoqGPLA8DZaXZoVbs"	
+{docId: "1L274npzYElxv6DwFh3PGTxk69KAoqGPLA8DZaXZoVbs", r: -1, ra: null, s: null, b: [], t: "kix",…}
+69	"1L3hOuk4xsHDz49Wx5S78L3DE2aFhUmRpUSWV6lLM61E"	
+{docId: "1L3hOuk4xsHDz49Wx5S78L3DE2aFhUmRpUSWV6lLM61E", r: -1, ra: null, s: null, b: [], t: "kix",…}
+70	"1LEv4zkiT2jkLDGNl9-n4J-jmJWCNjD19ATQjEHS4lQI"	
+{docId: "1LEv4zkiT2jkLDGNl9-n4J-jmJWCNjD19ATQjEHS4lQI", r: 85, ra: ["G3XV-1WVRs2aiA"], s: null, b: [],…}
+71	"1LzNr5dGbmiS2KXF6w8yJCnAx2ebjWlb3rh0vvCvS558"	
+{docId: "1LzNr5dGbmiS2KXF6w8yJCnAx2ebjWlb3rh0vvCvS558", r: -1, ra: null, s: null, b: [], t: "kix",…}
+72	"1McH96W6gsuGWI4N8l1gao6JpPkvFxYv4SI7FR4B59b4"	
+{docId: "1McH96W6gsuGWI4N8l1gao6JpPkvFxYv4SI7FR4B59b4", r: -1, ra: null, s: null, b: [], t: "kix",…}
+73	"1Nb7DcqARJUK21DrtxvMoUy2_aKfLXvbNU-FsNfEbdXg"	
+{docId: "1Nb7DcqARJUK21DrtxvMoUy2_aKfLXvbNU-FsNfEbdXg", r: -1, ra: null, s: null, b: [], t: "kix",…}
+74	"1NbJLcBO44WEI8rio5JMcBwVTrlKAITn7w2LPjZfkeTc"	
+{a: 3, docId: "1NbJLcBO44WEI8rio5JMcBwVTrlKAITn7w2LPjZfkeTc", r: 73, ra: ["tQP9ZXSzm_3MKg"], s: null,…}
+75	"1NpZwuZN-IXSBPi0Ff3lUcMJrOugzR3j9CltTTlt9Rik"	
+{docId: "1NpZwuZN-IXSBPi0Ff3lUcMJrOugzR3j9CltTTlt9Rik", r: -1, ra: null, s: null, b: [], t: "kix",…}
+76	"1O5zXCrUgQYNhndLDOvB2YuwHV9MSuHipGI2KpvuuGCI"	
+{docId: "1O5zXCrUgQYNhndLDOvB2YuwHV9MSuHipGI2KpvuuGCI", r: 522, ra: ["HcO0V3wPFaWxmQ"], s: null, b: [],…}
+77	"1OQQ1UvHmeicdDTALPmq2mck43of7J4uFOLJTnfk7Zmo"	
+{docId: "1OQQ1UvHmeicdDTALPmq2mck43of7J4uFOLJTnfk7Zmo", r: -1, ra: null, s: null, b: [], t: "kix",…}
+78	"1OfmoxIFQv1k8ng01RPMT84l-8hWVKmAxnWHXXIKgOdY"	
+{docId: "1OfmoxIFQv1k8ng01RPMT84l-8hWVKmAxnWHXXIKgOdY", r: 448, ra: ["TBijFN5Wm8dndA"], s: null, b: [],…}
+79	"1Oi9LTmbOY16oruzQ97eewBAhTpInE-33PCiuprF136Y"	
+{docId: "1Oi9LTmbOY16oruzQ97eewBAhTpInE-33PCiuprF136Y", r: -1, ra: null, s: null, b: [], t: "kix",…}
+80	"1OmVYijMpNf-eTP6leIBInk6g2LYLWu_lKBo61Vl0rMU"	
+{a: 3, docId: "1OmVYijMpNf-eTP6leIBInk6g2LYLWu_lKBo61Vl0rMU", r: 15, ra: ["pfvsscezETzuHw"], s: null,…}
+81	"1Ow-xStTcChbhdpMtJWO4xnDnI85ehpDQq0WV1azDh-c"	
+{docId: "1Ow-xStTcChbhdpMtJWO4xnDnI85ehpDQq0WV1azDh-c", r: -1, ra: null, s: null, b: [], t: "ritz",…}
+82	"1OwU8t3nmWydfLYog4A0PdB9piD_JHsi6koRUosFg3sM"	
+{docId: "1OwU8t3nmWydfLYog4A0PdB9piD_JHsi6koRUosFg3sM", r: -1, ra: null, s: null, b: [], t: "kix",…}
+83	"1P06lQGvLgTXDJBzKGzH1RC6BmmzG6rTZkh8FuVTLdck"	
+{docId: "1P06lQGvLgTXDJBzKGzH1RC6BmmzG6rTZkh8FuVTLdck", r: -1, ra: null, s: null, b: [], t: "kix",…}
+84	"1P2kXSsPErI6ROJ0UEYKP1DaWWMa0atZKD-pJdRbPKR0"	
+{docId: "1P2kXSsPErI6ROJ0UEYKP1DaWWMa0atZKD-pJdRbPKR0", r: -1, ra: null, s: null, b: [], t: "kix",…}
+85	"1P4rmLJIBEPX4oi7R8mJowTb4TXos_aUeo9oLOguq7jM"	
+{docId: "1P4rmLJIBEPX4oi7R8mJowTb4TXos_aUeo9oLOguq7jM", r: -1, ra: null, s: null, b: [], t: "kix",…}
+86	"1PhMkjEUtkjqsbUmlxlKySV7b9aj4_vtTe7-dOapklRs"	
+{a: 3, docId: "1PhMkjEUtkjqsbUmlxlKySV7b9aj4_vtTe7-dOapklRs", r: 33, ra: ["aeIzMqdP8ESzNw"], s: null,…}
+87	"1PxYdnESR9LOkkJRY7V4Sr4Sf8K4lLtfQ9PxRubJnqUQ"	
+{a: 3, docId: "1PxYdnESR9LOkkJRY7V4Sr4Sf8K4lLtfQ9PxRubJnqUQ", r: 255, ra: ["Kn2p4f2SoGhdYA"], s: null,…}
+88	"1PzBEr8YYNxgYqYiOwoV9KRuH0aPuOtlsbK1cler-0GA"	
+{a: 3, docId: "1PzBEr8YYNxgYqYiOwoV9KRuH0aPuOtlsbK1cler-0GA", r: 1230, ra: ["xRusPSKtaD3avg"], s: null,…}
+89	"1Q9gdpEy4XYLpBSRLwD-E8GLqBvL7S6QvclOryINCO8w"	
+{docId: "1Q9gdpEy4XYLpBSRLwD-E8GLqBvL7S6QvclOryINCO8w", r: -1, ra: null, s: null, b: [], t: "kix",…}
+90	"1QO8wbewjhlMuM5D6N-d9KdmI4zI_bkpWTtGc-MDPdXo"	
+{docId: "1QO8wbewjhlMuM5D6N-d9KdmI4zI_bkpWTtGc-MDPdXo", r: 569, ra: ["IyeGXrYFLNyIqQ"], s: null, b: [],…}
+91	"1QmSZ1WHntWUF6uuy6hs2iV15VgcwrmbXqfAQDJBplVY"	
+{docId: "1QmSZ1WHntWUF6uuy6hs2iV15VgcwrmbXqfAQDJBplVY", r: -1, ra: null, s: null, b: [], t: "kix",…}
+92	"1QrFCZA5c2F2MjQwHd1_3eLDcZ1SSmoiO-SctaqRrmAs"	
+{docId: "1QrFCZA5c2F2MjQwHd1_3eLDcZ1SSmoiO-SctaqRrmAs", r: 329, ra: ["_K4WeQcxArVfgg"], s: null, b: [],…}
+93	"1RS8Qr3x_rKDEGaRQqr3k_qphKeJ5J3G4DpkrqcWOfdE"	
+{docId: "1RS8Qr3x_rKDEGaRQqr3k_qphKeJ5J3G4DpkrqcWOfdE", r: -1, ra: null, s: null, b: [], t: "kix",…}
+94	"1RVIrF0R-uNLfH2JfJoOJKmI-zmckXomHm5TRm0KGCy0"	
+{docId: "1RVIrF0R-uNLfH2JfJoOJKmI-zmckXomHm5TRm0KGCy0", r: -1, ra: null, s: null, b: [], t: "kix",…}
+95	"1S3n0aWxyYoav47-dpLihFnqpJ9yrHXtaj3XQSrCMk-s"	
+{docId: "1S3n0aWxyYoav47-dpLihFnqpJ9yrHXtaj3XQSrCMk-s", r: 283, ra: ["jCUWrP9tAwjIMA"], s: null, b: [],…}
+96	"1S9zepYxc-loXBVyIh1aZp66JGCQqFoPmmSbRTZ0fAyo"	
+{docId: "1S9zepYxc-loXBVyIh1aZp66JGCQqFoPmmSbRTZ0fAyo", r: 142, ra: ["z3KL9vpMFToBsQ"], s: null, b: [],…}
+97	"1SAuvKbxZBlVZeV19Yujh1ufOmCAh-XWERnsNkSxlmcA"	
+{docId: "1SAuvKbxZBlVZeV19Yujh1ufOmCAh-XWERnsNkSxlmcA", r: -1, ra: null, s: null, b: [], t: "ritz",…}
+98	"1SrD8b9x2v4UWUxwavdp04X2jolCv9oAcB0IaWWlpoKw"	
+{docId: "1SrD8b9x2v4UWUxwavdp04X2jolCv9oAcB0IaWWlpoKw", r: 78, ra: ["PxYaHHdEDjlmQQ"], s: null, b: [],…}
+99	"1SxcrO4yPrZQoFGcWP1Nd6C_gzYkZXEPCzhkro5oEaNI"	
+{docId: "1SxcrO4yPrZQoFGcWP1Nd6C_gzYkZXEPCzhkro5oEaNI", r: -1, ra: null, s: null, b: [], t: "kix",…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+Comments
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:32:23.556
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=25&TYPE=xmlhttp&zx=7i5a3se6hfna&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:33:23.408
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=28&TYPE=xmlhttp&zx=b71io4mumpd&t=1".
+2016-01-22 01:34:17.536
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=31&TYPE=xmlhttp&zx=vnop24dhjjbs&t=1".
+.
+-DocumentLocks:
+0	
+["1-HsPEcnSZp72J0KyVVyigPGTY_SZkHtciL-KIx9gtR4"]
+{e: 1452280084579, dlKey: ["1-HsPEcnSZp72J0KyVVyigPGTY_SZkHtciL-KIx9gtR4"],…}
+1	
+["1-ddYmwfCN3oacF8mxykmFo9n7-YXVf8xEPwT3x5y2Gg"]
+{e: 1452372485231, dlKey: ["1-ddYmwfCN3oacF8mxykmFo9n7-YXVf8xEPwT3x5y2Gg"],…}
+2	
+["1-iEbpr8HKgoT_T28IFi4L1ukZwzQ-L6WCul-JQCPX8g"]
+{e: 1452280031866, dlKey: ["1-iEbpr8HKgoT_T28IFi4L1ukZwzQ-L6WCul-JQCPX8g"],…}
+3	
+["1-vHMq2i5wvuvHf0qp0D-m479WVS_Yz4Wn-_Ce1I8HkE"]
+{e: 1452280448066, dlKey: ["1-vHMq2i5wvuvHf0qp0D-m479WVS_Yz4Wn-_Ce1I8HkE"],…}
+4	
+["10CwAWquwFqW17Cajb2vclhzCdfCu8kBamZocGJvYgeU"]
+{e: 1452869947391, dlKey: ["10CwAWquwFqW17Cajb2vclhzCdfCu8kBamZocGJvYgeU"],…}
+5	
+["10FD1I2CWJEBisvk76G3HKdc7CgA6Nhgjz5kxkvszjyw"]
+{e: 1452280487193, dlKey: ["10FD1I2CWJEBisvk76G3HKdc7CgA6Nhgjz5kxkvszjyw"],…}
+6	
+["10nuC8pJxld8NnOC_0IZyzdHd9smKjDZuSzfXFfdYX7Y"]
+{e: 1452280258075, dlKey: ["10nuC8pJxld8NnOC_0IZyzdHd9smKjDZuSzfXFfdYX7Y"],…}
+7	
+["10r06v8Awywxrt_qLHZHJGejunR7_PPae7N8EjOM7N8c"]
+{e: 1452279990135, dlKey: ["10r06v8Awywxrt_qLHZHJGejunR7_PPae7N8EjOM7N8c"],…}
+8	
+["11_v2M9cGcsZoaBAf8smxBmIuRPv0i4M_t4LtJHSHeew"]
+{e: 1452280592325, dlKey: ["11_v2M9cGcsZoaBAf8smxBmIuRPv0i4M_t4LtJHSHeew"],…}
+9	
+["11dK4BrYm_zPYIwtotGGbYQg4SGJNZyqfZG1KMLUSElk"]
+{e: 1452280522820, dlKey: ["11dK4BrYm_zPYIwtotGGbYQg4SGJNZyqfZG1KMLUSElk"],…}
+10	
+["120l39fv49kGxujsNzk50j_S5bcNNCOtnyX_X3A0zbFM"]
+{e: 1452280392874, dlKey: ["120l39fv49kGxujsNzk50j_S5bcNNCOtnyX_X3A0zbFM"],…}
+11	
+["12Hvg5GGSE9NUUVEw37VpGzhkL2S7pQ_7vo9yNYRpQoA"]
+{e: 1452280531686, dlKey: ["12Hvg5GGSE9NUUVEw37VpGzhkL2S7pQ_7vo9yNYRpQoA"],…}
+12	
+["12KXBFTXiWK87ijc8BPTy61hqYuOH7jWszy1ZaHemAJQ"]
+{e: 1452280278928, dlKey: ["12KXBFTXiWK87ijc8BPTy61hqYuOH7jWszy1ZaHemAJQ"],…}
+13	
+["12_1XYu0q7RhffsKHtewo1n2xNeDzYHf_NzhkoeJkGFM"]
+{e: 1453400190157, dlKey: ["12_1XYu0q7RhffsKHtewo1n2xNeDzYHf_NzhkoeJkGFM"],…}
+14	
+["12fQcZ2y9hhzNF-PVSU9s8_cIvjl-hJqdTOoK_6uQmwE"]
+{e: 1452280593464, dlKey: ["12fQcZ2y9hhzNF-PVSU9s8_cIvjl-hJqdTOoK_6uQmwE"],…}
+15	
+["12q8kZWuIjO9q_59PmgyPCw4o72kpiN0Yd_-hzz1Rq1o"]
+{e: 1452784470818, dlKey: ["12q8kZWuIjO9q_59PmgyPCw4o72kpiN0Yd_-hzz1Rq1o"],…}
+16	
+["12qIhRiaKYfLLuRWZqZq1VrVD15kRwsNkcJP8fzWTwc8"]
+{e: 1452280288249, dlKey: ["12qIhRiaKYfLLuRWZqZq1VrVD15kRwsNkcJP8fzWTwc8"],…}
+17	
+["139W7GXdqxcy9CSTiaLra9uH17iiLdTqeCNRePW4Ti_M"]
+{e: 1452282706223, dlKey: ["139W7GXdqxcy9CSTiaLra9uH17iiLdTqeCNRePW4Ti_M"],…}
+18	
+["13ByuyfTeoCN4U6Ybej5CcmWe-RO9f18UTIhoHf4GSCg"]
+{e: 1452280476491, dlKey: ["13ByuyfTeoCN4U6Ybej5CcmWe-RO9f18UTIhoHf4GSCg"],…}
+19	
+["13F7syZOSlY90qEaOGAuBMZ3OspFMJplnE29VRc-345s"]
+{e: 1452280397786, dlKey: ["13F7syZOSlY90qEaOGAuBMZ3OspFMJplnE29VRc-345s"],…}
+20	
+["13QPtKzcy3tAZGd3W4R58ksMc-qXBx1vJt_lpldHe4QU"]
+{e: 1452621473739, dlKey: ["13QPtKzcy3tAZGd3W4R58ksMc-qXBx1vJt_lpldHe4QU"],…}
+21	
+["13rIF2WHMHJ0Hbe9A5CPT8n-zkItnskoWHwGoJT1fm84"]
+{e: 1452280583692, dlKey: ["13rIF2WHMHJ0Hbe9A5CPT8n-zkItnskoWHwGoJT1fm84"],…}
+22	
+["14VnkZEN7eteGERGGUlSv9eN6Lrp1X58glBea-IxqvEA"]
+{e: 1452711090420, dlKey: ["14VnkZEN7eteGERGGUlSv9eN6Lrp1X58glBea-IxqvEA"],…}
+23	
+["14kWQaHrLuRds6ufAFVzaW-YKK59WSaTP8hCgREW6R0U"]
+{e: 1452280155949, dlKey: ["14kWQaHrLuRds6ufAFVzaW-YKK59WSaTP8hCgREW6R0U"],…}
+24	
+["14mcJdJGP9FVKL9S8xPS0wqmlwGpCxtnld1Ze-Z-yLYY"]
+{e: 1453401253483, dlKey: ["14mcJdJGP9FVKL9S8xPS0wqmlwGpCxtnld1Ze-Z-yLYY"],…}
+25	
+["14t6RjNij1ut40kYx_mcpg0wOviH_u4GwThVigAetNl8"]
+{e: 1452280227746, dlKey: ["14t6RjNij1ut40kYx_mcpg0wOviH_u4GwThVigAetNl8"],…}
+26	
+["15U16XSWOWkfNl7iYo7HM4RjYhjcMNPW3PCNuLDx9R58"]
+{e: 1452283980508, dlKey: ["15U16XSWOWkfNl7iYo7HM4RjYhjcMNPW3PCNuLDx9R58"],…}
+27	
+["15neoof2WMHv6oIaL_rzn04yBN790r4YeNPGOh1mCy4E"]
+{e: 1452280503810, dlKey: ["15neoof2WMHv6oIaL_rzn04yBN790r4YeNPGOh1mCy4E"],…}
+28	
+["16-L3QoNiyu_Vg0u0CRPrOOmlphQy3aqktcuzkZ-gQSs"]
+{e: 1452280380312, dlKey: ["16-L3QoNiyu_Vg0u0CRPrOOmlphQy3aqktcuzkZ-gQSs"],…}
+29	
+["17IgLtXOLhPDp4XjV0AqJ9RK9SRzneD_hp0gCxo8aJ3E"]
+{e: 1452280297830, dlKey: ["17IgLtXOLhPDp4XjV0AqJ9RK9SRzneD_hp0gCxo8aJ3E"],…}
+30	
+["17m3wBexF8ututT_t8_pNtxyqfSPTOPv_Ki8vi10b5Iw"]
+{e: 1452280320621, dlKey: ["17m3wBexF8ututT_t8_pNtxyqfSPTOPv_Ki8vi10b5Iw"],…}
+31	
+["183MY5Qvg5PQ7SvN8a7D5zyWgUXb2JY_b3CG33ZQpGbU"]
+{e: 1452279796744, dlKey: ["183MY5Qvg5PQ7SvN8a7D5zyWgUXb2JY_b3CG33ZQpGbU"],…}
+32	
+["18598tEiW0Xzs1rS3vWty6Boxzqb-LUXL3f1bDf308UQ"]
+{e: 1452280203000, dlKey: ["18598tEiW0Xzs1rS3vWty6Boxzqb-LUXL3f1bDf308UQ"],…}
+33	
+["18WgkR9ZL53fV_9vsZyDE8bEqln04-Wi36101xoml2Wg"]
+{e: 1452531428032, dlKey: ["18WgkR9ZL53fV_9vsZyDE8bEqln04-Wi36101xoml2Wg"],…}
+34	
+["18bjPKCyzpItoHbMxP3_2iLXQ9gtHOWpmXmOLdoSLaLU"]
+{e: 1452285646635, dlKey: ["18bjPKCyzpItoHbMxP3_2iLXQ9gtHOWpmXmOLdoSLaLU"],…}
+35	
+["18wrEJMmbw22AGgFs2apZZNO2T6O4K7O5NyRGacoY8VA"]
+{e: 1452280394818, dlKey: ["18wrEJMmbw22AGgFs2apZZNO2T6O4K7O5NyRGacoY8VA"],…}
+36	
+["19CFSR7Jt8iROhOj6RlHhkFWiUVoj93KV57e1XFo8gzI"]
+{e: 1452280423751, dlKey: ["19CFSR7Jt8iROhOj6RlHhkFWiUVoj93KV57e1XFo8gzI"],…}
+37	
+["19MC4Np3xO0tSVF0Oi0AQHWuVfuG8bdbH97tftof_ZSg"]
+{e: 1452280251219, dlKey: ["19MC4Np3xO0tSVF0Oi0AQHWuVfuG8bdbH97tftof_ZSg"],…}
+38	
+["19m3IzFgb_oHrSvkDcRbdlnh7YtA6xZTniAUHewQU2c4"]
+{e: 1452280035346, dlKey: ["19m3IzFgb_oHrSvkDcRbdlnh7YtA6xZTniAUHewQU2c4"],…}
+39	
+["1APoXDjg2cgvr7eitQvfn9AuM2EhZNJaVjyA3c5nNYLg"]
+{e: 1452280462397, dlKey: ["1APoXDjg2cgvr7eitQvfn9AuM2EhZNJaVjyA3c5nNYLg"],…}
+40	
+["1A_p6mHZt1n_f0CpMFYmGWJ2I1CXfQkTnLPlFMdYoino"]
+{e: 1452280264070, dlKey: ["1A_p6mHZt1n_f0CpMFYmGWJ2I1CXfQkTnLPlFMdYoino"],…}
+41	
+["1AfxXkYkaAZFcH3KoOmm6LQbxinhj9FwNfT3FQBHyJ2U"]
+{e: 1452280077510, dlKey: ["1AfxXkYkaAZFcH3KoOmm6LQbxinhj9FwNfT3FQBHyJ2U"],…}
+42	
+["1BKO_5KU3uMs5JCalkAsgovOG0D6PYXOu2cetfauLqWM"]
+{e: 1452280069305, dlKey: ["1BKO_5KU3uMs5JCalkAsgovOG0D6PYXOu2cetfauLqWM"],…}
+43	
+["1BVmzhBOri1aaSJf9MzksT3BQ8AN14Bk7Ye_Z5_2luFI"]
+{e: 1452280390857, dlKey: ["1BVmzhBOri1aaSJf9MzksT3BQ8AN14Bk7Ye_Z5_2luFI"],…}
+44	
+["1BZkWnbOcouLHrOvlL-R7dq4PU9zvKElvbIXojzZGUGM"]
+{e: 1452279991361, dlKey: ["1BZkWnbOcouLHrOvlL-R7dq4PU9zvKElvbIXojzZGUGM"],…}
+45	
+["1C-RI1uJyzF35LlKYdLrQscDVp2ZamGKKTzViUxaA2KI"]
+{e: 1452280017855, dlKey: ["1C-RI1uJyzF35LlKYdLrQscDVp2ZamGKKTzViUxaA2KI"],…}
+46	
+["1CF4AvK2abquh4zAMQSYLSya5QlvnQtUDhsFHg5voC4Q"]
+{e: 1452279987643, dlKey: ["1CF4AvK2abquh4zAMQSYLSya5QlvnQtUDhsFHg5voC4Q"],…}
+47	
+["1D0qpDtOUbRD66c_00csZfIojOTeqjRN0BC170Egdjyg"]
+{e: 1452280590975, dlKey: ["1D0qpDtOUbRD66c_00csZfIojOTeqjRN0BC170Egdjyg"],…}
+48	
+["1D3XWAON3pTo1BptgOV231pbLhZTI5RrlrhuaL_1cji8"]
+{e: 1452280306715, dlKey: ["1D3XWAON3pTo1BptgOV231pbLhZTI5RrlrhuaL_1cji8"],…}
+49	
+["1D6EULvtUDEgaHYeKi5gzkmfg6qvzKsFvDu4HN2pygzE"]
+{e: 1452609686144, dlKey: ["1D6EULvtUDEgaHYeKi5gzkmfg6qvzKsFvDu4HN2pygzE"],…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+Comments
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:30:30.903
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=19&TYPE=xmlhttp&zx=d24emlguhi4v&t=1".
+2016-01-22 01:31:26.978
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=22&TYPE=xmlhttp&zx=yujjmcamheuk&t=1".
+2016-01-22 01:32:23.556
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=25&TYPE=xmlhttp&zx=7i5a3se6hfna&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:33:23.408
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=28&TYPE=xmlhttp&zx=b71io4mumpd&t=1".
+2016-01-22 01:34:17.536
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=31&TYPE=xmlhttp&zx=vnop24dhjjbs&t=1".
+2016-01-22 01:35:15.870
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=34&TYPE=xmlhttp&zx=yizqsbfex4h8&t=1".
+2016-01-22 01:35:38.795
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…080f496ad&c=1&w=1&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+.
+-FrontMetaData:
+0	"Alegreya"	
+{fontFamily: "Alegreya", version: "v7",…}
+1	"Alfa Slab One"	
+{fontFamily: "Alfa Slab One", version: "v5",…}
+2	"Amatic SC"	
+{fontFamily: "Amatic SC", version: "v8",…}
+3	"Average"	
+{fontFamily: "Average", version: "v4", fontFaces: [{fontFamily: "Average", isMenuFont: false,…},…]}
+4	"Bree Serif"	
+{fontFamily: "Bree Serif", version: "v5",…}
+5	"Calibri"	
+{fontFamily: "Calibri", version: "v2",…}
+6	"Cambria"	
+{fontFamily: "Cambria", version: "v2",…}
+7	"Coming Soon"	
+{fontFamily: "Coming Soon", version: "v6",…}
+8	"Consolas"	
+{fontFamily: "Consolas", version: "v2",…}
+9	"Corsiva"	
+{fontFamily: "Corsiva", version: "v2",…}
+10	"Crafty Girls"	
+{fontFamily: "Crafty Girls", version: "v5",…}
+11	"Droid Sans"	
+{fontFamily: "Droid Sans", version: "v6",…}
+12	"Droid Serif"	
+{fontFamily: "Droid Serif", version: "v6",…}
+13	"Economica"	
+{fontFamily: "Economica", version: "v4",…}
+14	"Indie Flower"	
+{fontFamily: "Indie Flower", version: "v8",…}
+15	"Lato"	
+{fontFamily: "Lato", version: "v11",…}
+16	"Lobster"	
+{fontFamily: "Lobster", version: "v15", fontFaces: [{fontFamily: "Lobster", isMenuFont: false,…},…]}
+17	"Merriweather"	
+{fontFamily: "Merriweather", version: "v8",…}
+18	"Montserrat"	
+{fontFamily: "Montserrat", version: "v6",…}
+19	"Muli"	
+{fontFamily: "Muli", version: "v7",…}
+20	"Old Standard TT"	
+{fontFamily: "Old Standard TT", version: "v7",…}
+21	"Open Sans"	
+{fontFamily: "Open Sans", version: "v13",…}
+22	"Oswald"	
+{fontFamily: "Oswald", version: "v10",…}
+23	"PT Sans Narrow"	
+{fontFamily: "PT Sans Narrow", version: "v7",…}
+24	"Permanent Marker"	
+{fontFamily: "Permanent Marker", version: "v5",…}
+25	"Pinyon Script"	
+{fontFamily: "Pinyon Script", version: "v6",…}
+26	"Playfair Display"	
+{fontFamily: "Playfair Display", version: "v10",…}
+27	"Proxima Nova"	
+{fontFamily: "Proxima Nova", version: "v4",…}
+28	"Raleway"	
+{fontFamily: "Raleway", version: "v9",…}
+29	"Roboto"	
+{fontFamily: "Roboto", version: "v15",…}
+30	"Roboto Mono"	
+{fontFamily: "Roboto Mono", version: "v4",…}
+31	"Roboto Slab"	
+{fontFamily: "Roboto Slab", version: "v6",…}
+32	"Shadows Into Light"	
+{fontFamily: "Shadows Into Light", version: "v6",…}
+33	"Source Code Pro"	
+{fontFamily: "Source Code Pro", version: "v6",…}
+34	"Source Sans Pro"	
+{fontFamily: "Source Sans Pro", version: "v9",…}
+35	"Stint Ultra Expanded"	
+{fontFamily: "Stint Ultra Expanded", version: "v4",…}
+36	"Syncopate"	
+{fontFamily: "Syncopate", version: "v7",…}
+37	"Tahoma"	
+{fontFamily: "Tahoma", version: "v2",…}
+38	"Ubuntu"	
+{fontFamily: "Ubuntu", version: "v8",…}
+39	"Ultra"	
+{fontFamily: "Ultra", version: "v8", fontFaces: [{fontFamily: "Ultra", isMenuFont: false,…},…]}
+40	"Varela Round"	
+{fontFamily: "Varela Round", version: "v6",…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+Comments
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:30:30.903
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=19&TYPE=xmlhttp&zx=d24emlguhi4v&t=1".
+2016-01-22 01:31:26.978
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=22&TYPE=xmlhttp&zx=yujjmcamheuk&t=1".
+2016-01-22 01:32:23.556
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=25&TYPE=xmlhttp&zx=7i5a3se6hfna&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:33:23.408
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=28&TYPE=xmlhttp&zx=b71io4mumpd&t=1".
+2016-01-22 01:34:17.536
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=31&TYPE=xmlhttp&zx=vnop24dhjjbs&t=1".
+2016-01-22 01:35:15.870
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=34&TYPE=xmlhttp&zx=yizqsbfex4h8&t=1".
+2016-01-22 01:35:38.795
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…080f496ad&c=1&w=1&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+2016-01-22 01:36:04.228
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=37&TYPE=xmlhttp&zx=k7wmlt1mm01n&t=1".
+.
+-DocumentCommands:
+0	"Alegreya"	
+{fontFamily: "Alegreya", version: "v7",…}
+1	"Alfa Slab One"	
+{fontFamily: "Alfa Slab One", version: "v5",…}
+2	"Amatic SC"	
+{fontFamily: "Amatic SC", version: "v8",…}
+3	"Average"	
+{fontFamily: "Average", version: "v4", fontFaces: [{fontFamily: "Average", isMenuFont: false,…},…]}
+4	"Bree Serif"	
+{fontFamily: "Bree Serif", version: "v5",…}
+5	"Calibri"	
+{fontFamily: "Calibri", version: "v2",…}
+6	"Cambria"	
+{fontFamily: "Cambria", version: "v2",…}
+7	"Coming Soon"	
+{fontFamily: "Coming Soon", version: "v6",…}
+8	"Consolas"	
+{fontFamily: "Consolas", version: "v2",…}
+9	"Corsiva"	
+{fontFamily: "Corsiva", version: "v2",…}
+10	"Crafty Girls"	
+{fontFamily: "Crafty Girls", version: "v5",…}
+11	"Droid Sans"	
+{fontFamily: "Droid Sans", version: "v6",…}
+12	"Droid Serif"	
+{fontFamily: "Droid Serif", version: "v6",…}
+13	"Economica"	
+{fontFamily: "Economica", version: "v4",…}
+14	"Indie Flower"	
+{fontFamily: "Indie Flower", version: "v8",…}
+15	"Lato"	
+{fontFamily: "Lato", version: "v11",…}
+16	"Lobster"	
+{fontFamily: "Lobster", version: "v15", fontFaces: [{fontFamily: "Lobster", isMenuFont: false,…},…]}
+17	"Merriweather"	
+{fontFamily: "Merriweather", version: "v8",…}
+18	"Montserrat"	
+{fontFamily: "Montserrat", version: "v6",…}
+19	"Muli"	
+{fontFamily: "Muli", version: "v7",…}
+20	"Old Standard TT"	
+{fontFamily: "Old Standard TT", version: "v7",…}
+21	"Open Sans"	
+{fontFamily: "Open Sans", version: "v13",…}
+22	"Oswald"	
+{fontFamily: "Oswald", version: "v10",…}
+23	"PT Sans Narrow"	
+{fontFamily: "PT Sans Narrow", version: "v7",…}
+24	"Permanent Marker"	
+{fontFamily: "Permanent Marker", version: "v5",…}
+25	"Pinyon Script"	
+{fontFamily: "Pinyon Script", version: "v6",…}
+26	"Playfair Display"	
+{fontFamily: "Playfair Display", version: "v10",…}
+27	"Proxima Nova"	
+{fontFamily: "Proxima Nova", version: "v4",…}
+28	"Raleway"	
+{fontFamily: "Raleway", version: "v9",…}
+29	"Roboto"	
+{fontFamily: "Roboto", version: "v15",…}
+30	"Roboto Mono"	
+{fontFamily: "Roboto Mono", version: "v4",…}
+31	"Roboto Slab"	
+{fontFamily: "Roboto Slab", version: "v6",…}
+32	"Shadows Into Light"	
+{fontFamily: "Shadows Into Light", version: "v6",…}
+33	"Source Code Pro"	
+{fontFamily: "Source Code Pro", version: "v6",…}
+34	"Source Sans Pro"	
+{fontFamily: "Source Sans Pro", version: "v9",…}
+35	"Stint Ultra Expanded"	
+{fontFamily: "Stint Ultra Expanded", version: "v4",…}
+36	"Syncopate"	
+{fontFamily: "Syncopate", version: "v7",…}
+37	"Tahoma"	
+{fontFamily: "Tahoma", version: "v2",…}
+38	"Ubuntu"	
+{fontFamily: "Ubuntu", version: "v8",…}
+39	"Ultra"	
+{fontFamily: "Ultra", version: "v8", fontFaces: [{fontFamily: "Ultra", isMenuFont: false,…},…]}
+40	"Varela Round"	
+{fontFamily: "Varela Round", version: "v6",…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+Comments
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:30:30.903
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=19&TYPE=xmlhttp&zx=d24emlguhi4v&t=1".
+2016-01-22 01:31:26.978
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=22&TYPE=xmlhttp&zx=yujjmcamheuk&t=1".
+2016-01-22 01:32:23.556
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=25&TYPE=xmlhttp&zx=7i5a3se6hfna&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:33:23.408
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=28&TYPE=xmlhttp&zx=b71io4mumpd&t=1".
+2016-01-22 01:34:17.536
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=31&TYPE=xmlhttp&zx=vnop24dhjjbs&t=1".
+2016-01-22 01:35:15.870
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=34&TYPE=xmlhttp&zx=yizqsbfex4h8&t=1".
+2016-01-22 01:35:38.795
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…080f496ad&c=1&w=1&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+2016-01-22 01:36:04.228
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=37&TYPE=xmlhttp&zx=k7wmlt1mm01n&t=1".
+.
+-Documents:
+0	"1-HsPEcnSZp72J0KyVVyigPGTY_SZkHtciL-KIx9gtR4"	
+{id: "1-HsPEcnSZp72J0KyVVyigPGTY_SZkHtciL-KIx9gtR4", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+1	"1-ddYmwfCN3oacF8mxykmFo9n7-YXVf8xEPwT3x5y2Gg"	
+{id: "1-ddYmwfCN3oacF8mxykmFo9n7-YXVf8xEPwT3x5y2Gg", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+2	"1-iEbpr8HKgoT_T28IFi4L1ukZwzQ-L6WCul-JQCPX8g"	
+{id: "1-iEbpr8HKgoT_T28IFi4L1ukZwzQ-L6WCul-JQCPX8g", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+3	"1-vHMq2i5wvuvHf0qp0D-m479WVS_Yz4Wn-_Ce1I8HkE"	
+{id: "1-vHMq2i5wvuvHf0qp0D-m479WVS_Yz4Wn-_Ce1I8HkE", documentType: "ritz", acl: {u1edc793ac5c00e33: 2},…}
+4	"10CwAWquwFqW17Cajb2vclhzCdfCu8kBamZocGJvYgeU"	
+{id: "10CwAWquwFqW17Cajb2vclhzCdfCu8kBamZocGJvYgeU", documentType: "kix", inc: "",…}
+5	"10FD1I2CWJEBisvk76G3HKdc7CgA6Nhgjz5kxkvszjyw"	
+{id: "10FD1I2CWJEBisvk76G3HKdc7CgA6Nhgjz5kxkvszjyw", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+6	"10nuC8pJxld8NnOC_0IZyzdHd9smKjDZuSzfXFfdYX7Y"	
+{id: "10nuC8pJxld8NnOC_0IZyzdHd9smKjDZuSzfXFfdYX7Y", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+7	"10r06v8Awywxrt_qLHZHJGejunR7_PPae7N8EjOM7N8c"	
+{id: "10r06v8Awywxrt_qLHZHJGejunR7_PPae7N8EjOM7N8c", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+8	"11_v2M9cGcsZoaBAf8smxBmIuRPv0i4M_t4LtJHSHeew"	
+{id: "11_v2M9cGcsZoaBAf8smxBmIuRPv0i4M_t4LtJHSHeew", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+9	"11dK4BrYm_zPYIwtotGGbYQg4SGJNZyqfZG1KMLUSElk"	
+{id: "11dK4BrYm_zPYIwtotGGbYQg4SGJNZyqfZG1KMLUSElk", documentType: "ritz", acl: {u1edc793ac5c00e33: 2},…}
+10	"120l39fv49kGxujsNzk50j_S5bcNNCOtnyX_X3A0zbFM"	
+{id: "120l39fv49kGxujsNzk50j_S5bcNNCOtnyX_X3A0zbFM", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+11	"12Hvg5GGSE9NUUVEw37VpGzhkL2S7pQ_7vo9yNYRpQoA"	
+{id: "12Hvg5GGSE9NUUVEw37VpGzhkL2S7pQ_7vo9yNYRpQoA", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+12	"12KXBFTXiWK87ijc8BPTy61hqYuOH7jWszy1ZaHemAJQ"	
+{id: "12KXBFTXiWK87ijc8BPTy61hqYuOH7jWszy1ZaHemAJQ", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+13	"12_1XYu0q7RhffsKHtewo1n2xNeDzYHf_NzhkoeJkGFM"	
+{id: "12_1XYu0q7RhffsKHtewo1n2xNeDzYHf_NzhkoeJkGFM", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+14	"12fQcZ2y9hhzNF-PVSU9s8_cIvjl-hJqdTOoK_6uQmwE"	
+{id: "12fQcZ2y9hhzNF-PVSU9s8_cIvjl-hJqdTOoK_6uQmwE", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+15	"12q8kZWuIjO9q_59PmgyPCw4o72kpiN0Yd_-hzz1Rq1o"	
+{id: "12q8kZWuIjO9q_59PmgyPCw4o72kpiN0Yd_-hzz1Rq1o", documentType: "kix", inc: "",…}
+16	"12qIhRiaKYfLLuRWZqZq1VrVD15kRwsNkcJP8fzWTwc8"	
+{id: "12qIhRiaKYfLLuRWZqZq1VrVD15kRwsNkcJP8fzWTwc8", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+17	"139W7GXdqxcy9CSTiaLra9uH17iiLdTqeCNRePW4Ti_M"	
+{id: "139W7GXdqxcy9CSTiaLra9uH17iiLdTqeCNRePW4Ti_M", documentType: "ritz", acl: {u1edc793ac5c00e33: 2},…}
+18	"13ByuyfTeoCN4U6Ybej5CcmWe-RO9f18UTIhoHf4GSCg"	
+{id: "13ByuyfTeoCN4U6Ybej5CcmWe-RO9f18UTIhoHf4GSCg", documentType: "ritz", acl: {u1edc793ac5c00e33: 2},…}
+19	"13F7syZOSlY90qEaOGAuBMZ3OspFMJplnE29VRc-345s"	
+{id: "13F7syZOSlY90qEaOGAuBMZ3OspFMJplnE29VRc-345s", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+20	"13QPtKzcy3tAZGd3W4R58ksMc-qXBx1vJt_lpldHe4QU"	
+{id: "13QPtKzcy3tAZGd3W4R58ksMc-qXBx1vJt_lpldHe4QU", documentType: "kix", inc: "",…}
+21	"13rIF2WHMHJ0Hbe9A5CPT8n-zkItnskoWHwGoJT1fm84"	
+{id: "13rIF2WHMHJ0Hbe9A5CPT8n-zkItnskoWHwGoJT1fm84", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+22	"14VnkZEN7eteGERGGUlSv9eN6Lrp1X58glBea-IxqvEA"	
+{id: "14VnkZEN7eteGERGGUlSv9eN6Lrp1X58glBea-IxqvEA", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+23	"14kWQaHrLuRds6ufAFVzaW-YKK59WSaTP8hCgREW6R0U"	
+{id: "14kWQaHrLuRds6ufAFVzaW-YKK59WSaTP8hCgREW6R0U", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+24	"14mcJdJGP9FVKL9S8xPS0wqmlwGpCxtnld1Ze-Z-yLYY"	
+{id: "14mcJdJGP9FVKL9S8xPS0wqmlwGpCxtnld1Ze-Z-yLYY", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+25	"14t6RjNij1ut40kYx_mcpg0wOviH_u4GwThVigAetNl8"	
+{id: "14t6RjNij1ut40kYx_mcpg0wOviH_u4GwThVigAetNl8", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+26	"15U16XSWOWkfNl7iYo7HM4RjYhjcMNPW3PCNuLDx9R58"	
+{id: "15U16XSWOWkfNl7iYo7HM4RjYhjcMNPW3PCNuLDx9R58", documentType: "ritz", acl: {u1edc793ac5c00e33: 2},…}
+27	"15neoof2WMHv6oIaL_rzn04yBN790r4YeNPGOh1mCy4E"	
+{id: "15neoof2WMHv6oIaL_rzn04yBN790r4YeNPGOh1mCy4E", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+28	"16-L3QoNiyu_Vg0u0CRPrOOmlphQy3aqktcuzkZ-gQSs"	
+{id: "16-L3QoNiyu_Vg0u0CRPrOOmlphQy3aqktcuzkZ-gQSs", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+29	"17IgLtXOLhPDp4XjV0AqJ9RK9SRzneD_hp0gCxo8aJ3E"	
+{id: "17IgLtXOLhPDp4XjV0AqJ9RK9SRzneD_hp0gCxo8aJ3E", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+30	"17m3wBexF8ututT_t8_pNtxyqfSPTOPv_Ki8vi10b5Iw"	
+{id: "17m3wBexF8ututT_t8_pNtxyqfSPTOPv_Ki8vi10b5Iw", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+31	"183MY5Qvg5PQ7SvN8a7D5zyWgUXb2JY_b3CG33ZQpGbU"	
+{id: "183MY5Qvg5PQ7SvN8a7D5zyWgUXb2JY_b3CG33ZQpGbU", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+32	"18598tEiW0Xzs1rS3vWty6Boxzqb-LUXL3f1bDf308UQ"	
+{id: "18598tEiW0Xzs1rS3vWty6Boxzqb-LUXL3f1bDf308UQ", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+33	"18WgkR9ZL53fV_9vsZyDE8bEqln04-Wi36101xoml2Wg"	
+{id: "18WgkR9ZL53fV_9vsZyDE8bEqln04-Wi36101xoml2Wg", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+34	"18bjPKCyzpItoHbMxP3_2iLXQ9gtHOWpmXmOLdoSLaLU"	
+{id: "18bjPKCyzpItoHbMxP3_2iLXQ9gtHOWpmXmOLdoSLaLU", documentType: "kix", acl: {u1edc793ac5c00e33: 1},…}
+35	"18wrEJMmbw22AGgFs2apZZNO2T6O4K7O5NyRGacoY8VA"	
+{id: "18wrEJMmbw22AGgFs2apZZNO2T6O4K7O5NyRGacoY8VA", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+36	"19CFSR7Jt8iROhOj6RlHhkFWiUVoj93KV57e1XFo8gzI"	
+{id: "19CFSR7Jt8iROhOj6RlHhkFWiUVoj93KV57e1XFo8gzI", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+37	"19MC4Np3xO0tSVF0Oi0AQHWuVfuG8bdbH97tftof_ZSg"	
+{id: "19MC4Np3xO0tSVF0Oi0AQHWuVfuG8bdbH97tftof_ZSg", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+38	"19m3IzFgb_oHrSvkDcRbdlnh7YtA6xZTniAUHewQU2c4"	
+{id: "19m3IzFgb_oHrSvkDcRbdlnh7YtA6xZTniAUHewQU2c4", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+39	"1APoXDjg2cgvr7eitQvfn9AuM2EhZNJaVjyA3c5nNYLg"	
+{id: "1APoXDjg2cgvr7eitQvfn9AuM2EhZNJaVjyA3c5nNYLg", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+40	"1A_p6mHZt1n_f0CpMFYmGWJ2I1CXfQkTnLPlFMdYoino"	
+{id: "1A_p6mHZt1n_f0CpMFYmGWJ2I1CXfQkTnLPlFMdYoino", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+41	"1AfxXkYkaAZFcH3KoOmm6LQbxinhj9FwNfT3FQBHyJ2U"	
+{id: "1AfxXkYkaAZFcH3KoOmm6LQbxinhj9FwNfT3FQBHyJ2U", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+42	"1BKO_5KU3uMs5JCalkAsgovOG0D6PYXOu2cetfauLqWM"	
+{id: "1BKO_5KU3uMs5JCalkAsgovOG0D6PYXOu2cetfauLqWM", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+43	"1BVmzhBOri1aaSJf9MzksT3BQ8AN14Bk7Ye_Z5_2luFI"	
+{id: "1BVmzhBOri1aaSJf9MzksT3BQ8AN14Bk7Ye_Z5_2luFI", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+44	"1BZkWnbOcouLHrOvlL-R7dq4PU9zvKElvbIXojzZGUGM"	
+{id: "1BZkWnbOcouLHrOvlL-R7dq4PU9zvKElvbIXojzZGUGM", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+45	"1C-RI1uJyzF35LlKYdLrQscDVp2ZamGKKTzViUxaA2KI"	
+{id: "1C-RI1uJyzF35LlKYdLrQscDVp2ZamGKKTzViUxaA2KI", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+46	"1CF4AvK2abquh4zAMQSYLSya5QlvnQtUDhsFHg5voC4Q"	
+{id: "1CF4AvK2abquh4zAMQSYLSya5QlvnQtUDhsFHg5voC4Q", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+47	"1D0qpDtOUbRD66c_00csZfIojOTeqjRN0BC170Egdjyg"	
+{id: "1D0qpDtOUbRD66c_00csZfIojOTeqjRN0BC170Egdjyg", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+48	"1D3XWAON3pTo1BptgOV231pbLhZTI5RrlrhuaL_1cji8"	
+{id: "1D3XWAON3pTo1BptgOV231pbLhZTI5RrlrhuaL_1cji8", documentType: "kix", acl: {u1edc793ac5c00e33: 2},…}
+49	"1D6EULvtUDEgaHYeKi5gzkmfg6qvzKsFvDu4HN2pygzE"	
+{id: "1D6EULvtUDEgaHYeKi5gzkmfg6qvzKsFvDu4HN2pygzE", documentType: "kix", inc: "",…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+Comments
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:30:30.903
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=19&TYPE=xmlhttp&zx=d24emlguhi4v&t=1".
+2016-01-22 01:31:26.978
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=22&TYPE=xmlhttp&zx=yujjmcamheuk&t=1".
+2016-01-22 01:32:23.556
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=25&TYPE=xmlhttp&zx=7i5a3se6hfna&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:33:23.408
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=28&TYPE=xmlhttp&zx=b71io4mumpd&t=1".
+2016-01-22 01:34:17.536
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=31&TYPE=xmlhttp&zx=vnop24dhjjbs&t=1".
+2016-01-22 01:35:15.870
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=34&TYPE=xmlhttp&zx=yizqsbfex4h8&t=1".
+2016-01-22 01:35:38.795
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…080f496ad&c=1&w=1&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+2016-01-22 01:36:04.228
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=37&TYPE=xmlhttp&zx=k7wmlt1mm01n&t=1".
+.
+-Users:
+0	"u1edc793ac5c00e33"	
+{id: "u1edc793ac5c00e33", fastTrack: "true", emailAddress: "adi.go.rich@gmail.com", locale: "en",…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+Comments
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:30:30.903
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=19&TYPE=xmlhttp&zx=d24emlguhi4v&t=1".
+2016-01-22 01:31:26.978
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=22&TYPE=xmlhttp&zx=yujjmcamheuk&t=1".
+2016-01-22 01:32:23.556
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=25&TYPE=xmlhttp&zx=7i5a3se6hfna&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:33:23.408
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=28&TYPE=xmlhttp&zx=b71io4mumpd&t=1".
+2016-01-22 01:34:17.536
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=31&TYPE=xmlhttp&zx=vnop24dhjjbs&t=1".
+2016-01-22 01:35:15.870
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=34&TYPE=xmlhttp&zx=yizqsbfex4h8&t=1".
+2016-01-22 01:35:38.795
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…080f496ad&c=1&w=1&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+2016-01-22 01:36:04.228
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=37&TYPE=xmlhttp&zx=k7wmlt1mm01n&t=1".
+.
+-ProfileData:
+0	"latencystats"	
+{dataType: "latencystats", latencyReports: []}
+1	"missingdocosdocumentids"	
+{dataType: "missingdocosdocumentids", documentIds: []}
+2	"nonsnapshottedocumentids"	
+{dataType: "nonsnapshottedocumentids", documentIds: ["1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBqpwnE"]}
+3	"syncstats"	
+{dataType: "syncstats", lastSyncedChangestamp: 22594, syncVersion: 3, lastDailyRunTime: 1453318139561,…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+Comments
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:30:30.903
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=19&TYPE=xmlhttp&zx=d24emlguhi4v&t=1".
+2016-01-22 01:31:26.978
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=22&TYPE=xmlhttp&zx=yujjmcamheuk&t=1".
+2016-01-22 01:32:23.556
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=25&TYPE=xmlhttp&zx=7i5a3se6hfna&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:33:23.408
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=28&TYPE=xmlhttp&zx=b71io4mumpd&t=1".
+2016-01-22 01:34:17.536
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=31&TYPE=xmlhttp&zx=vnop24dhjjbs&t=1".
+2016-01-22 01:35:15.870
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=34&TYPE=xmlhttp&zx=yizqsbfex4h8&t=1".
+2016-01-22 01:35:38.795
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…080f496ad&c=1&w=1&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+2016-01-22 01:36:04.228
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=37&TYPE=xmlhttp&zx=k7wmlt1mm01n&t=1".
+.
+-NewDocumentIds:
+0	"drawing"	
+{dtKey: "drawing",…}
+1	"kix"	
+{dtKey: "kix",…}
+2	"punch"	
+{dtKey: "punch",…}
+3	"ritz"	
+{dtKey: "ritz",…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+Comments
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:30:30.903
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=19&TYPE=xmlhttp&zx=d24emlguhi4v&t=1".
+2016-01-22 01:31:26.978
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=22&TYPE=xmlhttp&zx=yujjmcamheuk&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:32:23.556
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=25&TYPE=xmlhttp&zx=7i5a3se6hfna&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:33:23.408
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=28&TYPE=xmlhttp&zx=b71io4mumpd&t=1".
+2016-01-22 01:34:17.536
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=31&TYPE=xmlhttp&zx=vnop24dhjjbs&t=1".
+2016-01-22 01:35:15.870
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=34&TYPE=xmlhttp&zx=yizqsbfex4h8&t=1".
+2016-01-22 01:35:38.795
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…080f496ad&c=1&w=1&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+2016-01-22 01:36:04.228
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=37&TYPE=xmlhttp&zx=k7wmlt1mm01n&t=1".
+.
+-ApplicationMetadata:
+0	"drawing"	
+{dt: "drawing", jobset: "prod",…}
+1	"kix"	
+{dt: "kix", jobset: "prod",…}
+2	"punch"	
+{dt: "punch", jobset: "prod",…}
+3	"ritz"	
+{dt: "ritz", jobset: "prod",…}
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+DocsErrors - https://docs.google.com
+
+Errors
+
+GoogleDocs - https://docs.google.com
+
+SyncObjects
+
+FileEntities
+
+Comments
+
+DocumentEntities
+
+PendingQueues
+
+BlobMetadata
+
+DocumentLocks
+
+FontMetadata
+
+DocumentCommandsMetadata
+
+DocumentCommands
+
+DocumentCommandsMetadataStaging
+
+DocumentCommandsStaging
+
+Documents
+
+Users
+
+ProfileData
+
+NewDocumentIds
+
+ApplicationMetadata
+
+PendingQueueCommands
+
+Impressions
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-22 01:30:30.903
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=19&TYPE=xmlhttp&zx=d24emlguhi4v&t=1".
+2016-01-22 01:31:26.978
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=22&TYPE=xmlhttp&zx=yujjmcamheuk&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:32:23.556
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=25&TYPE=xmlhttp&zx=7i5a3se6hfna&t=1".
+l.send	@	3056997822-bc_manager_core.js:113
+Kf	@	3056997822-bc_manager_core.js:98
+Lf	@	3056997822-bc_manager_core.js:98
+l.sc	@	3056997822-bc_manager_core.js:124
+(anonymous function)	@	3056997822-bc_manager_core.js:132
+2016-01-22 01:33:23.408
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=28&TYPE=xmlhttp&zx=b71io4mumpd&t=1".
+2016-01-22 01:34:17.536
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=31&TYPE=xmlhttp&zx=vnop24dhjjbs&t=1".
+2016-01-22 01:35:15.870
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=34&TYPE=xmlhttp&zx=yizqsbfex4h8&t=1".
+2016-01-22 01:35:38.795
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…080f496ad&c=1&w=1&token=AC4w5Vjwwc_2ns5nzRtstG1PhvQAvzPvJw%3A1453400663443".
+2016-01-22 01:36:04.228
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…&RID=rpc&SID=56F95E23A28FBD5F&CI=0&AID=37&TYPE=xmlhttp&zx=k7wmlt1mm01n&t=1".
+.
+
