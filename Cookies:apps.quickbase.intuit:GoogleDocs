@@ -1,0 +1,334 @@
+-Cookies:
+-docs.google.com:
+WRITELY_SID	DQAAAKoBAABRkTRGDXwTzgBlcZubTHato08OnmNdZv-MgMaKITq48CGmzuQ_dZEzpDBW9YwaNpfnAxczJw9s2BehJFdouNsTRhFC_uH3JthSLqaAlgucFDPHUAbd93dj4lMq0ouS485oALoB9yyp2IdU5spLQrpy_x34WTZYX_9f6bflaUIas44p5eGEdSHJLWcSXP670zjtpxXZVaC7yFP5Zw-_-RdBMeGbg9P5pgb1w7FQqC9-Or2ut3Dothwy4Dvy6uP52V_pd4RU05yZa_s8qXZB6b9AdooYNRBfHTbz66k7s5FcOXK1uuCgL7UDBaUHRSxhszE4uJ4sDwC7NC-7lUYtXzjA-oV5C-jxDOBN22R7nfTm66HyU_rEZse8xJ8qVKVkiLaIvxbytbYRC7372CsLMpvjwWDbzGszVSIyS9ICFbwRdfBgYh9zaox2ryluFhXr0c_edDzH0-vuLMkOnDHtFCchVbwi1sHX2fxAu3lmQzope9IVs92_QFYfwU7h_McyzLbJ3gOKJLFqefSwab850A6_13rpnAZLBjK_i1ZEP7jX30mOl3pQCpPeI5nzfI7vRxs	.docs.google.com	/	2017-12-16T18:00:10.291Z	598	✓			
+SSID	AjDknp0GaCFZY-SFx	.google.com	/	2017-12-25T18:00:20.784Z	21	✓	✓		
+SID	DQAAALQBAAD8mTxeXVamMOLixYs8ciCDFazwC0g9WI9qPpRo_MBseCmXvVy-3EnThb2lT5_GkhQWvxKs17vodYiXGskx7zRRqW0wDCRqn64xSJzBQHfTRrzkHR8KEYU1nQulyOBF2W_npgATuHtNgc6KTsZFHcsqoktWLW8yLKuxETFLBm0vpct2fT6z_W9L9KiP64dI3XBJdPJwK0h_ZsK6gUiKvXARkYvyxaUWIUPSwZ-UJ92ZV30HZbwOaIHb65xRz42p-hN_3XGN6e7YlHGs8Zh-zFPOkdstc_emkKLdtI37jg2GOYIvpIdNfUhgOtX_31YsQ-yYvTHItx7c1Jlk3VpxSwb3XS4mmGMEcDvfdJrZMG7mPcguco-Yrn2Yy_YO5ZSA-mOQVvJ2F7GwZ03sDdo_SQoVAg9b_3DgtzCK3RskTN3xbkMigs-E4yErVuhEUvZy8zVXya6NgwTtyCxNfkpgnpMXsolPwVKlJAzCeFzjVHoTFZfsQntrkJLO9QlIRgUKhBJPR0xgoOvQDjlNPh65KBM4g0uaPoQoW0U0X_zRu2YunrX46ixIZiscEtvvMzYeD1Vq-V5vQoYa7PjAWqBNt6f6	.google.com	/	2017-12-25T18:00:20.784Z	611				
+SAPISID	7vpcQ4iqcZGTw7ww/A8AWQBLariFTRO89w	.google.com	/	2017-12-25T18:00:20.785Z	41		✓		
+S	documents=jI4Od_HeGpx6pSwTwFjfIQ	.docs.google.com	/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBqpwnE	2016-01-23T20:37:47.581Z	33	✓	✓		
+S	explorer=smdkekKJHf2ZAyIWGDL0Qg	.docs.google.com	/	Session	32	✓	✓		
+NID	75=vwlrAI6_M15tWujGobMCRqxyiIHU3kHLfI04OlMKxDuW0AE5RTTYBZKeGm6Qc4YsOsJ74G37xgZpm0Hh0xXxevdZEfaZlXR5y_LKbhoreE3tK-IPn7zfGtCWFKxPGYwZOnRhBuLRzmUHITeetwM7B50Ytq_vHzCQrLTi7stDow7cUQWGYnic0qJEOAvS3AcXqBjYJvxMNRPTbWoT58ftd0KFsNHe9SkjzqYU8LtDMaZgNVP72LHtAQe_5EgDPzpgtW5uHWk35kCmPhI	.google.com	/	2016-07-24T19:07:48.706Z	277	✓			
+HSID	A8pulGD28F-2p9Ti7	.google.com	/	2017-12-25T18:00:20.784Z	21	✓			
+APISID	rRQfeLNbBr1_2WLp/AvtiRjK9dT9wKMroe	.google.com	/	2017-12-25T18:00:20.784Z	40				
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+docs.google.com
+
+clients5.google.com
+
+0.docs.google.com
+
+accounts.google.com
+
+foxi69.tlscdn.com
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-24 02:53:25.216
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…0406a0a26&c=1&w=1&token=AC4w5Vi37Rv3EHxGB5OtVIQ-bE8tggBIeQ%3A1453577866125".
+2016-01-24 02:54:03.911
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…Gh9GlWU0dfZBqpwnE&token=AC4w5Vi37Rv3EHxGB5OtVIQ-bE8tggBIeQ%3A1453577866125".
+2016-01-24 02:54:06.863
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…Gh9GlWU0dfZBqpwnE&token=AC4w5Vi37Rv3EHxGB5OtVIQ-bE8tggBIeQ%3A1453577866125".
+2016-01-24 02:54:22.302
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…563&CI=0&AID=55&ar=76&arat=dEyUMtaS6MUhZQ&TYPE=xmlhttp&zx=pz1j4o2f73ig&t=1".
+2016-01-24 02:55:18.943
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…563&CI=0&AID=60&ar=77&arat=a10SyAGLJ8tOhA&TYPE=xmlhttp&zx=qemqsj7gwgwl&t=1".
+2016-01-24 02:56:09.240
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=63&TYPE=xmlhttp&zx=4i2ddehhx8gq&t=1".
+2016-01-24 02:57:07.042
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…563&CI=0&AID=66&ar=79&arat=OPm5wdb_xakkDg&TYPE=xmlhttp&zx=fcwuahufdyyu&t=1".
+2016-01-24 02:57:58.781
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=70&TYPE=xmlhttp&zx=x0jcq5irtkqe&t=1".
+.
+-clients5.google.com:
+APISID	rRQfeLNbBr1_2WLp/AvtiRjK9dT9wKMroe	.google.com	/	2017-12-25T18:00:20.784Z	40				
+HSID	A8pulGD28F-2p9Ti7	.google.com	/	2017-12-25T18:00:20.784Z	21	✓			
+NID	75=vwlrAI6_M15tWujGobMCRqxyiIHU3kHLfI04OlMKxDuW0AE5RTTYBZKeGm6Qc4YsOsJ74G37xgZpm0Hh0xXxevdZEfaZlXR5y_LKbhoreE3tK-IPn7zfGtCWFKxPGYwZOnRhBuLRzmUHITeetwM7B50Ytq_vHzCQrLTi7stDow7cUQWGYnic0qJEOAvS3AcXqBjYJvxMNRPTbWoT58ftd0KFsNHe9SkjzqYU8LtDMaZgNVP72LHtAQe_5EgDPzpgtW5uHWk35kCmPhI	.google.com	/	2016-07-24T19:07:48.706Z	277	✓			
+SAPISID	7vpcQ4iqcZGTw7ww/A8AWQBLariFTRO89w	.google.com	/	2017-12-25T18:00:20.785Z	41		✓		
+SID	DQAAALQBAAD8mTxeXVamMOLixYs8ciCDFazwC0g9WI9qPpRo_MBseCmXvVy-3EnThb2lT5_GkhQWvxKs17vodYiXGskx7zRRqW0wDCRqn64xSJzBQHfTRrzkHR8KEYU1nQulyOBF2W_npgATuHtNgc6KTsZFHcsqoktWLW8yLKuxETFLBm0vpct2fT6z_W9L9KiP64dI3XBJdPJwK0h_ZsK6gUiKvXARkYvyxaUWIUPSwZ-UJ92ZV30HZbwOaIHb65xRz42p-hN_3XGN6e7YlHGs8Zh-zFPOkdstc_emkKLdtI37jg2GOYIvpIdNfUhgOtX_31YsQ-yYvTHItx7c1Jlk3VpxSwb3XS4mmGMEcDvfdJrZMG7mPcguco-Yrn2Yy_YO5ZSA-mOQVvJ2F7GwZ03sDdo_SQoVAg9b_3DgtzCK3RskTN3xbkMigs-E4yErVuhEUvZy8zVXya6NgwTtyCxNfkpgnpMXsolPwVKlJAzCeFzjVHoTFZfsQntrkJLO9QlIRgUKhBJPR0xgoOvQDjlNPh65KBM4g0uaPoQoW0U0X_zRu2YunrX46ixIZiscEtvvMzYeD1Vq-V5vQoYa7PjAWqBNt6f6	.google.com	/	2017-12-25T18:00:20.784Z	611				
+SSID	AjDknp0GaCFZY-SFx	.google.com	/	2017-12-25T18:00:20.784Z	21	✓	✓		
+__utma	147522277.2130253115.1450383357.1450383357.1450383357.1	.clients5.google.com	/	2017-12-16T20:16:02.000Z	61				
+__utmz	147522277.1450383357.1.1.utmcsr=drive.google.com|utmccn=(not%20set)|utmcmd=apps-widget	.clients5.google.com	/	2016-06-17T08:16:02.000Z	92				
+
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+docs.google.com
+
+clients5.google.com
+
+0.docs.google.com
+
+accounts.google.com
+
+foxi69.tlscdn.com
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-24 02:54:06.863
+1256005417-kix_main_i18n_kix_core.js:661 XHR finished loading: POST "https://docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBq…Gh9GlWU0dfZBqpwnE&token=AC4w5Vi37Rv3EHxGB5OtVIQ-bE8tggBIeQ%3A1453577866125".
+2016-01-24 02:54:22.302
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…563&CI=0&AID=55&ar=76&arat=dEyUMtaS6MUhZQ&TYPE=xmlhttp&zx=pz1j4o2f73ig&t=1".
+2016-01-24 02:55:18.943
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…563&CI=0&AID=60&ar=77&arat=a10SyAGLJ8tOhA&TYPE=xmlhttp&zx=qemqsj7gwgwl&t=1".
+2016-01-24 02:56:09.240
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=63&TYPE=xmlhttp&zx=4i2ddehhx8gq&t=1".
+2016-01-24 02:57:07.042
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…563&CI=0&AID=66&ar=79&arat=OPm5wdb_xakkDg&TYPE=xmlhttp&zx=fcwuahufdyyu&t=1".
+2016-01-24 02:57:58.781
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=70&TYPE=xmlhttp&zx=x0jcq5irtkqe&t=1".
+2016-01-24 02:58:48.840
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=73&TYPE=xmlhttp&zx=yjj3q3v5l8in&t=1".
+2016-01-24 02:59:41.144
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=76&TYPE=xmlhttp&zx=i8cgywkh9vi7&t=1".
+.
+-0.docs.google.com:
+APISID	rRQfeLNbBr1_2WLp/AvtiRjK9dT9wKMroe	.google.com	/	2017-12-25T18:00:20.784Z	40				
+HSID	A8pulGD28F-2p9Ti7	.google.com	/	2017-12-25T18:00:20.784Z	21	✓			
+NID	75=vwlrAI6_M15tWujGobMCRqxyiIHU3kHLfI04OlMKxDuW0AE5RTTYBZKeGm6Qc4YsOsJ74G37xgZpm0Hh0xXxevdZEfaZlXR5y_LKbhoreE3tK-IPn7zfGtCWFKxPGYwZOnRhBuLRzmUHITeetwM7B50Ytq_vHzCQrLTi7stDow7cUQWGYnic0qJEOAvS3AcXqBjYJvxMNRPTbWoT58ftd0KFsNHe9SkjzqYU8LtDMaZgNVP72LHtAQe_5EgDPzpgtW5uHWk35kCmPhI	.google.com	/	2016-07-24T19:07:48.706Z	277	✓			
+S	documents=jI4Od_HeGpx6pSwTwFjfIQ	.docs.google.com	/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZBqpwnE	2016-01-23T20:37:47.581Z	33	✓	✓		
+S	explorer=smdkekKJHf2ZAyIWGDL0Qg	.docs.google.com	/	Session	32	✓	✓		
+SAPISID	7vpcQ4iqcZGTw7ww/A8AWQBLariFTRO89w	.google.com	/	2017-12-25T18:00:20.785Z	41		✓		
+SID	DQAAALQBAAD8mTxeXVamMOLixYs8ciCDFazwC0g9WI9qPpRo_MBseCmXvVy-3EnThb2lT5_GkhQWvxKs17vodYiXGskx7zRRqW0wDCRqn64xSJzBQHfTRrzkHR8KEYU1nQulyOBF2W_npgATuHtNgc6KTsZFHcsqoktWLW8yLKuxETFLBm0vpct2fT6z_W9L9KiP64dI3XBJdPJwK0h_ZsK6gUiKvXARkYvyxaUWIUPSwZ-UJ92ZV30HZbwOaIHb65xRz42p-hN_3XGN6e7YlHGs8Zh-zFPOkdstc_emkKLdtI37jg2GOYIvpIdNfUhgOtX_31YsQ-yYvTHItx7c1Jlk3VpxSwb3XS4mmGMEcDvfdJrZMG7mPcguco-Yrn2Yy_YO5ZSA-mOQVvJ2F7GwZ03sDdo_SQoVAg9b_3DgtzCK3RskTN3xbkMigs-E4yErVuhEUvZy8zVXya6NgwTtyCxNfkpgnpMXsolPwVKlJAzCeFzjVHoTFZfsQntrkJLO9QlIRgUKhBJPR0xgoOvQDjlNPh65KBM4g0uaPoQoW0U0X_zRu2YunrX46ixIZiscEtvvMzYeD1Vq-V5vQoYa7PjAWqBNt6f6	.google.com	/	2017-12-25T18:00:20.784Z	611				
+SSID	AjDknp0GaCFZY-SFx	.google.com	/	2017-12-25T18:00:20.784Z	21	✓	✓		
+WRITELY_SID	DQAAAKoBAABRkTRGDXwTzgBlcZubTHato08OnmNdZv-MgMaKITq48CGmzuQ_dZEzpDBW9YwaNpfnAxczJw9s2BehJFdouNsTRhFC_uH3JthSLqaAlgucFDPHUAbd93dj4lMq0ouS485oALoB9yyp2IdU5spLQrpy_x34WTZYX_9f6bflaUIas44p5eGEdSHJLWcSXP670zjtpxXZVaC7yFP5Zw-_-RdBMeGbg9P5pgb1w7FQqC9-Or2ut3Dothwy4Dvy6uP52V_pd4RU05yZa_s8qXZB6b9AdooYNRBfHTbz66k7s5FcOXK1uuCgL7UDBaUHRSxhszE4uJ4sDwC7NC-7lUYtXzjA-oV5C-jxDOBN22R7nfTm66HyU_rEZse8xJ8qVKVkiLaIvxbytbYRC7372CsLMpvjwWDbzGszVSIyS9ICFbwRdfBgYh9zaox2ryluFhXr0c_edDzH0-vuLMkOnDHtFCchVbwi1sHX2fxAu3lmQzope9IVs92_QFYfwU7h_McyzLbJ3gOKJLFqefSwab850A6_13rpnAZLBjK_i1ZEP7jX30mOl3pQCpPeI5nzfI7vRxs	.docs.google.com	/	2017-12-16T18:00:10.291Z	598	✓			
+
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+docs.google.com
+
+clients5.google.com
+
+0.docs.google.com
+
+accounts.google.com
+
+foxi69.tlscdn.com
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-24 02:54:22.302
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…563&CI=0&AID=55&ar=76&arat=dEyUMtaS6MUhZQ&TYPE=xmlhttp&zx=pz1j4o2f73ig&t=1".
+2016-01-24 02:55:18.943
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…563&CI=0&AID=60&ar=77&arat=a10SyAGLJ8tOhA&TYPE=xmlhttp&zx=qemqsj7gwgwl&t=1".
+2016-01-24 02:56:09.240
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=63&TYPE=xmlhttp&zx=4i2ddehhx8gq&t=1".
+2016-01-24 02:57:07.042
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…563&CI=0&AID=66&ar=79&arat=OPm5wdb_xakkDg&TYPE=xmlhttp&zx=fcwuahufdyyu&t=1".
+2016-01-24 02:57:58.781
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=70&TYPE=xmlhttp&zx=x0jcq5irtkqe&t=1".
+2016-01-24 02:58:48.840
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=73&TYPE=xmlhttp&zx=yjj3q3v5l8in&t=1".
+2016-01-24 02:59:41.144
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=76&TYPE=xmlhttp&zx=i8cgywkh9vi7&t=1".
+2016-01-24 03:00:38.727
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=79&TYPE=xmlhttp&zx=jm11nynulm1z&t=1".
+.
+-accounts.google.com:
+ACCOUNT_CHOOSER	AFx_qI72YJRXY8TrhRezt6QdbWtffLoBWFdZmc8SmO2cdZzDasnxxyXmk27RNab_4aeTclsSQDTMxe7piAGaSnnt5MvHvzj8RYZZV6rAdipMDaE89k1IByi3XxHtykStgTZEB7p1M7ScyzTYwx_Y4RS9OU4Q1Mg_X7cDPoeZMT7RqFAj7kCZoiDm_naqgBf_a9yDCG3UX-aVBLZXtUfqbvgVaneAs12R9g	accounts.google.com	/	2017-12-13T12:50:28.835Z	241	✓	✓		
+APISID	rRQfeLNbBr1_2WLp/AvtiRjK9dT9wKMroe	.google.com	/	2017-12-25T18:00:20.784Z	40				
+GAPS	1:B1kazg5156KCA9z7YyRjPSM-LNntKA:KybtIv9Nb3fTQHRo	accounts.google.com	/	2018-01-22T18:05:14.143Z	53	✓	✓		
+HSID	A8pulGD28F-2p9Ti7	.google.com	/	2017-12-25T18:00:20.784Z	21	✓			
+LSID	blogger|doritos|mail|o.mail.google.com|s.ID|s.blogger|s.youtube|sierra|wise|writely:DQAAALUBAAC3p5kjsJkWNostB7iluNbd6QKS-vsUnaFW8MN_pXNeI-rhSj4wpN0q-6p7oG6d75fyRUkMoOYdEAdsF7y19hcbzwMmU5vIuoHymrsX2dB_smnaTM9vxwN8Y2P6MeGp_XTTNA7W2eY_hJomkTG5DcUygrv6NICUxPsh0KLQffv2q95pri83M76drpmVFDpRTEVJB6FBsc-xqvH9B8u3aoeZYymEkBw9tCzLmcNYUnpzR3VfzvmVCWDwyD5Y6dikWk-pwfhwkuAmxQDrkMGkeSWwJquTe63VV9FeYlF7J0LVoHySeYFGB2hE5xvbUIS-bHmt1_sDazouSMTjVjHGJeui1HtPcO23IdvTPFwhjXec_Hh2x3_bX79yltStrrl3d5dhUZTw_wazFQ0gEsCwtEzJnwmhmv0NeSUjRKJn9xEaTgY5vn5XDgDV4k0IlJjuLZCNTWDf7vIZQgk7JwecWLf5E4L1pMvDV50iQYnA5_oHSA9yxfm3XIerLtwohc8artMBnzctK3sEELatVpMIs3f4b1DlV8POp2zM6B27CT8Y0jJpHbq1Twh2pjzMOPUoMO0neXfky1rH7v8jTS4bWkAF	accounts.google.com	/	2017-12-25T18:00:20.784Z	696	✓	✓		
+LSOLH	wsqY7eiEmlQeiGcBXtxGdOgiz8JFpAI:24204750:a1dd	accounts.google.com	/	2017-01-07T20:15:41.009Z	50		✓		
+NID	75=vwlrAI6_M15tWujGobMCRqxyiIHU3kHLfI04OlMKxDuW0AE5RTTYBZKeGm6Qc4YsOsJ74G37xgZpm0Hh0xXxevdZEfaZlXR5y_LKbhoreE3tK-IPn7zfGtCWFKxPGYwZOnRhBuLRzmUHITeetwM7B50Ytq_vHzCQrLTi7stDow7cUQWGYnic0qJEOAvS3AcXqBjYJvxMNRPTbWoT58ftd0KFsNHe9SkjzqYU8LtDMaZgNVP72LHtAQe_5EgDPzpgtW5uHWk35kCmPhI	.google.com	/	2016-07-24T19:07:48.706Z	277	✓			
+SAPISID	7vpcQ4iqcZGTw7ww/A8AWQBLariFTRO89w	.google.com	/	2017-12-25T18:00:20.785Z	41		✓		
+SID	DQAAALQBAAD8mTxeXVamMOLixYs8ciCDFazwC0g9WI9qPpRo_MBseCmXvVy-3EnThb2lT5_GkhQWvxKs17vodYiXGskx7zRRqW0wDCRqn64xSJzBQHfTRrzkHR8KEYU1nQulyOBF2W_npgATuHtNgc6KTsZFHcsqoktWLW8yLKuxETFLBm0vpct2fT6z_W9L9KiP64dI3XBJdPJwK0h_ZsK6gUiKvXARkYvyxaUWIUPSwZ-UJ92ZV30HZbwOaIHb65xRz42p-hN_3XGN6e7YlHGs8Zh-zFPOkdstc_emkKLdtI37jg2GOYIvpIdNfUhgOtX_31YsQ-yYvTHItx7c1Jlk3VpxSwb3XS4mmGMEcDvfdJrZMG7mPcguco-Yrn2Yy_YO5ZSA-mOQVvJ2F7GwZ03sDdo_SQoVAg9b_3DgtzCK3RskTN3xbkMigs-E4yErVuhEUvZy8zVXya6NgwTtyCxNfkpgnpMXsolPwVKlJAzCeFzjVHoTFZfsQntrkJLO9QlIRgUKhBJPR0xgoOvQDjlNPh65KBM4g0uaPoQoW0U0X_zRu2YunrX46ixIZiscEtvvMzYeD1Vq-V5vQoYa7PjAWqBNt6f6	.google.com	/	2017-12-25T18:00:20.784Z	611				
+SSID	AjDknp0GaCFZY-SFx	.google.com	/	2017-12-25T18:00:20.784Z	21	✓	✓		
+
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+docs.google.com
+
+clients5.google.com
+
+0.docs.google.com
+
+accounts.google.com
+
+foxi69.tlscdn.com
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-24 02:56:09.240
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=63&TYPE=xmlhttp&zx=4i2ddehhx8gq&t=1".
+2016-01-24 02:57:07.042
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…563&CI=0&AID=66&ar=79&arat=OPm5wdb_xakkDg&TYPE=xmlhttp&zx=fcwuahufdyyu&t=1".
+2016-01-24 02:57:58.781
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=70&TYPE=xmlhttp&zx=x0jcq5irtkqe&t=1".
+2016-01-24 02:58:48.840
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=73&TYPE=xmlhttp&zx=yjj3q3v5l8in&t=1".
+2016-01-24 02:59:41.144
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=76&TYPE=xmlhttp&zx=i8cgywkh9vi7&t=1".
+2016-01-24 03:00:38.727
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=79&TYPE=xmlhttp&zx=jm11nynulm1z&t=1".
+2016-01-24 03:01:31.905
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=82&TYPE=xmlhttp&zx=rlre3r29uevq&t=1".
+2016-01-24 03:02:26.356
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=85&TYPE=xmlhttp&zx=l78ghbxjp3vi&t=1".
+.
+-fox69.tlscdn.com:
+channel	steris4030621	.tlscdn.com	/	2036-02-01T01:00:58.095Z	20				
+cpc2f	-1	.tlscdn.com	/	2016-04-13T16:11:17.744Z	7				
+cpct	-1	.tlscdn.com	/	2016-03-11T10:27:42.742Z	6				
+cpcv2	-1	.tlscdn.com	/	2016-03-19T19:17:57.511Z	7				
+cpcv2n	-1	.tlscdn.com	/	2016-03-27T12:04:22.095Z	8				
+cpoff	3	.tlscdn.com	/	2016-03-11T10:27:42.742Z	6				
+fcfg	-1	.tlscdn.com	/	2016-03-11T10:27:42.742Z	6				
+hbid	bf2937e55c942a91dcfd4739e1b11671d	.tlscdn.com	/	2017-01-07T17:03:29.780Z	37				
+hid	0	.tlscdn.com	/	2036-02-01T01:01:01.742Z	4				
+induction	display-offers	.tlscdn.com	/	2036-02-01T01:01:01.742Z	23				
+jollinjs.infojollin	1453561552593	.tlscdn.com	/	2016-01-24T15:05:52.000Z	32				
+partner	steris	.tlscdn.com	/	2036-02-01T01:00:58.095Z	13				
+rmb	"yNvRywXHCgfRlMnVBq=="	.tlscdn.com	/	2016-12-11T10:28:22.677Z	25				
+rmbwlt	0	.tlscdn.com	/	2016-03-11T10:27:42.742Z	7				
+sbrtsg7	0	.tlscdn.com	/	2016-06-09T10:27:42.742Z	8				
+scfpc	0	.tlscdn.com	/	2016-03-11T10:27:42.742Z	6				
+tagu	0	.tlscdn.com	/	2016-03-11T10:27:42.741Z	5				
+xmofrs	0	.tlscdn.com	/	2016-03-11T10:27:42.742Z	7				
+
+
+
+
+Frames
+
+Web SQL
+
+IndexedDB
+
+Local Storage
+
+Session Storage
+
+Cookies
+
+docs.google.com
+
+clients5.google.com
+
+0.docs.google.com
+
+accounts.google.com
+
+foxi69.tlscdn.com
+
+Application Cache
+
+Cache Storage
+Console
+Emulation
+Rendering
+
+
+
+
+Preserve log
+.
+2016-01-24 02:57:58.781
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=70&TYPE=xmlhttp&zx=x0jcq5irtkqe&t=1".
+2016-01-24 02:58:48.840
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=73&TYPE=xmlhttp&zx=yjj3q3v5l8in&t=1".
+2016-01-24 02:59:41.144
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=76&TYPE=xmlhttp&zx=i8cgywkh9vi7&t=1".
+2016-01-24 03:00:38.727
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=79&TYPE=xmlhttp&zx=jm11nynulm1z&t=1".
+2016-01-24 03:01:31.905
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=82&TYPE=xmlhttp&zx=rlre3r29uevq&t=1".
+2016-01-24 03:02:26.356
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=85&TYPE=xmlhttp&zx=l78ghbxjp3vi&t=1".
+2016-01-24 03:03:19.638
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=88&TYPE=xmlhttp&zx=ai86mpbapdci&t=1".
+2016-01-24 03:04:13.862
+3056997822-bc_manager_core.js:113 XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…0&RID=rpc&SID=29CB4EBADAA3563&CI=0&AID=91&TYPE=xmlhttp&zx=nrr1swgxks6r&t=1".
+.
