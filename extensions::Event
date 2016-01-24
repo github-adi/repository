@@ -1,0 +1,22 @@
+(function($Object, $Function, privates, cls, superclass) {'use strict';
+  function Event() {
+    var privateObj = $Object.create(cls.prototype);
+    $Function.apply(cls, privateObj, arguments);
+    privateObj.wrapper = this;
+    privates(this).impl = privateObj;
+  };
+  if (superclass) {
+    Event.prototype = Object.create(superclass.prototype);
+  }
+  return Event;
+})
+($Object, $Function, privates, cls, superclass) {'use strict';
+  function Event() {
+    var privateObj = $Object.create(cls.prototype);
+    $Function.apply(cls, privateObj, arguments);
+    pr…
+XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…RID=rpc&SID=F4DDE59C5E27C3CB&CI=0&AID=107&TYPE=xmlhttp&zx=ycfe282grlsy&t=1".
+XHR finished loading: GET "https://0.docs.google.com/document/d/1nppr9GNdF52LGnmWeKjoVCS4_eGh9GlWU0dfZ…RID=rpc&SID=F4DDE59C5E27C3CB&CI=0&AID=110&TYPE=xmlhttp&zx=p57j58pcdiyq&t=1".
+
+-
+extensions::Event
