@@ -1,0 +1,23 @@
+-Copy Video YRL:
+https://youtu.be/OsFMvv6zTZU
+-Copy video URL at current time:
+https://youtu.be/OsFMvv6zTZU?t=3
+-Copy embed code:
+<iframe width="300" height="225" src="https://www.youtube.com/embed/OsFMvv6zTZU" frameborder="0" allowfullscreen></iframe>
+-Copy debug info:
+{"ns":"yt","el":"embedded","cpn":"bY4VqPkskBUSqaC-","docid":"OsFMvv6zTZU","ver":2,"referrer":null,"cmt":"3.296","plid":"AAUqpK59X_1b2D7v","ei":"qUWuVvfSOoH5oAOgibO4Dw","fmt":"243","fs":"0","rt":"495.657","of":"YOTSmvrPFrvEuSgkDL2p9w","adformat":null,"content_v":null,"euri":"http://blog.codeschool.io/2016/01/12/updating-code-schools-ios-app/?utm_medium=email&utm_campaign=newsletter_january_16&utm_sour","subscribed":null,"lact":27,"live":null,"cl":"113235290","mos":0,"osid":null,"state":"4","vm":"CAEQAA","volume":100,"c":"WEB","cver":"html5","cplayer":"UNIPLAYER","cbr":"Chrome","cbrver":"48.0.2564.97","cos":"Windows","cosver":"6.1","hl":"en_US","cr":"ID","len":"116.101","afmt":"251","vct":"3.296","vd":"116.101","vpl":"0.000-9.184,","vbu":"0.000-116.101,","vpa":true,"vsk":false,"ven":false,"vpr":1,"vrs":4,"vns":2,"vec":null,"vvol":1,"lct":"3.296","lsk":false,"lmf":false,"lbw":"211233.521","lhd":"0.179","ltd":"188.143","laa":"itag=251,seg=11,range=1594166-1596935,time=110.0-116.1","lva":"itag=243,seg=22,range=3998377-4029370,time=112.6-116.0","lar":"itag=251,seg=11,range=1594166-1596935,time=110.0-116.1","lvr":"itag=243,seg=22,range=3998377-4029370,time=112.6-116.0","lvh":"r4---sn-npo7zn7k","lab":"0.000-116.101,","lvb":"0.000-116.080,","debug_videoId":"OsFMvv6zTZU","gpu":"ANGLE_(Intel(R)_HD_Graphics_Direct3D11_vs_4_1_ps_4_1)","cgr":true,"debug_playbackQuality":"medium","debug_date":"Mon Feb 01 2016 00:42:38 GMT+0700 (SE Asia Standard Time)"}
+-Starts for nerds:
+[x]
+Video ID:OsFMvv6zTZU
+Dimensions:300 x 169
+Resolution:640 x 360@25
+Volume:100%
+Stream Host:r4---sn-npo7zn7k
+Stream Type:https
+CPN:bY4VqPkskBUSqaC-
+Mime Type:video/webm; codecs="vp9"
+DASH:yes (243/251)
+Connection Speed:1544 Kbps
+Dropped Frames:
+-About the HTML% Player:
+https://www.youtube.com/html5
