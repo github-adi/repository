@@ -1,0 +1,343 @@
+-Sources:
+-https://foxi69.tlscdn.com/altHbHandler.html:
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+		
+	</head>
+	<body >
+		<script type="text/javascript">
+			
+			var COOKIE_KEY = null;
+			
+			var getUrlHash = function(){
+				var indexOfHash = document.URL.indexOf("#");
+				return document.URL.substr(indexOfHash + 1);
+
+			};
+			var ronendebug;
+			var jsonToUrlParams = function(obj){
+				var d = obj;
+
+				var str = '';
+				var arr = new Array();
+				for(var key in d){
+				    
+				    arr.push( key + "=" + d[key] );
+
+				}
+				if(arr.length > 0){
+				    str += arr.pop(0);
+				    for(var index in arr){
+				        str+="&";
+				        str += arr[index];
+				    }
+				    
+
+				}
+				return str;
+
+			};
+			var getParamFromUrlHash = function(key){
+
+				var d = getUrlHash();
+				if(d!=""){
+					key = key.toLowerCase();
+					//d = d.toLowerCase();
+					d =d.match(new RegExp(key +"=(.*?)?(&|$)"));
+					if(d!== null && d.length > 0 ){
+						return d[1];
+					}
+				}
+				return "";
+
+			};
+
+			//console.log(getAllParamsFromUrlAsKeyValueJson());
+			var getPartner= function(){
+				return getParamFromUrlHash("partner");
+			};
+
+			var getPageUrl= function(){
+				var ret = getParamFromUrlHash("pageurl");
+				ret= ret.substr(0,240);
+				return ret;
+			};
+
+			var getReferrer = function(){
+				var ret = getParamFromUrlHash("referrer");
+				ret = decodeURIComponent(ret);
+				return ret;
+			};
+
+			var getChannel= function(){
+				return getParamFromUrlHash("channel");
+			};
+
+			var getCountry= function(){
+				return getParamFromUrlHash("country");
+			};
+
+			var getOpDom= function(){
+				return getParamFromUrlHash("opdom");
+			};
+
+			var getQuickBaseUrl= function(){
+				var ret = getParamFromUrlHash("quick");
+				ret = decodeURIComponent(ret);
+				return ret;
+			};
+			
+			var getTrinity = function(){
+				var ret = getParamFromUrlHash("trinity");
+				return ret;
+			};
+
+			var getHid = function(){
+				var ret = getParamFromUrlHash("hid");
+				return ret;
+			};
+
+			var getInstGrp = function(){
+				var ret = getParamFromUrlHash("instgrp");
+				return ret;
+			};
+
+			var getSampleSet = function(){
+				var ret = getParamFromUrlHash("sset");
+				return ret;
+			};
+
+			
+
+			var getMmth = function(){
+				var ret = getParamFromUrlHash("mmth");
+				return ret;
+			};
+
+			var runMmth = function(){
+				var mmthKey  ="mmth";
+				var d = getMmth();
+				var ret = false;
+				d === 'true'?
+					setCookie(mmthKey,'true'):
+					(d === 'false'?
+						setCookie(mmthKey,'false') :
+						(d === ''  && getCookie(mmthKey) === 'true'?
+							(parent.postMessage( mmthKey, "*") ,  ret = true):
+					 		(ret = true))
+					);
+				return ret;
+
+			}
+
+
+			//console.log(getPartner() , "  " , getChannel() , "   ", getOpDom());
+
+			var SEPERATOR = "time_stamp_";	
+			var setCookie = function(cname, cvalue, exdays) {
+				if(typeof exdays === "undefined"){
+					exdays = 1;
+				}
+			    var d = new Date();
+			    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+			    var expires = "expires="+d.toUTCString();
+			    var domain = "; domain=tlscdn.com";
+			    document.cookie = cname + "=" + cvalue + "; " + expires + domain;
+
+			    typeof localStorage !== "undefined" 
+			    	&& localStorage.setItem(cname, cvalue + SEPERATOR + d.getTime());
+			};
+
+			COOKIE_KEY = getOpDom() + getPartner();
+			COOKIE_HBID = "hbid";
+
+
+
+			var getCookie = function(cname) {
+				var ret = "";
+				if(typeof localStorage !== "undefined" ){
+					ret = localStorage.getItem(cname);
+				}
+				if(ret !== "" && ret!== null ){
+					ret = ret.split(SEPERATOR);
+					var revVal = ret[0];
+					if(ret.length > 0){
+						var retExpired = ret[ret.length - 1];
+						var now = +new Date();
+						if(now > parseInt(retExpired) ){
+							return "";
+						}
+						
+					}
+					return revVal;
+				}
+			    var name = cname + "=";
+			    var ca = document.cookie.split(';');
+			    for(var i=0; i<ca.length; i++) {
+			        var c = ca[i];
+			        while (c.charAt(0)==' ') c = c.substring(1);
+			        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+			    }
+			    return "";
+			};
+
+			
+
+			var shouldReportHeartBit = function(){
+				
+				var sset = getSampleSet();
+				var partner = getPartner();
+				if(sset=== "qa" || sset === "7"){
+					if(partner === "ironpf" || partner === "pfna" ){
+						return true;
+					}
+					
+				}
+
+				var cookieVal = "";
+				if(COOKIE_KEY !== "" &&  COOKIE_KEY !== "undefined"){
+					cookieVal = getCookie(COOKIE_KEY);
+				}
+				var ret = (cookieVal !== null &&  cookieVal !=="" )? false:true;
+				return ret;
+
+			};
+
+			
+
+			var getHbId= function(check){
+				if(typeof check !== "undefined" ){
+					if(check > 1){
+						return;
+					}else{
+						check++;
+					}
+					
+				}
+				var cookieVal = "";
+				cookieVal = getCookie(COOKIE_HBID);
+				if(cookieVal !== null &&  cookieVal !=="" ){
+					return cookieVal;
+				}else{
+
+					var guid = (function() {
+						  function s4() {
+						    return Math.floor((1 + Math.random()) * 0x10000)
+						               .toString(16)
+						               .substring(1);
+						  }
+						  return function() {
+						    return 'b' + s4() + s4()  + s4() + s4()  +
+						           s4() +  s4() + s4() + s4();
+						  };
+						})();
+
+					setCookie(COOKIE_HBID , guid() , 365*5);
+					var checkTemp = 0;
+					if(typeof check !== "undefined"){
+						checkTemp = check;
+					}
+					return getHbId(checkTemp);
+
+				}
+
+			};
+
+			var buildUrlEvent = function(url , jsonUrlParams){
+				var str = "";
+				str += url + "?" + jsonToUrlParams(jsonUrlParams);
+				return str;
+			};
+
+			var reportEvent = function(src){
+	
+	                    try {
+	                    var iframe = document.createElement("iframe");
+	                    iframe.style["top"] = "-10000px";
+	                    iframe.style["left"] = "-10000px";
+	                    iframe.style["position"] = "relative";
+	                    //iframe.style["display"] = "none";
+	                    iframe.width =1;
+	                    iframe.height =1;
+	                    iframe.src = src;
+	                    document.body.appendChild(iframe);
+	
+	
+	                    } catch (E111) {
+	
+	                    }
+	
+	        };
+
+	        var reportHeartbit = function(){
+	        	var jsonUrlParams = {
+        								type:"althb",
+										partner: getPartner(),
+										channel: getChannel(),
+										opdom: getOpDom(),
+										uid:getHbId(),
+										pageurl:getPageUrl(),
+										cb:(+new Date() / 1E3 | 0) - (+new Date() / 1E3 | 0) % (60*60*24),
+										trinity:getTrinity(),
+										hid:getHid(),
+										sset:getSampleSet(),
+										instrp:getInstGrp()
+									};
+				var url = getQuickBaseUrl() + 'dealdo/event-report';
+				url = buildUrlEvent(url , jsonUrlParams);
+				reportEvent(url);
+
+
+	        };
+
+
+
+			var handleHeartBit = function(){
+				if(shouldReportHeartBit()){
+					
+					reportHeartbit();
+					var cval = +new Date();
+					setCookie(COOKIE_KEY , cval);
+				}else{
+					//console.log("should not report");
+				}
+			};
+			
+			
+			var getCookieParam = function(){
+				var ret = getParamFromUrlHash("cookie");
+				return ret;
+			};
+
+
+			(function(){
+				var recieverPrefixCookieKey = "xbbccch";
+				var senderPrefixCookieKey = "xbbcccd";
+				var cookieParam = getCookieParam();
+
+				if(cookieParam != ""){
+					//reading cookies implemntation to other windows.
+					
+					parent.postMessage(senderPrefixCookieKey + getCookie(cookieParam) , "*");  				
+					return;
+
+				}
+				var shouldContinue = runMmth();
+				if(!shouldContinue){
+					return;
+				}
+				handleHeartBit();
+				
+			})();
+
+
+
+		</script>
+
+	</body>
+</html>
