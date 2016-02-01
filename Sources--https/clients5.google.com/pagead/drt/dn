@@ -1,0 +1,12 @@
+-Sources:
+-https://clients5.google.com/pagead/drt/dn/:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="dn.js"></script>
+  </head>
+  <body onload="javascript:gbar._drt.dn()" />
+</html>
+
+-
