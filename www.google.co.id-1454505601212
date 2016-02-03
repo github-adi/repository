@@ -1,0 +1,27 @@
+function Image() {"show"}
+Error saving setting with name: consoleHistory, value length: 5234971. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4773
+Setting: 'savedURLs', size: 2858
+Setting: 'breakpoints', size: 227
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'fileSystemMapping', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 2900. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4773
+Setting: 'savedURLs', size: 2858
+Setting: 'breakpoints', size: 227
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'fileSystemMapping', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+
+-
+www.google.co.id-1454505601212
