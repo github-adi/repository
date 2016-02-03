@@ -1,0 +1,23 @@
+-Copy video URL:
+https://youtu.be/tQIMJ648qgg
+-Copy video URL at current time:
+https://youtu.be/tQIMJ648qgg
+-Coy embed code:
+<iframe width="300" height="225" src="https://www.youtube.com/embed/tQIMJ648qgg" frameborder="0" allowfullscreen></iframe>
+<video tabindex="-1" class="video-stream html5-main-video" style="width: 300px; height: 225px; left: 0px; top: 0px; transform: none;" src="blob:https%3A//www.youtube-nocookie.com/fd480876-7a44-44fb-8888-a14e79e2b023"></video>
+-Copy debug info:
+{"ns":"yt","el":"detailpage","cpn":"MV7MYLxYVtg1k2Nc","docid":"V5h57-jctSg","ver":2,"referrer":"https://www.youtube-nocookie.com/embed/tQIMJ648qgg?controls=1&showinfo=0","cmt":"82.903","plid":"AAUq4GJap0BGIWKs","ei":"Ti-yVrfLI8SHoAO-z7f4DA","fmt":"243","fs":"0","rt":"47.928","of":"YOTSmvrPFrvEuSgkDL2p9w","adformat":null,"content_v":null,"euri":"","subscribed":null,"lact":5,"live":null,"cl":"113551847","mos":0,"osid":null,"state":"8","vm":"CAEQAA","volume":100,"c":"WEB","cver":"html5","cplayer":"UNIPLAYER","cbr":"Chrome","cbrver":"48.0.2564.97","cos":"Windows","cosver":"6.1","hl":"en_US","cr":"ID","len":"272.556","fexp":"3300132,3300164,3312381,9407196,9408537,9416126,9420452,9422596,9422926,9423455,9423485,9423660,9423662,9424559,9425974,9426943,9426977,9427167,9427272,9428092","afmt":"140","vct":"82.903","vd":"272.556","vpl":"42.000-82.903,","vbu":"40.008-140.015,","vpa":false,"vsk":false,"ven":false,"vpr":1,"vrs":4,"vns":2,"vec":null,"vvol":1,"lct":"82.639","lsk":false,"lmf":false,"lbw":"124951.522","lhd":"0.510","ltd":"1065.533","laa":"itag=140,seg=13,range=1568049-1688619,time=130.0-140.0","lva":"itag=243,seg=30,range=5268389-5446313,time=150.0-155.0","lar":"itag=140,seg=15,range=1808939-1929648,time=150.0-160.0","lvr":"itag=243,seg=35,range=6218870-6407117,time=175.0-180.0","lvh":"r6---sn-2uuxa3vh-jb3e","lab":"40.008-140.015,","lvb":"40.000-155.001,","ismb":5130000,"debug_videoId":"V5h57-jctSg","gpu":"ANGLE_(Intel(R)_HD_Graphics_Direct3D11_vs_4_1_ps_4_1)","cgr":true,"debug_playbackQuality":"medium","debug_date":"Wed Feb 03 2016 23:49:04 GMT+0700 (SE Asia Standard Time)"}
+-Starts for nerds:
+Video ID:V5h57-jctSg
+Dimensions:640 x 480
+Resolution:480 x 360
+Volume:100%
+Stream Host:r5---sn-npo7zn7k
+Stream Type:https
+CPN:MV7MYLxYVtg1k2Nc
+Mime Type:video/webm; codecs="vp9"
+DASH:yes (244/140)
+Connection Speed:1603 Kbps
+Dropped Frames:209/2841
+
+
