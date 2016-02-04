@@ -1,0 +1,35 @@
+  '/me/muhammadadi:read',
+  'GET',
+  {"book":"http://samples.ogp.me/288545847834305"},
+  function(response) {
+      // Insert your code here
+  }
+;
+Error saving setting with name: consoleHistory, value length: 5235190. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4773
+Setting: 'savedURLs', size: 2858
+Setting: 'breakpoints', size: 227
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'fileSystemMapping', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+(response) {
+      // Insert your code here
+  }
+Error saving setting with name: savedURLs, value length: 2907. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4773
+Setting: 'savedURLs', size: 2858
+Setting: 'breakpoints', size: 227
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'fileSystemMapping', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+
+-
+developer.facebook.com-1454586680750
