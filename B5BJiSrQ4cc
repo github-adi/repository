@@ -1,0 +1,21 @@
+--Copy video URL:
+https://youtu.be/B5BJiSrQ4cc
+-Copy video URL at current time:
+https://youtu.be/B5BJiSrQ4cc?t=49
+-Copy embed code:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B5BJiSrQ4cc" frameborder="0" allowfullscreen></iframe>
+-Copy debug info:
+{"ns":"yt","el":"embedded","cpn":"TK-xOr_fQlKYQvv9","docid":"B5BJiSrQ4cc","ver":2,"referrer":null,"cmt":"49.701","plid":"AAUq9Di1PbWxdjQQ","ei":"H3yzVrPqDo-HoAPi16hw","fmt":"243","fs":"0","rt":"345.474","of":"YOTSmvrPFrvEuSgkDL2p9w","adformat":null,"content_v":null,"euri":"http://blogs.technet.com/b/devops/archive/2016/01/12/vorlonjs-a-journey-to-devops-introducing-the-blog-post-series.aspx","subscribed":null,"lact":6,"live":null,"cl":"113749921","mos":0,"osid":null,"state":"e","vm":"CAEQAA","volume":100,"c":"WEB","cver":"html5","cplayer":"UNIPLAYER","cbr":"Chrome","cbrver":"48.0.2564.97","cos":"Windows","cosver":"6.1","hl":"en_US","cr":"ID","len":"49.701","fexp":"3300132,3300164,3310848,3312381,3312709,9407196,9408537,9416126,9420452,9422596,9423455,9423485,9423660,9423662,9424559,9425974,9426943,9426977,9427167,9427272,9428092","afmt":"250","vct":"49.701","vd":"49.701","vpl":"0.000-49.701,","vbu":"0.000-49.701,","vpa":true,"vsk":false,"ven":true,"vpr":1,"vrs":4,"vns":2,"vec":null,"vvol":1,"lct":"49.701","lsk":false,"lmf":false,"lbw":"288810.458","lhd":"0.603","ltd":"28.588","laa":"itag=250,seg=4,range=18414-22812,time=40.0-49.7","lva":"itag=243,seg=9,range=558369-577205,time=48.0-49.7","lar":"itag=250,seg=4,range=18414-22812,time=40.0-49.7","lvr":"itag=243,seg=9,range=558369-577205,time=48.0-49.7","lvh":"r6---sn-a5m7zu76","lab":"0.000-49.701,","lvb":"0.000-49.700,","debug_videoId":"B5BJiSrQ4cc","gpu":"ANGLE_(Intel(R)_HD_Graphics_Direct3D11_vs_4_1_ps_4_1)","cgr":true,"debug_playbackQuality":"medium","debug_date":"Thu Feb 04 2016 23:34:01 GMT+0700 (SE Asia Standard Time)"}
+-Starts for nerds:
+Video ID:B5BJiSrQ4cc
+Dimensions:560 x 315
+Resolution:640 x 360@30
+Volume:100%
+Stream Host:r6---sn-a5m7zu76
+Stream Type:https
+CPN:TK-xOr_fQlKYQvv9
+Mime Type:video/webm; codecs="vp9"
+DASH:yes (243/250)
+Connection Speed:2174 Kbps
+Dropped Frames:23/1491
+
