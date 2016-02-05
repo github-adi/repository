@@ -1,0 +1,3544 @@
+-Network:
+-Response:
+19
+[[368,["noop"]
+]
+]
+19
+[[369,["noop"]
+]
+]
+19
+[[370,["noop"]
+]
+]
+
+-cURL (cmd):
+curl "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA"%"3A1454699752521&lsq=1454699752115&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=367&ar=299&arat=oNICyVLK--Tsqw&TYPE=xmlhttp&zx=48kwkgbfflbv&t=1" -H "X-Same-Domain: 1" -H "Referer: https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp="%"7B"%"22qlc"%"22"%"3Anull"%"2C"%"22elh"%"22"%"3Afalse"%"2C"%"22eoo"%"22"%"3Atrue"%"7D&rt=j&xpc="%"7B"%"22cn"%"22"%"3A"%"22docs"%"22"%"2C"%"22tp"%"22"%"3A1"%"2C"%"22osh"%"22"%"3Atrue"%"2C"%"22ppu"%"22"%"3A"%"22https"%"3A"%"2F"%"2Fdocs.google.com"%"2Frobots.txt"%"22"%"2C"%"22lpu"%"22"%"3A"%"22https"%"3A"%"2F"%"2F0.docs.google.com"%"2Frobots.txt"%"22"%"7D" -H "User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36" --compressed
+
+-cURL (bash):
+curl 'https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521&lsq=1454699752115&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=367&ar=299&arat=oNICyVLK--Tsqw&TYPE=xmlhttp&zx=48kwkgbfflbv&t=1' -H 'X-Same-Domain: 1' -H 'Referer: https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp=%7B%22qlc%22%3Anull%2C%22elh%22%3Afalse%2C%22eoo%22%3Atrue%7D&rt=j&xpc=%7B%22cn%22%3A%22docs%22%2C%22tp%22%3A1%2C%22osh%22%3Atrue%2C%22ppu%22%3A%22https%3A%2F%2Fdocs.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F0.docs.google.com%2Frobots.txt%22%7D' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36' --compressed
+
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": [
+      {
+        "startedDateTime": "2016-02-05T21:10:19.385Z",
+        "time": 59055.53200000031,
+        "request": {
+          "method": "GET",
+          "url": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521&lsq=1454699752115&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=367&ar=299&arat=oNICyVLK--Tsqw&TYPE=xmlhttp&zx=48kwkgbfflbv&t=1",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp=%7B%22qlc%22%3Anull%2C%22elh%22%3Afalse%2C%22eoo%22%3Atrue%7D&rt=j&xpc=%7B%22cn%22%3A%22docs%22%2C%22tp%22%3A1%2C%22osh%22%3Atrue%2C%22ppu%22%3A%22https%3A%2F%2Fdocs.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F0.docs.google.com%2Frobots.txt%22%7D"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "sid",
+              "value": "260a0c04431c0f87"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "lsq",
+              "value": "1454699752115"
+            },
+            {
+              "name": "u",
+              "value": "03868897463511069487"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "D3D4FEE7D07BF46C"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "367"
+            },
+            {
+              "name": "ar",
+              "value": "299"
+            },
+            {
+              "name": "arat",
+              "value": "oNICyVLK--Tsqw"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "48kwkgbfflbv"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:10:21 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex, nofollow, nosnippet"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 66,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 110
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.05799999982992,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.2510000003894599,
+          "wait": 1368.4849999999606,
+          "receive": 57685.73800000013,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:10:34.538Z",
+        "time": 309.65199999991455,
+        "request": {
+          "method": "GET",
+          "url": "https://csi.gstatic.com/csi?v=3&s=kix&action=edit&it=idbrwt.2947,scrolling.35,sfr.176&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt=",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "s",
+              "value": "kix"
+            },
+            {
+              "name": "action",
+              "value": "edit"
+            },
+            {
+              "name": "it",
+              "value": "idbrwt.2947,scrolling.35,sfr.176"
+            },
+            {
+              "name": "tran",
+              "value": "15"
+            },
+            {
+              "name": "p",
+              "value": "s"
+            },
+            {
+              "name": "npn",
+              "value": "1"
+            },
+            {
+              "name": "npnv",
+              "value": "quic%2F1%2Bspdy%2F3"
+            },
+            {
+              "name": "e",
+              "value": "docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8"
+            },
+            {
+              "name": "rls",
+              "value": "kix_2016.04_Tue_RC00"
+            },
+            {
+              "name": "rt",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:10:35 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 21 Jan 2004 19:51:30 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 216
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 13.955000000351,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.13899999976270117,
+          "wait": 294.46000000007234,
+          "receive": 1.097999999728529,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:11:16.552Z",
+        "time": 2676.1200000000827,
+        "request": {
+          "method": "POST",
+          "url": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/logImpressions?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Build",
+              "value": "kix_2016.04-Tue_RC00"
+            },
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": "Origin",
+              "value": "https://docs.google.com"
+            },
+            {
+              "name": "X-Rel-Id",
+              "value": "103.5190d391.s"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded;charset=UTF-8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 1875,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+            "text": "impressionBatch=%5B%5B%5B41%2C29063%2C58%2C1454706634550000%2C%5B%5B%5B893%2C371%2C1366%2C728%5D%2Cfalse%2C%5B%5D%2Cnull%2C1%2C4%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B176000%5D%5D%2C54%2Cnull%2C%5B%5B1454706634550000%5D%2Cnull%2C1%5D%2Cnull%2C29063%5D%2C%5B41%2C41017%2C59%2C1454706634550000%2C%5B%5B%5B893%2C371%2C1366%2C728%5D%2Cfalse%2C%5B%5D%2Cnull%2C1%2C4%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B35000%5D%5D%2C54%2Cnull%2C%5B%5B1454706634550000%5D%2Cnull%2C1%5D%2Cnull%2C41017%5D%5D%2C%5B%22CLChhPCq4coCFUc8PAodyKkBXw%22%2C1454699761307000%2C1454699752526000%2C%22ADFN-ctc2w2qu5UN1m2VWFhZWIL7o1Ay8wm5BaLW4M6r7ePIO127Oq5OIggb0ILZd_0dnjK-8m18%22%2Cnull%2C9%5D%2C%5B%22en%22%2C%22Mozilla%2F5.0%20(Windows%20NT%206.1)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F48.0.2564.103%20Safari%2F537.36%22%2C%221edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU%22%2Cnull%2C%5Bfalse%2Ctrue%5D%2Cfalse%2Cnull%2Cnull%2C1%2C%5B%5B5700032%2C5700016%2C5700056%2C5700019%2C5700055%2C5700028%2C5700042%5D%5D%2C7%2C%5B1%2C1%2C1%2C1%2C1%5D%2C%5Btrue%2Ctrue%5D%5D%2C%5B5%5D%2C%5B%5Bnull%2Cnull%2C%5B2%2C1%2C1%2C1%2Ctrue%2Ctrue%2Cfalse%2Cfalse%2Cfalse%2Cnull%2Cfalse%2Cfalse%2C2%2C3%2C1%2C%5Bnull%2C6%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Ctrue%5D%2C%5B1%2C%5B3%5D%5D%5D%2C%5B%22kix_2016.04-Tue_RC00%22%5D%2Cnull%2C1%2C2%2C%5B1454699751333000%2C0%2C0%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C0%2C1454699753004000%2C1454699754091000%2C1454699754351000%5D%5D%5D",
+            "params": [
+              {
+                "name": "impressionBatch",
+                "value": "%5B%5B%5B41%2C29063%2C58%2C1454706634550000%2C%5B%5B%5B893%2C371%2C1366%2C728%5D%2Cfalse%2C%5B%5D%2Cnull%2C1%2C4%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B176000%5D%5D%2C54%2Cnull%2C%5B%5B1454706634550000%5D%2Cnull%2C1%5D%2Cnull%2C29063%5D%2C%5B41%2C41017%2C59%2C1454706634550000%2C%5B%5B%5B893%2C371%2C1366%2C728%5D%2Cfalse%2C%5B%5D%2Cnull%2C1%2C4%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B35000%5D%5D%2C54%2Cnull%2C%5B%5B1454706634550000%5D%2Cnull%2C1%5D%2Cnull%2C41017%5D%5D%2C%5B%22CLChhPCq4coCFUc8PAodyKkBXw%22%2C1454699761307000%2C1454699752526000%2C%22ADFN-ctc2w2qu5UN1m2VWFhZWIL7o1Ay8wm5BaLW4M6r7ePIO127Oq5OIggb0ILZd_0dnjK-8m18%22%2Cnull%2C9%5D%2C%5B%22en%22%2C%22Mozilla%2F5.0%20(Windows%20NT%206.1)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F48.0.2564.103%20Safari%2F537.36%22%2C%221edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU%22%2Cnull%2C%5Bfalse%2Ctrue%5D%2Cfalse%2Cnull%2Cnull%2C1%2C%5B%5B5700032%2C5700016%2C5700056%2C5700019%2C5700055%2C5700028%2C5700042%5D%5D%2C7%2C%5B1%2C1%2C1%2C1%2C1%5D%2C%5Btrue%2Ctrue%5D%5D%2C%5B5%5D%2C%5B%5Bnull%2Cnull%2C%5B2%2C1%2C1%2C1%2Ctrue%2Ctrue%2Cfalse%2Cfalse%2Cfalse%2Cnull%2Cfalse%2Cfalse%2C2%2C3%2C1%2C%5Bnull%2C6%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Ctrue%5D%2C%5B1%2C%5B3%5D%5D%5D%2C%5B%22kix_2016.04-Tue_RC00%22%5D%2Cnull%2C1%2C2%2C%5B1454699751333000%2C0%2C0%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C0%2C1454699753004000%2C1454699754091000%2C1454699754351000%5D%5D%5D"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:11:19 GMT"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 110
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.694000000294182,
+          "dns": -1,
+          "connect": -1,
+          "send": 16.44599999963252,
+          "wait": 2658.002000000123,
+          "receive": 0.9780000000328073,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:11:18.511Z",
+        "time": 55778.14899999976,
+        "request": {
+          "method": "GET",
+          "url": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521&lsq=1454699752115&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=370&ar=299&arat=oNICyVLK--Tsqw&TYPE=xmlhttp&zx=ail16kmvxflw&t=1",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp=%7B%22qlc%22%3Anull%2C%22elh%22%3Afalse%2C%22eoo%22%3Atrue%7D&rt=j&xpc=%7B%22cn%22%3A%22docs%22%2C%22tp%22%3A1%2C%22osh%22%3Atrue%2C%22ppu%22%3A%22https%3A%2F%2Fdocs.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F0.docs.google.com%2Frobots.txt%22%7D"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "sid",
+              "value": "260a0c04431c0f87"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "lsq",
+              "value": "1454699752115"
+            },
+            {
+              "name": "u",
+              "value": "03868897463511069487"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "D3D4FEE7D07BF46C"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "370"
+            },
+            {
+              "name": "ar",
+              "value": "299"
+            },
+            {
+              "name": "arat",
+              "value": "oNICyVLK--Tsqw"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "ail16kmvxflw"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:11:20 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex, nofollow, nosnippet"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 66,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 110
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 22.7820000000065,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.25499999992459976,
+          "wait": 1427.397999999809,
+          "receive": 54327.714000000014,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:11:34.583Z",
+        "time": 274.7620000009192,
+        "request": {
+          "method": "GET",
+          "url": "https://csi.gstatic.com/csi?v=3&s=kix&action=edit&it=idbrwt.63&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt=",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/csi?v=3&s=kix&action=edit&it=idbrwt.63&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt="
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": ":authority",
+              "value": "csi.gstatic.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CKS2yQEIxLbJAQiAisoBCP2VygE="
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "s",
+              "value": "kix"
+            },
+            {
+              "name": "action",
+              "value": "edit"
+            },
+            {
+              "name": "it",
+              "value": "idbrwt.63"
+            },
+            {
+              "name": "tran",
+              "value": "15"
+            },
+            {
+              "name": "p",
+              "value": "s"
+            },
+            {
+              "name": "npn",
+              "value": "1"
+            },
+            {
+              "name": "npnv",
+              "value": "quic%2F1%2Bspdy%2F3"
+            },
+            {
+              "name": "e",
+              "value": "docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8"
+            },
+            {
+              "name": "rls",
+              "value": "kix_2016.04_Tue_RC00"
+            },
+            {
+              "name": "rt",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:11:35 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 21 Jan 2004 19:51:30 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 53
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.41000000096392,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.50699999883363,
+          "wait": 271.01500000026147,
+          "receive": 0.8300000008601955,
+          "ssl": -1
+        },
+        "connection": "11532"
+      },
+      {
+        "startedDateTime": "2016-02-05T21:12:14.398Z",
+        "time": 53227.70700000001,
+        "request": {
+          "method": "GET",
+          "url": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521&lsq=1454699752115&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=373&TYPE=xmlhttp&zx=ypj3oe18xhku&t=1",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp=%7B%22qlc%22%3Anull%2C%22elh%22%3Afalse%2C%22eoo%22%3Atrue%7D&rt=j&xpc=%7B%22cn%22%3A%22docs%22%2C%22tp%22%3A1%2C%22osh%22%3Atrue%2C%22ppu%22%3A%22https%3A%2F%2Fdocs.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F0.docs.google.com%2Frobots.txt%22%7D"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "sid",
+              "value": "260a0c04431c0f87"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "lsq",
+              "value": "1454699752115"
+            },
+            {
+              "name": "u",
+              "value": "03868897463511069487"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "D3D4FEE7D07BF46C"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "373"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "ypj3oe18xhku"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:12:16 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex, nofollow, nosnippet"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 66,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 110
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.944000001254608,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.256999999692202,
+          "wait": 2248.9630000000034,
+          "receive": 50977.54299999906,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:12:34.564Z",
+        "time": 210.90299999923445,
+        "request": {
+          "method": "GET",
+          "url": "https://csi.gstatic.com/csi?v=3&s=kix&action=edit&it=idbrwt.16&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt=",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "s",
+              "value": "kix"
+            },
+            {
+              "name": "action",
+              "value": "edit"
+            },
+            {
+              "name": "it",
+              "value": "idbrwt.16"
+            },
+            {
+              "name": "tran",
+              "value": "15"
+            },
+            {
+              "name": "p",
+              "value": "s"
+            },
+            {
+              "name": "npn",
+              "value": "1"
+            },
+            {
+              "name": "npnv",
+              "value": "quic%2F1%2Bspdy%2F3"
+            },
+            {
+              "name": "e",
+              "value": "docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8"
+            },
+            {
+              "name": "rls",
+              "value": "kix_2016.04_Tue_RC00"
+            },
+            {
+              "name": "rt",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:12:35 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 21 Jan 2004 19:51:30 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 216
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 28.2609999994747,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.2530000001571011,
+          "wait": 181.5299999998392,
+          "receive": 0.858999999763455,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:13:07.683Z",
+        "time": 51567.32799999918,
+        "request": {
+          "method": "GET",
+          "url": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521&lsq=1454699752115&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=376&TYPE=xmlhttp&zx=ni7yf74dbqko&t=1",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp=%7B%22qlc%22%3Anull%2C%22elh%22%3Afalse%2C%22eoo%22%3Atrue%7D&rt=j&xpc=%7B%22cn%22%3A%22docs%22%2C%22tp%22%3A1%2C%22osh%22%3Atrue%2C%22ppu%22%3A%22https%3A%2F%2Fdocs.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F0.docs.google.com%2Frobots.txt%22%7D"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "sid",
+              "value": "260a0c04431c0f87"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "lsq",
+              "value": "1454699752115"
+            },
+            {
+              "name": "u",
+              "value": "03868897463511069487"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "D3D4FEE7D07BF46C"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "376"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "ni7yf74dbqko"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:13:10 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex, nofollow, nosnippet"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 66,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 110
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.25699999989592,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.26499999876251,
+          "wait": 2395.9140000006314,
+          "receive": 49169.89199999989,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:13:34.577Z",
+        "time": 273.74799999961397,
+        "request": {
+          "method": "GET",
+          "url": "https://csi.gstatic.com/csi?v=3&s=kix&action=edit&it=idbrwt.15&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt=",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/csi?v=3&s=kix&action=edit&it=idbrwt.15&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt="
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": ":authority",
+              "value": "csi.gstatic.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CKS2yQEIxLbJAQiAisoBCP2VygE="
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "s",
+              "value": "kix"
+            },
+            {
+              "name": "action",
+              "value": "edit"
+            },
+            {
+              "name": "it",
+              "value": "idbrwt.15"
+            },
+            {
+              "name": "tran",
+              "value": "15"
+            },
+            {
+              "name": "p",
+              "value": "s"
+            },
+            {
+              "name": "npn",
+              "value": "1"
+            },
+            {
+              "name": "npnv",
+              "value": "quic%2F1%2Bspdy%2F3"
+            },
+            {
+              "name": "e",
+              "value": "docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8"
+            },
+            {
+              "name": "rls",
+              "value": "kix_2016.04_Tue_RC00"
+            },
+            {
+              "name": "rt",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:13:35 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 21 Jan 2004 19:51:30 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 53
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.98500000099011,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.5289999990054701,
+          "wait": 269.1070000000764,
+          "receive": 1.1269999995419653,
+          "ssl": -1
+        },
+        "connection": "11532"
+      },
+      {
+        "startedDateTime": "2016-02-05T21:13:59.337Z",
+        "time": 56582.89100000002,
+        "request": {
+          "method": "GET",
+          "url": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521&lsq=1454699752115&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=379&TYPE=xmlhttp&zx=jfry9jq8vz3m&t=1",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp=%7B%22qlc%22%3Anull%2C%22elh%22%3Afalse%2C%22eoo%22%3Atrue%7D&rt=j&xpc=%7B%22cn%22%3A%22docs%22%2C%22tp%22%3A1%2C%22osh%22%3Atrue%2C%22ppu%22%3A%22https%3A%2F%2Fdocs.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F0.docs.google.com%2Frobots.txt%22%7D"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "sid",
+              "value": "260a0c04431c0f87"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "lsq",
+              "value": "1454699752115"
+            },
+            {
+              "name": "u",
+              "value": "03868897463511069487"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "D3D4FEE7D07BF46C"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "379"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "jfry9jq8vz3m"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:14:00 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex, nofollow, nosnippet"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 66,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 110
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.968000000284519,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.256999999692201,
+          "wait": 552.0520000009133,
+          "receive": 56029.61399999913,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:14:34.578Z",
+        "time": 315.28400000024703,
+        "request": {
+          "method": "GET",
+          "url": "https://csi.gstatic.com/csi?v=3&s=kix&action=edit&it=idbrwt.62&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt=",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "s",
+              "value": "kix"
+            },
+            {
+              "name": "action",
+              "value": "edit"
+            },
+            {
+              "name": "it",
+              "value": "idbrwt.62"
+            },
+            {
+              "name": "tran",
+              "value": "15"
+            },
+            {
+              "name": "p",
+              "value": "s"
+            },
+            {
+              "name": "npn",
+              "value": "1"
+            },
+            {
+              "name": "npnv",
+              "value": "quic%2F1%2Bspdy%2F3"
+            },
+            {
+              "name": "e",
+              "value": "docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8"
+            },
+            {
+              "name": "rls",
+              "value": "kix_2016.04_Tue_RC00"
+            },
+            {
+              "name": "rt",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:14:35 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 21 Jan 2004 19:51:30 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 216
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 25.9049999986019,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.42900000153159823,
+          "wait": 288.17899999921747,
+          "receive": 0.7710000008960378,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:14:55.946Z",
+        "time": 55188.9570000003,
+        "request": {
+          "method": "GET",
+          "url": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521&lsq=1454699752115&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=382&TYPE=xmlhttp&zx=pxmw3yr8ev00&t=1",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp=%7B%22qlc%22%3Anull%2C%22elh%22%3Afalse%2C%22eoo%22%3Atrue%7D&rt=j&xpc=%7B%22cn%22%3A%22docs%22%2C%22tp%22%3A1%2C%22osh%22%3Atrue%2C%22ppu%22%3A%22https%3A%2F%2Fdocs.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F0.docs.google.com%2Frobots.txt%22%7D"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "sid",
+              "value": "260a0c04431c0f87"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "lsq",
+              "value": "1454699752115"
+            },
+            {
+              "name": "u",
+              "value": "03868897463511069487"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "D3D4FEE7D07BF46C"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "382"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "pxmw3yr8ev00"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:14:56 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex, nofollow, nosnippet"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 66,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 110
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.38200000037614,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.36399999953573015,
+          "wait": 328.7039999995611,
+          "receive": 54858.50700000083,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:15:34.592Z",
+        "time": 270.87199999914446,
+        "request": {
+          "method": "GET",
+          "url": "https://csi.gstatic.com/csi?v=3&s=kix&action=edit&it=idbrwt.16&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt=",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/csi?v=3&s=kix&action=edit&it=idbrwt.16&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt="
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": ":authority",
+              "value": "csi.gstatic.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CKS2yQEIxLbJAQiAisoBCP2VygE="
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "s",
+              "value": "kix"
+            },
+            {
+              "name": "action",
+              "value": "edit"
+            },
+            {
+              "name": "it",
+              "value": "idbrwt.16"
+            },
+            {
+              "name": "tran",
+              "value": "15"
+            },
+            {
+              "name": "p",
+              "value": "s"
+            },
+            {
+              "name": "npn",
+              "value": "1"
+            },
+            {
+              "name": "npnv",
+              "value": "quic%2F1%2Bspdy%2F3"
+            },
+            {
+              "name": "e",
+              "value": "docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8"
+            },
+            {
+              "name": "rls",
+              "value": "kix_2016.04_Tue_RC00"
+            },
+            {
+              "name": "rt",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:15:35 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 21 Jan 2004 19:51:30 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 53
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.56400000034773,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.6119999998190901,
+          "wait": 266.99699999881017,
+          "receive": 0.699000000167473,
+          "ssl": -1
+        },
+        "connection": "11532"
+      },
+      {
+        "startedDateTime": "2016-02-05T21:15:51.524Z",
+        "time": 53540.01600000083,
+        "request": {
+          "method": "GET",
+          "url": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521&lsq=1454699752115&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=385&TYPE=xmlhttp&zx=sauwodt9xfxs&t=1",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp=%7B%22qlc%22%3Anull%2C%22elh%22%3Afalse%2C%22eoo%22%3Atrue%7D&rt=j&xpc=%7B%22cn%22%3A%22docs%22%2C%22tp%22%3A1%2C%22osh%22%3Atrue%2C%22ppu%22%3A%22https%3A%2F%2Fdocs.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F0.docs.google.com%2Frobots.txt%22%7D"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "sid",
+              "value": "260a0c04431c0f87"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "lsq",
+              "value": "1454699752115"
+            },
+            {
+              "name": "u",
+              "value": "03868897463511069487"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "D3D4FEE7D07BF46C"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "385"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "sauwodt9xfxs"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:15:52 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex, nofollow, nosnippet"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 66,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 110
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.56299999980547,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.2509999994799701,
+          "wait": 324.47200000024156,
+          "receive": 53213.730000001306,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:16:04.545Z",
+        "time": 382.81499999902735,
+        "request": {
+          "method": "POST",
+          "url": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/logImpressions?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "x-build",
+              "value": "kix_2016.04-Tue_RC00"
+            },
+            {
+              "name": "x-same-domain",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://docs.google.com"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "x-rel-id",
+              "value": "103.5190d391.s"
+            },
+            {
+              "name": "cookie",
+              "value": "WRITELY_SID=DQAAAKoBAABRkTRGDXwTzgBlcZubTHato08OnmNdZv-MgMaKITq48CGmzuQ_dZEzpDBW9YwaNpfnAxczJw9s2BehJFdouNsTRhFC_uH3JthSLqaAlgucFDPHUAbd93dj4lMq0ouS485oALoB9yyp2IdU5spLQrpy_x34WTZYX_9f6bflaUIas44p5eGEdSHJLWcSXP670zjtpxXZVaC7yFP5Zw-_-RdBMeGbg9P5pgb1w7FQqC9-Or2ut3Dothwy4Dvy6uP52V_pd4RU05yZa_s8qXZB6b9AdooYNRBfHTbz66k7s5FcOXK1uuCgL7UDBaUHRSxhszE4uJ4sDwC7NC-7lUYtXzjA-oV5C-jxDOBN22R7nfTm66HyU_rEZse8xJ8qVKVkiLaIvxbytbYRC7372CsLMpvjwWDbzGszVSIyS9ICFbwRdfBgYh9zaox2ryluFhXr0c_edDzH0-vuLMkOnDHtFCchVbwi1sHX2fxAu3lmQzope9IVs92_QFYfwU7h_McyzLbJ3gOKJLFqefSwab850A6_13rpnAZLBjK_i1ZEP7jX30mOl3pQCpPeI5nzfI7vRxs; SID=DQAAALQBAAD8mTxeXVamMOLixYs8ciCDFazwC0g9WI9qPpRo_MBseCmXvVy-3EnThb2lT5_GkhQWvxKs17vodYiXGskx7zRRqW0wDCRqn64xSJzBQHfTRrzkHR8KEYU1nQulyOBF2W_npgATuHtNgc6KTsZFHcsqoktWLW8yLKuxETFLBm0vpct2fT6z_W9L9KiP64dI3XBJdPJwK0h_ZsK6gUiKvXARkYvyxaUWIUPSwZ-UJ92ZV30HZbwOaIHb65xRz42p-hN_3XGN6e7YlHGs8Zh-zFPOkdstc_emkKLdtI37jg2GOYIvpIdNfUhgOtX_31YsQ-yYvTHItx7c1Jlk3VpxSwb3XS4mmGMEcDvfdJrZMG7mPcguco-Yrn2Yy_YO5ZSA-mOQVvJ2F7GwZ03sDdo_SQoVAg9b_3DgtzCK3RskTN3xbkMigs-E4yErVuhEUvZy8zVXya6NgwTtyCxNfkpgnpMXsolPwVKlJAzCeFzjVHoTFZfsQntrkJLO9QlIRgUKhBJPR0xgoOvQDjlNPh65KBM4g0uaPoQoW0U0X_zRu2YunrX46ixIZiscEtvvMzYeD1Vq-V5vQoYa7PjAWqBNt6f6; HSID=A8pulGD28F-2p9Ti7; SSID=AjDknp0GaCFZY-SFx; APISID=rRQfeLNbBr1_2WLp/AvtiRjK9dT9wKMroe; SAPISID=7vpcQ4iqcZGTw7ww/A8AWQBLariFTRO89w; S=explorer=Tis7DoLCZbiXoBzGJSFgtQ; NID=76=l1p9jdA9W1poszbaoHC-p_osem-_xiZwgr1TB9eQ1JTqORJxDo_SXUeSyjQcTo_wwvEGRXxTn4ybR8c2eevNJkp1AKWa74Ugj_LjnW7_xZBXJ6Yawap9xHow7y_Y8HP7DOHz5snWZPy8bOVmF9qOpkREDWFjpZHV_NLYrhtT4OqaCLffN-Yki5yAlrxiDY_sGkc2gT2iucGMFgeakI5UpC1NCF04SROUfPzWWwXA5Yy6JdXYM7CaBWfDH5vz940OIUaiexcJOWET5eM"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CKS2yQEIxLbJAQiAisoBCP2VygE="
+            },
+            {
+              "name": "content-length",
+              "value": "1423"
+            },
+            {
+              "name": "x-chrome-connected",
+              "value": "id=103316223799262084958,mode=0,enable_account_consistency=false"
+            },
+            {
+              "name": ":path",
+              "value": "/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/logImpressions?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            },
+            {
+              "name": "content-type",
+              "value": "application/x-www-form-urlencoded;charset=UTF-8"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": ":authority",
+              "value": "docs.google.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "WRITELY_SID",
+              "value": "DQAAAKoBAABRkTRGDXwTzgBlcZubTHato08OnmNdZv-MgMaKITq48CGmzuQ_dZEzpDBW9YwaNpfnAxczJw9s2BehJFdouNsTRhFC_uH3JthSLqaAlgucFDPHUAbd93dj4lMq0ouS485oALoB9yyp2IdU5spLQrpy_x34WTZYX_9f6bflaUIas44p5eGEdSHJLWcSXP670zjtpxXZVaC7yFP5Zw-_-RdBMeGbg9P5pgb1w7FQqC9-Or2ut3Dothwy4Dvy6uP52V_pd4RU05yZa_s8qXZB6b9AdooYNRBfHTbz66k7s5FcOXK1uuCgL7UDBaUHRSxhszE4uJ4sDwC7NC-7lUYtXzjA-oV5C-jxDOBN22R7nfTm66HyU_rEZse8xJ8qVKVkiLaIvxbytbYRC7372CsLMpvjwWDbzGszVSIyS9ICFbwRdfBgYh9zaox2ryluFhXr0c_edDzH0-vuLMkOnDHtFCchVbwi1sHX2fxAu3lmQzope9IVs92_QFYfwU7h_McyzLbJ3gOKJLFqefSwab850A6_13rpnAZLBjK_i1ZEP7jX30mOl3pQCpPeI5nzfI7vRxs",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SID",
+              "value": "DQAAALQBAAD8mTxeXVamMOLixYs8ciCDFazwC0g9WI9qPpRo_MBseCmXvVy-3EnThb2lT5_GkhQWvxKs17vodYiXGskx7zRRqW0wDCRqn64xSJzBQHfTRrzkHR8KEYU1nQulyOBF2W_npgATuHtNgc6KTsZFHcsqoktWLW8yLKuxETFLBm0vpct2fT6z_W9L9KiP64dI3XBJdPJwK0h_ZsK6gUiKvXARkYvyxaUWIUPSwZ-UJ92ZV30HZbwOaIHb65xRz42p-hN_3XGN6e7YlHGs8Zh-zFPOkdstc_emkKLdtI37jg2GOYIvpIdNfUhgOtX_31YsQ-yYvTHItx7c1Jlk3VpxSwb3XS4mmGMEcDvfdJrZMG7mPcguco-Yrn2Yy_YO5ZSA-mOQVvJ2F7GwZ03sDdo_SQoVAg9b_3DgtzCK3RskTN3xbkMigs-E4yErVuhEUvZy8zVXya6NgwTtyCxNfkpgnpMXsolPwVKlJAzCeFzjVHoTFZfsQntrkJLO9QlIRgUKhBJPR0xgoOvQDjlNPh65KBM4g0uaPoQoW0U0X_zRu2YunrX46ixIZiscEtvvMzYeD1Vq-V5vQoYa7PjAWqBNt6f6",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "HSID",
+              "value": "A8pulGD28F-2p9Ti7",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SSID",
+              "value": "AjDknp0GaCFZY-SFx",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "APISID",
+              "value": "rRQfeLNbBr1_2WLp/AvtiRjK9dT9wKMroe",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAPISID",
+              "value": "7vpcQ4iqcZGTw7ww/A8AWQBLariFTRO89w",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "S",
+              "value": "explorer=Tis7DoLCZbiXoBzGJSFgtQ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "NID",
+              "value": "76=l1p9jdA9W1poszbaoHC-p_osem-_xiZwgr1TB9eQ1JTqORJxDo_SXUeSyjQcTo_wwvEGRXxTn4ybR8c2eevNJkp1AKWa74Ugj_LjnW7_xZBXJ6Yawap9xHow7y_Y8HP7DOHz5snWZPy8bOVmF9qOpkREDWFjpZHV_NLYrhtT4OqaCLffN-Yki5yAlrxiDY_sGkc2gT2iucGMFgeakI5UpC1NCF04SROUfPzWWwXA5Yy6JdXYM7CaBWfDH5vz940OIUaiexcJOWET5eM",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 1423,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+            "text": "impressionBatch=%5B%5B%5Bnull%2C1153%2C60%2C1454706964505000%2C%5B%5B%5B893%2C371%2C1366%2C728%5D%2Cfalse%2C%5B%5D%2Cnull%2C1%2C4%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%5D%2Cnull%2C%5B1454703361664000%2C%5B%5D%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%5D%2C54%2Cnull%2C%5B%5B1454706964505000%5D%2Cnull%2C1%5D%2Cnull%2C1153%5D%5D%2C%5B%22CLChhPCq4coCFUc8PAodyKkBXw%22%2C1454699761307000%2C1454699752526000%2C%22ADFN-ctc2w2qu5UN1m2VWFhZWIL7o1Ay8wm5BaLW4M6r7ePIO127Oq5OIggb0ILZd_0dnjK-8m18%22%2Cnull%2C9%5D%2C%5B%22en%22%2C%22Mozilla%2F5.0%20(Windows%20NT%206.1)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F48.0.2564.103%20Safari%2F537.36%22%2C%221edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU%22%2Cnull%2C%5Bfalse%2Ctrue%5D%2Cfalse%2Cnull%2Cnull%2C1%2C%5B%5B5700032%2C5700016%2C5700056%2C5700019%2C5700055%2C5700028%2C5700042%5D%5D%2C7%2C%5B1%2C1%2C1%2C1%2C1%5D%2C%5Btrue%2Ctrue%5D%5D%2C%5B5%5D%2C%5B%5Bnull%2Cnull%2C%5B2%2C1%2C1%2C1%2Ctrue%2Ctrue%2Cfalse%2Cfalse%2Cfalse%2Cnull%2Cfalse%2Cfalse%2C2%2C3%2C1%2C%5Bnull%2C6%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Ctrue%5D%2C%5B1%2C%5B3%5D%5D%5D%2C%5B%22kix_2016.04-Tue_RC00%22%5D%2Cnull%2C1%2C2%2C%5B1454699751333000%2C0%2C0%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C0%2C1454699753004000%2C1454699754091000%2C1454699754351000%5D%5D%5D",
+            "params": [
+              {
+                "name": "impressionBatch",
+                "value": "%5B%5B%5Bnull%2C1153%2C60%2C1454706964505000%2C%5B%5B%5B893%2C371%2C1366%2C728%5D%2Cfalse%2C%5B%5D%2Cnull%2C1%2C4%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%5D%2Cnull%2C%5B1454703361664000%2C%5B%5D%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%5D%2C54%2Cnull%2C%5B%5B1454706964505000%5D%2Cnull%2C1%5D%2Cnull%2C1153%5D%5D%2C%5B%22CLChhPCq4coCFUc8PAodyKkBXw%22%2C1454699761307000%2C1454699752526000%2C%22ADFN-ctc2w2qu5UN1m2VWFhZWIL7o1Ay8wm5BaLW4M6r7ePIO127Oq5OIggb0ILZd_0dnjK-8m18%22%2Cnull%2C9%5D%2C%5B%22en%22%2C%22Mozilla%2F5.0%20(Windows%20NT%206.1)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F48.0.2564.103%20Safari%2F537.36%22%2C%221edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU%22%2Cnull%2C%5Bfalse%2Ctrue%5D%2Cfalse%2Cnull%2Cnull%2C1%2C%5B%5B5700032%2C5700016%2C5700056%2C5700019%2C5700055%2C5700028%2C5700042%5D%5D%2C7%2C%5B1%2C1%2C1%2C1%2C1%5D%2C%5Btrue%2Ctrue%5D%5D%2C%5B5%5D%2C%5B%5Bnull%2Cnull%2C%5B2%2C1%2C1%2C1%2Ctrue%2Ctrue%2Cfalse%2Cfalse%2Cfalse%2Cnull%2Cfalse%2Cfalse%2C2%2C3%2C1%2C%5Bnull%2C6%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Ctrue%5D%2C%5B1%2C%5B3%5D%5D%5D%2C%5B%22kix_2016.04-Tue_RC00%22%5D%2Cnull%2C1%2C2%2C%5B1454699751333000%2C0%2C0%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C0%2C1454699753004000%2C1454699754091000%2C1454699754351000%5D%5D%5D"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:16:05 GMT"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "set-cookie",
+              "value": "S=documents=skVjmw37lGniLRcRlYvI6A; Domain=.docs.google.com; Expires=Fri, 05-Feb-2016 22:16:05 GMT; Path=/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU; Secure; HttpOnly; Priority=LOW"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "S",
+              "value": "documents=skVjmw37lGniLRcRlYvI6A",
+              "path": "/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU",
+              "domain": ".docs.google.com",
+              "expires": "2016-02-05T22:16:05.000Z",
+              "httpOnly": true,
+              "secure": true
+            }
+          ],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 195
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.15099999877566,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.7970000006025701,
+          "wait": 378.46700000045576,
+          "receive": 1.3999999991933691,
+          "ssl": -1
+        },
+        "connection": "22835"
+      },
+      {
+        "startedDateTime": "2016-02-05T21:16:17.571Z",
+        "time": 554.0320000000065,
+        "request": {
+          "method": "POST",
+          "url": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/logImpressions?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Build",
+              "value": "kix_2016.04-Tue_RC00"
+            },
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": "Origin",
+              "value": "https://docs.google.com"
+            },
+            {
+              "name": "X-Rel-Id",
+              "value": "103.5190d391.s"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded;charset=UTF-8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 1480,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+            "text": "impressionBatch=%5B%5B%5B19%2C33000%2C61%2C1454706966520000%2C%5B%5B%5B893%2C371%2C1366%2C728%5D%2Cfalse%2C%5B%5D%2Cnull%2C1%2C4%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B756%2C51%2C43%5D%5D%5D%2C60%2Cnull%2C%5B%5B1454706966520000%5D%2Cnull%2C1%5D%2Cnull%2C33000%5D%5D%2C%5B%22CLChhPCq4coCFUc8PAodyKkBXw%22%2C1454699761307000%2C1454699752526000%2C%22ADFN-ctc2w2qu5UN1m2VWFhZWIL7o1Ay8wm5BaLW4M6r7ePIO127Oq5OIggb0ILZd_0dnjK-8m18%22%2Cnull%2C9%5D%2C%5B%22en%22%2C%22Mozilla%2F5.0%20(Windows%20NT%206.1)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F48.0.2564.103%20Safari%2F537.36%22%2C%221edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU%22%2Cnull%2C%5Bfalse%2Ctrue%5D%2Cfalse%2Cnull%2Cnull%2C1%2C%5B%5B5700032%2C5700016%2C5700056%2C5700019%2C5700055%2C5700028%2C5700042%5D%5D%2C7%2C%5B1%2C1%2C1%2C1%2C1%5D%2C%5Btrue%2Ctrue%5D%5D%2C%5B5%5D%2C%5B%5Bnull%2Cnull%2C%5B2%2C1%2C1%2C1%2Ctrue%2Ctrue%2Cfalse%2Cfalse%2Cfalse%2Cnull%2Cfalse%2Cfalse%2C2%2C3%2C1%2C%5Bnull%2C6%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Ctrue%5D%2C%5B1%2C%5B3%5D%5D%5D%2C%5B%22kix_2016.04-Tue_RC00%22%5D%2Cnull%2C1%2C2%2C%5B1454699751333000%2C0%2C0%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C0%2C1454699753004000%2C1454699754091000%2C1454699754351000%5D%5D%5D",
+            "params": [
+              {
+                "name": "impressionBatch",
+                "value": "%5B%5B%5B19%2C33000%2C61%2C1454706966520000%2C%5B%5B%5B893%2C371%2C1366%2C728%5D%2Cfalse%2C%5B%5D%2Cnull%2C1%2C4%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B756%2C51%2C43%5D%5D%5D%2C60%2Cnull%2C%5B%5B1454706966520000%5D%2Cnull%2C1%5D%2Cnull%2C33000%5D%5D%2C%5B%22CLChhPCq4coCFUc8PAodyKkBXw%22%2C1454699761307000%2C1454699752526000%2C%22ADFN-ctc2w2qu5UN1m2VWFhZWIL7o1Ay8wm5BaLW4M6r7ePIO127Oq5OIggb0ILZd_0dnjK-8m18%22%2Cnull%2C9%5D%2C%5B%22en%22%2C%22Mozilla%2F5.0%20(Windows%20NT%206.1)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F48.0.2564.103%20Safari%2F537.36%22%2C%221edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU%22%2Cnull%2C%5Bfalse%2Ctrue%5D%2Cfalse%2Cnull%2Cnull%2C1%2C%5B%5B5700032%2C5700016%2C5700056%2C5700019%2C5700055%2C5700028%2C5700042%5D%5D%2C7%2C%5B1%2C1%2C1%2C1%2C1%5D%2C%5Btrue%2Ctrue%5D%5D%2C%5B5%5D%2C%5B%5Bnull%2Cnull%2C%5B2%2C1%2C1%2C1%2Ctrue%2Ctrue%2Cfalse%2Cfalse%2Cfalse%2Cnull%2Cfalse%2Cfalse%2C2%2C3%2C1%2C%5Bnull%2C6%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Ctrue%5D%2C%5B1%2C%5B3%5D%5D%5D%2C%5B%22kix_2016.04-Tue_RC00%22%5D%2Cnull%2C1%2C2%2C%5B1454699751333000%2C0%2C0%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C0%2C1454699753004000%2C1454699754091000%2C1454699754351000%5D%5D%5D"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:16:18 GMT"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 110
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.79600000046776,
+          "dns": -1,
+          "connect": -1,
+          "send": 14.73299999997834,
+          "wait": 536.4879999997358,
+          "receive": 1.0149999998245676,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:16:35.517Z",
+        "time": 275.0710000000254,
+        "request": {
+          "method": "GET",
+          "url": "https://csi.gstatic.com/csi?v=3&s=kix&action=edit&it=idbrwt.15,heapLimit.756,totalHeap.51,usedHeap.43&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt=",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/csi?v=3&s=kix&action=edit&it=idbrwt.15,heapLimit.756,totalHeap.51,usedHeap.43&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt="
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": ":authority",
+              "value": "csi.gstatic.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CKS2yQEIxLbJAQiAisoBCP2VygE="
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "s",
+              "value": "kix"
+            },
+            {
+              "name": "action",
+              "value": "edit"
+            },
+            {
+              "name": "it",
+              "value": "idbrwt.15,heapLimit.756,totalHeap.51,usedHeap.43"
+            },
+            {
+              "name": "tran",
+              "value": "15"
+            },
+            {
+              "name": "p",
+              "value": "s"
+            },
+            {
+              "name": "npn",
+              "value": "1"
+            },
+            {
+              "name": "npnv",
+              "value": "quic%2F1%2Bspdy%2F3"
+            },
+            {
+              "name": "e",
+              "value": "docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8"
+            },
+            {
+              "name": "rls",
+              "value": "kix_2016.04_Tue_RC00"
+            },
+            {
+              "name": "rt",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:16:36 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 21 Jan 2004 19:51:30 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 53
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.05099999968661,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.5540000001929002,
+          "wait": 269.6299999988695,
+          "receive": 1.8360000012763749,
+          "ssl": -1
+        },
+        "connection": "11532"
+      },
+      {
+        "startedDateTime": "2016-02-05T21:16:45.530Z",
+        "time": 56766.7849999998,
+        "request": {
+          "method": "GET",
+          "url": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521&lsq=1454699752115&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=388&TYPE=xmlhttp&zx=9cagf2ajarr8&t=1",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp=%7B%22qlc%22%3Anull%2C%22elh%22%3Afalse%2C%22eoo%22%3Atrue%7D&rt=j&xpc=%7B%22cn%22%3A%22docs%22%2C%22tp%22%3A1%2C%22osh%22%3Atrue%2C%22ppu%22%3A%22https%3A%2F%2Fdocs.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F0.docs.google.com%2Frobots.txt%22%7D"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "sid",
+              "value": "260a0c04431c0f87"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "lsq",
+              "value": "1454699752115"
+            },
+            {
+              "name": "u",
+              "value": "03868897463511069487"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "D3D4FEE7D07BF46C"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "388"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "9cagf2ajarr8"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:16:47 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex, nofollow, nosnippet"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 100,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 144
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.46999999944819,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.57300000116811,
+          "wait": 1602.9179999986836,
+          "receive": 55160.8240000005,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:17:36.518Z",
+        "time": 272.2310000008292,
+        "request": {
+          "method": "GET",
+          "url": "https://csi.gstatic.com/csi?v=3&s=kix&action=edit&it=idbrwt.0&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt=",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/csi?v=3&s=kix&action=edit&it=idbrwt.0&tran=15&p=s&npn=1&npnv=quic%2F1%2Bspdy%2F3&e=docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8&rls=kix_2016.04_Tue_RC00&rt="
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": ":authority",
+              "value": "csi.gstatic.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CKS2yQEIxLbJAQiAisoBCP2VygE="
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "s",
+              "value": "kix"
+            },
+            {
+              "name": "action",
+              "value": "edit"
+            },
+            {
+              "name": "it",
+              "value": "idbrwt.0"
+            },
+            {
+              "name": "tran",
+              "value": "15"
+            },
+            {
+              "name": "p",
+              "value": "s"
+            },
+            {
+              "name": "npn",
+              "value": "1"
+            },
+            {
+              "name": "npnv",
+              "value": "quic%2F1%2Bspdy%2F3"
+            },
+            {
+              "name": "e",
+              "value": "docs_cold_nf,nav_no_redirect,docs_offline_maybe_optin,docs_suggest_editing,docos_count_0,docs_offline_warm,docs_page_loaded_in_background,docs_offline_opted_in,docs_offline_warm_opted_in,docs_offline_optin_reason_3,jobset_prod,kix_pages_1_to_8"
+            },
+            {
+              "name": "rls",
+              "value": "kix_2016.04_Tue_RC00"
+            },
+            {
+              "name": "rt",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:17:37 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 21 Jan 2004 19:51:30 GMT"
+            },
+            {
+              "name": "server",
+              "value": "Golfe2"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "*"
+            },
+            {
+              "name": "content-type",
+              "value": "image/gif"
+            },
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 53
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.66900000133319,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.5049999999755501,
+          "wait": 268.3109999998123,
+          "receive": 0.7459999997082036,
+          "ssl": -1
+        },
+        "connection": "11532"
+      },
+      {
+        "startedDateTime": "2016-02-05T21:17:42.536Z",
+        "time": 54778.16100000018,
+        "request": {
+          "method": "GET",
+          "url": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/bind?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&sid=260a0c04431c0f87&VER=8&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521&lsq=1454699752118&u=03868897463511069487&c=1&w=1&gsi=0&RID=rpc&SID=D3D4FEE7D07BF46C&CI=0&AID=391&TYPE=xmlhttp&zx=kesv6epek6w2&t=1",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "X-Same-Domain",
+              "value": "1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://0.docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/xdbcm.html?internal=false&gcp=%7B%22qlc%22%3Anull%2C%22elh%22%3Afalse%2C%22eoo%22%3Atrue%7D&rt=j&xpc=%7B%22cn%22%3A%22docs%22%2C%22tp%22%3A1%2C%22osh%22%3Atrue%2C%22ppu%22%3A%22https%3A%2F%2Fdocs.google.com%2Frobots.txt%22%2C%22lpu%22%3A%22https%3A%2F%2F0.docs.google.com%2Frobots.txt%22%7D"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "sid",
+              "value": "260a0c04431c0f87"
+            },
+            {
+              "name": "VER",
+              "value": "8"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "lsq",
+              "value": "1454699752118"
+            },
+            {
+              "name": "u",
+              "value": "03868897463511069487"
+            },
+            {
+              "name": "c",
+              "value": "1"
+            },
+            {
+              "name": "w",
+              "value": "1"
+            },
+            {
+              "name": "gsi",
+              "value": "0"
+            },
+            {
+              "name": "RID",
+              "value": "rpc"
+            },
+            {
+              "name": "SID",
+              "value": "D3D4FEE7D07BF46C"
+            },
+            {
+              "name": "CI",
+              "value": "0"
+            },
+            {
+              "name": "AID",
+              "value": "391"
+            },
+            {
+              "name": "TYPE",
+              "value": "xmlhttp"
+            },
+            {
+              "name": "zx",
+              "value": "kesv6epek6w2"
+            },
+            {
+              "name": "t",
+              "value": "1"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:17:43 GMT"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=utf-8"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "x-robots-tag",
+              "value": "noindex, nofollow, nosnippet"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "expires",
+              "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 66,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 110
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.26099999963481,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.5710000004910398,
+          "wait": 321.4459999999232,
+          "receive": 54453.88300000013,
+          "ssl": -1
+        }
+      },
+      {
+        "startedDateTime": "2016-02-05T21:18:18.536Z",
+        "time": 1340.5099999999948,
+        "request": {
+          "method": "POST",
+          "url": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/logImpressions?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "x-build",
+              "value": "kix_2016.04-Tue_RC00"
+            },
+            {
+              "name": "x-same-domain",
+              "value": "1"
+            },
+            {
+              "name": "origin",
+              "value": "https://docs.google.com"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "x-chrome-uma-enabled",
+              "value": "1"
+            },
+            {
+              "name": "x-rel-id",
+              "value": "103.5190d391.s"
+            },
+            {
+              "name": "cookie",
+              "value": "S=documents=skVjmw37lGniLRcRlYvI6A; WRITELY_SID=DQAAAKoBAABRkTRGDXwTzgBlcZubTHato08OnmNdZv-MgMaKITq48CGmzuQ_dZEzpDBW9YwaNpfnAxczJw9s2BehJFdouNsTRhFC_uH3JthSLqaAlgucFDPHUAbd93dj4lMq0ouS485oALoB9yyp2IdU5spLQrpy_x34WTZYX_9f6bflaUIas44p5eGEdSHJLWcSXP670zjtpxXZVaC7yFP5Zw-_-RdBMeGbg9P5pgb1w7FQqC9-Or2ut3Dothwy4Dvy6uP52V_pd4RU05yZa_s8qXZB6b9AdooYNRBfHTbz66k7s5FcOXK1uuCgL7UDBaUHRSxhszE4uJ4sDwC7NC-7lUYtXzjA-oV5C-jxDOBN22R7nfTm66HyU_rEZse8xJ8qVKVkiLaIvxbytbYRC7372CsLMpvjwWDbzGszVSIyS9ICFbwRdfBgYh9zaox2ryluFhXr0c_edDzH0-vuLMkOnDHtFCchVbwi1sHX2fxAu3lmQzope9IVs92_QFYfwU7h_McyzLbJ3gOKJLFqefSwab850A6_13rpnAZLBjK_i1ZEP7jX30mOl3pQCpPeI5nzfI7vRxs; SID=DQAAALQBAAD8mTxeXVamMOLixYs8ciCDFazwC0g9WI9qPpRo_MBseCmXvVy-3EnThb2lT5_GkhQWvxKs17vodYiXGskx7zRRqW0wDCRqn64xSJzBQHfTRrzkHR8KEYU1nQulyOBF2W_npgATuHtNgc6KTsZFHcsqoktWLW8yLKuxETFLBm0vpct2fT6z_W9L9KiP64dI3XBJdPJwK0h_ZsK6gUiKvXARkYvyxaUWIUPSwZ-UJ92ZV30HZbwOaIHb65xRz42p-hN_3XGN6e7YlHGs8Zh-zFPOkdstc_emkKLdtI37jg2GOYIvpIdNfUhgOtX_31YsQ-yYvTHItx7c1Jlk3VpxSwb3XS4mmGMEcDvfdJrZMG7mPcguco-Yrn2Yy_YO5ZSA-mOQVvJ2F7GwZ03sDdo_SQoVAg9b_3DgtzCK3RskTN3xbkMigs-E4yErVuhEUvZy8zVXya6NgwTtyCxNfkpgnpMXsolPwVKlJAzCeFzjVHoTFZfsQntrkJLO9QlIRgUKhBJPR0xgoOvQDjlNPh65KBM4g0uaPoQoW0U0X_zRu2YunrX46ixIZiscEtvvMzYeD1Vq-V5vQoYa7PjAWqBNt6f6; HSID=A8pulGD28F-2p9Ti7; SSID=AjDknp0GaCFZY-SFx; APISID=rRQfeLNbBr1_2WLp/AvtiRjK9dT9wKMroe; SAPISID=7vpcQ4iqcZGTw7ww/A8AWQBLariFTRO89w; S=explorer=Tis7DoLCZbiXoBzGJSFgtQ; NID=76=l1p9jdA9W1poszbaoHC-p_osem-_xiZwgr1TB9eQ1JTqORJxDo_SXUeSyjQcTo_wwvEGRXxTn4ybR8c2eevNJkp1AKWa74Ugj_LjnW7_xZBXJ6Yawap9xHow7y_Y8HP7DOHz5snWZPy8bOVmF9qOpkREDWFjpZHV_NLYrhtT4OqaCLffN-Yki5yAlrxiDY_sGkc2gT2iucGMFgeakI5UpC1NCF04SROUfPzWWwXA5Yy6JdXYM7CaBWfDH5vz940OIUaiexcJOWET5eM"
+            },
+            {
+              "name": "x-client-data",
+              "value": "CKS2yQEIxLbJAQiAisoBCP2VygE="
+            },
+            {
+              "name": "content-length",
+              "value": "1480"
+            },
+            {
+              "name": "x-chrome-connected",
+              "value": "id=103316223799262084958,mode=0,enable_account_consistency=false"
+            },
+            {
+              "name": ":path",
+              "value": "/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/logImpressions?id=1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU&token=AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36"
+            },
+            {
+              "name": "content-type",
+              "value": "application/x-www-form-urlencoded;charset=UTF-8"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "referer",
+              "value": "https://docs.google.com/document/d/1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU/edit"
+            },
+            {
+              "name": ":authority",
+              "value": "docs.google.com"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU"
+            },
+            {
+              "name": "token",
+              "value": "AC4w5VhKUdxoTW00FRLVWAe9eW15r5-HyA%3A1454699752521"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "S",
+              "value": "documents=skVjmw37lGniLRcRlYvI6A",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "WRITELY_SID",
+              "value": "DQAAAKoBAABRkTRGDXwTzgBlcZubTHato08OnmNdZv-MgMaKITq48CGmzuQ_dZEzpDBW9YwaNpfnAxczJw9s2BehJFdouNsTRhFC_uH3JthSLqaAlgucFDPHUAbd93dj4lMq0ouS485oALoB9yyp2IdU5spLQrpy_x34WTZYX_9f6bflaUIas44p5eGEdSHJLWcSXP670zjtpxXZVaC7yFP5Zw-_-RdBMeGbg9P5pgb1w7FQqC9-Or2ut3Dothwy4Dvy6uP52V_pd4RU05yZa_s8qXZB6b9AdooYNRBfHTbz66k7s5FcOXK1uuCgL7UDBaUHRSxhszE4uJ4sDwC7NC-7lUYtXzjA-oV5C-jxDOBN22R7nfTm66HyU_rEZse8xJ8qVKVkiLaIvxbytbYRC7372CsLMpvjwWDbzGszVSIyS9ICFbwRdfBgYh9zaox2ryluFhXr0c_edDzH0-vuLMkOnDHtFCchVbwi1sHX2fxAu3lmQzope9IVs92_QFYfwU7h_McyzLbJ3gOKJLFqefSwab850A6_13rpnAZLBjK_i1ZEP7jX30mOl3pQCpPeI5nzfI7vRxs",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SID",
+              "value": "DQAAALQBAAD8mTxeXVamMOLixYs8ciCDFazwC0g9WI9qPpRo_MBseCmXvVy-3EnThb2lT5_GkhQWvxKs17vodYiXGskx7zRRqW0wDCRqn64xSJzBQHfTRrzkHR8KEYU1nQulyOBF2W_npgATuHtNgc6KTsZFHcsqoktWLW8yLKuxETFLBm0vpct2fT6z_W9L9KiP64dI3XBJdPJwK0h_ZsK6gUiKvXARkYvyxaUWIUPSwZ-UJ92ZV30HZbwOaIHb65xRz42p-hN_3XGN6e7YlHGs8Zh-zFPOkdstc_emkKLdtI37jg2GOYIvpIdNfUhgOtX_31YsQ-yYvTHItx7c1Jlk3VpxSwb3XS4mmGMEcDvfdJrZMG7mPcguco-Yrn2Yy_YO5ZSA-mOQVvJ2F7GwZ03sDdo_SQoVAg9b_3DgtzCK3RskTN3xbkMigs-E4yErVuhEUvZy8zVXya6NgwTtyCxNfkpgnpMXsolPwVKlJAzCeFzjVHoTFZfsQntrkJLO9QlIRgUKhBJPR0xgoOvQDjlNPh65KBM4g0uaPoQoW0U0X_zRu2YunrX46ixIZiscEtvvMzYeD1Vq-V5vQoYa7PjAWqBNt6f6",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "HSID",
+              "value": "A8pulGD28F-2p9Ti7",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SSID",
+              "value": "AjDknp0GaCFZY-SFx",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "APISID",
+              "value": "rRQfeLNbBr1_2WLp/AvtiRjK9dT9wKMroe",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "SAPISID",
+              "value": "7vpcQ4iqcZGTw7ww/A8AWQBLariFTRO89w",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "S",
+              "value": "explorer=Tis7DoLCZbiXoBzGJSFgtQ",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "NID",
+              "value": "76=l1p9jdA9W1poszbaoHC-p_osem-_xiZwgr1TB9eQ1JTqORJxDo_SXUeSyjQcTo_wwvEGRXxTn4ybR8c2eevNJkp1AKWa74Ugj_LjnW7_xZBXJ6Yawap9xHow7y_Y8HP7DOHz5snWZPy8bOVmF9qOpkREDWFjpZHV_NLYrhtT4OqaCLffN-Yki5yAlrxiDY_sGkc2gT2iucGMFgeakI5UpC1NCF04SROUfPzWWwXA5Yy6JdXYM7CaBWfDH5vz940OIUaiexcJOWET5eM",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": -1,
+          "bodySize": 1480,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+            "text": "impressionBatch=%5B%5B%5B41%2C29030%2C62%2C1454707056513000%2C%5B%5B%5B893%2C371%2C1366%2C728%5D%2Cfalse%2C%5B%5D%2Cnull%2C1%2C4%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B16000%5D%5D%2C60%2Cnull%2C%5B%5B1454707056513000%5D%2Cnull%2C1%5D%2Cnull%2C29030%5D%5D%2C%5B%22CLChhPCq4coCFUc8PAodyKkBXw%22%2C1454699761307000%2C1454699752526000%2C%22ADFN-ctc2w2qu5UN1m2VWFhZWIL7o1Ay8wm5BaLW4M6r7ePIO127Oq5OIggb0ILZd_0dnjK-8m18%22%2Cnull%2C9%5D%2C%5B%22en%22%2C%22Mozilla%2F5.0%20(Windows%20NT%206.1)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F48.0.2564.103%20Safari%2F537.36%22%2C%221edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU%22%2Cnull%2C%5Bfalse%2Ctrue%5D%2Cfalse%2Cnull%2Cnull%2C1%2C%5B%5B5700032%2C5700016%2C5700056%2C5700019%2C5700055%2C5700028%2C5700042%5D%5D%2C7%2C%5B1%2C1%2C1%2C1%2C1%5D%2C%5Btrue%2Ctrue%5D%5D%2C%5B5%5D%2C%5B%5Bnull%2Cnull%2C%5B2%2C1%2C1%2C1%2Ctrue%2Ctrue%2Cfalse%2Cfalse%2Cfalse%2Cnull%2Cfalse%2Cfalse%2C2%2C3%2C1%2C%5Bnull%2C6%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Ctrue%5D%2C%5B1%2C%5B3%5D%5D%5D%2C%5B%22kix_2016.04-Tue_RC00%22%5D%2Cnull%2C1%2C2%2C%5B1454699751333000%2C0%2C0%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C0%2C1454699753004000%2C1454699754091000%2C1454699754351000%5D%5D%5D",
+            "params": [
+              {
+                "name": "impressionBatch",
+                "value": "%5B%5B%5B41%2C29030%2C62%2C1454707056513000%2C%5B%5B%5B893%2C371%2C1366%2C728%5D%2Cfalse%2C%5B%5D%2Cnull%2C1%2C4%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cfalse%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B16000%5D%5D%2C60%2Cnull%2C%5B%5B1454707056513000%5D%2Cnull%2C1%5D%2Cnull%2C29030%5D%5D%2C%5B%22CLChhPCq4coCFUc8PAodyKkBXw%22%2C1454699761307000%2C1454699752526000%2C%22ADFN-ctc2w2qu5UN1m2VWFhZWIL7o1Ay8wm5BaLW4M6r7ePIO127Oq5OIggb0ILZd_0dnjK-8m18%22%2Cnull%2C9%5D%2C%5B%22en%22%2C%22Mozilla%2F5.0%20(Windows%20NT%206.1)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F48.0.2564.103%20Safari%2F537.36%22%2C%221edZABHGFKmNIV27gacae0-4dXxhDPj-E2AejhjhWchU%22%2Cnull%2C%5Bfalse%2Ctrue%5D%2Cfalse%2Cnull%2Cnull%2C1%2C%5B%5B5700032%2C5700016%2C5700056%2C5700019%2C5700055%2C5700028%2C5700042%5D%5D%2C7%2C%5B1%2C1%2C1%2C1%2C1%5D%2C%5Btrue%2Ctrue%5D%5D%2C%5B5%5D%2C%5B%5Bnull%2Cnull%2C%5B2%2C1%2C1%2C1%2Ctrue%2Ctrue%2Cfalse%2Cfalse%2Cfalse%2Cnull%2Cfalse%2Cfalse%2C2%2C3%2C1%2C%5Bnull%2C6%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Ctrue%5D%2C%5B1%2C%5B3%5D%5D%5D%2C%5B%22kix_2016.04-Tue_RC00%22%5D%2Cnull%2C1%2C2%2C%5B1454699751333000%2C0%2C0%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C1454699752900000%2C0%2C1454699753004000%2C1454699754091000%2C1454699754351000%5D%5D%5D"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 204,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "status",
+              "value": "204"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 05 Feb 2016 21:18:20 GMT"
+            },
+            {
+              "name": "server",
+              "value": "GSE"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=604800; v=\"30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic,p=1"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 46
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.30500000159373,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.40199999966715994,
+          "wait": 1335.715999999589,
+          "receive": 3.0869999991448367,
+          "ssl": -1
+        },
+        "connection": "22835"
+      }
+    ]
+  }
+}
+
+
