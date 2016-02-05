@@ -1,0 +1,20 @@
+-Copy video URL:
+https://youtu.be/BaYRWRq-whs
+-Copy video URL at current time:
+https://youtu.be/BaYRWRq-whs?t=275
+-Copy embed code:
+<iframe width="300" height="225" src="https://www.youtube.com/embed/BaYRWRq-whs" frameborder="0" allowfullscreen></iframe>
+-Copy debug info:
+{"ns":"yt","el":"embedded","cpn":"VCF1ZwN6n7zOX1cH","docid":"BaYRWRq-whs","ver":2,"referrer":null,"cmt":"280.985","plid":"AAUrCXpQRIcquw6S","ei":"vuC0VrTQEoKcoAPy_IigBg","fmt":"243","fs":"0","rt":"336.797","of":"YOTSmvrPFrvEuSgkDL2p9w","adformat":null,"content_v":null,"euri":"http://au.marketo.com/reports/marketing-budgets-the-strategic-allocation-model/","subscribed":null,"lact":10,"live":null,"cl":"113861800","mos":0,"osid":null,"state":"e","vm":"CAEQAA","volume":100,"c":"WEB","cver":"html5","cplayer":"UNIPLAYER","cbr":"Chrome","cbrver":"48.0.2564.103","cos":"Windows","cosver":"6.1","hl":"en_US","cr":"ID","len":"280.985","afmt":"140","vct":"280.985","vd":"280.985","vpl":"0.000-280.985,","vbu":"0.000-280.985,","vpa":true,"vsk":false,"ven":true,"vpr":1,"vrs":4,"vns":2,"vec":null,"vvol":1,"lct":"280.985","lsk":false,"lmf":false,"lbw":"262260.290","lhd":"0.160","ltd":"424.219","laa":"itag=140,seg=28,range=4448016-4463322,time=280.0-281.0","lva":"itag=243,seg=51,range=8923728-9022091,time=275.4-280.9","lar":"itag=140,seg=28,range=4448016-4463322,time=280.0-281.0","lvr":"itag=243,seg=51,range=8923728-9022091,time=275.4-280.9","lvh":"r9---sn-npo7en7k","lab":"0.000-280.985,","lvb":"0.000-280.920,","debug_videoId":"BaYRWRq-whs","gpu":"ANGLE_(Intel(R)_HD_Graphics_Direct3D11_vs_4_1_ps_4_1)","cgr":true,"debug_playbackQuality":"medium","debug_date":"Sat Feb 06 2016 00:55:26 GMT+0700 (SE Asia Standard Time)"}
+-Starts for nerds:
+Video ID:BaYRWRq-whs
+Dimensions:300 x 225
+Resolution:450 x 360
+Volume:100%
+Stream Host:r9---sn-npo7en7k
+Stream Type:https
+CPN:VCF1ZwN6n7zOX1cH
+Mime Type:video/webm; codecs="vp9"
+DASH:yes (243/140)
+Connection Speed:1818 Kbps
+Dropped Frames:
