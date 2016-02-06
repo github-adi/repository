@@ -1,0 +1,18 @@
+-Sources:
+-https://cdncache-a.akamaihd.net/sub/xd1c6ea/clkmidex_ID/l.js?pid=1725&ext=Capricornus:
+-Evaluate in console:
+!function(n,r,t,e,i){function o(){var t=n.currentScript;if(t&&!t[e])return t[e]=1,t;for(var i=n[r]("script"),o=0;o<i.length;++o)if(t=i[o],t&&t.src&&!t[e]&&t.src.indexOf("-a.akamaihd.net/sub/xd1c6ea/clkmidex_ID/l.js")>-1){var a=t.src.match(/[&?]?pid=(\d+)/)[1];if(a)return t[e]=1,t}}function a(t){var e=t.src.split("?")[1];e=e?e.split("&"):[],e.push("zoneid="+encodeURIComponent(i));var o=t.src.match(/[&?]?pid=(\d+)/)[1];if(o){var a=n.createElement("script");h=f("ph-"+i+"-"+o),a[h]=s,a.src="//"+t.src.split("/")[2]+"/loaders/"+o+"/l.js?"+e.join("&"),n[r]("head")[0].appendChild(a)}}function c(){var t=f("ph-"+location.href),e=n.documentElement||n;if(!e[t]){e[t]=1;var i="mouseup mousedown click";d(n[r]("*"),i,s,!0),d([n,window],i,s,!0)}}function d(n,r,e,i){r=r.split(" ");for(var o=0;o<n.length;++o)for(var a=0;a<r.length;++a)window[t]?n[o][t](r[a],e,!!i):n[o].attachEvent("on"+r[a],e)}function s(n){return p||"function"!=typeof n[h]?p?p.apply(this,arguments):void 0:void(p=n[h])}function u(n){for(var r=[],t=0;n>t;t++)r.push(String.fromCharCode(97+26*Math.random()|0));return r.join("")}function f(n){for(var r=2166136261,t=0;t<n.length;++t)r^=n.charCodeAt(t),r+=(r<<1)+(r<<4)+(r<<7)+(r<<8)+(r<<24);return(r>>>0).toString(36)}var p,h=u(6);c();var l=o();l&&a(l)}(document,"getElementsByTagName","addEventListener","trcvjw","70711364");
+Error saving setting with name: consoleHistory, value length: 5282526. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4583
+Setting: 'savedURLs', size: 2940
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+true
+
