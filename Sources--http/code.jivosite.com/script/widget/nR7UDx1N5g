@@ -1,0 +1,53 @@
+-Sources:
+-http://code.jivosite.com/script/widget/nR7UDx1N5g:
+-Evaluate in console:
+if (typeof window.jivo_magic_var == "undefined"){var jivo_magic_var = 123321;
+window.jivo_config={"widget_id":"nR7UDx1N5g","site_id":194893,"widget_color":"#474747","widget_font_color":"light","widget_padding":"100","widget_height":"33","widget_orientation":"bottom","font_size":"16","font_family":"Arial","font_type":"normal","locale":"en_US","show_rate_form":1,"hide_ad":1,"secure":0,"contacts_ask":0,"style_string":"jivo_shadow jivo_rounded_corners jivo_gradient jivo_3d_effect jivo_border jivo_3px_border","chat_mode":0?"online":"offline","options":0,"hide_offline":0,"vox_login":"jivosite@chat.jivosite.voximplant.com","avatar_url":"\/\/s3-eu-west-1.amazonaws.com\/jivo-userdata","online_widget_label":"Contact us, we are online!","offline_widget_label":"Send us message","offline_form_text":"Leave the message in this form, and we receive it on e-mail and","base_url":"\/\/code3.jivosite.com","static_host":"cdn.jivosite.com\/v3","comet":{"host":"node23.jivosite.com"},"contacts_settings":{"name":{"show":true,"required":false},"phone":{"show":true,"required":false},"email":{"show":true,"required":true}}};
+(function(){
+var sc = document.getElementsByTagName("script");
+var iA = sc[0];
+var se = document.createElement("script");
+se.type = "text/javascript"; se.async = true; se.charset="UTF-8";
+iA.parentNode.insertBefore(
+se,
+iA
+).src = "//cdn.jivosite.com/v3/js/widget_"+jivo_config.locale+".js?rand=1453902277";
+})();};
+Error saving setting with name: consoleHistory, value length: 6086392. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4091
+Setting: 'savedURLs', size: 3473
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 3514. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4091
+Setting: 'savedURLs', size: 3473
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 3555. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4091
+Setting: 'savedURLs', size: 3473
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+
