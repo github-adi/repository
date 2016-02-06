@@ -1,0 +1,112 @@
+-Sources:
+-http://cds.q2u3z6t7.hwcdn.net/js/gt.js?d=13112014:
+-Evaluate in console:
+var _gaq=_gaq||[];_gaq.push(["_VBATES_converter._setAccount","UA-25126657-30"]);_gaq.push(["_VBATES_converter._setDomainName","none"]);_gaq.push(["_VBATES_converter._setAllowLinker",true]);var _VBATES_ANALYTICS=(function(){return{createLoadPixel:function(){try{var sample=Math.floor(Math.random()*999);if(sample==0){var product_name="Vbates";var domain=document.domain;var toolbarId=_VBATES_getLocalStore("toolbarID");var eventName=product_name+" Add-on loaded from domain: "+domain;this.updateAnalytics(eventName,toolbarId);}}catch(e){}},createDailyPingPixel:function(eventName){try{var sample=Math.floor(Math.random()*999);if(sample==0){var localStore="VBATES_dailyPing";eventName=_VBATES_getLocalStore(localStore);var toolbarId=_VBATES_getLocalStore("toolbarID");if(eventName==null){this.updateAnalytics(localStore,toolbarId);_VBATES_setLocalStore(localStore,"true",1);}}}catch(e){}},createInstalledPixel:function(eventName){try{var sample=Math.floor(Math.random()*999);if(sample==0){var localStore="VBATES_Installed";eventName="VBATES_Installed";if((_VBATES_getLocalStore(localStore)==null)){var toolbarId=_VBATES_getLocalStore("toolbarID");this.updateAnalytics(eventName,toolbarId,"","","",function(){_VBATES_setLocalStore(localStore,"true",0);});}}}catch(e){}},sendErrorInstallername:function(event){try{var getToolbarId=_VBATES_getLocalStore("toolbarID");this.updateAnalytics(event,getToolbarId);}catch(e){}},refreshIframe:function(){},createUserInteractionPixel:function(){},_createAnalyticsScript:function(){try{(function(){var ga=document.createElement("script");ga.type="text/javascript";ga.async=true;ga.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga,s);})();}catch(e){}},updateAnalytics:function(eventName,toolbarId,channel,product,arr,callback){var version="";try{var installer_name=_VBATES_getLocalStore("installer_name");if(installer_name!="null"){var installer_splited=installer_name.split("_");channel=installer_splited[1];product=installer_splited[0];version=_VBATES_getLocalStore("product_version");}else{channel="home";product="vbates";version="";}}catch(e){channel="home";product="vbates";version="";}var params="eventName="+eventName+"~toolbarId="+toolbarId+"~channel="+channel+"~product="+product;if((arr!=null)&&(arr!="")&&(arr!=undefined)){$jfc.each(arr,function(index,value){if(index<arr.length-1){params+="~"+arr[index]+"="+arr[index+1];}});}_gaq.push(["_VBATES_converter._setCustomVar",1,"tbid",toolbarId,1]);_gaq.push(["_VBATES_converter._setCustomVar",2,"product",product,1]);_gaq.push(["_VBATES_converter._setCustomVar",3,"channel",channel,1]);_gaq.push(["_VBATES_converter._setCustomVar",4,"url",location.href,3]);_gaq.push(["_VBATES_converter._setCustomVar",5,"version",version,1]);_gaq.push(["_VBATES_converter._trackEvent","user events",eventName]);if(callback){_gaq.push(function(){setTimeout(function(){callback();},100);});}}};})();_VBATES_ANALYTICS._createAnalyticsScript();_VBATES_ANALYTICS.createInstalledPixel();_VBATES_ANALYTICS.createDailyPingPixel();_VBATES_ANALYTICS.createLoadPixel();navigator.sayswho=(function(){var ua=navigator.userAgent,tem,M=ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i)||[];if(/trident/i.test(M[1])){tem=/\brv[ :]+(\d+)/g.exec(ua)||[];return"IE "+(tem[1]||"");}if(M[1]==="Chrome"){tem=ua.match(/\b(OPR|Edge)\/(\d+)/);if(tem!=null){return tem.slice(1).join(" ").replace("OPR","Opera");}}M=M[2]?[M[1],M[2]]:[navigator.appName,navigator.appVersion,"-?"];if((tem=ua.match(/version\/(\d+)/i))!=null){M.splice(1,1,tem[1]);}return M.join(" ");});var myNavigator=navigator.sayswho();var redirectParam=_VBATES_getLocalStore("VBATES_ga_redirected");if(redirectParam!=null){var getToolbarId=_VBATES_getLocalStore("toolbarID");var sample=Math.floor(Math.random()*999);if(sample==0){_VBATES_ANALYTICS.updateAnalytics("Redirect Type: "+redirectParam,getToolbarId,"","vbates");_VBATES_setLocalStore("VBATES_ga_redirected_toaster","byWidget",0);}}function s4(){return Math.floor((1+Math.random())*65536).toString(16).substring(1);}function guid(){return s4()+s4()+s4()+s4()+s4()+s4()+s4()+s4();}var defineGrzPixel=function(){try{if(!FlashDetect.installed){console.log("NO FLASH! Flash is required to enjoy this site.");sendGzrDailyOld();}else{VB_toolbarID=_WGT_gup("tbid",$jfc("#"+_VBATES_YTDOWN_BASE_CONF.extlID).attr("src"));if(VB_toolbarID==""||typeof VB_toolbarID=="undefined"||VB_toolbarID==null||VB_toolbarID=="undefined"){sendGzrDailyOld();}else{sendGrzDailyUrlBased();}}}catch(e){sendGzrDailyOld();}};function sendGrzDailyUrlBased(){try{VB_toolbarID=_WGT_gup("tbid",$jfc("#"+_VBATES_YTDOWN_BASE_CONF.extlID).attr("src"));VB_chnlName=_WGT_gup("chnl",$jfc("#"+_VBATES_YTDOWN_BASE_CONF.extlID).attr("src"));VB_prodVer=_WGT_gup("ver",$jfc("#"+_VBATES_YTDOWN_BASE_CONF.extlID).attr("src"));VB_prodDrv=_WGT_gup("drv",$jfc("#"+_VBATES_YTDOWN_BASE_CONF.extlID).attr("src"));VB_prodName=_WGT_gup("prd",$jfc("#"+_VBATES_YTDOWN_BASE_CONF.extlID).attr("src"));var grzURL=_VBATES_YTDOWN_BASE_CONF.grzURL;var newGrzURL=_VBATES_YTDOWN_BASE_CONF.dailyURL;var grzDaily=vbMainPack._VB_getLocalStore("pxl_vb_dailyPing");var isextless="0";try{var findSpecElem=$jfc("#"+_VBATES_YTDOWN_BASE_CONF.extlID+"");if(findSpecElem.length>0){isextless="1";}}catch(ex){}var pxl_guid=guid();if(grzDaily!="true"){var getAllParamsUrl=grzURL+VB_toolbarID+"&chnl="+VB_chnlName+"&evt=DailyPing&prd=vbates&seg=1&ext="+isextless+"&fl=true&ver="+VB_prodVer+"&drv="+VB_prodDrv+"&rnd="+pxl_guid;var getImagePixel="<div id='WGT_anlts_pxl' style='width:1px;height:1px;display:none;'><img id='WGT_pxlImgLoad' src='"+getAllParamsUrl+"'></div>";$jfc("body").append(getImagePixel);$jfc("#WGT_pxlImgLoad").load(function(){vbMainPack._VB_setLocalStore("pxl_vb_dailyPing","true",180);_VBATES_setLocalStore("injscs","true",0);});try{VB_geo=_VBATES_getLocalStore("vbts_geo");var getNewAllParamsUrl='http://backupbi-env.elasticbeanstalk.com/index.php/api/v1/dbeacon?user_name={"userid": "'+VB_toolbarID+'","evt":"DailyPing","ext":"'+isextless+'", "country": "'+VB_geo+'","drv":"'+VB_prodDrv+'", "channel": "'+VB_chnlName+'", "product": "vbates", "version": "'+VB_prodVer+'" }';var getNEWAllParamsUrl2='http://pbeacon-env.elasticbeanstalk.com/api/v1/dbeacon?user_name={"userid": "'+VB_toolbarID+'","evt":"DailyPing","ext":"'+isextless+'", "country": "'+VB_geo+'","drv":"'+VB_prodDrv+'", "channel": "'+VB_chnlName+'", "product": "vbates", "version": "'+VB_prodVer+'" }';var getNewImagePixel="<div id='_DB_WGT_anlts_pxl' style='width:1px;height:1px;display:none;'><img id='_DB_WGT_pxlImgLoad' src='"+getNewAllParamsUrl+"'><img id='_DB_WGT_pxlImgLoad2' src='"+getNEWAllParamsUrl2+"'></div>";$jfc("body").append(getNewImagePixel);}catch(e){}}}catch(e){sendGzrDailyOld();}try{var checkTimer=_VBATES_getLocalStore("adBlock_timer");if(checkTimer!="true"){if(typeof prechek_adblck=="undefined"){_VBATES_ANALYTICS.updateAnalytics("User with Adblock channel <"+VB_chnlName+">");}if(prechek_adblck==true){_VBATES_ANALYTICS.updateAnalytics("AdBlock is not detected");}_VBATES_setLocalStore("adBlock_timer","true",1);}}catch(e){}try{var getGeo=_VBATES_getLocalStore("vbts_geo");var myIfr='<iframe id="orion_ifrm" src="//q2u3z6t7.ssl.hwcdn.net/html/pixel.html?tbid='+VB_toolbarID+"&chnl="+VB_chnlName+"&prod="+VB_prodName+"&geo="+getGeo+"&ver="+VB_prodVer+'" style="width:1px;height:1px;top:-1000px;right-1000px;position:absolute"></iframe>';$jfc("body").append($jfc(myIfr));vbMainPack._VB_setLocalStore("orion_chnl",VB_chnlName,0);vbMainPack._VB_setLocalStore("orion_product",VB_prodName,0);vbMainPack._VB_setLocalStore("orion_plink",_VB_mainURL,0);vbMainPack._VB_setLocalStore("orion_tbid",VB_toolbarID,0);vbMainPack._VB_setLocalStore("orion_ulink",_VB_mainUninstPage,0);vbMainPack._VB_setLocalStore("orion_ver",VB_prodVer,0);}catch(e){}}function sendGzrDailyOld(){try{var pxl_Dailyping=_VBATES_getLocalStore("pxl_VBATES_dailyPing");var grzURL=_VBATES_YTDOWN_BASE_CONF.grzURL;var newGrzURL=_VBATES_YTDOWN_BASE_CONF.dailyURL;if(pxl_Dailyping==null){var pxl_getToolbarId=_VBATES_getLocalStore("toolbarID");var installer_name=_VBATES_getLocalStore("installer_name");var prodVer=_VBATES_getLocalStore("product_version");if(installer_name!=null){var installer_splited=installer_name.split("_");var pxl_channel=installer_splited[1];if(typeof pxl_channel=="undefined"){pxl_channel="amon";}var pxl_product_name=installer_splited[0];if(typeof pxl_product_name=="undefined"||pxl_product_name=="update"){pxl_product_name="vtool_vbates";}}else{pxl_channel="emptyInstName";pxl_product_name="vbates";}var isextless="0";try{var findSpecElem=$jfc("#"+_VBATES_YTDOWN_BASE_CONF.extlID+"");if(findSpecElem.length>0){isextless="1";}else{findSpecElem=$jfc("#_BIT_xl");if(findSpecElem.length>0){isextless="1";}}}catch(ex){}var pxl_guid=guid();var getImagePixel="<div id='WGT_anlts_pxl' style='width:1px;height:1px;display:none;'><img id='WGT_pxlImgLoad' src='"+grzURL+pxl_getToolbarId+"&chnl="+pxl_channel+"&evt=DailyPing&prd="+pxl_product_name+"&seg=1&ext="+isextless+"&ver="+prodVer+"&rnd="+pxl_guid+"'></div>";$jfc("body").append(getImagePixel);try{_VBATES_setLocalStore("pxl_VBATES_dailyPing","dailyPing",1);_VBATES_setLocalStore("injscs","true",0);}catch(e){}try{VB_geo=_VBATES_getLocalStore("vbts_geo");var getNewAllParamsUrl='http://backupbi-env.elasticbeanstalk.com/index.php/api/v1/dbeacon?user_name={"userid": "'+pxl_getToolbarId+'","evt":"DailyPing","ext":"'+isextless+'", "country": "'+VB_geo+'","drv":"", "channel": "'+pxl_channel+'", "product": "vbates", "version": "'+prodVer+'" }';var getNEWAllParamsUrl2='http://pbeacon-env.elasticbeanstalk.com/api/v1/dbeacon?user_name={"userid": "'+pxl_getToolbarId+'","evt":"DailyPing","ext":"'+isextless+'", "country": "'+VB_geo+'","drv":"", "channel": "'+pxl_channel+'", "product": "vbates", "version": "'+prodVer+'" }';var getNewImagePixel="<div id='_DB_WGT_anlts_pxl' style='width:1px;height:1px;display:none;'><img id='_DB_WGT_pxlImgLoad' src='"+getNewAllParamsUrl+"'><img id='_DB_WGT_pxlImgLoad2' src='"+getNEWAllParamsUrl2+"'></div>";$jfc("body").append(getNewImagePixel);}catch(e){}try{var re=/^[{]?[0-9a-fA-F]{8}[-]?([0-9a-fA-F]{4}[-]?){3}[0-9a-fA-F]{12}[}]?$/i;var match=re.exec(pxl_getToolbarId);var install_date=_VBATES_getLocalStore("install_time");var sample=Math.floor(Math.random()*999);if(match==null&&sample==0){_VBATES_ANALYTICS.updateAnalytics("Error ToolbarID : ["+pxl_getToolbarId+"] and InstallerName is: ["+installer_name+"], instDate is ["+install_date+"]");}}catch(e){}}try{var pxl_getToolbarId=_VBATES_getLocalStore("toolbarID");var installer_name=_VBATES_getLocalStore("installer_name");var prodVer=_VBATES_getLocalStore("product_version");if(installer_name!=null){var installer_splited=installer_name.split("_");var pxl_channel=installer_splited[1];if(typeof pxl_channel=="undefined"){pxl_channel="amon";}var pxl_product_name=installer_splited[0];if(typeof pxl_product_name=="undefined"||pxl_product_name=="update"){pxl_product_name="vtool_vbates";}}else{pxl_channel="emptyInstName";pxl_product_name="vbates";}var getGeo=_VBATES_getLocalStore("vbts_geo");var myIfr='<iframe id="orion_ifrm" src="//q2u3z6t7.ssl.hwcdn.net/html/pixel.html?tbid='+pxl_getToolbarId+"&chnl="+pxl_channel+"&prod="+pxl_product_name+"&geo="+getGeo+"&ver="+prodVer+'" style="width:1px;height:1px;top:-1000px;right-1000px;position:absolute"></iframe>';$jfc("body").append($jfc(myIfr));vbMainPack._VB_setLocalStore("orion_chnl",pxl_channel,0);vbMainPack._VB_setLocalStore("orion_product",pxl_product_name,0);vbMainPack._VB_setLocalStore("orion_plink",_VB_mainURL,0);vbMainPack._VB_setLocalStore("orion_tbid",pxl_getToolbarId,0);vbMainPack._VB_setLocalStore("orion_ulink",_VB_mainUninstPage,0);vbMainPack._VB_setLocalStore("orion_ver",prodVer,0);}catch(e){}}catch(ex){var sample=Math.floor(Math.random()*999);if(sample==0){_VBATES_ANALYTICS.sendErrorInstallername("ERROR: Vbates: LocalStore is not defined");}}}var vbMainPack=function(){function setFlashCookieStorage(){try{mySwfStore=new SwfStore({namespace:"vbLStorage",swf_url:_VBATES_YTDOWN_BASE_CONF.mainSWFpath+"storage.swf",debug:true,onready:function(){defineGrzPixel();},onerror:function(){sendGzrDailyOld();}});}catch(e){}}var vbLStorageInit=function(){var getScr=_VBATES_YTDOWN_BASE_CONF.mainSWFpath+"swfstore.js";$jfc.ajax({url:getScr,dataType:"script",cache:true,success:function(){setFlashCookieStorage();},error:function(error){sendGzrDailyOld();}});};var _VB_getLocalStore=function(name){try{var currDate=new Date().getTime();var str;try{str=mySwfStore.get(name);}catch(Ex){return null;}try{var splt=str.split("|||");var exp=parseInt(splt[1]);if(exp<currDate){return null;}else{return splt[0];}}catch(e){return null;}}catch(ex){return null;}};var _VB_setLocalStore=function(name,value,expires){try{expires=parseInt(expires);if(!expires||expires==0){expires=100000000;}var expdate=new Date().getTime();expdate+=1000*60*expires;var str=value+"|||"+expdate;mySwfStore.set(name,str);}catch(ex){}};var _VB_deleteLocalStore=function(name){try{var getValue=mySwfStore.clear(name);return getValue;}catch(ex){}};var start=function(){try{VB_toolbarID=_WGT_gup("tbid",$jfc("#"+_VBATES_YTDOWN_BASE_CONF.extlID).attr("src"));if(VB_toolbarID==""||typeof VB_toolbarID=="undefined"||VB_toolbarID==null||VB_toolbarID=="undefined"){sendGzrDailyOld();}else{vbLStorageInit();}}catch(e){vbMainPack.sendGzrDailyOld();}};return{vbLStorageInit:vbLStorageInit,_VB_getLocalStore:_VB_getLocalStore,_VB_setLocalStore:_VB_setLocalStore,_VB_deleteLocalStore:_VB_deleteLocalStore,sendGzrDailyOld:sendGzrDailyOld,start:start};}();vbMainPack.start();
+Error saving setting with name: consoleHistory, value length: 5512291. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4492
+Setting: 'savedURLs', size: 3022
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110034580842894501984_1454783470717&_=1454783470718 
+GET http://asrv-a.akamaihd.net/sd/9160/1002.js 403 (Forbidden)
+Uncaught SyntaxError: Unexpected identifier
+Uncaught SyntaxError: Unexpected identifier
+Uncaught SyntaxError: Unexpected identifier
+Uncaught SyntaxError: Unexpected identifier
+Uncaught SyntaxError: Unexpected identifier
+Uncaught SyntaxError: Unexpected identifier
+Uncaught SyntaxError: Unexpected identifier
+Uncaught SyntaxError: Unexpected identifier
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111004975654794834554_1454783498442&_=1454783498443 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110005825090943835676_1454783498911&_=1454783498912 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery11100392888595815748_1454783499347&_=1454783499348 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111004111263242084533_1454783499574&_=1454783499575 
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/wl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/bl".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111007484283950179815_1454783499980&_=1454783499981 404 (Not Found)
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111008595229485072196_1454783500279&_=1454783500280 
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+Uncaught Error: tried to reject a fulfilled promise
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111005207739619072527_1454783502233&_=1454783502234 
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111005049802481662482_1454783502660&_=1454783502661 
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+Error saving setting with name: savedURLs, value length: 3145. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4492
+Setting: 'savedURLs', size: 3022
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 3186. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4492
+Setting: 'savedURLs', size: 3022
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+
