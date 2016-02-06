@@ -1,0 +1,12 @@
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110013073203363455832_1454766886455&_=1454766886456 
+Error saving setting with name: savedURLs, value length: 2899. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4773
+Setting: 'savedURLs', size: 2858
+Setting: 'breakpoints', size: 227
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'fileSystemMapping', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
