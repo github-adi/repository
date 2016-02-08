@@ -1,0 +1,31 @@
+-Sources:
+-http://nps.pastaleads.com/npsb/injmon.js?OriginId=8143692D-C40F-E311-A28E-001517D10F6E:
+-Evaluate in console:
+(function(){var n={HtmlPath:"npsb/direct/data/mon.html",IsLocal:!1,FullDomain:"",CdnDomain:"",OriginId:"",IsHttps:!1,ProductName:"",UserId:"",ProductName:"",ParamUrl:"",iframe:null,InjectionCollection:[{id:"9369ce55-c288-4214-b78c-8bb07a9bf802",FuncUrl:function(){return"//www.adnetworkperformance.com/a/display.php?r=1034873&sub1="+n.OriginId},FuncBefore:null,BlockWithUs:!1},{id:"ac1b86f2-3303-44eb-989b-1424d2621c13",FuncUrl:function(){return"//www.tr553.com/InterYield/bindevent.do?e=click&affiliate=sysiyinc&subid="+n.OriginId+"&ecpm=0&debug=false&snoozeMinutes=3&adCountIntervalHours=24&maxAdCountsPerInterval=12&endpoint=https%3A%2F%2Fwww.tr553.com"},FuncBefore:null,BlockWithUs:!1},{id:"fd5f0ab9-d82e-45a4-9a85-b14fad4ec9b0",FuncUrl:function(){return"//cdn.visadd.com/script/14567725396/preload.js?subid="+n.OriginId+"&pr=&um=&umu=sushileads.com"},FuncBefore:null,BlockWithUs:!1}],SpecialInjection:[{originid:"",injections:[1]},{originid:"002c3942-2306-e211-8a14-001517d1792a",injections:[0,1]},{originid:"5fb64bdb-aa6d-e411-b45d-001517d1792a",injections:[0,1]},{originid:"e8a4a23a-b034-e211-a9a0-001517d10f6e",injections:[0,1]},{originid:"ba7bd42e-26a3-e511-b9e7-001517d1792a",injections:[0,1]},{originid:"8143692d-c40f-e311-a28e-001517d10f6e",injections:[0,2]},{originid:"3dcc3e73-e538-e411-b45d-001517d1792a",injections:[0,1]},{originid:"82a01316-26bd-4e96-b657-402168dd70b2",injections:[0,1]}],GetCleanOriginId:function(){for(var t=n.OriginId;t.indexOf("-")>-1;)t=t.replace("-","");return t},GetIframePath:function(){return"//"+n.CdnDomain+"/"+n.HtmlPath+"?"+n.ParamUrl},GetMessageOrigin:function(){return window.location.protocol+"//"+n.CdnDomain},init:function(){n.SetJsParams();n.SetConversion();n.AddIframe()},SetJsParams:function(){for(var e=document.getElementsByTagName("script"),r,i,c,o,f,t,u=0;u<e.length;u++)if(e[u].src.indexOf("/npsb/injmon.js")>-1){r=e[u];break}if(i=r.src.indexOf("?"),i>-1)for(c=r.src.substr(i+1),o=c.split("&"),f=0;f<o.length;f++)(t=o[f].split("="),t.length==2)&&(t[0].toLowerCase()=="originid"&&t[1].length>0?n.OriginId=t[1].toLowerCase():t[0].toLowerCase()=="useruniqueid"?n.UserId=t[1]:t[0].toLowerCase()=="productname"&&(n.ProductName=t[1]),n.ParamUrl+=t[0]+"="+t[1]+"&");if(r){n.IsHttps=window.location.protocol=="https:";n.ParamUrl+="domain="+window.location.host;var i=r.src.indexOf("//")+2,s=r.src.substr(i),h=s.indexOf("/");h==-1&&(h=s.length);n.CdnDomain=s.substr(0,h);i=n.CdnDomain.indexOf(".")+1;n.FullDomain=(n.IsLocal?"":"app.")+n.CdnDomain.substr(i);n.ProductName.length==0&&(n.ProductName=n.CdnDomain.indexOf("donutleads.com")>-1?"Donutleads":"Pastaleads")}},AddIframe:function(){var i=document.getElementsByTagName("body"),t;i.length!=0&&(t=document.createElement("iframe"),t.setAttribute("width","1"),t.setAttribute("height","1"),t.setAttribute("style","display: none; position: absolute; top: -100px; left: -100px;"),t.setAttribute("src",n.GetIframePath()),i[0].appendChild(t),n.iframe=t)},SetConversion:function(){window.addEventListener?window.addEventListener("message",function(t){n.GetMessage(t)},!1):window.attachEvent&&window.attachEvent("onmessage",function(t){n.GetMessage(t)})},GetMessage:function(t){if(t.origin==n.GetMessageOrigin()){var i=eval("("+t.data+")");i.selector=="ToInject"&&typeof i.ToInject=="boolean"&&i.ToInject&&n.Inject()}},Inject:function(){for(var u=n.GetIndexToInject(),t,r=0;r<u.length;r++){if(t=n.InjectionCollection[u[r]],typeof t.FuncUrl!="function")return;typeof t.FuncBefore=="function"&&t.FuncBefore();var e=(n.IsHttps?"https:":"http:")+"//"+n.CdnDomain+"/npsb/Callback/tick.ashx?originid="+n.OriginId+"&injectionid="+t.id,o=t.FuncUrl(),f=document.getElementsByTagName("script")[0],i=document.createElement("script");i.type="text/javascript";i.async=!0;i.src=o;n.GetPixel(i,e);f.parentNode.insertBefore(i,f)}},GetIndexToInject:function(){for(var i,t=0;t<n.SpecialInjection.length;t++)if(n.SpecialInjection[t].originid=="")i=n.SpecialInjection[t].injections;else if(n.SpecialInjection[t].originid==n.OriginId){i=n.SpecialInjection[t].injections;break}return i},GetPixel:function(n,t){n.addEventListener?n.addEventListener("load",function(){var n=new Image;n.src=t},!1):n.attachEvent("onload",function(){var n=new Image;n.src=t})}};n.init()})()
+Error saving setting with name: consoleHistory, value length: 5242045. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4052
+Setting: 'savedURLs', size: 3514
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Refused to load the script 'http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46…&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval'                   *.ppcnp.com https://*.ppcnp.com *.noproblemppc.com https://*.noproblemppc.com                  *.sushileads.com https://*.sushileads.com *.pastaleads.com https://*.pastaleads.com *.bbqleads.com https://*.bbqleads.com                  *.donutleads.com https://*.donutleads.com connect.facebook.net https://connect.facebook.net https://www.facebook.com https://graph.facebook.com                   https://*.adroll.com *.adroll.com".
+
+Error saving setting with name: savedURLs, value length: 3555. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4052
+Setting: 'savedURLs', size: 3514
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
