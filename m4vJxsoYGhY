@@ -1,0 +1,20 @@
+-Copy video URL:
+https://youtu.be/m4vJxsoYGhY
+-Copy video URL at current time:
+https://youtu.be/m4vJxsoYGhY?t=35
+-Copy embed code:
+<iframe width="640" height="480" src="https://www.youtube.com/embed/m4vJxsoYGhY" frameborder="0" allowfullscreen></iframe>
+-Copy debug info:
+{"ns":"yt","el":"embedded","cpn":"V_4sJip2nqvPFqr0","docid":"m4vJxsoYGhY","ver":2,"referrer":null,"cmt":"35.401","plid":"AAUrWp0Kl6cjNJPO","ei":"-TG6VoWkC6CXoAPF7qbICg","fmt":"247","fs":"0","rt":"237.677","of":"YOTSmvrPFrvEuSgkDL2p9w","adformat":null,"content_v":null,"euri":"http://arstechnica.com/security/2016/02/ebay-has-no-plans-to-fix-severe-bug-that-allows-malware-distribution/?utm_source=hs_emai","subscribed":null,"lact":1,"live":null,"cl":"114145475","mos":0,"osid":null,"state":"e","vm":"CAEQAA","volume":100,"c":"WEB","cver":"html5","cplayer":"UNIPLAYER","cbr":"Chrome","cbrver":"48.0.2564.103","cos":"Windows","cosver":"6.1","hl":"en_US","cr":"ID","len":"35.401","fexp":"3300132,3300164,3312381,9407196,9408537,9416126,9417058,9420452,9422596,9423455,9423485,9423660,9423662,9424559,9425974,9426943,9426977,9427167,9427272,9428092","afmt":"250","vct":"35.401","vd":"35.401","vpl":"0.000-35.401,","vbu":"0.000-35.401,","vpa":true,"vsk":false,"ven":true,"vpr":1,"vrs":4,"vns":2,"vec":null,"vvol":1,"lct":"35.401","lsk":false,"lmf":false,"lbw":"173123.828","lhd":"0.393","ltd":"1236.213","laa":"itag=250,seg=3,range=13883-16345,time=30.0-35.4","lva":"itag=247,seg=6,range=2709345-2729679,time=32.0-35.4","lar":"itag=250,seg=3,range=13883-16345,time=30.0-35.4","lvr":"itag=247,seg=6,range=2709345-2729679,time=32.0-35.4","lvh":"r15---sn-npo7en7d","lab":"0.000-35.401,","lvb":"0.000-35.400,","debug_videoId":"m4vJxsoYGhY","gpu":"ANGLE_(Intel(R)_HD_Graphics_Direct3D11_vs_4_1_ps_4_1)","cgr":true,"debug_playbackQuality":"medium","debug_date":"Wed Feb 10 2016 01:41:43 GMT+0700 (SE Asia Standard Time)"}
+-Starts for nerds:
+Video ID:m4vJxsoYGhY
+Dimensions:640 x 480
+Resolution:406 x 720@30
+Volume:100%
+Stream Host:r15---sn-npo7en7d
+Stream Type:https
+CPN:V_4sJip2nqvPFqr0
+Mime Type:video/webm; codecs="vp9"
+DASH:yes (247/250)
+Connection Speed:1187 Kbps
+Dropped Frames:93/1058
