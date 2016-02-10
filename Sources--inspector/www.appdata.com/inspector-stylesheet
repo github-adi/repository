@@ -1,0 +1,40 @@
+-Sources:
+-inspector://www.appdata.com/inspector-stylesheet:
+-Evaluate in console:
+Error saving setting with name: previouslyViewedFiles, value length: 5561. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4052
+Setting: 'savedURLs', size: 3514
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 3965. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4052
+Setting: 'savedURLs', size: 3514
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 4006. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5234863
+Setting: 'previouslyViewedFiles', size: 4052
+Setting: 'savedURLs', size: 3514
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 13
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+
