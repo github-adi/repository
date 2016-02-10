@@ -1,0 +1,30 @@
+-Network:
+-Response:
+-cURL(cmd):
+curl "http://ecpmrocks.com/vast.xml?key=4624a3cf02f00234360e60763173fa75&vastv=3.0&cp.id=sdErXk&cp.title=Freeride"%"20is"%"20Awesome"%"20Ep.1&cp.duration=4:51&cp.desc=Best"%"20of"%"20Freeride"%"20Downhill"%"20Compilation"%"202014"%"20Ep.1&cp.page=4RmfQd/&cp.random=4227&cp.d=videosupreme.com&cp.dr=http"%"3A"%"2F"%"2Fvideosupreme.com"%"2FsdErXk"%"2F&cb2=1455121437579" -H "Origin: http://videosupreme.com" -H "Referer: http://videosupreme.com/embed/sdErXk/?random=4227&new=n&hash=MjM5IzYyMiMxMzEjMTQyMzh8MTY5NDF8SUR8M3wxfGNsa21pZGV4X1tnZW9dX2FwcGRhdGEuY29tfHw" -H "User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36" --compressed
+-cURL(bash):
+curl 'http://ecpmrocks.com/vast.xml?key=4624a3cf02f00234360e60763173fa75&vastv=3.0&cp.id=sdErXk&cp.title=Freeride%20is%20Awesome%20Ep.1&cp.duration=4:51&cp.desc=Best%20of%20Freeride%20Downhill%20Compilation%202014%20Ep.1&cp.page=4RmfQd/&cp.random=4227&cp.d=videosupreme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FsdErXk%2F&cb2=1455121437579' -H 'Origin: http://videosupreme.com' -H 'Referer: http://videosupreme.com/embed/sdErXk/?random=4227&new=n&hash=MjM5IzYyMiMxMzEjMTQyMzh8MTY5NDF8SUR8M3wxfGNsa21pZGV4X1tnZW9dX2FwcGRhdGEuY29tfHw' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36' --compressed
+-Link Address:
+http://ecpmrocks.com/vast.xml?key=4624a3cf02f00234360e60763173fa75&vastv=3.0&cp.id=sdErXk&cp.title=Freeride%20is%20Awesome%20Ep.1&cp.duration=4:51&cp.desc=Best%20of%20Freeride%20Downhill%20Compilation%202014%20Ep.1&cp.page=4RmfQd/&cp.random=4227&cp.d=videosupreme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FsdErXk%2F&cb2=1455121437579
+General:
+Request URL:http://ecpmrocks.com/vast.xml?key=4624a3cf02f00234360e60763173fa75&vastv=3.0&cp.id=sdErXk&cp.title=Freeride%20is%20Awesome%20Ep.1&cp.duration=4:51&cp.desc=Best%20of%20Freeride%20Downhill%20Compilation%202014%20Ep.1&cp.page=4RmfQd/&cp.random=4227&cp.d=videosupreme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FsdErXk%2F&cb2=1455121437579
+Request Headers
+Provisional headers are shown
+Origin:http://videosupreme.com
+Referer:http://videosupreme.com/embed/sdErXk/?random=4227&new=n&hash=MjM5IzYyMiMxMzEjMTQyMzh8MTY5NDF8SUR8M3wxfGNsa21pZGV4X1tnZW9dX2FwcGRhdGEuY29tfHw
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+key:4624a3cf02f00234360e60763173fa75
+vastv:3.0
+cp.id:sdErXk
+cp.title:Freeride is Awesome Ep.1
+cp.duration:4:51
+cp.desc:Best of Freeride Downhill Compilation 2014 Ep.1
+cp.page:4RmfQd/
+cp.random:4227
+cp.d:videosupreme.com
+cp.dr:http://videosupreme.com/sdErXk/
+cb2:1455121437579
+Name	
