@@ -1,0 +1,21 @@
+-Copy video URL:
+https://youtu.be/UcN7SGGoCNI
+-Copy video URL at current time:
+https://youtu.be/UcN7SGGoCNI
+-Copy embed code:
+<iframe width="300" height="225" src="https://www.youtube.com/embed/UcN7SGGoCNI" frameborder="0" allowfullscreen></iframe>
+https://jsfiddle.net/adinugroho/c2jhbjkr/?utm_source=website&utm_medium=embed&utm_campaign=c2jhbjkr
+-Copy debug info:
+{"ns":"yt","el":"embedded","cpn":"JmYZjF1I3jBvUwWI","docid":"UcN7SGGoCNI","ver":2,"referrer":null,"cmt":"0","plid":null,"ei":"Pr68VqXRFcKfoAPH76XwCA","fmt":null,"fs":"0","rt":"0.012","of":null,"adformat":null,"content_v":null,"euri":"https://news.microsoft.com/id-id/2015/12/16/bca-bekerja-sama-dengan-microsoft-hadirkan-fasilitas-mobile-learning-bagi-karyawan/","subscribed":null,"lact":289,"live":null,"cl":"","mos":0,"osid":null,"state":"40","vm":null,"volume":100,"c":"WEB","cver":"html5","cplayer":"UNIPLAYER","cbr":"Chrome","cbrver":"48.0.2564.109","cos":"Windows","cosver":"6.1","hl":"en_US","cr":"ID","len":"341","vct":"0.000","vd":"NaN","vpl":"","vbu":"","vpa":true,"vsk":false,"ven":false,"vpr":1,"vrs":0,"vns":0,"vec":null,"vvol":1,"debug_videoId":"UcN7SGGoCNI","gpu":"ANGLE_(Intel(R)_HD_Graphics_Direct3D11_vs_4_1_ps_4_1)","cgr":true,"debug_playbackQuality":"unknown","debug_date":"Fri Feb 12 2016 00:11:48 GMT+0700 (SE Asia Standard Time)"}
+-Nerds:
+Video ID:UcN7SGGoCNI
+Dimensions:300 x 225
+Resolution:0 x 0
+Volume:100%
+Stream Host:
+Stream Type:https
+CPN:JmYZjF1I3jBvUwWI
+Mime Type:
+DASH:no
+Connection Speed:0 Kbps
+Dropped Frames:
