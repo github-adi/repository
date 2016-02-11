@@ -1,0 +1,43 @@
+-Network:
+-cURL(cmd):
+curl "http://ecpmrocks.com/vast.xml?key=b0e736bf975bdbdb221a0cf245ac648f&vastv=3.0&cp.id=lTttSA&cp.title=Time"%"20Lapse"%"20of"%"20Dubai&cp.duration=4:37&cp.desc=A"%"20timelapse"%"20of"%"20a"%"20city"%"20that"%"20grew"%"20and"%"20developed"%"20facter"%"20than"%"20any"%"20other.&cp.page=&cp.random=4227&cp.d=videosupreme.com&cp.dr=http"%"3A"%"2F"%"2Fvideosupreme.com"%"2FlTttSA"%"2F&cb2=1455214875736" -H "Origin: http://videosupreme.com" -H "Referer: http://videosupreme.com/embed/lTttSA/?random=4227&new=n&hash=MjM5IzYyMiMxMzEjMTQyMzh8MTY5NDF8SUR8M3wxfGNsa21pZGV4X1tnZW9dX2FwcGRhdGEuY29tfHw" -H "User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36" --compressed
+-cURL(bash):
+curl 'http://ecpmrocks.com/vast.xml?key=b0e736bf975bdbdb221a0cf245ac648f&vastv=3.0&cp.id=lTttSA&cp.title=Time%20Lapse%20of%20Dubai&cp.duration=4:37&cp.desc=A%20timelapse%20of%20a%20city%20that%20grew%20and%20developed%20facter%20than%20any%20other.&cp.page=&cp.random=4227&cp.d=videosupreme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FlTttSA%2F&cb2=1455214875736' -H 'Origin: http://videosupreme.com' -H 'Referer: http://videosupreme.com/embed/lTttSA/?random=4227&new=n&hash=MjM5IzYyMiMxMzEjMTQyMzh8MTY5NDF8SUR8M3wxfGNsa21pZGV4X1tnZW9dX2FwcGRhdGEuY29tfHw' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36' --compressed
+-Link Address:
+http://ecpmrocks.com/vast.xml?key=b0e736bf975bdbdb221a0cf245ac648f&vastv=3.0&cp.id=lTttSA&cp.title=Time%20Lapse%20of%20Dubai&cp.duration=4:37&cp.desc=A%20timelapse%20of%20a%20city%20that%20grew%20and%20developed%20facter%20than%20any%20other.&cp.page=&cp.random=4227&cp.d=videosupreme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FlTttSA%2F&cb2=1455214875736
+-Headers:
+-General:
+Request URL:http://ecpmrocks.com/vast.xml?key=b0e736bf975bdbdb221a0cf245ac648f&vastv=3.0&cp.id=lTttSA&cp.title=Time%20Lapse%20of%20Dubai&cp.duration=4:37&cp.desc=A%20timelapse%20of%20a%20city%20that%20grew%20and%20developed%20facter%20than%20any%20other.&cp.page=&cp.random=4227&cp.d=videosupreme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FlTttSA%2F&cb2=1455214875736
+Request Headers
+Provisional headers are shown
+Origin:http://videosupreme.com
+Referer:http://videosupreme.com/embed/lTttSA/?random=4227&new=n&hash=MjM5IzYyMiMxMzEjMTQyMzh8MTY5NDF8SUR8M3wxfGNsa21pZGV4X1tnZW9dX2FwcGRhdGEuY29tfHw
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+Query String Parameters
+view source
+key=b0e736bf975bdbdb221a0cf245ac648f&vastv=3.0&cp.id=lTttSA&cp.title=Time%20Lapse%20of%20Dubai&cp.duration=4:37&cp.desc=A%20timelapse%20of%20a%20city%20that%20grew%20and%20developed%20facter%20than%20any%20other.&cp.page=&cp.random=4227&cp.d=videosupreme.com&cp.dr=http%3A%2F%2Fvideosupreme.com%2FlTttSA%2F&cb2=1455214875736
+view URL encoded:
+key:b0e736bf975bdbdb221a0cf245ac648f
+vastv:3.0
+cp.id:lTttSA
+cp.title:Time%20Lapse%20of%20Dubai
+cp.duration:4:37
+cp.desc:A%20timelapse%20of%20a%20city%20that%20grew%20and%20developed%20facter%20than%20any%20other.
+cp.page:
+cp.random:4227
+cp.d:videosupreme.com
+cp.dr:http%3A%2F%2Fvideosupreme.com%2FlTttSA%2F
+cb2:1455214875736
+-view URL decoded:
+key:b0e736bf975bdbdb221a0cf245ac648f
+vastv:3.0
+cp.id:lTttSA
+cp.title:Time Lapse of Dubai
+cp.duration:4:37
+cp.desc:A timelapse of a city that grew and developed facter than any other.
+cp.page:
+cp.random:4227
+cp.d:videosupreme.com
+cp.dr:http://videosupreme.com/lTttSA/
+cb2:1455214875736
+Name	
