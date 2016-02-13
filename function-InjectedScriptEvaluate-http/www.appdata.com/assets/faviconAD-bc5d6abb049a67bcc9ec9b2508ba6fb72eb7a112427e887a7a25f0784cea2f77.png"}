@@ -1,0 +1,15 @@
+-To be engineered:
+-Link Address:
+http://www.appdata.com/assets/faviconAD-bc5d6abb049a67bcc9ec9b2508ba6fb72eb7a112427e887a7a25f0784cea2f77.png
+-Console;
+InjectedScript.Evaluate
+-Returned:
+Uncaught ReferenceError:InjectedScript is not defined.
+-Console:
+InjectedScriptEvaluate
+-Returned:
+function InjectedScriptEvaluate() {"http://www.appdata.com/assets/faviconAD-bc5d6abb049a67bcc9ec9b2508ba6fb72eb7a112427e887a7a25f0784cea2f77.png"}
+-Console:
+function InjectedScriptEvaluate() {"http://www.appdata.com/assets/faviconAD-bc5d6abb049a67bcc9ec9b2508ba6fb72eb7a112427e887a7a25f0784cea2f77.png"}
+-Returned:
+undefined
