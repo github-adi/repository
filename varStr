@@ -1,0 +1,10 @@
+-To be var str:
+-Console:
+var str="github-adi"
+-Returned:
+undefined
+-Console:
+str
+-Returned:
+"github-adi"
+
