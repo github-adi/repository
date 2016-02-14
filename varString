@@ -1,0 +1,40 @@
+  var String="ADI"
+2016-02-14 22:40:29.569 Error saving setting with name: consoleHistory, value length: 5235009. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-14 22:40:29.573 Ten largest settings: 
+2016-02-14 22:40:29.654 Setting: 'consoleHistory', size: 5234929
+2016-02-14 22:40:29.655 Setting: 'previouslyViewedFiles', size: 3977
+2016-02-14 22:40:29.655 Setting: 'savedURLs', size: 3514
+2016-02-14 22:40:29.655 Setting: 'breakpoints', size: 227
+2016-02-14 22:40:29.655 Setting: 'watchExpressions', size: 13
+2016-02-14 22:40:29.655 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-14 22:40:29.655 Setting: 'domBreakpoints', size: 2
+2016-02-14 22:40:29.655 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-14 22:40:29.655 Setting: 'experiments', size: 2
+2016-02-14 22:40:29.655 Setting: 'workspaceExcludedFolders', size: 2
+undefined
+String
+2016-02-14 22:40:37.206 Error saving setting with name: consoleHistory, value length: 5235018. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-14 22:40:37.207 Ten largest settings: 
+2016-02-14 22:40:37.286 Setting: 'consoleHistory', size: 5234929
+2016-02-14 22:40:37.287 Setting: 'previouslyViewedFiles', size: 3977
+2016-02-14 22:40:37.287 Setting: 'savedURLs', size: 3514
+2016-02-14 22:40:37.287 Setting: 'breakpoints', size: 227
+2016-02-14 22:40:37.287 Setting: 'watchExpressions', size: 13
+2016-02-14 22:40:37.287 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-14 22:40:37.287 Setting: 'domBreakpoints', size: 2
+2016-02-14 22:40:37.287 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-14 22:40:37.287 Setting: 'experiments', size: 2
+2016-02-14 22:40:37.287 Setting: 'workspaceExcludedFolders', size: 2
+"ADI"
+2016-02-14 23:49:43.264 Error saving setting with name: savedURLs, value length: 3557. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+2016-02-14 23:49:44.513 Ten largest settings: 
+2016-02-14 23:49:51.800 Setting: 'consoleHistory', size: 5234929
+2016-02-14 23:49:51.800 Setting: 'previouslyViewedFiles', size: 3977
+2016-02-14 23:49:51.800 Setting: 'savedURLs', size: 3514
+2016-02-14 23:49:51.800 Setting: 'breakpoints', size: 227
+2016-02-14 23:49:51.800 Setting: 'watchExpressions', size: 13
+2016-02-14 23:49:51.800 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-14 23:49:51.800 Setting: 'domBreakpoints', size: 2
+2016-02-14 23:49:51.800 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-14 23:49:51.800 Setting: 'experiments', size: 2
+2016-02-14 23:49:51.800 Setting: 'workspaceExcludedFolders', size: 2 
