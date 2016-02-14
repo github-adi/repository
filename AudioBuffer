@@ -1,0 +1,42 @@
+AudioBuffer
+2016-02-15 01:49:52.294 Error saving setting with name: consoleHistory, value length: 5236288. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-15 01:49:52.298 Ten largest settings: 
+2016-02-15 01:49:52.377 Setting: 'consoleHistory', size: 5234929
+2016-02-15 01:49:52.377 Setting: 'previouslyViewedFiles', size: 3935
+2016-02-15 01:49:52.377 Setting: 'savedURLs', size: 3514
+2016-02-15 01:49:52.377 Setting: 'breakpoints', size: 227
+2016-02-15 01:49:52.377 Setting: 'watchExpressions', size: 13
+2016-02-15 01:49:52.378 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-15 01:49:52.378 Setting: 'domBreakpoints', size: 2
+2016-02-15 01:49:52.378 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-15 01:49:52.378 Setting: 'experiments', size: 2
+2016-02-15 01:49:52.378 Setting: 'workspaceExcludedFolders', size: 2
+AudioBuffer() { [native code] }
+function AudioBuffer() {"ADI"}
+2016-02-15 01:51:01.550 Error saving setting with name: consoleHistory, value length: 5236323. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-15 01:51:01.554 Ten largest settings: 
+2016-02-15 01:51:01.634 Setting: 'consoleHistory', size: 5234929
+2016-02-15 01:51:01.635 Setting: 'previouslyViewedFiles', size: 3935
+2016-02-15 01:51:01.635 Setting: 'savedURLs', size: 3514
+2016-02-15 01:51:01.635 Setting: 'breakpoints', size: 227
+2016-02-15 01:51:01.635 Setting: 'watchExpressions', size: 13
+2016-02-15 01:51:01.635 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-15 01:51:01.635 Setting: 'domBreakpoints', size: 2
+2016-02-15 01:51:01.635 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-15 01:51:01.635 Setting: 'experiments', size: 2
+2016-02-15 01:51:01.635 Setting: 'workspaceExcludedFolders', size: 2
+undefined
+AudioBuffer
+2016-02-15 01:51:12.538 Error saving setting with name: consoleHistory, value length: 5236337. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-15 01:51:12.542 Ten largest settings: 
+2016-02-15 01:51:12.620 Setting: 'consoleHistory', size: 5234929
+2016-02-15 01:51:12.620 Setting: 'previouslyViewedFiles', size: 3935
+2016-02-15 01:51:12.620 Setting: 'savedURLs', size: 3514
+2016-02-15 01:51:12.620 Setting: 'breakpoints', size: 227
+2016-02-15 01:51:12.620 Setting: 'watchExpressions', size: 13
+2016-02-15 01:51:12.620 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-15 01:51:12.620 Setting: 'domBreakpoints', size: 2
+2016-02-15 01:51:12.621 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-15 01:51:12.621 Setting: 'experiments', size: 2
+2016-02-15 01:51:12.621 Setting: 'workspaceExcludedFolders', size: 2
+AudioBuffer() {"ADI"}
