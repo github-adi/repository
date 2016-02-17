@@ -1,0 +1,122 @@
+-My build:
+-To be architectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Virtual Machine:
+VM3169:
+with (typeof __commandLineAPI !== 'undefined' ? __commandLineAPI : { __proto__: null }) {
+function AudioContext() { "Muhammad Adi Nugroho, S. Adm. Neg." }
+}
+-Evaluate in console:
+AudioContext
+2016-02-18 02:16:25.802 Error saving setting with name: consoleHistory, value length: 5235772. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 02:16:25.802 Ten largest settings: 
+2016-02-18 02:16:25.880 Setting: 'consoleHistory', size: 5234986
+2016-02-18 02:16:25.880 Setting: 'previouslyViewedFiles', size: 3856
+2016-02-18 02:16:25.880 Setting: 'savedURLs', size: 3514
+2016-02-18 02:16:25.880 Setting: 'breakpoints', size: 227
+2016-02-18 02:16:25.880 Setting: 'watchExpressions', size: 13
+2016-02-18 02:16:25.880 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 02:16:25.880 Setting: 'domBreakpoints', size: 2
+2016-02-18 02:16:25.880 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 02:16:25.880 Setting: 'experiments', size: 2
+2016-02-18 02:16:25.880 Setting: 'workspaceExcludedFolders', size: 2
+AudioContext() { [native code] }
+function AudioContext() { "Muhammad Adi Nugroho, S. Adm. Neg." }
+2016-02-18 02:17:49.859 Error saving setting with name: consoleHistory, value length: 5235841. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 02:17:49.864 Ten largest settings: 
+2016-02-18 02:17:49.941 Setting: 'consoleHistory', size: 5234986
+2016-02-18 02:17:49.941 Setting: 'previouslyViewedFiles', size: 3856
+2016-02-18 02:17:49.942 Setting: 'savedURLs', size: 3514
+2016-02-18 02:17:49.942 Setting: 'breakpoints', size: 227
+2016-02-18 02:17:49.942 Setting: 'watchExpressions', size: 13
+2016-02-18 02:17:49.942 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 02:17:49.942 Setting: 'domBreakpoints', size: 2
+2016-02-18 02:17:49.942 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 02:17:49.942 Setting: 'experiments', size: 2
+2016-02-18 02:17:49.942 Setting: 'workspaceExcludedFolders', size: 2
+undefined
+AudioContext
+2016-02-18 02:18:11.145 Error saving setting with name: consoleHistory, value length: 5235856. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 02:18:11.149 Ten largest settings: 
+2016-02-18 02:18:11.226 Setting: 'consoleHistory', size: 5234986
+2016-02-18 02:18:11.226 Setting: 'previouslyViewedFiles', size: 3856
+2016-02-18 02:18:11.226 Setting: 'savedURLs', size: 3514
+2016-02-18 02:18:11.226 Setting: 'breakpoints', size: 227
+2016-02-18 02:18:11.226 Setting: 'watchExpressions', size: 13
+2016-02-18 02:18:11.226 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 02:18:11.226 Setting: 'domBreakpoints', size: 2
+2016-02-18 02:18:11.227 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 02:18:11.227 Setting: 'experiments', size: 2
+2016-02-18 02:18:11.227 Setting: 'workspaceExcludedFolders', size: 2
+AudioContext() { "Muhammad Adi Nugroho, S. Adm. Neg." }
+AudioContext() 
+2016-02-18 02:18:33.980 Error saving setting with name: consoleHistory, value length: 5235874. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 02:18:33.985 Ten largest settings: 
+2016-02-18 02:18:34.062 Setting: 'consoleHistory', size: 5234986
+2016-02-18 02:18:34.062 Setting: 'previouslyViewedFiles', size: 3856
+2016-02-18 02:18:34.062 Setting: 'savedURLs', size: 3514
+2016-02-18 02:18:34.062 Setting: 'breakpoints', size: 227
+2016-02-18 02:18:34.062 Setting: 'watchExpressions', size: 13
+2016-02-18 02:18:34.062 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 02:18:34.062 Setting: 'domBreakpoints', size: 2
+2016-02-18 02:18:34.063 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 02:18:34.063 Setting: 'experiments', size: 2
+2016-02-18 02:18:34.063 Setting: 'workspaceExcludedFolders', size: 2
+undefined
+{ "Muhammad Adi Nugroho, S. Adm. Neg."}
+2016-02-18 02:19:34.372 Error saving setting with name: consoleHistory, value length: 5235918. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 02:19:34.377 Ten largest settings: 
+2016-02-18 02:19:34.456 Setting: 'consoleHistory', size: 5234986
+2016-02-18 02:19:34.456 Setting: 'previouslyViewedFiles', size: 3856
+2016-02-18 02:19:34.456 Setting: 'savedURLs', size: 3514
+2016-02-18 02:19:34.456 Setting: 'breakpoints', size: 227
+2016-02-18 02:19:34.456 Setting: 'watchExpressions', size: 13
+2016-02-18 02:19:34.456 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 02:19:34.456 Setting: 'domBreakpoints', size: 2
+2016-02-18 02:19:34.457 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 02:19:34.457 Setting: 'experiments', size: 2
+2016-02-18 02:19:34.457 Setting: 'workspaceExcludedFolders', size: 2
+"Muhammad Adi Nugroho, S. Adm. Neg."
+with (typeof __commandLineAPI !== 'undefined' ? __commandLineAPI : { __proto__: null }) {
+function AudioContext() { "Muhammad Adi Nugroho, S. Adm. Neg." }
+}
+2016-02-18 02:20:58.796 Error saving setting with name: consoleHistory, value length: 5236081. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 02:20:58.796 Ten largest settings: 
+2016-02-18 02:20:58.874 Setting: 'consoleHistory', size: 5234986
+2016-02-18 02:20:58.874 Setting: 'previouslyViewedFiles', size: 3838
+2016-02-18 02:20:58.874 Setting: 'savedURLs', size: 3514
+2016-02-18 02:20:58.874 Setting: 'breakpoints', size: 227
+2016-02-18 02:20:58.874 Setting: 'watchExpressions', size: 13
+2016-02-18 02:20:58.874 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 02:20:58.874 Setting: 'domBreakpoints', size: 2
+2016-02-18 02:20:58.874 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 02:20:58.874 Setting: 'experiments', size: 2
+2016-02-18 02:20:58.874 Setting: 'workspaceExcludedFolders', size: 2
+undefined
+function AudioContext()
+2016-02-18 02:21:37.758 Error saving setting with name: consoleHistory, value length: 5236107. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 02:21:37.762 Ten largest settings: 
+2016-02-18 02:21:37.839 Setting: 'consoleHistory', size: 5234986
+2016-02-18 02:21:37.840 Setting: 'previouslyViewedFiles', size: 3838
+2016-02-18 02:21:37.840 Setting: 'savedURLs', size: 3514
+2016-02-18 02:21:37.840 Setting: 'breakpoints', size: 227
+2016-02-18 02:21:37.840 Setting: 'watchExpressions', size: 13
+2016-02-18 02:21:37.840 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 02:21:37.840 Setting: 'domBreakpoints', size: 2
+2016-02-18 02:21:37.840 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 02:21:37.840 Setting: 'experiments', size: 2
+2016-02-18 02:21:37.840 Setting: 'workspaceExcludedFolders', size: 2
+VM3346:3 Uncaught SyntaxError: Unexpected token }(…)InjectedScript._evaluateOn @ VM2523:875InjectedScript._evaluateAndWrap @ VM2523:808InjectedScript.evaluate @ VM2523:664
+AudioContext
+2016-02-18 02:22:08.991 Error saving setting with name: consoleHistory, value length: 5236122. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 02:22:08.991 Ten largest settings: 
+2016-02-18 02:22:09.067 Setting: 'consoleHistory', size: 5234986
+2016-02-18 02:22:09.067 Setting: 'previouslyViewedFiles', size: 3838
+2016-02-18 02:22:09.067 Setting: 'savedURLs', size: 3514
+2016-02-18 02:22:09.068 Setting: 'breakpoints', size: 227
+2016-02-18 02:22:09.068 Setting: 'watchExpressions', size: 13
+2016-02-18 02:22:09.068 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 02:22:09.068 Setting: 'domBreakpoints', size: 2
+2016-02-18 02:22:09.068 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 02:22:09.068 Setting: 'experiments', size: 2
+2016-02-18 02:22:09.068 Setting: 'workspaceExcludedFolders', size: 2
+AudioContext() { "Muhammad Adi Nugroho, S. Adm. Neg." }
