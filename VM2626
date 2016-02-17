@@ -1,0 +1,77 @@
+ -My build:
+-To be architectured by Muhammad Adi Nugroho, S.Adm.Neg.:
+-Virtual Machine:
+VM2626
+
+with (typeof __commandLineAPI !== 'undefined' ? __commandLineAPI : { __proto__: null }) {
+Image
+}
+2016-02-18 01:38:23.319 Error saving setting with name: consoleHistory, value length: 5235088. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 01:38:23.323 Ten largest settings: 
+2016-02-18 01:38:23.493 Setting: 'consoleHistory', size: 5234986
+2016-02-18 01:38:23.493 Setting: 'previouslyViewedFiles', size: 3869
+2016-02-18 01:38:23.494 Setting: 'savedURLs', size: 3514
+2016-02-18 01:38:23.494 Setting: 'breakpoints', size: 227
+2016-02-18 01:38:23.494 Setting: 'watchExpressions', size: 13
+2016-02-18 01:38:23.496 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 01:38:23.497 Setting: 'domBreakpoints', size: 2
+2016-02-18 01:38:23.499 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 01:38:23.500 Setting: 'experiments', size: 2
+2016-02-18 01:38:23.501 Setting: 'workspaceExcludedFolders', size: 2
+HTMLImageElement() { [native code] }
+function HTMLImageElement() { "Muhammad Adi Nugroho, S.Adm.Neg." }
+2016-02-18 01:40:33.832 Error saving setting with name: consoleHistory, value length: 5235159. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 01:40:33.842 Ten largest settings: 
+2016-02-18 01:40:34.012 Setting: 'consoleHistory', size: 5234986
+2016-02-18 01:40:34.012 Setting: 'previouslyViewedFiles', size: 3869
+2016-02-18 01:40:34.012 Setting: 'savedURLs', size: 3514
+2016-02-18 01:40:34.012 Setting: 'breakpoints', size: 227
+2016-02-18 01:40:34.013 Setting: 'watchExpressions', size: 13
+2016-02-18 01:40:34.013 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 01:40:34.013 Setting: 'domBreakpoints', size: 2
+2016-02-18 01:40:34.013 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 01:40:34.014 Setting: 'experiments', size: 2
+2016-02-18 01:40:34.014 Setting: 'workspaceExcludedFolders', size: 2
+undefined
+HTMLImageElement
+2016-02-18 01:40:54.729 Error saving setting with name: consoleHistory, value length: 5235178. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 01:40:54.735 Ten largest settings: 
+2016-02-18 01:40:54.817 Setting: 'consoleHistory', size: 5234986
+2016-02-18 01:40:54.817 Setting: 'previouslyViewedFiles', size: 3869
+2016-02-18 01:40:54.817 Setting: 'savedURLs', size: 3514
+2016-02-18 01:40:54.817 Setting: 'breakpoints', size: 227
+2016-02-18 01:40:54.817 Setting: 'watchExpressions', size: 13
+2016-02-18 01:40:54.817 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 01:40:54.817 Setting: 'domBreakpoints', size: 2
+2016-02-18 01:40:54.817 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 01:40:54.817 Setting: 'experiments', size: 2
+2016-02-18 01:40:54.817 Setting: 'workspaceExcludedFolders', size: 2
+HTMLImageElement() { "Muhammad Adi Nugroho, S.Adm.Neg." }
+HTMLImageElement() 
+2016-02-18 01:41:11.653 Error saving setting with name: consoleHistory, value length: 5235200. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 01:41:11.657 Ten largest settings: 
+2016-02-18 01:41:11.735 Setting: 'consoleHistory', size: 5234986
+2016-02-18 01:41:11.735 Setting: 'previouslyViewedFiles', size: 3869
+2016-02-18 01:41:11.735 Setting: 'savedURLs', size: 3514
+2016-02-18 01:41:11.735 Setting: 'breakpoints', size: 227
+2016-02-18 01:41:11.735 Setting: 'watchExpressions', size: 13
+2016-02-18 01:41:11.735 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 01:41:11.735 Setting: 'domBreakpoints', size: 2
+2016-02-18 01:41:11.735 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 01:41:11.735 Setting: 'experiments', size: 2
+2016-02-18 01:41:11.736 Setting: 'workspaceExcludedFolders', size: 2
+undefined
+HTMLImageElement() { [native code] }
+2016-02-18 01:41:23.897 Error saving setting with name: consoleHistory, value length: 5235239. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-18 01:41:23.902 Ten largest settings: 
+2016-02-18 01:41:23.978 Setting: 'consoleHistory', size: 5234986
+2016-02-18 01:41:23.978 Setting: 'previouslyViewedFiles', size: 3869
+2016-02-18 01:41:23.978 Setting: 'savedURLs', size: 3514
+2016-02-18 01:41:23.978 Setting: 'breakpoints', size: 227
+2016-02-18 01:41:23.978 Setting: 'watchExpressions', size: 13
+2016-02-18 01:41:23.978 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-18 01:41:23.978 Setting: 'domBreakpoints', size: 2
+2016-02-18 01:41:23.979 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-18 01:41:23.979 Setting: 'experiments', size: 2
+2016-02-18 01:41:23.979 Setting: 'workspaceExcludedFolders', size: 2
+VM2734:2 Uncaught SyntaxError: Unexpected token {(…)InjectedScript._evaluateOn @ VM2523:875InjectedScript._evaluateAndWrap @ VM2523:808InjectedScript.evaluate @ VM2523:664
