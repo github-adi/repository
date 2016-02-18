@@ -1,0 +1,38 @@
+-My build:
+-Planet 49:
+-To be architectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Virtual Machine:
+with (typeof __commandLineAPI !== 'undefined' ? __commandLineAPI : { __proto__: null }) {
+Object.InjectedScriptevaluateAndWrap
+}
+-Returned:
+with (typeof __commandLineAPI !== 'undefined' ? __commandLineAPI : { __proto__: null }) {
+Object.InjectedScriptevaluateAndWrap
+}
+2016-02-19 00:21:32.007 Error saving setting with name: consoleHistory, value length: 5235226. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-19 00:21:32.008 Ten largest settings: 
+2016-02-19 00:21:32.090 Setting: 'consoleHistory', size: 5235054
+2016-02-19 00:21:32.090 Setting: 'previouslyViewedFiles', size: 3840
+2016-02-19 00:21:32.090 Setting: 'savedURLs', size: 3514
+2016-02-19 00:21:32.090 Setting: 'breakpoints', size: 227
+2016-02-19 00:21:32.090 Setting: 'watchExpressions', size: 13
+2016-02-19 00:21:32.091 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-19 00:21:32.091 Setting: 'domBreakpoints', size: 2
+2016-02-19 00:21:32.091 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-19 00:21:32.091 Setting: 'experiments', size: 2
+2016-02-19 00:21:32.091 Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Object.InjectedScriptevaluateAndWrap
+2016-02-19 00:28:13.806 Error saving setting with name: consoleHistory, value length: 5235265. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-19 00:28:13.806 Ten largest settings: 
+2016-02-19 00:28:13.884 Setting: 'consoleHistory', size: 5235054
+2016-02-19 00:28:13.884 Setting: 'previouslyViewedFiles', size: 3840
+2016-02-19 00:28:13.884 Setting: 'savedURLs', size: 3514
+2016-02-19 00:28:13.884 Setting: 'breakpoints', size: 227
+2016-02-19 00:28:13.884 Setting: 'watchExpressions', size: 13
+2016-02-19 00:28:13.884 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-19 00:28:13.884 Setting: 'domBreakpoints', size: 2
+2016-02-19 00:28:13.884 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-19 00:28:13.884 Setting: 'experiments', size: 2
+2016-02-19 00:28:13.884 Setting: 'workspaceExcludedFolders', size: 2
+undefined
