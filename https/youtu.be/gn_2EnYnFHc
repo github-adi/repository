@@ -1,0 +1,20 @@
+-Copy video URL:
+https://youtu.be/gn_2EnYnFHc
+-Copy video URL at current time:
+https://youtu.be/gn_2EnYnFHc?t=30
+-Copy embed code:
+<iframe width="492" height="277" src="https://www.youtube.com/embed/gn_2EnYnFHc" frameborder="0" allowfullscreen></iframe>
+-Copy debug info:
+{"ns":"yt","el":"profilepage","cpn":"G-ikrhk799i-kyOC","docid":"gn_2EnYnFHc","ver":2,"referrer":"http://www.accuweather.com/en/us/national/weather-radar","cmt":"30.001","plid":"AAUsNkShX29oYx_O","ei":"KpfIVpfpE8WgogPCuLzgDw","fmt":"243","fs":"0","rt":"465.23","of":"Cfl0nxmOmiLnQtxdsdMJKA","adformat":null,"content_v":null,"euri":"https://www.youtube.com/user/accuweather","subscribed":null,"lact":3,"live":null,"cl":"115112349","mos":0,"osid":null,"state":"e","vm":"CAEQAQ","volume":100,"c":"WEB","cver":"html5","cplayer":"UNIPLAYER","cbr":"Chrome","cbrver":"48.0.2564.116","cos":"Windows","cosver":"6.1","autoplay":"1","delay":9,"hl":"en_US","cr":"ID","len":"30.001","fexp":"3300132,3300164,3312381,9408537,9416126,9420452,9422596,9423455,9423485,9423660,9423662,9424559,9425974,9426943,9426977,9427272,9428092,9428397,9428947,9429438","afmt":"251","vct":"30.001","vd":"30.001","vpl":"0.000-30.001,","vbu":"0.000-30.001,","vpa":true,"vsk":false,"ven":true,"vpr":1,"vrs":4,"vns":2,"vec":null,"vvol":0.8688603251174833,"lct":"30.001","lsk":false,"lmf":false,"lbw":"240551.150","lhd":"0.307","ltd":"1423.226","laa":"itag=251,seg=2,range=339010-500908,time=20.0-30.0","lva":"itag=243,seg=5,range=778070-802468,time=26.7-29.9","lar":"itag=251,seg=2,range=339010-500908,time=20.0-30.0","lvr":"itag=243,seg=5,range=778070-802468,time=26.7-29.9","lvh":"r5---sn-npo7en7r","lab":"0.000-30.001,","lvb":"0.000-29.987,","ismb":5020000,"debug_videoId":"gn_2EnYnFHc","gpu":"ANGLE_(Intel(R)_HD_Graphics_Direct3D11_vs_4_1_ps_4_1)","cgr":true,"debug_playbackQuality":"medium","debug_date":"Sat Feb 20 2016 23:49:17 GMT+0700 (SE Asia Standard Time)"}
+-Start for nerds:
+Video ID:gn_2EnYnFHc
+Dimensions:492 x 277
+Resolution:640 x 360@24
+Volume:100%
+Stream Host:r5---sn-npo7en7r
+Stream Type:https
+CPN:G-ikrhk799i-kyOC
+Mime Type:video/webm; codecs="vp9"
+DASH:yes (243/251)
+Connection Speed:1343 Kbps
+Dropped Frames:9/3550
