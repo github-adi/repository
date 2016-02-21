@@ -1,0 +1,263 @@
+-Science Planet 9:
+-My build:
+-To be arcchitectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Resources:
+-Java Script Link Address:
+http://www.passiondesire.com/themes/passiondesire/js/general.js?t=1456062048
+-To be evaluated in console:
+;(function($, undefined) {
+	$.app.register('general', {
+		events: [
+			{
+				name     : 'onShowUploadNotice',
+				condition: function() {
+					return $.app.getGlobalAttr('showUploadNotice') > 0;
+				}
+			}
+		],
+
+		_init: function() {
+			this.testPluginIsLoaded(['cookie', 'ajaxForm']);
+		},
+
+		run : function() {
+			$.app.isGuest() ? this._loadForGuests() : this._loadForUsers();
+		},
+
+		cookiesEnabled : function () {
+			document.cookie = "testing=cookies_enabled; path=/";
+			if (document.cookie.indexOf("testing=cookies_enabled") < 0) {
+				return false;
+			} else {
+				return true;
+			}
+		},
+
+		_loadForGuests: function() {
+			var self = this;
+			$('.login-button').click(function(event){
+				event.preventDefault();
+				var self = this;
+				jPopup({
+					dialog: {
+						closeOnEscape: false,
+						width        : 350,
+						minHeight: 325
+					},
+					popupId: '#signInPopup'
+				});
+
+			});
+			$('.showLoginFormBtn').click(function(event){
+				event.preventDefault();
+				$('.inviteLogin','.alreadyAccountArea').fadeOut();
+				$('.signInForm','.alreadyAccountArea').fadeIn();
+				$('#signInForm').ajaxForm({
+					beforeSubmit : function (formData, $form, options) {
+						return $form.onBeforeSubmit();
+					},
+					success : function(data, status, xhr, $form) {
+						if (data.status == 'error')
+						{
+							$form.onFormError({data: data, appendMessage : false});
+							if (data.SigninForm_username) {
+								$('<div id="errLogin" class="errLogin"><span class="errText" id="errText"></span></div>').prependTo('.alreadyAccountArea');
+								$('#errText','#errLogin').text(data.SigninForm_username[0]);
+							} else if (data.SigninForm_password) {
+								$('<div id="errLogin" class="errLogin"><span class="errText" id="errText"></span></div>').prependTo('.alreadyAccountArea');
+								$('#errText','#errLogin').html(data.SigninForm_password[0] + ' <br/> Click <a href="/resetPassword/makeRequest">here</a> to reset your password.');
+							}
+						}
+						else
+						{
+							location.href = data.redirectUrl;
+						}
+					},
+					dataType : 'json'
+				});
+			});
+
+			$('.loginForm form').ajaxForm({
+				beforeSubmit : function (formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				success : function(data, status, xhr, $form) {
+					if (data.status == 'error')
+					{
+						$form.onFormError({data: data});
+					}
+					else
+					{
+						$.app.getCache().flush();
+						location.href = data.redirectUrl;
+					}
+				},
+				dataType : 'json'
+			});
+			$('#registerForm').simpleRedirectForm();
+
+			$('.signInBtn','#signInForm').click(function(){
+				if (!self.cookiesEnabled()) {
+					$('.cookiesDisabled').show();
+					return false;
+				} else {
+					return true;
+				}
+			});
+
+			$('.registerFreeButton','.registrationBox').click(function(){
+				if (!self.cookiesEnabled()) {
+					$('.cookiesDisabled').show();
+					return false;
+				} else {
+					return true;
+				}
+			});
+
+			$('.registerFreeButton','.registrationPopup').click(function(){
+				if (!self.cookiesEnabled()) {
+					$('.registrationPopup .alertCookies').show();
+					return false;
+				} else {
+					return true;
+				}
+			});
+
+			$('button','#signInFormPopup').click(function(){
+				if (!self.cookiesEnabled()) {
+					$('.signInBox .alertCookies').show();
+					return false;
+				} else {
+					return true;
+				}
+			});
+
+			$('#signInFormPage').ajaxForm({
+				beforeSubmit : function (formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				success : function(data, status, xhr, $form) {
+					if (data.status == 'error')
+					{
+						$form.onFormError({data: data});
+					}
+					else
+					{
+						$form.onFormSuccess();
+						self.redirect(data.redirectUrl);
+					}
+				},
+				dataType : 'json'
+			});
+		},
+
+		_loadForUsers: function() {
+			var self = this;
+
+			self.testPluginIsLoaded(['template', 'dropdownList', 'dropdownBox']);
+
+			$('#yourProfileButton').dropdownBox();
+			$('#activityButton').dropdownBox();
+			$('#chatButton').dropdownBox();
+
+			$.locationHandler({
+				locationSuggestUrl : '/location/getCitySuggestions',
+				city               : '#whereCity',
+				country            : '#whereCountry',
+				exactLocation      : '#whereExactLocation'
+			});
+
+			$('#logoutButton').click(function() {
+				var btn = $(this);
+				jConfirm('Are you sure you want to sign out?', null, function(result){
+					if (result)
+					{
+						$.app.getCache().flush();
+						location.href = btn.attr('href');
+					}
+				});
+
+				return false;
+			});
+
+			if ($.app.getGlobalAttr('newMessage') > 0)
+			{
+				$.app.getModule('generalScript').showNewMessagePopup(360);
+			}
+			$.app.getModule('generalScript').handlePopUnder('PD');
+		},
+
+		onShowUploadNotice: function() {
+			if ($('.privacyContainer').length == 0 &&
+				$('.tosContainer').length == 0 &&
+				$('.aboutUsContainer').length == 0 &&
+				$('.helpContainer').length == 0 &&
+				$('.billingWrapper').length == 0 &&
+				$('.managePhotosContainer').length == 0 &&
+				$('.siteWrapper').length == 0)
+			{
+				if ($('.searchContainer').length !=0 && !$.app.getGlobalAttr('showSafeModeNotice') || $('.searchContainer').length ==0) {
+					$.doomNotice({
+						message: $.app.getGlobalAttr('uploadNoticeMessage'),
+						animationDuration: 800,
+						delayBeforeShow: 1000,
+						after: '#topContainer',
+						beforeClose: function () {
+							$.get($.app.getGlobalAttr('removeUploadNoticeUrl'))
+						}
+					});
+				}
+			}
+		}
+	});
+})(jQuery);
+
+(function($){
+	$.shuffle = function(arr) {
+		for(
+			var j, x, i = arr.length; i;
+			j = parseInt(Math.random() * i),
+				x = arr[--i], arr[i] = arr[j], arr[j] = x
+			);
+		return arr;
+	}
+})(jQuery);
+
+Error saving setting with name: consoleHistory, value length: 5284900. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 3723. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 3770. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+
