@@ -1,0 +1,213 @@
+-Science Planet 9:
+-My build:
+-To be arcchitectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Resources:
+-Java Script Link Address:
+http://www.passiondesire.com/themes/js/generalScript.js?t=1456062048
+-Evaluated in console:
+;(function($, undefined) {
+	$.app.register('generalScript', {
+		_logEnabled : false,
+
+		init: function() {
+			var self  = this;
+			self._log('generalScript');
+			self.wrapExtLink();
+			return this;
+		},
+
+		wrapExtLink: function()
+		{
+			$('.wrapExtCamLink a[target="_blank"]').click(function(e)
+			{
+				var sExtLinkUrl = '/site/extCamLink';
+				var sCurrentHref = $(this).attr('href');
+				if (sCurrentHref.indexOf(sExtLinkUrl, 0) == -1)
+				{
+					$(this).attr('href', sExtLinkUrl+'?url='+sCurrentHref);
+				}
+			});
+		},
+
+		handlePopUnder: function(siteShortName) {
+			var self  = this;
+			function createPopUnder(sUrl)
+			{
+				var parent   = (top != self && typeof (top.document.location.toString()) === "string") ? top : self;
+				var pName    = 'newSite';
+				var pWidth   = $(window).width();
+				var pHeight  = $(window).height();
+				var pPosX    = (window.screenX != undefined) ? window.screenX : 0 ;
+				var pPosY    = (window.screenY != undefined) ? window.screenY : 0 ;
+				var pMenuBar = (window.menubar && window.menubar.visible == true) ? 'yes' : 'no';
+				var pToolBar = (window.toolbar && window.toolbar.visible == true) ? 'yes' : 'no';
+				var browser = function () {
+					var n = navigator.userAgent.toLowerCase();
+					var b = '';
+					if (/msie|trident/i.test(n) || /msie/i.test(n))
+					{
+						b = 'ie';
+					}
+					else if (/firefox/i.test(n))
+					{
+						b = 'firefox'
+					}
+					else if (/opera/i.test(n) || /opr/i.test(n))
+					{
+						b = 'opera'
+					}
+					else if (/chrome/i.test(n) && /windows/i.test(n))
+					{
+						b = 'chrome'
+					}
+					else if (/webkit/i.test(n))
+					{
+						b = 'webkit'
+					}
+					else if (/safari/i.test(n) && !(/chrome/.test(n)))
+					{
+						b = 'safari'
+					}
+					return b;
+				}();
+
+				function openNewBackgroundTab(sUrl)
+				{
+					var a   = document.createElement('a');
+					a.href  = sUrl;
+					var evt = document.createEvent('MouseEvents');
+					evt.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, true, false, false, false, 0, null);
+					a.dispatchEvent(evt);
+				}
+				function openCloseWindow()
+				{
+					var ghost = window.open("about:blank");
+					ghost.focus();
+					ghost.close();
+				}
+
+				var sOptions = 'toolbar=' + pToolBar + ',scrollbars=yes,location=yes,statusbar=yes,menubar=' + pMenuBar + ',resizable=1,width=' + pWidth.toString() + ',height=' + pHeight.toString() + ',screenX=' + pPosX + ',screenY=' + pPosY;
+				if (browser == 'chrome' || browser == 'opera')
+				{
+					openNewBackgroundTab(sUrl);
+				}
+				else
+				{
+					popUnder = parent.window.open(sUrl, pName, sOptions);
+					if (popUnder)
+					{
+						try {
+							popUnder.blur();
+							popUnder.opener.window.focus();
+							window.self.window.blur();
+							window.focus();
+							if (browser == 'firefox') {
+								openCloseWindow();
+							}
+						} catch (e) {};
+					}
+				}
+			}
+			var userInfo                     = $.app.getGlobalAttr('userInfo');
+			var displayOneClickPopupOnExit   = $.app.getGlobalAttr('displayOneclickPopupOnExit');
+			var updateLastViewedExitPopupUrl = $.app.getGlobalAttr('updateLastViewedExitPopupUrl');
+			var groupIdExitPopup             = $.app.getGlobalAttr('groupIdExitPopup') ? $.app.getGlobalAttr('groupIdExitPopup') : 94;
+			$('a').live('click', function(){
+				if (userInfo && displayOneClickPopupOnExit && updateLastViewedExitPopupUrl && (document.cookie.indexOf("data-under=shown") < 0 && !$(this).hasClass('no-under')))
+				{
+					var emailCurrentUser = userInfo['emailCurrentUser'];
+					var subId            = userInfo['subid'];
+					var urlPopUnder      = 'http://optimiser.tmtrck.com/?group_id=' + groupIdExitPopup + '&keyword=' + siteShortName + '&email=' + emailCurrentUser + '&subid=' + subId;
+					if (emailCurrentUser)
+					{
+						createPopUnder(urlPopUnder);
+						document.cookie = "data-under=shown; path=/";
+						setTimeout(function(){
+							$.get(updateLastViewedExitPopupUrl)
+						}, 500);
+					}
+				}
+			});
+		},
+
+		_markAsRead: function(redirectLink){
+			$.ajax({
+				type: 'POST',
+				url:'/message/markAsRead',
+				success: function(msg){
+					if (redirectLink) {
+						location.href = redirectLink;
+					}
+				}
+			});
+		},
+
+		showNewMessagePopup: function(width) {
+			var self = this;
+			jPopup({
+				dialog: {
+					width        : width,
+					closeOnEscape: false
+				},
+				popupId: '#newMessagePopup'
+			});
+
+			$('#newMessagePopup .closePopup').live('click', function() {
+				jClose();
+				self._markAsRead();
+				return false;
+			});
+
+			$('#newMessagePopup .markAsRead').live('click', function(e) {
+				var redirectLink = $(this).attr('href');
+				e.preventDefault();
+				jClose();
+				self._markAsRead(redirectLink);
+			});
+
+		},
+		_log : function(data) {
+			if (this._logEnabled)
+			{
+				console.log(data);
+			}
+		}
+	});
+})(jQuery);
+Error saving setting with name: consoleHistory, value length: 5290521. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 3770. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 3817. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
