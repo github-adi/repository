@@ -1,0 +1,171 @@
+-Science Planet 9:
+-My build:
+-To be arcchitectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Resources:
+-Java Script Link Address:
+http://www.passiondesire.com/assets/934db67a/jquery.dropdownBox.js?t=1456062048
+;(function($) {
+
+$.widget("ui.dropdownBox", {
+	version : '1.0.1',
+	options : {
+		debug            : true,
+		target           : null,
+		autoOpen         : false,
+		closeOnEscape    : true,
+		dropdownBoxClass : '',
+		zIndex : 1000
+	},
+	_isOpen : false,
+
+	_create : function() {
+		var self = this;
+		if (self.element.attr('data-target') !== undefined)
+		{
+			self.options.target = self.element.attr('data-target');
+		}
+
+		if (self.options.target === null)
+		{
+			self._log('Target not found');
+			return;
+		}
+
+		if (self.element.attr('id') === undefined)
+		{
+			self.element.attr('id', 'dropdownBox-' + Math.floor(Math.random()*100001));
+		}
+
+		self.uiDropdownBox = $(self.options.target)
+			.hide()
+			.addClass('ui-dropdownBox' + self.options.dropdownBoxClass)
+			.css({zIndex: self.options.zIndex, outline: 0})
+			.attr({tabIndex: -1, role : 'dropdownBox', 'data-handler' : '#' + self.element.attr('id')})
+			.bind('keydown.dropdownBox', function(event) {
+				if (self.options.closeOnEscape && event.keyCode && event.keyCode === $.ui.keyCode.ESCAPE)
+				{
+					self.close(event);
+					event.preventDefault();
+				}
+			})
+			.bind('click.dropdownBox', function(event) {
+				event.stopPropagation();
+			});
+
+		self.element
+			.addClass('ui-dropdownBox-handler')
+			.attr('data-target', self.options.target)
+			.bind('click', function(event) {
+				if (self._isOpen)
+				{
+					self.close();
+				}
+				else
+				{
+					$('.ui-dropdownBox-handler').not($(this)).dropdownBox('close');
+					self.open();
+				}
+
+				return false;
+			})
+			.bind('keydown.dropdownBox', function(event) {
+				if (self.options.closeOnEscape && event.keyCode && event.keyCode === $.ui.keyCode.ESCAPE)
+				{
+					self.close(event);
+					event.preventDefault();
+					event.stopPropagation();
+				}
+			});
+
+		$(document).click(function(event) {
+			self.close();
+		});
+	},
+
+	_init : function() {
+		if (this.options.autoOpen)
+		{
+			this.open();
+		}
+	},
+
+	_log : function(message) {
+		if (this.options.debug == true)
+		{
+			console.log('jQuery.dropdownBox: ' + message);
+		}
+	},
+
+	widget: function() {
+		return this.uiDropdownBox;
+	},
+
+	isOpen : function() {
+		return this._isOpen;
+	},
+
+	open : function() {
+		if (this._isOpen) { return; }
+
+		var self = this;
+
+		self.uiDropdownBox.addClass('ui-active').removeClass('ui-inactive').show();
+		self._isOpen = true;
+		self._trigger('open');
+
+		return self;
+	},
+
+	close : function(event) {
+		var self = this;
+
+		if (self._trigger('beforeClose', event) === false)
+		{
+			return;
+		}
+
+		self._isOpen = false;
+		self.uiDropdownBox.addClass('ui-inactive').removeClass('ui-active').hide();
+		self._trigger('close', event);
+		return self;
+	}
+});
+
+})( jQuery );
+Error saving setting with name: consoleHistory, value length: 5546094. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 4052. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 4099. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
