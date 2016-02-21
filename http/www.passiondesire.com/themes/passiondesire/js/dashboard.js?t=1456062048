@@ -1,0 +1,900 @@
+-Resources:
+http://www.passiondesire.com/themes/passiondesire/js/dashboard.js?t=1456062048
+-To be evaluated in console:
+;(function($, undefined) {
+	$.app.register('dashboard', {
+		events: [
+			{
+				name     : 'onJustRegistered',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['justRegistered'] == true;
+				}
+			},
+			{
+				name     : 'onShowDescriptionBox',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['showUploadPhotoDescriptionBox'] == true || $.app.getGlobalAttr('user')['showOneClickBox'] == true;
+				}
+			},
+			{
+				name     : 'onEmailJustBecameInvalid',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['emailJustBecameInvalid'] == true;
+				}
+			},
+			{
+				name     : 'onInvalidLocation',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['bHasInvalidLocation'] == true;
+				}
+			},
+			{
+				name     : 'onResetPassword',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['bResetPassword'] == true;
+				}
+			},
+			{
+				name     : 'onShowSearchNotice',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['searchToolTip'] == true;
+				}
+			},
+			{
+				name     : 'onStep1Completed',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['bJustCompletedStep1'] == true;
+				}
+			},
+			{
+				name     : 'onStep2Completed',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['bJustCompletedStep2'] == true;
+				}
+			},
+			{
+				name     : 'onStep3Completed',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['bJustCompletedStep3'] == true;
+				}
+			},
+			{
+				name     : 'onApiImport',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['bAPIImport'] == true;
+				}
+			},
+			{
+				name     : 'onAffiliateOneClickBox',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['bAffiliateOneClickBox'] == true;
+				}
+			},
+			{
+				name     : 'onAffiliateOneClickBoxStep2',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['bAffiliateOneClickBoxStep2'] == true;
+				}
+			},
+			{
+				name     : 'onAffiliateOneClickBoxStep3',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['bAffiliateOneClickBoxStep3'] == true;
+				}
+			},
+			{
+				name     : 'onExitPopup',
+				condition: function() {
+					return $.app.getGlobalAttr('user')['bAffiliateOneClickBox'] == true || $.app.getGlobalAttr('user')['showOneClickBox'] == true;
+				}
+			}
+		],
+
+		init : function() {
+			this.testPluginIsLoaded(['ajaxForm', 'loadMore', 'counter']);
+		},
+
+		run  : function() {
+			this._initUpdates();
+			this._initOnlineProfiles();
+			this._initMightLikeProfiles();
+		},
+
+		_initOnlineProfiles : function () {
+			var cache    = $.app.getCache();
+			var cacheKey = 'widget-onlineNow';
+			if (cache && cache.get(cacheKey))
+			{
+				var data = cache.get(cacheKey);
+				$('#widgetProfile').tmpl(data.list).appendTo('#profileBoxes .onlineNowBox ul');
+				$('.onlineNowBox').show();
+			}
+			else
+			{
+				$.get('/widget/onlineNow', function(data) {
+					if (data.noProfiles == true)
+					{
+						$('.onlineNowBox').hide();
+						return;
+					}
+					$('#widgetProfile').tmpl(data.list).appendTo('#profileBoxes .onlineNowBox ul');
+					$('.onlineNowBox').show();
+					if (cache)
+					{
+						cache.set(cacheKey, data, 600);
+					}
+				}, 'json');
+			}
+		},
+		_initMightLikeProfiles : function () {
+			var cache    = $.app.getCache();
+			var cacheKey = 'widget-youMightLike';
+			if (cache && cache.get(cacheKey))
+			{
+				var data = cache.get(cacheKey);
+				$('#youMightLikeProfile').tmpl(data.list).appendTo('#profileBoxes .youMightLikeBox ul');
+				$('.youMightLikeBox').show();
+			}
+			else
+			{
+				$.get('/widget/suggestedFlirts', function(data) {
+					if (data.noProfiles == true)
+					{
+						$('.youMightLikeBox').hide();
+						return;
+					}
+					$('#youMightLikeProfile').tmpl(data.list).appendTo('#profileBoxes .youMightLikeBox ul');
+					$('.youMightLikeBox').show();
+					if (cache)
+					{
+						cache.set(cacheKey, data, 600);
+					}
+				}, 'json');
+			}
+		},
+		_initUpdates : function() {
+			var self = this;
+			$('#userUpdateTemplate').tmpl($.app.getGlobalAttr('firstUpdates').list).prependTo('#userUpdates .updatesList');
+
+			$('#userUpdates .moreUpdates a').loadMore({
+				container : '#userUpdates .updatesList',
+				template  : '#userUpdateTemplate',
+				autoLoad  : false,
+				onEmpty   : function(button, data) {
+					button.find('.text').html(data.buttonText);
+				}
+			});
+
+			$('.postUpdateButton').attr('disabled', true);
+			$('#updateMessage').keyup(function(){
+				if ($(this).val())
+				{
+					$('.postUpdateButton').attr('disabled', false).removeClass('disabled').removeClass('loading');
+				} else
+				{
+					$('.postUpdateButton').attr('disabled', true);
+				}
+			});
+			$('#sendUpdateForm').ajaxForm({
+				beforeSubmit: function(formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				success : function(data, status, xhr, $form) {
+					$form.onFormSuccess();
+					if (data.status == 'error')
+					{
+						var aMessages = [];
+						$.each(data.message, function(iId,sVal) {
+							aMessages.push(sVal);
+						});
+						jAlert(aMessages.join("<br>"));
+					}
+					else
+					{
+						$('.postUpdateButton').attr('disabled', true);
+						$('#userUpdateTemplate').tmpl(data.list).prependTo('#userUpdates .updatesList').hide().fadeIn();
+					}
+					$('#updateMessage').val('');
+				},
+				error : function(xhr, error, thrownError) {
+					var data = $.parseJSON(xhr.responseText);
+					if ($.app.isRedirectStatus(data.status))
+					{
+						$.app.redirect(data.message);
+					}
+				},
+				dataType : 'json'
+			});
+
+			$('#updateMessage').autoResize({limit : 120});
+
+			$('#userUpdates a.replyButton').live('click', function() {
+				var replyButton   = $(this);
+				var formContainer = $(this).parents('.userUpdateBody').find('.replyForm');
+				var form          = formContainer.find('form');
+				var textarea      = form.find('textarea');
+
+				if (!textarea.hasClass('autoResize')){
+					textarea.addClass('autoResize');
+					textarea.autoResize({limit: 120, extraSpace: 10});
+				}
+				replyButton.toggleClass('openedForm');
+
+				if (!replyButton.hasClass('openedForm')) {
+					formContainer.hide();
+					form.find('.status').text('');
+					replyButton.text('reply');
+				} else {
+					formContainer.show();
+					replyButton.text('close');
+				}
+
+				$(this).toggleClass('showMessageArea');
+				if ($(this).hasClass('showMessageArea'))
+				{
+					form.find('.status').text('');
+				}
+
+				form.ajaxForm({
+					success : function(data) {
+						if (data.status == 'ok')
+						{
+							form.find('.status').text(data.message);
+							form.find('.message').css('height','18');
+						}
+					},
+					error : function(xhr, type, exception) {
+						try
+						{
+							var data = $.parseJSON(xhr.responseText);
+							if (data.status == 'redirect')
+							{
+								self.redirect(data.message);
+							}
+						}
+						catch (e){}
+					},
+					dataType : 'json'
+				});
+				$('.logo', '#topContainer').attr('data-rtf', 'hide-rtf');
+				form.find('.x-red-button').click(function(e){
+					if ($.app.getGlobalAttr('displayRebillNotification'))
+					{
+						var addRebillNotificationUrl = $.app.getGlobalAttr('addRebillNotificationUrl');
+						$('.logo', '#topContainer').attr('data-rtf', 'show-rtf');
+						e.preventDefault();
+						jPopup({
+							dialog: {
+								height       : 337,
+								width        : 637,
+								closeOnEscape: false
+							},
+							popupId: '#recurringNtf'
+						});
+						$.app.setGlobalAttr('displayRebillNotification', false);
+						$('#recurringNtf .closeRecurring').live('click', function(e) {
+							e.preventDefault();
+							var enabledReBilling = ($(this).attr('id') == 'yesPleaseBtn') ? 1 : 0;
+							$.ajax({
+								type   : 'POST',
+								url    :  addRebillNotificationUrl,
+								data   : 'enabledRebilling=' + enabledReBilling,
+								success: function(){
+									form.submit();
+								}
+							});
+							jClose();
+						});
+					}
+				});
+
+				return false;
+			});
+		},
+
+		onJustRegistered: function() {
+			var self = this;
+			jPopup({
+				dialog: {
+					width        : 552,
+					closeOnEscape: false
+				},
+				popupId: '#justRegisteredPopup'
+			});
+
+			$.locationHandler({
+				locationSuggestUrl : '/location/getCitySuggestions',
+				city               : '#JustRegisteredForm_city',
+				country            : '#JustRegisteredForm_location',
+				exactLocation      : '#JustRegisteredForm_textKey',
+				dropdownListPlugin : true
+			});
+
+			$('#justRegisteredForm').ajaxForm({
+				beforeSubmit : function(formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				success: function(data, status, xhr, $form) {
+					if (data.status == 'error')
+					{
+						$form.onFormError({data: data, appendMessage: true});
+					}
+					else if (data.status == 'redirect')
+					{
+						self.redirect(data.message);
+					}
+				},
+				dataType: 'json'
+			});
+		},
+
+		onShowDescriptionBox: function() {
+			if ($.app.getGlobalAttr('newMessage') > 0) {
+				jClose();
+			}
+			if ($.app.getGlobalAttr('user')['showOneClickBox'] == true)
+			{
+				var self = this;
+				jPopup({
+					dialog: {
+						width        : 550,
+						closeOnEscape: false
+					},
+					popupId: '#oneClickPopup'
+				});
+				var selectorProfile = $('#oneClickForm', '#oneClickPopup');
+
+				selectorProfile.ajaxForm({
+					beforeSubmit : function(formData, $form, options) {
+						return $form.onBeforeSubmit();
+					},
+					success: function(data, status, xhr, $form) {
+						if (data.status == 'error')
+						{
+							$form.onFormError({data: data, appendMessage: true});
+						}
+						else if (data.status == 'redirect')
+						{
+							$.app.getCache().flush();
+							self.redirect(data.message)
+						}
+					},
+					dataType: 'json'
+				});
+				$.locationHandler({
+					locationSuggestUrl : '/location/getCitySuggestions',
+					city               : '#oneClickForm #OneClickForm_city',
+					country            : '#oneClickForm #OneClickForm_location',
+					exactLocation      : '#oneClickForm #OneClickForm_textKey'
+				});
+			}
+			else
+			{
+				var self = this;
+				jPopup({
+					dialog: {
+						width        : 553,
+						closeOnEscape: false
+					},
+					popupId: '#addDescriptionPopup'
+				});
+
+				$('#addDescriptionPopup .uploadedPhoto').click(function(){
+					$('#uploadInput').trigger('click');
+				});
+
+				$('#fileUploader').fileUploader({
+					listElement      : $('#fileUploader ul.ui-fileUpload-list'),
+					allowedExtensions: ['jpg', 'jpeg', 'bmp', 'gif', 'png'],
+					action           : $.app.getGlobalAttr('xhrUploadUrl'),
+					maxFilesDropped: function() {
+						return 1;
+					},
+					onSupportDetected: function(event, ui) {
+						if (ui.type == 'legacy')
+						{
+							$('#uploadImageForm').ajaxForm({
+								dataType    : 'json',
+								data        : {isIFrame: 1},
+								beforeSubmit: function(formData, $form, options) {
+									if ($form.find('.x-field-file').attr('value') == '')
+									{
+										$form.find('.imageUploadFileSent').attr('value', 0);
+									}
+									else
+									{
+										$form.find('.imageUploadFileSent').attr('value', 1);
+									}
+									return true;
+								},
+								success : function(data) {
+									$('#addDescriptionPopup .uploadedPhoto img').attr('src', data.name);
+									$('.ui-fileUpload-legacy').hide();
+									$('.uploadedPhoto').show();
+								},
+								error: function(xhr, error, thrownError) {
+									jAlert('Error trying uploading this file ');
+								}
+							});
+						}
+					},
+					onError : function(event, ui) {
+						var message = '';
+						$.each(ui, function(index, error){
+							message += error.message + "<br>";
+						});
+
+						$('#addDescriptionPopup p.errorMessage').empty().html(message);
+					},
+					onSuccess: function(event, ui) {
+						var data    = ui.result;
+						$('#addDescriptionPopup .uploadedPhoto img').attr('src', data.name);
+						$('.ui-fileUpload-new').hide();
+						$('.uploadedPhoto').show();
+					},
+					onComplete: function(event, ui) {
+						$('#fileUploader .ui-fileUpload-list').empty();
+					}
+				});
+
+				var typingStartTime = 0;
+				var typingEndTime   = 0;
+
+				$('#addDescriptionForm').find('textarea').bind('keyup change', function() {
+					var sCurrentTime = Math.round((new Date().getTime()) / 1000);
+
+					if (typingStartTime == 0)
+					{
+						typingStartTime = sCurrentTime;
+					}
+
+					typingEndTime = sCurrentTime;
+				});
+
+				$('#addDescriptionForm').ajaxForm({
+					beforeSubmit : function(formData, $form, options) {
+						if ($.trim($form.find('textarea:first').val()).replace(/\s+/g, ' ').split(' ').length < 5)
+						{
+							$form.onFormError({
+								data: {
+									RegistrationUploadStepForm_selfDescription: 'Please fill in a description of minimum 5 words'
+								},
+								appendMessage: true
+							});
+						}
+						var typingTime = typingEndTime - typingStartTime;
+						$('#RegistrationUploadStepForm_time').val(typingTime);
+
+						return $form.onBeforeSubmit();
+					},
+					success: function(data, status, xhr, $form) {
+						if (data.status == 'error')
+						{
+							$form.onFormError({data: data, appendMessage: true});
+						}
+						else if (data.status == 'redirect')
+						{
+							$.app.getCache().flush();
+							self.redirect(data.message)
+						}
+					},
+					dataType: 'json'
+				});
+			}
+		},
+
+		onEmailJustBecameInvalid: function() {
+			var self = this;
+			jPopup({
+				dialog: {
+					width        : 500,
+					closeOnEscape: false
+				},
+				popupId: '#changeEmailPopup'
+			});
+
+			$('#changeEmailForm').ajaxForm({
+				beforeSubmit : function(formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				success: function(data, status, xhr, $form) {
+					if (data.status == 'error')
+					{
+						$form.onFormError({data: data, appendMessage: true});
+					}
+					else if (data.status == 'ok')
+					{
+						$form.onFormSuccess();
+						$.popup.close();
+					}
+				},
+				dataType: 'json'
+			});
+		},
+
+		onInvalidLocation: function() {
+			var self = this;
+			jPopup({
+				dialog: {
+					width        : 500,
+					closeOnEscape: false
+				},
+				popupId: '#invalidLocationPopup'
+			});
+
+			$.locationHandler({
+				locationSuggestUrl : '/location/getCitySuggestions',
+				city               : '#InvalidLocationForm_city',
+				country            : '#InvalidLocationForm_location',
+				exactLocation      : '#InvalidLocationForm_textKey',
+				dropdownListPlugin : false
+			});
+
+			$('#invalidLocationForm').ajaxForm({
+				beforeSubmit : function(formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				success: function(data, status, xhr, $form) {
+					if (data.status == 'error')
+					{
+						$form.onFormError({data: data, appendMessage: true});
+					}
+					else if (data.status == 'empty')
+					{
+						$form.onFormSuccess();
+						self.refreshPage();
+					}
+				},
+				dataType: 'json'
+			});
+		},
+
+		onApiImport:function () {
+			var self = this;
+
+			$('#changePasswordPopup').dialog({
+				closeOnEscape: false,
+				modal        : true,
+				resizable    : false,
+				draggable    : false,
+				width        : 500,
+				closable     : false
+			}).parents().find('.ui-icon-closethick').remove();
+
+			$('#changePasswordForm').ajaxForm({
+				dataType: 'json',
+				beforeSubmit : function(formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				error: function(xhr, error, thrownError){
+					var data = $.parseJSON(xhr.responseText);
+					$('#changePasswordPopup').dialog('close');
+				},
+				success: function(data, status, xhr, $form) {
+					if (data.status == 'error')
+					{
+						$form.onFormError({data: data, appendMessage: true});
+					}
+					else if (data.status == 'redirect')
+					{
+						$('#changePasswordPopup').dialog('close');
+						self.redirect(data.message);
+					}
+				}
+			});
+
+			$.app.trackGA({
+				url: $.app.getGlobalAttr('gaEventUrl'),
+				ev : 'changePasswordPopup'
+			});
+		},
+
+		onAffiliateOneClickBox:function () {
+			var self = this;
+
+			$('#oneClickPopupStep1').dialog({
+				closeOnEscape: false,
+				modal        : true,
+				resizable    : false,
+				draggable    : false,
+				width        : 420,
+				closable     : false
+			}).parents().find('.ui-icon-closethick').remove();
+
+			$('#AffiliateOneClickStep1Form').ajaxForm({
+				dataType: 'json',
+				beforeSubmit : function(formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				error: function(xhr, error, thrownError){
+					var data = $.parseJSON(xhr.responseText);
+					$('#oneClickPopupStep1').dialog('close');
+				},
+				success: function(data, status, xhr, $form) {
+					if (data.status == 'error')
+					{
+						$form.onFormError({data: data, appendMessage: true});
+					}
+					else if (data.status == 'redirect')
+					{
+						$('#oneClickPopupStep1').dialog('close');
+						self.redirect(data.message);
+					}
+				}
+			});
+		},
+
+		onAffiliateOneClickBoxStep2:function () {
+			var self = this;
+
+			$('#oneClickPopupStep2').dialog({
+				closeOnEscape: false,
+				modal        : true,
+				resizable    : false,
+				draggable    : false,
+				width        : 550,
+				closable     : false
+			}).parents().find('.ui-icon-closethick').remove();
+
+			$('#AffiliateOneClickStep2Form').ajaxForm({
+				dataType: 'json',
+				beforeSubmit : function(formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				error: function(xhr, error, thrownError){
+					var data = $.parseJSON(xhr.responseText);
+					$('#oneClickPopupStep2').dialog('close');
+				},
+				success: function(data, status, xhr, $form) {
+					if (data.status == 'error')
+					{
+						$form.onFormError({data: data, appendMessage: true});
+					}
+					else if (data.status == 'redirect')
+					{
+						$('#oneClickPopupStep2').dialog('close');
+						self.redirect(data.message);
+					}
+				}
+			});
+
+			$.locationHandler({
+				locationSuggestUrl : '/location/getCitySuggestions',
+				city               : '#AffiliateOneClickStep2Form_city',
+				country            : '#AffiliateOneClickStep2Form_location',
+				exactLocation      : '#AffiliateOneClickStep2Form_textKey'
+			});
+		},
+
+		onAffiliateOneClickBoxStep3:function () {
+			var self = this;
+
+			$('#oneClickPopupStep3').dialog({
+				closeOnEscape: false,
+				modal        : true,
+				resizable    : false,
+				draggable    : false,
+				width        : 350,
+				closable     : false
+			}).parents().find('.ui-icon-closethick').remove();
+
+			$('#AffiliateOneClickStep3Form').ajaxForm({
+				dataType: 'json',
+				beforeSubmit : function(formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				error: function(xhr, error, thrownError){
+					var data = $.parseJSON(xhr.responseText);
+					$('#oneClickPopupStep3').dialog('close');
+				},
+				success: function(data, status, xhr, $form) {
+					if (data.status == 'error')
+					{
+						$form.onFormError({data: data, appendMessage: true});
+					}
+					else if (data.status == 'redirect')
+					{
+						$('#oneClickPopupStep3').dialog('close');
+						self.redirect(data.message);
+					}
+				}
+			});
+		},
+
+		onResetPassword: function() {
+			var self = this;
+			jPopup({
+				dialog: {
+					width        : 500,
+					closeOnEscape: false
+				},
+				popupId: '#resetPasswordPopup'
+			});
+
+			$('#resetPasswordForm').ajaxForm({
+				beforeSubmit : function(formData, $form, options) {
+					return $form.onBeforeSubmit();
+				},
+				success: function(data, status, xhr, $form) {
+					if (data.status == 'error')
+					{
+						$form.onFormError({data: data, appendMessage: true});
+					}
+					else if (data.status == 'ok')
+					{
+						$form.onFormSuccess();
+						jClose();
+						jAlert(data.message);
+					}
+				},
+				dataType: 'json'
+			});
+		},
+
+		onShowSearchNotice: function() {
+			$.doomNotice({
+				message: $.app.getGlobalAttr('searchToolTipMessage'),
+				animationDuration: 800,
+				delayBeforeShow: 1000,
+				after: '#topContainer'
+			});
+
+		},
+
+		onStep1Completed: function() {
+			var self = this;
+			$.app.trackGA({
+				url: $.app.getGlobalAttr('gaEventUrl'),
+				ev : 'registerStep1Success'
+			});
+//			that.trackClickyURL({url:that.getGlobal('clickyEventUrl'), ev:'registerStep1Success'});
+		},
+
+		onStep2Completed: function() {
+			$.app.trackGA({
+				url: $.app.getGlobalAttr('gaEventUrl'),
+				ev : 'registerStep2Success'
+			});
+//			that.trackClickyURL({url:that.getGlobal('clickyEventUrl'), ev:'registerStep2Success'});
+		},
+
+		onStep3Completed: function() {
+			$.app.trackGA({
+				url: $.app.getGlobalAttr('gaEventUrl'),
+				ev : 'registerStep3Success'
+			});
+//			that.trackClickyURL({url:that.getGlobal('clickyEventUrl'), ev:'registerStep3Success'});
+		},
+
+		onExitPopup: function(){
+			var self = this;
+			function showExitPopup(){
+				jClose();
+				jPopup({
+					dialog: {
+						width        : 610,
+						closeOnEscape: false
+					},
+					popupId: '#exitPopup'
+				});
+
+				var selectorProfile = $('#exitPopup').find('.x-form');
+				var buttonForm      = selectorProfile.find('button');
+				var formId          = selectorProfile.attr('id');
+				var prefix          = (formId == 'editProfileFormExitPopup') ? 'OneClickForm': 'AffiliateOneClickStep1Form';
+
+				buttonForm.click(function () {
+					selectorProfile.trigger('submit');
+				});
+
+				selectorProfile.ajaxForm({
+					beforeSubmit : function(formData, $form, options) {
+						return $form.onBeforeSubmit();
+					},
+					success: function(data, status, xhr, $form) {
+						if (data.status == 'error')
+						{
+							$form.onFormError({data: data, appendMessage: true});
+						}
+						else if (data.status == 'redirect')
+						{
+							$.app.getCache().flush();
+							self.redirect(data.message);
+						}
+					},
+					dataType: 'json'
+				});
+
+				if (prefix == 'OneClickForm')
+				{
+					$.locationHandler({
+						locationSuggestUrl : '/location/getCitySuggestions',
+						city               : '#editProfileFormExitPopup #OneClickForm_city',
+						country            : '#editProfileFormExitPopup #OneClickForm_location',
+						exactLocation      : '#editProfileFormExitPopup #OneClickForm_textKey'
+					});
+				}
+				else
+				{
+					$('#AffiliateOneClickStep1Form_gender_lookingFor', '#AffiliateOneClickStep1FormExitPopup').change(function(){
+						var tmpVal  = $(this).val();
+						var tmpText = $(this).find('option:selected').text();
+						$('.x-field-checkbox').attr('checked', false);
+						if (tmpText.match(/[a-zA-Z ]+Women/))
+						{
+							$('#AffiliateOneClickStep1Form_lookingFor_0', '#AffiliateOneClickStep1FormExitPopup').attr('checked', 'checked');
+						}
+						if (tmpText.match(/[a-zA-Z ]+Men/))
+						{
+							$('#AffiliateOneClickStep1Form_lookingFor_1', '#AffiliateOneClickStep1FormExitPopup').attr('checked', 'checked');
+						}
+						$('#AffiliateOneClickStep1Form_gender', '#AffiliateOneClickStep1FormExitPopup').val(tmpVal % 3);
+					});
+				}
+			}
+			if ($('#exitPopup').length)
+			{
+				$('.ui-widget-overlay').mousemove(function(event){
+					var yTemp = event.pageY;
+					var yOld = ($('.ui-widget-overlay').attr('old-y') == undefined) ? 0 : $('.ui-widget-overlay').attr('old-y');
+					$('.ui-widget-overlay').attr('old-y', yTemp);
+					if (yTemp < 50 && yTemp < yOld)
+					{
+						$('.ui-widget-overlay').unbind('mousemove');
+						showExitPopup();
+					}
+				});
+			}
+		}
+	});
+})(jQuery);
+
+Error saving setting with name: consoleHistory, value length: 5278246. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 3676. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 3676. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 3723. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
