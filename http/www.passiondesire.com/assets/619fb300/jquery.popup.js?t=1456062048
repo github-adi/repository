@@ -1,0 +1,321 @@
+-Science Planet 9:
+-My build:
+-To be architectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Resources:
+-Java Script Link Address:
+http://www.passiondesire.com/assets/619fb300/jquery.popup.js?t=1456062048
+-To be evaluated in console:
+;(function($, undefined) {
+	$.popup = {
+		defaults : {
+			type     : 'alert',
+			message  : null,
+			title    : null,
+			callback : null,
+			classes  : null,
+			dialog : {
+				resizable : false,
+				draggable : false,
+				height    : 'auto',
+				minWidth  : 250,
+				minHeight : 100,
+				maxWidth  : 900,
+				modal     : true
+			},
+			buttons : {
+				ok     : {text: 'Ok',     classes: 'okButton x-button x-button-green'},
+				cancel : {text: 'Cancel', classes: 'cancelButton x-button x-button-green'},
+				yes    : {text: 'Yes',    classes: 'yesButton x-button x-button-green'},
+				no     : {text: 'No',     classes: 'noButton x-button x-button-white'}
+			},
+			repositionOnResize : true,
+			verticalOffset  : 0,
+			horizontalOffset: 0,
+			onBeforeCreate : null,
+			onAfterCreate  : null,
+			popupId        : null
+		},
+
+		_popup : null,
+
+		init : function(options) {
+			var self     = this;
+			self.options = $.extend(true, {}, self.defaults, options);
+
+			if ($.isFunction(self.options.onBeforeCreate) && !self.options.onBeforeCreate.call(self))
+			{
+				return;
+			}
+
+			self._create();
+
+			$.isFunction(self.options.onBeforeCreate) && self.options.onAfterCreate.call(self);
+		},
+
+		_create : function() {
+			var self    = this;
+			var options = self.options;
+
+			if ($(document).data('popupOpen') != undefined && $(document).data('popupOpen') == true)
+			{
+				return;
+			}
+
+			$(document).data('popupOpen', true);
+
+			if (options.popupId !== null)
+			{
+				this._popup = $(options.popupId);
+				var title   = this._popup.attr('title');
+				var popupId = this._popup.attr('id');
+			}
+			else
+			{
+				var popupId = 'popupContainer-' + options.type;
+				var title   = options.title !== null ? ' title="'+options.title+'"' : '';
+				var classes = options.classes !== null ? ' class="'+options.classes+'"' : '';
+				this._popup = $('<div id="' + popupId + '"'+title+classes+'></div>').html(options.message);
+			}
+
+			var dialogOptions = $.extend({}, options.dialog);
+			dialogOptions.close = function(event, ui) {
+				$.isFunction(options.dialog.close) && options.dialog.close(event, ui);
+				self._destroy();
+				$(document).data('popupOpen', false);
+			};
+
+			this._popup.dialog(dialogOptions);
+
+			var parentClass = 'ui-' + options.type;
+
+			if (popupId != undefined && popupId != '')
+			{
+				parentClass += ' ui-' + options.type + '-' + popupId;
+			}
+
+			this._popup.parents('.ui-dialog').addClass(parentClass);
+
+			if (title == '' || title == null || title == undefined)
+			{
+				this._popup.parents('.ui-dialog').find('.ui-dialog-titlebar').remove();
+			}
+
+			if (options.closable == false)
+			{
+				this._popup.parents('.ui-dialog').find('.ui-dialog-titlebar').remove();
+			}
+
+			this._createButtons();
+			this._repositionOnResize();
+		},
+
+		_createButtons : function() {
+			var self    = this;
+			var options = this.options;
+			var buttons = {};
+
+			switch (options.type)
+			{
+				case 'alert':
+					buttons[self.options.buttons.ok.text] = function() {
+						$.isFunction(self.options.callback) && self.options.callback.call(self, true);
+						self.close();
+					};
+				break;
+				case 'confirm':
+					buttons[self.options.buttons.yes.text] = function() {
+						$.isFunction(self.options.callback) && self.options.callback.call(self, true);
+						self.close();
+					};
+
+					buttons[self.options.buttons.no.text] = function() {
+						$.isFunction(self.options.callback) && self.options.callback.call(self, false);
+						self.close();
+					};
+				break;
+				default:
+					return;
+				break;
+			}
+
+			self._popup.dialog('option', 'buttons', buttons);
+			self._popup.next('.ui-dialog-buttonpane').find('button').each(function() {
+				var button = $(this);
+				button.removeAttr('class');
+
+				$.each(options.buttons, function(key, value) {
+					if (button.find('span').text() == value.text)
+					{
+						button.addClass(value.classes);
+						button.find('span').addClass('x-button-label');
+					}
+				});
+			});
+		},
+
+		_reposition: function() {
+			if (this._popup == null)
+			{
+				return;
+			}
+
+			var parent = this._popup.parents('.ui-dialog');
+			var top    = (($(window).height() / 2) - (parent.outerHeight() / 2)) + this.options.verticalOffset;
+			var left   = (($(window).width() / 2) - (parent.outerWidth() / 2)) + this.options.horizontalOffset;
+
+			if (top < 0) top = 0;
+			if (left < 0) left = 0;
+
+			// IE6 fix
+			if ($.browser.msie && parseInt($.browser.version) <= 6) top = top + $(window).scrollTop();
+
+			parent.css({
+				top : top + 'px',
+				left: left + 'px'
+			});
+
+			$(".ui-widget-overlay").height($(document).height());
+		},
+
+		_repositionOnResize: function() {
+			var self = this;
+
+			if (!self.options.repositionOnResize)
+			{
+				return;
+			}
+
+			$(window).bind('resize', function() {
+				self._reposition();
+			});
+		},
+
+		close : function(destroy) {
+			if (this._popup && this._popup.dialog)
+			{
+				this._popup.dialog('close');
+			}
+
+			$(document).data('popupOpen', false);
+		},
+
+		_destroy : function() {
+			if (this._popup === null)
+			{
+				return;
+			}
+
+			this._popup.dialog('destroy');
+
+			if (this.options.popupId === null)
+			{
+				this._popup.remove();
+			}
+
+			this._popup  = null;
+			this.options = null;
+		}
+	};
+
+	jAlert = function(message, title, callback) {
+		var options = message;
+
+		if (typeof(options) != 'object')
+		{
+			options = {
+				message  : message,
+				title    : title,
+				callback : callback
+			};
+		}
+
+		options.type = 'alert';
+
+		$.popup.init(options);
+	};
+
+	jConfirm = function(message, title, callback) {
+		var options = message;
+
+		if (typeof(options) != 'object')
+		{
+			options = {
+				message  : message,
+				title    : title,
+				callback : callback
+			};
+		}
+
+		options.type = 'confirm';
+
+		$.popup.init(options);
+	};
+
+	jPopup = function(message, title, callback) {
+		var options = message;
+
+		if (typeof(options) != 'object')
+		{
+			options = {
+				message  : message,
+				title    : title,
+				callback : callback
+			};
+		}
+
+		options.type = 'popup';
+
+		$.popup.init(options);
+	};
+
+	jLoading = function() {
+		var options = {
+			type    : 'loading',
+			closable: false
+		}
+
+		$.popup.init(options);
+	};
+
+	jClose = function() {
+		$.popup.close();
+	};
+})(jQuery);
+
+Error saving setting with name: consoleHistory, value length: 5410295. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 3864. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 3911. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
