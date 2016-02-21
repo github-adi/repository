@@ -1,0 +1,35 @@
+-My build uploading:
+-Local Disk (C:):
+file:///C:/UsersAxiooFavoriteswallet.js');
+-Science Planet 9:
+-My build:
+-To be architectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Resources:
+-Java Script Link Address:
+-To be avaluated in console:
+Failed to load resource: net::ERR_FILE_NOT_FOUND
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Failed to load resource: the server responded with a status of 404 (Not Found)
+Not allowed to load local resource: file:///C:/UsersAxiooFavoriteswallet.js');
+Error saving setting with name: savedURLs, value length: 3655. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
