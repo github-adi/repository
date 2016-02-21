@@ -1,0 +1,608 @@
+-Resources:
+-Java Script Link Address:
+http://www.passiondesire.com/themes/passiondesire/js/app.js?t=1456062048
+
+-To be evaluated in console:
+;(function($, undefined) {
+	$.app = $.app || {};
+
+	if ($.app.version)
+	{
+		return;
+	}
+
+	$.plugin = {
+		debug   : false,
+		name    : null,
+		options : {},
+		events  : null,
+
+		init : function() {},
+		run  : function() {},
+
+		log                : function(message) {$.app.log(message);},
+		throwException     : function(message) {$.app.throwException(message);},
+		testPluginIsLoaded : function(plugin) {$.app.testPluginIsLoaded(plugin);},
+		debugMode          : function() {$.app.debugMode();},
+		redirect           : function(to) {$.app.redirect(to);},
+		refreshPage        : function() {$.app.refreshPage();}
+	};
+
+	$.extend($.app, {
+		version     : '1.0',
+		modules     : {},
+		options     : {},
+		_isRunning  : false,
+		_defaults   : {
+			debug        : false,
+			logErrorsUrl : null,
+			logErrors    : true,
+			cache        : null,
+			cacheEnabled : false
+		},
+
+		_init : function() {
+			if (this._isRunning)
+			{
+				this.throwException('App already running');
+			}
+
+			this.options = $.extend({}, this._defaults, this.options);
+
+			$.ajaxSetup({});
+
+			if (this.options.cacheEnabled === false)
+			{
+				this.options.cache = null;
+			}
+
+			this._isRunning = true;
+		},
+
+		log: function(message) {
+			if (this.options.debug && window.console != undefined)
+			{
+				console.log(message);
+			}
+		},
+
+		debugMode : function() {
+			return this.options.debug;
+		},
+
+		register : function(name, module) {
+			var self = this;
+
+			if (self.modules[name] !== undefined)
+			{
+				self.throwException('Module ' + name + ' is already registered');
+			}
+
+			self.modules[name]       = $.extend({}, $.plugin, module);
+			self.modules[name].name  = module.name ? module.name : name;
+		},
+
+		getModule : function(name){
+			return this.modules[name] || this.throwException('Could not find module ' + name);
+		},
+
+		getGlobalAttr : function(name) {
+			return globalParams[name] || null;
+		},
+
+		setGlobalAttr : function(name, value) {
+			globalParams[name] = value;
+		},
+
+		unsetGlobalAttr : function(name) {
+			return delete globalParams[name];
+		},
+
+		throwException : function(message) {
+			throw new Error(message);
+		},
+
+		handleError : function(message, file, line) {
+			if (this.options.logErrorsUrl !== null && this.options.logErrors)
+			{
+				$.get(this.options.logErrorsUrl, {msg: message, file: file, line: line});
+			}
+		},
+
+		redirect : function(to) {
+			window.location = to;
+			return false;
+		},
+
+		refreshPage: function() {
+			window.location = location.href;
+		},
+
+		isRedirectStatus : function(status) {
+			return status == 'redirect';
+		},
+
+		testPluginIsLoaded : function(plugin) {
+			var self = this;
+			plugin   = $.isArray(plugin) ? plugin : new Array(plugin);
+
+			$.each(plugin, function(key, pluginName){
+				if (eval('$.fn.'+pluginName) === undefined)
+				{
+					self.throwException(pluginName + ' plugin is not loaded');
+				}
+			});
+		},
+
+		trackGA: function(options) {
+			var _events = this.getGlobalAttr('gaEvents');
+
+			options = $.extend({
+				url: window.location.href,
+				ev: ''
+			}, options);
+
+			if (options.ev != '' && !_events[options.ev])
+			{
+				return false;
+			}
+
+			var _trackUrl   = '{url}{glueString}{eventName}';
+			var eventName   = options.ev === '' ? '' : 'ev=' + _events[options.ev];
+			var _glueString = eventName !== '' ? (options.url.search(/\?/) > -1 ? '&' : '?') : '';
+			_trackUrl       = _trackUrl.replace('{url}', options.url).replace('{glueString}', _glueString).replace('{eventName}', eventName);
+
+			this.loadGAParams({'_trackPageview': _trackUrl});
+			return true;
+		},
+
+		loadGAParams: function(options) {
+			var params = this.getGlobalAttr('GAParams');
+
+			if (options !== 'undefined')
+			{
+				params = $.extend(params, options);
+			}
+
+			_gaq = typeof(_gaq) !== 'undefined' ? _gaq : [];
+
+			$.each(params, function (GAParam, value) {
+				if (value && value !== '')
+				{
+					_gaq.push([GAParam, value]);
+				}
+			});
+		},
+
+		isGuest: function() {
+			return this.getGlobalAttr('isGuest') == true;
+		},
+
+		getCache: function() {
+			if (this.options.cache === null)
+			{
+				return {
+					get: function(){
+						return false;
+					},
+					set: function(){}
+				};
+			}
+
+			return this.options.cache;
+		},
+
+		setSafeMode: function(){
+			var self= this;
+			$('#safe-mode-switch-container').toggleClass('mode-off').toggleClass('mode-on');
+			$.get('/profile/setSafeMode', function(data){
+				if (data.status == 'empty')
+				{
+					// Flush the cache to reload the images
+					$.app.getCache().flush();
+					self.refreshPage();
+				}
+			}, 'json');
+		},
+
+		run : function(options) {
+			var self     = this;
+			self.options = options;
+			self._init();
+
+			$.each(self.modules, function(name, plugin){
+				//self.log('Starting plugin ' + name);
+
+				try
+				{
+					plugin.init();
+					plugin.run();
+
+					if (plugin.events !== null)
+					{
+						$.each(plugin.events, function(key, event) {
+							if (event === undefined)
+							{
+								return false;
+							}
+
+							if ((event.isLoaded == undefined || event.isLoaded == false) && (event.isEnabled == undefined || event.isEnabled == true))
+							{
+								//self.log("Calling " + event.name);
+
+								if ($.isFunction(plugin[event.name]) && event.condition.call(self))
+								{
+									plugin[event.name].apply(self);
+									plugin.events[key].isLoaded = true;
+									self.log("Triggered " + event.name);
+								}
+								else
+								{
+									plugin.events[key].isLoaded = false;
+								}
+							}
+						});
+					}
+				}
+				catch (e)
+				{
+					self.log('[' + name + '] Exception: ' + e.message);
+				}
+			});
+		}
+	});
+})(jQuery);
+
+;(function($, undefined) {
+	$.fn.onFormError = function(options) {
+		var defaults = {
+			data          : null,
+			classes       : 'error',
+			messageClass  : 'errorMessage',
+			appendMessage : true
+		};
+
+		var options  = $.extend(defaults, options);
+
+		return this.each(function() {
+			var self = $(this);
+
+			var button = self.find(':submit');
+			if (button.length != 0)
+			{
+				button.attr('disabled', false).removeClass('loading');
+			}
+
+			self.find('.' + options.classes).removeClass(options.classes);
+			self.find('.' + options.messageClass).remove();
+
+			$.each(options.data, function(key, value) {
+				self.find('#' + key).addClass(options.classes);
+				self.find('label[for=' + key + ']').addClass(options.classes);
+				var objAfterInsert =  self.find('#' + key);
+				if (self.find('#' + key).attr('id') == 'RegistrationForm_eula' ||
+					self.find('#' + key).attr('id') == 'OneClickForm_eula' ||
+					self.find('#' + key).attr('id') == 'ChangePasswordForm_eula' ||
+					self.find('#' + key).attr('id') == 'EditSettingsForm_email' ||
+					self.find('#' + key).attr('id') == 'AffiliateOneClickStep1Form_eula'
+					) {
+					objAfterInsert = objAfterInsert.next();
+				}
+				if (options.appendMessage)
+				{
+					$('<p class="'+options.messageClass+'">'+value+'</p>').insertAfter(objAfterInsert);
+				}
+			});
+
+			self
+			.bind('keyup change', function(){
+				$(this).removeClass('notChanged').find('.' + options.classes).removeClass(options.classes);
+
+				if (options.appendMessage)
+				{
+					$(this).find('.' + options.messageClass).remove();
+				}
+				if ($('#errLogin').length) {
+					$('#errLogin').hide();
+				}
+			})
+			.addClass('notChanged');
+		});
+	};
+
+	$.fn.onBeforeSubmit = function() {
+		if (this.hasClass('notChanged'))
+		{
+			return false;
+		}
+
+		var button = this.find(':submit');
+		if (button.length != 0)
+		{
+			button.attr('disabled', true).addClass('loading');
+		}
+
+		return true;
+	};
+
+	$.fn.onFormSuccess = function() {
+		var button = this.find(':submit');
+		if (button.length != 0)
+		{
+			button.attr('disabled', false).removeClass('loading');
+		}
+	};
+
+	$.fn.clearErrors = function(options) {
+		var defaults = {
+			data          : null,
+			classes       : 'error',
+			messageClass  : 'errorMessage'
+		};
+
+		var options  = $.extend(defaults, options);
+
+		return this.each(function() {
+			var self = $(this);
+			self.removeClass('notChanged');
+
+			if (options.data === null)
+			{
+				self.find('.' + options.classes).removeClass(options.classes);
+			}
+			else
+			{
+				$.each(options.data, function(key, index){
+					self.find('#' + index).removeClass(options.classes);
+					self.find('label[for=' + index + ']').removeClass(options.classes);
+				});
+			}
+
+			self.find('.' + options.messageClass).remove();
+		});
+	}
+})(jQuery);
+
+;(function($, undefined) {
+	$.fn.disable = function(options) {
+
+		var defaults = {
+			classes         : 'disabled',
+			enabledClass    : 'enabled',
+			classesToRemove : [],
+			onAfterDisable  : function(){}
+		};
+
+		var options = $.extend(defaults, options);
+		options.classesToRemove.push(options.enabledClass);
+
+		return this.each(function() {
+			var self = $(this);
+			self.storeEvents();
+
+			$.each(options.classesToRemove, function(key, value){
+				self.removeClass(value);
+			});
+
+			self
+				.addClass(options.classes)
+				.attr('disabled', true)
+				.unbind()
+				.click(function(){return false});
+
+			options.onAfterDisable(self);
+		});
+	};
+
+	$.fn.enable = function(options) {
+
+		var defaults = {
+			classes         : 'enabled',
+			disabledClass   : 'disabled',
+			classesToRemove : [],
+			onAfterEnable   : function() {}
+		}
+
+		var options = $.extend(defaults, options);
+		options.classesToRemove.push(options.disabledClass);
+
+		return this.each(function() {
+			var self = $(this);
+			$.each(options.classesToRemove, function(key, value){
+				self.removeClass(value);
+			});
+
+			self
+				.addClass(options.classes)
+				.attr('disabled', false);
+
+			self.restoreEvents();
+
+			options.onAfterEnable(self);
+		});
+	};
+})(jQuery);
+
+;(function($) {
+	$.fn.simpleRedirectForm = function(options) {
+		var opt = $.extend({}, {
+			beforeSubmit : function (formData, $form, options) {
+				return $form.onBeforeSubmit();
+			},
+			success : function(data, status, xhr, $form) {
+				if (data.status == 'error')
+				{
+					$form.onFormError({data: data});
+				}
+				else
+				{
+					location.href = data.redirectUrl;
+				}
+			},
+			dataType : 'json'
+		}, options);
+
+
+		$(this).ajaxForm(opt);
+	};
+})(jQuery);
+
+;(function($){
+
+	function obj_copy(obj)
+	{
+		var out = {};
+		for (i in obj)
+		{
+			if (typeof obj[i] == 'object')
+			{
+				out[i] = $.extend({}, obj[i]);
+			}
+			else
+			{
+				out[i] = obj[i];
+			}
+		}
+
+		return out;
+	}
+
+	$.fn.extend({
+
+		storeEvents:function(){
+			this.each(function(){
+				$.data(this,'storedEvents',obj_copy($(this).data('events')));
+			});
+			return this;
+		},
+
+		restoreEvents:function(){
+			this.each(function(){
+				var events = $.data(this,'storedEvents');
+				if (events){
+					$(this).unbind();
+					for (var type in events){
+						for (var handler in events[type]){
+							$.event.add(
+								this,
+								type,
+								events[type][handler],
+								events[type][handler].data);
+						}
+					}
+				}
+			});
+			return this;
+		}
+
+	});
+})(jQuery);
+
+;(function($, undefined) {
+	$.locationHandler = function(options) {
+		defaults = {
+			locationSuggestUrl  : '/location/getCitySuggestions',
+			country             : null,
+			city                : null,
+			exactLocation       : null,
+			dropdownListPlugin  : true,
+			dropdownListOptions : {}
+		};
+		options = $.extend({}, defaults, options);
+
+		var country       = $(options.country);
+		var city          = $(options.city);
+		var exactLocation = $(options.exactLocation);
+
+		if (options.dropdownListPlugin)
+		{
+			country.dropdownList(options.dropdownListOptions);
+		}
+
+		country.change(function() {
+			city.attr('value', '');
+			exactLocation.attr('value', '');
+		});
+
+		city.autocomplete({
+			minLength : 3,
+			source    : function (request, response) {
+				var qParam = request.term;
+				var regexp_multiple_space = new RegExp(/ {2,}/g);
+				var regexp_starting_space = new RegExp(/^ +/g);
+
+				qParam = qParam.replace(regexp_starting_space,''); //remove space at the beginning
+				qParam = qParam.replace(regexp_multiple_space,' '); //remove multiple spaces
+
+				if (qParam.length > 2)
+				{
+					$.get(options.locationSuggestUrl, {
+						q      : qParam,
+						country: country.val(),
+						limit  : 20
+					}, function(data) {
+						var cityList = data.cityList;
+
+						if (cityList.length == 0)
+						{
+							city.attr('value', '');
+							exactLocation.attr('value', '');
+							return false;
+						}
+
+						response ($.map(cityList, function(item) {
+							return {
+								label   : item.region,
+								value   : item.region,
+								textKey : item.textKey
+							}
+						}));
+					}, 'json');
+				}
+			},
+
+			select : function(event, ui) {
+				exactLocation.attr('value', ui.item.textKey);
+				event.stopPropagation();
+			},
+
+			search : function() {
+				exactLocation.attr('value', '');
+			},
+
+			close : function(event) {
+				if (exactLocation.attr('value') == '')
+				{
+					$(this).attr('value', '');
+				}
+			}
+		});
+	};
+})(jQuery);
+
+Error saving setting with name: consoleHistory, value length: 5250747. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 3676. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3665
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+
