@@ -1,0 +1,624 @@
+-Science Planet 9:
+-My build:
+-To be architectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Resources:
+-Java Script Link Address:
+http://www.passiondesire.com/assets/cb00256f/jquery.dropdownList.js?t=1456062048
+-To be evaluated in console:
+;(function($) {
+
+var typeTimer, typeSearch = '';
+
+$.widget("ui.dropdownList", {
+	version : '1.0.1',
+	options : {
+		debug                 : false,
+		autoWidth             : true,
+		showOptionsTransition : null,
+		showOptionsSpeed      : null,
+		hideOptionsTransition : null,
+		hideOptionsSpeed      : null,
+		onChange              : null,
+		onAfterChange         : null,
+		onShowOptions         : null,
+		onHideOptions         : null,
+		keyNavigation         : true
+	},
+
+	_create : function() {
+		var self   = this;
+		var select = this.element;
+
+		if (navigator.userAgent.match(/iPad|iPhone|Android/i)) return false;
+		if (select.is('select') == false) return false;
+		if (select.data('isDropdownList')) return false;
+
+		var icon    = $('<span class="dropdownList-icon" />');
+		var label   = $('<span class="dropdownList-label" />').text(select.find('option:selected').text() || '\u00A0');
+		var arrow   = $('<span class="dropdownList-arrow" />');
+		var options = self._getOptions();
+
+		var control = $('<a class="dropdownList" />')
+			.addClass(select.attr('class') + ' dropdownList-dropdown')
+			.attr('title', select.attr('title') || '')
+			.attr('tabindex', parseInt(select.attr('tabindex')))
+			.css('MozUserSelect', 'none')
+			.data('dropdownList-options', options)
+			.append(icon)
+			.append(label)
+			.append(arrow)
+			.bind('selectstart', function(event) {
+				event.preventDefault();
+			})
+			.bind('focus.dropdownList', function() {
+				if(this !== document.activeElement) $(document.activeElement).blur();
+				if(control.hasClass('dropdownList-active')) return;
+
+				control.addClass('dropdownList-active');
+				select.trigger('focus');
+			})
+			.bind('blur.dropdownList', function() {
+				if(!control.hasClass('dropdownList-active')) return;
+				control.removeClass('dropdownList-active');
+				select.trigger('blur');
+			})
+			.bind('mousedown.dropdownList', function(event) {
+				if(control.hasClass('dropdownList-menuShowing'))
+				{
+					self.hideOptions();
+				}
+				else
+				{
+					event.stopPropagation();
+					// Webkit fix to prevent premature selection of options
+					options.data('dropdownList-down-at-x', event.screenX).data('dropdownList-down-at-y', event.screenY);
+					self.showOptions();
+				}
+			})
+			.css({'display' : 'block'})
+			.insertAfter(select);
+
+		if (self.options.keyNavigation)
+		{
+			control.bind('keydown.dropdownList', function(event) {
+				self.onKeyDown(event);
+			})
+			.bind('keypress.dropdownList', function(event) {
+				self.onKeyPress(event);
+			});
+		}
+
+		if (select.attr('disabled')) control.addClass('dropdownList-disabled');
+
+		select
+			.addClass('dropdownList')
+			.data('dropdownList-control', control)
+			.data('dropdownList-settings', self.options)
+			.hide();
+	},
+
+	onKeyDown : function(event) {
+		// Handles open/close and arrow key functionality
+		var self     = this;
+		var select   = self.element;
+		var control  = select.data('dropdownList-control');
+		var options  = control.data('dropdownList-options');
+		var settings = select.data('dropdownList-settings');
+		var totalOptions = 0, i = 0;
+
+		if (control.hasClass('dropdownList-disabled')) return;
+
+		switch (event.keyCode)
+		{
+			case 8: // backspace
+				event.preventDefault();
+				typeSearch = '';
+				break;
+
+			case 9: // tab
+			case 27: // esc
+				self.hideOptions();
+				options.find('.dropdownList-hover').removeClass('dropdownList-hover');
+			break;
+
+			case 13: // enter
+				if (control.hasClass('dropdownList-menuShowing'))
+				{
+					self.selectOption(options.find('li.dropdownList-hover:first'), event);
+					if (control.hasClass('dropdownList-dropdown')) self.hideOptions();
+				}
+				else
+				{
+					self.showOptions();
+				}
+			break;
+
+			case 38: // up
+			case 37: // left
+
+				event.preventDefault();
+
+				if (control.hasClass('dropdownList-menuShowing'))
+				{
+					var prev     = options.find('.dropdownList-hover').prev('li');
+					totalOptions = options.find('li:not(.dropdownList-optgroup)').length;
+					i            = 0;
+
+					while (prev.length === 0 || prev.hasClass('dropdownList-disabled') || prev.hasClass('dropdownList-optgroup'))
+					{
+						prev = prev.prev('li');
+
+						if (prev.length === 0)
+						{
+							if (settings.loopOptions)
+							{
+								prev = options.find('li:last');
+							}
+							else
+							{
+								prev = options.find('li:first');
+							}
+						}
+
+						if (++i >= totalOptions) break;
+					}
+
+					options.find('.dropdownList-hover').removeClass('dropdownList-hover');
+					prev.addClass('dropdownList-hover');
+					self._keepOptionInView(prev);
+
+				}
+				else
+				{
+					self.showOptions;
+				}
+
+			break;
+
+			case 40: // down
+			case 39: // right
+
+				event.preventDefault();
+
+				if (control.hasClass('dropdownList-menuShowing'))
+				{
+					var next     = options.find('.dropdownList-hover').next('li');
+					totalOptions = options.find('li:not(.dropdownList-optgroup)').length;
+					i            = 0;
+
+					while (next.length === 0 || next.hasClass('dropdownList-disabled') || next.hasClass('dropdownList-optgroup'))
+					{
+						next = next.next('li');
+
+						if (next.length === 0)
+						{
+							if (settings.loopOptions)
+							{
+								next = options.find('li:first');
+							}
+							else
+							{
+								next = options.find('li:last');
+							}
+						}
+
+						if (++i >= totalOptions) break;
+					}
+
+					options.find('.dropdownList-hover').removeClass('dropdownList-hover');
+					next.addClass('dropdownList-hover');
+					self._keepOptionInView(next);
+				}
+				else
+				{
+					self.showOptions();
+				}
+			break;
+		}
+	},
+
+	onKeyPress : function(event) {
+		//
+		// Handles type-to-find functionality
+		//
+
+		var self    = this;
+		var select  = this.element;
+		var control = select.data('dropdownList-control');
+		var options = control.data('dropdownList-options');
+
+		if (control.hasClass('dropdownList-disabled')) return;
+
+		switch (event.keyCode)
+		{
+
+			case 9: // tab
+			case 27: // esc
+			case 13: // enter
+			case 38: // up
+			case 37: // left
+			case 40: // down
+			case 39: // right
+				// Don't interfere with the keydown event!
+			break;
+
+			default: // Type to find
+
+				if (!control.hasClass('dropdownList-menuShowing'))
+				{
+					self.showOptions();
+				}
+
+				event.preventDefault();
+
+				clearTimeout(typeTimer);
+				typeSearch += String.fromCharCode(event.charCode || event.keyCode);
+
+				options.find('a').each(function() {
+					if ($(this).text().substr(0, typeSearch.length).toLowerCase() === typeSearch.toLowerCase())
+					{
+						options.find('.dropdownList-hover').removeClass('dropdownList-hover');
+						$(this).parent().addClass('selectBox-hover');
+
+						self._keepOptionInView($(this).parent());
+						return false;
+					}
+				});
+
+				// Clear after a brief pause
+				typeTimer = setTimeout(function() {typeSearch = '';}, 1000);
+
+			break;
+		}
+	},
+
+	selectOption : function(elem, event) {
+		var self     = this;
+		var select   = this.element;
+		var control  = select.data('dropdownList-control');
+		var settings = select.data('dropdownList-settings');
+
+		if (control.hasClass('dropdownList-disabled')) return false;
+		if (elem.length === 0 || elem.hasClass('dropdownList-disabled')) return false;
+
+		var i = 0, selection = [];
+
+		if (select.attr('multiple'))
+		{
+			control.find('.dropdownList-selected a').each(function() {
+				selection[i++] = $(this).attr('rel');
+			});
+		}
+		else
+		{
+			selection = elem.find('a').attr('rel');
+		}
+
+		if ($.isFunction(self.options.onChange) && !self.options.onChange.call(this, this.element, selection))
+		{
+			return false;
+		}
+
+		if (select.attr('multiple'))
+		{
+			// If event.shiftKey is true, this will select all options between li and the last li selected
+			if (event.shiftKey && control.data('dropdownList-last-selected'))
+			{
+				elem.toggleClass('dropdownList-selected');
+
+				var affectedOptions;
+
+				if (elem.index() > control.data('dropdownList-last-selected').index())
+				{
+					affectedOptions = elem.siblings().slice(control.data('dropdownList-last-selected').index(), elem.index());
+				}
+				else
+				{
+					affectedOptions = elem.siblings().slice(elem.index(), control.data('dropdownList-last-selected').index());
+				}
+
+				affectedOptions = affectedOptions.not('.dropdownList-optgroup, .dropdownList-disabled');
+
+				if (elem.hasClass('dropdownList-selected'))
+				{
+					affectedOptions.addClass('dropdownList-selected');
+				}
+				else
+				{
+					affectedOptions.removeClass('dropdownList-selected');
+				}
+
+			}
+			else if(event.metaKey)
+			{
+				elem.toggleClass('dropdownList-selected');
+			}
+			else
+			{
+				elem.siblings().removeClass('dropdownList-selected');
+				elem.addClass('dropdownList-selected');
+			}
+		}
+		else
+		{
+			elem.siblings().removeClass('dropdownList-selected');
+			elem.addClass('dropdownList-selected');
+		}
+
+		if (control.hasClass('dropdownList-dropdown'))
+		{
+			control.find('.dropdownList-label').text(elem.text());
+		}
+
+		// Remember most recently selected item
+		control.data('dropdownList-last-selected', elem);
+
+		// Update original control's value
+		if (select.val() !== selection)
+		{
+			select.val(selection);
+			select.trigger('change');
+			$.isFunction(self.options.onAfterChange) && self.options.onAfterChange.call(this, this.element);
+		}
+
+		return true;
+	},
+
+	showOptions: function() {
+		var self     = this;
+		var select   = self.element;
+		var control  = select.data('dropdownList-control');
+		var	settings = select.data('dropdownList-settings');
+		var options  = control.data('dropdownList-options');
+
+		if (control.hasClass('dropdownList-disabled')) return false;
+
+		self.hideOptions();
+
+		// Auto-width
+		if (settings.autoWidth)
+		{
+			options.css('width', control.innerWidth());
+		}
+		else if (options.innerWidth() < control.innerWidth())
+		{
+			options.css('width', control.innerWidth() - parseInt(options.css('padding-left')) - parseInt(options.css('padding-right')))
+		}
+
+		var borderBottomWidth = isNaN(control.css('borderBottomWidth')) ? 0 : parseInt(control.css('borderBottomWidth'));
+
+		options.css({
+			top: control.offset().top + control.outerHeight() - borderBottomWidth,
+			left: control.offset().left
+		});
+
+		// Show menu
+		switch (settings.showOptionsTransition)
+		{
+			case 'fade':
+				options.fadeIn(settings.showOptionsSpeed);
+				break;
+
+			case 'slide':
+				options.slideDown(settings.showOptionsSpeed);
+				break;
+
+			default:
+				options.show(settings.showOptionsSpeed);
+		}
+
+		options.find('.dropdownList-hover').removeClass('dropdownList-hover');
+
+		var li = options.find('.dropdownList-selected:first').addClass('dropdownList-hover');
+		self._keepOptionInView(li);
+
+		control.addClass('dropdownList-menuShowing');
+
+		$(document).bind('mousedown.dropdownList', function(event) {
+			if ($(event.target).parents().andSelf().hasClass('dropdownList-options')) return;
+			self.hideOptions();
+		});
+
+		$.isFunction(self.options.onShowOptions) && self.options.onShowOptions.call(this, this.element);
+	},
+
+	hideOptions : function() {
+		var self = this;
+
+		if ($(".dropdownList-dropdown-menu").length === 0) return;
+		$(document).unbind('mousedown.dropdownList');
+
+		$(".dropdownList-dropdown-menu").each(function() {
+			var options  = $(this);
+			var select   = options.data('dropdownList-select');
+			var control  = select.data('dropdownList-control');
+			var settings = select.data('dropdownList-settings');
+
+			switch (settings.hideOptionsTransition) {
+
+				case 'fade':
+					options.fadeOut(settings.hideOptionsSpeed);
+					break;
+
+				case 'slide':
+					options.slideUp(settings.hideOptionsSpeed);
+					break;
+
+				default:
+					options.hide(settings.hideOptionsSpeed);
+					break;
+			}
+
+			control.removeClass('dropdownList-menuShowing');
+		});
+
+		$.isFunction(self.options.onHideOptions) && self.options.onHideOptions.call(this, this.element);
+	},
+
+	_keepOptionInView : function(li) {
+		if (!li || li.length === 0) return;
+
+		var select    = this.element;
+		var control   = select.data('dropdownList-control');
+		var	options   = control.data('dropdownList-options');
+		var	scrollBox = control.hasClass('dropdownList-dropdown') ? options : options.parent();
+		var	top       = parseInt(li.offset().top - scrollBox.position().top);
+		var	bottom    = parseInt(top + li.outerHeight());
+
+		scrollBox.scrollTop(li.offset().top - scrollBox.offset().top + scrollBox.scrollTop() - (scrollBox.height() / 2));
+	},
+
+	_getOptions : function() {
+		var self    = this;
+		var select  = this.element;
+		var options = $('<ul class="dropdownList-dropdown-menu dropdownList-options" />');
+
+		var selectOptGroup = select.find('optgroup')
+		if (selectOptGroup.length > 0)
+		{
+			selectOptGroup.each(function() {
+				options.append($('<li class="dropdownList-optgroup" />').text($(this).attr('label')));
+
+				$(this).find('option').each(function(){
+					self._getOptionElem($(this)).appendTo(options);
+				});
+			});
+		}
+		else
+		{
+			var selectOptions = select.find('option:not(.prompt)');
+
+			if (selectOptions.length > 0)
+			{
+				selectOptions.each(function(){
+					self._getOptionElem($(this)).appendTo(options);
+				});
+			}
+			else
+			{
+				options.append('<li>\u00A0</li>');
+			}
+		}
+
+		options
+			.data('dropdownList-select', select)
+			.css({'display' : 'none', 'MozUserSelect' : 'none'})
+			.appendTo('body')
+			.find('a')
+			.bind('selectstart', function(event) {
+				event.preventDefault();
+			})
+			.bind('mousedown.dropdownList', function(event) {
+				event.preventDefault(); // Prevent options from being "dragged"
+				if (event.screenX === options.data('dropdownList-down-at-x') && event.screenY === options.data('dropdownList-down-at-y'))
+				{
+					options.removeData('dropdownList-down-at-x').removeData('dropdownList-down-at-y');
+					self.hideOptions();
+				}
+			})
+			.bind('mouseup.dropdownList', function(event) {
+				if (event.screenX === options.data('dropdownList-down-at-x') && event.screenY === options.data('dropdownList-down-at-y'))
+				{
+					return;
+				}
+				else
+				{
+					options.removeData('dropdownList-down-at-x').removeData('dropdownList-down-at-y');
+				}
+
+				self.selectOption($(this).parent(), event);
+				self.hideOptions();
+			})
+			.bind('mouseover.dropdownList', function() {
+				$(this).parent().siblings().removeClass('dropdownList-hover');
+				$(this).parent().addClass('dropdownList-hover')
+			})
+			.bind('museout.dropdownList', function() {
+				$(this).parent().removeClass('dropdownList-hover');
+
+				if (options.find('.dropdownList-hover').length == 0)
+				{
+					options.find('.dropdownList-selected').addClass('dropdownList-hover');
+				}
+			});
+
+		return options;
+	},
+
+	_getOptionElem : function(elem) {
+		var li = $('<li />');
+		var a  = $('<a />');
+
+		li.addClass(elem.attr('class')).data(elem.data());
+		a.attr('rel', elem.val()).text(elem.text()).appendTo(li);
+		if (elem.attr('disabled')) li.addClass('dropdownList-disabled');
+		if (elem.attr('selected')) li.addClass('dropdownList-selected');
+
+		return li;
+	},
+
+	_log : function(message) {
+		if (this.options.debug == true && window.console != undefined)
+		{
+			console.log('jQuery.dropdownList: ' + message);
+		}
+	},
+
+	destroy : function() {
+		var select  = this.elemenet;
+
+		if (!select.data('isDropdownList')) return;
+
+		var control = select.data('dropdownList-control');
+
+		if (!control) return;
+
+		var options = control.data('dropdownList-options');
+		options.remove();
+		control.remove();
+		select
+			.removeClass('dropdownList')
+			.removeData('dropdownList-control')
+			.removeData('dropdownList-settings')
+			.show();
+	}
+});
+
+})( jQuery );
+Error saving setting with name: consoleHistory, value length: 5563630. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 4099. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 4146. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
