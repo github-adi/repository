@@ -1,0 +1,114 @@
+-Science Planet 9:
+-My build:
+-To be arcchitectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Resources:
+-Java Script Link Address:
+http://www.passiondesire.com/assets/82dfff3f/jquery.doomNotify.js?t=1456062048
+-To be evaluated in console:
+/**
+* Doom Notify jQuery Plugin
+*
+* @author Dumitru Glavan
+* @version 1.0
+* @requires jQuery v1.3.2 or later
+*
+* @example: $.doomNotice({message:'Click here to see more stuff!'});
+* @example: $.doomWarn({message:'Soemthing is very wrong in here!'});
+*
+* Examples and documentation at: https://github.com/doomhz/jQuery-Notify
+* Dual licensed under the MIT and GPL licenses:
+*   http://www.opensource.org/licenses/mit-license.php
+*   http://www.gnu.org/licenses/gpl.html
+*
+*/
+(function ($) {
+	$.doomNotice = function (options) {
+		this.config = $.extend($.doomNotify, options);
+		var self = this;
+
+		var closeBt = this.config.closeButton ? this.config.closeBtHtml : '';
+		var notice = this.config.notifyHtml.replace('{type}', this.config.type);
+		notice = notice.replace('{closeButton}',  closeBt);
+		notice = notice.replace('{message}', this.config.message);
+
+		this.insertNotice = function () {
+			var $notice = $(notice).hide().insertAfter(this.config.after).slideDown(this.config.animationDuration);
+			(typeof(self.config.beforeOpen) === 'function') && self.config.beforeOpen($notice);
+			$('.notify-close-bt', $notice).click(function () {
+				var $selfClose = $(this);
+				(typeof(self.config.beforeClose) === 'function') && self.config.beforeClose($notice);
+				$($selfClose).parents('.notify-' + self.config.type).slideUp(function () {
+					(typeof(self.config.afterClose) === 'function') && self.config.afterClose($notice);
+					$(this).remove();
+				});
+			});
+		}
+
+		setTimeout(function () {self.insertNotice();}, self.config.delayBeforeShow);
+
+		return this;
+	},
+
+	$.doomWarn = function (options) {
+		return $.doomNotice($.extend({type: 'warn'}, options));
+	},
+
+	$.doomNotify = {
+		type: 'notice',
+		after: '#header',
+		message: '',
+		closeButton: true,
+		notifyHtml: '<div class="notify-{type}">\n\
+									<div class="notify-container">\n\
+										<span class="notify-icon"></span>\n\
+										<span class="notify-message">{message}</span>\n\
+										{closeButton}\n\
+									</div>\n\
+								</div>',
+		closeBtHtml: '<a href="#" class="notify-close-bt"><span class="notify-close-bt-text">Hide me</span></a>',
+		animationDuration: 500,
+		delayBeforeShow: 0,
+		afterClose: null,
+		beforeClose: null,
+		beforeOpen: null
+	}
+
+})(jQuery);
+
+Error saving setting with name: consoleHistory, value length: 5543034. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 4005. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 4052. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
