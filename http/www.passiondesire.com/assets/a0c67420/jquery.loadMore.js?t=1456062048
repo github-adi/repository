@@ -1,0 +1,118 @@
+-Science Planet 9:
+-My build:
+-To be architectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Resources:
+-Java Script Link Address:
+http://www.passiondesire.com/assets/a0c67420/jquery.loadMore.js?t=1456062048
+;(function($) {
+	$.fn.loadMore = function(options) {
+		var defaults = {
+			loadingClass  : 'loading',
+			disabledClass : 'disabled',
+			requestUrl    : null,
+			container     : null,
+			template      : null,
+			autoLoad      : false,
+			onEmpty       : function (){},
+			onAfterLoad   : function (){}
+		};
+
+		var options = $.extend(defaults, options);
+
+		return this.each(function() {
+			var self = $(this);
+
+			self.click(function() {
+				var button = $(this);
+
+				if (button.hasClass('loading'))
+				{
+					return false;
+				}
+
+				options.requestUrl = options.requestUrl || button.attr('href');
+				button.addClass(options.loadingClass);
+				var lastMessageId = button.attr('data-last-message-id') !== undefined ? button.attr('data-last-message-id') : false;
+				$.post(options.requestUrl, {page : button.attr('rel'), lastMessageId : lastMessageId }, function(data) {
+					if (data.noItems == true && data.list.length == 0)
+					{
+						button.disable({
+							classes         : options.disabledClass,
+							classesToRemove : [options.loadingClass]
+						});
+
+						options.onEmpty(self, data);
+					}
+					else
+					{
+						$(options.template).tmpl(data.list).appendTo(options.container);
+						button.removeClass(options.loadingClass);
+						button.attr('rel', parseInt(button.attr('rel')) + 1);
+
+						options.onAfterLoad(self, data);
+
+						if (data.noItems == true)
+						{
+							button.disable({
+								classes         : options.disabledClass,
+								classesToRemove : [options.loadingClass]
+							});
+
+							options.onEmpty(self, data);
+						}
+					}
+				}, 'json');
+
+				return false;
+			});
+
+			if (options.autoLoad === true)
+			{
+				$(window).scroll(function() {
+					if ($(window).scrollTop() == $(document).height() - $(window).height())
+					{
+						self.trigger('click');
+					}
+				});
+			}
+		});
+	};
+})(jQuery);
+
+Error saving setting with name: consoleHistory, value length: 5305529. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+undefined
+Error saving setting with name: savedURLs, value length: 3723. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+Error saving setting with name: savedURLs, value length: 3770. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
