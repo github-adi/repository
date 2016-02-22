@@ -1,0 +1,1218 @@
+-To be architectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-CSS Link Address:
+http://q2u3z6t7.ssl.hwcdn.net/css/core.css
+
+#vbates_widget_holder, #vbates_widget_holder *
+{
+    animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;		
+    backface-visibility : visible;	
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    /*clip : auto;*/
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    /*cursor : auto;*/
+    direction : ltr;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+}
+#vbates_widget_holder, #vbates_widget_holder *
+{
+
+	-webkit-animation : none;
+    -webkit-animation-delay : 0;
+    -webkit-animation-direction : normal;
+    -webkit-animation-duration : 0;
+    -webkit-animation-fill-mode : none;
+    -webkit-animation-iteration-count : 1;
+    -webkit-animation-name : none;
+    -webkit-animation-play-state : running;
+    -webkit-animation-timing-function : ease;
+	-webkit-backface-visibility : visible;
+    -webkit-background-clip : border-box;
+    -webkit-background-origin : padding-box;
+    -webkit-background-size : auto auto;
+    -webkit-border-bottom-left-radius : 0;
+    -webkit-border-bottom-right-radius : 0;
+    -webkit-border-image : none;
+    -webkit-border-radius : 0;
+    -webkit-border-top-left-radius : 0;
+    -webkit-border-top-right-radius : 0;
+    -webkit-box-shadow : none;
+    -webkit-box-sizing : content-box;
+    -webkit-columns : auto;
+    -webkit-column-count : auto;
+    -webkit-column-gap : normal;
+    -webkit-column-rule : medium none currentColor;
+    -webkit-column-rule-color : currentColor;
+    -webkit-column-rule-style : none;
+    -webkit-column-rule-width : none;
+    -webkit-column-width : auto;
+    -webkit-perspective : none;
+    -webkit-perspective-origin : 50% 50%;
+    -webkit-transform : none;
+    -webkit-transform-style : flat;
+    -webkit-transition : none;
+    -webkit-transition-delay : 0s;
+    -webkit-transition-duration : 0s;
+    -webkit-transition-property : none;
+    -webkit-transition-timing-function : ease;
+}
+
+#vbates_icon{
+    width: 30px;
+    height: 35px;
+    position: fixed;
+    right: 3px;
+    bottom: -35px;
+    z-index: 70000;
+    cursor: pointer;
+    background-image: url(//s3.amazonaws.com/vbates/img/app_top_icon_02.png);
+}
+
+#vbates_toaster{
+    width: 276px;
+    height: 150px;
+    background-color: white;
+    position: fixed;
+    right: 10px;
+    bottom: 4px;
+    z-index: 70000;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #A0A0A0;
+     -moz-box-shadow:  0 0 4px 4px rgba(0, 0, 0, .13);
+    -webkit-box-shadow:  0 0 4px 4px rgba(0, 0, 0, .13);
+    box-shadow:  0 0 4px 4px rgba(0, 0, 0, .13);
+}
+
+#vbates_toaster_header{
+    width: 92%;
+    height: 34px;
+    border-bottom: 1px solid #A0A0A0;
+    margin: 0 auto;
+}
+
+#vbates_toaster_logo{
+    width:81px;
+    height:21px; 
+    background-image: url(//s3.amazonaws.com/vbates/img/Toster_logo.png);
+    position: absolute;
+    top: 8px;
+    left:81px;
+}
+#vbates_toaster_close{
+    position: absolute;
+    top: -4px;
+    right: -6px;
+    background-image: url(//s3.amazonaws.com/vbates/img/close_btn.png);
+    display: block;
+    width: 22px;
+    height: 21px;
+    cursor:pointer;
+}
+
+#vbates_toaster_holder{
+    width:92%;
+    margin: 0 auto;
+    height:78px;
+    color: #494949;
+    font-family: verdana;
+}
+
+.vbates_toaster_text{
+    display:block;
+    margin-top: 5px;
+}
+
+#vbates_toaster_footer{
+    width: 92%;
+    margin: 0 auto;
+    height: 34px;
+    border-top: 1px solid #A0A0A0;
+}
+
+#vbates_toaster_settings{
+   position: absolute;
+width: 67px;
+height: 16px;
+background-image: url(//s3.amazonaws.com/vbates/img/setting_blus_btn.png);
+cursor: pointer;
+margin-top: 8px;
+}
+
+#vbates_widget_holder{
+    width: 700px;
+    height: 450px;
+    background-color: #3FA9F5;
+    position: fixed;
+    z-index: 7000001;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow:  0 0 8px 8px rgba(0, 0, 0, .13);
+    -webkit-box-shadow:  0 0 8px 8px rgba(0, 0, 0, .13);
+    box-shadow:  0 0 8px 8px rgba(0, 0, 0, .13);
+
+}
+
+#vbates_layer{
+    background-color: grey;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 700000;
+    opacity: 0.7;
+}
+
+#vbates_close_widget{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-image: url(//s3.amazonaws.com/vbates/img/close_btn.png);
+    display: block;
+    width: 22px;
+    height: 21px;
+    cursor:pointer;
+}
+
+#vbates_widget_header{
+    width: 97%;
+    margin: 0 auto;
+    height: 50px;
+    border-bottom: 1px solid #FFFDFE;
+}
+
+#vbates_widget_cont{
+    top:50px;
+    width: 97%;
+    margin: 0 auto;
+    height: 350px;
+    border-bottom: 1px solid #FFFDFE;
+}
+
+#vbates_tbl_holder{
+    position: relative;
+    top: 20%;
+    width: 490px;
+margin: 0 auto;
+height: 179px;
+    
+}
+
+#vbates_login_form{
+    /*margin: 0 auto;*/
+    font-family: verdana;
+    font-size: 20px;
+    color: #FBFFFF;
+    height: 220px;
+}
+
+#vbates_login_form td{
+    margin: 0 auto;
+    font-family: verdana;
+    font-size: 20px;
+    color: #FBFFFF;
+    background-color: #3FA9F5;
+}
+.vbates_widget_input{
+    width: 264px;
+    height: 22px;
+    border-radius: 4px;
+    border: none;
+    font-family: verdana;
+    font-size: 12px;
+    color: #494949;
+    background:white;
+    background-color: white;
+    line-height:30px;
+}
+
+.vbates_login_tr{
+    text-align: left;
+}
+
+#vbates_login_btn{
+    width: 115px;
+    height: 37px;
+    background-image: url(//s3.amazonaws.com/vbates/img/login_btn.png);
+    cursor:pointer;
+}
+
+#vbates_login_btn:hover{
+    background-image: url(//s3.amazonaws.com/vbates/img/login_over.png);
+}
+
+#vbates_widget_logo{
+    background-image: url(//s3.amazonaws.com/vbates/img/vbates_logo.png);
+    width:112px;
+    height:30px;
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    cursor:pointer;
+}
+
+#vbates_widget_footer{
+    width: 97%;
+    margin: 0 auto;
+    height: 50px;
+    text-align: left;
+}
+
+#vbates_widget_settings{
+    position: absolute;
+    width:67px;
+    height:16px;
+    background-image: url(//s3.amazonaws.com/vbates/img/setting_btn.png);
+    cursor:pointer;
+    margin-top: 13px;
+}
+
+#vbates_widget_register{
+    width: 115px;
+    height: 37px;
+    background-image: url(//s3.amazonaws.com/vbates/img/Register_btn.png);
+    cursor: pointer;
+    right: 13px;
+    position: absolute;
+    bottom: 56px;
+}
+
+#vbates_widget_register:hover{
+    background-image: url(//s3.amazonaws.com/vbates/img/Register_over.png);
+}
+
+.vbates_error_login{
+    font-family: verdana;
+    font-size: 11px;
+    color:red;
+    margin-left: 5px;
+}
+
+#vbates_loading{
+    width: 50px;
+height: 50px;
+top: 28px;
+position: relative;
+margin: 0 auto;
+}
+
+
+
+#vbates_purchases_tbl{
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: verdana;
+    font-size: 15px;
+    color: #FBFFFF;
+    width: 530px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.vbates_purchase_list{
+    font-size: 15px
+}
+
+.vbates_table_tr td, .vbates_table_tr th{
+    border-bottom: 1px solid #FBFFFF !important;
+}
+
+.vbates_tbl_header{
+    font-weight:bold;
+    font-size:15px;
+}
+
+#vbates_welcome{
+    margin: 0 auto;
+    color: #FBFFFF;
+    font-size: 15px;
+    width: 530px;
+    top: 37px;
+    position: relative;
+    font-family: verdana;
+
+}
+
+#vbates_redeem_btn{
+    display: block;
+    width: 115px;
+    height: 37px;
+    background-image: url(//s3.amazonaws.com/vbates/img/Redeem_btn.png);
+    cursor: pointer;
+    right: 13px;
+    position: absolute;
+bottom: -45px;
+
+}
+
+#vbates_redeem_btn:hover{
+    background-image: url(//s3.amazonaws.com/vbates/img/Redeem_over.png);
+}
+
+.vbates_settings{
+    font-size: 12px;
+    font-family:verdana;
+    color:#FBFFFF;
+    margin-left: 5px;
+    margin-right: 10px;
+    float:right;
+    width:300px;
+}
+
+#vbates_settings_holder{
+   top: 20%;
+margin: 0 auto;
+height: 200px;
+width: 400px;
+position: relative;
+border: 1px solid #FBFFFF;
+-moz-border-radius: 4px;
+    border-radius: 4px;
+     -moz-box-shadow:  0 0 4px 4px rgba(0, 0, 0, .13);
+    -webkit-box-shadow:  0 0 4px 4px rgba(0, 0, 0, .13);
+    box-shadow:  0 0 4px 4px rgba(0, 0, 0, .13);
+
+}
+
+#vbates_settings_btn{
+     background-image: url(//s3.amazonaws.com/vbates/img/save_btn.png);
+     width:58px;
+     height:22px;
+     position: absolute;
+     cursor: pointer;
+    bottom: 4px;
+    right: 5px;
+}
+
+#vbates_settings_btn:hover{
+    background-image: url(//s3.amazonaws.com/vbates/img/save_over.png);
+}
+
+tbody {
+    border-top: none;
+}
+
+.vbates_table_tr{
+    height: 28px;
+}
+
+#vbates_errorDialog_holder{
+    width: 350px;
+    height: 90px;
+    position: absolute;
+    background-color: #338BC7;
+    border: 4px solid white;
+    border-radius: 3px;
+    -moz-box-shadow: 0 0 6px 6px rgba(0, 0, 0, .33);
+    -webkit-box-shadow: 0 0 6px 6px rgba(0, 0, 0, .33);
+    box-shadow: 0 0 6px 6px rgba(0, 0, 0, .33);
+    z-index: 99999999;
+    position: fixed;
+}
+
+#vabtes_Wgtdialog_text{
+     width: 273px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#vbates_Wgtdialog_error_close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-image: url(//s3.amazonaws.com/vbates/img/close_btn.png);
+    display: block;
+    width: 22px;
+    height: 21px;
+    cursor: pointer;
+}
+
+#vbates_purchases_holder{
+    top: 44px;
+    position: relative;
+    height: 210px;
+    width: 680px
+}
+td.vbates_purchase_list {
+    color: white;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+#redirectDialogText{
+    width: 70%;
+    margin: 0 auto;
+    height: 69%;
+    text-align: center;
+    padding: 48px;
+    color: white;
+    font-family: verdana;
+    font-size: 15px;
+}
+/*------------------vbatesOfferWgt---------------------*/
+
+#vbatesOfferWgtHolder{
+    width:370px;
+    height:395px;
+    background-color:#056284;
+    bottom: -395px;
+    right:20px;
+    position: fixed;
+    z-index: 99999;
+    cursor:pointer;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+      -moz-box-shadow:  0 0 4px 4px rgba(0, 0, 0, .13);
+    -webkit-box-shadow:  0 0 4px 4px rgba(0, 0, 0, .13);
+    box-shadow:  0 0 4px 4px rgba(0, 0, 0, .13);
+}
+
+#vbatesOfferWgtTitle{
+    width: 96%;
+position: relative;
+height: 46px;
+margin: 0 auto;
+}
+
+/*#vbatesOfferWgtLogo{
+    width: 109px;
+    height: 34px;
+    background-image: url(//s3.amazonaws.com/vbates/img/v-bates-widget-sprit.png);
+    background-position: -15px -19px;
+    position: relative;
+    top: -17px;
+    float: left;
+    display: inline;
+    left: -120px;
+}*/
+
+.vbatesOfferWgtOffer{
+    display: inline;
+    height: 76px;
+    width: 71px;
+    float: left;
+    margin-right: 3px;
+}
+.vbatesOfferWgtOffer:hover{
+    opacity: 0.8;
+}
+#vbatesOfferWgtBody{
+    width: 100%;
+    height: 341px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 5px;
+    
+}
+
+#vbatesOfferWgtMainOffer{
+    position: relative;
+    width: 100%;
+    height: 208px;
+    color: rgb(105, 105, 105);
+        -moz-box-sizing: content-box;
+-webkit-box-sizing:content-box;
+box-sizing: content-box;
+}
+
+#vbatesOfferWgtResults{
+    height:90px;
+    position: relative;
+}
+
+#vbatesOfferWgtOuter{
+    height: 90px;
+width: 296px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    margin-left:7px;
+}
+
+.vbatesOfferWgtPrice{
+    width: 60px;
+    position: relative;
+    margin: 0 auto;
+    color: rgb(66, 63, 63);
+    font-family: verdana;
+    font-weight: bold;
+    top: 3px;
+    text-align: center;
+
+    
+}
+
+#vbatesOfferWgtRightBtn{
+    
+    background-image: url(//s3.amazonaws.com/vbates/img/widget_vbset.png);
+    background-position:  -73px -20px;
+    float:right;
+    width:30px;
+    height:32px;
+    margin-top: 21px;
+}
+
+#vbatesOfferWgtLeftBtn{
+    background-image: url(//s3.amazonaws.com/vbates/img/widget_vbset.png);
+    background-position:  -40px -20px;
+    float:left;
+    width:30px;
+    height:32px;
+    margin-top: 21px;
+    margin-right: 2px;
+}
+
+#vbatesOfferWgtBottom{
+    width: 100%;
+    height: 90px;
+    margin-top:17px;
+}
+
+#vbatesOfferWgtMainTitle{
+    width: 100%;
+    height: 41px;
+    line-height: 20px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #777777;
+    
+}
+
+#vbatesOfferWgtMainDetails{
+    width: 94%;
+    position: relative;
+    height: 170px;
+    padding:10px;
+}
+
+#vbatesOfferWgtMainLeft{
+    width: 158px;
+    height: 100%;
+    display: inline;
+    float: left;
+    padding-left: 10px;
+}
+
+#vbatesOfferWgtMainIMGHolder{
+    float:right;
+    height:100%;
+    width: 167px;
+}
+
+#vbatesOfferWgtMainPrice{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-family: arial;
+    font-size: 20px;
+    color: #777777;
+font-weight: bold;
+}
+
+#vbatesOfferWgtMainsubTitle{
+    width: 100%;
+    line-height: 20px;
+    font-family: arial;
+    font-size: 12px;
+    color: #777777;
+}
+
+#vbatesOfferWgtMainButton{
+    width: 121px;
+    height: 57px;
+    font-weight: bold;
+    background-image: url(//s3.amazonaws.com/vbates/img/widget_vbset.png);
+    background-position:  -11px -177px;
+    font-family:arial;
+    font-size:20px;
+    color:white;
+    line-height: 57px;
+    text-align: center;
+}
+/*
+#vbatesOfferWgtMainButton:hover{
+    background-image: url(//s3.amazonaws.com/vbates/img/widget_vbset.png);
+    background-position: -238px -104px;
+}*/
+
+#vbatesOfferWgtMainBottom{
+    width: 76%;
+    height: 30px;
+    position: relative;
+    margin: 0 auto;
+    font-family: arial;
+    font-size: 15px;
+    line-height: 30px;
+    color: #777777;
+    text-align: center;
+}
+
+.vbatesOfferWgtImgHolder{
+    height: 60px;
+    width: 60px;
+    padding: 4px;
+    border: 1px solid grey;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#vbatesOfferWgtDealsNum{
+    height: 46px;
+    width: 49px;
+    display: inline;
+    float: left;
+    background-image: url(//s3.amazonaws.com/vbates/img/widget_vbset.png);
+    background-position: -52px -308px;
+    font-family: verdana;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 47px;
+}
+
+#vbatesOfferWgtLogoText{
+    height: 35px;
+    width: 250px;
+    display: inline;
+    text-align: center;
+    float: left;
+    font-family: verdana;
+    color: white;
+    font-size: 15px;
+    line-height: 35px;
+    margin-top:6px;
+    margin-left: 3px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+       -moz-box-shadow:  inset 0 0 4px 4px rgba(0, 0, 0, .23);
+    -webkit-box-shadow: inset 0 0 4px 4px rgba(0, 0, 0, .23);
+    box-shadow: inset 0 0 4px 4px rgba(0, 0, 0, .23);
+}
+
+#vbatesOfferWgtclose{
+    position: absolute;
+    top: 13px;
+    right: -3px;
+    background-image: url(//s3.amazonaws.com/vbates/img/widget_vbset.png);
+    background-position: -63px -126px;
+    display: block;
+    width: 22px;
+    height: 21px;
+    cursor:pointer;
+}
+
+#vbatesOfferWgtMove{
+    position: absolute;
+    top: 13px;
+    right: 22px;
+    background-image: url(//s3.amazonaws.com/vbates/img/widget_vbset.png);
+    background-position: -63px -74px;
+    display: block;
+    width: 22px;
+    height: 21px;
+    cursor:pointer;
+}
+
+#vbatesOfferWgtLogo{
+    width: 121px;
+    height: 31px;
+    background-image: url(//s3.amazonaws.com/vbates/img/widget_vbset.png);
+    background-position: -11px -259px;
+    position: relative;
+    margin: 0 auto;
+    float: right;
+    right: 95px;
+}
+#vbatesLogoPowered{
+    float: left;
+    color: gray;
+    font-family: arial;
+    left: 97px;
+    position: relative;
+    top: 4px;
+}
+
+/*----------------redirect Toaster-------------------*/
+
+#clickheretoaster{
+    cursor:pointer;
+    font-size: 12px;
+    font-family: Arial;
+    color: #0055A1;
+    text-decoration: underline;
+    margin-right: 5px;
+    /*margin-left: -4px;*/
+}
+
+#toasterTextBox
+{
+   
+    z-index: 2147483647;
+    padding:10px;
+    position:relative;
+    line-height: 15px;
+    /*-webkit-box-shadow: 3px 3px 6px 1px #7a7a7a;
+    -moz-box-shadow: 3px 3px 6px 1px #7a7a7a;
+    box-shadow: 3px 3px 6px 1px #7a7a7a; */
+}
+#toasterHolder
+{
+  background-color:white; 
+  width:285px;
+  height:170px;
+  position:relative;
+  -moz-border-radius: 8px;
+    border-radius: 8px;
+    border:2px solid #C4D3DA;
+  /*display:block;*/
+  /*cursor:pointer;*/
+}
+.tableContentToaster
+{
+    line-height: 16px;
+    width: 245px;
+    margin: 0px auto;
+
+}
+
+#toasterTextAfterClick{
+    width: 248px;
+    margin: 7px auto;
+    font-size:11px;
+    color: #80b5ea;
+    font-family: Arial;
+}   
+
+#toasterInputTitle{
+     display:block;
+     font-family: Arial;
+     font-size:11px;
+    color: grey;
+     margin-top:3px\9;
+     line-height: 14px;
+}
+#tosterCloseBtn{
+    top: 0px;
+    right: 0px;
+    #top: -10px;
+    #right: -9px;
+    position:absolute;
+    height:28px;
+    width:28px;
+    background-image: url("//s3.amazonaws.com/vbates/img/close.png");
+    background-repeat:no-repeat;
+    display: block;
+    cursor:pointer;
+}
+
+
+#vb_toasterLayer{
+    width: 308px;
+    position: absolute;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #A0A0A0;
+    -moz-box-shadow: 0 0 4px 4px rgba(0, 0, 0, .13);
+    -webkit-box-shadow: 0 0 4px 4px rgba(0, 0, 0, .13);
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, .13);
+    background-color: white;
+    color: gray;
+    top: 24px;
+    left: -14px;
+    padding: 10px;
+    font-family: arial;
+    line-height: 14px;
+    font-size: 12px;
+}
+
+#toster_LayerCloseBtn{
+    top: -3px;
+    right: -14px;
+    #top: -10px;
+    #right: -9px;
+    position:absolute;
+    height:28px;
+    width:28px;
+    background-image: url("//s3.amazonaws.com/vbates/img/close.png");
+    background-repeat:no-repeat;
+    display: block;
+    cursor:pointer;
+}
+
+#dialogCloseBtn:hover{
+       background-position: 0px -30px; 
+}
+#toasterDescr{
+    font-size: 12px;
+    width: 245px;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+#toasterSiteLink{
+    font-weight: bold;
+    color:#80b5ea;
+    text-decoration:none;
+}
+#toasterButtons{
+    margin: 2px auto;
+    width: 245px;
+    font-size: 12px;
+    height: 25px;
+}
+#toasterCheckBox{
+    width: 245px;
+margin: 0 auto;
+}
+.toasterButton {
+	-moz-box-shadow:inset 0px 0px 0px 0px #adb3b8;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #adb3b8;
+	box-shadow:inset 0px 0px 0px 0px #adb3b8;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #CDD1CE), color-stop(1, #9EA3A0) );
+	background:-moz-linear-gradient( center top, #CDD1CE 5%, #9EA3A0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#CDD1CE', endColorstr='#9EA3A0');
+	background-color:#bddbfa;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #9EA3A0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 12px;
+font-weight: bold;
+font-style: normal;
+height: 18px;
+line-height: 18px;
+width: 64px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #9EA3A0;
+        cursor:pointer;
+}
+.toasterButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9EA3A0), color-stop(1, #CDD1CE) );
+	background:-moz-linear-gradient( center top, #9EA3A0 5%, #CDD1CE 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9EA3A0', endColorstr='#CDD1CE');
+	background-color:#9EA3A0;
+}.toasterButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* NEW TAB MESSAGE*/
+#_vb_nt_info{
+    width:157px;
+    height:30px;
+     border-radius: 4px;
+    border: 1px solid #A0A0A0;
+    -moz-box-shadow: 0 0 4px 4px rgba(0, 0, 0, .13);
+    -webkit-box-shadow: 0 0 4px 4px rgba(0, 0, 0, .13);
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, .13);
+    background-color: #CEE3F6;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+
+#_vb_nt_info_logo{
+    display: block;
+width: 41px;
+height: 43px;
+float: left;
+ background-image: url("//s3.amazonaws.com/vbates/img/logo_vb_small.png");
+    background-repeat:no-repeat;
+}
+
+#_vb_nt_info_link{
+   display: block;
+width: 145px;
+height: 30px;
+line-height: 13px;
+text-decoration: none;
+color: black;
+font-family: verdana;
+font-size: 11px; 
+}
+
+#tosterNTCloseBtn{
+    top: 0px;
+    right: -12px;
+    #top: -10px;
+    #right: -9px;
+    position:absolute;
+    height:28px;
+    width:28px;
+    background-image: url("//s3.amazonaws.com/vbates/img/close-button.png");
+    background-repeat:no-repeat;
+    display: block;
+    cursor:pointer;
+}
+
+#clickheremessage{
+    cursor:pointer;
+    font-size: 12px;
+    font-family: Arial;
+    color: #0055A1;
+    text-decoration: underline;
+    margin-right: 5px;
+    /*margin-left: -4px;*/
+}
+
+#messageTextBox
+{
+   
+    z-index: 100000;
+    position:relative;
+    /*-webkit-box-shadow: 3px 3px 6px 1px #7a7a7a;
+    -moz-box-shadow: 3px 3px 6px 1px #7a7a7a;
+    box-shadow: 3px 3px 6px 1px #7a7a7a; */
+}
+#messageHolder
+{
+  background-color:white; 
+  width:304px;
+  height:106px;
+  position:relative;
+    border:2px solid #C4D3DA;
+  /*display:block;*/
+  /*cursor:pointer;*/
+}
+.tableContentToaster
+{
+   line-height: 16px;
+width: 245px;
+margin: 0px auto;
+
+}
+
+#messageTitle{
+   padding-top:10px;
+    font-size: 13px;
+/*font-weight: bold;*/
+color: #010000;
+font-family: Arial;
+}
+
+#messageTextAfterClick{
+ width: 248px;
+margin: 3px auto;
+font-size:12px;
+}   
+
+#messageInputTitle{
+     display:block;
+     font-size:12px;
+     font-family: Arial;
+     color:#010000;
+     margin-top:3px\9;
+}
+#tosterCloseBtn{
+    top: 0px;
+    right: 1px;
+    position:absolute;
+    height:28px;
+    width:28px;
+    background-image: url("http://dbo1rpcxmp3fw.cloudfront.net/extless/search/img/Close-button.png");
+    background-repeat:no-repeat;
+    display: block;
+    cursor:pointer;
+}
+#tosterCloseBtn:hover{
+    background-position: 0px -30px;
+}
+
+#dialogCloseBtn{
+    top: -5px;
+    right: -5px;
+    #top: -10px;
+    #right: -9px;
+    position:absolute;
+    height:28px;
+    width:28px;
+    background-image: url("http://dbo1rpcxmp3fw.cloudfront.net/extless/search/img/Close-button.png");
+    background-repeat:no-repeat;
+    display: block;
+    cursor:pointer; 
+    z-index:100;
+}
+
+#dialogCloseBtn:hover{
+       background-position: 0px -30px; 
+}
+#messageDescr{
+    font-size: 12px;
+    width: 245px;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+
+#vb_quick_reg{
+    background-color: white;
+    height: 24px;
+    width: 100px; 
+    border-radius: 4px;
+    border: 1px solid #A0A0A0;
+    -moz-box-shadow: 0 0 4px 4px rgba(0, 0, 0, .13);
+    -webkit-box-shadow: 0 0 4px 4px rgba(0, 0, 0, .13);
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, .13);
+    font-family: verdana;
+    font-size: 17px;
+    color: #3FA9F5;
+    text-align: center;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
