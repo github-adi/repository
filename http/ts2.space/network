@@ -1,0 +1,536 @@
+http://ts2.space/
+-Network:
+-Headers:
+GET / HTTP/1.1
+Host: ts2.space
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8,id;q=0.6
+Cookie: __utma=1.391416005.1455819161.1455829858.1455912604.3; __utmz=1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; PHPSESSID=pgk242hthkgkokvl1v7lhjn3m4; wersja_desktop=0; orPrepop=true; visadd_sticky_lock_counter=4; visadd_lock_count=3
+-Response headers:
+HTTP/1.1 200 OK
+Date: Tue, 23 Feb 2016 19:13:09 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.36-0+deb7u1
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Type: text/html
+Connection: Keep-Alive
+Content-Length: 66487
+-Response:
+<!DOCTYPE HTML>
+<html lang="en">
+<head><script> _BIT_LocalStoreDetails="{eyJpbnN0YWxsZXJfbmFtZSI6InZiYXRlc19jbGttaWRleF8uZXhlIiwidG9vbGJhcklEIjoiM0NENzNFMUM3MkZCNDY1ODhENDdERDY2NzQ0MkQxNzMiLCJwcm9kdWN0X25hbWUiOiJzaG9wcGVyejExMTIyMDE1MTQ1OSIsImNoYW5lbElEIjoiY2xrbWlkZXgiLCJpbnN0YWxsX3RpbWUiOiIxMi0xMi0yMDE1IiwicHJvZHVjdF92ZXJzaW9uIjoiMi4wLjAuNDgwIiwidmJ0c19nZW8iOiJJRHx8fDg2NDE0NDk4NjAwODIwODAiLCJhZEJsb2NrX3RpbWVyIjoidHJ1ZXx8fDE0NTYzMzMwMTI4MzgiLCJpbmpzY3MiOiJ0cnVlfHx8ODY0MTQ1NjI0NjA0ODU1MCIsInB4bF9WQkFURVNfZGFpbHlQaW5nIjoiZGFpbHlQaW5nfHx8MTQ1NjMzMjQ0ODUzNCIsIm5iX3RpbWVyIjoidHJ1ZXx8fDE0NTYzNDAzMTM0OTMiLCJwcmVwb3BfdGltZXIiOiIxNDU1NjU2NTUxOTMzfHx8MTQ1NTc0Mjk1MTkzNSIsInByZXBvcF9pbmRleCI6IjB8fHwxNDU1NzQyOTUxOTQwIiwiVkJBVEVTX2RhaWx5UGluZyI6InRydWV8fHwxNDUwMzY3OTYwMDQ2IiwiVkJBVEVTX0luc3RhbGxlZCI6InRydWV8fHw4NjQxNDUwNTQ1NTcxNzE5In0=}"</script><script id="_SFR_xl" src="http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46588D47DD667442D173&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1"></script>
+	<title>TS2 SPACE √ Worldwide Satellite Communications</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="TS2 Satellite Technologies specializes in providing global satellite services. Our core business is broadband access to the Internet in areas with poor telecommunications infrastructure like Iraq and Afghanistan, and mobile satellite phones communication." />
+	<meta name="keywords" content="TS2, TS 2, TS2 Satellite Technologies, Satellite Internet in Iraq, Inmarsat BGAN, Internet in Afghanistan, Satellite Internet, Thuraya, Iridium, VSAT, Satellite Phones, Satellite Phone, TS2 Technologie Satelitarne, SCPC, VSAT Iraq, VSAT Afghanistan" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="all,index" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta name="classification" content="Businness" />
+	<meta name="revisit-after" content="1 days" />
+	<meta name="distribution" content="Global" />
+	<link rel="stylesheet" href="/css/css.php" type="text/css" />
+	<link rel="stylesheet" href="/css/cssprint.php" type="text/css" media="print" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<script type="text/javascript" language="JavaScript" src="/js/js.php"></script>
+	<script type="text/javascript" language="JavaScript">
+		jQuery(document).ready(function () {
+			jQuery("#banner").cycle({
+				fx:                      "fade",
+				speed:                   1000,
+				timeout:                 5000,
+				pager:                   "#navPicsPagination",
+				pagerAnchorBuilder:      pagerFactory,
+				before:                  onBefore,
+				after:                   onAfter
+			});
+			
+			var mainMenu1 = $('#mainMenu').html();
+			$('.menu-bottom-1').html('<div class=leftMenu>' + mainMenu1 + '</div>');	
+			
+		});
+	</script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function () {
+			$("#mainMenu > ul > li").each(function () {
+				var h = ($(window).width()) / 2;
+				if ($(this).position().left > h) {
+					$(this).addClass("menuRight");
+				}
+			});
+		});
+	</script>
+
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+
+</script>
+
+<script type="text/javascript">
+
+_uacct = "UA-3446290-1";
+
+urchinTracker();
+
+</script>
+
+</head>
+<body>
+
+<div id="MenuRsp">
+	<nav></nav>
+</div>
+<div id="Container">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+	<div id="layout" class="tekst_en">
+		<div id="header">
+			<div id="ButtonRsp1"></div>
+			<div id="logo"><img onclick="document.location='/en'" src="/img/logo.gif" alt="TS2 √ Worldwide Satellite Communications" title="TS2 √ Worldwide Satellite Communications" /></div>
+			<div id="headerText"><div>Worldwide Satellite Communications<br />
+<span style="font-weight: bold; color: #339900;">+48 (22) 630 70 70</span></div></div>
+			<div id="headerRight">
+				<div id="lang"><a href="/pl"><img src="/img/lang/pl.gif" alt="Wersja polska" title="Wersja polska" /></a><a href="/ru"><img src="/img/lang/ru.gif" alt="Wersja rosyjska" title="Wersja rosyjska" /></a><a href="/fr"><img src="/img/lang/fr.gif" alt="Wersja francuska" title="Wersja francuska" /></a><a href="/de"><img src="/img/lang/de.gif" alt="wersja niemiecka" title="wersja niemiecka" /></a><a href="/es"><img src="/img/lang/es.gif" alt="Wersja hiszpańska" title="Wersja hiszpańska" /></a><a href="/ar"><img src="/img/lang/ar.gif" alt="Wersja arabska" title="Wersja arabska" /></a></div>
+				<div id="facebook"><div class="fb-like" data-href="http://www.facebook.com/pages/TS2-%C5%81%C4%85czno%C5%9B%C4%87-Satelitarna/266851886715906" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false"></div></div>
+				<div id="countryList">
+		<div class="selectAsDiv" id="selectCountryAsDiv">
+			<div class="selectBg">Select country...</div>
+    			<div class="selects" role="menu" id="menuC" ><ul><li><a href="/en/satellite-internet-form/AFGHANISTAN" title="AFGHANISTAN" class="litera_a">AFGHANISTAN</a></li><li><a href="/en/satellite-internet-form/ALBANIA" title="ALBANIA" class="litera_a">ALBANIA</a></li><li><a href="/en/satellite-internet-form/ALGERIA" title="ALGERIA" class="litera_a">ALGERIA</a></li><li><a href="/en/satellite-internet-form/AMERICAN-SAMOA" title="AMERICAN SAMOA" class="litera_a">AMERICAN SAMOA</a></li><li><a href="/en/satellite-internet-form/ANDORRA" title="ANDORRA" class="litera_a">ANDORRA</a></li><li><a href="/en/satellite-internet-form/ANGOLA" title="ANGOLA" class="litera_a">ANGOLA</a></li><li><a href="/en/satellite-internet-form/ANGUILLA" title="ANGUILLA" class="litera_a">ANGUILLA</a></li><li><a href="/en/satellite-internet-form/ANTARCTICA" title="ANTARCTICA" class="litera_a">ANTARCTICA</a></li><li><a href="/en/satellite-internet-form/ANTIGUA-AND-BARBUDA" title="ANTIGUA AND BARBUDA" class="litera_a">ANTIGUA AND BARBUDA</a></li><li><a href="/en/satellite-internet-form/ARGENTINA" title="ARGENTINA" class="litera_a">ARGENTINA</a></li><li><a href="/en/satellite-internet-form/ARMENIA" title="ARMENIA" class="litera_a">ARMENIA</a></li><li><a href="/en/satellite-internet-form/ARUBA" title="ARUBA" class="litera_a">ARUBA</a></li><li><a href="/en/satellite-internet-form/AUSTRALIA" title="AUSTRALIA" class="litera_a">AUSTRALIA</a></li><li><a href="/en/satellite-internet-form/AUSTRIA" title="AUSTRIA" class="litera_a">AUSTRIA</a></li><li><a href="/en/satellite-internet-form/AZERBAIJAN" title="AZERBAIJAN" class="litera_a">AZERBAIJAN</a></li><li><a href="/en/satellite-internet-form/BAHAMAS" title="BAHAMAS" class="litera_b">BAHAMAS</a></li><li><a href="/en/satellite-internet-form/BAHRAIN" title="BAHRAIN" class="litera_b">BAHRAIN</a></li><li><a href="/en/satellite-internet-form/BANGLADESH" title="BANGLADESH" class="litera_b">BANGLADESH</a></li><li><a href="/en/satellite-internet-form/BARBADOS" title="BARBADOS" class="litera_b">BARBADOS</a></li><li><a href="/en/satellite-internet-form/BELARUS" title="BELARUS" class="litera_b">BELARUS</a></li><li><a href="/en/satellite-internet-form/BELGIUM" title="BELGIUM" class="litera_b">BELGIUM</a></li><li><a href="/en/satellite-internet-form/BELIZE" title="BELIZE" class="litera_b">BELIZE</a></li><li><a href="/en/satellite-internet-form/BENIN" title="BENIN" class="litera_b">BENIN</a></li><li><a href="/en/satellite-internet-form/BERMUDA" title="BERMUDA" class="litera_b">BERMUDA</a></li><li><a href="/en/satellite-internet-form/BHUTAN" title="BHUTAN" class="litera_b">BHUTAN</a></li><li><a href="/en/satellite-internet-form/BOLIVIA" title="BOLIVIA" class="litera_b">BOLIVIA</a></li><li><a href="/en/satellite-internet-form/BOSNIA-AND-HERZEGOVINA" title="BOSNIA AND HERZEGOVINA" class="litera_b">BOSNIA AND HERZEGOVINA</a></li><li><a href="/en/satellite-internet-form/BOTSWANA" title="BOTSWANA" class="litera_b">BOTSWANA</a></li><li><a href="/en/satellite-internet-form/BOUVET-ISLAND" title="BOUVET ISLAND" class="litera_b">BOUVET ISLAND</a></li><li><a href="/en/satellite-internet-form/BRAZIL" title="BRAZIL" class="litera_b">BRAZIL</a></li><li><a href="/en/satellite-internet-form/BRITISH-INDIAN-OCEAN-TERRITORY" title="BRITISH INDIAN OCEAN TERRITORY" class="litera_b">BRITISH INDIAN OCEAN TERRITORY</a></li><li><a href="/en/satellite-internet-form/BRUNEI" title="BRUNEI" class="litera_b">BRUNEI</a></li><li><a href="/en/satellite-internet-form/BULGARIA" title="BULGARIA" class="litera_b">BULGARIA</a></li><li><a href="/en/satellite-internet-form/BURKINA-FASO" title="BURKINA FASO" class="litera_b">BURKINA FASO</a></li><li><a href="/en/satellite-internet-form/BURUNDI" title="BURUNDI" class="litera_b">BURUNDI</a></li><li><a href="/en/satellite-internet-form/CAMBODIA" title="CAMBODIA" class="litera_c">CAMBODIA</a></li><li><a href="/en/satellite-internet-form/CAMEROON" title="CAMEROON" class="litera_c">CAMEROON</a></li><li><a href="/en/satellite-internet-form/CANADA" title="CANADA" class="litera_c">CANADA</a></li><li><a href="/en/satellite-internet-form/CAPE-VERDE" title="CAPE VERDE" class="litera_c">CAPE VERDE</a></li><li><a href="/en/satellite-internet-form/CAYMAN-ISLANDS" title="CAYMAN ISLANDS" class="litera_c">CAYMAN ISLANDS</a></li><li><a href="/en/satellite-internet-form/CENTRAL-AFRICAN-REPUBLIC" title="CENTRAL AFRICAN REPUBLIC" class="litera_c">CENTRAL AFRICAN REPUBLIC</a></li><li><a href="/en/satellite-internet-form/CHAD" title="CHAD" class="litera_c">CHAD</a></li><li><a href="/en/satellite-internet-form/CHILE" title="CHILE" class="litera_c">CHILE</a></li><li><a href="/en/satellite-internet-form/CHINA" title="CHINA" class="litera_c">CHINA</a></li><li><a href="/en/satellite-internet-form/CHRISTMAS-ISLAND" title="CHRISTMAS ISLAND" class="litera_c">CHRISTMAS ISLAND</a></li><li><a href="/en/satellite-internet-form/COCOS-KEELING-ISLANDS" title="COCOS (KEELING) ISLANDS" class="litera_c">COCOS (KEELING) ISLANDS</a></li><li><a href="/en/satellite-internet-form/COLOMBIA" title="COLOMBIA" class="litera_c">COLOMBIA</a></li><li><a href="/en/satellite-internet-form/COMOROS" title="COMOROS" class="litera_c">COMOROS</a></li><li><a href="/en/satellite-internet-form/CONGO" title="CONGO" class="litera_c">CONGO</a></li><li><a href="/en/satellite-internet-form/CONGO-THE-DEMOCRATIC-REPUBLIC-OF-THE" title="CONGO, THE DEMOCRATIC REPUBLIC OF THE" class="litera_c">CONGO, THE DEMOCRATIC REPUBLIC OF THE</a></li><li><a href="/en/satellite-internet-form/COOK-ISLANDS" title="COOK ISLANDS" class="litera_c">COOK ISLANDS</a></li><li><a href="/en/satellite-internet-form/COSTA-RICA" title="COSTA RICA" class="litera_c">COSTA RICA</a></li><li><a href="/en/satellite-internet-form/CROATIA" title="CROATIA" class="litera_c">CROATIA</a></li><li><a href="/en/satellite-internet-form/CUBA" title="CUBA" class="litera_c">CUBA</a></li><li><a href="/en/satellite-internet-form/CYPRUS" title="CYPRUS" class="litera_c">CYPRUS</a></li><li><a href="/en/satellite-internet-form/CZECH-REPUBLIC" title="CZECH REPUBLIC" class="litera_c">CZECH REPUBLIC</a></li><li><a href="/en/satellite-internet-form/DENMARK" title="DENMARK" class="litera_d">DENMARK</a></li><li><a href="/en/satellite-internet-form/DJIBOUTI" title="DJIBOUTI" class="litera_d">DJIBOUTI</a></li><li><a href="/en/satellite-internet-form/DOMINICA" title="DOMINICA" class="litera_d">DOMINICA</a></li><li><a href="/en/satellite-internet-form/DOMINICAN-REPUBLIC" title="DOMINICAN REPUBLIC" class="litera_d">DOMINICAN REPUBLIC</a></li><li><a href="/en/satellite-internet-form/ECUADOR" title="ECUADOR" class="litera_e">ECUADOR</a></li><li><a href="/en/satellite-internet-form/EGYPT" title="EGYPT" class="litera_e">EGYPT</a></li><li><a href="/en/satellite-internet-form/EL-SALVADOR" title="EL SALVADOR" class="litera_e">EL SALVADOR</a></li><li><a href="/en/satellite-internet-form/EQUATORIAL-GUINEA" title="EQUATORIAL GUINEA" class="litera_e">EQUATORIAL GUINEA</a></li><li><a href="/en/satellite-internet-form/ERITREA" title="ERITREA" class="litera_e">ERITREA</a></li><li><a href="/en/satellite-internet-form/ESTONIA" title="ESTONIA" class="litera_e">ESTONIA</a></li><li><a href="/en/satellite-internet-form/ETHIOPIA" title="ETHIOPIA" class="litera_e">ETHIOPIA</a></li><li><a href="/en/satellite-internet-form/FALKLAND-ISLANDS-MALVINAS" title="FALKLAND ISLANDS (MALVINAS)" class="litera_f">FALKLAND ISLANDS (MALVINAS)</a></li><li><a href="/en/satellite-internet-form/FAROE-ISLANDS" title="FAROE ISLANDS" class="litera_f">FAROE ISLANDS</a></li><li><a href="/en/satellite-internet-form/FIJI" title="FIJI" class="litera_f">FIJI</a></li><li><a href="/en/satellite-internet-form/FINLAND" title="FINLAND" class="litera_f">FINLAND</a></li><li><a href="/en/satellite-internet-form/FRANCE" title="FRANCE" class="litera_f">FRANCE</a></li><li><a href="/en/satellite-internet-form/FRENCH-GUIANA" title="FRENCH GUIANA" class="litera_f">FRENCH GUIANA</a></li><li><a href="/en/satellite-internet-form/FRENCH-POLYNESIA" title="FRENCH POLYNESIA" class="litera_f">FRENCH POLYNESIA</a></li><li><a href="/en/satellite-internet-form/FRENCH-SOUTHERN-TERRITORIES" title="FRENCH SOUTHERN TERRITORIES" class="litera_f">FRENCH SOUTHERN TERRITORIES</a></li><li><a href="/en/satellite-internet-form/GABON" title="GABON" class="litera_g">GABON</a></li><li><a href="/en/satellite-internet-form/GAMBIA" title="GAMBIA" class="litera_g">GAMBIA</a></li><li><a href="/en/satellite-internet-form/GEORGIA" title="GEORGIA" class="litera_g">GEORGIA</a></li><li><a href="/en/satellite-internet-form/GERMANY" title="GERMANY" class="litera_g">GERMANY</a></li><li><a href="/en/satellite-internet-form/GHANA" title="GHANA" class="litera_g">GHANA</a></li><li><a href="/en/satellite-internet-form/GIBRALTAR" title="GIBRALTAR" class="litera_g">GIBRALTAR</a></li><li><a href="/en/satellite-internet-form/GREECE" title="GREECE" class="litera_g">GREECE</a></li><li><a href="/en/satellite-internet-form/GREENLAND" title="GREENLAND" class="litera_g">GREENLAND</a></li><li><a href="/en/satellite-internet-form/GRENADA" title="GRENADA" class="litera_g">GRENADA</a></li><li><a href="/en/satellite-internet-form/GUADELOUPE" title="GUADELOUPE" class="litera_g">GUADELOUPE</a></li><li><a href="/en/satellite-internet-form/GUAM" title="GUAM" class="litera_g">GUAM</a></li><li><a href="/en/satellite-internet-form/GUATEMALA" title="GUATEMALA" class="litera_g">GUATEMALA</a></li><li><a href="/en/satellite-internet-form/GUERNSEY" title="GUERNSEY" class="litera_g">GUERNSEY</a></li><li><a href="/en/satellite-internet-form/GUINEA" title="GUINEA" class="litera_g">GUINEA</a></li><li><a href="/en/satellite-internet-form/GUINEA-BISSAU" title="GUINEA-BISSAU" class="litera_g">GUINEA-BISSAU</a></li><li><a href="/en/satellite-internet-form/GUYANA" title="GUYANA" class="litera_g">GUYANA</a></li><li><a href="/en/satellite-internet-form/HAITI" title="HAITI" class="litera_h">HAITI</a></li><li><a href="/en/satellite-internet-form/HEARD-ISLAND-AND-MCDONALD-ISLANDS" title="HEARD ISLAND AND MCDONALD ISLANDS" class="litera_h">HEARD ISLAND AND MCDONALD ISLANDS</a></li><li><a href="/en/satellite-internet-form/HOLY-SEE-VATICAN-CITY-STATE" title="HOLY SEE (VATICAN CITY STATE)" class="litera_h">HOLY SEE (VATICAN CITY STATE)</a></li><li><a href="/en/satellite-internet-form/HONDURAS" title="HONDURAS" class="litera_h">HONDURAS</a></li><li><a href="/en/satellite-internet-form/HONG-KONG" title="HONG KONG" class="litera_h">HONG KONG</a></li><li><a href="/en/satellite-internet-form/HUNGARY" title="HUNGARY" class="litera_h">HUNGARY</a></li><li><a href="/en/satellite-internet-form/ICELAND" title="ICELAND" class="litera_i">ICELAND</a></li><li><a href="/en/satellite-internet-form/INDIA" title="INDIA" class="litera_i">INDIA</a></li><li><a href="/en/satellite-internet-form/INDONESIA" title="INDONESIA" class="litera_i">INDONESIA</a></li><li><a href="/en/satellite-internet-form/IRAN" title="IRAN" class="litera_i">IRAN</a></li><li><a href="/en/satellite-internet-form/IRAQ" title="IRAQ" class="litera_i">IRAQ</a></li><li><a href="/en/satellite-internet-form/IRELAND" title="IRELAND" class="litera_i">IRELAND</a></li><li><a href="/en/satellite-internet-form/ISLE-OF-MAN" title="ISLE OF MAN" class="litera_i">ISLE OF MAN</a></li><li><a href="/en/satellite-internet-form/ISRAEL" title="ISRAEL" class="litera_i">ISRAEL</a></li><li><a href="/en/satellite-internet-form/ITALY" title="ITALY" class="litera_i">ITALY</a></li><li><a href="/en/satellite-internet-form/IVORY-COAST" title="IVORY COAST" class="litera_i">IVORY COAST</a></li><li><a href="/en/satellite-internet-form/JAMAICA" title="JAMAICA" class="litera_j">JAMAICA</a></li><li><a href="/en/satellite-internet-form/JAPAN" title="JAPAN" class="litera_j">JAPAN</a></li><li><a href="/en/satellite-internet-form/JERSEY" title="JERSEY" class="litera_j">JERSEY</a></li><li><a href="/en/satellite-internet-form/JORDAN" title="JORDAN" class="litera_j">JORDAN</a></li><li><a href="/en/satellite-internet-form/KAZAKHSTAN" title="KAZAKHSTAN" class="litera_k">KAZAKHSTAN</a></li><li><a href="/en/satellite-internet-form/KENYA" title="KENYA" class="litera_k">KENYA</a></li><li><a href="/en/satellite-internet-form/KIRIBATI" title="KIRIBATI" class="litera_k">KIRIBATI</a></li><li><a href="/en/satellite-internet-form/KUWAIT" title="KUWAIT" class="litera_k">KUWAIT</a></li><li><a href="/en/satellite-internet-form/KYRGYZSTAN" title="KYRGYZSTAN" class="litera_k">KYRGYZSTAN</a></li><li><a href="/en/satellite-internet-form/LAND-ISLANDS" title="LAND ISLANDS" class="litera_l">LAND ISLANDS</a></li><li><a href="/en/satellite-internet-form/LAOS" title="LAOS" class="litera_l">LAOS</a></li><li><a href="/en/satellite-internet-form/LATVIA" title="LATVIA" class="litera_l">LATVIA</a></li><li><a href="/en/satellite-internet-form/LEBANON" title="LEBANON" class="litera_l">LEBANON</a></li><li><a href="/en/satellite-internet-form/LESOTHO" title="LESOTHO" class="litera_l">LESOTHO</a></li><li><a href="/en/satellite-internet-form/LIBERIA" title="LIBERIA" class="litera_l">LIBERIA</a></li><li><a href="/en/satellite-internet-form/LIBYA" title="LIBYA" class="litera_l">LIBYA</a></li><li><a href="/en/satellite-internet-form/LIECHTENSTEIN" title="LIECHTENSTEIN" class="litera_l">LIECHTENSTEIN</a></li><li><a href="/en/satellite-internet-form/LITHUANIA" title="LITHUANIA" class="litera_l">LITHUANIA</a></li><li><a href="/en/satellite-internet-form/LUXEMBOURG" title="LUXEMBOURG" class="litera_l">LUXEMBOURG</a></li><li><a href="/en/satellite-internet-form/MACAO" title="MACAO" class="litera_m">MACAO</a></li><li><a href="/en/satellite-internet-form/MACEDONIA" title="MACEDONIA" class="litera_m">MACEDONIA</a></li><li><a href="/en/satellite-internet-form/MADAGASCAR" title="MADAGASCAR" class="litera_m">MADAGASCAR</a></li><li><a href="/en/satellite-internet-form/MALAWI" title="MALAWI" class="litera_m">MALAWI</a></li><li><a href="/en/satellite-internet-form/MALAYSIA" title="MALAYSIA" class="litera_m">MALAYSIA</a></li><li><a href="/en/satellite-internet-form/MALDIVES" title="MALDIVES" class="litera_m">MALDIVES</a></li><li><a href="/en/satellite-internet-form/MALI" title="MALI" class="litera_m">MALI</a></li><li><a href="/en/satellite-internet-form/MALTA" title="MALTA" class="litera_m">MALTA</a></li><li><a href="/en/satellite-internet-form/MARSHALL-ISLANDS" title="MARSHALL ISLANDS" class="litera_m">MARSHALL ISLANDS</a></li><li><a href="/en/satellite-internet-form/MARTINIQUE" title="MARTINIQUE" class="litera_m">MARTINIQUE</a></li><li><a href="/en/satellite-internet-form/MAURITANIA" title="MAURITANIA" class="litera_m">MAURITANIA</a></li><li><a href="/en/satellite-internet-form/MAURITIUS" title="MAURITIUS" class="litera_m">MAURITIUS</a></li><li><a href="/en/satellite-internet-form/MAYOTTE" title="MAYOTTE" class="litera_m">MAYOTTE</a></li><li><a href="/en/satellite-internet-form/MEXICO" title="MEXICO" class="litera_m">MEXICO</a></li><li><a href="/en/satellite-internet-form/MICRONESIA" title="MICRONESIA" class="litera_m">MICRONESIA</a></li><li><a href="/en/satellite-internet-form/MOLDOVA" title="MOLDOVA" class="litera_m">MOLDOVA</a></li><li><a href="/en/satellite-internet-form/MONACO" title="MONACO" class="litera_m">MONACO</a></li><li><a href="/en/satellite-internet-form/MONGOLIA" title="MONGOLIA" class="litera_m">MONGOLIA</a></li><li><a href="/en/satellite-internet-form/MONTENEGRO" title="MONTENEGRO" class="litera_m">MONTENEGRO</a></li><li><a href="/en/satellite-internet-form/MONTSERRAT" title="MONTSERRAT" class="litera_m">MONTSERRAT</a></li><li><a href="/en/satellite-internet-form/MOROCCO" title="MOROCCO" class="litera_m">MOROCCO</a></li><li><a href="/en/satellite-internet-form/MOZAMBIQUE" title="MOZAMBIQUE" class="litera_m">MOZAMBIQUE</a></li><li><a href="/en/satellite-internet-form/MYANMAR" title="MYANMAR" class="litera_m">MYANMAR</a></li><li><a href="/en/satellite-internet-form/NAMIBIA" title="NAMIBIA" class="litera_n">NAMIBIA</a></li><li><a href="/en/satellite-internet-form/NAURU" title="NAURU" class="litera_n">NAURU</a></li><li><a href="/en/satellite-internet-form/NEPAL" title="NEPAL" class="litera_n">NEPAL</a></li><li><a href="/en/satellite-internet-form/NETHERLANDS" title="NETHERLANDS" class="litera_n">NETHERLANDS</a></li><li><a href="/en/satellite-internet-form/NETHERLANDS-ANTILLES" title="NETHERLANDS ANTILLES" class="litera_n">NETHERLANDS ANTILLES</a></li><li><a href="/en/satellite-internet-form/NEW-CALEDONIA" title="NEW CALEDONIA" class="litera_n">NEW CALEDONIA</a></li><li><a href="/en/satellite-internet-form/NEW-ZEALAND" title="NEW ZEALAND" class="litera_n">NEW ZEALAND</a></li><li><a href="/en/satellite-internet-form/NICARAGUA" title="NICARAGUA" class="litera_n">NICARAGUA</a></li><li><a href="/en/satellite-internet-form/NIGER" title="NIGER" class="litera_n">NIGER</a></li><li><a href="/en/satellite-internet-form/NIGERIA" title="NIGERIA" class="litera_n">NIGERIA</a></li><li><a href="/en/satellite-internet-form/NIUE" title="NIUE" class="litera_n">NIUE</a></li><li><a href="/en/satellite-internet-form/NORFOLK-ISLAND" title="NORFOLK ISLAND" class="litera_n">NORFOLK ISLAND</a></li><li><a href="/en/satellite-internet-form/NORTH-KOREA" title="NORTH KOREA" class="litera_n">NORTH KOREA</a></li><li><a href="/en/satellite-internet-form/NORTHERN-MARIANA-ISLANDS" title="NORTHERN MARIANA ISLANDS" class="litera_n">NORTHERN MARIANA ISLANDS</a></li><li><a href="/en/satellite-internet-form/NORWAY" title="NORWAY" class="litera_n">NORWAY</a></li><li><a href="/en/satellite-internet-form/OMAN" title="OMAN" class="litera_o">OMAN</a></li><li><a href="/en/satellite-internet-form/PAKISTAN" title="PAKISTAN" class="litera_p">PAKISTAN</a></li><li><a href="/en/satellite-internet-form/PALAU" title="PALAU" class="litera_p">PALAU</a></li><li><a href="/en/satellite-internet-form/PALESTINE" title="PALESTINE" class="litera_p">PALESTINE</a></li><li><a href="/en/satellite-internet-form/PANAMA" title="PANAMA" class="litera_p">PANAMA</a></li><li><a href="/en/satellite-internet-form/PAPUA-NEW-GUINEA" title="PAPUA NEW GUINEA" class="litera_p">PAPUA NEW GUINEA</a></li><li><a href="/en/satellite-internet-form/PARAGUAY" title="PARAGUAY" class="litera_p">PARAGUAY</a></li><li><a href="/en/satellite-internet-form/PERU" title="PERU" class="litera_p">PERU</a></li><li><a href="/en/satellite-internet-form/PHILIPPINES" title="PHILIPPINES" class="litera_p">PHILIPPINES</a></li><li><a href="/en/satellite-internet-form/PITCAIRN" title="PITCAIRN" class="litera_p">PITCAIRN</a></li><li><a href="/en/satellite-internet-form/POLAND" title="POLAND" class="litera_p">POLAND</a></li><li><a href="/en/satellite-internet-form/PORTUGAL" title="PORTUGAL" class="litera_p">PORTUGAL</a></li><li><a href="/en/satellite-internet-form/PUERTO-RICO" title="PUERTO RICO" class="litera_p">PUERTO RICO</a></li><li><a href="/en/satellite-internet-form/QATAR" title="QATAR" class="litera_q">QATAR</a></li><li><a href="/en/satellite-internet-form/REUNION" title="REUNION" class="litera_r">REUNION</a></li><li><a href="/en/satellite-internet-form/ROMANIA" title="ROMANIA" class="litera_r">ROMANIA</a></li><li><a href="/en/satellite-internet-form/RUSSIAN-FEDERATION" title="RUSSIAN FEDERATION" class="litera_r">RUSSIAN FEDERATION</a></li><li><a href="/en/satellite-internet-form/RWANDA" title="RWANDA" class="litera_r">RWANDA</a></li><li><a href="/en/satellite-internet-form/SAINT-BARTHLEMY" title="SAINT BARTH?LEMY" class="litera_s">SAINT BARTH?LEMY</a></li><li><a href="/en/satellite-internet-form/SAINT-HELENA" title="SAINT HELENA" class="litera_s">SAINT HELENA</a></li><li><a href="/en/satellite-internet-form/SAINT-KITTS-AND-NEVIS" title="SAINT KITTS AND NEVIS" class="litera_s">SAINT KITTS AND NEVIS</a></li><li><a href="/en/satellite-internet-form/SAINT-LUCIA" title="SAINT LUCIA" class="litera_s">SAINT LUCIA</a></li><li><a href="/en/satellite-internet-form/SAINT-MARTIN" title="SAINT MARTIN" class="litera_s">SAINT MARTIN</a></li><li><a href="/en/satellite-internet-form/SAINT-PIERRE-AND-MIQUELON" title="SAINT PIERRE AND MIQUELON" class="litera_s">SAINT PIERRE AND MIQUELON</a></li><li><a href="/en/satellite-internet-form/SAINT-VINCENT-AND-THE-GRENADINES" title="SAINT VINCENT AND THE GRENADINES" class="litera_s">SAINT VINCENT AND THE GRENADINES</a></li><li><a href="/en/satellite-internet-form/SAMOA" title="SAMOA" class="litera_s">SAMOA</a></li><li><a href="/en/satellite-internet-form/SAN-MARINO" title="SAN MARINO" class="litera_s">SAN MARINO</a></li><li><a href="/en/satellite-internet-form/SAO-TOME-AND-PRINCIPE" title="SAO TOME AND PRINCIPE" class="litera_s">SAO TOME AND PRINCIPE</a></li><li><a href="/en/satellite-internet-form/SAUDI-ARABIA" title="SAUDI ARABIA" class="litera_s">SAUDI ARABIA</a></li><li><a href="/en/satellite-internet-form/SENEGAL" title="SENEGAL" class="litera_s">SENEGAL</a></li><li><a href="/en/satellite-internet-form/SERBIA" title="SERBIA" class="litera_s">SERBIA</a></li><li><a href="/en/satellite-internet-form/SEYCHELLES" title="SEYCHELLES" class="litera_s">SEYCHELLES</a></li><li><a href="/en/satellite-internet-form/SIERRA-LEONE" title="SIERRA LEONE" class="litera_s">SIERRA LEONE</a></li><li><a href="/en/satellite-internet-form/SINGAPORE" title="SINGAPORE" class="litera_s">SINGAPORE</a></li><li><a href="/en/satellite-internet-form/SLOVAKIA" title="SLOVAKIA" class="litera_s">SLOVAKIA</a></li><li><a href="/en/satellite-internet-form/SLOVENIA" title="SLOVENIA" class="litera_s">SLOVENIA</a></li><li><a href="/en/satellite-internet-form/SOLOMON-ISLANDS" title="SOLOMON ISLANDS" class="litera_s">SOLOMON ISLANDS</a></li><li><a href="/en/satellite-internet-form/SOMALIA" title="SOMALIA" class="litera_s">SOMALIA</a></li><li><a href="/en/satellite-internet-form/SOUTH-AFRICA" title="SOUTH AFRICA" class="litera_s">SOUTH AFRICA</a></li><li><a href="/en/satellite-internet-form/SOUTH-GEORGIA-AND-THE-SOUTH-SANDWICH-ISLANDS" title="SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS" class="litera_s">SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</a></li><li><a href="/en/satellite-internet-form/SOUTH-KOREA" title="SOUTH KOREA" class="litera_s">SOUTH KOREA</a></li><li><a href="/en/satellite-internet-form/SOUTH-SUDAN" title="SOUTH SUDAN" class="litera_s">SOUTH SUDAN</a></li><li><a href="/en/satellite-internet-form/SPAIN" title="SPAIN" class="litera_s">SPAIN</a></li><li><a href="/en/satellite-internet-form/SRI-LANKA" title="SRI LANKA" class="litera_s">SRI LANKA</a></li><li><a href="/en/satellite-internet-form/SUDAN" title="SUDAN" class="litera_s">SUDAN</a></li><li><a href="/en/satellite-internet-form/SURINAME" title="SURINAME" class="litera_s">SURINAME</a></li><li><a href="/en/satellite-internet-form/SVALBARD-AND-JAN-MAYEN" title="SVALBARD AND JAN MAYEN" class="litera_s">SVALBARD AND JAN MAYEN</a></li><li><a href="/en/satellite-internet-form/SWAZILAND" title="SWAZILAND" class="litera_s">SWAZILAND</a></li><li><a href="/en/satellite-internet-form/SWEDEN" title="SWEDEN" class="litera_s">SWEDEN</a></li><li><a href="/en/satellite-internet-form/SWITZERLAND" title="SWITZERLAND" class="litera_s">SWITZERLAND</a></li><li><a href="/en/satellite-internet-form/SYRIA" title="SYRIA" class="litera_s">SYRIA</a></li><li><a href="/en/satellite-internet-form/TAIWAN" title="TAIWAN" class="litera_t">TAIWAN</a></li><li><a href="/en/satellite-internet-form/TAJIKISTAN" title="TAJIKISTAN" class="litera_t">TAJIKISTAN</a></li><li><a href="/en/satellite-internet-form/TANZANIA-UNITED-REPUBLIC-OF" title="TANZANIA, UNITED REPUBLIC OF" class="litera_t">TANZANIA, UNITED REPUBLIC OF</a></li><li><a href="/en/satellite-internet-form/THAILAND" title="THAILAND" class="litera_t">THAILAND</a></li><li><a href="/en/satellite-internet-form/TIMOR-LESTE" title="TIMOR-LESTE" class="litera_t">TIMOR-LESTE</a></li><li><a href="/en/satellite-internet-form/TOGO" title="TOGO" class="litera_t">TOGO</a></li><li><a href="/en/satellite-internet-form/TOKELAU" title="TOKELAU" class="litera_t">TOKELAU</a></li><li><a href="/en/satellite-internet-form/TONGA" title="TONGA" class="litera_t">TONGA</a></li><li><a href="/en/satellite-internet-form/TRINIDAD-AND-TOBAGO" title="TRINIDAD AND TOBAGO" class="litera_t">TRINIDAD AND TOBAGO</a></li><li><a href="/en/satellite-internet-form/TUNISIA" title="TUNISIA" class="litera_t">TUNISIA</a></li><li><a href="/en/satellite-internet-form/TURKEY" title="TURKEY" class="litera_t">TURKEY</a></li><li><a href="/en/satellite-internet-form/TURKMENISTAN" title="TURKMENISTAN" class="litera_t">TURKMENISTAN</a></li><li><a href="/en/satellite-internet-form/TURKS-AND-CAICOS-ISLANDS" title="TURKS AND CAICOS ISLANDS" class="litera_t">TURKS AND CAICOS ISLANDS</a></li><li><a href="/en/satellite-internet-form/TUVALU" title="TUVALU" class="litera_t">TUVALU</a></li><li><a href="/en/satellite-internet-form/UGANDA" title="UGANDA" class="litera_u">UGANDA</a></li><li><a href="/en/satellite-internet-form/UKRAINE" title="UKRAINE" class="litera_u">UKRAINE</a></li><li><a href="/en/satellite-internet-form/UNITED-ARAB-EMIRATES" title="UNITED ARAB EMIRATES" class="litera_u">UNITED ARAB EMIRATES</a></li><li><a href="/en/satellite-internet-form/UNITED-KINGDOM" title="UNITED KINGDOM" class="litera_u">UNITED KINGDOM</a></li><li><a href="/en/satellite-internet-form/UNITED-STATES" title="UNITED STATES" class="litera_u">UNITED STATES</a></li><li><a href="/en/satellite-internet-form/UNITED-STATES-MINOR-OUTLYING-ISLANDS" title="UNITED STATES MINOR OUTLYING ISLANDS" class="litera_u">UNITED STATES MINOR OUTLYING ISLANDS</a></li><li><a href="/en/satellite-internet-form/URUGUAY" title="URUGUAY" class="litera_u">URUGUAY</a></li><li><a href="/en/satellite-internet-form/UZBEKISTAN" title="UZBEKISTAN" class="litera_u">UZBEKISTAN</a></li><li><a href="/en/satellite-internet-form/VANUATU" title="VANUATU" class="litera_v">VANUATU</a></li><li><a href="/en/satellite-internet-form/VENEZUELA" title="VENEZUELA" class="litera_v">VENEZUELA</a></li><li><a href="/en/satellite-internet-form/VIET-NAM" title="VIETNAM" class="litera_v">VIETNAM</a></li><li><a href="/en/satellite-internet-form/VIRGIN-ISLANDS-BRITISH" title="VIRGIN ISLANDS, BRITISH" class="litera_v">VIRGIN ISLANDS, BRITISH</a></li><li><a href="/en/satellite-internet-form/VIRGIN-ISLANDS-US" title="VIRGIN ISLANDS, U.S." class="litera_v">VIRGIN ISLANDS, U.S.</a></li><li><a href="/en/satellite-internet-form/WALLIS-AND-FUTUNA" title="WALLIS AND FUTUNA" class="litera_w">WALLIS AND FUTUNA</a></li><li><a href="/en/satellite-internet-form/WESTERN-SAHARA" title="WESTERN SAHARA" class="litera_w">WESTERN SAHARA</a></li><li><a href="/en/satellite-internet-form/YEMEN" title="YEMEN" class="litera_y">YEMEN</a></li><li><a href="/en/satellite-internet-form/ZAMBIA" title="ZAMBIA" class="litera_z">ZAMBIA</a></li><li><a href="/en/satellite-internet-form/ZIMBABWE" title="ZIMBABWE" class="litera_z">ZIMBABWE</a></li></ul>
+		    </div>
+		</div>
+		
+		<script type="text/javascript">
+
+			function navigate(direction) {
+
+				// Check if any of the menu items is selected
+				if($("#menuC ul li .itemhover").size() == 0) {
+					currentSelection = -1;
+				}
+
+				if(direction == 'up' && currentSelection != -1) {
+					if(currentSelection != 0) {
+						currentSelection--;
+					}
+				} else if (direction == 'down') {
+					if(currentSelection != $("#menuC ul li").size() -1) {
+						currentSelection++;
+					}
+				}
+				setSelected(currentSelection);
+			}
+
+			function skoczLitera(litera,pozycja) {
+
+				var poz_litery = 0;
+
+				if(pozycja > -1)
+				{
+					$("#menuC ul li .litera_"+litera+"").each(function(){
+						tmp_poz = $(this).data("number");
+						//alert(tmp_poz);
+						if(poz_litery == 0 && tmp_poz > pozycja)
+						{
+							poz_litery = tmp_poz;
+						}
+					});
+				}
+				else{
+					tmp_poz = $("#menuC ul li .litera_"+litera+"").data("number");
+					poz_litery = tmp_poz;
+				}
+
+				if(poz_litery > -1)
+				{
+					currentSelection = poz_litery;
+					setSelected(currentSelection);
+				}
+			}
+
+			function setSelected(menuitem) {
+
+				$("#menuC ul li a").removeClass("itemhover");
+				$("#menuC ul li a").eq(menuitem).addClass("itemhover");
+				currentUrl = $("#menuC ul li a").eq(menuitem).attr("href");
+				//alert(currentUrl);
+				countryName = $("#menuC ul li a").eq(menuitem).attr("title");
+				$("#selectCountryAsDiv .selectBg").html(countryName);
+			}
+
+			jQuery(document).ready(function () {
+
+			 	$(document).keypress(function (e) {
+			        if( $("#menuC").is(":visible") ) {
+				        if (e.which !== 0 && e.charCode !== 0) {
+				            //alert(String.fromCharCode(e.keyCode|e.charCode));
+				            var firstletter = String.fromCharCode(e.keyCode|e.charCode);
+
+							firstletter = firstletter.replace(/[^a-zA-Z]/g, function(str) { return ""; } )
+				            if(firstletter != "")
+				            {
+								var tmpCurrentSelection = -1;
+								tmp_poz = $("#menuC ul li .litera_"+firstletter+".itemhover").data("number");
+								if(tmp_poz > -1) tmpCurrentSelection = tmp_poz;
+
+					            skoczLitera(firstletter,tmpCurrentSelection);
+				            }
+				        }
+			        }
+			    });
+
+				// Register keypress events on the whole document
+				$(document).keydown(function(e) {
+					switch(e.keyCode) {
+						// User pressed "up" arrow
+						case 38:
+							navigate('up');
+							return false;
+						break;
+						// User pressed "down" arrow
+						case 40:
+							navigate('down');
+							return false;
+						break;
+						// User pressed "enter"
+						case 13:
+							if(currentUrl != '') {
+								window.location = currentUrl;
+							}
+						break;
+					}
+				});
+
+				// Add data to let the hover know which index they have
+				for(var i = 0; i < $("#menuC ul li a").size(); i++) {
+					$("#menuC ul li a").eq(i).data("number", i);
+				}
+
+				// Simulote the "hover" effect with the mouse
+				$("#menuC ul li a").hover(
+					function () {
+						currentSelection = $(this).data("number");
+						setSelected(currentSelection);
+					}, function() {
+						$("#menuC ul li a").removeClass("itemhover");
+						currentUrl = '';
+					}
+				);
+
+
+
+
+
+
+			    $(".selectAsDiv").click(function(){
+			        if($(this).hasClass("selectAsDiv-selected")){
+			          $(".selectAsDiv").removeClass("selectAsDiv-selected");
+			            $(".selects").removeClass("shown");
+			            $("#selectCountryAsDiv .selectBg").html("Select country...");
+			      }else{
+			            $(".selectAsDiv").removeClass("selectAsDiv-selected");
+			            $(this).addClass("selectAsDiv-selected");
+			            $(".selects").removeClass("shown");
+			            $(this).children(".selects").addClass("shown");
+			            return false;
+			      }
+			    });
+
+			    $("body").click(function(){
+			        $(".selectAsDiv").removeClass("selectAsDiv-selected");
+			        $(".selects").removeClass("shown");
+			        $("#selectCountryAsDiv .selectBg").html("Select country...");
+			    });
+
+			    jQuery("#countryList a").click(function() {
+
+				    jQuery(this).parent().parent().find(".selectBg").html($(this).text());
+				    window.location.href = $(this).attr("href");
+
+				    //var country_id = this.id.split("_").reverse().shift();
+				    //jQuery("#country").val(country_id);
+
+				    jQuery(this).parent().find(".selectAsDiv-selected").removeClass("selectAsDiv-selected");
+
+				    if($(this).hasClass("selectAsDiv-selected")){
+				          $(".selectAsDiv").removeClass("selectAsDiv-selected");
+				            $(".selects").removeClass("shown");
+				      }else{
+				            $(".selectAsDiv").removeClass("selectAsDiv-selected");
+				            $(this).addClass("selectAsDiv-selected");
+				            $(".selects").removeClass("shown");
+				            $(this).children(".selects").addClass("shown");
+				            return false;
+				      }
+
+				    return false;
+
+			    });
+
+			});
+		</script>
+		</div>
+				<div id="searchSet">
+					<form action="/" method="post" id="searching" onsubmit="Szukaj('/en/search')"><div class="field"><input class="inputText" type="text" name="fraza" id="fraza" value="searching phrase" onclick="if(this.value=='searching phrase')this.value=''" /></div><div class="btn"><input type="image" src="/img/search-arrow.gif" alt="Search" /></div></form>
+				</div>
+			</div>
+		</div>
+		<div id="mainMenu" class="mainMenu_en"><ul id="nav"><li class="first"><a href="/en" title="Home" class=" selected">Home</a></li><li><a href="/en/Satellite-Internet" title="Satellite Internet" class="">Satellite Internet</a><ul class="dropdownMenu"><li><a href="/en/Intelsat-22" title="Intelsat-22" class="">Intelsat-22</a></li><li><a href="/en/NSS-6-Ku-Band-Australia" title="NSS-6 Ku-Band Australia" class="">NSS-6 Ku-Band Australia</a></li><li><a href="/en/T11N-iDirect-Evolution-service-for-Africa" title="T11N iDirect Evolution service for Africa" class="">T11N iDirect Evolution service for Africa</a></li><li><a href="/en/E70B-SEA-EVO-Ku-Band-APAC" title="E70B SEA EVO" class="">E70B SEA EVO</a></li><li><a href="/en/Yamal-402" title="Yamal-402" class="">Yamal-402</a></li><li><a href="/en/Ka-band-Iraq" title="Ka-band in Iraq, Syria and Armenia" class="">Ka-band in Iraq, Syria and Armenia</a></li><li><a href="/en/Infinity-Evolution-W6" title="E21B" class="">E21B</a></li><li><a href="/en/Ka-Band-Africa" title="Ka-Band Africa" class="">Ka-Band Africa</a></li><li><a href="/en/Infinity-Evolution-IS901" title="Infinity-Evolution-IS901" class="">Infinity-Evolution-IS901</a></li><li><a href="/en/OceanMobile" title="OceanMobile" class="">OceanMobile</a></li><li><a href="/en/Satellite-NSS-6" title="New Skies NSS-6" class="">New Skies NSS-6</a></li><li><a href="/en/SES4" title="SES4" class="">SES4</a></li><li><a href="/en/NSS-7" title="NSS 7" class="">NSS 7</a></li><li><a href="/en/Telstar-10" title="Telstar 10/ Apstar IIR" class="">Telstar 10/ Apstar IIR</a></li><li><a href="/en/Maritime-EMEA" title="Maritime-EMEA" class="">Maritime-EMEA</a></li><li><a href="/en/EMEA-YahLink" title="YahLink" class="">YahLink</a></li><li><a href="/en/NewsSpotter" title="Satellite News Gathering" class="">Satellite News Gathering</a></li><li><a href="/en/ST2" title="SingTel ST-2" class="">SingTel ST-2</a></li><li><a href="/en/AFRICASAT-1A" title="AfricaSat 1A" class="">AfricaSat 1A</a></li><li><a href="/en/Ka-sat-Iraq" title="Ka-band in Iraq, Syria and Armenia" class="">Ka-band in Iraq, Syria and Armenia</a></li><li><a href="/en/YahClick" title="YahClick" class="">YahClick</a></li><li><a href="/en/E70B-Wide-Ku-Band" title="E70B Wide" class="">E70B Wide</a></li><li><a href="/en/EMEA-AMG23" title="AMG23" class="">AMG23</a></li><li><a href="/en/Hylas2-KA" title="Hylas2 - Afghanistan & Libya" class="">Hylas2 - Afghanistan & Libya</a></li><li><a href="/en/iDirect-Intelsat-Infinity" title="Intelsat 10-02 & 901" class="">Intelsat 10-02 & 901</a></li><li><a href="/en/Jabiru-1-Australias-first-commercial-Ka-band-satellite" title="Jabiru-1" class="">Jabiru-1</a></li><li><a href="/en/Dedicated-Services" title="SCPC" class="">SCPC</a></li><li><a href="/en/other-satellites" title="Other satellites" class="">Other satellites</a></li><li><a href="/en/Satellite-Internet-2" title="Sorted by locations" class="">Sorted by locations</a><ul class="dropdownMenu"><li><a href="/en/Internet-Iraq" title="Supported locations in Iraq" class="">Supported locations in Iraq</a></li><li><a href="/en/Internet-Afghanistan" title="Supported locations in Afghanistan" class="">Supported locations in Afghanistan</a></li><li><a href="/en/Cities-in-Libya" title="Cities in Libya" class="">Cities in Libya</a></li><li><a href="/en/Places-in-Afghanistan-by-province" title="Cities in Afghanistan" class="">Cities in Afghanistan</a></li><li><a href="/en/Afghanistan-Cities-Persian" title="شهرستانها در افغانستان" class="">شهرستانها در افغانستان</a></li><li><a href="/en/Cities-in-India" title="Cities in India" class="">Cities in India</a></li><li><a href="/en/Cities-in-Philippines" title="Cities in Philippines" class="">Cities in Philippines</a></li><li><a href="/en/Cities-in-India-Hindi" title="भारत के शहरों की सूची" class="">भारत के शहरों की सूची</a></li><li><a href="/en/Cities-in-Yemen" title="Cities in Yemen" class="">Cities in Yemen</a></li><li><a href="/en/Cities-in-Nigeria" title="Cities in Nigeria" class="">Cities in Nigeria</a></li></ul></li><li><a href="/en/Satellite-Broadband-in-Africa" title="African Satellite Broadband" class="">African Satellite Broadband</a></li><li><a href="/en/Satellite-Broadband-in-Syria" title="Internet in Syria" class="">Internet in Syria</a></li><li><a href="/en/Satellite-Broadband-in-Afghanistan" title="Internet in Afghanistan" class="">Internet in Afghanistan</a></li></ul></li><li><a href="/en/Satellite-Phones" title="Satellite Phones" class="">Satellite Phones</a><ul class="dropdownMenu"><li><a href="/en/Price-Lists" title="Price Lists" class="">Price Lists</a></li><li><a href="/en/Thuraya" title="Thuraya Satellite Phones" class="">Thuraya Satellite Phones</a><ul class="dropdownMenu"><li><a href="/en/Thuraya-SG-2520" title="Thuraya SG-2520" class="">Thuraya SG-2520</a></li><li><a href="/en/Thuraya-SO-2510" title="Thuraya SO-2510" class="">Thuraya SO-2510</a></li><li><a href="/en/Thuraya-Hardware-and-Accessories" title="Thuraya Phones Prices" class="">Thuraya Phones Prices</a></li><li><a href="/en/Thuraya-Airtime" title="Thuraya Airtime Prices" class="">Thuraya Airtime Prices</a></li><li><a href="/en/Thuraya-DSL-Price" title="Thuraya DSL Prices" class="">Thuraya DSL Prices</a></li><li><a href="/en/Thuraya-XT" title="Thuraya XT" class="">Thuraya XT</a></li><li><a href="/en/Thuraya-FDU" title="Thuraya XT FDU" class="">Thuraya XT FDU</a></li><li><a href="/en/Thuraya-XT-DUAL" title="Thuraya XT-Dual" class="">Thuraya XT-Dual</a></li><li><a href="/en/Thuraya-SatSleeve" title="Thuraya SatSleeve" class="">Thuraya SatSleeve</a></li></ul></li><li><a href="/en/Iridium" title="Iridium Satellite Phones" class="">Iridium Satellite Phones</a><ul class="dropdownMenu"><li><a href="/en/BEAM-Hardware-and-Accessories" title="Iridium BEAM Prices" class="">Iridium BEAM Prices</a></li><li><a href="/en/Iridium-Hardware" title="Iridium Phones Prices" class="">Iridium Phones Prices</a></li><li><a href="/en/Iridium-Accessories" title="Accessories Prices" class="">Accessories Prices</a></li><li><a href="/en/Iridium-Prepaid-Airtime" title="Iridium Prepaid Prices" class="">Iridium Prepaid Prices</a></li><li><a href="/en/Iridium-Postpaid-Airtime" title="Iridium Postpaid Prices" class="">Iridium Postpaid Prices</a></li><li><a href="/en/Iridium-SBD" title="Iridium SBD Prices" class="">Iridium SBD Prices</a></li><li><a href="/en/Iridium-OpenPort-Airtime" title="Iridium OpenPort Prices" class="">Iridium OpenPort Prices</a></li><li><a href="/en/Iridium-9505a" title="Iridium 9505a" class="">Iridium 9505a</a></li><li><a href="/en/Iridium-9555" title="Iridium 9555" class="">Iridium 9555</a></li><li><a href="/en/Iridium-9575" title="Iridium Extreme 9575" class="">Iridium Extreme 9575</a><ul class="dropdownMenu"><li><a href="/en/Iridium9575-Tracker" title="SatCom Tracker - Iridium 9575" class="">SatCom Tracker - Iridium 9575</a></li></ul></li><li><a href="/en/Iridium-Core-9523" title="Iridium Core 9523" class="">Iridium Core 9523</a></li><li><a href="/en/Iridium-AxcessPoint" title="Iridium AxcessPoint" class="">Iridium AxcessPoint</a></li><li><a href="/en/Iridium-Force" title="Iridium Force" class="">Iridium Force</a></li></ul></li><li><a href="/en/IsatPhone" title="Inmarsat Satellite Phones" class="">Inmarsat Satellite Phones</a><ul class="dropdownMenu"><li><a href="/en/isatphone-inmarsat" title="iSatPhone" class="">iSatPhone</a></li><li><a href="/en/isatphone-pro" title="iSatPhone Pro" class="">iSatPhone Pro</a></li><li><a href="/en/SPS-Postpaid-Airtime" title="Inmarsat Airtime Prices" class="">Inmarsat Airtime Prices</a></li><li><a href="/en/Inmarsat-SPS-Handheld" title="Inmarsat Phones Prices" class="">Inmarsat Phones Prices</a></li><li><a href="/en/Inmarsat-GSPS-Postpaid-Airtime" title="GSPS Postpaid Prices" class="">GSPS Postpaid Prices</a></li><li><a href="/en/Inmarsat-GSPS-Equipment" title="IsatPhone Pro Prices" class="">IsatPhone Pro Prices</a></li><li><a href="/en/IsatDOCK" title="IsatDOCK Prices" class="">IsatDOCK Prices</a></li><li><a href="/en/Inmarsat-Airtime-Prepaid-2" title="GSPS Prepaid Prices" class="">GSPS Prepaid Prices</a></li></ul></li><li><a href="/en/GlobalStar" title="Globalstar Satellite Phones" class="">Globalstar Satellite Phones</a><ul class="dropdownMenu"><li><a href="/en/globalstar-gsp1700" title="Globalstar - GSP1700" class="">Globalstar - GSP1700</a></li><li><a href="/en/Globalstar-postpaid-plans" title="Globalstar postpaid Plans" class="">Globalstar postpaid Plans</a></li><li><a href="/en/Globalstar-SPOT" title="Globalstar SPOT" class="">Globalstar SPOT</a></li></ul></li></ul></li><li><a href="/en/Inmarsat-Satellite" title="Mobile Internet" class="">Mobile Internet</a><ul class="dropdownMenu"><li><a href="/en/FleetBroadband" title="FleetBroadband" class="">FleetBroadband</a></li><li><a href="/en/Harris-RF-7800" title="Harris-RF-7800" class="">Harris-RF-7800</a></li><li><a href="/en/BGAN-Inmarsat" title="Global BGAN" class="">Global BGAN</a><ul class="dropdownMenu"><li><a href="/en/Nera-WorldPro-1000-1010" title="T&T EXPLORER 110" class="">T&T EXPLORER 110</a></li><li><a href="/en/Thrane-Thrane-EXPLORER-300" title="T&T EXPLORER 300" class="">T&T EXPLORER 300</a></li><li><a href="/en/Thrane-Thrane-EXPLORER-500" title="T&T EXPLORER 500" class="">T&T EXPLORER 500</a></li><li><a href="/en/Thrane-Thrane-EXPLORER-325" title="T&T EXPLORER 325" class="">T&T EXPLORER 325</a></li><li><a href="/en/Thrane-Thrane-EXPLORER-700" title="T&T EXPLORER 700" class="">T&T EXPLORER 700</a></li><li><a href="/en/Wideye-SABRE-1" title="Wideye SABRE 1" class="">Wideye SABRE 1</a></li><li><a href="/en/Hughes-9201" title="Hughes 9201" class="">Hughes 9201</a></li><li><a href="/en/Hughes-9250" title="Hughes 9250" class="">Hughes 9250</a></li><li><a href="/en/Hughes-9202" title="Hughes 9202" class="">Hughes 9202</a></li><li><a href="/en/R-BGAN" title="Inmarsat Regional BGAN" class="">Inmarsat Regional BGAN</a></li></ul></li></ul></li><li><a href="/en/Satellite-equipment" title="Satellite Equipment" class="">Satellite Equipment</a><ul class="dropdownMenu"><li><a href="/en/iDirect" title="iDirect Routers" class="">iDirect Routers</a><ul class="dropdownMenu"><li><a href="/en/Evo-3" title="Evolution X3" class="">Evolution X3</a></li><li><a href="/en/Evolution-X5" title="Evolution X5" class="">Evolution X5</a></li><li><a href="/en/Evolution-8000" title="Evolution 8000" class="">Evolution 8000</a></li></ul></li><li><a href="/en/LinkStar" title="LinkStar VSAT modem" class="">LinkStar VSAT modem</a></li><li><a href="/en/Solar-Panels" title="Solar Panels" class="">Solar Panels</a></li><li><a href="/en/Car-Antennas" title="Satellite Car Antennas" class="">Satellite Car Antennas</a></li><li><a href="/en/Hughes-HX" title="Hughes HX" class="">Hughes HX</a></li><li><a href="/en/Livewire" title="Livewire" class="">Livewire</a></li><li><a href="/en/SailorTV" title="Sailor TV" class="">Sailor TV</a></li><li><a href="/en/Cobham-SATCOM" title="Cobham SATCOM" class="">Cobham SATCOM</a></li><li><a href="/en/Cobham-SATCOM-2" title="Cobham SATCOM" class="">Cobham SATCOM</a></li><li><a href="/en/Marine-TV" title="Marine TV" class="">Marine TV</a></li><li><a href="/en/Marine-GPS" title="Marine GPS" class="">Marine GPS</a><ul class="dropdownMenu"><li><a href="/en/Garmin-Marine-Radar-GMR-40-4kW" title="Garmin Marine Radar GMR 40 4kW" class="">Garmin Marine Radar GMR 40 4kW</a></li><li><a href="/en/GPSMAP-3005C" title="GPSMAP 3005C" class="">GPSMAP 3005C</a></li><li><a href="/en/Garmin-GPSMAP-2010-2010C" title="Garmin GPSMAP 2010/2010C" class="">Garmin GPSMAP 2010/2010C</a></li><li><a href="/en/Garmin-Marine-Radar-GMR-20-2kW" title="Garmin Marine Radar GMR 20 2kW" class="">Garmin Marine Radar GMR 20 2kW</a></li><li><a href="/en/Garmin-Marine-GPSMAP-2110" title="Garmin GPSMAP 2110" class="">Garmin GPSMAP 2110</a></li><li><a href="/en/Garmin-Marine-GPSMAP-2106" title="Garmin Marine GPSMAP 2106" class="">Garmin Marine GPSMAP 2106</a></li><li><a href="/en/Garmin-GPSMAP-192C" title="Garmin GPSMAP 192C" class="">Garmin GPSMAP 192C</a></li><li><a href="/en/Garmin-GPSMAP-198C" title="Garmin GPSMAP 198C" class="">Garmin GPSMAP 198C</a></li><li><a href="/en/Garmin-GPSMap-2006-2006C" title="Garmin GPSMap 2006/2006C" class="">Garmin GPSMap 2006/2006C</a></li><li><a href="/en/Garmin-GPS-126" title="Garmin GPS 126" class="">Garmin GPS 126</a></li></ul></li></ul></li><li><a href="/en/For-US-Army-Soldiers" title="Military" class="">Military</a><ul class="dropdownMenu"><li><a href="/en/Order-form-for-soldiers" title="Order & contact form for Military Personnel" class="">Order & contact form for Military Personnel</a><ul class="dropdownMenu"><li><a href="/en/US-Army-Base" title="Satellite Broadband for US Soldiers" class="">Satellite Broadband for US Soldiers</a></li><li><a href="/en/Internet-in-Iraq-for-US-Army-Soldiers" title="Supported locations in Iraq" class="">Supported locations in Iraq</a><ul class="dropdownMenu"><li><a href="/en/US-Army-Camps" title="US Army Camps" class="">US Army Camps</a></li><li><a href="/en/Air-Bases-IQ" title="Airbases and FOB's" class="">Airbases and FOB's</a></li><li><a href="/en/other-Iraqi" title="Other Iraqi locations" class="">Other Iraqi locations</a></li></ul></li><li><a href="/en/Internet-in-Afghanistan-for-US-Army-Soldiers" title="Supported locations in Afghanistan" class="">Supported locations in Afghanistan</a><ul class="dropdownMenu"><li><a href="/en/Airfields-Camps" title="Airfields and Camps" class="">Airfields and Camps</a></li><li><a href="/en/FOB-PRT" title="FOB's and PRT's" class="">FOB's and PRT's</a></li><li><a href="/en/Militia-Facilities" title="Other Afghan locations" class="">Other Afghan locations</a></li></ul></li><li><a href="/en/Internet-in-the-Middle-East-for-US-Army-Soldiers" title="Supported US locations in the Middle East" class="">Supported US locations in the Middle East</a></li><li><a href="/en/Other-locations-Military" title="Other military locations" class="">Other military locations</a><ul class="dropdownMenu"><li><a href="/en/Airfields-Camps-Barracks" title="Army Airfields, Camps and Barracks" class="">Army Airfields, Camps and Barracks</a></li><li><a href="/en/Air-Force-Bases" title="Air Force Bases" class="">Air Force Bases</a></li><li><a href="/en/Air-Force-Bases-CONUS" title="Air Force Bases (CONUS)" class="">Air Force Bases (CONUS)</a></li><li><a href="/en/Air-Reserve-Bases" title="Air Reserve Bases" class="">Air Reserve Bases</a></li><li><a href="/en/Air-National-Guard-Bases" title="Air National Guard Bases" class="">Air National Guard Bases</a></li><li><a href="/en/Coast-Guard" title="Coast Guard Air Stations" class="">Coast Guard Air Stations</a></li><li><a href="/en/Marine-Corps-Bases" title="Marine Corps Bases" class="">Marine Corps Bases</a></li><li><a href="/en/Naval-Bases" title="Naval Bases and Stations" class="">Naval Bases and Stations</a></li></ul></li></ul></li><li><a href="/en/Scam-Warning" title="TS2 Warns of Fraudulent Satellite Offers" class="">TS2 Warns of Fraudulent Satellite Offers</a></li></ul></li><li><a href="/en/News" title="News" class="">News</a></li><li><a href="/en/Contact" title="Contact" class="">Contact</a><ul class="dropdownMenu"><li><a href="/en/about-ts2" title="About TS2" class="">About TS2</a></li><li><a href="/en/Startup-Investing" title="Venture capital" class="">Venture capital</a></li><li><a href="/en/Address" title="Address and payment details" class="">Address and payment details</a></li><li><a href="/en/Phone" title="Phone contact" class="">Phone contact</a></li><li><a href="/en/Contact-form" title="Contact form" class="">Contact form</a></li></ul></li></ul></div>
+		<div id="bannerSet">
+			<div class="shadowTop"></div>
+			<div class="shadowBottom"></div>
+			<div id="banner">
+				<div class="bannerBox">
+                    <div class="pic"><img src="/img/animacje/1/2013_12/gsp1-700.jpg" alt="Globalstar GSP-1700" title="Globalstar GSP-1700" onclick="window.location='http://satphones.eu/satellite-phones/1200-gsp-1700-handheld-satellite-phone-copper.html'" /></div>
+                    <div class="details">
+                        <div class="title"><a href="http://satphones.eu/satellite-phones/1200-gsp-1700-handheld-satellite-phone-copper.html" title="Globalstar GSP-1700">Globalstar GSP-1700</a></div>
+						  	<div class="text"><p>
+	<span style="color:#f00;"><b>Price 413 USD excl. VAT</b></span></p>
+<p>
+	A light and feature-rich mobile satellite phone, the GSP-1700 helps you stay connected virtually anywhere.</p></div>
+						  </div>
+                </div><div class="bannerBox">
+                    <div class="pic"><img src="/img/animacje/1/2013_07/ts2banner990x306px-afgx.jpg" alt="Thuraya SatSleeve" title="Thuraya SatSleeve" onclick="window.location='http://satphones.eu/home/1712-thuraya-satsleeve-44s.html'" /></div>
+                    <div class="details">
+                        <div class="title"><a href="http://satphones.eu/home/1712-thuraya-satsleeve-44s.html" title="Thuraya SatSleeve">Thuraya SatSleeve</a></div>
+						  	<div class="text"><p>
+	<span style="color:#f00;"><b>Price 577,50 USD excl. VAT</b></span></p>
+<p>You do not have to buy expensive satellite phones anymore. Now the new smartphone addition is enough to stay connected in 140 countries covered by Thuraya satellites.</p></div>
+						  </div>
+                </div><div class="bannerBox">
+                    <div class="pic"><img src="/img/animacje/1/2013_12/isatphonepro.jpg" alt="Inmarsat iSatPhone PRO" title="Inmarsat iSatPhone PRO" onclick="window.location='http://satphones.eu/satellite-phones/300-isatphone-pro-handset-english-keypad.html'" /></div>
+                    <div class="details">
+                        <div class="title"><a href="http://satphones.eu/satellite-phones/300-isatphone-pro-handset-english-keypad.html" title="Inmarsat iSatPhone PRO">Inmarsat iSatPhone PRO</a></div>
+						  	<div class="text"><p>
+	<span style="color:#f00;"><b>Price 629 USD excl. VAT</b></span></p>
+<p>
+	IsatPhone Pro is the first Inmarsat handheld to be purpose-built for its network. It is targeted primarily at professional users in the government, media, aid, oil and gas, mining and construction sectors.</p></div>
+						  </div>
+                </div><div class="bannerBox">
+                    <div class="pic"><img src="/img/animacje/1/2013_12/ThurayaXT-NEW.jpg" alt="Thuraya XT" title="Thuraya XT" onclick="window.location='http://satphones.eu/satellite-phones/600-thuraya-xt-handset-satellite-only.html'" /></div>
+                    <div class="details">
+                        <div class="title"><a href="http://satphones.eu/satellite-phones/600-thuraya-xt-handset-satellite-only.html" title="Thuraya XT">Thuraya XT</a></div>
+						  	<div class="text"><p>
+	<span style="color:#f00;"><b>Price 753,50 USD excl. VAT</b></span></p>
+<p>Thuraya XT is the only satellite phone in the world to meet the industry’s highest criteria for splash resistance, dust resistance and shock proofing.</p></div>
+						  </div>
+                </div><div class="bannerBox">
+                    <div class="pic"><img src="/img/animacje/1/2013_12/sg2520-700.jpg" alt="Thuraya SG-2520" title="Thuraya SG-2520" onclick="window.location='http://satphones.eu/home/1711-thuraya-sg-2520-satellite-phone.html'" /></div>
+                    <div class="details">
+                        <div class="title"><a href="http://satphones.eu/home/1711-thuraya-sg-2520-satellite-phone.html" title="Thuraya SG-2520">Thuraya SG-2520</a></div>
+						  	<div class="text"><p>
+	<span style="color:#f00;"><b>Price 836,00 USD excl. VAT</b></span></p>
+<p>
+	This sleek and stylish satellite phone combines satellite, tri-band GSM and GPS, with built-in GPRS, MMS and JAVA features. </p></div>
+						  </div>
+                </div><div class="bannerBox">
+                    <div class="pic"><img src="/img/animacje/1/2013_12/iridium9555.jpg" alt="Iridium 9555" title="Iridium 9555" onclick="window.location='http://satphones.eu/satellite-phones/501-iridium-9555-portable-satellite-telephone.html'" /></div>
+                    <div class="details">
+                        <div class="title"><a href="http://satphones.eu/satellite-phones/501-iridium-9555-portable-satellite-telephone.html" title="Iridium 9555">Iridium 9555</a></div>
+						  	<div class="text"><p>
+	<span style="color:#f00;"><b>Price 1045 USD excl. VAT</b></span></p>
+<p>
+	Iridium Satellite has unveiled its latest satellite phone, the 9555, which offers smaller dimensions and a form factor that is closer to traditional cell phones than its predecessor, the 9505A.</p></div>
+						  </div>
+                </div><div class="bannerBox">
+                    <div class="pic"><img src="/img/animacje/1/2013_12/1.jpg" alt="Iridium 9575 Extreme" title="Iridium 9575 Extreme" onclick="window.location='http://satphones.eu/satellite-phones/500-iridium-9575-portable-satellite-telephone.html'" /></div>
+                    <div class="details">
+                        <div class="title"><a href="http://satphones.eu/satellite-phones/500-iridium-9575-portable-satellite-telephone.html" title="Iridium 9575 Extreme">Iridium 9575 Extreme</a></div>
+						  	<div class="text"><p>
+	<span style="color:#f00;"><b>Price 1281,50 USD excl. VAT</b></span></p>
+<p>
+	The Iridium 9575 is the most advanced, most rugged satellite handset on the market, with the ability to locate users anywhere on the surface of the planet, precisely.</p></div>
+						  </div>
+                </div>
+			</div>
+		</div>
+		
+		<div class="menu-bottom-1 menu-bottom-1-1"></div>
+		
+		<div id="content">
+			<div id="columnLeft" class="columnLeftHome">
+				<div class="logoBox">
+	<h2 class="header"><a href="http://ts2.space/en/a/TS2-has-become-an-authorized-partner-of-Inmarsat" title="Inmarsat Bronze Service Provider">Inmarsat Bronze Service Provider <img src="/img/arrow-ico.gif" title="Inmarsat Bronze Service Provider" alt="Inmarsat Bronze Service Provider" /></a></h2>
+	<div class="container"><img src="/img/cert-1.gif" alt="" title="" /></div>
+</div>
+<div class="btn"><a href="/en/Contact-form" title="Become a reseller partner">Become a reseller partner <img src="/img/arrow-ico.gif" title="Become a reseller partner" alt="Become a reseller partner" /></a></div>
+<div class="btn"><a href="/en/Satellite-Broadband-in-Africa" title="Satellite Broadband in Africa">Satellite Broadband in Africa <img src="/img/arrow-ico.gif" title="Satellite Broadband in Africa" alt="Satellite Broadband in Africa" /></a></div>
+
+			</div>
+			<div id="columnCenter">
+				<div class="box">
+					<h2 class="header">Home</h2>
+					<div class="container"><p>
+	<strong>TS2 SPACE is a company which provides telecommunications services by using the following satellite constellations: Thuraya, Iridium, Inmarsat, Eutelsat and Intelsat.</strong></p>
+<p>
+	TS2 offers all possibilities of using communications satellites to send data and voice. The company allows you to make a phone call from anywhere in the world, together with the appropriate data encryption. It also enables global access to the Internet and a range of services related... <a class="more" href="/en/about-ts2"><img src="/img/arrow-ico.gif" alt="więcej" title="więcej" /></a></p></div>
+				</div>
+			</div>
+			<div id="columnRight">
+				<div class="box">
+					<h2 class="header"><a href="/en/News" title="News">News</a></h2>
+					<div class="container">
+						<div class="newsBox">
+	<div class="date">Sunday, 03 May 2015</div>
+	<div class="title"><a href="/en/a/Thuraya-launches-the-worlds-most-advanced-satellite-phone-Thuraya-XT-PRO" title="Thuraya launches the world’s most advanced satellite phone Thuraya XT-PRO">Thuraya launches the world’s most advanced satellite phone Thuraya XT-PRO <img src="/img/arrow-ico.gif" alt="" title="" /></a></div>
+	<!--<div class="text">The Thuraya XT-PRO offers the longest talk-time, the largest display, and all three major navigation systems. It brings unparalleled flexibility for government, energy, media and NGO users in all regions.<a class="more" href="/en/a/Thuraya-launches-the-worlds-most-advanced-satellite-phone-Thuraya-XT-PRO"><img src="/img/arrow-ico.gif" alt="" title="" /></a></div>-->
+</div>
+<div class="newsBox">
+	<div class="date">Thursday, 26 March 2015</div>
+	<div class="title"><a href="/en/a/New-KA-Band-satellite-broadband-in-Iraq-Syria-and-Armenia" title="New KA-Band satellite broadband in Iraq, Syria and Armenia">New KA-Band satellite broadband in Iraq, Syria and Armenia <img src="/img/arrow-ico.gif" alt="" title="" /></a></div>
+	<!--<div class="text">TS2 SPACE has recently launched new KA-BAND satellite services. Using the HYLAS 2 spacecraft, the company now provides high- speed data services to Iraq, Syria and Armenia.<a class="more" href="/en/a/New-KA-Band-satellite-broadband-in-Iraq-Syria-and-Armenia"><img src="/img/arrow-ico.gif" alt="" title="" /></a></div>-->
+</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer"><b>TS2 SPACE, LIM Center / Warsaw Marriott, p. 15.03</b><br />
+<span style="font-size:9px;">Aleje Jerozolimskie 65/79, PL 00-697 Warsaw, Poland<br />
+phones (0-22) 630 70 70, (0-22) 630 70 71, fax (0-22) 630 70 71<br />
+</span></div>
+		<div id="copyright">Copyright © TS2.SPACE | <a href="/?wersja_desktop=1">Wersja desktopowa</a> | <a href="http://spaceflights.news">spaceflights.news</a> | <a href="http://www.satproviders.com">satproviders.com</a></div>
+		<div id="siteMenu">
+
+		</div>
+		<script type="text/javascript">BullStatistic();</script>
+	</div>
+
+
+
+	<!-- Kod tagu remarketingowego Google -->
+
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1055997306;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1055997306/?value=0&guid=ON&script=0"/>
+		</div>
+	</noscript>
+
+	<!-- Google Code for wejście na ts2 Conversion Page -->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1029531729;
+		var google_conversion_language = "en";
+		var google_conversion_format = "3";
+		var google_conversion_color = "ffffff";
+		var google_conversion_label = "LrY-CPHgxQcQ0dD16gM";
+		var google_conversion_value = 0;
+		var google_remarketing_only = false;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1029531729/?value=0&label=LrY-CPHgxQcQ0dD16gM&guid=ON&script=0"/>
+		</div>
+	</noscript>
+
+</div>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpn7UhqPy5aW9Wd61M3Tl9hg0eo7AD4gCW3TQUHJbS9vfhSnBwj5F1Z2U5E%2fkVxjepD8VxA%2bEuxp7HaWfBQIV8cYlTmWt5jNK%2frd7%2bamBKjXXref4uUVhTUQ9fHnNxlr%2bSsdg0t1dcJ2hFYN6v5qvtvprhC6sr6YRz8iQEtL6WxFT5YslIk%2bMuijEunyV9o9dkXtQ6eGHMcbWQ7H8UWJPrtQvpf2AmP3ZYqhOpyIRk2jnvA6n41r44u0PmGTJrcms4BRmagAQtcKdhbW5gjK%2bnYY9uDi0Mj%2fN0TGCXz4U9u0mDkxkYb7jy3R7TDU%2fVr8ZdZKIC0683WyrBasNb%2b7hsdqNcSabr%2b%2bPKO9vDudmjfTtwd2vN3dWe9oZ41qXqOKPoomaLFmqvWsUFiuKf5AiMYyhfEC0UUvpFg9AWJw7qaEBO54Z82lTnQycb4FAcJGuU4w75a6tYjIy6sC0IJkkYbtR%2bQbcSxozsYIYuIH%2fsTf9v8p6wCV092IOPGtt91FOFP%2fK40CZfN61AF68l%2briBwR9cU9dIbdPM64xx5b8wMxzpFtX5WTS5PwPC4YNJkIrwBen%2b3D3L0l1tapQv7yvcpnUphzl1y12lRUZMk4paqJfn7SWty9eBz4c5qChiKhtCz93yOhZObaNADnPAY9NCJjNIW3tKdodFC9GyyDEwmC%2fhPEMoItRdZczt5b%2b6z%2fGNoIRu6Y9QPqsripoNt19fTx04VXHDxv0LGI3K9qqlaKOuVIZ756oBUUyvxRoyvQhmReD%2fwG8c0U5nV5R1VSpylM0lHXNH7sIJXA2Zbbh2%2f6Oh5zo9ZdN97IZAIVBGmWa%2fGOUrXubUAA6JqIH64QUmToUWTyIoNLZ3uyktxDu5QP%2bo%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+-cURL(cmd):
+curl "http://ts2.space/" -H "Accept-Encoding: gzip, deflate, sdch" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cookie: __utma=1.391416005.1455819161.1455829858.1455912604.3; __utmz=1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; PHPSESSID=pgk242hthkgkokvl1v7lhjn3m4; wersja_desktop=0; orPrepop=true; visadd_sticky_lock_counter=4; visadd_lock_count=3" -H "Connection: keep-alive" --compressed
+-cURL(bash):
+curl 'http://ts2.space/' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: en-US,en;q=0.8,id;q=0.6' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cookie: __utma=1.391416005.1455819161.1455829858.1455912604.3; __utmz=1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; PHPSESSID=pgk242hthkgkokvl1v7lhjn3m4; wersja_desktop=0; orPrepop=true; visadd_sticky_lock_counter=4; visadd_lock_count=3' -H 'Connection: keep-alive' --compressed
+-Headers:
+-General:
+Request URL:http://ts2.space/
+Request Method:GET
+Status Code:200 OK
+Remote Address:213.189.53.123:80
+-Response headers:
+Cache-Control:no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection:Keep-Alive
+Content-Length:66487
+Content-Type:text/html
+Date:Tue, 23 Feb 2016 19:13:09 GMT
+Expires:Thu, 19 Nov 1981 08:52:00 GMT
+Pragma:no-cache
+Server:Apache/2.2.22 (Debian)
+Vary:Accept-Encoding
+X-Powered-By:PHP/5.4.36-0+deb7u1
+Request Headers
+view source:
+HTTP/1.1 200 OK
+Date: Tue, 23 Feb 2016 19:13:09 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.36-0+deb7u1
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Type: text/html
+Connection: Keep-Alive
+Content-Length: 66487
+Request Headers
+-Request headers:
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Connection:keep-alive
+Cookie:__utma=1.391416005.1455819161.1455829858.1455912604.3; __utmz=1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; PHPSESSID=pgk242hthkgkokvl1v7lhjn3m4; wersja_desktop=0; orPrepop=true; visadd_sticky_lock_counter=4; visadd_lock_count=3
+Host:ts2.space
+Upgrade-Insecure-Requests:1
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+-View Source:
+GET / HTTP/1.1
+Host: ts2.space
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8,id;q=0.6
+Cookie: __utma=1.391416005.1455819161.1455829858.1455912604.3; __utmz=1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; PHPSESSID=pgk242hthkgkokvl1v7lhjn3m4; wersja_desktop=0; orPrepop=true; visadd_sticky_lock_counter=4; visadd_lock_count=3
+Name	
+ts2.space	
+preloa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
