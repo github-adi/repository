@@ -1,0 +1,59 @@
+-My web https:
+http://ts2.space/
+-To be architectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-Elements:
+-To be evaluated in console:
+Uncaught ReferenceError: urchinTracker is not defined
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110034109725151211023_1456254792644&_=1456254792645 
+GET http://ts2.space/404.php 404 (Not Found)
+Uncaught SyntaxError: Unexpected identifier
+Uncaught SyntaxError: Unexpected identifier
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110010549274110235274_1456254799962&_=1456254799963 
+Uncaught SyntaxError: Unexpected identifier
+XHR finished loading: GET "http://pagead2.googlesyndication.com/simgad/12345".
+GET http://asrv-a.akamaihd.net/sd/9160/1002.js 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_LocalStoreDe…BVEVTX0luc3RhbGxlZCI6InRydWV8fHw4NjQxNDUwNTQ1NTcxNzE5In0=}&_=1456254792647 
+InterYield clickbind 1.0-SNAPSHOT.72,193 20160222-0948
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+'getMatchedCSSRules()' is deprecated. For more help, check https://code.google.com/p/chromium/issues/detail?id=437569#c2
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111007896891189739108_1456254812259&_=1456254812260 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111006428751312196255_1456254812584&_=1456254812585 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery11100528547307709232_1456254812863&_=1456254812864 
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/wl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/bl".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://tags.right-ads.com/p/index.php".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://tags.right-ads.com/p/index.php".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://tags.right-ads.com/p/index.php".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/wl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/bl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+Error saving setting with name: savedURLs, value length: 3664. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3671
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
