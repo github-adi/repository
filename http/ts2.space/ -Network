@@ -1,0 +1,147 @@
+http://ts2.space/
+-Network:
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111003633043875452131_1456335617072&_=1456335617073 
+Uncaught ReferenceError: urchinTracker is not defined
+GET http://ts2.space/404.php 404 (Not Found)
+GET http://asrv-a.akamaihd.net/sd/9160/1006.js 
+GET http://asrv-a.akamaihd.net/sd/9160/1007.js 
+GET http://asrv-a.akamaihd.net/sd/9160/1002.js 
+GET http://asrv-a.akamaihd.net/sd/9160/1005.js 
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://pagead2.googlesyndication.com/simgad/12345".
+XHR finished loading: GET "http://pagead2.googlesyndication.com/simgad/12345".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+InterYield clickbind 1.0-SNAPSHOT.72,391 20160223-1532
+InterYield documentbind 1.0-SNAPSHOT.72,391 20160223-1532
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110022107257856987417_1456335642520&_=1456335642521 
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+'getMatchedCSSRules()' is deprecated. For more help, check https://code.google.com/p/chromium/issues/detail?id=437569#c2
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+GET http://ts2.space/404.php 
+Refused to load the script 'http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46…&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval'                   *.ppcnp.com https://*.ppcnp.com *.noproblemppc.com https://*.noproblemppc.com                  *.sushileads.com https://*.sushileads.com *.pastaleads.com https://*.pastaleads.com *.bbqleads.com https://*.bbqleads.com                  *.donutleads.com https://*.donutleads.com connect.facebook.net https://connect.facebook.net https://www.facebook.com https://graph.facebook.com                   https://*.adroll.com *.adroll.com".
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+XHR finished loading: POST "https://s936.thetrafficstat.net/related".
+Uncaught TypeError: Cannot read property 'addEventListener' of null
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110008909906796179712_1456335661303&_=1456335661304 
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/bl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/wl".
+bw result: {"match":"ts2","score":0}
+classifyByDisqualifyingDictionaries result: 0
+Language score for en: 0
+Commerce classifyByQualifyingDictionaries lang result: 0
+Product image (ribbon logic): 0. Image found: false Price found: false
+Logic classification score for pp: {"name":"ribbon","value":0}
+Logic classification score for rb: {"name":"ribbon","value":0}
+Logic classification score for pp: {"name":"ribbon","value":0}
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+Logic classification score for cpn: {"name":"bwl","value":0}
+Suspension id TOP_PANEL not in suspension map
+Skipping product TopBarY. Top logic classification returned 0 with reason ribbon
+Notifying noshow
+Suspension id NOWHERE not in suspension map
+initializing products NonCommerceInjector
+Drawing sync visual for product NonCommerceInjector
+FO complete
+NonCommerceInjector: 	Shown
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+Logic classification score for cpn: {"name":"bwl","value":0}
+Suspension id NOWHERE not in suspension map
+Suspension id IMAGE_RIGHT not in suspension map
+Skipping product RibbonX9. Top logic classification returned 0 with reason ribbon
+Notifying noshow
+Suspension id RIGHT_PANEL not in suspension map
+Skipping product rsTRCP. Top logic classification returned 0 with reason ribbon
+Notifying noshow
+Suspension id RIGHT_PANEL not in suspension map
+Skipping product MIG. Top logic classification returned -1 with reason geo
+Notifying noshow
+Product NonCommerceInjector skipped. Its realestate NOWHERE is occupied
+Notifying noshow
+FO complete: no products selected.
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111004160825761500746_1456335668518&_=1456335668519 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111002898755185306072_1456335669138&_=1456335669139 404 (Not Found)
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110013002602849155664_1456335669401&_=1456335669402 
+[Report Only] Refused to load the script 'http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46…&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.alibaba.com *.alisoft.com *.aliyun.com *.alipay.com *.aliexpress.com *.taobao.com *.taobao.net https://assets.alicdn.com https://login.alibaba.com *.alicdn.com *.tbcdn.com *.tbcdn.cn *.aliimg.com *.aliunicorn.com *.1688.com https://*.1688.com *.taobaocdn.com *.taobaocdn.cn *.mmstat.com *.alimama.com *.alimama.cn *.amap.com *.meitipu.com yui.yahooapis.com *.amap.com http://localhost.wwbizsrv.alibaba.com:4012 http://localhost.wwbizsrv.alibaba.com:4812 https://localhost.wwbizsrv.alibaba.com:4013 https://localhost.wwbizsrv.alibaba.com:4813 *.cnzz.com *.cnzz.net www.google.com apis.google.com translate.googleapis.com translate.google.com widgets.twimg.com platform.twitter.com twitter.com www.google-analytics.com www.googleadservices.com googleads.g.doubleclick.net stats.g.doubleclick.net".
+
+[Report Only] Refused to load the script 'http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111000052796341478824615_1456335673037&_=1456335673038' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.alibaba.com *.alisoft.com *.aliyun.com *.alipay.com *.aliexpress.com *.taobao.com *.taobao.net https://assets.alicdn.com https://login.alibaba.com *.alicdn.com *.tbcdn.com *.tbcdn.cn *.aliimg.com *.aliunicorn.com *.1688.com https://*.1688.com *.taobaocdn.com *.taobaocdn.cn *.mmstat.com *.alimama.com *.alimama.cn *.amap.com *.meitipu.com yui.yahooapis.com *.amap.com http://localhost.wwbizsrv.alibaba.com:4012 http://localhost.wwbizsrv.alibaba.com:4812 https://localhost.wwbizsrv.alibaba.com:4013 https://localhost.wwbizsrv.alibaba.com:4813 *.cnzz.com *.cnzz.net www.google.com apis.google.com translate.googleapis.com translate.google.com widgets.twimg.com platform.twitter.com twitter.com www.google-analytics.com www.googleadservices.com googleads.g.doubleclick.net stats.g.doubleclick.net".
+
+Uncaught Error: tried to reject a fulfilled promise
+Uncaught Error: tried to reject a fulfilled promise
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111000052796341478824615_1456335673037&_=1456335673038 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110022757942811585963_1456335674817&_=1456335674818 
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111007265922820661217_1456335676741&_=1456335676742 
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/wl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/bl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110013076806161552668_1456335683142&_=1456335683143 
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/wl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/bl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110028222564165480435_1456335685033&_=1456335685034 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111007745125663932413_1456335686111&_=1456335686112 
+Gdata 已不推荐使用，请大家使用全局变量替代！
+Gdata 已不推荐使用，请大家使用全局变量替代！
+Gdata 已不推荐使用，请大家使用全局变量替代！
+Uncaught Error: tried to reject a fulfilled promise
+Uncaught Error: tried to reject a fulfilled promise
+Uncaught Error: tried to reject a fulfilled promise
+Gdata 已不推荐使用，请大家使用全局变量替代！
+XHR finished loading: GET "http://offer.alibaba.com/market/CID100005431/8/fetchKeyword.do?pageId=b4f4b…2e&language=id&cb=jQuery18303012172330636531_1456335697451&_=1456335699522".
+XHR finished loading: POST "http://www.fuckbookindonesia.com/".
+XHR finished loading: GET "http://v3.mercusuar.uzone.id/uzCron/teknoFeed.xml".
+XHR finished loading: GET "http://v3.mercusuar.uzone.id/uzCron/beritaFeed.xml".
+XHR finished loading: GET "http://v3.mercusuar.uzone.id/uzCron/newsFeed.xml".
+XHR finished loading: GET "http://v3.mercusuar.uzone.id/uzCron/teknoFeed.xml".
+XHR finished loading: GET "http://v3.mercusuar.uzone.id/uzCron/popularFeed.xml".
+XHR finished loading: GET "http://v3.mercusuar.uzone.id/uzCron/beritaFeed.xml".
+XHR finished loading: GET "http://v3.mercusuar.uzone.id/uzCron/olahragaFeed.xml".
+XHR finished loading: GET "http://v3.mercusuar.uzone.id/uzCron/teknoFeed.xml".
+XHR finished loading: GET "http://v3.mercusuar.uzone.id/uzCron/beritaFeed.xml".
+Uncaught TypeError: jQuery18303012172330636531_1456335697451 is not a function
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110038229035516269505_1456335728690&_=1456335728691 404 (Not Found)
+Gdata 已不推荐使用，请大家使用全局变量替代！
+XHR finished loading: GET "http://offer.alibaba.com/market/fetchProduct/CID100005431/0/b4f4b8180ab0c97…71&language=id&cb=jQuery18303012172330636531_1456335697450&_=1456335699489".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111007611717917025089_1456335732984&_=1456335732985 404 (Not Found)
+Resource interpreted as Document but transferred with MIME type image/gif: "http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.UNCON…58223,,CAMPAIGN.0.0,,ADSIZE.728X90,ZIPCODE.11430,PUBLISHERDOMAIN.ts2.space".
+XHR finished loading: GET "http://s.effectivemeasure.net/d/6/p?pu=http%3A%2F%2Fv3.mercusuar.uzone.id%2…0Gecko)%20Chrome%2F48.0.2564.116%20Safari%2F537.36&ftm=false&skl=1&tc=true".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://perf.mmstat.com/p.gif".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.ARTSE…8223,,CAMPAIGN.0.0,,ADSIZE.300X250,ZIPCODE.11430,PUBLISHERDOMAIN.ts2.space".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.UNCON…58223,,CAMPAIGN.0.0,,ADSIZE.728X90,ZIPCODE.11430,PUBLISHERDOMAIN.ts2.space".
+Error saving setting with name: savedURLs, value length: 3664. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235078
+Setting: 'previouslyViewedFiles', size: 3676
+Setting: 'savedURLs', size: 3629
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
+
