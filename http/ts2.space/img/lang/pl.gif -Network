@@ -1,0 +1,20 @@
+http://ts2.space/img/lang/pl.gif
+-Network:
+-cURL (cmd):
+curl "http://ts2.space/img/lang/pl.gif" -H "Accept: image/webp,image/*,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Referer: http://ts2.space/" -H "If-Modified-Since: Fri, 25 May 2012 22:00:00 GMT" -H "User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36" -H "If-None-Match: ""10a1d2a-63-4c0e37d59f800""" --compressed
+-cURL (bash):
+curl 'http://ts2.space/img/lang/pl.gif' -H 'Accept: image/webp,image/*,*/*;q=0.8' -H 'Cache-Control: max-age=0' -H 'Referer: http://ts2.space/' -H 'If-Modified-Since: Fri, 25 May 2012 22:00:00 GMT' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' -H 'If-None-Match: "10a1d2a-63-4c0e37d59f800"' --compressed
+-Headers:
+-General:
+Request URL:http://ts2.space/img/lang/pl.gif
+-Request Headers:
+Provisional headers are shown
+Accept:image/webp,image/*,*/*;q=0.8
+Cache-Control:max-age=0
+If-Modified-Since:Fri, 25 May 2012 22:00:00 GMT
+If-None-Match:"10a1d2a-63-4c0e37d59f800"
+Referer:http://ts2.space/
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+-Timing:
+-Explanation:
+954.26 ms
