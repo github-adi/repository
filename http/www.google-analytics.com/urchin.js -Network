@@ -1,0 +1,88 @@
+http://www.google-analytics.com/urchin.js
+-Network:
+-Request Headers:
+GET /urchin.js HTTP/1.1
+Host: www.google-analytics.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: http://ts2.space/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8,id;q=0.6
+-Response Headers:
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.8.1
+Date: Wed, 24 Feb 2016 18:30:25 GMT
+Content-Type: text/html
+Location: http://www.google-analytics.com/default.js
+X-EMD-Backend: 54.231.49.186:80
+X-EMD-Cache-Status: MISS
+Via: 1.1 google
+Content-Length: 1169
+-cURL (cmd):
+curl "http://www.google-analytics.com/urchin.js" -H "Accept-Encoding: gzip, deflate, sdch" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36" -H "Accept: */*" -H "Referer: http://ts2.space/" -H "Connection: keep-alive" -H "Cache-Control: max-age=0" --compressed
+-cURL (bash):
+curl 'http://www.google-analytics.com/urchin.js' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: en-US,en;q=0.8,id;q=0.6' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' -H 'Accept: */*' -H 'Referer: http://ts2.space/' -H 'Connection: keep-alive' -H 'Cache-Control: max-age=0' --compressed
+-Headers:
+-General:
+Request URL:http://www.google-analytics.com/urchin.js
+Request Method:GET
+Status Code:302 Moved Temporarily
+Remote Address:107.178.255.88:80
+-Response Headers:
+Content-Length:1169
+Content-Type:text/html
+Date:Wed, 24 Feb 2016 18:30:25 GMT
+Location:http://www.google-analytics.com/default.js
+Server:nginx/1.8.1
+Via:1.1 google
+X-EMD-Backend:54.231.49.186:80
+X-EMD-Cache-Status:MISS
+-view source:
+HTTP/1.1 302 Moved Temporarily
+Server: nginx/1.8.1
+Date: Wed, 24 Feb 2016 18:30:25 GMT
+Content-Type: text/html
+Location: http://www.google-analytics.com/default.js
+X-EMD-Backend: 54.231.49.186:80
+X-EMD-Cache-Status: MISS
+Via: 1.1 google
+Content-Length: 1169
+-Request Headers:
+Accept:*/*
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Host:www.google-analytics.com
+Referer:http://ts2.space/
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+-view source:
+GET /urchin.js HTTP/1.1
+Host: www.google-analytics.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: http://ts2.space/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8,id;q=0.6
+-Timing:
+-Waiting (TTFB):
+Green
+-TIME:
+582.51 ms
+-Content Download:
+Blue
+-TIME:
+29.96 ms
+-Explanation:
+632.93 ms
+
+
+
+
+
+
+
