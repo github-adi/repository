@@ -1,0 +1,158 @@
+http://ts2.space/img/logo.gif
+-Network:
+-Request Headers:
+GET /img/logo.gif HTTP/1.1
+Host: ts2.space
+Connection: keep-alive
+Accept: image/webp,image/*,*/*;q=0.8
+Cache-Control: max-age=0
+If-None-Match: "10214d2-68e-4c0e37d59f800"
+If-Modified-Since: Fri, 25 May 2012 22:00:00 GMT
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: http://ts2.space/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8,id;q=0.6
+Cookie: orGEO=true; orUserGeo=ID; orPing=true; __utma=1.391416005.1455819161.1455912604.1456334919.4; __utmz=1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; visadd_sticky_lock_counter=10; visadd_lock_count=2; PHPSESSID=6g3q1td38g8iigphs8ho2sd1q5; wersja_desktop=0; orPrepop=true
+-Response Headers:
+HTTP/1.1 304 Not Modified
+Date: Wed, 24 Feb 2016 18:30:25 GMT
+Server: Apache/2.2.22 (Debian)
+Last-Modified: Fri, 25 May 2012 22:00:00 GMT
+ETag: "10214d2-68e-4c0e37d59f800"
+Accept-Ranges: bytes
+Content-Type: image/gif
+Connection: Keep-Alive
+Age: 0
+-Response:
+data:image/gif;base64,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
+-cURL (cmd):
+curl "http://ts2.space/img/logo.gif" -H "Cookie: orGEO=true; orUserGeo=ID; orPing=true; __utma=1.391416005.1455819161.1455912604.1456334919.4; __utmz=1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; visadd_sticky_lock_counter=10; visadd_lock_count=2; PHPSESSID=6g3q1td38g8iigphs8ho2sd1q5; wersja_desktop=0; orPrepop=true" -H "Accept-Encoding: gzip, deflate, sdch" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36" -H "Accept: image/webp,image/*,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "If-None-Match: ""10214d2-68e-4c0e37d59f800""" -H "Connection: keep-alive" -H "If-Modified-Since: Fri, 25 May 2012 22:00:00 GMT" -H "Referer: http://ts2.space/" --compressed
+-cURL (bash):
+curl 'http://ts2.space/img/logo.gif' -H 'Cookie: orGEO=true; orUserGeo=ID; orPing=true; __utma=1.391416005.1455819161.1455912604.1456334919.4; __utmz=1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; visadd_sticky_lock_counter=10; visadd_lock_count=2; PHPSESSID=6g3q1td38g8iigphs8ho2sd1q5; wersja_desktop=0; orPrepop=true' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: en-US,en;q=0.8,id;q=0.6' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' -H 'Accept: image/webp,image/*,*/*;q=0.8' -H 'Cache-Control: max-age=0' -H 'If-None-Match: "10214d2-68e-4c0e37d59f800"' -H 'Connection: keep-alive' -H 'If-Modified-Since: Fri, 25 May 2012 22:00:00 GMT' -H 'Referer: http://ts2.space/' --compressed
+-Headers:
+-General:
+Request URL:http://ts2.space/img/logo.gif
+Request Method:GET
+Status Code:304 Not Modified
+Remote Address:213.189.53.123:80
+-Response Headers:
+Accept-Ranges:bytes
+Age:0
+Connection:Keep-Alive
+Content-Type:image/gif
+Date:Wed, 24 Feb 2016 18:30:25 GMT
+ETag:"10214d2-68e-4c0e37d59f800"
+Last-Modified:Fri, 25 May 2012 22:00:00 GMT
+Server:Apache/2.2.22 (Debian)
+-view source:
+HTTP/1.1 304 Not Modified
+Date: Wed, 24 Feb 2016 18:30:25 GMT
+Server: Apache/2.2.22 (Debian)
+Last-Modified: Fri, 25 May 2012 22:00:00 GMT
+ETag: "10214d2-68e-4c0e37d59f800"
+Accept-Ranges: bytes
+Content-Type: image/gif
+Connection: Keep-Alive
+Age: 0
+-Request Headers:
+Accept:image/webp,image/*,*/*;q=0.8
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:orGEO=true; orUserGeo=ID; orPing=true; __utma=1.391416005.1455819161.1455912604.1456334919.4; __utmz=1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; visadd_sticky_lock_counter=10; visadd_lock_count=2; PHPSESSID=6g3q1td38g8iigphs8ho2sd1q5; wersja_desktop=0; orPrepop=true
+Host:ts2.space
+If-Modified-Since:Fri, 25 May 2012 22:00:00 GMT
+If-None-Match:"10214d2-68e-4c0e37d59f800"
+Referer:http://ts2.space/
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+-view source:
+GET /img/logo.gif HTTP/1.1
+Host: ts2.space
+Connection: keep-alive
+Accept: image/webp,image/*,*/*;q=0.8
+Cache-Control: max-age=0
+If-None-Match: "10214d2-68e-4c0e37d59f800"
+If-Modified-Since: Fri, 25 May 2012 22:00:00 GMT
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Referer: http://ts2.space/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8,id;q=0.6
+Cookie: orGEO=true; orUserGeo=ID; orPing=true; __utma=1.391416005.1455819161.1455912604.1456334919.4; __utmz=1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; visadd_sticky_lock_counter=10; visadd_lock_count=2; PHPSESSID=6g3q1td38g8iigphs8ho2sd1q5; wersja_desktop=0; orPrepop=true
+-Preview:
+logo.gif
+
+Dimensions225 × 156File size1.6 KBMIME typeimage/gifURLhttp://ts2.space/img/logo.gif
+-Cookies:
+Request Cookies					359				
+PHPSESSID	6g3q1td38g8iigphs8ho2sd1q5	N/A	N/A	N/A	38				
+__utma	1.391416005.1455819161.1455912604.1456334919.4	N/A	N/A	N/A	55				
+__utmv	1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1	N/A	N/A	N/A	73				
+__utmz	1.1455819161.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)	N/A	N/A	N/A	71				
+orGEO	true	N/A	N/A	N/A	12				
+orPing	true	N/A	N/A	N/A	13				
+orPrepop	true	N/A	N/A	N/A	13				
+orUserGeo	ID	N/A	N/A	N/A	14				
+visadd_lock_count	2	N/A	N/A	N/A	21				
+visadd_sticky_lock_counter	10	N/A	N/A	N/A	31				
+wersja_desktop	0	N/A	N/A	N/A	18				
+Response Cookies					0				
+Name	
+js.php	
+urchin.js	
+pl.gif	
+logo.gif	
+ru.gif	
+379 requests ❘ 1.8 MB transferred ❘ Finish: 1.9 min ❘ DOMContentLoaded: 11.57 s ❘ Load: 1.8 min
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-02-25 01:32:04.363
+VM1503:4 XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+2016-02-25 01:32:04.519
+VM1503:4 XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+2016-02-25 01:32:04.765
+jquery.min.js:2 XHR finished loading: POST "http://www.fuckbookindonesia.com/".
+2016-02-25 01:32:05.582
+SharedApp.js?t=0:2 Uncaught Error: tried to reject a fulfilled promise
+2016-02-25 01:32:05.619
+SharedApp.js?t=0:2 Uncaught Error: tried to reject a fulfilled promise
+2016-02-25 01:32:05.623
+SharedApp.js?t=0:2 Uncaught Error: tried to reject a fulfilled promise
+2016-02-25 01:32:06.818
+SharedApp.js?t=0:2 Uncaught Error: tried to reject a fulfilled promise
+2016-02-25 01:32:06.822
+SharedApp.js?t=0:2 Uncaught Error: tried to reject a fulfilled promise
+2016-02-25 01:32:06.967
+SharedApp.js?t=0:2 Uncaught Error: tried to reject a fulfilled promise
+n.reject	@	SharedApp.js?t=0:2
+(anonymous function)	@	SharedApp.js?t=0:5
+_rejected	@	SharedApp.js?t=0:2
+n.reject	@	SharedApp.js?t=0:2
+(anonymous function)	@	SharedApp.js?t=0:5
+setTimeout (async)		
+r.postRequestPromise	@	SharedApp.js?t=0:5
+r.verifyIFramePromise	@	SharedApp.js?t=0:5
+c.onload	@	SharedApp.js?t=0:5
+2016-02-25 01:32:13.802 (index):1 Resource interpreted as Document but transferred with MIME type image/gif: "http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.ARTSE…8223,,CAMPAIGN.0.0,,ADSIZE.300X250,ZIPCODE.11430,PUBLISHERDOMAIN.ts2.space".
+.
+-Timing:
+-Waiting (TTFB):
+Green
+-TIME:
+799.06 ms
+
+
+
+
+
+
+
+
+
