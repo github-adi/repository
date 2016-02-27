@@ -2,7 +2,7 @@
 An identifier:
 ValidityState
 -Returned:
-ValidityState() { [native code] }
+function ValidityState() { [native code] }
 
 An function:
 function MM_findObj(n, d) { //v4.01
