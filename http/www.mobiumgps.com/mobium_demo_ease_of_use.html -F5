@@ -1,0 +1,19 @@
+http://www.mobiumgps.com/mobium_demo_ease_of_use.html
+-F5:
+-To be evaluated in console:
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111008604508636053652_1456591037749&_=1456591037750 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111009693331744056195_1456591041615&_=1456591041616 
+GET http://asrv-a.akamaihd.net/sd/9160/1002.js 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111001687596079427749_1456591045651&_=1456591045652 
+XHR finished loading: GET "http://pagead2.googlesyndication.com/simgad/12345".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111009128905434627086_1456591056879&_=1456591056880 404 (Not Found)
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111003825447582639754_1456591058337&_=1456591058338 404 (Not Found)
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/wl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/bwl/bl".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
