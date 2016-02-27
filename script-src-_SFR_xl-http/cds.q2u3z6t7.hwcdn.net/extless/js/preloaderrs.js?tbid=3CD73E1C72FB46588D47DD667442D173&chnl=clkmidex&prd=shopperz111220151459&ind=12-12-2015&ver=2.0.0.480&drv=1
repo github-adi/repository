@@ -1,0 +1,31 @@
+-Via PC Desktop:
+-script src:
+_SFR_xl
+http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46588D47DD667442D173&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1
+-F5:
+-To be evaluated in console:
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111009052153748925775_1456596127932&_=1456596127933 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127934&_=1456596127935 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127936&_=1456596127937 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127938&_=1456596127939 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127940&_=1456596127941 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127942&_=1456596127943 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127944&_=1456596127945 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127946&_=1456596127947 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127948&_=1456596127949 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127950&_=1456596127951 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127952&_=1456596127953 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127954&_=1456596127955 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_resetLS=jQuery111009052153748925775_1456596127956&_=1456596127957 
+Error saving setting with name: savedURLs, value length: 3698. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235132
+Setting: 'savedURLs', size: 3672
+Setting: 'previouslyViewedFiles', size: 3579
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
