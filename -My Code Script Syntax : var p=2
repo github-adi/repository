@@ -1,0 +1,30 @@
+-My Code Script Syntax :
+var p=2
+-To be evaluated in console:
+2016-02-28 01:49:05.257 Error saving setting with name: consoleHistory, value length: 5235545. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-28 01:49:05.260 Ten largest settings: 
+2016-02-28 01:49:05.338 Setting: 'consoleHistory', size: 5235132
+2016-02-28 01:49:05.339 Setting: 'savedURLs', size: 3672
+2016-02-28 01:49:05.339 Setting: 'previouslyViewedFiles', size: 3574
+2016-02-28 01:49:05.339 Setting: 'breakpoints', size: 227
+2016-02-28 01:49:05.339 Setting: 'watchExpressions', size: 45
+2016-02-28 01:49:05.340 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-28 01:49:05.340 Setting: 'domBreakpoints', size: 2
+2016-02-28 01:49:05.340 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-28 01:49:05.340 Setting: 'experiments', size: 2
+2016-02-28 01:49:05.340 Setting: 'workspaceExcludedFolders', size: 2
+undefined
+-1+p
+2016-02-28 01:49:29.718 Error saving setting with name: consoleHistory, value length: 5235552. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-28 01:49:29.718 Ten largest settings: 
+2016-02-28 01:49:29.797 Setting: 'consoleHistory', size: 5235132
+2016-02-28 01:49:29.797 Setting: 'savedURLs', size: 3672
+2016-02-28 01:49:29.798 Setting: 'previouslyViewedFiles', size: 3574
+2016-02-28 01:49:29.798 Setting: 'breakpoints', size: 227
+2016-02-28 01:49:29.798 Setting: 'watchExpressions', size: 45
+2016-02-28 01:49:29.798 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-28 01:49:29.798 Setting: 'domBreakpoints', size: 2
+2016-02-28 01:49:29.798 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-28 01:49:29.798 Setting: 'experiments', size: 2
+2016-02-28 01:49:29.798 Setting: 'workspaceExcludedFolders', size: 2
+1
