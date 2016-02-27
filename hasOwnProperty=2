@@ -1,0 +1,30 @@
+-To be architectured by Muhammad Adi Nugroho, S. Adm. Neg.:
+-To be evaluated in console:
+hasOwnProperty=2
+2016-02-28 02:30:48.394 Error saving setting with name: consoleHistory, value length: 5235315. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-28 02:30:48.398 Ten largest settings: 
+2016-02-28 02:30:48.487 Setting: 'consoleHistory', size: 5235132
+2016-02-28 02:30:48.488 Setting: 'savedURLs', size: 3672
+2016-02-28 02:30:48.488 Setting: 'previouslyViewedFiles', size: 3574
+2016-02-28 02:30:48.488 Setting: 'breakpoints', size: 227
+2016-02-28 02:30:48.488 Setting: 'watchExpressions', size: 45
+2016-02-28 02:30:48.488 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-28 02:30:48.488 Setting: 'domBreakpoints', size: 2
+2016-02-28 02:30:48.488 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-28 02:30:48.488 Setting: 'experiments', size: 2
+2016-02-28 02:30:48.488 Setting: 'workspaceExcludedFolders', size: 2
+2
+hasOwnProperty+5
+2016-02-28 02:31:14.665 Error saving setting with name: consoleHistory, value length: 5235334. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-02-28 02:31:14.670 Ten largest settings: 
+2016-02-28 02:31:14.748 Setting: 'consoleHistory', size: 5235132
+2016-02-28 02:31:14.748 Setting: 'savedURLs', size: 3672
+2016-02-28 02:31:14.749 Setting: 'previouslyViewedFiles', size: 3574
+2016-02-28 02:31:14.749 Setting: 'breakpoints', size: 227
+2016-02-28 02:31:14.749 Setting: 'watchExpressions', size: 45
+2016-02-28 02:31:14.749 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-28 02:31:14.749 Setting: 'domBreakpoints', size: 2
+2016-02-28 02:31:14.749 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-28 02:31:14.749 Setting: 'experiments', size: 2
+2016-02-28 02:31:14.750 Setting: 'workspaceExcludedFolders', size: 2
+7
