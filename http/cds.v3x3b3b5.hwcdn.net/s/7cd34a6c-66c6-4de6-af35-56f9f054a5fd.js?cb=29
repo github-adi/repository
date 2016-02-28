@@ -1,0 +1,210 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://cds.v3x3b3b5.hwcdn.net/s/7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29
+-To be evaluated in console:
+2016-02-29 02:23:52.195 7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29:5 GET file://srv1.srv-stat.com/i/?tid=837&hash=6n21ye&subid=401 net::ERR_FILE_NOT_FOUNDK @ 7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29:5G @ 7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29:5(anonymous function) @ 7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29:6(anonymous function) @ 7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29:76
+2016-02-29 02:24:25.408 7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29:5 GET file://d19tqk5t6qcjac.cloudfront.net/i/936_contentch.js net::ERR_FILE_NOT_FOUNDK @ 7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29:5G @ 7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29:5(anonymous function) @ 7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29:6(anonymous function) @ 7cd34a6c-66c6-4de6-af35-56f9f054a5fd.js?cb=29:76
+2016-02-29 02:25:04.972 Error saving setting with name: previouslyViewedFiles, value length: 3584. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:04.975 Ten largest settings: 
+2016-02-29 02:25:05.162 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:05.163 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:05.163 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:05.163 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:05.163 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:05.163 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:05.164 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:05.164 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:05.164 Setting: 'experiments', size: 2
+2016-02-29 02:25:05.164 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:05.945 Error saving setting with name: previouslyViewedFiles, value length: 3586. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:05.947 Ten largest settings: 
+2016-02-29 02:25:06.120 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:06.121 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:06.122 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:06.122 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:06.122 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:06.122 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:06.122 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:06.123 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:06.123 Setting: 'experiments', size: 2
+2016-02-29 02:25:06.123 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:06.313 Error saving setting with name: previouslyViewedFiles, value length: 3607. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:06.314 Ten largest settings: 
+2016-02-29 02:25:06.582 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:06.582 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:06.583 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:06.583 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:06.583 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:06.583 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:06.583 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:06.583 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:06.584 Setting: 'experiments', size: 2
+2016-02-29 02:25:06.584 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:08.653 Error saving setting with name: previouslyViewedFiles, value length: 3609. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:08.655 Ten largest settings: 
+2016-02-29 02:25:08.826 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:08.826 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:08.827 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:08.827 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:08.827 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:08.827 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:08.827 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:08.828 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:08.828 Setting: 'experiments', size: 2
+2016-02-29 02:25:08.828 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:08.988 Error saving setting with name: previouslyViewedFiles, value length: 3609. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:08.991 Ten largest settings: 
+2016-02-29 02:25:09.198 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:09.199 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:09.199 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:09.200 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:09.200 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:09.200 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:09.200 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:09.200 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:09.200 Setting: 'experiments', size: 2
+2016-02-29 02:25:09.201 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:11.871 Error saving setting with name: previouslyViewedFiles, value length: 3607. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:11.872 Ten largest settings: 
+2016-02-29 02:25:12.040 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:12.040 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:12.041 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:12.041 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:12.041 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:12.041 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:12.041 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:12.041 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:12.042 Setting: 'experiments', size: 2
+2016-02-29 02:25:12.042 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:12.212 Error saving setting with name: previouslyViewedFiles, value length: 3607. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:12.214 Ten largest settings: 
+2016-02-29 02:25:12.424 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:12.424 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:12.426 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:12.426 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:12.426 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:12.426 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:12.427 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:12.427 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:12.427 Setting: 'experiments', size: 2
+2016-02-29 02:25:12.427 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:15.633 Error saving setting with name: previouslyViewedFiles, value length: 3609. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:15.636 Ten largest settings: 
+2016-02-29 02:25:15.804 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:15.805 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:15.805 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:15.805 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:15.805 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:15.805 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:15.806 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:15.806 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:15.806 Setting: 'experiments', size: 2
+2016-02-29 02:25:15.806 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:16.062 Error saving setting with name: previouslyViewedFiles, value length: 3610. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:16.070 Ten largest settings: 
+2016-02-29 02:25:16.279 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:16.280 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:16.280 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:16.280 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:16.280 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:16.281 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:16.281 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:16.281 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:16.281 Setting: 'experiments', size: 2
+2016-02-29 02:25:16.282 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:25.451 Error saving setting with name: previouslyViewedFiles, value length: 3608. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:25.454 Ten largest settings: 
+2016-02-29 02:25:25.619 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:25.620 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:25.620 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:25.620 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:25.621 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:25.621 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:25.621 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:25.621 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:25.622 Setting: 'experiments', size: 2
+2016-02-29 02:25:25.622 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:25.779 Error saving setting with name: previouslyViewedFiles, value length: 3607. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:25.781 Ten largest settings: 
+2016-02-29 02:25:26.004 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:26.004 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:26.004 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:26.010 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:26.010 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:26.013 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:26.014 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:26.015 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:26.015 Setting: 'experiments', size: 2
+2016-02-29 02:25:26.019 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:27.548 Error saving setting with name: previouslyViewedFiles, value length: 3609. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:27.549 Ten largest settings: 
+2016-02-29 02:25:27.722 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:27.722 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:27.722 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:27.723 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:27.723 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:27.723 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:27.723 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:27.723 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:27.727 Setting: 'experiments', size: 2
+2016-02-29 02:25:27.727 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:27.884 Error saving setting with name: previouslyViewedFiles, value length: 3609. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:27.886 Ten largest settings: 
+2016-02-29 02:25:28.089 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:28.090 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:28.091 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:28.091 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:28.091 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:28.091 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:28.091 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:28.091 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:28.092 Setting: 'experiments', size: 2
+2016-02-29 02:25:28.092 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:29.360 Error saving setting with name: previouslyViewedFiles, value length: 3609. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:29.361 Ten largest settings: 
+2016-02-29 02:25:29.534 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:29.535 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:29.535 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:29.535 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:29.535 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:29.535 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:29.536 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:29.536 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:29.536 Setting: 'experiments', size: 2
+2016-02-29 02:25:29.536 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:29.769 Error saving setting with name: previouslyViewedFiles, value length: 3609. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:29.770 Ten largest settings: 
+2016-02-29 02:25:29.981 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:29.982 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:29.982 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:29.982 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:29.983 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:29.983 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:29.983 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:29.983 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:29.983 Setting: 'experiments', size: 2
+2016-02-29 02:25:29.984 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:31.491 Error saving setting with name: previouslyViewedFiles, value length: 3609. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:31.495 Ten largest settings: 
+2016-02-29 02:25:31.668 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:31.669 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:31.669 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:31.669 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:31.669 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:31.670 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:31.670 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:31.670 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:31.670 Setting: 'experiments', size: 2
+2016-02-29 02:25:31.670 Setting: 'workspaceExcludedFolders', size: 2
+2016-02-29 02:25:31.832 Error saving setting with name: previouslyViewedFiles, value length: 3610. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 02:25:31.833 Ten largest settings: 
+2016-02-29 02:25:32.025 Setting: 'consoleHistory', size: 5235146
+2016-02-29 02:25:32.026 Setting: 'savedURLs', size: 3672
+2016-02-29 02:25:32.026 Setting: 'previouslyViewedFiles', size: 3509
+2016-02-29 02:25:32.026 Setting: 'breakpoints', size: 227
+2016-02-29 02:25:32.026 Setting: 'watchExpressions', size: 45
+2016-02-29 02:25:32.026 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-02-29 02:25:32.026 Setting: 'domBreakpoints', size: 2
+2016-02-29 02:25:32.026 Setting: 'eventListenerBreakpoints', size: 2
+2016-02-29 02:25:32.027 Setting: 'experiments', size: 2
+2016-02-29 02:25:32.027 Setting: 'workspaceExcludedFolders', size: 2
