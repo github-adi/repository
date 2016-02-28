@@ -1,0 +1,5 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via PC Desktop:
+https://rules.similardeals.net/v1.0/domains/1091?callback=jQuery111006823316104710102_1456679660339&_=1456679660340
+-To be evaluated in console:
+2016-02-29 00:50:24.256 1091:1 Uncaught ReferenceError: jQuery111006823316104710102_1456679660339 is not defined(anonymous function) @ 1091:1
