@@ -1,0 +1,32 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+https://www.tr553.com/InterYield/bindevent.do?e=document&affiliate=Bitshakers&subid=clkmidex_ID&brand=Ads+by+shopperz111220151459&adtype=R&help=http%3A%2F%2Fshopperz.me&privacy=privacy+value&terms=terms+value&maxlinks=8&linkcolor=0000FF&uline=green&btcolor=fff&colorbg=ccc&colortitle=0000ee&colordesc=666666&colorvurl=008500&wiki=0&style=Value&debug=false&selector=body&endpoint=https%3A%2F%2Fwww.tr553.com&imgopacity=1&copytext=false&interactionexpectedduration=30&fadein=-1&copies=1&admin=0&inimage=false&maxads=4&rnd=835899
+-To be evaluated in console:
+fbMyApp.html	GET	Finished	file	file			document	Other			0 B	51 ms	Highest	0									
+bindevent.do?e=document&affiliate=Bitshakers&subid=clkmidex_ID&brand=Ads+by+shopperz111220151459&adtype=R&help=http%3A%2F%2Fshopperz.me&privacy=privacy+value&terms=terms+value&maxlinks=8&linkcolor=0000FF&uline=green&btcolor=fff&colorbg=ccc&colortitle=0000ee&colordesc=666666&colorvurl=008500&wiki=0&style=Value&debug=false&selector=body&endpoint=https%3A%2F%2Fwww.tr553.com&imgopacity=1&copytext=false&interactionexpectedduration=30&fadein=-1&copies=1&admin=0&inimage=false&maxads=4&rnd=835899	GET	200	http/1.1	https	www.tr553.com	66.216.109.217:443	script	fbMyApp.html:1	2	1	1.7 KB	1.37 s	Medium	27035	no-cache, no-store, must-revalidate, max-age=0, proxy-revalidate, no-transform, pre-check=0, post-check=0, private			1294			Apache-Coyote/1.1		
+documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers	GET	304	http/1.1	https	www.tr553.com	66.216.109.143:443	script	bindevent.do?e=document&affiliate=Bitshakers&subid=clkmidex_ID&brand=Ads+by+shopperz111220151459&ad…:45	2		204 B	385 ms	Low	27035					"0e303092d54277a52880de7443bc74906"		Apache-Coyote/1.1		
+jquery.min.js	GET	(failed)		file	ajax.googleapis.com			documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1			0 B	2 ms	Low	0									
+4 requests ❘ 1.9 KB transferred ❘ Finish: 1.99 s ❘ DOMContentLoaded: 1.54 s ❘ Load: 1.99 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-02-29 03:28:27.636 documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1 InterYield documentbind 1.0-SNAPSHOT.72,499 20160224-1447
+2016-02-29 03:28:27.676
+documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1 GET file://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js net::ERR_FILE_NOT_FOUND
+_0x9b32x10.loadJQ	@	documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1
+document.(anonymous function)	@	documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1
+2016-02-29 03:30:19.667 Error saving setting with name: previouslyViewedFiles, value length: 3629. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-02-29 03:30:19.668 Ten largest settings: 
+2016-02-29 03:30:19.762 Setting: 'consoleHistory', size: 5235146
+2016-02-29 03:30:19.762 Setting: 'savedURLs', size: 3672
+2016-02-29 03:30:19.762 Setting: 'previouslyViewedFiles', size: 3554
+2016-02-29 03:30:19.763 Setting: 'breakpoints', size: 227
+2016-02-29 03:30:19.763 Setting: 'watchExpressions', size: 45
+2016-02-29 03:30:19.763 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+.
