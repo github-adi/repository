@@ -1,0 +1,89 @@
+http://kedungrejo.com/
+-F5:
+-To be evaluated in console:
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery11100705017477972433_1456677972536&_=1456677972537 
+[cycle] terminating; too few slides: 1
+GET https://api.skype.com/detection/detection_as3.swf 404 (Not Found)
+GET http://asrv-a.akamaihd.net/sd/9160/1005.js 
+GET http://asrv-a.akamaihd.net/sd/9160/1006.js 
+GET http://asrv-a.akamaihd.net/sd/9160/1007.js 
+GET http://asrv-a.akamaihd.net/sd/9160/1002.js 
+XHR finished loading: GET "http://pagead2.googlesyndication.com/simgad/12345".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://pagead2.googlesyndication.com/simgad/12345".
+InterYield clickbind 1.0-SNAPSHOT.72,499 20160224-1447
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+InterYield documentbind 1.0-SNAPSHOT.72,499 20160224-1447
+GET http://kedungrejo.com/null/InterYield/getSnoozing.do?callback=null.getSnooz…op=over&check=&attributionDisabled=false&adultdisabled=undefined&iyd=false 
+'getMatchedCSSRules()' is deprecated. For more help, check https://code.google.com/p/chromium/issues/detail?id=437569#c2
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110035985604324378073_1456677993695&_=1456677993696 
+Refused to load the script 'http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46…&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval'                   *.ppcnp.com https://*.ppcnp.com *.noproblemppc.com https://*.noproblemppc.com                  *.sushileads.com https://*.sushileads.com *.pastaleads.com https://*.pastaleads.com *.bbqleads.com https://*.bbqleads.com                  *.donutleads.com https://*.donutleads.com connect.facebook.net https://connect.facebook.net https://www.facebook.com https://graph.facebook.com                   https://*.adroll.com *.adroll.com".
+
+XHR finished loading: POST "https://s936.thetrafficstat.net/related".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+{"country":"ID"}
+
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111007772895032539964_1456678004563&_=1456678004564 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110042843740130774677_1456678005062&_=1456678005063 404 (Not Found)
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110014100763527676463_1456678005542&_=1456678005543 404 (Not Found)
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+[Report Only] Refused to load the script 'http://cds.q2u3z6t7.hwcdn.net/extless/js/preloaderrs.js?tbid=3CD73E1C72FB46…&chnl=clkmidex&prd=shopperz111220151459&ind=12-12-2015&ver=2.0.0.480&drv=1' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.alibaba.com *.alisoft.com *.aliyun.com *.alipay.com *.aliexpress.com *.taobao.com *.taobao.net https://assets.alicdn.com https://login.alibaba.com *.alicdn.com *.tbcdn.com *.tbcdn.cn *.aliimg.com *.aliunicorn.com *.1688.com https://*.1688.com *.taobaocdn.com *.taobaocdn.cn *.mmstat.com *.alimama.com *.alimama.cn *.amap.com *.meitipu.com yui.yahooapis.com *.amap.com http://localhost.wwbizsrv.alibaba.com:4012 http://localhost.wwbizsrv.alibaba.com:4812 https://localhost.wwbizsrv.alibaba.com:4013 https://localhost.wwbizsrv.alibaba.com:4813 *.cnzz.com *.cnzz.net www.google.com apis.google.com translate.googleapis.com translate.google.com widgets.twimg.com platform.twitter.com twitter.com www.google-analytics.com www.googleadservices.com googleads.g.doubleclick.net stats.g.doubleclick.net".
+
+Uncaught Error: tried to reject a fulfilled promise
+Uncaught Error: tried to reject a fulfilled promise
+[Report Only] Refused to load the script 'http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111008375063287094235_1456678011342&_=1456678011343' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.alibaba.com *.alisoft.com *.aliyun.com *.alipay.com *.aliexpress.com *.taobao.com *.taobao.net https://assets.alicdn.com https://login.alibaba.com *.alicdn.com *.tbcdn.com *.tbcdn.cn *.aliimg.com *.aliunicorn.com *.1688.com https://*.1688.com *.taobaocdn.com *.taobaocdn.cn *.mmstat.com *.alimama.com *.alimama.cn *.amap.com *.meitipu.com yui.yahooapis.com *.amap.com http://localhost.wwbizsrv.alibaba.com:4012 http://localhost.wwbizsrv.alibaba.com:4812 https://localhost.wwbizsrv.alibaba.com:4013 https://localhost.wwbizsrv.alibaba.com:4813 *.cnzz.com *.cnzz.net www.google.com apis.google.com translate.googleapis.com translate.google.com widgets.twimg.com platform.twitter.com twitter.com www.google-analytics.com www.googleadservices.com googleads.g.doubleclick.net stats.g.doubleclick.net".
+
+XHR finished loading: GET "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js".
+XHR finished loading: GET "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js".
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111008375063287094235_1456678011342&_=1456678011343 
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111009719249112531543_1456678014641&_=1456678014642 
+XHR finished loading: GET "http://app.bestpriceninja.com/fo/country.js".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111008559208682272583_1456678016460&_=1456678016461 
+Gdata 已不推荐使用，请大家使用全局变量替代！
+Gdata 已不推荐使用，请大家使用全局变量替代！
+Gdata 已不推荐使用，请大家使用全局变量替代！
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+Uncaught Error: tried to reject a fulfilled promise
+Uncaught Error: element is invalid
+XHR finished loading: GET "http://jsgnr.bestpriceninja.com/cu/cu".
+Gdata 已不推荐使用，请大家使用全局变量替代！
+XHR finished loading: GET "http://offer.alibaba.com/market/CID100005804/8/fetchKeyword.do?pageId=6e89c…c4&language=en&cb=jQuery18308679229498375207_1456678016986&_=1456678026121".
+XHR finished loading: GET "http://offer.alibaba.com/market/fetchProduct/CID100005804/0/6e89c9190ab0c97…71&language=en&cb=jQuery18308679229498375207_1456678016985&_=1456678026101".
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111006980443161446601_1456678028559&_=1456678028560 
+Uncaught Error: tried to reject a fulfilled promise
+GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111005996552398428321_1456678034912&_=1456678034913 
+Gdata 已不推荐使用，请大家使用全局变量替代！
+Resource interpreted as Document but transferred with MIME type image/gif: "http://perf.mmstat.com/p.gif".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://perf.mmstat.com/p.gif".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.UNCON…,,CAMPAIGN.0.0,,ADSIZE.728X90,ZIPCODE.11430,PUBLISHERDOMAIN.kedungrejo.com".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.UNCON…,CAMPAIGN.0.0,,ADSIZE.300X250,ZIPCODE.11430,PUBLISHERDOMAIN.kedungrejo.com".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.UNCON…,CAMPAIGN.0.0,,ADSIZE.300X250,ZIPCODE.11430,PUBLISHERDOMAIN.kedungrejo.com".
+Resource interpreted as Document but transferred with MIME type image/gif: "http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.UNCON…,,CAMPAIGN.0.0,,ADSIZE.728X90,ZIPCODE.11430,PUBLISHERDOMAIN.kedungrejo.com".
+Error saving setting with name: savedURLs, value length: 3712. Error: Failed to set the 'savedURLs' property on 'Storage': Setting the value of 'savedURLs' exceeded the quota.
+Ten largest settings: 
+Setting: 'consoleHistory', size: 5235146
+Setting: 'savedURLs', size: 3672
+Setting: 'previouslyViewedFiles', size: 3574
+Setting: 'breakpoints', size: 227
+Setting: 'watchExpressions', size: 45
+Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+Setting: 'domBreakpoints', size: 2
+Setting: 'eventListenerBreakpoints', size: 2
+Setting: 'experiments', size: 2
+Setting: 'workspaceExcludedFolders', size: 2
