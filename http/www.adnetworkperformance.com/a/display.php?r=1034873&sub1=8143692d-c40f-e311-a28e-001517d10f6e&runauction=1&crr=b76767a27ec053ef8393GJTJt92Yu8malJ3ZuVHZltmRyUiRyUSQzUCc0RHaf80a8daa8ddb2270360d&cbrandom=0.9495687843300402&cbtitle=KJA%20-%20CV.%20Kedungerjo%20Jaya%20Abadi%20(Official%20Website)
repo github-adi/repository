@@ -1,0 +1,31 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://www.adnetworkperformance.com/a/display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e&runauction=1&crr=b76767a27ec053ef8393GJTJt92Yu8malJ3ZuVHZltmRyUiRyUSQzUCc0RHaf80a8daa8ddb2270360d&cbrandom=0.9495687843300402&cbtitle=KJA%20-%20CV.%20Kedungerjo%20Jaya%20Abadi%20(Official%20Website)
+-To be evaluated in console:
+fbMyApp.html	GET	Finished	file	file			document	Other			0 B	5 ms	Highest	0									
+display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e&runauction=1&crr=b76767a27ec053ef8393GJTJt92Yu8malJ3ZuVHZltmRyUiRyUSQzUCc0RHaf80a8daa8ddb2270360d&cbrandom=0.9495687843300402&cbtitle=KJA%20-%20CV.%20Kedungerjo%20Jaya%20Abadi%20(Official%20Website)	GET	200	http/1.1	http	www.adnetworkperformance.com	130.211.186.109:80	script	fbMyApp.html:1	5	1	48.8 KB	1.13 s	Medium	43210	no-store, no-cache, no-transform, must-revalidate, max-age=0, post-check=0, pre-check=0	Keep-Alive		49331			openresty	Accept-Encoding	
+2 requests ❘ 48.8 KB transferred ❘ Finish: 1.27 s ❘ DOMContentLoaded: 1.48 s ❘ Load: 1.46 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-06 03:42:27.500
+display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e&runauction=1&crr=b76767a27ec053ef83…:2 Uncaught TypeError: Cannot read property 'appendChild' of null
+_0xde58xd.createBait	@	display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e&runauction=1&crr=b76767a27ec053ef83…:2
+(anonymous function)	@	display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e&runauction=1&crr=b76767a27ec053ef83…:2
+(anonymous function)	@	display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e&runauction=1&crr=b76767a27ec053ef83…:2
+2016-03-06 03:42:44.243 Error saving setting with name: previouslyViewedFiles, value length: 3707. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-06 03:42:44.245 Ten largest settings: 
+2016-03-06 03:42:44.524 Setting: 'consoleHistory', size: 5235172
+2016-03-06 03:42:44.525 Setting: 'savedURLs', size: 3672
+2016-03-06 03:42:44.525 Setting: 'previouslyViewedFiles', size: 3551
+2016-03-06 03:42:44.525 Setting: 'breakpoints', size: 227
+2016-03-06 03:42:44.525 Setting: 'watchExpressions', size: 45
+2016-03-06 03:42:44.668 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-06 03:42:44.669 Setting: 'domBreakpoints', size: 2
+.
