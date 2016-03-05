@@ -1,0 +1,30 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+https://www.tr553.com/InterYield/documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers
+-To be evaluated in console:
+fbMyApp.html	GET	Finished	file	file			document	Other			0 B	39 ms	Highest	0									
+documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers	GET	304	http/1.1	https	www.tr553.com	66.216.109.143:443	script	fbMyApp.html:1	2		204 B	1.26 s	Medium	46495					"0e303092d54277a52880de7443bc74906"		Apache-Coyote/1.1		
+2 requests ❘ 204 B transferred ❘ Finish: 1.36 s ❘ DOMContentLoaded: 1.61 s ❘ Load: 1.61 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-06 03:51:17.533 documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1 InterYield documentbind 1.0-SNAPSHOT.72,499 20160224-1447
+2016-03-06 03:51:17.638
+documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1 Uncaught ReferenceError: InText2_Options is not defined
+(anonymous function)	@	documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1
+(anonymous function)	@	documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1
+2016-03-06 03:51:28.516 Error saving setting with name: previouslyViewedFiles, value length: 3626. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-06 03:51:28.520 Ten largest settings: 
+2016-03-06 03:51:28.727 Setting: 'consoleHistory', size: 5235172
+2016-03-06 03:51:28.728 Setting: 'savedURLs', size: 3672
+2016-03-06 03:51:28.728 Setting: 'previouslyViewedFiles', size: 3551
+2016-03-06 03:51:28.728 Setting: 'breakpoints', size: 227
+2016-03-06 03:51:28.729 Setting: 'watchExpressions', size: 45
+2016-03-06 03:51:28.730 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+.
