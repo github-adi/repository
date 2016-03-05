@@ -1,0 +1,22 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://www.adnetworkperformance.com/a/display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e
+-To be evaluated in console:
+fbMyApp.html	GET	Finished	file	file			document	Other			0 B	5 ms	Highest	0									
+display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e	GET	200	http/1.1	http	www.adnetworkperformance.com	130.211.186.109:80	script	fbMyApp.html:1	5		1.6 KB	799 ms	Medium	41178		Keep-Alive		1422			openresty	Accept-Encoding	
+display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e&runauction=1&crr=79cc11e5c586257e4693,4SC9pWI431e7b72bb3c20aa9b74&cbrandom=0.18586861598305404&cbtitle=	GET	200	http/1.1	http	www.adnetworkperformance.com	130.211.186.109:80	script	display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e:22	5	1	42.4 KB	1.43 s	Low	41178	no-store, no-cache, no-transform, must-revalidate, max-age=0, post-check=0, pre-check=0	Keep-Alive		42872			openresty	Accept-Encoding	
+3 requests ❘ 44.1 KB transferred ❘ Finish: 2.32 s ❘ DOMContentLoaded: 937 ms ❘ Load: 2.38 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-06 03:30:04.676
+display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e:35 Uncaught TypeError: Cannot read property 'appendChild' of null
+(anonymous function)	@	display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e:35
+(anonymous function)	@	display.php?r=1034873&sub1=8143692d-c40f-e311-a28e-001517d10f6e:36
+.
