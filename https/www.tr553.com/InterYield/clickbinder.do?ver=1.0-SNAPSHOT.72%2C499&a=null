@@ -1,0 +1,30 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+https://www.tr553.com/InterYield/clickbinder.do?ver=1.0-SNAPSHOT.72%2C499&a=null
+-To be evaluated in console:
+fbMyApp.html	GET	Finished	file	file			document	Other			0 B	19 ms	Highest	0									
+clickbinder.do?ver=1.0-SNAPSHOT.72%2C499&a=null	GET	304	http/1.1	https	www.tr553.com	66.216.109.143:443	script	fbMyApp.html:1	2	1	277 B	2.88 s	Medium	26117					"0735faa3919e766ca6efc09fdd04dd45b"		Apache-Coyote/1.1		
+2 requests ❘ 277 B transferred ❘ Finish: 3.31 s ❘ DOMContentLoaded: 3.75 s ❘ Load: 3.70 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-06 02:20:30.656 clickbinder.do?ver=1.0-SNAPSHOT.72%2C499&a=null:1 InterYield clickbind 1.0-SNAPSHOT.72,499 20160224-1447
+2016-03-06 02:20:30.745
+clickbinder.do?ver=1.0-SNAPSHOT.72%2C499&a=null:1 Uncaught ReferenceError: InterYieldOptions is not defined
+(anonymous function)	@	clickbinder.do?ver=1.0-SNAPSHOT.72%2C499&a=null:1
+(anonymous function)	@	clickbinder.do?ver=1.0-SNAPSHOT.72%2C499&a=null:1
+2016-03-06 02:21:30.813 Error saving setting with name: previouslyViewedFiles, value length: 3573. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-06 02:21:30.816 Ten largest settings: 
+2016-03-06 02:21:31.203 Setting: 'consoleHistory', size: 5235172
+2016-03-06 02:21:31.204 Setting: 'savedURLs', size: 3672
+2016-03-06 02:21:31.205 Setting: 'previouslyViewedFiles', size: 3552
+2016-03-06 02:21:31.205 Setting: 'breakpoints', size: 227
+2016-03-06 02:21:31.205 Setting: 'watchExpressions', size: 45
+2016-03-06 02:21:31.205 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+.
