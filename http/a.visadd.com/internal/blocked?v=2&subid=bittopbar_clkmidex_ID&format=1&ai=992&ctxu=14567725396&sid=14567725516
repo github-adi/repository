@@ -1,0 +1,21 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+-The Java Script below not <script src/> but function:
+http://a.visadd.com/internal/blocked?v=2&subid=bittopbar_clkmidex_ID&format=1&ai=992&ctxu=14567725396&sid=14567725516
+-To be evaluated in console:
+fbMyApp.html
+blocked?v=2&subid=bittopbar_clkmidex_ID&format=1&ai=992&ctxu=14567725396&sid=14567725516
+2 requests ❘ 346 B transferred ❘ Finish: 1.26 s ❘ DOMContentLoaded: 1.34 s ❘ Load: 1.34 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+function donothing(){};
+undefined
+.
+
