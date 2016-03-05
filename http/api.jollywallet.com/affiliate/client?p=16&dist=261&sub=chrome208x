@@ -1,0 +1,23 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://api.jollywallet.com/affiliate/client?p=16&dist=261&sub=chrome208
+-To be evaluated in console:
+fbMyApp.html	GET	Finished	file	file			document	Other			0 B	17 ms	Highest	0									
+client?p=16&dist=261&sub=chrome208	GET	200	http/1.1	http	api.jollywallet.com	52.5.73.85:80	script	fbMyApp.html:1	8	2	42.3 KB	2.75 s	Medium	29516		Keep-Alive					nginx/1.4.7		
+jsquery2?dist=261&sub=chrome208&ver=1&p=16&token=EC4386CA-EBA2-08F2-8B20-0776B4598AF8&aff_ref=0&r=0.9430953578557819&width=1366&height=768	GET	(failed)		file	query.jollywallet.com			client?p=16&dist=261&sub=chrome208:847			0 B	30.42 s	Low	0									
+3 requests ❘ 42.3 KB transferred ❘ Finish: 33.32 s ❘ DOMContentLoaded: 2.95 s ❘ Load: 33.32 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-06 02:38:29.486
+client?p=16&dist=261&sub=chrome208:847 GET file://query.jollywallet.com/affiliate/jsquery2?dist=261&sub=chrome208&ver=…8F2-8B20-0776B4598AF8&aff_ref=0&r=0.9430953578557819&width=1366&height=768 net::ERR_FILE_NOT_FOUND
+tbView.loadjscssfile	@	client?p=16&dist=261&sub=chrome208:847
+tbView.start	@	client?p=16&dist=261&sub=chrome208:1113
+(anonymous function)	@	client?p=16&dist=261&sub=chrome208:1116
+.
