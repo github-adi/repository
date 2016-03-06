@@ -1,0 +1,40 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://cds.q2u3z6t7.hwcdn.net/js/gt.js?d=13112014
+-To be evaluated in console:
+tpc.html	GET	Finished	file	file			document	Other			0 B	2.15 s	Highest	0									
+gt.js?d=13112014	GET	304	http/1.1	http	cds.q2u3z6t7.hwcdn.net	205.185.216.10:80	script	tpc.html:18			322 B	633 ms	Medium	21595	public, max-age=31536000	Keep-Alive			"1445514048"				
+UsersAxiooFavoriteswallet.js');	GET	(failed)		file			document	tpc.html:13			0 B	84 ms	Highest	0									
+data:image/png;base…	GET	200	data	data			png	data:text/html,chro…:3943			(from cache)	0 ms	Lowest	0									
+data:image/png;base…	GET	200	data	data			png	data:text/html,chro…:3944			(from cache)	0 ms	Lowest	0									
+80 requests ❘ 3.3 MB transferred ❘ Finish: 54.63 s ❘ DOMContentLoaded: 4.42 s ❘ Load: 54.86 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-07 00:34:05.962
+tpc.html:13 GET file:///C:/UsersAxiooFavoriteswallet.js'); net::ERR_FILE_NOT_FOUND
+2016-03-07 00:34:06.598
+gt.js?d=13112014:1 Uncaught ReferenceError: _VBATES_getLocalStore is not defined
+2016-03-07 00:34:09.976
+VM603:1 GET http://asrv-a.akamaihd.net/sd/9160/1002.js 
+2016-03-07 00:34:09.980
+VM603:1 Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://q2u3z6t7.ssl.hwcdn.net') does not match the recipient window's origin ('null').
+2016-03-07 00:34:09.980
+VM603:1 Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://q2u3z6t7.ssl.hwcdn.net') does not match the recipient window's origin ('null').
+2016-03-07 00:34:10.491
+VM603:1 Uncaught ReferenceError: geoplugin_countryCode is not defined
+2016-03-07 00:34:10.944
+VM603:1 Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('http://q2u3z6t7.ssl.hwcdn.net') does not match the recipient window's origin ('null').
+2016-03-07 00:34:31.541
+VM603:1 GET file://fp135.digitaloptout.com/pubjs?pid=294866&cid=1&uid=null&sid=gen_&an=Capricornus&opt=0&u=http%3A%2F%2Fcanopus.orgfree.com%2Funinstall.html net::ERR_FILE_NOT_FOUND
+2016-03-07 00:34:31.543
+main.js:23POST https://mybrowserpages.com/json/index.php?name=EasySearch 502 (Bad Gateway)
+2016-03-07 00:34:31.545
+main.js:23XHR finished loading: POST "https://mybrowserpages.com/json/index.php?name=EasySearch".
+.
