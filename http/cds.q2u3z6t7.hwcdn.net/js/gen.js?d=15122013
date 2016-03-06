@@ -1,0 +1,30 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://cds.q2u3z6t7.hwcdn.net/js/gen.js?d=15122013
+-To be evaluated in console:
+gen.js?d=15122013	GET	304	http/1.1	http	cds.q2u3z6t7.hwcdn.net	205.185.216.42:80	script	tpc.html:18			322 B	615 ms	Medium	20752	public, max-age=31536000	Keep-Alive			"1451219798"				
+UsersAxiooFavoriteswallet.js');	GET	(failed)		file			document	tpc.html:13			0 B	13 ms	Highest	0									
+data:image/png;base…	GET	200	data	data			png	data:text/html,chro…:3943			(from cache)	0 ms	Lowest	0									
+data:image/png;base…	GET	200	data	data			png	data:text/html,chro…:3944			(from cache)	0 ms	Lowest	0									
+data:image/png;base…	GET	200	data	data			png	data:text/html,chro…:1			(from cache)	0 ms	Lowest	0									
+6 requests ❘ 322 B transferred ❘ Finish: 779 ms ❘ DOMContentLoaded: 820 ms ❘ Load: 812 ms
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-07 00:23:28.272 Setting: 'consoleHistory', size: 5235172
+2016-03-07 00:23:28.272 Setting: 'savedURLs', size: 3672
+2016-03-07 00:23:28.273 Setting: 'previouslyViewedFiles', size: 3551
+2016-03-07 00:23:28.273 Setting: 'breakpoints', size: 227
+2016-03-07 00:23:28.273 Setting: 'watchExpressions', size: 45
+2016-03-07 00:23:28.273 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-07 00:23:28.273 Setting: 'domBreakpoints', size: 2
+2016-03-07 00:23:28.274 Setting: 'eventListenerBreakpoints', size: 2
+2016-03-07 00:23:28.274 Setting: 'experiments', size: 2
+2016-03-07 00:23:28.274 Setting: 'workspaceExcludedFolders', size: 2
+.
