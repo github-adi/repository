@@ -1,0 +1,23 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+https://pixel.yabidos.com/fltiu.js?qid=037383f5537383f5238353&cid=582&p=8143692d-c40f-e311-a28e-001517d10f6e&s=kedungrejo.com&x=14567725396
+-To be evaluated in console:
+tpc.html	GET	Finished	file	file			document	Other			0 B	15 ms	Highest	0									
+fltiu.js?qid=037383f5537383f5238353&cid=582&p=8143692d-c40f-e311-a28e-001517d10f6e&s=kedungrejo.com&x=14567725396	GET	304	spdy/3.1	https	pixel.yabidos.com	104.16.52.4:443	script	tpc.html:18	1		554 B	316 ms	Medium	12517	public, max-age=7200				"fc36088db5cdd644e4482be1936c9a14"		cloudflare-nginx	Accept-Encoding	
+UsersAxiooFavoriteswallet.js');	GET	(failed)		file			document	tpc.html:13			0 B	15 ms	Highest	0									
+data:image/png;base…	GET	200	data	data			png	data:text/html,chro…:3943			(from cache)	0 ms	Lowest	0									
+data:image/png;base…	GET	200	data	data			png	data:text/html,chro…:3944			(from cache)	2 ms	Lowest	0									
+8 requests ❘ 1.3 KB transferred ❘ Finish: 1.24 s ❘ DOMContentLoaded: 596 ms ❘ Load: 1.24 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-06 23:52:53.682
+tpc.html:13 GET file:///C:/UsersAxiooFavoriteswallet.js'); net::ERR_FILE_NOT_FOUND
+(anonymous function)	@	tpc.html:13
+.
