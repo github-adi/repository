@@ -1,0 +1,47 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://nps.pastaleads.com/npsb/injmon.js?OriginId=8143692D-C40F-E311-A28E-001517D10F6E
+-To be evaluated in console:
+Request URL:file://nps.pastaleads.com/npsb/direct/data/mon.html?OriginId=8143692D-C40F-E311-A28E-001517D10F6E&domain=
+Request Headers
+Provisional headers are shown
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests:1
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+OriginId:8143692D-C40F-E311-A28E-001517D10F6E
+domain:
+Name	
+injmon.js?OriginId=8143692D-C40F-E311-A28E-001517D10F6E	
+mon.html?OriginId=8143692D-C40F-E311-A28E-001517D10F6E&domain=	
+data:image/png;base…	
+data:image/png;base…	
+data:image/png;base…	
+6 requests ❘ 370 B transferred ❘ Finish: 1.25 s ❘ DOMContentLoaded: 762 ms ❘ Load: 1.25 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-07 01:01:54.283
+injmon.js?OriginId=8143692D-C40F-E311-A28E-001517D10F6E:1 GET file://nps.pastaleads.com/npsb/direct/data/mon.html?OriginId=8143692D-C40F-E311-A28E-001517D10F6E&domain= net::ERR_FILE_NOT_FOUND
+n.AddIframe	@	injmon.js?OriginId=8143692D-C40F-E311-A28E-001517D10F6E:1
+n.init	@	injmon.js?OriginId=8143692D-C40F-E311-A28E-001517D10F6E:1
+(anonymous function)	@	injmon.js?OriginId=8143692D-C40F-E311-A28E-001517D10F6E:1
+(anonymous function)	@	injmon.js?OriginId=8143692D-C40F-E311-A28E-001517D10F6E:1
+2016-03-07 01:02:26.448 Error saving setting with name: previouslyViewedFiles, value length: 3581. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-07 01:02:26.451 Ten largest settings: 
+2016-03-07 01:02:26.654 Setting: 'consoleHistory', size: 5235172
+2016-03-07 01:02:26.655 Setting: 'savedURLs', size: 3672
+2016-03-07 01:02:26.655 Setting: 'previouslyViewedFiles', size: 3506
+2016-03-07 01:02:26.655 Setting: 'breakpoints', size: 227
+2016-03-07 01:02:26.656 Setting: 'watchExpressions', size: 45
+2016-03-07 01:02:26.656 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-07 01:02:26.656 Setting: 'domBreakpoints', size: 2
+.
