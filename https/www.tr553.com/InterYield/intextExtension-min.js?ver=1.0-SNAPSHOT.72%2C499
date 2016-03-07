@@ -1,0 +1,57 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+https://www.tr553.com/InterYield/intextExtension-min.js?ver=1.0-SNAPSHOT.72%2C499
+-To be valuated in console:
+Request URL:https://www.tr553.com/InterYield/intextExtension-min.js?ver=1.0-SNAPSHOT.72%2C499
+Request Method:GET
+Status Code:304 Not Modified
+Remote Address:66.216.109.217:443
+Response Headers
+view source
+Date:Mon, 07 Mar 2016 16:52:32 GMT
+ETag:W/"260246-1456325250000"
+Server:Apache-Coyote/1.1
+Set-Cookie:X-Mapping-fjhppofk=C302FAE5F2ECF33086329E0AF9793A23; path=/
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:check=true; X-Mapping-fjhppofk=4F66E738CCCA98538C454AA1B72D8034
+Host:www.tr553.com
+If-Modified-Since:Wed, 24 Feb 2016 14:47:30 GMT
+If-None-Match:W/"260246-1456325250000"
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+ver:1.0-SNAPSHOT.72,499
+Name
+tpc.html
+intextExtension-min.js?ver=1.0-SNAPSHOT.72%2C499
+2 requests ❘ 198 B transferred ❘ Finish: 1.24 s ❘ DOMContentLoaded: 1.29 s ❘ Load: 1.29 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-07 23:52:39.518
+intextExtension-min.js?ver=1.0-SNAPSHOT.72%2C499:1 Uncaught ReferenceError: InText2_Options is not defined
+(anonymous function)	@	intextExtension-min.js?ver=1.0-SNAPSHOT.72%2C499:1
+(anonymous function)	@	intextExtension-min.js?ver=1.0-SNAPSHOT.72%2C499:1
+2016-03-07 23:52:50.117 Error saving setting with name: previouslyViewedFiles, value length: 3569. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-07 23:52:50.118 Ten largest settings: 
+2016-03-07 23:52:50.216 Setting: 'consoleHistory', size: 5235172
+2016-03-07 23:52:50.216 Setting: 'savedURLs', size: 3672
+2016-03-07 23:52:50.216 Setting: 'previouslyViewedFiles', size: 3548
+2016-03-07 23:52:50.217 Setting: 'breakpoints', size: 227
+2016-03-07 23:52:50.217 Setting: 'watchExpressions', size: 45
+2016-03-07 23:52:50.217 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-07 23:52:50.217 Setting: 'domBreakpoints', size: 2
+.
