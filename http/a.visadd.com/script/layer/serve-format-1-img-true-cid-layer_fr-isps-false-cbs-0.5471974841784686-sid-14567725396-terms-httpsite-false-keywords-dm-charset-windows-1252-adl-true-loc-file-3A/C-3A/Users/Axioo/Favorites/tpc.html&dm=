@@ -1,0 +1,82 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://a.visadd.com/script/layer/serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&httpsite=false&keywords=&dm=&charset=windows-1252&adl=true&loc=file%3A///C%3A/Users/Axioo/Favorites/tpc.html&dm=
+-To be evaluated in console:
+Request URL:http://a.visadd.com/script/layer/serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&httpsite=false&keywords=&dm=&charset=windows-1252&adl=true&loc=file%3A///C%3A/Users/Axioo/Favorites/tpc.html&dm=
+Request Method:GET
+Status Code:200 OK
+Remote Address:198.50.249.249:80
+Response Headers
+view source
+Cache-Control:public, max-age=360
+Connection:Keep-Alive
+Content-Length:23225
+Content-Type:application/javascript
+Date:Mon, 07 Mar 2016 20:34:30 GMT
+Etag:"ff53936d56f1eb3ac297bf72c18c724899669205"
+P3p:CP="CAO DSP COR CURa ADMa DEVa PSAa PSDa IVAi IVDi CONi OUR OTRi IND PHY ONL UNI FIN COM NAV INT DEM STA"
+Set-Cookie:visadd_ucnp=2209x5x07%2F03%2F16+16%3A13; Path=/
+Set-Cookie:a.visadd.com=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+Vary:Accept-Encoding
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:__cfduid=df37755fc70fbc84933a2f2a1029f000e1449860284; uid=i-522357960147581449860289.02653; uiddate990=7; tid=i-5223506183519411457367214.03801; uiddate985=7; visadd_gry_lock_count=Mon%2C+07+Mar+2016+17%3A36%3A33+GMT%24%24Mon%2C+07+Mar+2016+17%3A36%3A33+GMT%24%241; visadd_sticky_lock_counter=2; visadd_ucnp=2209x5x07%2F03%2F16+16%3A13
+Host:a.visadd.com
+If-None-Match:"ff53936d56f1eb3ac297bf72c18c724899669205"
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+format:1
+img:true
+cid:layer_fr
+isps:false
+cbs:0.5471974841784686
+sid:14567725396
+terms:
+httpsite:false
+keywords:
+dm:
+charset:windows-1252
+adl:true
+loc:file:///C:/Users/Axioo/Favorites/tpc.html
+dm:
+Name	
+tpc.html	
+serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&httpsite=false&keywords=&dm=&charset=windows-1252&adl=true&loc=file%3A///C%3A/Users/Axioo/Favorites/tpc.html&dm=	
+serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&httpsite=false&keywords=&dm=&charset=windows-1252&adl=true&loc=file%3A///C%3A/Users/Axioo/Favorites/tpc.html&dm=	
+serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&httpsite=false&keywords=&dm=&charset=windows-1252&adl=true&loc=file%3A///C%3A/Users/Axioo/Favorites/tpc.html&dm=	
+index.php?name=EasySearch	
+11 requests ❘ 70.5 KB transferred ❘ Finish: 12.81 s ❘ DOMContentLoaded: 3.42 s ❘ Load: 3.42 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-08 03:33:51.794 serve:3 Uncaught ReferenceError: visadd is not defined
+2016-03-08 03:34:15.337 http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery1110011021145898848772_1457382853358&_=1457382853359 Failed to load resource: the server responded with a status of 404 (Not Found)
+2016-03-08 03:34:24.731
+preloaderrs.js?tbid=3CD73E1C72FB46588D47DD667442D173&chnl=clkmidex&prd=shopperz111220151459&ind=12-…:2 GET http://6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com/?_BIT_sk=__=jQuery111007741424669511616_1457382864129&_=1457382864130 
+2016-03-08 03:34:27.522
+main.js:23 POST https://mybrowserpages.com/json/index.php?name=EasySearch 502 (Bad Gateway)
+2016-03-08 03:34:27.524
+main.js:23 XHR finished loading: POST "https://mybrowserpages.com/json/index.php?name=EasySearch".
+2016-03-08 03:34:27.526
+VM154:1 Uncaught SyntaxError: Unexpected token <
+2016-03-08 03:34:33.494 Navigated to file:///C:/Users/Axioo/Favorites/tpc.html
+2016-03-08 03:34:35.197
+tpc.html:14 Resource interpreted as Document but transferred with MIME type application/javascript: "http://a.visadd.com/script/layer/serve?format=1&img=true&cid=layer_fr&isps=…indows-1252&adl=true&loc=file%3A///C%3A/Users/Axioo/Favorites/tpc.html&dm=".
+2016-03-08 03:34:36.822
+serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&https…:3 Uncaught ReferenceError: visadd is not defined
+2016-03-08 03:34:40.251
+main.js:23XHR finished loading: POST "https://mybrowserpages.com/json/index.php?name=EasySearch".
+.
