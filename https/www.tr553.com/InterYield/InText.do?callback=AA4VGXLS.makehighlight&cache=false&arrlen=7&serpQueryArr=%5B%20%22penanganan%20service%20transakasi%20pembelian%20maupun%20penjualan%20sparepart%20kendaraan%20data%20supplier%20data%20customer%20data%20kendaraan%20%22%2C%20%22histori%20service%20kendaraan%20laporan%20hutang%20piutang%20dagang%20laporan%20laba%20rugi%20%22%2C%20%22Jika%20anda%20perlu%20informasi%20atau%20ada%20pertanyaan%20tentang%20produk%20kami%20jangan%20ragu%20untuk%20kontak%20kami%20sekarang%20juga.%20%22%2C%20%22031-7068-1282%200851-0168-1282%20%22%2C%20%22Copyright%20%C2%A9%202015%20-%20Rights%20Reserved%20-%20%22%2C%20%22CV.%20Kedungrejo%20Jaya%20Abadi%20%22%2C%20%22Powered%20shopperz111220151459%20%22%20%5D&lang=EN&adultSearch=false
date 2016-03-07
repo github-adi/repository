@@ -1,0 +1,34 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+https://www.tr553.com/InterYield/InText.do?callback=AA4VGXLS.makehighlight&cache=false&arrlen=7&serpQueryArr=%5B%20%22penanganan%20service%20transakasi%20pembelian%20maupun%20penjualan%20sparepart%20kendaraan%20data%20supplier%20data%20customer%20data%20kendaraan%20%22%2C%20%22histori%20service%20kendaraan%20laporan%20hutang%20piutang%20dagang%20laporan%20laba%20rugi%20%22%2C%20%22Jika%20anda%20perlu%20informasi%20atau%20ada%20pertanyaan%20tentang%20produk%20kami%20jangan%20ragu%20untuk%20kontak%20kami%20sekarang%20juga.%20%22%2C%20%22031-7068-1282%200851-0168-1282%20%22%2C%20%22Copyright%20%C2%A9%202015%20-%20Rights%20Reserved%20-%20%22%2C%20%22CV.%20Kedungrejo%20Jaya%20Abadi%20%22%2C%20%22Powered%20shopperz111220151459%20%22%20%5D&lang=EN&adultSearch=false
+-To be evaluated in console:
+AA4VGXLS.makehighlight({indexUsed: "KMIndex", serpQueryOrig: "Powered shopperz111220151459 ", serpQuery: "power ball",…})
+adultsearch: "false"
+indexUsed: "KMIndex"
+lang: "EN"
+reason: ""
+serpQuery: "power ball"
+serpQueryArr: [,…]
+serpQueryMatches: ["g data", "data repository", "hipaa data", "data model", "quickbooks data", "g data total security",…]
+serpQueryOrig: "Powered shopperz111220151459 "
+standdown: false
+tml: 120
+totalSearchedTerms: 50
+totalTime: 1
+Name
+tpc.html
+InText.do?callback=AA4VGXLS.makehighlight&cache=false&arrlen=7&serpQueryArr=%5B%20%22penanganan%20service%20transakasi%20pembelian%20maupun%20penjualan%20sparepart%20kendaraan%20data%20supplier%20data%20customer%20data%20kendaraan%20%22%2C%20%22histori%20service%20kendaraan%20laporan%20hutang%20piutang%20dagang%20laporan%20laba%20rugi%20%22%2C%20%22Jika%20anda%20perlu%20informasi%20atau%20ada%20pertanyaan%20tentang%20produk%20kami%20jangan%20ragu%20untuk%20kontak%20kami%20sekarang%20juga.%20%22%2C%20%22031-7068-1282%200851-0168-1282%20%22%2C%20%22Copyright%20%C2%A9%202015%20-%20Rights%20Reserved%20-%20%22%2C%20%22CV.%20Kedungrejo%20Jaya%20Abadi%20%22%2C%20%22Powered%20shopperz111220151459%20%22%20%5D&lang=EN&adultSearch=false
+2 requests ❘ 4.1 KB transferred ❘ Finish: 1.06 s ❘ DOMContentLoaded: 1.10 s ❘ Load: 1.10 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-07 23:43:49.273
+InText.do?callback=AA4VGXLS.makehighlight&cache=false&arrlen=7&serpQueryArr=[ "penanganan service t…:1 Uncaught ReferenceError: AA4VGXLS is not defined
+(anonymous function)	@	InText.do?callback=AA4VGXLS.makehighlight&cache=false&arrlen=7&serpQueryArr=[ "penanganan service t…:1
+.
