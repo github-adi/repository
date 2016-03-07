@@ -1,0 +1,33 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://intext.nav-links.com/js/intext.js?afid=Bitshakers&subid=clkmidex_ID&maxlinks=8&linkcolor=0000FF&brand=Ads%20by%20shopperz111220151459&help=http%3A%2F%2Fshopperz.me
+-To be evaluated in console:
+tpc.html	
+intext.js?afid=Bitshakers&subid=clkmidex_ID&maxlinks=8&linkcolor=0000FF&brand=Ads%20by%20shopperz111220151459&help=http%3A%2F%2Fshopperz.me	
+bindevent.do?e=document&affiliate=Bitshakers&subid=clkmidex_ID&brand=Ads+by+shopperz111220151459&adtype=R&help=http%3A%2F%2Fshopperz.me&privacy=privacy+value&terms=terms+value&maxlinks=8&linkcolor=0000FF&uline=green&btcolor=fff&colorbg=ccc&colortitle=0000ee&colordesc=666666&colorvurl=008500&wiki=0&style=Value&debug=false&selector=body&endpoint=https%3A%2F%2Fwww.tr553.com&imgopacity=1&copytext=false&interactionexpectedduration=30&fadein=-1&copies=1&admin=0&inimage=false&maxads=4&rnd=999662	
+documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers	
+jquery.min.js	
+5 requests ❘ 3.0 KB transferred ❘ Finish: 9.09 s ❘ DOMContentLoaded: 827 ms ❘ Load: 2.46 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-07 23:34:10.862 documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1 InterYield documentbind 1.0-SNAPSHOT.72,499 20160224-1447
+2016-03-07 23:34:17.554
+documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1 GET file://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js net::ERR_FILE_NOT_FOUND
+_0x9b32x10.loadJQ	@	documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1
+document.(anonymous function)	@	documentbinder.do?ver=1.0-SNAPSHOT.72%2C499&affiliate=Bitshakers:1
+2016-03-07 23:34:31.482 Error saving setting with name: previouslyViewedFiles, value length: 3581. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-07 23:34:31.485 Ten largest settings: 
+2016-03-07 23:34:31.592 Setting: 'consoleHistory', size: 5235172
+2016-03-07 23:34:31.592 Setting: 'savedURLs', size: 3672
+2016-03-07 23:34:31.592 Setting: 'previouslyViewedFiles', size: 3506
+2016-03-07 23:34:31.592 Setting: 'breakpoints', size: 227
+2016-03-07 23:34:31.592 Setting: 'watchExpressions', size: 45
+2016-03-07 23:34:31.592 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+.
