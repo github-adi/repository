@@ -1,0 +1,51 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://cdn.visadd.com/script/layer.js?pid=14567725396&ln=EN
+-To be evaluated in console:
+Request Cookies					335				
+__cfduid	df37755fc70fbc84933a2f2a1029f000e1449860284	N/A	N/A	N/A	54				
+tid	i-5223506183519411457367214.03801	N/A	N/A	N/A	39				
+uid	i-522357960147581449860289.02653	N/A	N/A	N/A	38				
+uiddate985	7	N/A	N/A	N/A	14				
+uiddate990	7	N/A	N/A	N/A	14				
+visadd_gry_lock_count	Mon%2C+07+Mar+2016+17%3A36%3A33+GMT%24%24Mon%2C+07+Mar+2016+17%3A36%3A33+GMT%24%241	N/A	N/A	N/A	107				
+visadd_sticky_lock_counter	2	N/A	N/A	N/A	30				
+visadd_ucnp	2209x5x07%2F03%2F16+16%3A13	N/A	N/A	N/A	39				
+Response Cookies					108				
+a.visadd.com			/	1970-01-01T00:00:01.000Z	60				
+visadd_ucnp	2209x5x07%2F03%2F16+16%3A13		/	Session	48				
+Name
+tpc.html
+layer.js?pid=14567725396&ln=EN
+serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&httpsite=false&keywords=&dm=&charset=windows-1252&adl=true&loc=file%3A///C%3A/Users/Axioo/Favorites/tpc.html&dm=
+3 requests ❘ 23.6 KB transferred ❘ Finish: 1.54 s ❘ DOMContentLoaded: 481 ms ❘ Load: 464 ms
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-08 03:19:50.236 layer.js?pid=14567725396&ln=EN:118 Uncaught TypeError: Cannot read property 'trackServe_time' of undefined
+2016-03-08 03:20:09.735 Navigated to file:///C:/Users/Axioo/Favorites/tpc.html
+2016-03-08 03:20:11.390
+layer.js?pid=14567725396&ln=EN:118 Uncaught TypeError: Cannot read property 'trackServe_time' of undefined
+visadd.utils.issue_unit_request	@	layer.js?pid=14567725396&ln=EN:118
+visadd.sticky.request_hook_sticky_action	@	layer.js?pid=14567725396&ln=EN:363
+visadd.sticky.init	@	layer.js?pid=14567725396&ln=EN:372
+visadd.layer.init	@	layer.js?pid=14567725396&ln=EN:695
+visadd.onReadyInit	@	serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&https…:226
+visadd_bodyReady	@	serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&https…:266
+(anonymous function)	@	serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&https…:269
+(anonymous function)	@	serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&https…:310
+(anonymous function)	@	serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.5471974841784686&sid=14567725396&terms=&https…:312
+2016-03-08 03:21:09.395 Error saving setting with name: previouslyViewedFiles, value length: 3563. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-08 03:21:09.398 Ten largest settings: 
+2016-03-08 03:21:09.603 Setting: 'consoleHistory', size: 5235172
+2016-03-08 03:21:09.603 Setting: 'savedURLs', size: 3672
+2016-03-08 03:21:09.604 Setting: 'previouslyViewedFiles', size: 3532
+2016-03-08 03:21:09.604 Setting: 'breakpoints', size: 227
+2016-03-08 03:21:09.605 Setting: 'watchExpressions', size: 45
+.
