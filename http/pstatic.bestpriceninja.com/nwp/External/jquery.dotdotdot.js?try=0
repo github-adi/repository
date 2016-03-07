@@ -1,0 +1,29 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://pstatic.bestpriceninja.com/nwp/External/jquery.dotdotdot.js?try=0
+-To be evaluated in console:
+tpc.html	GET	Finished	file	file			document	Other			0 B	3 ms	Highest	0									
+jquery.dotdotdot.js?try=0	GET	304	http/1.1	http	pstatic.bestpriceninja.com	104.20.31.52:80	script	tpc.html:19	7		416 B	192 ms	Medium	39619	public, max-age=315360000	Keep-Alive					cloudflare-nginx		
+2 requests ❘ 416 B transferred ❘ Finish: 215 ms ❘ DOMContentLoaded: 234 ms ❘ Load: 233 ms
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-08 01:37:40.223
+jquery.dotdotdot.js?try=0:1 Uncaught ReferenceError: FO is not defined
+(anonymous function)	@	jquery.dotdotdot.js?try=0:1
+2016-03-08 01:37:52.984 Error saving setting with name: previouslyViewedFiles, value length: 3577. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-08 01:37:52.985 Ten largest settings: 
+2016-03-08 01:37:53.076 Setting: 'consoleHistory', size: 5235172
+2016-03-08 01:37:53.077 Setting: 'savedURLs', size: 3672
+2016-03-08 01:37:53.077 Setting: 'previouslyViewedFiles', size: 3502
+2016-03-08 01:37:53.077 Setting: 'breakpoints', size: 227
+2016-03-08 01:37:53.077 Setting: 'watchExpressions', size: 45
+2016-03-08 01:37:53.077 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-08 01:37:53.077 Setting: 'domBreakpoints', size: 2
+.
