@@ -1,0 +1,45 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://cdncache-a.akamaihd.net/loaders/1725/l.js?pid=1725&ext=Capricornus&zoneid=70711364
+-To be evaluated in console:
+Request URL:http://cdncache-a.akamaihd.net/loaders/1725/l.js?pid=1725&ext=Capricornus&zoneid=70711364
+Request Method:GET
+Status Code:304 Not Modified
+Remote Address:118.98.93.56:80
+Response Headers
+view source
+Cache-Control:max-age=3083
+Connection:keep-alive
+Content-Type:application/x-javascript
+Date:Mon, 07 Mar 2016 20:13:09 GMT
+Last-Modified:Wed, 02 Mar 2016 20:13:12 GMT
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Host:cdncache-a.akamaihd.net
+If-Modified-Since:Wed, 02 Mar 2016 20:13:12 GMT
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+pid:1725
+ext:Capricornus
+zoneid:70711364
+Name
+tpc.html
+l.js?pid=1725&ext=Capricornus&zoneid=70711364
+2 requests ❘ 205 B transferred ❘ Finish: 300 ms ❘ DOMContentLoaded: 770 ms ❘ Load: 752 ms
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+.
