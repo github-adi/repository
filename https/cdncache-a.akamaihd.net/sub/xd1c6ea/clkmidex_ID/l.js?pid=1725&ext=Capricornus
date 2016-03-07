@@ -1,0 +1,62 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+https://cdncache-a.akamaihd.net/sub/xd1c6ea/clkmidex_ID/l.js?pid=1725&ext=Capricornus
+-To be evaluated in console:
+Request URL:https://cdncache-a.akamaihd.net/sub/xd1c6ea/clkmidex_ID/l.js?pid=1725&ext=Capricornus
+Request Method:GET
+Status Code:200 OK
+Remote Address:118.98.93.26:443
+Response Headers
+view source
+Cache-Control:max-age=14400
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Length:773
+Content-Type:application/x-javascript
+Date:Mon, 07 Mar 2016 20:02:20 GMT
+P3P:CP="CUR ADM OUR NOR STA NID"
+Server:nginx/1.8.0
+Vary:Accept-Encoding
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Host:cdncache-a.akamaihd.net
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+pid:1725
+ext:Capricornus
+Name
+tpc.html
+l.js?pid=1725&ext=Capricornus
+l.js?pid=1725&ext=Capricornus&zoneid=70711364
+3 requests ❘ 1.0 KB transferred ❘ Finish: 250 ms ❘ DOMContentLoaded: 242 ms ❘ Load: 257 ms
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-08 03:02:25.747
+l.js?pid=1725&ext=Capricornus:1 GET file://cdncache-a.akamaihd.net/loaders/1725/l.js?pid=1725&ext=Capricornus&zoneid=70711364 net::ERR_FILE_NOT_FOUND
+a	@	l.js?pid=1725&ext=Capricornus:1
+(anonymous function)	@	l.js?pid=1725&ext=Capricornus:1
+(anonymous function)	@	l.js?pid=1725&ext=Capricornus:1
+2016-03-08 03:03:06.948 Error saving setting with name: previouslyViewedFiles, value length: 3609. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-08 03:03:06.951 Ten largest settings: 
+2016-03-08 03:03:07.150 Setting: 'consoleHistory', size: 5235172
+2016-03-08 03:03:07.150 Setting: 'savedURLs', size: 3672
+2016-03-08 03:03:07.151 Setting: 'previouslyViewedFiles', size: 3534
+2016-03-08 03:03:07.151 Setting: 'breakpoints', size: 227
+2016-03-08 03:03:07.151 Setting: 'watchExpressions', size: 45
+2016-03-08 03:03:07.151 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-08 03:03:07.151 Setting: 'domBreakpoints', size: 2
+.
