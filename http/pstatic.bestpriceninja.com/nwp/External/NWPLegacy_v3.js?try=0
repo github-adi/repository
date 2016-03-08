@@ -1,0 +1,52 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://pstatic.bestpriceninja.com/nwp/External/NWPLegacy_v3.js?try=0
+-To be evaluated in console:
+Request URL:http://pstatic.bestpriceninja.com/nwp/External/NWPLegacy_v3.js?try=0
+Request Method:GET
+Status Code:304 Not Modified
+Remote Address:104.20.30.52:80
+Response Headers
+view source
+Access-Control-Allow-Credentials:true
+Access-Control-Allow-Origin:*
+Age:0
+Cache-Control:public, max-age=315360000
+CF-Cache-Status:HIT
+CF-RAY:27fbbd9c3e7f3180-SIN
+Connection:Keep-Alive
+Content-Type:application/x-javascript
+Date:Tue, 08 Mar 2016 16:33:46 GMT
+Expires:Fri, 06 Mar 2026 16:33:46 GMT
+Last-Modified:Thu, 25 Feb 2016 08:16:14 GMT
+Server:cloudflare-nginx
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:__cfduid=dc09ec0f50705979f4d2eec23fc5cf2a91449860270; __utma=1.1297352982.1451151305.1451151305.1451151305.1; __utmz=1.1451151305.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; foclk=%5B%7B%22keywords%22%3A%5B%22worldwide%22%2C%22satellite%22%2C%22communications%22%5D%2C%22when%22%3A1455821347772%7D%2C%7B%22keywords%22%3A%5B%22worldwide%22%2C%22satellite%22%2C%22communications%22%5D%2C%22when%22%3A1455822583435%7D%2C%7B%22keywords%22%3A%5B%22worldwide%22%2C%22satellite%22%2C%22communications%22%5D%2C%22when%22%3A1455822618202%7D%2C%7B%22keywords%22%3A%5B%22worldwide%22%2C%22satellite%22%2C%22communications%22%5D%2C%22when%22%3A1455822634112%7D%2C%7B%22keywords%22%3A%5B%22worldwide%22%2C%22satellite%22%2C%22communications%22%5D%2C%22when%22%3A1455822676519%7D%2C%7B%22keywords%22%3A%5B%22worldwide%22%2C%22satellite%22%2C%22communications%22%5D%2C%22when%22%3A1455822691356%7D%5D; fo-rt-imp=[{"keywords":["enfold","responsive","multi","purpose","theme","wordpress"],"when":1456249168880},{"keywords":["enfold","responsive","multi","purpose","theme","wordpress"],"when":1456249167635},{"keywords":["iridium","9555","satellite","phone"],"when":1455827944974},{"keywords":["iridium","9575","extreme","satellite","phone"],"when":1455827792466},{"keywords":["iridium","9575","extreme","satellite","phone"],"when":1455827791297},{"keywords":["511","3391584","by"],"when":1455480120508},{"keywords":["511","3391584","by"],"when":1455479940229},{"keywords":["511","3391584","by"],"when":1455479667588},{"keywords":["20pcs","blue","white","10","pin","auto","car"],"when":1455302649514},{"keywords":["outlook","tahunan","2016","immelt","optimis","terhadap","ge"],"when":1452269109122},{"keywords":["outlook","tahunan","2016","immelt","optimis","terhadap","ge"],"when":1452269102468},{"keywords":["cloud","dj","sale"],"when":1451767261332},{"keywords":["smart","robot","chat","scripts"],"when":1451767165841},{"keywords":["smart","robot","chat","scripts"],"when":1451766837103},{"keywords":["smart","robot","chat","scripts"],"when":1451766802165}]; favm=
+Host:pstatic.bestpriceninja.com
+If-Modified-Since:Thu, 25 Feb 2016 08:16:14 GMT
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+try:0
+Name
+fbMyApp.html
+NWPLegacy_v3.js?try=0
+2 requests ❘ 416 B transferred ❘ Finish: 315 ms ❘ DOMContentLoaded: 376 ms ❘ Load: 375 ms
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-08 23:33:53.545 Navigated to file:///C:/Users/Axioo/Favorites/fbMyApp.html
+.
