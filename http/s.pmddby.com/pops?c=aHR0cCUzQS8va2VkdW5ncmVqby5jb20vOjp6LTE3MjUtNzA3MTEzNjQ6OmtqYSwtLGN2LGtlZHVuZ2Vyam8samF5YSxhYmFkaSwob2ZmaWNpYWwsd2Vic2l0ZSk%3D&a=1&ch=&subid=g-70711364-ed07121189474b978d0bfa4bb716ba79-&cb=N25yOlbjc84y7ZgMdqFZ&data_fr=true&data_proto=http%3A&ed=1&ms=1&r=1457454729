@@ -1,0 +1,75 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://s.pmddby.com/pops?c=aHR0cCUzQS8va2VkdW5ncmVqby5jb20vOjp6LTE3MjUtNzA3MTEzNjQ6OmtqYSwtLGN2LGtlZHVuZ2Vyam8samF5YSxhYmFkaSwob2ZmaWNpYWwsd2Vic2l0ZSk%3D&a=1&ch=&subid=g-70711364-ed07121189474b978d0bfa4bb716ba79-&cb=N25yOlbjc84y7ZgMdqFZ&data_fr=true&data_proto=http%3A&ed=1&ms=1&r=1457454729
+-To be evaluated in console:
+Request URL:http://s.pmddby.com/pops?c=aHR0cCUzQS8va2VkdW5ncmVqby5jb20vOjp6LTE3MjUtNzA3MTEzNjQ6OmtqYSwtLGN2LGtlZHVuZ2Vyam8samF5YSxhYmFkaSwob2ZmaWNpYWwsd2Vic2l0ZSk%3D&a=1&ch=&subid=g-70711364-ed07121189474b978d0bfa4bb716ba79-&cb=N25yOlbjc84y7ZgMdqFZ&data_fr=true&data_proto=http%3A&ed=1&ms=1&r=1457454729
+Request Method:GET
+Status Code:200 OK
+Remote Address:50.17.249.180:80
+Response Headers
+view source
+Connection:Keep-Alive
+Content-Length:616
+Content-Type:text/javascript; charset=UTF-8
+Date:Tue, 08 Mar 2016 16:44:01 GMT
+Server:nginx
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Host:s.pmddby.com
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+c:aHR0cCUzQS8va2VkdW5ncmVqby5jb20vOjp6LTE3MjUtNzA3MTEzNjQ6OmtqYSwtLGN2LGtlZHVuZ2Vyam8samF5YSxhYmFkaSwob2ZmaWNpYWwsd2Vic2l0ZSk=
+a:1
+ch:
+subid:g-70711364-ed07121189474b978d0bfa4bb716ba79-
+cb:N25yOlbjc84y7ZgMdqFZ
+data_fr:true
+data_proto:http:
+ed:1
+ms:1
+r:1457454729
+Name
+fbMyApp.html
+pops?c=aHR0cCUzQS8va2VkdW5ncmVqby5jb20vOjp6LTE3MjUtNzA3MTEzNjQ6OmtqYSwtLGN2LGtlZHVuZ2Vyam8samF5YSxhYmFkaSwob2ZmaWNpYWwsd2Vic2l0ZSk%3D&a=1&ch=&subid=g-70711364-ed07121189474b978d0bfa4bb716ba79-&cb=N25yOlbjc84y7ZgMdqFZ&data_fr=true&data_proto=http%3A&ed=1&ms=1&r=1457454729
+pops?c=aHR0cCUzQS8va2VkdW5ncmVqby5jb20vOjp6LTE3MjUtNzA3MTEzNjQ6OmtqYSwtLGN2LGtlZHVuZ2Vyam8samF5YSxhYmFkaSwob2ZmaWNpYWwsd2Vic2l0ZSk%3D&a=1&ch=&subid=g-70711364-ed07121189474b978d0bfa4bb716ba79-&cb=N25yOlbjc84y7ZgMdqFZ&data_fr=true&data_proto=http%3A&ed=1&ms=1&r=1457454729
+index.php?name=EasySearch
+4 requests ❘ 2.2 KB transferred ❘ Finish: 1.91 s ❘ DOMContentLoaded: 864 ms ❘ Load: 2.01 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-08 23:43:37.700 pops:1 Uncaught ReferenceError: N25yOlbjc84y7ZgMdqFZ is not defined
+2016-03-08 23:43:39.367 https://mybrowserpages.com/json/index.php?name=EasySearch Failed to load resource: the server responded with a status of 502 (Bad Gateway)
+2016-03-08 23:43:39.371 pops:1 Uncaught SyntaxError: Unexpected token <
+2016-03-08 23:44:07.905 Navigated to file:///C:/Users/Axioo/Favorites/fbMyApp.html
+2016-03-08 23:44:08.542
+pops?c=aHR0cCUzQS8va2VkdW5ncmVqby5jb20vOjp6LTE3MjUtNzA3MTEzNjQ6OmtqYSwtLGN2LGtlZHVuZ2Vyam8samF5YSxh…:1 Uncaught ReferenceError: N25yOlbjc84y7ZgMdqFZ is not defined
+(anonymous function)	@	pops?c=aHR0cCUzQS8va2VkdW5ncmVqby5jb20vOjp6LTE3MjUtNzA3MTEzNjQ6OmtqYSwtLGN2LGtlZHVuZ2Vyam8samF5YSxh…:1
+2016-03-08 23:44:09.189 fbMyApp.html:2 Resource interpreted as Document but transferred with MIME type text/javascript: "http://s.pmddby.com/pops?c=aHR0cCUzQS8va2VkdW5ncmVqby5jb20vOjp6LTE3MjUtNzA3…25yOlbjc84y7ZgMdqFZ&data_fr=true&data_proto=http%3A&ed=1&ms=1&r=1457454729".
+2016-03-08 23:44:09.700
+main.js:23 POST https://mybrowserpages.com/json/index.php?name=EasySearch 502 (Bad Gateway)
+post	@	main.js:23
+(anonymous function)	@	main.js:3
+2016-03-08 23:44:09.702
+main.js:23 XHR finished loading: POST "https://mybrowserpages.com/json/index.php?name=EasySearch".
+post	@	main.js:23
+(anonymous function)	@	main.js:3
+2016-03-08 23:44:09.716
+VM125:1 Uncaught SyntaxError: Unexpected token <
+xmlhttp.onreadystatechange	@	main.js:13
+XMLHttpRequest.send (async)		
+post	@	main.js:23
+(anonymous function)	@	main.js:3
+.
