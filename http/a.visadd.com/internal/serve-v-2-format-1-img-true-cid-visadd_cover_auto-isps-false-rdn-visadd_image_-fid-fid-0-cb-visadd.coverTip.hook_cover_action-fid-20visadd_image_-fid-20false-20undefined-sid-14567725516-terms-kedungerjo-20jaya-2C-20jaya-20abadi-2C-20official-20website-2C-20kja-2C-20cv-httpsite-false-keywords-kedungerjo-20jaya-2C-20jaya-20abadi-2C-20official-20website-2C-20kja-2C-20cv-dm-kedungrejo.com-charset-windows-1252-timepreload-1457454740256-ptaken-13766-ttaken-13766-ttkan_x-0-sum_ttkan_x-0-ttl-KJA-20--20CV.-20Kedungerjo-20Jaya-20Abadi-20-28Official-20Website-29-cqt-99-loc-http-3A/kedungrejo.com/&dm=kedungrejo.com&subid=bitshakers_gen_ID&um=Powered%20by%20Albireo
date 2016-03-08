@@ -1,0 +1,84 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://a.visadd.com/internal/serve?v=2&format=1&img=true&cid=visadd_cover_auto&isps=false&rdn=visadd_image_$$fid$$&fid=0&cb=visadd.coverTip.hook_cover_action($$fid$$,%20visadd_image_$$fid$$,%20false,%20undefined)&sid=14567725516&terms=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&httpsite=false&keywords=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&dm=kedungrejo.com&charset=windows-1252&timepreload=1457454740256&ptaken=13766&ttaken=13766&ttkan_x=0&sum_ttkan_x=0&ttl=KJA%20-%20CV.%20Kedungerjo%20Jaya%20Abadi%20%28Official%20Website%29&cqt=99&loc=http%3A//kedungrejo.com/&dm=kedungrejo.com&subid=bitshakers_gen_ID&um=Powered%20by%20Albireo
+-To be evaluated in console:
+Request URL:http://a.visadd.com/internal/serve?v=2&format=1&img=true&cid=visadd_cover_auto&isps=false&rdn=visadd_image_$$fid$$&fid=0&cb=visadd.coverTip.hook_cover_action($$fid$$,%20visadd_image_$$fid$$,%20false,%20undefined)&sid=14567725516&terms=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&httpsite=false&keywords=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&dm=kedungrejo.com&charset=windows-1252&timepreload=1457454740256&ptaken=13766&ttaken=13766&ttkan_x=0&sum_ttkan_x=0&ttl=KJA%20-%20CV.%20Kedungerjo%20Jaya%20Abadi%20%28Official%20Website%29&cqt=99&loc=http%3A//kedungrejo.com/&dm=kedungrejo.com&subid=bitshakers_gen_ID&um=Powered%20by%20Albireo
+Request Method:GET
+Status Code:200 OK
+Remote Address:198.27.120.88:80
+Response Headers
+view source
+Cache-Control:max-age=5
+Connection:Keep-Alive
+Content-Length:1564
+Content-Type:application/javascript
+Date:Tue, 08 Mar 2016 18:15:02 GMT
+Etag:"aa34ded4e3bf17f21d098caf604f6a560cc4260e"
+Set-Cookie:visadd_ucnp=2209x5x08%2F03%2F16+16%3A14; Path=/
+Set-Cookie:a.visadd.com=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+Vary:Accept-Encoding
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:__cfduid=df37755fc70fbc84933a2f2a1029f000e1449860284; uid=i-522357960147581449860289.02653; visadd_gry_lock_count=Mon%2C+07+Mar+2016+17%3A36%3A33+GMT%24%24Mon%2C+07+Mar+2016+17%3A36%3A33+GMT%24%241; uiddate990=8; uiddate985=8; visadd_sticky_lock_counter=3; tid=i-52235372008154281457453597.36856; visadd_ucnp=2209x5x08%2F03%2F16+16%3A14
+Host:a.visadd.com
+If-None-Match:"1e48d2208b5460820f258ac09aa6a2ae2842bed3"
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+v:2
+format:1
+img:true
+cid:visadd_cover_auto
+isps:false
+rdn:visadd_image_$$fid$$
+fid:0
+cb:visadd.coverTip.hook_cover_action($$fid$$, visadd_image_$$fid$$, false, undefined)
+sid:14567725516
+terms:kedungerjo jaya, jaya abadi, official website, kja, cv
+httpsite:false
+keywords:kedungerjo jaya, jaya abadi, official website, kja, cv
+dm:kedungrejo.com
+charset:windows-1252
+timepreload:1457454740256
+ptaken:13766
+ttaken:13766
+ttkan_x:0
+sum_ttkan_x:0
+ttl:KJA - CV. Kedungerjo Jaya Abadi (Official Website)
+cqt:99
+loc:http://kedungrejo.com/
+dm:kedungrejo.com
+subid:bitshakers_gen_ID
+um:Powered by Albireo
+Name
+fbMyApp.html
+serve?v=2&format=1&img=true&cid=visadd_cover_auto&isps=false&rdn=visadd_image_$$fid$$&fid=0&cb=visadd.coverTip.hook_cover_action($$fid$$,%20visadd_image_$$fid$$,%20false,%20undefined)&sid=14567725516&terms=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&httpsite=false&keywords=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&dm=kedungrejo.com&charset=windows-1252&timepreload=1457454740256&ptaken=13766&ttaken=13766&ttkan_x=0&sum_ttkan_x=0&ttl=KJA%20-%20CV.%20Kedungerjo%20Jaya%20Abadi%20%28Official%20Website%29&cqt=99&loc=http%3A//kedungrejo.com/&dm=kedungrejo.com&subid=bitshakers_gen_ID&um=Powered%20by%20Albireo
+2 requests ❘ 1.9 KB transferred ❘ Finish: 948 ms ❘ DOMContentLoaded: 1.19 s ❘ Load: 1.17 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-09 01:14:40.729 serve:1 Uncaught ReferenceError: visadd is not defined
+2016-03-09 01:15:08.716 Navigated to file:///C:/Users/Axioo/Favorites/fbMyApp.html
+2016-03-09 01:15:09.527
+serve?v=2&format=1&img=true&cid=visadd_cover_auto&isps=false&rdn=visadd_image_$$fid$$&fid=0&cb=visa…:1 Uncaught ReferenceError: visadd is not defined
+(anonymous function)	@	serve?v=2&format=1&img=true&cid=visadd_cover_auto&isps=false&rdn=visadd_image_$$fid$$&fid=0&cb=visa…:1
+2016-03-09 01:15:20.334 Error saving setting with name: previouslyViewedFiles, value length: 4150. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-09 01:15:20.337 Ten largest settings: 
+2016-03-09 01:15:20.575 Setting: 'consoleHistory', size: 5235172
+2016-03-09 01:15:20.576 Setting: 'savedURLs', size: 3672
+2016-03-09 01:15:20.576 Setting: 'previouslyViewedFiles', size: 3530
+2016-03-09 01:15:20.576 Setting: 'breakpoints', size: 227
+2016-03-09 01:15:20.577 Setting: 'watchExpressions', size: 45
+.
