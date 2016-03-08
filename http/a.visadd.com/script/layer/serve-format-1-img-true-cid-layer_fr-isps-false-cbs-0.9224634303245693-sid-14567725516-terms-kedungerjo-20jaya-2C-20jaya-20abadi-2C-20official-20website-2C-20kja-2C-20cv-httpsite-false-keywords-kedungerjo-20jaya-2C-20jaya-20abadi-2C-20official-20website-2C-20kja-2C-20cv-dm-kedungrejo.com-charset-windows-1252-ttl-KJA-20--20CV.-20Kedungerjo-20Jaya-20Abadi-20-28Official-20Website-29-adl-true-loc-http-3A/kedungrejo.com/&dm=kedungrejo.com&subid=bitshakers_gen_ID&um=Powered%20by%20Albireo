@@ -1,0 +1,78 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://a.visadd.com/script/layer/serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.9224634303245693&sid=14567725516&terms=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&httpsite=false&keywords=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&dm=kedungrejo.com&charset=windows-1252&ttl=KJA%20-%20CV.%20Kedungerjo%20Jaya%20Abadi%20%28Official%20Website%29&adl=true&loc=http%3A//kedungrejo.com/&dm=kedungrejo.com&subid=bitshakers_gen_ID&um=Powered%20by%20Albireo
+-To be evaluated in console:
+Request URL:http://a.visadd.com/script/layer/serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.9224634303245693&sid=14567725516&terms=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&httpsite=false&keywords=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&dm=kedungrejo.com&charset=windows-1252&ttl=KJA%20-%20CV.%20Kedungerjo%20Jaya%20Abadi%20%28Official%20Website%29&adl=true&loc=http%3A//kedungrejo.com/&dm=kedungrejo.com&subid=bitshakers_gen_ID&um=Powered%20by%20Albireo
+Request Method:GET
+Status Code:200 OK
+Remote Address:198.27.120.88:80
+Response Headers
+view source
+Cache-Control:public, max-age=360
+Connection:Keep-Alive
+Content-Length:23522
+Content-Type:application/javascript
+Date:Tue, 08 Mar 2016 18:08:57 GMT
+Etag:"41850bdb0364a84d87347eaeb6d81c085573a0c5"
+P3p:CP="CAO DSP COR CURa ADMa DEVa PSAa PSDa IVAi IVDi CONi OUR OTRi IND PHY ONL UNI FIN COM NAV INT DEM STA"
+Set-Cookie:visadd_ucnp=2209x5x08%2F03%2F16+16%3A14; Path=/
+Set-Cookie:a.visadd.com=; Expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+Vary:Accept-Encoding
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:__cfduid=df37755fc70fbc84933a2f2a1029f000e1449860284; uid=i-522357960147581449860289.02653; visadd_gry_lock_count=Mon%2C+07+Mar+2016+17%3A36%3A33+GMT%24%24Mon%2C+07+Mar+2016+17%3A36%3A33+GMT%24%241; uiddate990=8; uiddate985=8; visadd_sticky_lock_counter=3; tid=i-52235372008154281457453597.36856; visadd_ucnp=2209x5x08%2F03%2F16+16%3A14
+Host:a.visadd.com
+If-None-Match:"41850bdb0364a84d87347eaeb6d81c085573a0c5"
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+format:1
+img:true
+cid:layer_fr
+isps:false
+cbs:0.9224634303245693
+sid:14567725516
+terms:kedungerjo jaya, jaya abadi, official website, kja, cv
+httpsite:false
+keywords:kedungerjo jaya, jaya abadi, official website, kja, cv
+dm:kedungrejo.com
+charset:windows-1252
+ttl:KJA - CV. Kedungerjo Jaya Abadi (Official Website)
+adl:true
+loc:http://kedungrejo.com/
+dm:kedungrejo.com
+subid:bitshakers_gen_ID
+um:Powered by Albireo
+Name
+fbMyApp.html
+serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.9224634303245693&sid=14567725516&terms=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&httpsite=false&keywords=kedungerjo%20jaya%2C%20jaya%20abadi%2C%20official%20website%2C%20kja%2C%20cv&dm=kedungrejo.com&charset=windows-1252&ttl=KJA%20-%20CV.%20Kedungerjo%20Jaya%20Abadi%20%28Official%20Website%29&adl=true&loc=http%3A//kedungrejo.com/&dm=kedungrejo.com&subid=bitshakers_gen_ID&um=Powered%20by%20Albireo
+2 requests ❘ 23.5 KB transferred ❘ Finish: 1.25 s ❘ DOMContentLoaded: 1.33 s ❘ Load: 1.33 s
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-09 01:08:33.241 serve:3 Uncaught ReferenceError: visadd is not defined
+2016-03-09 01:09:03.980 Navigated to file:///C:/Users/Axioo/Favorites/fbMyApp.html
+2016-03-09 01:09:05.069
+serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.9224634303245693&sid=14567725516&terms=kedung…:3 Uncaught ReferenceError: visadd is not defined
+(anonymous function)	@	serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.9224634303245693&sid=14567725516&terms=kedung…:3
+(anonymous function)	@	serve?format=1&img=true&cid=layer_fr&isps=false&cbs=0.9224634303245693&sid=14567725516&terms=kedung…:295
+2016-03-09 01:09:22.506 Error saving setting with name: previouslyViewedFiles, value length: 3973. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-09 01:09:22.509 Ten largest settings: 
+2016-03-09 01:09:22.701 Setting: 'consoleHistory', size: 5235172
+2016-03-09 01:09:22.702 Setting: 'savedURLs', size: 3672
+2016-03-09 01:09:22.702 Setting: 'previouslyViewedFiles', size: 3530
+2016-03-09 01:09:22.702 Setting: 'breakpoints', size: 227
+2016-03-09 01:09:22.702 Setting: 'watchExpressions', size: 45
+.
