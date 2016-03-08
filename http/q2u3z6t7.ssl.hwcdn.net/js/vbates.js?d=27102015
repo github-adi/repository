@@ -1,0 +1,62 @@
+-By Muhammad Adi Nugroho, S. Adm. Neg.:
+-Via My Notepad (HTML Editor):
+http://q2u3z6t7.ssl.hwcdn.net/js/vbates.js?d=27102015
+-To be evaluated in console:
+Request URL:http://q2u3z6t7.ssl.hwcdn.net/js/vbates.js?d=27102015
+Request Method:GET
+Status Code:304 Not Modified
+Remote Address:205.185.208.11:80
+Response Headers
+view source
+Accept-Ranges:bytes
+Age:0
+Cache-Control:public, max-age=31536000
+Connection:Keep-Alive
+Content-Type:application/x-javascript
+Date:Tue, 08 Mar 2016 20:23:28 GMT
+ETag:"1445952228"
+Last-Modified:Tue, 27 Oct 2015 13:23:48 GMT
+X-HW:1457329626.dop018.am4.t,1457329626.cds044.am4.c
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate, sdch
+Accept-Language:en-US,en;q=0.8,id;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:tbid=3CD73E1C72FB46588D47DD667442D173; chnl=clkmidex; prod=shopperz111220151459; ver=2.0.0.480; __utma=1.194073175.1451233236.1451233236.1451233236.1; __utmz=1.1451233236.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; geo=ID; daily=true; prepopTimer=1457465768617; prepopIndex=3
+Host:q2u3z6t7.ssl.hwcdn.net
+If-Modified-Since:Tue, 27 Oct 2015 13:23:48 GMT
+If-None-Match:"1445952228"
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36
+Query String Parameters
+view source
+view URL encoded
+d:27102015
+Name
+fbMyApp.html
+vbates.js?d=27102015
+2 requests ❘ 322 B transferred ❘ Finish: 639 ms ❘ DOMContentLoaded: 792 ms ❘ Load: 791 ms
+
+Console
+Emulation
+
+
+
+
+Preserve log
+.
+2016-03-09 03:23:17.272 vbates.js?d=27102015:1 Uncaught ReferenceError: _VBATES_YTDOWN_BASE_CONF is not defined
+2016-03-09 03:23:35.170 Navigated to file:///C:/Users/Axioo/Favorites/fbMyApp.html
+2016-03-09 03:23:35.752
+vbates.js?d=27102015:1 Uncaught ReferenceError: _VBATES_YTDOWN_BASE_CONF is not defined
+init	@	vbates.js?d=27102015:1
+(anonymous function)	@	vbates.js?d=27102015:1
+2016-03-09 03:23:46.327 Error saving setting with name: previouslyViewedFiles, value length: 3555. Error: Failed to set the 'previouslyViewedFiles' property on 'Storage': Setting the value of 'previouslyViewedFiles' exceeded the quota.
+2016-03-09 03:23:46.330 Ten largest settings: 
+2016-03-09 03:23:46.577 Setting: 'consoleHistory', size: 5235172
+2016-03-09 03:23:46.578 Setting: 'savedURLs', size: 3672
+2016-03-09 03:23:46.578 Setting: 'previouslyViewedFiles', size: 3516
+2016-03-09 03:23:46.578 Setting: 'breakpoints', size: 227
+2016-03-09 03:23:46.578 Setting: 'watchExpressions', size: 45
+.
