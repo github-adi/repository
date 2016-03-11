@@ -1,0 +1,40 @@
+/*-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-My re-edit from css link:
+http://kedungrejo.com/css/tables.css
+*/
+body, table{
+	width:100%;
+	border-collapse:collapse;
+	table-layout:auto;
+	vertical-align:top;
+	margin-bottom:15px;
+	}
+
+body,table thead th{
+	color:#FFFFFF;
+	background-color:#666666;
+	border-collapse:collapse;
+	text-align:center;
+	table-layout:auto;
+	vertical-align:middle;
+	}
+
+body,table tbody td{
+	vertical-align:top;
+	border-collapse:collapse;
+	}
+	
+body,table thead th, table tbody td{
+	padding:5px;
+	border-collapse:collapse;
+	}
+
+body,table tbody tr.light{
+	color:#666666;
+	background-color:#F7F7F7;
+	}
+
+body,table tbody tr.dark{
+	color:#666666;
+	background-color:#E8E8E8;
+	}
