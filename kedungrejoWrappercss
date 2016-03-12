@@ -1,0 +1,29 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-My re-edit css link:
+http://kedungrejo.com/css/layout.css
+<style>
+/* ----------------------------------------------Wrapper-------------------------------------*/
+body,div.wrapper{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align:left;
+	}
+
+body,div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+	margin:0 0 15px 0;
+	padding:0;
+	font-size:20px;
+	font-weight:normal;
+	line-height:normal;
+	}
+
+body,.col1, .col1 a{color:#676767; background-color:#191919; border-top:10px solid #B86365;}
+body,.col1 a{border:none;}
+body,.col2{color:#666666; background-color:#202020;}
+body,.col3{color:#989898; background:url("http://vanaceketi.net/img/shout_a_bg.gif") top left repeat-x #FAFAFA;}
+body,.col4{color:#989898; background-color:#FAFAFA;}
+</style>
+
+<p>div.wrapper</p>
