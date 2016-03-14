@@ -1,0 +1,131 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+http://cdncache-a.akamaihd.net/loaders/icp
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-03-14T20:31:01.816Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 483.0409999995027,
+          "onLoad": 451.70299999881536
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-03-14T20:31:01.939Z",
+        "time": 238.76300000119954,
+        "request": {
+          "method": "GET",
+          "url": "http://cdncache-a.akamaihd.net/loaders/icp",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "cdncache-a.akamaihd.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 319,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 20:31:02 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.8.0"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=1800"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "527"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1165,
+            "mimeType": "application/javascript",
+            "compression": 638
+          },
+          "redirectURL": "",
+          "headersSize": 236,
+          "bodySize": 527,
+          "_transferSize": 763
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.2209999988263,
+          "dns": 105.1000000006757,
+          "connect": 61.680000002525006,
+          "send": 1.5759999987489834,
+          "wait": 66.471999998612,
+          "receive": 1.7140000018115416,
+          "ssl": -1
+        },
+        "connection": "32660",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
