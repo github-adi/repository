@@ -1,0 +1,135 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+http://cdncache-a.akamaihd.net/loaders/2347/l.js?pid=2347&ext=Royalads&zoneid=87821558
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-03-14T20:11:52.907Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 828.3900000005815,
+          "onLoad": 827.3320000007516
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-03-14T20:11:53.015Z",
+        "time": 249.8779999987164,
+        "request": {
+          "method": "GET",
+          "url": "http://cdncache-a.akamaihd.net/loaders/2347/l.js?pid=2347&ext=Royalads&zoneid=87821558",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "cdncache-a.akamaihd.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 02 Mar 2016 20:13:11 GMT"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "pid",
+              "value": "2347"
+            },
+            {
+              "name": "ext",
+              "value": "Royalads"
+            },
+            {
+              "name": "zoneid",
+              "value": "87821558"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 413,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 20:11:53 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=1950"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 02 Mar 2016 20:13:11 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 44976,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 205,
+          "bodySize": 0,
+          "_transferSize": 205
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.90299999849231,
+          "dns": 116.13200000101669,
+          "connect": 62.47299999995401,
+          "send": 1.2029999998050016,
+          "wait": 65.102000000479,
+          "receive": 3.064999998969398,
+          "ssl": -1
+        },
+        "connection": "30732",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
