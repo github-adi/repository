@@ -1,0 +1,144 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+https://cdncache-a.akamaihd.net/sub/xd1c6ea/clkmidex_ID/l.js?pid=1725&ext=Albireo
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-03-14T20:53:30.589Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 423.4360000009474,
+          "onLoad": 436.26900000163005
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-03-14T20:53:30.764Z",
+        "time": 154.00799999770243,
+        "request": {
+          "method": "GET",
+          "url": "https://cdncache-a.akamaihd.net/sub/xd1c6ea/clkmidex_ID/l.js?pid=1725&ext=Albireo",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "cdncache-a.akamaihd.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "pid",
+              "value": "1725"
+            },
+            {
+              "name": "ext",
+              "value": "Albireo"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 357,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 20:53:31 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.8.0"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "P3P",
+              "value": "CP=\"CUR ADM OUR NOR STA NID\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=14400"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Content-Length",
+              "value": "773"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1337,
+            "mimeType": "application/x-javascript",
+            "compression": 564
+          },
+          "redirectURL": "",
+          "headersSize": 274,
+          "bodySize": 773,
+          "_transferSize": 1047
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.55599999966216,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.98199999774807,
+          "wait": 62.75500000265307,
+          "receive": 86.71499999763913,
+          "ssl": -1
+        },
+        "connection": "34315",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
