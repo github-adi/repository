@@ -1,0 +1,308 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+http://c.qkntjs.info/177606575.js?dn=kedungrejo.com&isc=0
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-03-14T17:02:45.981Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 977.5390000004336,
+          "onLoad": 976.8120000007912
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-03-14T17:02:46.079Z",
+        "time": 800.5549999998038,
+        "request": {
+          "method": "GET",
+          "url": "http://c.qkntjs.info/177606575.js?dn=kedungrejo.com&isc=0",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "If-None-Match",
+              "value": "\"505a16f6-1b\""
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "c.qkntjs.info"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "Cookie",
+              "value": "tagu=0; scfpc=1; fcfg=-1; rmbwlt=1; cpct=-1; cpcuf=-1; xmofrs=0; cpc2f=-1; cpcpereu=-1; cpcv2eu=-1; cpcde=1; rst0=-1; hbid=bf2937e55c942a91dcfd4739e1b11671d; hid=0; induction=display-offers; sbrtsg7=2; ctftst_=1; addETB=true; partner=qknt; channel=qknt"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 19 Sep 2012 19:03:18 GMT"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "dn",
+              "value": "kedungrejo.com"
+            },
+            {
+              "name": "isc",
+              "value": "0"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "tagu",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "scfpc",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "fcfg",
+              "value": "-1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "rmbwlt",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "cpct",
+              "value": "-1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "cpcuf",
+              "value": "-1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "xmofrs",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "cpc2f",
+              "value": "-1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "cpcpereu",
+              "value": "-1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "cpcv2eu",
+              "value": "-1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "cpcde",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "rst0",
+              "value": "-1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "hbid",
+              "value": "bf2937e55c942a91dcfd4739e1b11671d",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "hid",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "induction",
+              "value": "display-offers",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "sbrtsg7",
+              "value": "2",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "ctftst_",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "addETB",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "partner",
+              "value": "qknt",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "channel",
+              "value": "qknt",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 676,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "X-Origin",
+              "value": "crown"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 17:02:46 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 19 Sep 2012 19:03:18 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "openresty/1.5.12.1"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"505a16f6-1b\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=21600"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Expires",
+              "value": "Mon, 14 Mar 2016 23:02:46 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 27,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 365,
+          "bodySize": 0,
+          "_transferSize": 365
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.91000000015629,
+          "dns": 123.44099999972971,
+          "connect": 40.52800000044999,
+          "send": 14.293000000179006,
+          "wait": 605.506999999307,
+          "receive": 13.875999999981786,
+          "ssl": -1
+        },
+        "connection": "21604",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
