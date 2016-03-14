@@ -1,0 +1,264 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+http://cds.v3x3b3b5.hwcdn.net/s/97c12b64-33d8-4a97-ae03-16a7e077dda1.js?cb=14
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-03-14T21:09:02.110Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 403.1730000024254,
+          "onLoad": 11496.05000000156
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-03-14T21:09:02.209Z",
+        "time": 166.97299999941606,
+        "request": {
+          "method": "GET",
+          "url": "http://cds.v3x3b3b5.hwcdn.net/s/97c12b64-33d8-4a97-ae03-16a7e077dda1.js?cb=14",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "cds.v3x3b3b5.hwcdn.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"1457970335\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Mon, 14 Mar 2016 15:45:35 GMT"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "cb",
+              "value": "14"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 433,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 21:09:02 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 14 Mar 2016 15:45:35 GMT"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"1457970335\""
+            },
+            {
+              "name": "X-HW",
+              "value": "1457970390.dop001.si1.t,1457970390.cds006.si1.c"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=3600"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 80920,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 308,
+          "bodySize": 0,
+          "_transferSize": 308
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.12299999859533,
+          "dns": -1,
+          "connect": -1,
+          "send": 71.75700000152577,
+          "wait": 90.4349999982519,
+          "receive": 1.6580000010430638,
+          "ssl": -1
+        },
+        "connection": "35457",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T21:09:02.456Z",
+        "time": 11144.698000000062,
+        "request": {
+          "method": "GET",
+          "url": "https://endpoint1.collection.eu.sumologic.com/receiver/v1/http/ZaVnC4dhaV0dlwzUH4jwlBZmEbcWT-Rv_I4f8ZlE1agy8jZERoSdRvOXpbR9IeET7FInCWksvaYD6lVk3BzasqePUqzTUkY5C2lG7FT7Stj0dpKUzaIKhQ==?!~430~100~a~pr~~file:~~~win7~gc~0~~602180~323~0~~~~~~",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "endpoint1.collection.eu.sumologic.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "Cookie",
+              "value": "AWSELB=5DE72D8702664FDEA814450A3B81B7C822D5237DE82F69206D55508F9E4A784317E2F60AD17230D7CF5A2C77BD79BFD76E0C1D93CC0A1236F34AC957F3EC0BF61F1BF9D4DA"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "!~430~100~a~pr~~file:~~~win7~gc~0~~602180~323~0~~~~~~",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "AWSELB",
+              "value": "5DE72D8702664FDEA814450A3B81B7C822D5237DE82F69206D55508F9E4A784317E2F60AD17230D7CF5A2C77BD79BFD76E0C1D93CC0A1236F34AC957F3EC0BF61F1BF9D4DA",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 693,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 21:09:13 GMT"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=15552000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 239,
+          "bodySize": 0,
+          "_transferSize": 239
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 13.1250000013097,
+          "dns": 56.771999999909895,
+          "connect": 10805.32999999928,
+          "send": 1.5119999989001371,
+          "wait": 266.2760000021008,
+          "receive": 1.6829999985620816,
+          "ssl": 10548.518999999926
+        },
+        "connection": "35505",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
