@@ -1,0 +1,143 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+http://cdn.jivosite.com/js/widget_en_US.js?rand=1456926222
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-03-14T18:27:06.556Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 834.7889999986364,
+          "onLoad": 818.755999998757
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-03-14T18:27:06.697Z",
+        "time": 464.93199999895296,
+        "request": {
+          "method": "GET",
+          "url": "http://cdn.jivosite.com/js/widget_en_US.js?rand=1456926222",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "cdn.jivosite.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 02 Mar 2016 13:44:18 GMT"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "rand",
+              "value": "1456926222"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 385,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 18:27:07 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 02 Mar 2016 13:44:18 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 14347,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 283,
+          "bodySize": 0,
+          "_transferSize": 283
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.45899999936228,
+          "dns": -1,
+          "connect": -1,
+          "send": 1.19499999891559,
+          "wait": 458.20000000094313,
+          "receive": 3.077999999731958,
+          "ssl": -1
+        },
+        "connection": "25919",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
