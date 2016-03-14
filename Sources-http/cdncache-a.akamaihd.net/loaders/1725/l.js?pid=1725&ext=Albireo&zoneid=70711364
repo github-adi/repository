@@ -1,0 +1,135 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+http://cdncache-a.akamaihd.net/loaders/1725/l.js?pid=1725&ext=Albireo&zoneid=70711364
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-03-14T20:03:45.098Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 626.5220000004774,
+          "onLoad": 625.8020000004763
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-03-14T20:03:45.182Z",
+        "time": 112.49300000054063,
+        "request": {
+          "method": "GET",
+          "url": "http://cdncache-a.akamaihd.net/loaders/1725/l.js?pid=1725&ext=Albireo&zoneid=70711364",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "cdncache-a.akamaihd.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 02 Mar 2016 20:13:12 GMT"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "pid",
+              "value": "1725"
+            },
+            {
+              "name": "ext",
+              "value": "Albireo"
+            },
+            {
+              "name": "zoneid",
+              "value": "70711364"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 412,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 20:03:45 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=8161"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 02 Mar 2016 20:13:12 GMT"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 44976,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 205,
+          "bodySize": 0,
+          "_transferSize": 205
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.38499999977648,
+          "dns": -1,
+          "connect": -1,
+          "send": 41.416000000026514,
+          "wait": 67.46000000021,
+          "receive": 1.2320000005276341,
+          "ssl": -1
+        },
+        "connection": "30121",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
