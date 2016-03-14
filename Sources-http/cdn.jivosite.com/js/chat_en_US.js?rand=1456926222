@@ -1,0 +1,1143 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+http://cdn.jivosite.com/js/chat_en_US.js?rand=1456926222
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-03-14T18:12:59.141Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 1402.7009999990696,
+          "onLoad": 5199.733999999808
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-03-14T18:12:59.313Z",
+        "time": 539.3780000013066,
+        "request": {
+          "method": "GET",
+          "url": "http://cdn.jivosite.com/js/chat_en_US.js?rand=1456926222",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "cdn.jivosite.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 02 Mar 2016 13:43:50 GMT"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "rand",
+              "value": "1456926222"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 383,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 18:13:00 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 02 Mar 2016 13:43:50 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 452697,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 261,
+          "bodySize": 0,
+          "_transferSize": 261
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.75500000113971,
+          "dns": 18.684999999095492,
+          "connect": 41.235000000597196,
+          "send": 1.6930000001593015,
+          "wait": 472.15999999934826,
+          "receive": 3.850000000966702,
+          "ssl": -1
+        },
+        "connection": "25229",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T18:13:00.553Z",
+        "time": 495.1199999995879,
+        "request": {
+          "method": "GET",
+          "url": "http://cdn.jivosite.com/js/chat_en_US.js?rand=1456926222",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "cdn.jivosite.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Wed, 02 Mar 2016 13:43:50 GMT"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "rand",
+              "value": "1456926222"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 484,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 18:13:01 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 02 Mar 2016 13:43:50 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=86400"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 452697,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 261,
+          "bodySize": 0,
+          "_transferSize": 261
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.11999999919499,
+          "dns": -1,
+          "connect": -1,
+          "send": 16.69800000127001,
+          "wait": 471.997999999076,
+          "receive": 4.3040000000468694,
+          "ssl": -1
+        },
+        "connection": "25229",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T18:13:01.174Z",
+        "time": 399.5199999990291,
+        "request": {
+          "method": "POST",
+          "url": "https://mybrowserpages.com/json/index.php?name=EasySearch",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "http://cdn.jivosite.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "mybrowserpages.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://cdn.jivosite.com/js/chat_en_US.js?rand=1456926222"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "name",
+              "value": "EasySearch"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 447,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 18:12:59 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "PHP/5.3.29"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 62,
+            "mimeType": "text/html",
+            "compression": -31
+          },
+          "redirectURL": "",
+          "headersSize": 253,
+          "bodySize": 93,
+          "_transferSize": 346
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.15000000005239,
+          "dns": -1,
+          "connect": -1,
+          "send": 1.22600000031525,
+          "wait": 395.89999999952835,
+          "receive": 1.2439999991331092,
+          "ssl": -1
+        },
+        "connection": "25160",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T18:13:03.609Z",
+        "time": 406.7910000012489,
+        "request": {
+          "method": "GET",
+          "url": "https://mybrowserpages.com/extension/EasySearch/info.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "mybrowserpages.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://cdn.jivosite.com/js/chat_en_US.js?rand=1456926222"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "W/\"56e62cae-14de\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Mon, 14 Mar 2016 03:14:54 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 482,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 18:13:02 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=43200"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 14 Mar 2016 03:14:54 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "ETag",
+              "value": "\"56e62cae-14de\""
+            },
+            {
+              "name": "Expires",
+              "value": "Tue, 15 Mar 2016 06:13:02 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5342,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 244,
+          "bodySize": 0,
+          "_transferSize": 244
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.47099999999045,
+          "dns": -1,
+          "connect": -1,
+          "send": 1.2290000013308604,
+          "wait": 400.9429999987337,
+          "receive": 1.1480000011939069,
+          "ssl": -1
+        },
+        "connection": "25160",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T18:13:09.424Z",
+        "time": 6.104000000050291,
+        "request": {
+          "method": "GET",
+          "url": "http://mybrowserpages.com/acontrol/index.html",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://cdn.jivosite.com/js/chat_en_US.js?rand=1456926222"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 16:05:19 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 09 Mar 2016 06:19:06 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Age",
+              "value": "89"
+            },
+            {
+              "name": "ETag",
+              "value": "\"56dfc05a-ac6\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 4171,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.80800000068848,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 1.8279999985679798,
+          "receive": 3.4680000007938316,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T18:13:09.577Z",
+        "time": 416.322000000946,
+        "request": {
+          "method": "POST",
+          "url": "https://mybrowserpages.com/json/index.php?name=EasySearch",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "http://mybrowserpages.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "mybrowserpages.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://mybrowserpages.com/acontrol/index.html"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "name",
+              "value": "EasySearch"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 412,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 18:13:08 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "PHP/5.3.29"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 62,
+            "mimeType": "text/html",
+            "compression": -31
+          },
+          "redirectURL": "",
+          "headersSize": 253,
+          "bodySize": 93,
+          "_transferSize": 346
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.75400000080117,
+          "dns": -1,
+          "connect": -1,
+          "send": 1.4470000005530899,
+          "wait": 405.09599999859375,
+          "receive": 8.025000000997977,
+          "ssl": -1
+        },
+        "connection": "25160",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T18:13:10.123Z",
+        "time": 10.076000000481145,
+        "request": {
+          "method": "GET",
+          "url": "https://mybrowserpages.com/extension/EasySearch/info.js",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://mybrowserpages.com/acontrol/index.html"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 18:13:02 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 14 Mar 2016 03:14:54 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"56e62cae-14de\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=43200"
+            },
+            {
+              "name": "Expires",
+              "value": "Tue, 15 Mar 2016 06:13:02 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5342,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.46800000038638,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 1.4879999998811402,
+          "receive": 7.120000000213624,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T18:13:10.129Z",
+        "time": 171.23700000047393,
+        "request": {
+          "method": "GET",
+          "url": "https://www.onclickcool.com/8v8gcm/bindo.js",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://cdn.jivosite.com/js/chat_en_US.js?rand=1456926222"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 13 Mar 2016 17:51:02 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 19 Jan 2016 02:49:45 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "ETag",
+              "value": "\"1b852-529a6ec0ae440\""
+            },
+            {
+              "name": "Content-Length",
+              "value": "112722"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 112722,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 30.241999998907,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 102.97800000080301,
+          "receive": 38.017000000763915,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T18:13:15.168Z",
+        "time": 7.6110000009066425,
+        "request": {
+          "method": "GET",
+          "url": "http://mybrowserpages.com/acontrol/index.html",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "http://mybrowserpages.com/acontrol/index.html"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 16:05:19 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 09 Mar 2016 06:19:06 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Age",
+              "value": "89"
+            },
+            {
+              "name": "ETag",
+              "value": "\"56dfc05a-ac6\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 4171,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.01300000096671,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 1.0719999991124503,
+          "receive": 5.526000000827482,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T18:13:15.356Z",
+        "time": 2251.647999999477,
+        "request": {
+          "method": "POST",
+          "url": "https://mybrowserpages.com/json/index.php?name=EasySearch",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "http://mybrowserpages.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "mybrowserpages.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "http://mybrowserpages.com/acontrol/index.html"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "name",
+              "value": "EasySearch"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 412,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 502,
+          "statusText": "Bad Gateway",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 14 Mar 2016 18:13:15 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "568"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 568,
+            "mimeType": "text/html",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 150,
+          "bodySize": 568,
+          "_transferSize": 718
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.17100000008941,
+          "dns": -1,
+          "connect": -1,
+          "send": 1.08000000000174,
+          "wait": 2247.0400000001987,
+          "receive": 1.3569999991873374,
+          "ssl": -1
+        },
+        "connection": "25160",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-03-14T18:13:15.787Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://www.onclickcool.com/8v8gcm/bindo.js",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 13 Mar 2016 17:51:02 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 19 Jan 2016 02:49:45 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "ETag",
+              "value": "\"1b852-529a6ec0ae440\""
+            },
+            {
+              "name": "Content-Length",
+              "value": "112722"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 112722,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
