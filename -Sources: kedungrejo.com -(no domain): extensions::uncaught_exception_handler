@@ -1,0 +1,39 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+-Sources:
+kedungrejo.com
+-(no domain):
+extensions::uncaught_exception_handler
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": []
+  }
+}
+-To be evaluated in console:
+Provisional headers are shown
+Accept:*/*
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+Name
+tpc.html
+extensionsuncaught_exception_handler.js
+c:\Users\Axioo\Favorites\extensionsuncaught_exception_handler.js
+3 requests ❘ 0 B transferred ❘ Finish: 70 ms ❘ DOMContentLoaded: 114 ms ❘ Load: 111 ms
+
+Console
+
+
+
+
+
+Preserve log
+﻿
+2016-03-19 02:11:46.080 Navigated to file:///C:/Users/Axioo/Favorites/tpc.html
+﻿
