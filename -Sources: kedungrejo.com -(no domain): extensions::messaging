@@ -1,0 +1,41 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+-Sources:
+kedungrejo.com
+-(no domain):
+extensions::messaging
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": []
+  }
+}
+-To be evaluated in console:
+Request URL:file:///C:/Users/Axioo/Favorites/extensionslastError.js
+Request Headers
+Provisional headers are shown
+Accept:*/*
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+Name
+tpc.html
+extensionslastError.js
+c:\Users\Axioo\Favorites\extensionslastError.js
+3 requests ❘ 0 B transferred ❘ Finish: 58 ms ❘ DOMContentLoaded: 83 ms ❘ Load: 80 ms
+
+Console
+
+
+
+
+
+Preserve log
+﻿
+2016-03-19 01:40:38.136 Navigated to file:///C:/Users/Axioo/Favorites/tpc.html
+﻿
