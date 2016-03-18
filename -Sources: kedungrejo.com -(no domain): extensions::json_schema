@@ -1,0 +1,43 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+-Sources:
+kedungrejo.com
+-(no domain):
+extensions::json_schema
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": []
+  }
+}
+-To be evaluated in console:
+Request URL:file:///C:/Users/Axioo/Favorites/tpc.html
+Request Headers
+Provisional headers are shown
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests:1
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+Name
+tpc.html
+extensionjson_schema.js
+c:\Users\Axioo\Favorites\extensionjson_schema.js
+3 requests ❘ 0 B transferred ❘ Finish: 61 ms ❘ DOMContentLoaded: 106 ms ❘ Load: 102 ms
+
+Console
+
+
+
+
+
+Preserve log
+﻿
+2016-03-19 01:34:10.046 Navigated to file:///C:/Users/Axioo/Favorites/tpc.html
+﻿
+
