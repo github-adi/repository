@@ -1,0 +1,43 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+-Sources:
+kedungrejo.com
+-(no domain):
+extensions::Port
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": []
+  }
+}
+-To be evaluated in console:
+Request URL:file:///C:/Users/Axioo/Favorites/extensionPort.js
+Request Headers
+Provisional headers are shown
+Accept:*/*
+User-Agent:Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+Name
+tpc.html
+extensionPort.js
+c:\Users\Axioo\Favorites\extensionPort.js
+3 requests ❘ 0 B transferred ❘ Finish: 105 ms ❘ DOMContentLoaded: 139 ms ❘ Load: 137 ms
+
+Console
+
+
+
+
+
+Preserve log
+﻿
+2016-03-19 01:20:11.359 Navigated to file:///C:/Users/Axioo/Favorites/tpc.html
+﻿
+
+
