@@ -1,0 +1,34 @@
+-By Myhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Git Bash:
+-Get the code:
+git clone --recursive https://github.com/GoogleChrome/chromium-dashboard
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ git clone --recursive https://github.com/GoogleChrome/chromium-dashboard
+Cloning into 'chromium-dashboard'...
+remote: Counting objects: 5483, done.
+remote: Total 5483 (delta 0), reused 0 (delta 0), pack-reused 5483
+Receiving objects: 100% (5483/5483), 5.50 MiB | 188.00 KiB/s, done.
+Resolving deltas: 100% (3207/3207), done.
+Checking connectivity... done.
+Checking out files: 100% (197/197), done.
+Submodule 'http2push' (https://github.com/GoogleChrome/http2push-gae) registered
+ for path 'http2push'
+Cloning into 'http2push'...
+remote: Counting objects: 277, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 277 (delta 0), reused 0 (delta 0), pack-reused 274Receiving object
+Receiving objects:  82% (228/277), 780.01 KiB | 188.00 KiB/s
+Receiving objects: 100% (277/277), 793.88 KiB | 188.00 KiB/s, done.
+Resolving deltas: 100% (149/149), done.
+Checking connectivity... done.
+Submodule path 'http2push': checked out '2c9c40460d906981228024e34cb08710b6c1f07
+5'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
