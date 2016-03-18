@@ -1,0 +1,199 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Sources:
+-Sources:
+http://q2u3z6t7.ssl.hwcdn.net/html/pixel.html?d=2
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-03-18T17:01:58.092Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 454.59200000004785,
+          "onLoad": 451.25999999982014
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-03-18T17:01:58.602Z",
+        "time": 193.16399999979694,
+        "request": {
+          "method": "GET",
+          "url": "http://cfs.uzone.id/cfspushadsv2/request?id=1&enc=telkom2&params=4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnYJ1CKGI28%2fRUIQ3rl6uu47fX7nXNQfqLnckFdy0qQPXqsTp8SU73syxPUOaGTyXVMNXzrR3TRfw0zbZxVostW1Vo1kRd2VKEkUWoa5lCf8b%2brmDiYPMy6pvp7uSQN3RRKTSzJGYxYMRh7JkvpPDMnRiTaRM62zEcAzR9gw2Sl56gj1Jw3F0DsLTju1yYwIws%2bbJWd7Xu5eKAuFSwgHr61df0MaWOzhLtyoWSaKkvKGLoKkzfbHX1A7YuPi7ZC%2fA%2fd7JaRZ5qyDAapZvgGaFCooast3hkyoRSo%2bwseQrz7%2bMneI0Q1WES73FWObusUSKJUtU1o3o7%2fXWzT%2f6wNImbd4cRKZOmBRRGM74qWdLyHc7WYsg2d%2b8rgoXoc7KCW75acPGJBQfSaX7ryDO9yyCnoyhFNMn4RCdFiHQW3mm0nL54k6Yl2%2bWdG7NgWzrFxi3AqW9S73qv5a44e0uf8bEVzNxCpR784RLvPL5FbubSFx0JpJPIoBdKeYjvJbf5CqzthvNTrYzKhBfOHtp21N5ZLKVskjMzVD2%2bctW4LRaJ9VUikZG4tOZjDg%3d%3d&idc_r=3189775782&domain=&sw=1366&sh=768",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Cookie",
+              "value": "__utma=109250497.386957044.1452795499.1456327479.1456407721.3; __utmz=109250497.1456407721.3.3.utmcsr=v3.mercusuar.uzone.id|utmccn=(referral)|utmcmd=referral|utmcct=/; _em_vt=a3a8ca985527f082b7f36c8f67e55669b79270bd06-5326313256cf04ae; _ga=GA1.2.386957044.1452795499; __auc=e17fa999152415c4adaf3c7582a; __bid=da169b7e72f417b3d8328348fe81bebf4e778d24; __cid=QDtoToTaUk%2BuGRLIUNpnK5gs9pY2cOQDCrNqeA1tBrUdWROYcXeQIceSzUTYLO10xrtQeeLZhbe3%2BR6tVUAAVKHyhkvn2sncCo%2FGBsmbgYbSnk8Bys1Y1OWvKKWPLfnvNg%3D%3D"
+            },
+            {
+              "name": "Host",
+              "value": "cfs.uzone.id"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "id",
+              "value": "1"
+            },
+            {
+              "name": "enc",
+              "value": "telkom2"
+            },
+            {
+              "name": "params",
+              "value": "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnYJ1CKGI28%2fRUIQ3rl6uu47fX7nXNQfqLnckFdy0qQPXqsTp8SU73syxPUOaGTyXVMNXzrR3TRfw0zbZxVostW1Vo1kRd2VKEkUWoa5lCf8b%2brmDiYPMy6pvp7uSQN3RRKTSzJGYxYMRh7JkvpPDMnRiTaRM62zEcAzR9gw2Sl56gj1Jw3F0DsLTju1yYwIws%2bbJWd7Xu5eKAuFSwgHr61df0MaWOzhLtyoWSaKkvKGLoKkzfbHX1A7YuPi7ZC%2fA%2fd7JaRZ5qyDAapZvgGaFCooast3hkyoRSo%2bwseQrz7%2bMneI0Q1WES73FWObusUSKJUtU1o3o7%2fXWzT%2f6wNImbd4cRKZOmBRRGM74qWdLyHc7WYsg2d%2b8rgoXoc7KCW75acPGJBQfSaX7ryDO9yyCnoyhFNMn4RCdFiHQW3mm0nL54k6Yl2%2bWdG7NgWzrFxi3AqW9S73qv5a44e0uf8bEVzNxCpR784RLvPL5FbubSFx0JpJPIoBdKeYjvJbf5CqzthvNTrYzKhBfOHtp21N5ZLKVskjMzVD2%2bctW4LRaJ9VUikZG4tOZjDg%3d%3d"
+            },
+            {
+              "name": "idc_r",
+              "value": "3189775782"
+            },
+            {
+              "name": "domain",
+              "value": ""
+            },
+            {
+              "name": "sw",
+              "value": "1366"
+            },
+            {
+              "name": "sh",
+              "value": "768"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "__auc",
+              "value": "e17fa999152415c4adaf3c7582a",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__bid",
+              "value": "da169b7e72f417b3d8328348fe81bebf4e778d24",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__cid",
+              "value": "QDtoToTaUk%2BuGRLIUNpnK5gs9pY2cOQDCrNqeA1tBrUdWROYcXeQIceSzUTYLO10xrtQeeLZhbe3%2BR6tVUAAVKHyhkvn2sncCo%2FGBsmbgYbSnk8Bys1Y1OWvKKWPLfnvNg%3D%3D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "109250497.386957044.1452795499.1456327479.1456407721.3",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "109250497.1456407721.3.3.utmcsr=v3.mercusuar.uzone.id|utmccn=(referral)|utmcmd=referral|utmcct=/",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_em_vt",
+              "value": "a3a8ca985527f082b7f36c8f67e55669b79270bd06-5326313256cf04ae",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.2.386957044.1452795499",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1494,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Fri, 18 Mar 2016 17:02:00 GMT"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript;charset=UTF-8"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/javascript",
+            "compression": -5
+          },
+          "redirectURL": "",
+          "headersSize": 176,
+          "bodySize": 5,
+          "_transferSize": 181
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 119.783999999981,
+          "dns": -1,
+          "connect": -1,
+          "send": 3.019000000222988,
+          "wait": 68.955999999616,
+          "receive": 1.4049999999769511,
+          "ssl": -1
+        },
+        "connection": "16159",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
