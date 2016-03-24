@@ -1,0 +1,445 @@
+-By Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Souces:
+-Sources:
+-(no domain):
+(index)
+<style>
+body,.VIstGXJuu,.VIstGXJuu *,.t6hlqHHv3rT,.t6hlqHHv3rT *{
+background:0 0!important;-moz-box-sizing:border-box!important;-webkit-box-sizing:border-box!important;-o-box-sizing:border-box!important;-ms-box-sizing:border-box!important;box-sizing:border-box!important;border:0!important;bottom:auto!important;clip:auto!important;clear:none!important;display:block!important;float:none!important;height:200pximportant;left:auto;margin:0!important;max-height:100px!important;max-width:300px!important;min-height:100px!important;min-width:100px!important;opacity:1;overflow:visible!important;padding:0!important;position:static!important;pointer-events:auto!important;right:auto!important;text-align:center!important;text-indent:0!important;-moz-transform:none!important;-webkit-transform:none!important;-o-transform:none!important;-ms-transform:none!important;transform:none!important;vertical-align:baseline!important;top:auto;visibility:visible!important;white-space:normal!important;width:auto!important;zoom:1!important}
+body,.t6hlqHHv3rT,.t6hlqHHv3rT img{display:inline-block!important}
+body,.VIstGXJuu,.VIstGXJuu *,.t6hlqHHv3rT .GOVkEAE62hkO5,.t6hlqHHv3rT.GOVkEAE62hkO5{font-weight:400!important;text-decoration:none!important;text-transform:none!important}
+body,.VIstGXJuu .hSP1ax6CB:hover,.t6hlqHHv3rT.GOVkEAE62hkO5{text-decoration:underline!important}
+body,.t6hlqHHv3rT{margin:0 0 0 3px!important}
+body,.t6hlqHHv3rT.GOVkEAE62hkO5{font-weight:700!important;text-transform:uppercase!important}
+body,.t6hlqHHv3rT img{height:10px!important;margin:0 3px!important;vertical-align:super!important;width:10px!important}
+body,.VIstGXJuu{background:#FEFEFE!important;border:1px solid #ececec!important;-moz-border-radius:10px!important;-webkit-border-radius:10px!important;-o-border-radius:10px!important;- ms-border-radius:10px!important;border-radius:10px!important;-moz-box-shadow:1px 3px 8px rgba(0,0,0,.37)!important;-webkit-box-shadow:1px 3px 8px rgba(0,0,0,.37)!important;-o-box-shadow:1px 3px 8px rgba(0,0,0,.37)!important;-ms-box-shadow:1px 3px 8px rgba(0,0,0,.37)!important;box-shadow:1px 3px 8px rgba(0,0,0,.37)!important;filter:progid:DXImageTransform.Microsoft.Shadow(color=#888888, direction=135, strength=4)!important;font:12px/normal Verdana,sans-serif!important;cursor:pointer!important;position:absolute!important;z-index:2147483647!important}
+body,.VIstGXJuu .I0tgzVrRrj{color:#000!important;display:inline!important;cursor:pointer!important}
+body,.VIstGXJuu .n88A3Ra8{clear:both!important;padding:15px 15px 0!important;position:relative!important}
+body,.VIstGXJuu .F02MLh4Xt{overflow:hidden!important;text-align:center!important}
+body,.VIstGXJuu .PmPOQIy36{color:#00F!important;font-size:13px!important}
+body,.VIstGXJuu .Sp46lB4dd{font:11px Tahoma,sans-serif!important;margin:0 0 3px!important;min-height:40px!important}
+body,.VIstGXJuu .hSP1ax6CB,.VIstGXJuu .SmE6HPIL1{font:10px Tahoma,sans-serif!important}
+body,.VIstGXJuu .SmE6HPIL1{color:#093!important;margin:0 0 8px!important}
+body,.VIstGXJuu .hoN0QuLYb284{-moz-border-radius:5px!important;-webkit-border-radius:5px!important;-o-border-radius:5px!important;-ms-border-radius:5px!important;border-,radius:5px!important;border:1px solid #BB0500!important;-moz-box-shadow:inset 0 0 2px rgba(255,255,255,.2)!important;-webkit-box-shadow:inset 0 0 2px rgba(255,255,255,.2)!important;-o-box-shadow:inset 0 0 2px rgba(255,255,255,.2)!important;-ms-box-shadow:inset 0 0 2px rgba(255,255,255,.2)!important;box-shadow:inset 0 0 2px rgba(255,255,255,.2)!important;float:left!important;overflow:hidden!important}
+body,.VIstGXJuu .uqkbZ5m66C{background:#E90E00!important;background-image:-moz-linear-gradient(90deg,#d92c2a,#fc3f2a)!important;background-image:-webkit-linear-gradient(90deg,#d92c2a,#fc3f2a)!important;background-image:-o-linear-gradient(90deg,#d92c2a,#fc3f2a)!important;background-image:-ms-linear-gradient(90deg,#d92c2a,#fc3f2a)!important;background-image:linear-gradient(90deg,#d92c2a,#fc3f2a)!important;background-image:linear-gradient(0deg,#d92c2a,#fc3f2a)!important;color:#fff!important;padding:4px 14px!important}
+body,.VIstGXJuu .hSP1ax6CB{color:#999!important;float:right!important;padding:5px!important;text-align:right!important}
+body,.VIstGXJuu .DT18Y2fcDl{-moz-border-radius:3px!important;-webkit-border-radius:3px!important;-o-border-radius:3px!important;-ms-border-radius:3px!important;border-radius:3px!important;color:#d4d4d4!important;clear:both!important;display:block!important;float:right!important;font-weight:700!important;margin:2px 8px 0 0!important;padding:1px 4px!important}
+body,.VIstGXJuu .DT18Y2fcDl:hover{background:#eee!important}
+body,.VIstGXJuu iframe{height:250px!important;position:relative!important;width:300px!important}
+body,.VIstGXJuu .V7U6U7pn4{width:329px!important}
+body,.VIstGXJuu .V7U6U7pn4 .n88A3Ra8{padding-bottom:0!important}
+body,.VIstGXJuu .Jrg5mA6I2K8{width:327px!important}
+body,.VIstGXJuu .Jrg5mA6I2K8 .F02MLh4Xt{width:300px!important}
+body,.VIstGXJuu .ZGj1usne8{width:279px!important}
+body,.VIstGXJuu .ZGj1usne8 .F02MLh4Xt{padding:0 0 15px!important}
+body,.VIstGXJuu .Ph27dw806y3i{width:347px!important}
+body,.VIstGXJuu .Ph27dw806y3i .F02MLh4Xt{float:right!important;margin:0 0 0 5px!important}
+body,.VIstGXJuu .q20n7h30TQZ{width:259px!important}
+
+</style>
+<p>MUHAMMAD ADI NUGROHO,S.ADM.NEG.</p>
+<img src="http://kedungrejo.com/images/piecemaker/960x360.gif"/>
+
+
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-03-24T18:56:40.280Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 436.1189999999624,
+          "onLoad": 434.7749999997177
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-03-24T18:56:40.545Z",
+        "time": 111.59000000043306,
+        "request": {
+          "method": "GET",
+          "url": "http://kedungrejo.com/images/piecemaker/960x360.gif",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "__utma=1.2011967162.1456677846.1457210241.1457282442.4; __utmz=1.1456677846.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1; orUserGeo=ID; __utma=131372565.1576031362.1456676207.1458765566.1458841034.35; __utmc=131372565; __utmz=131372565.1458584370.30.2.utmcsr=htmledit.squarefree.com|utmccn=(referral)|utmcmd=referral|utmcct=/; orPrepop=true"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "kedungrejo.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"38c2ff-efa6-51e53c7b1f240\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Fri, 28 Aug 2015 00:01:05 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "__utma",
+              "value": "1.2011967162.1456677846.1457210241.1457282442.4",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "1.1456677846.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmv",
+              "value": "1.|2=product=vbates=1^3=channel=clkmidex=1^5=version=2.0.0.480=1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "orUserGeo",
+              "value": "ID",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "131372565.1576031362.1456676207.1458765566.1458841034.35",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "131372565",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "131372565.1458584370.30.2.utmcsr=htmledit.squarefree.com|utmccn=(referral)|utmcmd=referral|utmcct=/",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "orPrepop",
+              "value": "true",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 874,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 24 Mar 2016 19:53:19 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 28 Aug 2015 00:01:05 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/0.9.8e-fips-rhel5 mod_auth_passthrough/2.1 mod_bwlimited/1.4"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"38c2ff-efa6-51e53c7b1f240\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 61350,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": 340,
+          "bodySize": 0,
+          "_transferSize": 340
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 7.60700000046199,
+          "dns": -1,
+          "connect": -1,
+          "send": 1.8279999994774707,
+          "wait": 97.84900000067853,
+          "receive": 4.3059999998150715,
+          "ssl": -1
+        },
+        "connection": "14882",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
+-To be evaluated in console:
+2016-03-25 01:56:40.609 Navigated to file:///C:/Users/Axioo/Favorites/tpc.html
+2016-03-25 01:56:40.853 tpc.html:48 Resource interpreted as Stylesheet but transferred with MIME type text/html: "file:///C:/Users/Axioo/Favorites/".
+2016-03-25 02:04:41.320 Error saving setting with name: eventListenerBreakpoints, value length: 538. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:04:41.327 Ten largest settings: 
+2016-03-25 02:04:41.535 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:04:41.535 Setting: 'savedURLs', size: 3698
+2016-03-25 02:04:41.536 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:04:41.536 Setting: 'breakpoints', size: 227
+2016-03-25 02:04:41.536 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:04:41.536 Setting: 'watchExpressions', size: 45
+2016-03-25 02:04:41.536 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:04:41.536 Setting: 'experiments', size: 2
+2016-03-25 02:04:41.537 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:04:41.537 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:04:42.881 Error saving setting with name: eventListenerBreakpoints, value length: 1000. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:04:42.883 Ten largest settings: 
+2016-03-25 02:04:43.051 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:04:43.052 Setting: 'savedURLs', size: 3698
+2016-03-25 02:04:43.052 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:04:43.052 Setting: 'breakpoints', size: 227
+2016-03-25 02:04:43.052 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:04:43.052 Setting: 'watchExpressions', size: 45
+2016-03-25 02:04:43.052 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:04:43.053 Setting: 'experiments', size: 2
+2016-03-25 02:04:43.053 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:04:43.053 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:04:44.203 Error saving setting with name: eventListenerBreakpoints, value length: 1121. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:04:44.210 Ten largest settings: 
+2016-03-25 02:04:44.379 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:04:44.379 Setting: 'savedURLs', size: 3698
+2016-03-25 02:04:44.381 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:04:44.382 Setting: 'breakpoints', size: 227
+2016-03-25 02:04:44.382 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:04:44.383 Setting: 'watchExpressions', size: 45
+2016-03-25 02:04:44.383 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:04:44.383 Setting: 'experiments', size: 2
+2016-03-25 02:04:44.383 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:04:44.383 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:04:45.516 Error saving setting with name: eventListenerBreakpoints, value length: 1814. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:04:45.518 Ten largest settings: 
+2016-03-25 02:04:45.715 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:04:45.715 Setting: 'savedURLs', size: 3698
+2016-03-25 02:04:45.716 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:04:45.716 Setting: 'breakpoints', size: 227
+2016-03-25 02:04:45.716 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:04:45.716 Setting: 'watchExpressions', size: 45
+2016-03-25 02:04:45.717 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:04:45.717 Setting: 'experiments', size: 2
+2016-03-25 02:04:45.717 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:04:45.718 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:04:46.772 Error saving setting with name: eventListenerBreakpoints, value length: 2028. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:04:46.780 Ten largest settings: 
+2016-03-25 02:04:46.953 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:04:46.953 Setting: 'savedURLs', size: 3698
+2016-03-25 02:04:46.953 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:04:46.953 Setting: 'breakpoints', size: 227
+2016-03-25 02:04:46.953 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:04:46.954 Setting: 'watchExpressions', size: 45
+2016-03-25 02:04:46.954 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:04:46.954 Setting: 'experiments', size: 2
+2016-03-25 02:04:46.954 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:04:46.954 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:04:53.384 Error saving setting with name: eventListenerBreakpoints, value length: 2237. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:04:53.393 Ten largest settings: 
+2016-03-25 02:04:53.568 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:04:53.569 Setting: 'savedURLs', size: 3698
+2016-03-25 02:04:53.569 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:04:53.569 Setting: 'breakpoints', size: 227
+2016-03-25 02:04:53.569 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:04:53.570 Setting: 'watchExpressions', size: 45
+2016-03-25 02:04:53.571 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:04:53.571 Setting: 'experiments', size: 2
+2016-03-25 02:04:53.571 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:04:53.571 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:04:54.760 Error saving setting with name: eventListenerBreakpoints, value length: 2609. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:04:54.768 Ten largest settings: 
+2016-03-25 02:04:54.942 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:04:54.942 Setting: 'savedURLs', size: 3698
+2016-03-25 02:04:54.943 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:04:54.943 Setting: 'breakpoints', size: 227
+2016-03-25 02:04:54.943 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:04:54.943 Setting: 'watchExpressions', size: 45
+2016-03-25 02:04:54.943 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:04:54.943 Setting: 'experiments', size: 2
+2016-03-25 02:04:54.944 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:04:54.944 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:04:56.129 Error saving setting with name: eventListenerBreakpoints, value length: 4065. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:04:56.130 Ten largest settings: 
+2016-03-25 02:04:56.308 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:04:56.308 Setting: 'savedURLs', size: 3698
+2016-03-25 02:04:56.308 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:04:56.308 Setting: 'breakpoints', size: 227
+2016-03-25 02:04:56.308 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:04:56.309 Setting: 'watchExpressions', size: 45
+2016-03-25 02:04:56.309 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:04:56.309 Setting: 'experiments', size: 2
+2016-03-25 02:04:56.309 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:04:56.309 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:04:57.307 Error saving setting with name: eventListenerBreakpoints, value length: 4718. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:04:57.316 Ten largest settings: 
+2016-03-25 02:04:57.489 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:04:57.489 Setting: 'savedURLs', size: 3698
+2016-03-25 02:04:57.489 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:04:57.490 Setting: 'breakpoints', size: 227
+2016-03-25 02:04:57.490 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:04:57.490 Setting: 'watchExpressions', size: 45
+2016-03-25 02:04:57.490 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:04:57.490 Setting: 'experiments', size: 2
+2016-03-25 02:04:57.491 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:04:57.491 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:04:58.753 Error saving setting with name: eventListenerBreakpoints, value length: 4783. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:04:58.755 Ten largest settings: 
+2016-03-25 02:04:58.929 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:04:58.930 Setting: 'savedURLs', size: 3698
+2016-03-25 02:04:58.931 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:04:58.932 Setting: 'breakpoints', size: 227
+2016-03-25 02:04:58.932 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:04:58.932 Setting: 'watchExpressions', size: 45
+2016-03-25 02:04:58.935 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:04:58.935 Setting: 'experiments', size: 2
+2016-03-25 02:04:58.936 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:04:58.936 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:05:04.211 Error saving setting with name: eventListenerBreakpoints, value length: 5437. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:05:04.214 Ten largest settings: 
+2016-03-25 02:05:04.383 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:05:04.383 Setting: 'savedURLs', size: 3698
+2016-03-25 02:05:04.384 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:05:04.384 Setting: 'breakpoints', size: 227
+2016-03-25 02:05:04.384 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:05:04.385 Setting: 'watchExpressions', size: 45
+2016-03-25 02:05:04.385 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:05:04.390 Setting: 'experiments', size: 2
+2016-03-25 02:05:04.394 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:05:04.395 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:05:05.610 Error saving setting with name: eventListenerBreakpoints, value length: 5510. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:05:05.611 Ten largest settings: 
+2016-03-25 02:05:05.779 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:05:05.780 Setting: 'savedURLs', size: 3698
+2016-03-25 02:05:05.780 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:05:05.780 Setting: 'breakpoints', size: 227
+2016-03-25 02:05:05.781 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:05:05.781 Setting: 'watchExpressions', size: 45
+2016-03-25 02:05:05.781 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:05:05.781 Setting: 'experiments', size: 2
+2016-03-25 02:05:05.784 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:05:05.785 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:05:06.933 Error saving setting with name: eventListenerBreakpoints, value length: 5697. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:05:06.942 Ten largest settings: 
+2016-03-25 02:05:07.111 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:05:07.112 Setting: 'savedURLs', size: 3698
+2016-03-25 02:05:07.112 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:05:07.113 Setting: 'breakpoints', size: 227
+2016-03-25 02:05:07.113 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:05:07.114 Setting: 'watchExpressions', size: 45
+2016-03-25 02:05:07.114 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:05:07.114 Setting: 'experiments', size: 2
+2016-03-25 02:05:07.114 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:05:07.115 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:05:08.168 Error saving setting with name: eventListenerBreakpoints, value length: 5919. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:05:08.170 Ten largest settings: 
+2016-03-25 02:05:08.340 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:05:08.340 Setting: 'savedURLs', size: 3698
+2016-03-25 02:05:08.340 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:05:08.340 Setting: 'breakpoints', size: 227
+2016-03-25 02:05:08.341 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:05:08.341 Setting: 'watchExpressions', size: 45
+2016-03-25 02:05:08.341 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:05:08.341 Setting: 'experiments', size: 2
+2016-03-25 02:05:08.341 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:05:08.341 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:05:14.928 Error saving setting with name: eventListenerBreakpoints, value length: 6057. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:05:14.930 Ten largest settings: 
+2016-03-25 02:05:15.104 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:05:15.105 Setting: 'savedURLs', size: 3698
+2016-03-25 02:05:15.105 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:05:15.105 Setting: 'breakpoints', size: 227
+2016-03-25 02:05:15.105 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:05:15.105 Setting: 'watchExpressions', size: 45
+2016-03-25 02:05:15.106 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:05:15.106 Setting: 'experiments', size: 2
+2016-03-25 02:05:15.106 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:05:15.106 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:05:16.352 Error saving setting with name: eventListenerBreakpoints, value length: 6115. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:05:16.353 Ten largest settings: 
+2016-03-25 02:05:16.522 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:05:16.522 Setting: 'savedURLs', size: 3698
+2016-03-25 02:05:16.523 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:05:16.523 Setting: 'breakpoints', size: 227
+2016-03-25 02:05:16.523 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:05:16.523 Setting: 'watchExpressions', size: 45
+2016-03-25 02:05:16.523 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:05:16.523 Setting: 'experiments', size: 2
+2016-03-25 02:05:16.523 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:05:16.524 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-25 02:05:17.706 Error saving setting with name: eventListenerBreakpoints, value length: 6832. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-25 02:05:17.707 Ten largest settings: 
+2016-03-25 02:05:17.881 Setting: 'consoleHistory', size: 5235348
+2016-03-25 02:05:17.881 Setting: 'savedURLs', size: 3698
+2016-03-25 02:05:17.882 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-25 02:05:17.882 Setting: 'breakpoints', size: 227
+2016-03-25 02:05:17.882 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-25 02:05:17.885 Setting: 'watchExpressions', size: 45
+2016-03-25 02:05:17.885 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-25 02:05:17.885 Setting: 'experiments', size: 2
+2016-03-25 02:05:17.886 Setting: 'domBreakpoints', size: 2
+2016-03-25 02:05:17.886 Setting: 'workspaceExcludedFolders', size: 2
