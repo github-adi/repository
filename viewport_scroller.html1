@@ -1,0 +1,257 @@
+-My build Developer Programming Languages:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+viewport_scroller.html
+<html>
+<head>
+<body><script type="text/javascript"
+src="C:\Users\Axioo\Favorites\viewport.js"></script>
+<script src="C:\Users\Axioo\Favorites\viewport_scroller.js"></script>
+</body>
+</head>
+</html>
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [],
+    "entries": []
+  }
+}
+-To be evaluated in console:
+2016-03-26 03:36:32.011 viewport_scroller.js:44 Uncaught SyntaxError: In strict mode code, functions can only be declared at top level or immediately within another function.
+2016-03-26 03:36:54.920 viewport_scroller.js:44 Uncaught SyntaxError: In strict mode code, functions can only be declared at top level or immediately within another function.
+2016-03-26 03:36:55.070 Navigated to file:///C:/Users/Axioo/Favorites/viewport_scroller.html
+2016-03-26 03:37:01.880 add-js.js:8 GET file://api.jollywallet.com/affiliate/client?p=16&dist=261&sub=chrome208 net::ERR_FILE_NOT_FOUND(anonymous function) @ add-js.js:8
+2016-03-26 03:37:47.153 Error saving setting with name: eventListenerBreakpoints, value length: 538. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:37:47.165 Ten largest settings: 
+2016-03-26 03:37:47.338 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:37:47.338 Setting: 'savedURLs', size: 3698
+2016-03-26 03:37:47.338 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:37:47.338 Setting: 'breakpoints', size: 227
+2016-03-26 03:37:47.339 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:37:47.339 Setting: 'watchExpressions', size: 45
+2016-03-26 03:37:47.339 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:37:47.339 Setting: 'experiments', size: 2
+2016-03-26 03:37:47.339 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:37:47.339 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:37:48.688 Error saving setting with name: eventListenerBreakpoints, value length: 1000. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:37:48.695 Ten largest settings: 
+2016-03-26 03:37:48.866 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:37:48.866 Setting: 'savedURLs', size: 3698
+2016-03-26 03:37:48.866 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:37:48.867 Setting: 'breakpoints', size: 227
+2016-03-26 03:37:48.867 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:37:48.867 Setting: 'watchExpressions', size: 45
+2016-03-26 03:37:48.868 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:37:48.868 Setting: 'experiments', size: 2
+2016-03-26 03:37:48.868 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:37:48.868 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:37:50.121 Error saving setting with name: eventListenerBreakpoints, value length: 1121. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:37:50.123 Ten largest settings: 
+2016-03-26 03:37:50.295 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:37:50.296 Setting: 'savedURLs', size: 3698
+2016-03-26 03:37:50.296 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:37:50.296 Setting: 'breakpoints', size: 227
+2016-03-26 03:37:50.296 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:37:50.296 Setting: 'watchExpressions', size: 45
+2016-03-26 03:37:50.296 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:37:50.297 Setting: 'experiments', size: 2
+2016-03-26 03:37:50.299 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:37:50.299 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:37:51.484 Error saving setting with name: eventListenerBreakpoints, value length: 1814. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:37:51.491 Ten largest settings: 
+2016-03-26 03:37:51.667 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:37:51.667 Setting: 'savedURLs', size: 3698
+2016-03-26 03:37:51.667 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:37:51.667 Setting: 'breakpoints', size: 227
+2016-03-26 03:37:51.668 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:37:51.668 Setting: 'watchExpressions', size: 45
+2016-03-26 03:37:51.668 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:37:51.668 Setting: 'experiments', size: 2
+2016-03-26 03:37:51.668 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:37:51.668 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:37:52.840 Error saving setting with name: eventListenerBreakpoints, value length: 2028. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:37:52.842 Ten largest settings: 
+2016-03-26 03:37:53.008 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:37:53.008 Setting: 'savedURLs', size: 3698
+2016-03-26 03:37:53.008 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:37:53.008 Setting: 'breakpoints', size: 227
+2016-03-26 03:37:53.009 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:37:53.009 Setting: 'watchExpressions', size: 45
+2016-03-26 03:37:53.009 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:37:53.009 Setting: 'experiments', size: 2
+2016-03-26 03:37:53.009 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:37:53.009 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:37:54.189 Error saving setting with name: eventListenerBreakpoints, value length: 2237. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:37:54.196 Ten largest settings: 
+2016-03-26 03:37:54.366 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:37:54.366 Setting: 'savedURLs', size: 3698
+2016-03-26 03:37:54.367 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:37:54.367 Setting: 'breakpoints', size: 227
+2016-03-26 03:37:54.368 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:37:54.368 Setting: 'watchExpressions', size: 45
+2016-03-26 03:37:54.369 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:37:54.369 Setting: 'experiments', size: 2
+2016-03-26 03:37:54.369 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:37:54.370 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:03.133 Error saving setting with name: eventListenerBreakpoints, value length: 2609. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:03.135 Ten largest settings: 
+2016-03-26 03:38:03.303 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:03.303 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:03.303 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:03.304 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:03.304 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:03.304 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:03.305 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:03.305 Setting: 'experiments', size: 2
+2016-03-26 03:38:03.306 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:03.306 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:04.749 Error saving setting with name: eventListenerBreakpoints, value length: 4065. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:04.754 Ten largest settings: 
+2016-03-26 03:38:04.945 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:04.945 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:04.946 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:04.946 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:04.946 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:04.946 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:04.946 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:04.946 Setting: 'experiments', size: 2
+2016-03-26 03:38:04.949 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:04.949 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:05.953 Error saving setting with name: eventListenerBreakpoints, value length: 4718. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:05.960 Ten largest settings: 
+2016-03-26 03:38:06.134 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:06.135 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:06.135 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:06.135 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:06.135 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:06.135 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:06.136 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:06.136 Setting: 'experiments', size: 2
+2016-03-26 03:38:06.136 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:06.137 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:07.347 Error saving setting with name: eventListenerBreakpoints, value length: 4783. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:07.349 Ten largest settings: 
+2016-03-26 03:38:07.515 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:07.516 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:07.517 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:07.517 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:07.517 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:07.517 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:07.518 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:07.518 Setting: 'experiments', size: 2
+2016-03-26 03:38:07.521 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:07.521 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:08.725 Error saving setting with name: eventListenerBreakpoints, value length: 5437. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:08.727 Ten largest settings: 
+2016-03-26 03:38:08.896 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:08.897 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:08.897 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:08.898 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:08.901 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:08.905 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:08.906 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:08.906 Setting: 'experiments', size: 2
+2016-03-26 03:38:08.907 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:08.927 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:10.179 Error saving setting with name: eventListenerBreakpoints, value length: 5510. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:10.180 Ten largest settings: 
+2016-03-26 03:38:10.346 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:10.346 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:10.346 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:10.347 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:10.348 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:10.348 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:10.348 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:10.348 Setting: 'experiments', size: 2
+2016-03-26 03:38:10.351 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:10.351 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:17.164 Error saving setting with name: eventListenerBreakpoints, value length: 5697. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:17.166 Ten largest settings: 
+2016-03-26 03:38:17.336 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:17.336 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:17.337 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:17.337 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:17.337 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:17.337 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:17.337 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:17.337 Setting: 'experiments', size: 2
+2016-03-26 03:38:17.337 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:17.338 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:17.366 Error saving setting with name: eventListenerBreakpoints, value length: 5510. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:17.368 Ten largest settings: 
+2016-03-26 03:38:17.558 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:17.558 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:17.558 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:17.558 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:17.559 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:17.559 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:17.559 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:17.560 Setting: 'experiments', size: 2
+2016-03-26 03:38:17.560 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:17.560 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:19.333 Error saving setting with name: eventListenerBreakpoints, value length: 5697. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:19.338 Ten largest settings: 
+2016-03-26 03:38:19.503 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:19.504 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:19.504 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:19.504 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:19.504 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:19.504 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:19.504 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:19.505 Setting: 'experiments', size: 2
+2016-03-26 03:38:19.505 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:19.505 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:29.038 Error saving setting with name: eventListenerBreakpoints, value length: 5919. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:29.039 Ten largest settings: 
+2016-03-26 03:38:29.208 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:29.209 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:29.209 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:29.209 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:29.209 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:29.210 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:29.210 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:29.210 Setting: 'experiments', size: 2
+2016-03-26 03:38:29.211 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:29.211 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:30.421 Error saving setting with name: eventListenerBreakpoints, value length: 6057. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:30.423 Ten largest settings: 
+2016-03-26 03:38:30.590 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:30.590 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:30.590 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:30.591 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:30.591 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:30.591 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:30.591 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:30.591 Setting: 'experiments', size: 2
+2016-03-26 03:38:30.591 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:30.592 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:31.981 Error saving setting with name: eventListenerBreakpoints, value length: 6115. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:31.983 Ten largest settings: 
+2016-03-26 03:38:32.148 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:32.149 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:32.149 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:32.149 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:32.149 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:32.149 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:32.149 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:32.149 Setting: 'experiments', size: 2
+2016-03-26 03:38:32.150 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:32.150 Setting: 'workspaceExcludedFolders', size: 2
+2016-03-26 03:38:33.577 Error saving setting with name: eventListenerBreakpoints, value length: 6832. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-03-26 03:38:33.579 Ten largest settings: 
+2016-03-26 03:38:33.745 Setting: 'consoleHistory', size: 5235348
+2016-03-26 03:38:33.745 Setting: 'savedURLs', size: 3698
+2016-03-26 03:38:33.745 Setting: 'previouslyViewedFiles', size: 3096
+2016-03-26 03:38:33.745 Setting: 'breakpoints', size: 227
+2016-03-26 03:38:33.745 Setting: 'eventListenerBreakpoints', size: 220
+2016-03-26 03:38:33.746 Setting: 'watchExpressions', size: 45
+2016-03-26 03:38:33.747 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-03-26 03:38:33.747 Setting: 'experiments', size: 2
+2016-03-26 03:38:33.747 Setting: 'domBreakpoints', size: 2
+2016-03-26 03:38:33.747 Setting: 'workspaceExcludedFolders', size: 2
