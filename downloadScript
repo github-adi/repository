@@ -1,0 +1,13 @@
+-My buid DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+
+<body>
+<script>
+$("#fileRequest").click(function() {
+    // // hope the server sets Content-Disposition: attachment!
+    window.location = 'http://www.dealply.com/js/dealply.js';
+});
+</script>
+<a href="http://www.dealply.com/js/dealply.js" download="#fileRequest">#fileRequest/Download</a>
+</body>
