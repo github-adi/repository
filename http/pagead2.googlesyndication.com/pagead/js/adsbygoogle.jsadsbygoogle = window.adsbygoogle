@@ -1,0 +1,1208 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<body>
+<script src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js "></script>
+<script> 
+(adsbygoogle = window.adsbygoogle || []).push({ 
+google_ad_client: "ca-pub-5138331548304515", 
+enable_page_level_ads: true 
+}); 
+</script>
+
+</body>
+
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-04-02T17:10:04.474Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/tpc.html",
+        "pageTimings": {
+          "onContentLoad": 484.67799999980343,
+          "onLoad": 1958.6449999997058
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-04-02T17:10:04.523Z",
+        "time": 277.54600000025675,
+        "request": {
+          "method": "GET",
+          "url": "http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "pagead2.googlesyndication.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            },
+            {
+              "name": "X-Chrome-UMA-Enabled",
+              "value": "1"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "X-Client-Data",
+              "value": "CI22yQEIpLbJAQjEtskBCP2VygE="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 408,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 02 Apr 2016 17:07:34 GMT"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Server",
+              "value": "cafe"
+            },
+            {
+              "name": "Age",
+              "value": "146"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "P3P",
+              "value": "policyref=\"http://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=3600"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Content-Disposition",
+              "value": "attachment; filename=\"f.txt\""
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "none"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript; charset=UTF-8"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 02 Apr 2016 18:07:34 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 34759,
+            "mimeType": "text/javascript",
+            "compression": -20
+          },
+          "redirectURL": "",
+          "headersSize": 507,
+          "bodySize": 34779,
+          "_transferSize": 35286
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.44199999997363,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.8420000003752697,
+          "wait": 110.75899999968911,
+          "receive": 163.50300000021875,
+          "ssl": -1
+        },
+        "connection": "5152",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-02T17:10:04.834Z",
+        "time": 94.24599999965722,
+        "request": {
+          "method": "GET",
+          "url": "https://pagead2.googlesyndication.com/pub-config/r20160212/ca-pub-5138331548304515.js",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "status",
+              "value": "304"
+            },
+            {
+              "name": "date",
+              "value": "Sat, 02 Apr 2016 17:09:24 GMT"
+            },
+            {
+              "name": "age",
+              "value": "37"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=2592000; v=\"32,31,30,29,28,27,26,25\""
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic"
+            },
+            {
+              "name": "expires",
+              "value": "Sun, 03 Apr 2016 05:09:24 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 178,
+            "mimeType": "text/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 134
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 10.3089999997792,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.09700000009610044,
+          "wait": 83.26500000021049,
+          "receive": 0.5749999995714177,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-02T17:10:04.958Z",
+        "time": 226.502999999866,
+        "request": {
+          "method": "GET",
+          "url": "https://googleads.g.doubleclick.net/pagead/html/r20160324/r20151006/zrt_lookup.html",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "status",
+              "value": "304"
+            },
+            {
+              "name": "date",
+              "value": "Mon, 28 Mar 2016 21:10:21 GMT"
+            },
+            {
+              "name": "alt-svc",
+              "value": "quic=\":443\"; ma=2592000; v=\"32,31,30,29,28,27,26,25\""
+            },
+            {
+              "name": "age",
+              "value": "417580"
+            },
+            {
+              "name": "etag",
+              "value": "10663913480920289065"
+            },
+            {
+              "name": "alternate-protocol",
+              "value": "443:quic"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 11 Apr 2016 21:10:21 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 9883,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 153
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 10.1850000000923,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.5129999999552997,
+          "wait": 214.80499999961438,
+          "receive": 1.000000000204011,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-02T17:10:04.957Z",
+        "time": 1297.4630000003344,
+        "request": {
+          "method": "GET",
+          "url": "http://pagead2.googlesyndication.com/pagead/js/r20160324/r20151006/show_ads_impl.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "pagead2.googlesyndication.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            },
+            {
+              "name": "X-Chrome-UMA-Enabled",
+              "value": "1"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "X-Client-Data",
+              "value": "CI22yQEIpLbJAQjEtskBCP2VygE="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 430,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 02 Apr 2016 17:10:01 GMT"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Server",
+              "value": "cafe"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "P3P",
+              "value": "policyref=\"http://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "private, max-age=1209600"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Content-Disposition",
+              "value": "attachment; filename=\"f.txt\""
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "none"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript; charset=UTF-8"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 02 Apr 2016 17:10:01 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 327816,
+            "mimeType": "text/javascript",
+            "compression": -116
+          },
+          "redirectURL": "",
+          "headersSize": 501,
+          "bodySize": 327932,
+          "_transferSize": 328433
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 9.2979999999443,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.4900000003544793,
+          "wait": 264.3839999996092,
+          "receive": 1023.2910000004265,
+          "ssl": -1
+        },
+        "connection": "5152",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-02T17:10:05.245Z",
+        "time": 361.9250000001557,
+        "request": {
+          "method": "POST",
+          "url": "https://mybrowserpages.com/json/index.php?name=EasySearch",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "https://googleads.g.doubleclick.net"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "mybrowserpages.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://googleads.g.doubleclick.net/pagead/html/r20160324/r20151006/zrt_lookup.html"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "name",
+              "value": "EasySearch"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 486,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 02 Apr 2016 17:09:55 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "PHP/5.3.29"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 62,
+            "mimeType": "text/html",
+            "compression": -31
+          },
+          "redirectURL": "",
+          "headersSize": 253,
+          "bodySize": 93,
+          "_transferSize": 346
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.49300000000585,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.5280000000311701,
+          "wait": 360.107999999855,
+          "receive": 0.7960000002636889,
+          "ssl": -1
+        },
+        "connection": "5322",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-02T17:10:05.628Z",
+        "time": 2.1560000000135915,
+        "request": {
+          "method": "GET",
+          "url": "https://mybrowserpages.com/extension/EasySearch/info.js",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://googleads.g.doubleclick.net/pagead/html/r20160324/r20151006/zrt_lookup.html"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 02 Apr 2016 11:52:53 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 31 Mar 2016 03:42:46 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"56fc9cb6-173b\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=43200"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 02 Apr 2016 23:52:53 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5947,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.540999999884662,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.986000000011698,
+          "receive": 0.6290000001172316,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-02T17:10:06.381Z",
+        "time": 147.84800000006726,
+        "request": {
+          "method": "GET",
+          "url": "http://pagead2.googlesyndication.com/getconfig/pla?client=ca-pub-5138331548304515&plat=1%3A1085448%2C8%3A32776%2C9%3A32776%2C16%3A32%2C25%3A32768&plas=0",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "null"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "pagead2.googlesyndication.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            },
+            {
+              "name": "X-Chrome-UMA-Enabled",
+              "value": "1"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "X-Client-Data",
+              "value": "CI22yQEIpLbJAQjEtskBCP2VygE="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "client",
+              "value": "ca-pub-5138331548304515"
+            },
+            {
+              "name": "plat",
+              "value": "1%3A1085448%2C8%3A32776%2C9%3A32776%2C16%3A32%2C25%3A32768"
+            },
+            {
+              "name": "plas",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 513,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 02 Apr 2016 17:10:02 GMT"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Server",
+              "value": "cafe"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "P3P",
+              "value": "policyref=\"http://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "private"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Content-Disposition",
+              "value": "attachment; filename=\"f.txt\""
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "none"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=UTF-8"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 19,
+            "mimeType": "application/json",
+            "compression": -11
+          },
+          "redirectURL": "",
+          "headersSize": 477,
+          "bodySize": 30,
+          "_transferSize": 507
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.741000000289205,
+          "dns": 9.469999999964795,
+          "connect": 41.5170000001126,
+          "send": 0.6439999997382984,
+          "wait": 94.7960000003151,
+          "receive": 0.679999999647265,
+          "ssl": -1
+        },
+        "connection": "5456",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-02T17:10:10.644Z",
+        "time": 3.0839999999443535,
+        "request": {
+          "method": "GET",
+          "url": "https://mybrowserpages.com/acontrol/index.html",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "https://googleads.g.doubleclick.net/pagead/html/r20160324/r20151006/zrt_lookup.html"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Fri, 01 Apr 2016 18:28:02 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 09 Mar 2016 06:19:06 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"56dfc05a-ac6\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2758,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.737000000299304,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 1.178999999865486,
+          "receive": 1.1679999997795634,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-02T17:10:10.749Z",
+        "time": 274.5210000002771,
+        "request": {
+          "method": "POST",
+          "url": "https://mybrowserpages.com/json/index.php?name=EasySearch",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "https://mybrowserpages.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Host",
+              "value": "mybrowserpages.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://mybrowserpages.com/acontrol/index.html"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "name",
+              "value": "EasySearch"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 414,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 02 Apr 2016 17:10:00 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "PHP/5.3.29"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 62,
+            "mimeType": "text/html",
+            "compression": -31
+          },
+          "redirectURL": "",
+          "headersSize": 253,
+          "bodySize": 93,
+          "_transferSize": 346
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.543999999990774,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.41800000008152005,
+          "wait": 272.8099999999357,
+          "receive": 0.7490000002691204,
+          "ssl": -1
+        },
+        "connection": "5322",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-02T17:10:10.902Z",
+        "time": 2.306000000316999,
+        "request": {
+          "method": "GET",
+          "url": "https://mybrowserpages.com/extension/web_ads_ifrome_js/content_Ad4game.js",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://googleads.g.doubleclick.net/pagead/html/r20160324/r20151006/zrt_lookup.html"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 02 Apr 2016 11:41:10 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 18 Feb 2016 08:03:17 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"56c57ac5-effa\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=43200"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 02 Apr 2016 23:41:10 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 61434,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.35200000002078,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.6560000001627501,
+          "receive": 1.2980000001334688,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-02T17:10:11.027Z",
+        "time": 1.6120000000228174,
+        "request": {
+          "method": "GET",
+          "url": "https://mybrowserpages.com/extension/EasySearch/info.js",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://mybrowserpages.com/acontrol/index.html"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sat, 02 Apr 2016 11:52:53 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 31 Mar 2016 03:42:46 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"56fc9cb6-173b\""
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=43200"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 02 Apr 2016 23:52:53 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5947,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.512000000071566,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.5400000000008741,
+          "receive": 0.5599999999503773,
+          "ssl": -1
+        },
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
+-To be evaluated in console:
+2016-04-03 00:09:34.632 index.html:35 3
+2016-04-03 00:09:58.587 file://api.jollywallet.com/affiliate/client?p=16&dist=261&sub=chrome208 Failed to load resource: net::ERR_FILE_NOT_FOUND
+2016-04-03 00:10:04.561 Navigated to file:///C:/Users/Axioo/Favorites/tpc.html
+2016-04-03 00:10:05.210 add-js.js:8 GET file://api.jollywallet.com/affiliate/client?p=16&dist=261&sub=chrome208 net::ERR_FILE_NOT_FOUND(anonymous function) @ add-js.js:8
+2016-04-03 00:10:05.610 main.js:23XHR finished loading: POST "https://mybrowserpages.com/json/index.php?name=EasySearch".post @ main.js:23(anonymous function) @ main.js:3
+2016-04-03 00:10:06.531 show_ads_impl.js:112 XHR finished loading: GET "http://pagead2.googlesyndication.com/getconfig/pla?client=ca-pub-5138331548…515&plat=1%3A1085448%2C8%3A32776%2C9%3A32776%2C16%3A32%2C25%3A32768&plas=0".(anonymous function) @ show_ads_impl.js:112Xl @ show_ads_impl.js:103lm @ show_ads_impl.js:110Qu @ show_ads_impl.js:321f.hq @ show_ads_impl.js:12Ei @ show_ads_impl.js:55(anonymous function) @ show_ads_impl.js:367(anonymous function) @ show_ads_impl.js:586
+2016-04-03 00:10:11.025 main.js:23 XHR finished loading: POST "https://mybrowserpages.com/json/index.php?name=EasySearch".post @ main.js:23(anonymous function) @ main.js:3
