@@ -1,0 +1,21 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+ <div id="header-search">
+		Search Site:
+    <!-- ****************** GOOGLE ADSENSE SEARCH CODE **************** -->
+    <script>
+      (function() {
+        var cx = 'partner-pub-5138331548304515:4693108556';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <div class="gcse-searchbox-only"></div>
+    <!-- ************* END OF GOOGLE ADSENSE SEARCH CODE ************** -->
+  </div>
