@@ -1,0 +1,17 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<div id="validation">
+    <!-- **** W3C Markup Validation **** -->
+    <a href="http://validator.w3.org/check?uri=referer">
+      <img src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Transitional" style="border:0; width:88px; height:31px"></<img>
+    </a>
+    <!-- **** W3C CSS Validation **** -->
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+      <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" style="border:0; width:88px; height:31px"></<img>
+    </a>
+  </div>
+-HAR:
+
+-To be evaluated in console:
+
