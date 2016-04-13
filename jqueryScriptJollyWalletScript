@@ -1,0 +1,2828 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+	<body>
+	<script>
+		var _is_responsive = false;
+		var _static_path = 'http://static.jollywallet.com';
+	</script>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="p:domain_verify" content="342008b0abececdcf636b953abc94a63"/>
+	<link rel="shortcut icon" href="http://static.jollywallet.com/resources/images/jw_favicon.ico" mce_href="//static.jollywallet.com/resources/images/jw_favicon.ico"/>
+	<title>Get Cash Back on Online Shopping | jollywallet</title>
+	<meta name="keywords" content="online shopping, cashbacks, cashback, cash backs, cash back, discounts, coupons, best deal, electronics, internet, software, SW, travel, clothing, fashion, buying, paypal , buy online, shop online">
+	<meta name="description" content="jollywallet is a browser application that gives you cash back when you shop online at over 3,000 leading online stores- join today and start saving!">
+	<link href="http://static.jollywallet.com/resources/css/jw/style.css" rel="stylesheet" type="text/css" />
+	<link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/ui-lightness/jquery-ui.min.css" rel="stylesheet" />	
+	<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/fhogchfgdonibfhhcalbaaejfoopigik">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://static.jollywallet.com/resources/js/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	
+	<script type="text/javascript" src="http://static.jollywallet.com/resources/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="http://static.jollywallet.com/resources/js/aux_lib.js"></script>
+	<link rel="image_src" href="http://static.jollywallet.com/resources/images/jw/icon_fb_share.png" />
+
+	<script type="text/javascript" src="http://static.jollywallet.com/resources/js/ry_tools.js"></script>	
+	<script type="text/javascript" src="http://static.jollywallet.com/resources/js/jw_md5.js"></script>
+	<script type="text/javascript" src="http://static.jollywallet.com/resources/js/public.js"></script>
+	
+	<script type="text/javascript" src="http://static.jollywallet.com/resources/jquery.fancyBox-2.0.6/source/jquery.fancybox.js"></script>
+	<link type="text/css" href="http://static.jollywallet.com/resources/jquery.fancyBox-2.0.6/source/jquery.fancybox.css" rel="stylesheet" />
+
+<body>
+<script>
+
+{
+var c=document.createElement("script");
+
+c.setAttribute("type","text/javascript");
+
+c.setAttribute("src"," C:\Users\Axioo\Favorites\ca-pub5138331548304515.js ")
+
+document.body.appendChild(c)
+}
+
+</script>
+
+<script>
+
+{
+var c=document.createElement("script");
+
+c.setAttribute("type","text/javascript");
+
+c.setAttribute("src"," C:\Users\Axioo\Favorites\jquery1.7.js ")
+
+document.body.appendChild(c)
+}
+
+</script>
+
+<script>
+
+{
+var c=document.createElement("script");
+
+c.setAttribute("type","text/javascript");
+
+c.setAttribute("src"," C:\Users\Axioo\Favorites\adjs.js ")
+
+document.body.appendChild(c)
+}
+
+</script>
+
+<script>
+
+{
+var c=document.createElement("script");
+
+c.setAttribute("type","text/javascript");
+
+c.setAttribute("src"," C:\Users\Axioo\Favorites\wallet.js ")
+
+document.body.appendChild(c)
+}
+
+</script>
+
+<script>
+
+{
+var c=document.createElement("script");
+
+c.setAttribute("type","text/javascript");
+
+c.setAttribute("src"," C:\Users\Axioo\Favorites\apijollywallet.js ")
+
+document.body.appendChild(c)
+}
+
+</script>
+</body>
+
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-04-13T17:39:11.095Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/publish.html",
+        "pageTimings": {
+          "onContentLoad": 1559.6569999997882,
+          "onLoad": 1638.0369999997129
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-04-13T17:39:11.144Z",
+        "time": 587.3069999997824,
+        "request": {
+          "method": "GET",
+          "url": "http://static.jollywallet.com/resources/css/jw/style.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "jw_ab=ALL; jw_msg3_a=0; __utma=153538851.944972817.1451402028.1460562588.1460567699.33; __utmb=153538851.1.10.1460567699; __utmc=153538851; __utmz=153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html; jw_class=1; jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8=%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D; jw_platform=16; jw_token=%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "static.jollywallet.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"56f91a65-4730\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Mon, 28 Mar 2016 11:49:57 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "jw_ab",
+              "value": "ALL",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_msg3_a",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "153538851.944972817.1451402028.1460562588.1460567699.33",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "153538851.1.10.1460567699",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "153538851",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_class",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8",
+              "value": "%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_platform",
+              "value": "16",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_token",
+              "value": "%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1456,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 13 Apr 2016 17:39:11 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 28 Mar 2016 11:49:57 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"56f91a65-4730\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=1209600"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 27 Apr 2016 17:39:11 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 18224,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": 338,
+          "bodySize": 0,
+          "_transferSize": 338
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.77899999996589,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.23400000009132993,
+          "wait": 585.3250000000118,
+          "receive": 0.9689999997134464,
+          "ssl": -1
+        },
+        "connection": "19018",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.145Z",
+        "time": 723.6149999998815,
+        "request": {
+          "method": "GET",
+          "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/ui-lightness/jquery-ui.min.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "ajax.googleapis.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "X-Chrome-UMA-Enabled",
+              "value": "1"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "X-Client-Data",
+              "value": "CI22yQEIpLbJAQjEtskBCP2VygE="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 452,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 30 Mar 2016 20:04:11 GMT"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 27 Nov 2015 19:30:24 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "sffe"
+            },
+            {
+              "name": "Age",
+              "value": "1200899"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "none"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "Expires",
+              "value": "Thu, 30 Mar 2017 20:04:11 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 30163,
+            "mimeType": "text/css",
+            "compression": -13
+          },
+          "redirectURL": "",
+          "headersSize": 476,
+          "bodySize": 30176,
+          "_transferSize": 30652
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.590000000556756,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.13799999942420993,
+          "wait": 92.03700000034583,
+          "receive": 630.8499999995547,
+          "ssl": -1
+        },
+        "connection": "19013",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.146Z",
+        "time": 1258.7500000008731,
+        "request": {
+          "method": "GET",
+          "url": "http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "ajax.googleapis.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "X-Chrome-UMA-Enabled",
+              "value": "1"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "X-Client-Data",
+              "value": "CI22yQEIpLbJAQjEtskBCP2VygE="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 410,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 30 Mar 2016 18:51:58 GMT"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 16 Oct 2015 18:27:31 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "sffe"
+            },
+            {
+              "name": "Age",
+              "value": "1205232"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "none"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "Expires",
+              "value": "Thu, 30 Mar 2017 18:51:58 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 84245,
+            "mimeType": "text/javascript",
+            "compression": -37
+          },
+          "redirectURL": "",
+          "headersSize": 483,
+          "bodySize": 84282,
+          "_transferSize": 84765
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.530000000253494,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.175000000126602,
+          "wait": 102.13999999996291,
+          "receive": 1155.9050000005302,
+          "ssl": -1
+        },
+        "connection": "19014",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.150Z",
+        "time": 606.8750000004002,
+        "request": {
+          "method": "GET",
+          "url": "http://static.jollywallet.com/resources/js/jquery-migrate-1.2.1.min.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "jw_ab=ALL; jw_msg3_a=0; __utma=153538851.944972817.1451402028.1460562588.1460567699.33; __utmb=153538851.1.10.1460567699; __utmc=153538851; __utmz=153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html; jw_class=1; jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8=%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D; jw_platform=16; jw_token=%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "static.jollywallet.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"5496730e-1c1f\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Sun, 21 Dec 2014 07:13:18 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "jw_ab",
+              "value": "ALL",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_msg3_a",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "153538851.944972817.1451402028.1460562588.1460567699.33",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "153538851.1.10.1460567699",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "153538851",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_class",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8",
+              "value": "%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_platform",
+              "value": "16",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_token",
+              "value": "%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1455,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 13 Apr 2016 17:39:11 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 21 Dec 2014 07:13:18 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"5496730e-1c1f\""
+            },
+            {
+              "name": "P3P",
+              "value": "policyref=\"/w3c/p3p.xml\", CP=\"CURa ADMa DEVa OUR IND DSP CAO COR\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=604800"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 20 Apr 2016 17:39:11 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 7199,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 393,
+          "bodySize": 0,
+          "_transferSize": 393
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.622000000475964,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.237999999626482,
+          "wait": 605.4960000001306,
+          "receive": 0.5190000001671251,
+          "ssl": -1
+        },
+        "connection": "19016",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.151Z",
+        "time": 1071.6050000000905,
+        "request": {
+          "method": "GET",
+          "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "ajax.googleapis.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "X-Chrome-UMA-Enabled",
+              "value": "1"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "X-Client-Data",
+              "value": "CI22yQEIpLbJAQjEtskBCP2VygE="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 416,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Sun, 03 Apr 2016 19:32:19 GMT"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 27 Nov 2015 19:30:24 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "sffe"
+            },
+            {
+              "name": "Age",
+              "value": "857211"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript; charset=UTF-8"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "none"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "Expires",
+              "value": "Mon, 03 Apr 2017 19:32:19 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 239564,
+            "mimeType": "text/javascript",
+            "compression": -77
+          },
+          "redirectURL": "",
+          "headersSize": 482,
+          "bodySize": 239641,
+          "_transferSize": 240123
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.471000000288768,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.13200000012148005,
+          "wait": 115.55099999986875,
+          "receive": 955.4509999998115,
+          "ssl": -1
+        },
+        "connection": "19012",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.152Z",
+        "time": 632.7259999998205,
+        "request": {
+          "method": "GET",
+          "url": "http://static.jollywallet.com/resources/js/jquery.cookie.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "jw_ab=ALL; jw_msg3_a=0; __utma=153538851.944972817.1451402028.1460562588.1460567699.33; __utmb=153538851.1.10.1460567699; __utmc=153538851; __utmz=153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html; jw_class=1; jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8=%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D; jw_platform=16; jw_token=%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "static.jollywallet.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"52ada9af-910\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Sun, 15 Dec 2013 13:07:59 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "jw_ab",
+              "value": "ALL",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_msg3_a",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "153538851.944972817.1451402028.1460562588.1460567699.33",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "153538851.1.10.1460567699",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "153538851",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_class",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8",
+              "value": "%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_platform",
+              "value": "16",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_token",
+              "value": "%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1443,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 13 Apr 2016 17:39:11 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 15 Dec 2013 13:07:59 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"52ada9af-910\""
+            },
+            {
+              "name": "P3P",
+              "value": "policyref=\"/w3c/p3p.xml\", CP=\"CURa ADMa DEVa OUR IND DSP CAO COR\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=604800"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 20 Apr 2016 17:39:11 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2320,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 392,
+          "bodySize": 0,
+          "_transferSize": 392
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.52499999947031,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.22700000045006208,
+          "wait": 630.4350000000336,
+          "receive": 1.538999999866519,
+          "ssl": -1
+        },
+        "connection": "19019",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.153Z",
+        "time": 660.7920000005834,
+        "request": {
+          "method": "GET",
+          "url": "http://static.jollywallet.com/resources/js/aux_lib.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "jw_ab=ALL; jw_msg3_a=0; __utma=153538851.944972817.1451402028.1460562588.1460567699.33; __utmb=153538851.1.10.1460567699; __utmc=153538851; __utmz=153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html; jw_class=1; jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8=%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D; jw_platform=16; jw_token=%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "static.jollywallet.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"56f918cf-2448\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Mon, 28 Mar 2016 11:43:11 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "jw_ab",
+              "value": "ALL",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_msg3_a",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "153538851.944972817.1451402028.1460562588.1460567699.33",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "153538851.1.10.1460567699",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "153538851",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_class",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8",
+              "value": "%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_platform",
+              "value": "16",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_token",
+              "value": "%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1438,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 13 Apr 2016 17:39:11 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 28 Mar 2016 11:43:11 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"56f918cf-2448\""
+            },
+            {
+              "name": "P3P",
+              "value": "policyref=\"/w3c/p3p.xml\", CP=\"CURa ADMa DEVa OUR IND DSP CAO COR\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=604800"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 20 Apr 2016 17:39:11 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 18564,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 393,
+          "bodySize": 0,
+          "_transferSize": 393
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.527000000147382,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.22200000057637193,
+          "wait": 657.5159999993052,
+          "receive": 2.5270000005543807,
+          "ssl": -1
+        },
+        "connection": "19017",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.153Z",
+        "time": 660.8569999998508,
+        "request": {
+          "method": "GET",
+          "url": "http://static.jollywallet.com/resources/js/ry_tools.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "jw_ab=ALL; jw_msg3_a=0; __utma=153538851.944972817.1451402028.1460562588.1460567699.33; __utmb=153538851.1.10.1460567699; __utmc=153538851; __utmz=153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html; jw_class=1; jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8=%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D; jw_platform=16; jw_token=%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "static.jollywallet.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"52ada9b1-1e29\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Sun, 15 Dec 2013 13:08:01 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "jw_ab",
+              "value": "ALL",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_msg3_a",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "153538851.944972817.1451402028.1460562588.1460567699.33",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "153538851.1.10.1460567699",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "153538851",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_class",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8",
+              "value": "%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_platform",
+              "value": "16",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_token",
+              "value": "%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1439,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 13 Apr 2016 17:39:11 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 15 Dec 2013 13:08:01 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"52ada9b1-1e29\""
+            },
+            {
+              "name": "P3P",
+              "value": "policyref=\"/w3c/p3p.xml\", CP=\"CURa ADMa DEVa OUR IND DSP CAO COR\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=604800"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 20 Apr 2016 17:39:11 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 7721,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 393,
+          "bodySize": 0,
+          "_transferSize": 393
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.50199999986944,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.21800000013172405,
+          "wait": 657.8570000001488,
+          "receive": 2.2799999997008626,
+          "ssl": -1
+        },
+        "connection": "19015",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.153Z",
+        "time": 691.1150000005364,
+        "request": {
+          "method": "GET",
+          "url": "http://static.jollywallet.com/resources/js/jw_md5.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "jw_ab=ALL; jw_msg3_a=0; __utma=153538851.944972817.1451402028.1460562588.1460567699.33; __utmb=153538851.1.10.1460567699; __utmc=153538851; __utmz=153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html; jw_class=1; jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8=%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D; jw_platform=16; jw_token=%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "static.jollywallet.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"54fc7279-1c8e\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Sun, 08 Mar 2015 16:02:01 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "jw_ab",
+              "value": "ALL",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_msg3_a",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "153538851.944972817.1451402028.1460562588.1460567699.33",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "153538851.1.10.1460567699",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "153538851",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_class",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8",
+              "value": "%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_platform",
+              "value": "16",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_token",
+              "value": "%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1437,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 13 Apr 2016 17:39:11 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 08 Mar 2015 16:02:01 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"54fc7279-1c8e\""
+            },
+            {
+              "name": "P3P",
+              "value": "policyref=\"/w3c/p3p.xml\", CP=\"CURa ADMa DEVa OUR IND DSP CAO COR\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=604800"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 20 Apr 2016 17:35:04 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 7310,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 393,
+          "bodySize": 0,
+          "_transferSize": 393
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.489000000015949,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.21800000013172394,
+          "wait": 687.8139999998893,
+          "receive": 2.5940000004993635,
+          "ssl": -1
+        },
+        "connection": "19020",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.154Z",
+        "time": 1164.972999999918,
+        "request": {
+          "method": "GET",
+          "url": "http://static.jollywallet.com/resources/js/public.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "jw_ab=ALL; jw_msg3_a=0; __utma=153538851.944972817.1451402028.1460562588.1460567699.33; __utmb=153538851.1.10.1460567699; __utmc=153538851; __utmz=153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html; jw_class=1; jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8=%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D; jw_platform=16; jw_token=%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "static.jollywallet.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"56f91849-7c48\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Mon, 28 Mar 2016 11:40:57 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "jw_ab",
+              "value": "ALL",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_msg3_a",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "153538851.944972817.1451402028.1460562588.1460567699.33",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "153538851.1.10.1460567699",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "153538851",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_class",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8",
+              "value": "%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_platform",
+              "value": "16",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_token",
+              "value": "%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1437,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 13 Apr 2016 17:39:11 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 28 Mar 2016 11:40:57 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"56f91849-7c48\""
+            },
+            {
+              "name": "P3P",
+              "value": "policyref=\"/w3c/p3p.xml\", CP=\"CURa ADMa DEVa OUR IND DSP CAO COR\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=604800"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 20 Apr 2016 17:39:11 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 31816,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 393,
+          "bodySize": 0,
+          "_transferSize": 393
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 575.14700000047,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.22699999954102168,
+          "wait": 586.140000000339,
+          "receive": 3.45899999956805,
+          "ssl": -1
+        },
+        "connection": "19018",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.154Z",
+        "time": 1176.8670000001293,
+        "request": {
+          "method": "GET",
+          "url": "http://static.jollywallet.com/resources/jquery.fancyBox-2.0.6/source/jquery.fancybox.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "jw_ab=ALL; jw_msg3_a=0; __utma=153538851.944972817.1451402028.1460562588.1460567699.33; __utmb=153538851.1.10.1460567699; __utmc=153538851; __utmz=153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html; jw_class=1; jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8=%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D; jw_platform=16; jw_token=%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "static.jollywallet.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"500408ef-84fd\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Mon, 16 Jul 2012 12:28:31 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "jw_ab",
+              "value": "ALL",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_msg3_a",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "153538851.944972817.1451402028.1460562588.1460567699.33",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "153538851.1.10.1460567699",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "153538851",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_class",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8",
+              "value": "%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_platform",
+              "value": "16",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_token",
+              "value": "%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1472,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 13 Apr 2016 17:39:11 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 16 Jul 2012 12:28:31 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"500408ef-84fd\""
+            },
+            {
+              "name": "P3P",
+              "value": "policyref=\"/w3c/p3p.xml\", CP=\"CURa ADMa DEVa OUR IND DSP CAO COR\""
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=604800"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-javascript"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 20 Apr 2016 17:27:34 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 34045,
+            "mimeType": "application/x-javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 393,
+          "bodySize": 0,
+          "_transferSize": 393
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 600.223999999798,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.22999999964702056,
+          "wait": 573.217000000115,
+          "receive": 3.1960000005692564,
+          "ssl": -1
+        },
+        "connection": "19016",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:11.155Z",
+        "time": 1211.2809999998717,
+        "request": {
+          "method": "GET",
+          "url": "http://static.jollywallet.com/resources/jquery.fancyBox-2.0.6/source/jquery.fancybox.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "jw_ab=ALL; jw_msg3_a=0; __utma=153538851.944972817.1451402028.1460562588.1460567699.33; __utmb=153538851.1.10.1460567699; __utmc=153538851; __utmz=153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html; jw_class=1; jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8=%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D; jw_platform=16; jw_token=%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "static.jollywallet.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "\"50521594-f97\""
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Thu, 13 Sep 2012 17:19:16 GMT"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "jw_ab",
+              "value": "ALL",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_msg3_a",
+              "value": "0",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "153538851.944972817.1451402028.1460562588.1460567699.33",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmb",
+              "value": "153538851.1.10.1460567699",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmc",
+              "value": "153538851",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "153538851.1460562588.32.29.utmcsr=link-assistant.com|utmccn=(referral)|utmcmd=referral|utmcct=/download.html",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_class",
+              "value": "1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_session_EC4386CA-EBA2-08F2-8B20-0776B4598AF8",
+              "value": "%5B%221050288785%22%2C%22117%22%2C%225%22%2C0%2C%220%22%2C%2213%3A12%3A29+26%5C%2F12%5C%2F15%22%2C%2211%3A49%3A47+13%5C%2F04%5C%2F16%22%2C%220%22%2C%220%22%2C%220%22%2C%220%22%2C%22%22%2C%22%22%2C%2210000000000%22%2C%22117%22%2C%22Chrome%22%2C%2247.0.2526.106%22%2C%220%22%2C%220%22%2C%221%22%2C%22261%22%2C%22chrome208%22%2C%220%22%2C%7B%222%22%3A%7B%22last_display_date%22%3A1460562587%2C%22display_count%22%3A1%2C%22automatic_closed%22%3A0%2C%22closed_by_user%22%3A0%2C%22eliminate%22%3Afalse%2C%22sub_session%22%3A0%7D%7D%2C%22103%22%2C%223%22%2C%221%22%2C%221%22%2C%221451154124%22%2C%223%22%2C%220%22%2C%220%22%2C%22ID%22%5D",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_platform",
+              "value": "16",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "jw_token",
+              "value": "%22EC4386CA-EBA2-08F2-8B20-0776B4598AF8%22",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1487,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 13 Apr 2016 17:39:11 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 13 Sep 2012 17:19:16 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "Age",
+              "value": "0"
+            },
+            {
+              "name": "ETag",
+              "value": "\"50521594-f97\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=1209600"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 27 Apr 2016 17:39:11 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 3991,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": 337,
+          "bodySize": 0,
+          "_transferSize": 337
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 626.556000000164,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.218000000132065,
+          "wait": 580.933999999614,
+          "receive": 3.5729999999616666,
+          "ssl": -1
+        },
+        "connection": "19019",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:12.620Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "http://static.jollywallet.com/resources/images/jw/sprites/btn_129_35_sprite.png",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 13 Apr 2016 17:14:59 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 06 Feb 2014 09:25:31 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "Age",
+              "value": "1436"
+            },
+            {
+              "name": "ETag",
+              "value": "\"52f3550b-735\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=1209600"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1845"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 27 Apr 2016 17:14:59 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1845,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "connection": "19018",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:12.622Z",
+        "time": 63.46500000017841,
+        "request": {
+          "method": "GET",
+          "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "ajax.googleapis.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "X-Chrome-UMA-Enabled",
+              "value": "1"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "X-Client-Data",
+              "value": "CI22yQEIpLbJAQjEtskBCP2VygE="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Fri, 27 Nov 2015 19:30:24 GMT"
+            },
+            {
+              "name": "Resource-Freshness",
+              "value": "max-age=31536000,stale-while-revalidate=2592000,age=926773"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 623,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Age",
+              "value": "926772"
+            },
+            {
+              "name": "Date",
+              "value": "Sun, 03 Apr 2016 00:13:00 GMT"
+            },
+            {
+              "name": "Expires",
+              "value": "Mon, 03 Apr 2017 00:13:00 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 317,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": 119,
+          "bodySize": 0,
+          "_transferSize": 119
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.562999999601743,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.178000000232714,
+          "wait": 61.955000000125445,
+          "receive": 0.7690000002185045,
+          "ssl": -1
+        },
+        "connection": "19014",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2016-04-13T17:39:12.651Z",
+        "time": 81.23499999965134,
+        "request": {
+          "method": "GET",
+          "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch"
+            },
+            {
+              "name": "Host",
+              "value": "ajax.googleapis.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+            },
+            {
+              "name": "X-Chrome-UMA-Enabled",
+              "value": "1"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "X-Client-Data",
+              "value": "CI22yQEIpLbJAQjEtskBCP2VygE="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Fri, 27 Nov 2015 19:30:24 GMT"
+            },
+            {
+              "name": "Resource-Freshness",
+              "value": "max-age=31536000,stale-while-revalidate=2592000,age=987787"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 620,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Age",
+              "value": "987786"
+            },
+            {
+              "name": "Date",
+              "value": "Sat, 02 Apr 2016 07:16:06 GMT"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 02 Apr 2017 07:16:06 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5854,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": 119,
+          "bodySize": 0,
+          "_transferSize": 119
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.584999999773572,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.17699999989417903,
+          "wait": 80.03399999961405,
+          "receive": 0.439000000369532,
+          "ssl": -1
+        },
+        "connection": "19012",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
+-To be evaluated in console:
+2016-04-14 00:38:55.646 c:UsersAxiooFavoritesca-pub5138331548304515.js Failed to load resource: net::ERR_FILE_NOT_FOUND
+2016-04-14 00:38:55.646 c:UsersAxiooFavoritesjquery1.7.js Failed to load resource: net::ERR_FILE_NOT_FOUND
+2016-04-14 00:38:55.646 c:UsersAxiooFavoritesadjs.js Failed to load resource: net::ERR_FILE_NOT_FOUND
+2016-04-14 00:38:55.646 c:UsersAxiooFavoriteswallet.js Failed to load resource: net::ERR_FILE_NOT_FOUND
+2016-04-14 00:38:55.646 c:UsersAxiooFavoritesapijollywallet.js Failed to load resource: net::ERR_FILE_NOT_FOUND
+2016-04-14 00:39:11.208 Navigated to file:///C:/Users/Axioo/Favorites/publish.html
+2016-04-14 00:39:12.659 publish.html:40 GET c:UsersAxiooFavoritesca-pub5138331548304515.js net::ERR_FILE_NOT_FOUND(anonymous function) @ publish.html:40
+2016-04-14 00:39:12.659 publish.html:54 GET c:UsersAxiooFavoritesjquery1.7.js net::ERR_FILE_NOT_FOUND(anonymous function) @ publish.html:54
+2016-04-14 00:39:12.659 publish.html:68 GET c:UsersAxiooFavoritesadjs.js net::ERR_FILE_NOT_FOUND(anonymous function) @ publish.html:68
+2016-04-14 00:39:12.659 publish.html:82 GET c:UsersAxiooFavoriteswallet.js net::ERR_FILE_NOT_FOUND(anonymous function) @ publish.html:82
+2016-04-14 00:39:12.660 publish.html:96 GET c:UsersAxiooFavoritesapijollywallet.js net::ERR_FILE_NOT_FOUND(anonymous function) @ publish.html:96
+2016-04-14 00:39:25.656 add-js.js:8 GET file://api.jollywallet.com/affiliate/client?p=16&dist=261&sub=chrome208 net::ERR_FILE_NOT_FOUND(anonymous function) @ add-js.js:8
+2016-04-14 00:41:57.062 Error saving setting with name: eventListenerBreakpoints, value length: 538. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:41:57.071 Ten largest settings: 
+2016-04-14 00:41:57.157 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:41:57.157 Setting: 'savedURLs', size: 3698
+2016-04-14 00:41:57.158 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:41:57.158 Setting: 'breakpoints', size: 227
+2016-04-14 00:41:57.158 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:41:57.158 Setting: 'watchExpressions', size: 45
+2016-04-14 00:41:57.158 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:41:57.158 Setting: 'experiments', size: 2
+2016-04-14 00:41:57.158 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:41:57.158 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:41:58.414 Error saving setting with name: eventListenerBreakpoints, value length: 1000. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:41:58.425 Ten largest settings: 
+2016-04-14 00:41:58.525 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:41:58.525 Setting: 'savedURLs', size: 3698
+2016-04-14 00:41:58.525 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:41:58.525 Setting: 'breakpoints', size: 227
+2016-04-14 00:41:58.525 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:41:58.525 Setting: 'watchExpressions', size: 45
+2016-04-14 00:41:58.525 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:41:58.525 Setting: 'experiments', size: 2
+2016-04-14 00:41:58.525 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:41:58.526 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:41:59.778 Error saving setting with name: eventListenerBreakpoints, value length: 1121. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:41:59.788 Ten largest settings: 
+2016-04-14 00:41:59.882 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:41:59.883 Setting: 'savedURLs', size: 3698
+2016-04-14 00:41:59.883 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:41:59.883 Setting: 'breakpoints', size: 227
+2016-04-14 00:41:59.883 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:41:59.883 Setting: 'watchExpressions', size: 45
+2016-04-14 00:41:59.883 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:41:59.883 Setting: 'experiments', size: 2
+2016-04-14 00:41:59.883 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:41:59.883 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:01.524 Error saving setting with name: eventListenerBreakpoints, value length: 1814. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:01.534 Ten largest settings: 
+2016-04-14 00:42:01.617 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:01.617 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:01.617 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:01.617 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:01.617 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:01.617 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:01.617 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:01.617 Setting: 'experiments', size: 2
+2016-04-14 00:42:01.617 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:01.617 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:02.769 Error saving setting with name: eventListenerBreakpoints, value length: 2028. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:02.779 Ten largest settings: 
+2016-04-14 00:42:02.868 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:02.868 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:02.869 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:02.869 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:02.869 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:02.869 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:02.869 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:02.869 Setting: 'experiments', size: 2
+2016-04-14 00:42:02.869 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:02.869 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:04.072 Error saving setting with name: eventListenerBreakpoints, value length: 2237. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:04.072 Ten largest settings: 
+2016-04-14 00:42:04.164 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:04.164 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:04.164 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:04.164 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:04.164 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:04.165 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:04.165 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:04.165 Setting: 'experiments', size: 2
+2016-04-14 00:42:04.165 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:04.165 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:09.964 Error saving setting with name: eventListenerBreakpoints, value length: 2609. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:09.974 Ten largest settings: 
+2016-04-14 00:42:10.070 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:10.070 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:10.070 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:10.070 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:10.070 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:10.070 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:10.070 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:10.071 Setting: 'experiments', size: 2
+2016-04-14 00:42:10.071 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:10.071 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:11.294 Error saving setting with name: eventListenerBreakpoints, value length: 4065. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:11.295 Ten largest settings: 
+2016-04-14 00:42:11.395 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:11.395 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:11.395 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:11.395 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:11.395 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:11.395 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:11.395 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:11.395 Setting: 'experiments', size: 2
+2016-04-14 00:42:11.396 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:11.396 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:12.636 Error saving setting with name: eventListenerBreakpoints, value length: 4718. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:12.646 Ten largest settings: 
+2016-04-14 00:42:12.737 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:12.737 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:12.738 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:12.738 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:12.738 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:12.738 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:12.738 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:12.738 Setting: 'experiments', size: 2
+2016-04-14 00:42:12.738 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:12.738 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:13.872 Error saving setting with name: eventListenerBreakpoints, value length: 4783. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:13.872 Ten largest settings: 
+2016-04-14 00:42:13.968 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:13.968 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:13.968 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:13.969 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:13.969 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:13.969 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:13.970 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:13.970 Setting: 'experiments', size: 2
+2016-04-14 00:42:13.970 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:13.972 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:19.311 Error saving setting with name: eventListenerBreakpoints, value length: 5437. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:19.321 Ten largest settings: 
+2016-04-14 00:42:19.419 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:19.419 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:19.420 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:19.420 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:19.420 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:19.420 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:19.420 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:19.420 Setting: 'experiments', size: 2
+2016-04-14 00:42:19.420 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:19.422 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:20.519 Error saving setting with name: eventListenerBreakpoints, value length: 5510. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:20.519 Ten largest settings: 
+2016-04-14 00:42:20.614 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:20.614 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:20.614 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:20.614 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:20.615 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:20.615 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:20.615 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:20.615 Setting: 'experiments', size: 2
+2016-04-14 00:42:20.616 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:20.616 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:21.714 Error saving setting with name: eventListenerBreakpoints, value length: 5697. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:21.714 Ten largest settings: 
+2016-04-14 00:42:21.805 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:21.805 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:21.805 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:21.805 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:21.805 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:21.805 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:21.805 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:21.805 Setting: 'experiments', size: 2
+2016-04-14 00:42:21.805 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:21.806 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:25.404 Error saving setting with name: eventListenerBreakpoints, value length: 5919. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:25.404 Ten largest settings: 
+2016-04-14 00:42:25.491 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:25.491 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:25.492 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:25.492 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:25.492 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:25.492 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:25.492 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:25.492 Setting: 'experiments', size: 2
+2016-04-14 00:42:25.492 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:25.492 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:26.614 Error saving setting with name: eventListenerBreakpoints, value length: 6057. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:26.614 Ten largest settings: 
+2016-04-14 00:42:26.714 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:26.714 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:26.714 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:26.715 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:26.715 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:26.715 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:26.715 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:26.715 Setting: 'experiments', size: 2
+2016-04-14 00:42:26.715 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:26.715 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:32.402 Error saving setting with name: eventListenerBreakpoints, value length: 6115. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:32.402 Ten largest settings: 
+2016-04-14 00:42:32.497 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:32.497 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:32.497 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:32.497 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:32.498 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:32.498 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:32.498 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:32.498 Setting: 'experiments', size: 2
+2016-04-14 00:42:32.498 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:32.498 Setting: 'workspaceExcludedFolders', size: 2
+2016-04-14 00:42:33.715 Error saving setting with name: eventListenerBreakpoints, value length: 6832. Error: Failed to set the 'eventListenerBreakpoints' property on 'Storage': Setting the value of 'eventListenerBreakpoints' exceeded the quota.
+2016-04-14 00:42:33.715 Ten largest settings: 
+2016-04-14 00:42:33.807 Setting: 'consoleHistory', size: 5235397
+2016-04-14 00:42:33.807 Setting: 'savedURLs', size: 3698
+2016-04-14 00:42:33.807 Setting: 'previouslyViewedFiles', size: 3067
+2016-04-14 00:42:33.808 Setting: 'breakpoints', size: 227
+2016-04-14 00:42:33.808 Setting: 'eventListenerBreakpoints', size: 220
+2016-04-14 00:42:33.808 Setting: 'watchExpressions', size: 45
+2016-04-14 00:42:33.808 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-04-14 00:42:33.808 Setting: 'experiments', size: 2
+2016-04-14 00:42:33.808 Setting: 'domBreakpoints', size: 2
+2016-04-14 00:42:33.808 Setting: 'workspaceExcludedFolders', size: 2
