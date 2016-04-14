@@ -1,0 +1,16 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-Copy video URL:
+https://youtu.be/FF5C04CB-VQ
+-Copy video URL at current time:
+https://youtu.be/FF5C04CB-VQ?t=35
+-Copy embed video:
+<iframe width="301" height="220" src="https://www.youtube.com/embed/FF5C04CB-VQ" frameborder="0" allowfullscreen></iframe>
+-Copy debug info:
+-Start for nerds:
+{"ns":"yt","el":"embedded","cpn":"ImvpmqYllakiicbv","docid":"FF5C04CB-VQ","ver":2,"referrer":null,"cmt":"35.109","plid":"AAUwdDqM-6xHrcDE","ei":"kMIPV-OfCZT7oAOKhI6YBQ","fmt":"243","fs":"0","rt":"191.579","of":"YOTSmvrPFrvEuSgkDL2p9w","adformat":null,"content_v":null,"euri":"https://staticxx.facebook.com/common/referer_frame.php","subscribed":null,"lact":0,"live":null,"cl":"119718795","mos":0,"osid":null,"state":"e","vm":"CAEQAA","volume":100,"c":"WEB","cver":"1.20160413","cplayer":"UNIPLAYER","cbr":"Chrome","cbrver":"49.0.2623.112","cos":"Windows","cosver":"6.1","autoplay":"1","hl":"en_US","cr":"ID","len":"35.109","fexp":"3300109,3300132,3300164,3311882,3312381,3312726,9408537,9416126,9416891,9420452,9422596,9426615,9426926,9427272,9428092,9428398,9429379,9430030,9431325,9431366,9431452,9433092,9433096,9433780","afmt":"140","vct":"35.109","vd":"35.109","vpl":"0.000-35.109,","vbu":"0.000-35.109,","vpa":true,"vsk":false,"ven":true,"vpr":1,"vrs":4,"vns":2,"vec":null,"vvol":0.6038790651541436,"lct":"35.109","lsk":false,"lmf":false,"lbw":"255966.424","lhd":"0.285","ltd":"1026.052","laa":"itag=140,seg=3,range=515487-558288,time=32.4-35.1","lva":"itag=243,seg=6,range=996119-1087467,time=32.4-35.0","lar":"itag=140,seg=3,range=477565-558288,time=30.0-35.1","lvr":"itag=243,seg=6,range=996119-1087467,time=32.4-35.0","lvh":"r2---sn-2uuxa3vh-jb3l","lab":"0.000-35.109,","lvb":"0.000-35.040,","debug_videoId":"FF5C04CB-VQ","gpu":"ANGLE_(Intel(R)_HD_Graphics_Direct3D11_vs_4_1_ps_4_1)","cgr":true,"debug_playbackQuality":"medium","debug_date":"Thu Apr 14 2016 23:20:32 GMT+0700 (SE Asia Standard Time)"}
+
+-HAR:
+
+-To be evaluated in console:
