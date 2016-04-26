@@ -1,0 +1,37 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<div id="home-page-widget">
+        <div class="widget  rt-review-posts-widget"><h3 class="widgettitle"><a href="http://www.ubersocial.com/reviews/" title="All Reviews" target="_">UberSocial Reviews</a></h3><ul class="ubersocial-reviews">                                <li>
+                                                                             <span class="post-img alignleft">
+                                             <a href="http://www.ecommercebytes.com/cab/abu/y213/m02/abu0329/s03" target="_blank" title="Fourteen Mobile Apps to Simplify Online Selling" ><img width="49" height="49" src="http://www.ubersocial.com/wp-content/uploads/ecombytes-logo.jpg" class="attachment-widget-image wp-post-image" alt="eCOMMERCE BYTES" title="eCOMMERCE BYTES" /></a>                                        </span>
+                                                                                <div class="reviews-content">
+                                            <h4 class="review-title"><a href="http://www.ecommercebytes.com/cab/abu/y213/m02/abu0329/s03" target="_blank" title="Fourteen Mobile Apps to Simplify Online Selling" >Fourteen Mobile Apps to Simplify Online Selling</a></h4>
+                                            <p>UberSocial is a high-powered Twitter and Facebook app that lets you view photos and videos within a timeline. </p>                                        </div>
+                                </li>
+                                                            <li>
+                                                                             <span class="post-img alignleft">
+                                             <a href="http://www.twi5.com/ubersocial-android-app/9477/" target="_blank" title="UberSocial Android App" ><img width="49" height="49" src="http://www.ubersocial.com/wp-content/uploads/twi5-logo.jpg" class="attachment-widget-image wp-post-image" alt="twi5-logo" title="twi5-logo" /></a>                                        </span>
+                                                                                <div class="reviews-content">
+                                            <h4 class="review-title"><a href="http://www.twi5.com/ubersocial-android-app/9477/" target="_blank" title="UberSocial Android App" >UberSocial Android App</a></h4>
+                                            <p>Ubersocial is a cool Android app for Twitter users and we can download it from Google Play. </p>                                        </div>
+                                </li>
+                                                            <li>
+                                                                             <span class="post-img alignleft">
+                                             <a href="http://www.berryreview.com/2012/07/31/ubersocial-for-blackberry-updated-to-v1-403/" target="_blank" title="UberSocial for BlackBerry Updated" ><img width="49" height="49" src="http://www.ubersocial.com/wp-content/uploads/berryreview-logo.jpg" class="attachment-widget-image wp-post-image" alt="BerryReview" title="BerryReview" /></a>                                        </span>
+                                                                                <div class="reviews-content">
+                                            <h4 class="review-title"><a href="http://www.berryreview.com/2012/07/31/ubersocial-for-blackberry-updated-to-v1-403/" target="_blank" title="UberSocial for BlackBerry Updated" >UberSocial for BlackBerry Updated</a></h4>
+                                            <p>The new version is sporting a bunch of bug fixes as well as some new/updated features.</p>                                        </div>
+                                </li>
+                            </ul></div><div id="text-5" class="widget home-page-widget widget_text"><h3 class="widgettitle">Latest Update</h3>			<div class="textwidget"><a href="http://ubersocial.com/iphone/" title="Latest Update" target="_"><img src='/wp-content/uploads/banr_square_latest.jpg' title="Latest Update"/></a></div>
+		</div><div id="text-7" class="widget home-page-widget widget_text"><h3 class="widgettitle">Advertise on UberSocial</h3>			<div class="textwidget"><a href="http://advertise.ubermedia.com/?utm_source=ubersocial&utm_medium=web&utm_campaign=adunit1" title="Advertise on UberSocial" target="_"><img src="/wp-content/uploads/banr_square_ubermedia.jpg"/></a>
+
+</div>
+		</div>    </div>
+
+</div><!--end of #home-page-content -->
+
+
+-HAR:
+
+-To be evaluated in console:
