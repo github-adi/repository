@@ -1,0 +1,15 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<div class="clear"></div>
+                <div id="footer">
+                    <!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
+                    <p class="alignleft footer-left ">&copy;2016 UberMedia</p>
+                    <p class="alignleft footer-right">All trademarks are the sole property of their respective owners. Reference herein does not constitute or imply affiliation with, endorsement, or recommendation of UberMedia, Inc. or its products by the respective trademark owners.</p>
+                </div><!--end of #footer -->
+            </div><!--End of #footer-wrapper-->
+                    </div><!-- End of #content-wrapper -->
+	</div><!--End of #main-wrapper -->
+-HAR:
+
+-To be evaluated in console:
