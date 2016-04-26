@@ -1,0 +1,24 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<!-- This hack is for home page - slider should display only on home page -->
+    <div id="social-media-intro" class="social-media-intro">
+        <img class="intro-featured-image alignleft" src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/home-featured-img.jpg" alt="UberSocial Apps" />
+        <div class="social-media-intro-right alignright" >
+            <p>UberSocial will keep you up-to-date while you're on-the-go, offering lightning-fast functionality, curated content, customization options, and a richer, more user-friendly Twitter experience. The world's most popular full-featured Twitter app is available for BlackBerry, iPhone, Android!</p>
+            <div class="download-box">
+                <h2><span class="download-arrow"></span>Download now </h2>
+                <div>
+                    <a class="first" href="http://www.ubersocial.com/blackberry/" title="Download for BlackBerry" target="_"><span class="blackberry-icon"><img src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/blackberry-icon.png" alt="icon" /><span class="download-name">For BlackBerry</span></span></a>
+                    <a class="second" href="http://www.ubersocial.com/iphone/" title="Download for iPhone" target="_"><span class="iphone-icon"><img src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/iphone-icon.png" alt="icon" /><span class="download-name">For iPhone</span></span></a>
+                    <a class="third" href="http://www.ubersocial.com/android/" title="Download for Android" target="_"><span class="android-icon"><img src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/android-icon.png" alt="icon" /><span class="download-name">For Android</span></span></a>
+<!--                    <a class="forth" href="http://www.ubersocial.com/?page_id=720" title="Download for Desktop" target="_"><span class="desktop-icon"><img src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/desktop-icon.png" alt="icon" /><span class="download-name">For Desktop</span></span></a>-->
+                    <div class="clear"></div>
+                </div>
+            </div> <!-- end of .download-box -->
+        </div><!-- end of .social-media-intro-right -->
+    </div><!-- end of .social-media-intro -->
+
+-HAR:
+
+-To be evaluated in console:
