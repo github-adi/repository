@@ -1,0 +1,21 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<div class="clear"></div> <!--clear any float present at this point -->
+            
+                     <div id="footer-wrapper">
+                <div id="footerbar">
+                <div id="nav_menu-3" class="widget footer-widget widget_nav_menu"><h3 class="widgettitle">Downloads</h3><div class="menu-footer-download-menu-container"><ul id="menu-footer-download-menu" class="menu"><li id="menu-item-710" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-710"><a href="http://www.ubersocial.com/blackberry/" target="_">BlackBerry</a></li>
+<li id="menu-item-727" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-727"><a href="http://www.ubersocial.com/iphone/" target="_">iPhone</a></li>
+<li id="menu-item-986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-986"><a href="http://www.ubersocial.com/android/" target="_">Android</a></li>
+</ul></div></div><div id="nav_menu-4" class="widget footer-widget widget_nav_menu"><h3 class="widgettitle">Pages</h3><div class="menu-footer-pages-menu-container"><ul id="menu-footer-pages-menu" class="menu"><li id="menu-item-694" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-694"><a href="http://www.ubersocial.com/about-us/" target="_">About Us</a></li>
+<li id="menu-item-693" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-693"><a href="http://www.ubersocial.com/contact/" target="_">Contact</a></li>
+<li id="menu-item-836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-836"><a href="http://support.ubersocial.com/" target="_">Support</a></li>
+<li id="menu-item-1077" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1077"><a target="_blank" href="http://ubermedia.com/all-terms/terms">Universal Terms</a></li>
+<li id="menu-item-1078" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1078"><a target="_blank" href="http://ubermedia.com/privacy">Privacy Policy</a></li>
+</ul></div></div><div id="text-6" class="widget footer-widget widget_text"><h3 class="widgettitle">UberSocial is  a product of</h3>			<div class="textwidget"><a href="http://www.ubermedia.com/" title="UberMedia" target="_"><img src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/footer-logo.png"  alt="ubermedia"/></a></div>
+		</div>                </div><!--end of #footerbar-->
+
+-HAR:
+
+-To be evaluated in console:
