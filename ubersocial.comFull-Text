@@ -1,0 +1,22 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<div class="clear"></div>
+    
+    <div id="feature-slider">
+        <h2 class="feature-slider-title">Features</h2>
+		
+		<br />
+        <div class="slider-container">
+            <div id="tabs-nav-container">
+                <ul id="tabs-nav">
+                    <li id="nav-fragment-1" class="ui-tabs-nav-item"><a href="http://www.ubersocial.com/#" target="_">Full-Text</a></li>
+		    <li id="nav-fragment-2" class="ui-tabs-nav-item"><a href="http://www.ubersocial.com/#" target="_"">LivePreview</a></li>
+                    <li id="nav-fragment-3" class="ui-tabs-nav-item"><a href="http://www.ubersocial.com/#" target="_"">UberBar</a></li>
+                    <li id="nav-fragment-4" class="ui-tabs-nav-item"><a href="http://www.ubersocial.com/#" target="_"">Advanced Tweet Composer</a></li>
+		    <li id="nav-fragment-5" class="ui-tabs-nav-item"><a href="http://www.ubersocial.com/#" target="_"">Color Themes</a></li>                     
+                </ul>
+            </div>
+-HAR:
+
+-To be evaluated in console:
