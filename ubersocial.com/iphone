@@ -1,0 +1,26 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<div id="rt-slider">
+                <div id="fragment-1" class="slider-content ui-tabs-panel">
+                    <a href="http://www.ubersocial.com/iphone/" target="_"><img class="slide-image" src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/slider/slider-fulltext.jpg" alt="UberSocial Full-Text" /></a>
+                </div>
+		<div id="fragment-2" class="slider-content ui-tabs-panel">
+                    <img class="slide-image" src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/slider/slider-livepreview.jpg" alt="UberSocial LivePreviewTM" /> 
+                </div>
+                <div id="fragment-3" class="slider-content ui-tabs-panel">
+                    <img class="slide-image" src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/slider/slider-uberbar.jpg" alt="UberBar" /> 
+                </div>
+                <div id="fragment-4" class="slider-content ui-tabs-panel">
+                    <img class="slide-image" src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/slider/slider-advtweetcmpsr.jpg" alt="Advanced Tweet Composer" /> 
+                </div>
+		<div id="fragment-5" class="slider-content ui-tabs-panel">
+                    <img class="slide-image" src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/img/slider/slider-colorthemes.jpg" alt="Color Themes" /> 
+                </div>                
+            </div>
+        </div><!-- end of .slider-container -->
+    </div><!-- end of #feature-slider -->
+
+-HAR:
+
+-To be evaluated in console:
