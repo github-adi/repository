@@ -1,0 +1,29 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<!--
+            Moved all the scripts in the "php/rt-init.php" for wordpress standards
+            Look for rt_footer_scripts() function to add your custom scripts.
+        -->
+                <script type='text/javascript' src='http://www.ubersocial.com/wp-content/themes/ubersocial-new/js/jquery.cycle.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://www.ubersocial.com/wp-content/themes/ubersocial-new/js/jquery.ezCookie.js?ver=3.1.2'></script>
+<script type='text/javascript' src='http://www.ubersocial.com/wp-content/themes/ubersocial-new/js/custom.js?ver=3.1.2'></script>
+    <!--[if IE]>
+        <script type="text/javascript" src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/js/DD_roundies.js"></script>
+       <script type="text/javascript" src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/js/custom-ie.js"></script>
+    <![endif]-->
+    <!--
+       Note : Below code Paste in above condition for rounded corners in IE and PNG Fix in ie6 -->
+       
+    
+    <!--[if lte IE 7]>
+        <script type="text/javascript" src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/js/custom-ie7.js"></script>
+    <![endif]-->
+    <!--[if IE 6]>
+        
+        <script type="text/javascript" src="http://www.ubersocial.com/wp-content/themes/ubersocial-new/js/custom-ie6.js"></script>
+    <![endif]-->
+    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnpiY11DN9N%2bhdJmN2Fr5Y3GN2stE9PmhjfeuFAbaqGCL4Uv2Y1P6McJpeT6%2bQqT1OhLMusG2AK4HnS0FZekyiAv3jmJiVsNdUGc%2bOYRdfLJLZaV%2bRx%2faecx%2fhRjDi9xWbwqmj8WyjKtSeVVKqyt4CfvbpvwrGqnHalg7VoVKKzCvktHL79jajLF3qjbFJloxk3ZHJpTlk0BJJztszixSzOEi%2fB6ZUXGUZsb%2bts8%2flNfc9XLoK2PqfbT%2f3QTnR86CtqBt8XeudPThU2t0%2bHMYlZ2woeMg6HHeeJX%2fAzHFUHj%2bTzBVmWAjzKHDQKCRWptc9R2nO5nGI%2ftbzUVtvW%2byNrOSJEWiRJ8t59jsSM1QZVXU%2bJBmRwb8Avn0hYBtcyKiH73Yx9iYGqvrc1pWSXyOJj5euV1%2fLY%2biK%2bQNXvQsimwvRrvsedVp4G9LCBNk9MZ%2bbKBAOrfPaDuEVp4Sbm73YUxovpomIg2ufR6DJ8RJSFhCuwGeZm38m7KykA%2bf%2bITZpjAoVEPdw0yXV3qu2BAiRIQ%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
+-HAR:
+
+-To be evaluated in console:
