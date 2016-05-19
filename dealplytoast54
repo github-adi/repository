@@ -1,0 +1,218 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+ <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW" />
+
+<link rel="stylesheet" href="https://foxi180_f.tlscdn.com/TopBarAnimatedWhite.css" type="text/css" media="screen">
+</head>
+
+<body id="flach">
+<img src="https://i.imagessl.com/static/img/404.jpg?v=5b029"></img>
+<img src="https://i.imagessl.com/static/img/404.jpg?v=5b029"></img>
+<img src="https://i.imagessl.com/static/img/404.jpg?v=5b029"></img>
+<img src="https://i.imagessl.com/static/img/404.jpg?v=5b029"></img>
+<img src="https://foxi180_f.tlscdn.com/resources/eden/green/pushedStripFixed/cancel.png"></img>
+<img src="https://i.imagessl.com/p/http%3A%2F%2Fsrv-live.lazada.co.id%2Fp%2Fimage-3717661-1-product.jpg"></img>
+<img src="https://i.imagessl.com/p/http%3A%2F%2Fsrv-live.lazada.co.id%2Fp%2Fimage-3717661-1-product.jpg?tm=1463673885108"></img>
+<img src="https://i.imagessl.com/p/http%3A%2F%2Fsrv-live.lazada.co.id%2Fp%2Fimage-3717661-1-product.jpg?tm=1463673885098"></img>
+<img src="https://i.imagessl.com/p/http%3A%2F%2Fsrv-live.lazada.co.id%2Fp%2Fimage-3717661-1-product.jpg?tm=1463673885115"></img>
+<img src="https://i.imagessl.com/p/http%3A%2F%2Fsrv-live.lazada.co.id%2Fp%2Fimage-3717661-1-product.jpg?tm=1463673885118"></img>
+<img src="https://i.imagessl.com/p/http%3A%2F%2Fsrv-live.lazada.co.id%2Fp%2Fimage-5437661-1-product.jpg?tm=1463673885198"></img>
+<img src="https://i.imagessl.com/p/http%3A%2F%2Fsrv-live.lazada.co.id%2Fp%2Fimage-5437661-1-product.jpg?tm=1463673885197"></img>
+<img src="https://i.imagessl.com/p/http%3A%2F%2Fsrv-live.lazada.co.id%2Fp%2Fimage-5437661-1-product.jpg"></img>
+<img src="https://i.imagessl.com/p/http%3A%2F%2Fsrv-live.lazada.co.id%2Fp%2Fimage-5437661-1-product.jpg?tm=1463673885196"></img>
+<img src="https://i.imagessl.com/p/http%3A%2F%2Fsrv-live.lazada.co.id%2Fp%2Fimage-5437661-1-product.jpg?tm=1463673885199"></img>
+<img src="https://i.imagessl.com/p/null"></img>
+<img src="https://i.imagessl.com/p/null"></img>
+<img src="https://i.imagessl.com/p/null"></img>
+<img src="https://i.imagessl.com/p/null"></img>
+<img src="https://i.imagessl.com/p/null"></img>
+<img src="https://i.imagessl.com/p/null?tm=1463673885184"></img>
+<img src="https://i.imagessl.com/p/null?tm=1463673885185"></img>
+<img src="https://i.imagessl.com/p/null?tm=1463673885189"></img>
+<img src="https://i.imagessl.com/p/null?tm=1463673885166"></img>
+<img src="https://i.imagessl.com/p/null?tm=1463673885182"></img>
+<img src="https://i.imagessl.com/p/null?tm=1463673885165"></img>
+<img src="https://foxi180_f.tlscdn.com/resources/retailers/placeholder1.jpg"></img>
+<img src="https://foxi180_f.tlscdn.com/resources/pushed_arrow_L.png"></img>
+<img src="https://foxi180_f.tlscdn.com/resources/pushed_arrow_R.png"></img>
+<img src="https://foxi180_f.tlscdn.com/resources/TopBar900/radio_buttons_hover.svg"></img>
+<img src="https://foxi180_f.tlscdn.com/resources/TopBar900/radio_buttons.svg"></img>
+<img src="https://foxi180_f.tlscdn.com/resources/eden/green/pushedStripFixed/settings.png"></img>
+<img src="https://foxi180_f.tlscdn.com/resources/TopBar900/triangle.png"></img>
+
+<div id="transpDiv"></div>
+ <div class="dealply_container">
+
+  <div id="hidePart">
+   <a href="https://foxi180_f.tlscdn.com/TopBarAnimatedWhite.html?#" class="opener" target="_">https://foxi180_f.tlscdn.com/TopBarAnimatedWhite.html?#</a> 
+  </div> <!-- #hidePart -->
+
+  <!-- Header -->
+  <div class="header-block" id="dealplyWidgetControlPanel">
+   <h1>Hot Deals</h1>
+  </div>
+
+  <!-- Settings -->
+
+  <!-- <div id="goto999" class="" style= "border:0px solid red; width:100%; height:350px; 
+   position:absolute; bottom:0px;
+     right:0px;"
+       onclick="dealPlyUtils.goto999();" > </div> -->
+  <div  id="dealplySettings">    
+   <a href="https://foxi180_f.tlscdn.com/TopBarAnimatedWhite.html?#" class="settings" id="dealplySettingButton"></a>
+  </div>
+   
+  <div id="dealplyCloseButton"></div>
+ 
+  <a id="dealplyFaqLink" title="FAQ" target="_blank">
+   <div id="dealplyFaqButton"></div>
+  </a>
+  <!-- Offers -->
+
+  <div class="offers_wrapper">
+   <ul class="offers_ul">
+    <div id="dpDealBoxTmplt">
+     <div class="offer_block">
+      <a href="https://foxi180_f.tlscdn.com/TopBarAnimatedWhite.html?#" class="cliackableArea">
+      <div class="offer_img">
+       <img class="prod_image" />  <!-- offer_img  -->
+      </div>
+      
+       <div class="price">$249.60</div>
+       <div class="prod_desc">
+        <p></p>
+       </div>
+       <div class="logoWrap">
+       <a href="https://foxi180_f.tlscdn.com/TopBarAnimatedWhite.html?#">
+        <img src=""   class="Logo offer_logo logo">
+        <div class="retailerTitle"></div>
+        <div class="storeDomain" ></div>
+       </a>
+      </div>
+      <div class="sideBorder"></div>
+     </a>
+      <div class="offerHover"></div>
+     </div>
+    </div>
+   </ul>
+  </div>
+
+  <!-- Powered By --> 
+  <div class="copyright">
+  <div class="legalLink" onclick="openLegal('strip_legal');"></div>
+   <p><span class="powered_by_txt"></span> <span class="powered_by_link"></span></p>
+   
+  </div>
+
+  <!-- *********** Legal ************ -->
+  <!-- 888 -->
+  <!-- 999 -->
+
+  <!-- Suspend -->
+
+  <div id="dealplySuspend"> <!-- popup-holder -->
+   
+      <div id="dealplySuspendsElementsWrapper">
+      <span>Sleep</span>
+        <div id="dealplySuspandForTextPanel">
+          <span></span>
+        </div>
+        <form class="select" id="suspend">
+          <div>
+            <input type="radio" id="suspendOp0" name="suspendOp" value="3600000" /><label for="suspendOp0"><span></span></label>
+          </div>
+          <div>
+            <input type="radio" id="suspendOp1" name="suspendOp" value="86400000" checked /><label for="suspendOp1"><span></span></label>
+          </div>
+          <div>
+            <input type="radio" id="suspendOp2" name="suspendOp" value="604800000" /><label for="suspendOp2"><span></span></label>
+          </div>
+        </form>
+      </div>
+      <div id="closeSuspendWidget">
+        <span>&times;</span>
+      </div>
+      <div id="dealplySuspendButton"></div>
+      <div id="dpSuspendUninstall"></div>
+      <div id="dpSupportLink">
+  <a href="" target="_blank"></a>
+ </div>
+      <div id="dpInfoButton"></div>
+
+ </div>
+
+
+</div> <!-- dealply_container -->
+
+<!-- Scripts to include -->
+ <script type="text/javascript" src="https://foxi180_f.tlscdn.com/opDom.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/resources/eden/green/lib/dQuery.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/JSONscript.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/interopInnerAjax.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/edenPersistencyHttpCookiesScript.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/base64.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/edenCommonAjax.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/skin.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/newUtils.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/skinedStrip.js"></script> 
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/TopBarAnimatedWhite.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/suspendable.js"></script>
+<script type="text/javascript" src="https://foxi180_f.tlscdn.com/common/jquery-2.1.3.min.js"></script>
+<script type="text/javascript"  src="https://foxi180_f.tlscdn.com/common/jquery.carouFredSel-6.2.1-packed.js"></script>
+
+ 
+<script type="text/javascript">
+
+
+  maxDescLength = 65;
+   var dealPlySkinObj = new DealPlySkinCls();
+
+
+ 
+</script>
+<style type="text/css">
+ body,#flach a.logo_place_holder_container .logo {
+  display: none;
+ }
+
+ body,#flach:not(.trch) a.logo_place_holder_container .logo {
+     display: none;
+ }
+ 
+ body,#flach a.logo_place_holder_container .storeDomain {
+  display: inline;
+ }
+
+ body,.storeDomain {
+     display: none;
+     font-size: 13px;
+     color: #000000;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     position: absolute;
+     font-family: arial;
+     padding: 10px 0px 0px 8px;   
+ }
+
+ body,#flach a.logo_place_holder_container .storeDomain.longer {
+     font-size: 9px;
+     max-width: 124px;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     display: block;
+ }
+ 
+
+</style>
+
+</body>
+
+-HAR:
+
+-To be evaluated in console:
