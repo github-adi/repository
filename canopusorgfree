@@ -1,0 +1,54 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<div id="leftlivechatbox" style="position: fixed;right:20px; bottom: 0; z-index: 600;">
+	<div>
+		<div id="proactivechatcontainernc2v4biell"><div id="proactivechatdiv" style="position: absolute; display: none; float: left; top: 121.5px; left: 458px; z-index: 500;"><div style="float: left; width: 500px; background: #ffffff url('http://www.link-assistant.com/support/__swift/themes/client/images/mainbackground.gif') repeat; border: solid 1px #bababa;">	<div style="background: #ffffff url('http://www.link-assistant.com/support/__swift/themes/client/images/icon_proactiveuserbackground.gif') no-repeat bottom left; border: solid 1px #bababa; margin: 8px;">		<div style="text-align: center;margin-top: 15px;margin-bottom: 10px;"><img align="absmiddle" border="0" src="http://www.link-assistant.com/support/__swift/themes/client/images/kayako-logo-blue.png"></div>		<hr style="border: solid #d8dbdf; border-width: 1px 0 0; clear: both; height: 0; margin: 0; text-align: center">		<div style="padding-left: 100px; text-align: center; margin-top: 20px; height: 60px; overflow: hidden; font: 40px 'segoe ui','helvetica neue', arial, helvetica, sans-serif; color: #128dbe;width: 350px;">			Can I help you?		</div>		<div style="padding-left: 100px; vertical-align: top; margin-top: 0px; padding-top: 0px; height: 180px; font: 18pt 'segoe ui','helvetica neue', arial, helvetica, sans-serif; color: #4c5156;width: 350px;">			Our agents are ready to assist you. Click "Chat Now" to be connected to one instantly.<br>			<div style="padding-top: 30px; padding-left: 90px; text-align: center;">				<div onclick="javascript:doProactiveRequest_regfmzd7();" style="font-weight: normal;font-size: 19px;color: #5d9928;padding: 10px 25px 10px 25px;background-color: #fff;background: -moz-linear-gradient(top,#fafafa 0%,#e7ebf0);background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),to(#f3f3f3));-moz-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;border: 1px solid #cdd2d4;-moz-box-shadow: 0px 1px 1px #f8f8f8,inset 0px 1px 1px #fff;-webkit-box-shadow: 0px 1px 1px #f8f8f8,inset 0px 1px 1px #fff;box-shadow: 0px 1px 1px #f8f8f8,inset 0px 1px 1px #fff;text-shadow: 0px 1px 0px #fff;cursor: pointer;width: 100px;">					Chat Now				</div>			</div>		</div>	</div></div><div style="float: left; margin-left: -8px; margin-top: -8px;">	<a href="javascript:closeProactiveRequest_regfmzd7();"><img align="absmiddle" border="0" src="http://www.link-assistant.com/support/__swift/themes/client/images/icon_close.png"></a></div></div><div id="inlinechatdiv" style="position: absolute; display: none; float: left; top: -13.5px; left: 233px; z-index: 500;"><div style="float: left; width: 900px; background: #ffffff; border: solid 1px #bcb5a6;"><iframe width="900" height="670" scrolling="auto" frameborder="0" src="" name="inlinechatframe" id="inlinechatframe">error: no iframe support detected</iframe></div><div style="float: left; margin-left: -8px; margin-top: -8px;"><a href="javascript: closeInlineProactiveRequest_regfmzd7();"><img src="http://www.link-assistant.com/support/__swift/themes/client/images/icon_close.png" border="0" align="absmiddle"></a></div></div></div>
+		<div id="swifttagcontainernc2v4biell">
+			<div style="display: inline;" id="swifttagdatacontainer">
+			</div>
+		<script type="text/javascript" src="http://www.link-assistant.com/support/visitor/index.php?/LiveChat/HTML/HTMLButtonBase"></script></div>
+	</div>
+</div>
+
+<script type="text/javascript">var swiftscriptelemnc2v4biell = document.createElement("script");
+	swiftscriptelemnc2v4biell.type = "text/javascript";
+	var swiftrandom = Math.floor(Math.random() * 1001);
+	var swiftuniqueid = "nc2v4biell";
+	var swifttagurlnc2v4biell = "/support/visitor/index.php?/LiveChat/HTML/HTMLButtonBase";
+	setTimeout("swiftscriptelemnc2v4biell.src=swifttagurlnc2v4biell;document.getElementById('swifttagcontainernc2v4biell').appendChild(swiftscriptelemnc2v4biell);", 1);</script>
+	<script src="http://www.link-assistant.com/assets/app-a9127227a02d80f46d708a8e1bff1f53.js"></script>
+<script src="http://www.link-assistant.com/themes/basic/js/jquery-ui.min.js" defer="defer"></script>
+<script src="http://www.link-assistant.com/themes/basic/js/you-tube.js" defer="defer"></script>
+<script src="http://www.link-assistant.com/themes/basic/js/video-dialog.js" defer="defer"></script>
+<script src="http://www.link-assistant.com/themes/basic/js/facebook.js" defer="defer"></script>
+<script type="text/javascript">
+if (typeof angular !== "undefined") {
+	if (typeof config === "undefined") {
+		var config = angular.module("config", []);
+	}
+
+	config.constant("ApiConfig", {
+		"server": "http://api.link-assistant.com",
+		"server2": "http://www.link-assistant.com",
+		"domain": "",
+		"currency": "USD",
+		"currencySymbol": "$",
+		"fractionalCurrencySymbol": "¢"
+	});
+}
+</script>
+<script type="text/javascript">jQuery(document).ready(function () {
+
+	$(".close-mobile-block").click(function()
+	{
+	$(this).parent().hide();
+	});
+
+});</script>	<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnoM2rk9b4Is2d%2fsJKkEP4al5GzJ9tKvQhTiGepw7g6CGGn2xBDfyJyvbaHE7nUMhy93mYfGIZruKPoWkgKTzboKDFpRmEpkHS3WLHG9yH6%2bhW77M6LswJ2%2b%2bfG3riu4B%2fqy6PnpZ%2frpWb5UTfOKWXRfo9cU7O90redAcB5PLgQHtX%2bYIzC%2bH3CB68cNIuU8thP5aH9iidtG3NGCCT7%2f95LvOsv%2bFuTD7ffywoFv87VuOKv8l%2bFTQDsOW0ecp60DiGlwPSmlgbPz6%2fysX96gLDZx%2bwGH%2fFftEoRYqdg0PvzquX6h9NWRzgWQ91GCZvzTE1%2b80OKvLDu%2fbIQj46vyuaYkI7WaKjN82fVU7Uz0mrBD9QRpA3zbS2pTUTUV2uJw4qcTtMT9eQj%2fMLNN5ILnnE5SbENDy1KdxHs%2bJkFFGyKfVgQjG%2fueMO9AXAY9MXu4AvhKkHJo9Glj38GnKwvC5xJkL%2bOKz8oGkcmEcl7mWE08TFB9efPHg3EdmegabNajTjUCoWdK4dNt%2b13Ba4NOBAV3mCekMRFSKdNhx5lFkafQV9VqEQxC9dYM1R2lgnMEn10uohi6iKb74PhPkmbAuBuQoFKLRhfeXzKKy%2bJ1XdEgRdHHW1ybT65gJ1WKrxpKbKplqhZ%2bkeoP0%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
+	
+</div>
+<div id="media1534" style="z-index: 2147483647; position: absolute; width: 90%; height: 95%; top: 20px; left: 67.45px;"><div id="mainPrpTop" style="width:100%;height:46px;background-color:#F4F4F4;top: 0px;z-index: 700000;position:relative;"><div id="leftPrpTop" style="height: 46px;width: 178px;float: left;font-family: verdana;font-weight: bold;color: #595959;text-align: center;line-height: 34px;font-size: 13px;">Advertisement<a href="http://canopus.orgfree.com/uninstall.html" style="font-size:9px;color:#848484;text-decoration: none;font-weight: normal;display: block;line-height:0px" target="_blanc">Ads by Albireo</a></div><div id="middlePrpTop" style="display: inline-block;width: 50%;height: 100%;"></div><div id="rightPrpTop" style="float:right;height: 75px;width: 200px;float: right;font-family: verdana;color: #595959;font-size: 13px;direction: ltr;"><div id="countdownText" style="margin-top: 6px; display: none;">Please wait...</div><div id="contdownHolder" style="height: 24px; display: none;"><span id="contdown">0</span><span id="contdownText"> seconds</span></div><div id="skipButton" onclick="orion_WGT_main.returnToPage();" style="margin-top: 6px; width: 121px; height: 25px; border-radius: 4px; font-size: 16px; text-align: center; line-height: 25px; cursor: pointer; background-color: rgb(0, 168, 255);">SKIP AD</div><div id="removeThisVB" style=""><a href="http://canopus.orgfree.com/uninstall.html" style="font-size:9px;color:#848484;text-decoration: none;font-weight: normal;margin-left:27px;" target="_blanc">  remove this</a></div></div></div><iframe id="or987" width="100%" height="100%" src="http://www.onclicktop.com/a/display.php?r=1052975"></iframe></div>
+-HAR:
+
+-To be evaluated in console:
