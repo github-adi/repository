@@ -1,0 +1,19 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<body>
+<a  href="http://u.msn.com/id-id/cuaca/hariini/Bekasi,Jawa-Barat,Indonesia/we-city--6.226,106.973?iso=ID" class="location" data-loc="lat=-6.23&amp;long=106.97&amp;c=Bekasi&amp;st=Jawa%20Barat&amp;cn=Indonesia&amp;iso=ID&amp;type=1" aria-label="Cuaca di Bekasi Umumnya Berawan dengan suhu 27 derajat.">
+ <img class="image" src="http://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1kKVy.img?m=6&amp;o=true&amp;u=true&amp;n=true&amp;w=30&amp;h=30"
+
+data-src="{&quot;default&quot;:&quot;//img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1kKVy.img?m=6&amp;o=true&amp;u=true&amp;n=true&amp;w=30&amp;h=30&quot;}"
+alt="Umumnya Berawan" title="Umumnya Berawan" data-icon="30" />
+<div class="loc">
+Bekasi / <span>27&#176;C</span>
+
+</div>
+</a>
+</body>
+
+-HAR:
+
+-To be evaluated in console:
