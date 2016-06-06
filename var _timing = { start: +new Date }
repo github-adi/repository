@@ -1,0 +1,14 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+var _timing = { start: +new Date }
+-Returned:
+undefined
+
+_timing
+-Returned:
+_timing
+Object {start: 1465232981704}
+-HAR:
+
+-To be evaluated in console:
