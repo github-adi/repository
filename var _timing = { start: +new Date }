@@ -13,6 +13,10 @@ Object {start: 1465232981704}
 start: +new Date
 -Returned:
 1465233649622
+
++new Date
+-Returned:
+1465233933380
 -HAR:
 
 -To be evaluated in console:
