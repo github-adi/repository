@@ -17,6 +17,22 @@ start: +new Date
 +new Date
 -Returned:
 1465233933380
+
+start: +07/06/2016
+-Returned:
+2016-06-07 00:29:02.335 Error saving setting with name: consoleHistory, value length: 5235529. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-07 00:29:02.347 Ten largest settings: 
+2016-06-07 00:29:02.458 Setting: 'consoleHistory', size: 5235508
+2016-06-07 00:29:02.459 Setting: 'savedURLs', size: 3818
+2016-06-07 00:29:02.459 Setting: 'previouslyViewedFiles', size: 2844
+2016-06-07 00:29:02.459 Setting: 'breakpoints', size: 227
+2016-06-07 00:29:02.459 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-07 00:29:02.459 Setting: 'watchExpressions', size: 45
+2016-06-07 00:29:02.459 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-07 00:29:02.459 Setting: 'experiments', size: 2
+2016-06-07 00:29:02.459 Setting: 'domBreakpoints', size: 2
+2016-06-07 00:29:02.459 Setting: 'workspaceExcludedFolders', size: 2
+0.0005787037037037038
 -HAR:
 
 -To be evaluated in console:
