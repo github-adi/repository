@@ -33,6 +33,23 @@ start: +07/06/2016
 2016-06-07 00:29:02.459 Setting: 'domBreakpoints', size: 2
 2016-06-07 00:29:02.459 Setting: 'workspaceExcludedFolders', size: 2
 0.0005787037037037038
+
+-Tomorrow:
+start: +08/06/2016
+-Returned:
+2016-06-07 00:34:15.906 Error saving setting with name: consoleHistory, value length: 5235550. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-07 00:34:15.907 Ten largest settings: 
+2016-06-07 00:34:15.989 Setting: 'consoleHistory', size: 5235508
+2016-06-07 00:34:15.990 Setting: 'savedURLs', size: 3818
+2016-06-07 00:34:15.990 Setting: 'previouslyViewedFiles', size: 2844
+2016-06-07 00:34:15.990 Setting: 'breakpoints', size: 227
+2016-06-07 00:34:15.990 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-07 00:34:16.004 Setting: 'watchExpressions', size: 45
+2016-06-07 00:34:16.004 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-07 00:34:16.005 Setting: 'experiments', size: 2
+2016-06-07 00:34:16.005 Setting: 'domBreakpoints', size: 2
+2016-06-07 00:34:16.005 Setting: 'workspaceExcludedFolders', size: 2
+0.0006613756613756613
 -HAR:
 
 -To be evaluated in console:
