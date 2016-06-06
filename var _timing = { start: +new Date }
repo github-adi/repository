@@ -9,6 +9,10 @@ _timing
 -Returned:
 _timing
 Object {start: 1465232981704}
+
+start: +new Date
+-Returned:
+1465233649622
 -HAR:
 
 -To be evaluated in console:
