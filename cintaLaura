@@ -1,0 +1,37 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+<!DOCTYPE html><html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"  lang="id-ID"  style="font-size:62.5%"  class="hiperf"  dir="ltr" >
+
+<body bgcolor="#a4f3da">
+<center><img src=" https://loverzcintalaura.files.wordpress.com/2012/11/cinta-laura-6055.jpg " ></img></center>
+<style>
+body{
+background:url("https://www.google.co.id/logos/doodles/2016/phoebe-snetsingers-85th-birthday-5179281716019200-hp.gif");
+}
+h1 {
+font-family: 'bauhaus93', ;
+font-size:100px;
+weight: 400;
+color: rgb(255,0,0);
+}
+</style>
+<center><h1>Cinta Laura</h1></center>
+<center><IFRAME SRC=" https://loverzcintalaura.files.wordpress.com/2012/11/cinta-laura-6055.jpg "></IFRAME></center>
+<center><A HREF=" https://loverzcintalaura.files.wordpress.com/2012/11/cinta-laura-6055.jpg " target="_blank">https://loverzcintalaura.files.wordpress.com/2012/11/cinta-laura-6055.jpg</A></center>
+<center><A HREF=" https://www.google.co.id/logos/doodles/2016/phoebe-snetsingers-85th-birthday-5179281716019200-hp.gif " target="_blank">https://www.google.co.id/logos/doodles/2016/phoebe-snetsingers-85th-birthday-5179281716019200-hp.gif</A></center>
+
+</body>
+</html>
+
+-HAR:
+
+-To be evaluated in console:
+
+-Benchmark:
+-Developer Tools:
+-Mozilla Firefox:
+
+-Internet Explorer:
+
+-Google Chrome:
