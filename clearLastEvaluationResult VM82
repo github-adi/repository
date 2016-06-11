@@ -48,6 +48,22 @@ this._propertyDescriptors
 function* (object,ownProperties,accessorPropertiesOnly,propertyNamesOnly)
 {var propertyProcessed={__proto__:null};function*process(o,properties)
 {for(var property of properties){if(propertyProcessed[p…
+
+-VM164:
+function  toString(obj) {try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+2016-06-12 01:52:27.365 Error saving setting with name: consoleHistory, value length: 5235706. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-12 01:52:27.366 Ten largest settings: 
+2016-06-12 01:52:27.443 Setting: 'consoleHistory', size: 5235519
+2016-06-12 01:52:27.443 Setting: 'savedURLs', size: 3818
+2016-06-12 01:52:27.443 Setting: 'previouslyViewedFiles', size: 2769
+2016-06-12 01:52:27.443 Setting: 'breakpoints', size: 227
+2016-06-12 01:52:27.443 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-12 01:52:27.444 Setting: 'watchExpressions', size: 45
+2016-06-12 01:52:27.444 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-12 01:52:27.444 Setting: 'experiments', size: 2
+2016-06-12 01:52:27.444 Setting: 'domBreakpoints', size: 2
+2016-06-12 01:52:27.444 Setting: 'workspaceExcludedFolders', size: 2
+undefined
 -HAR:
 
 -To be evaluated in console:
