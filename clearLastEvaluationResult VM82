@@ -31,6 +31,23 @@ this._wrapObject
 2016-06-12 01:29:56.864 Setting: 'workspaceExcludedFolders', size: 2
 (object,objectGroupName,forceValueType,generatePreview,columnNames,isTable,doNotBind,customObjectConfig)
 {try{return new InjectedScript.RemoteObject(object,objectGroupName,doNotBind,forceValu…
+
+this._propertyDescriptors
+2016-06-12 01:33:24.963 Error saving setting with name: consoleHistory, value length: 5236006. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-12 01:33:24.964 Ten largest settings: 
+2016-06-12 01:33:25.041 Setting: 'consoleHistory', size: 5235508
+2016-06-12 01:33:25.041 Setting: 'savedURLs', size: 3818
+2016-06-12 01:33:25.041 Setting: 'previouslyViewedFiles', size: 2842
+2016-06-12 01:33:25.041 Setting: 'breakpoints', size: 227
+2016-06-12 01:33:25.041 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-12 01:33:25.041 Setting: 'watchExpressions', size: 45
+2016-06-12 01:33:25.042 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-12 01:33:25.042 Setting: 'experiments', size: 2
+2016-06-12 01:33:25.042 Setting: 'domBreakpoints', size: 2
+2016-06-12 01:33:25.042 Setting: 'workspaceExcludedFolders', size: 2
+function* (object,ownProperties,accessorPropertiesOnly,propertyNamesOnly)
+{var propertyProcessed={__proto__:null};function*process(o,properties)
+{for(var property of properties){if(propertyProcessed[p…
 -HAR:
 
 -To be evaluated in console:
