@@ -61,6 +61,21 @@ chrome
 2016-06-13 03:00:53.235 Setting: 'experiments', size: 2
 2016-06-13 03:00:53.235 Setting: 'domBreakpoints', size: 2
 Object {app: Object, webstore: Object, runtime: Object}app: Objectcsi: ()arguments: nullcaller: nulllength: 0name: ""prototype: Object__proto__: ()<function scope>loadTimes: ()arguments: nullcaller: nulllength: 0name: ""prototype: Object__proto__: ()<function scope>runtime: ObjectOnInstalledReason: ObjectOnRestartRequiredReason: ObjectPlatformArch: ObjectPlatformNaclArch: ObjectPlatformOs: ObjectRequestUpdateCheckStatus: Objectconnect: ()sendMessage: ()__proto__: Objectwebstore: Objectinstall: (url, onSuccess, onFailure)onDownloadProgress: EventonInstallStageChanged: Event__proto__: Object__proto__: Object__defineGetter__: __defineGetter__()__defineSetter__: __defineSetter__()__lookupGetter__: __lookupGetter__()__lookupSetter__: __lookupSetter__()constructor: Object()hasOwnProperty: hasOwnProperty()isPrototypeOf: isPrototypeOf()propertyIsEnumerable: propertyIsEnumerable()toLocaleString: toLocaleString()toString: toString()valueOf: valueOf()get __proto__: __proto__()set __proto__: __proto__()
+-
+clear
+2016-06-13 03:06:16.263 Error saving setting with name: consoleHistory, value length: 5236135. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-13 03:06:16.264 Ten largest settings: 
+2016-06-13 03:06:16.434 Setting: 'consoleHistory', size: 5235590
+2016-06-13 03:06:16.434 Setting: 'savedURLs', size: 3818
+2016-06-13 03:06:16.435 Setting: 'previouslyViewedFiles', size: 2708
+2016-06-13 03:06:16.435 Setting: 'breakpoints', size: 227
+2016-06-13 03:06:16.435 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-13 03:06:16.435 Setting: 'fileSystemMapping', size: 54
+2016-06-13 03:06:16.436 Setting: 'watchExpressions', size: 45
+2016-06-13 03:06:16.436 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-13 03:06:16.436 Setting: 'experiments', size: 2
+2016-06-13 03:06:16.436 Setting: 'domBreakpoints', size: 2
+clear() { [Command Line API] }
 
 -HAR:
 
