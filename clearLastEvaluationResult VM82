@@ -310,7 +310,20 @@ Show all messages
 b.$E
 m(u){if(u instanceof l)return u;if(!u)if(!window.addEventListener&&document.createEventObject){u=window.event?document.createEventObject(window.event):{};}else u={};if(!u._inherits_from_proto…
 ﻿
-
+b.Arbiter
+2016-06-13 01:26:03.118 Error saving setting with name: consoleHistory, value length: 5235673. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-13 01:26:03.119 Ten largest settings: 
+2016-06-13 01:26:03.195 Setting: 'consoleHistory', size: 5235590
+2016-06-13 01:26:03.195 Setting: 'savedURLs', size: 3818
+2016-06-13 01:26:03.195 Setting: 'previouslyViewedFiles', size: 2708
+2016-06-13 01:26:03.195 Setting: 'breakpoints', size: 227
+2016-06-13 01:26:03.195 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-13 01:26:03.196 Setting: 'fileSystemMapping', size: 54
+2016-06-13 01:26:03.196 Setting: 'watchExpressions', size: 45
+2016-06-13 01:26:03.196 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-13 01:26:03.196 Setting: 'experiments', size: 2
+2016-06-13 01:26:03.196 Setting: 'domBreakpoints', size: 2
+k(){var n=new (c('EventEmitter'))();this.$Arbiter1=new l();this.$Arbiter2=new (c('EventEmitterWithHolding'))(n,this.$Arbiter1);this.$Arbiter3=new (c('CallbackDependencyManager'))();this.$Arbi…
 
 -HAR:
 
