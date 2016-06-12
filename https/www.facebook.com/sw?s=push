@@ -76,6 +76,21 @@ clear
 2016-06-13 03:06:16.436 Setting: 'experiments', size: 2
 2016-06-13 03:06:16.436 Setting: 'domBreakpoints', size: 2
 clear() { [Command Line API] }
+-
+clearInterval
+2016-06-13 03:09:57.571 Error saving setting with name: consoleHistory, value length: 5236151. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-13 03:09:57.574 Ten largest settings: 
+2016-06-13 03:09:57.748 Setting: 'consoleHistory', size: 5235590
+2016-06-13 03:09:57.748 Setting: 'savedURLs', size: 3818
+2016-06-13 03:09:57.749 Setting: 'previouslyViewedFiles', size: 2708
+2016-06-13 03:09:57.749 Setting: 'breakpoints', size: 227
+2016-06-13 03:09:57.749 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-13 03:09:57.749 Setting: 'fileSystemMapping', size: 54
+2016-06-13 03:09:57.749 Setting: 'watchExpressions', size: 45
+2016-06-13 03:09:57.749 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-13 03:09:57.749 Setting: 'experiments', size: 2
+2016-06-13 03:09:57.750 Setting: 'domBreakpoints', size: 2
+(){for(var i=arguments.length,j=Array(i),k=0;k<i;k++)j[k]=arguments[k];c('TimerStorage').unset(c('TimerStorage').INTERVAL,j[0]);return Function.prototype.apply.call(h,b,j);}
 
 -HAR:
 
