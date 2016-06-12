@@ -85,6 +85,130 @@ Math
 2016-06-12 16:35:22.790 Setting: 'experiments', size: 2
 2016-06-12 16:35:22.791 Setting: 'domBreakpoints', size: 2
 Math {E: 2.718281828459045, LN10: 2.302585092994046, LN2: 0.6931471805599453, LOG2E: 1.4426950408889634, LOG10E: 0.4342944819032518…}E: 2.718281828459045LN2: 0.6931471805599453LN10: 2.302585092994046LOG2E: 1.4426950408889634LOG10E: 0.4342944819032518PI: 3.141592653589793SQRT1_2: 0.7071067811865476SQRT2: 1.4142135623730951abs: abs()arguments: (...)caller: (...)length: 1name: "abs"__proto__: ()<function scope>acos: acos()acosh: acosh()asin: asin()asinh: asinh()atan: atan()atan2: atan2()atanh: atanh()cbrt: cbrt()ceil: ceil()clz32: clz32()cos: cos()cosh: cosh()exp: exp()expm1: expm1()floor: floor()fround: fround()hypot: hypot()imul: imul()log: log()log1p: log1p()log2: log2()log10: log10()max: max()min: min()pow: pow()random: random()round: round()sign: sign()sin: sin()sinh: sinh()sqrt: sqrt()tan: tan()tanh: tanh()trunc: trunc()Symbol(Symbol.toStringTag): "Math"__proto__: Object__defineGetter__: __defineGetter__()__defineSetter__: __defineSetter__()__lookupGetter__: __lookupGetter__()__lookupSetter__: __lookupSetter__()constructor: Object()hasOwnProperty: hasOwnProperty()isPrototypeOf: isPrototypeOf()propertyIsEnumerable: propertyIsEnumerable()toLocaleString: toLocaleString()toString: toString()valueOf: valueOf()get __proto__: __proto__()set __proto__: __proto__()
+-call stack:
+m.animate:
+https://www.facebook.com/rsrc.php/v2ivGN4/yL/l/id_ID/qyr8K08Mc3T.js
+Animation
+
+Request Animation Frame
+
+Cancel Animation Frame
+
+Animation Frame Fired
+
+Clipboard
+
+Control
+
+Device
+
+DOM Mutation
+
+Drag / drop
+
+Keyboard
+
+Load
+
+Media
+
+Mouse
+
+Parse
+
+Pointer
+
+Script
+
+Timer
+
+Touch
+
+WebGL
+
+Window
+
+XHR
+Event Listeners
+
+
+
+
+
+
+
+
+Async
+Scope
+Watch
+Local
+n
+:
+1
+o
+:
+()
+p
+:
+1
+q
+:
+-205
+this
+:
+m
+_animating
+:
+true
+_arrowNext
+:
+a._2xw._3tk._53qy
+_arrowPrev
+:
+a._2xx._3tj._53qx
+_autoplayTimeout
+:
+120000
+_autoplayTimer
+:
+336
+_config
+:
+Object
+_container
+:
+ul._2xq
+_currentIndex
+:
+0
+_items
+:
+Array[6]
+_root
+:
+div#u_ps_0_1_1._3sy._2xm
+arbiter$f3b858787afb014
+:
+k
+__proto__
+:
+l
+Closure (a)
+Window
+Global
+
+Console
+
+
+
+
+
+Preserve log
+
+Show all messages
+﻿
+﻿
+
 
 -HAR:
 
