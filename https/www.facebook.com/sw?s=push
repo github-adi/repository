@@ -1,0 +1,21 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad (HTML Editor):
+-https://www.facebook.com/sw?s=push :
+b.AsyncSignal
+2016-06-13 01:31:11.971 Error saving setting with name: consoleHistory, value length: 5235732. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-13 01:31:11.973 Ten largest settings: 
+2016-06-13 01:31:12.052 Setting: 'consoleHistory', size: 5235590
+2016-06-13 01:31:12.053 Setting: 'savedURLs', size: 3818
+2016-06-13 01:31:12.053 Setting: 'previouslyViewedFiles', size: 2708
+2016-06-13 01:31:12.053 Setting: 'breakpoints', size: 227
+2016-06-13 01:31:12.053 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-13 01:31:12.053 Setting: 'fileSystemMapping', size: 54
+2016-06-13 01:31:12.053 Setting: 'watchExpressions', size: 45
+2016-06-13 01:31:12.053 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-13 01:31:12.053 Setting: 'experiments', size: 2
+2016-06-13 01:31:12.053 Setting: 'domBreakpoints', size: 2
+i(j,k){this.data=k||{};this.uri=j.toString();if(c('TrackingConfig').domain&&this.uri.charAt(0)=='/')this.uri=c('TrackingConfig').domain+this.uri;}
+-HAR:
+
+-To be evaluated in console:
