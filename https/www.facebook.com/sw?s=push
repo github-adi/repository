@@ -160,6 +160,36 @@ console
 2016-06-13 23:34:09.362 Setting: 'experiments', size: 2
 2016-06-13 23:34:09.363 Setting: 'domBreakpoints', size: 2
 Console {memory: MemoryInfo}memory: MemoryInfojsHeapSizeLimit: 793000000totalJSHeapSize: 29400000usedJSHeapSize: 26000000__proto__: MemoryInfoconstructor: MemoryInfo()arguments: nullcaller: nulllength: 0name: "MemoryInfo"prototype: MemoryInfo__proto__: ()<function scope>jsHeapSizeLimit: (...)get jsHeapSizeLimit: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>totalJSHeapSize: (...)get totalJSHeapSize: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>usedJSHeapSize: (...)get usedJSHeapSize: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>Symbol(Symbol.toStringTag): "MemoryInfo"__proto__: Object__proto__: Consoleconstructor: Console()arguments: nullcaller: nulllength: 0name: "Console"prototype: Consoleconstructor: Console()memory: (...)get memory: ()set memory: ()Symbol(Symbol.toStringTag): "Console"__proto__: ConsoleBase__proto__: ConsoleBase()arguments: nullcaller: nulllength: 0name: "ConsoleBase"prototype: ConsoleBase__proto__: ()<function scope><function scope>memory: (...)get memory: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>set memory: ()arguments: nullcaller: nulllength: 1name: ""__proto__: ()<function scope>Symbol(Symbol.toStringTag): "Console"__proto__: ConsoleBaseassert: assert()clear: clear()constructor: ConsoleBase()count: count()debug: debug()dir: dir()dirxml: dirxml()error: error()group: group()groupCollapsed: groupCollapsed()groupEnd: groupEnd()info: info()log: log()markTimeline: markTimeline()profile: profile()profileEnd: profileEnd()table: table()time: time()timeEnd: timeEnd()timeStamp: timeStamp()timeline: timeline()timelineEnd: timelineEnd()trace: trace()warn: warn()Symbol(Symbol.toStringTag): "ConsoleBase"__proto__: Object
+-
+copy
+2016-06-13 23:41:17.426 Error saving setting with name: consoleHistory, value length: 5235622. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-13 23:41:17.428 Ten largest settings: 
+2016-06-13 23:41:17.597 Setting: 'consoleHistory', size: 5235590
+2016-06-13 23:41:17.598 Setting: 'savedURLs', size: 3818
+2016-06-13 23:41:17.598 Setting: 'previouslyViewedFiles', size: 2708
+2016-06-13 23:41:17.598 Setting: 'breakpoints', size: 227
+2016-06-13 23:41:17.598 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-13 23:41:17.598 Setting: 'fileSystemMapping', size: 54
+2016-06-13 23:41:17.599 Setting: 'watchExpressions', size: 45
+2016-06-13 23:41:17.599 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-13 23:41:17.599 Setting: 'experiments', size: 2
+2016-06-13 23:41:17.599 Setting: 'domBreakpoints', size: 2
+copy(object) { [Command Line API] }
+-
+crypto
+2016-06-13 23:43:19.896 Error saving setting with name: consoleHistory, value length: 5235651. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-13 23:43:19.899 Ten largest settings: 
+2016-06-13 23:43:20.067 Setting: 'consoleHistory', size: 5235590
+2016-06-13 23:43:20.067 Setting: 'savedURLs', size: 3818
+2016-06-13 23:43:20.068 Setting: 'previouslyViewedFiles', size: 2708
+2016-06-13 23:43:20.068 Setting: 'breakpoints', size: 227
+2016-06-13 23:43:20.068 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-13 23:43:20.068 Setting: 'fileSystemMapping', size: 54
+2016-06-13 23:43:20.069 Setting: 'watchExpressions', size: 45
+2016-06-13 23:43:20.069 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-13 23:43:20.069 Setting: 'experiments', size: 2
+2016-06-13 23:43:20.070 Setting: 'domBreakpoints', size: 2
+Crypto {subtle: SubtleCrypto}subtle: SubtleCrypto__proto__: SubtleCryptoconstructor: SubtleCrypto()arguments: nullcaller: nulllength: 0name: "SubtleCrypto"prototype: SubtleCryptoconstructor: SubtleCrypto()decrypt: decrypt()deriveBits: deriveBits()deriveKey: deriveKey()digest: digest()encrypt: encrypt()exportKey: exportKey()generateKey: generateKey()importKey: importKey()sign: sign()unwrapKey: unwrapKey()verify: verify()wrapKey: wrapKey()Symbol(Symbol.toStringTag): "SubtleCrypto"__proto__: Object__proto__: ()apply: apply()arguments: (...)get arguments: ThrowTypeError()set arguments: ThrowTypeError()bind: bind()call: call()caller: (...)get caller: ThrowTypeError()set caller: ThrowTypeError()constructor: Function()length: 0name: ""toString: toString()Symbol(Symbol.hasInstance): [Symbol.hasInstance]()__proto__: Object<function scope><function scope>No Scopesdecrypt: decrypt()arguments: nullcaller: nulllength: 3name: "decrypt"__proto__: ()<function scope>deriveBits: deriveBits()arguments: nullcaller: nulllength: 3name: "deriveBits"__proto__: ()<function scope>deriveKey: deriveKey()arguments: nullcaller: nulllength: 5name: "deriveKey"__proto__: ()<function scope>digest: digest()arguments: nullcaller: nulllength: 2name: "digest"__proto__: ()<function scope>encrypt: encrypt()arguments: nullcaller: nulllength: 3name: "encrypt"__proto__: ()<function scope>exportKey: exportKey()arguments: nullcaller: nulllength: 2name: "exportKey"__proto__: ()<function scope>generateKey: generateKey()arguments: nullcaller: nulllength: 3name: "generateKey"__proto__: ()<function scope>importKey: importKey()sign: sign()unwrapKey: unwrapKey()verify: verify()wrapKey: wrapKey()Symbol(Symbol.toStringTag): "SubtleCrypto"__proto__: Object__proto__: Cryptoconstructor: Crypto()getRandomValues: getRandomValues()subtle: (...)get subtle: ()Symbol(Symbol.toStringTag): "Crypto"__proto__: Object
 
 -HAR:
 
