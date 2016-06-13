@@ -145,6 +145,21 @@ closed
 2016-06-13 23:32:26.304 Setting: 'experiments', size: 2
 2016-06-13 23:32:26.304 Setting: 'domBreakpoints', size: 2
 false
+-
+console
+2016-06-13 23:34:09.181 Error saving setting with name: consoleHistory, value length: 5235662. Error: Failed to set the 'consoleHistory' property on 'Storage': Setting the value of 'consoleHistory' exceeded the quota.
+2016-06-13 23:34:09.183 Ten largest settings: 
+2016-06-13 23:34:09.348 Setting: 'consoleHistory', size: 5235590
+2016-06-13 23:34:09.348 Setting: 'savedURLs', size: 3818
+2016-06-13 23:34:09.349 Setting: 'previouslyViewedFiles', size: 2708
+2016-06-13 23:34:09.350 Setting: 'breakpoints', size: 227
+2016-06-13 23:34:09.359 Setting: 'eventListenerBreakpoints', size: 220
+2016-06-13 23:34:09.360 Setting: 'fileSystemMapping', size: 54
+2016-06-13 23:34:09.360 Setting: 'watchExpressions', size: 45
+2016-06-13 23:34:09.360 Setting: 'lastSelectedSourcesSidebarPaneTab', size: 7
+2016-06-13 23:34:09.362 Setting: 'experiments', size: 2
+2016-06-13 23:34:09.363 Setting: 'domBreakpoints', size: 2
+Console {memory: MemoryInfo}memory: MemoryInfojsHeapSizeLimit: 793000000totalJSHeapSize: 29400000usedJSHeapSize: 26000000__proto__: MemoryInfoconstructor: MemoryInfo()arguments: nullcaller: nulllength: 0name: "MemoryInfo"prototype: MemoryInfo__proto__: ()<function scope>jsHeapSizeLimit: (...)get jsHeapSizeLimit: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>totalJSHeapSize: (...)get totalJSHeapSize: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>usedJSHeapSize: (...)get usedJSHeapSize: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>Symbol(Symbol.toStringTag): "MemoryInfo"__proto__: Object__proto__: Consoleconstructor: Console()arguments: nullcaller: nulllength: 0name: "Console"prototype: Consoleconstructor: Console()memory: (...)get memory: ()set memory: ()Symbol(Symbol.toStringTag): "Console"__proto__: ConsoleBase__proto__: ConsoleBase()arguments: nullcaller: nulllength: 0name: "ConsoleBase"prototype: ConsoleBase__proto__: ()<function scope><function scope>memory: (...)get memory: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>set memory: ()arguments: nullcaller: nulllength: 1name: ""__proto__: ()<function scope>Symbol(Symbol.toStringTag): "Console"__proto__: ConsoleBaseassert: assert()clear: clear()constructor: ConsoleBase()count: count()debug: debug()dir: dir()dirxml: dirxml()error: error()group: group()groupCollapsed: groupCollapsed()groupEnd: groupEnd()info: info()log: log()markTimeline: markTimeline()profile: profile()profileEnd: profileEnd()table: table()time: time()timeEnd: timeEnd()timeStamp: timeStamp()timeline: timeline()timelineEnd: timelineEnd()trace: trace()warn: warn()Symbol(Symbol.toStringTag): "ConsoleBase"__proto__: Object
 
 -HAR:
 
