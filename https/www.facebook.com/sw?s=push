@@ -3231,6 +3231,78 @@ Storage {Bandicoot:AdsManager: "{"35174c12032ea4d6":{"duration":11754,"tabs":1,"
 -
 location
 Location {hash: "", search: "", pathname: "/muhammad.a.nugroho", port: "", hostname: "www.facebook.com"…}ancestorOrigins: DOMStringListlength: 0__proto__: DOMStringListconstructor: DOMStringList()arguments: nullcaller: nulllength: 0name: "DOMStringList"prototype: DOMStringList__proto__: ()<function scope>contains: contains()arguments: nullcaller: nulllength: 1name: "contains"__proto__: ()<function scope>item: item()arguments: nullcaller: nulllength: 1name: "item"__proto__: ()<function scope>length: (...)get length: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>Symbol(Symbol.iterator): values()arguments: (...)caller: (...)length: 0name: "values"prototype: Object__proto__: ()<function scope>Symbol(Symbol.toStringTag): "DOMStringList"__proto__: Object__defineGetter__: __defineGetter__()__defineSetter__: __defineSetter__()__lookupGetter__: __lookupGetter__()__lookupSetter__: __lookupSetter__()constructor: Object()hasOwnProperty: hasOwnProperty()isPrototypeOf: isPrototypeOf()propertyIsEnumerable: propertyIsEnumerable()toLocaleString: toLocaleString()toString: toString()valueOf: valueOf()get __proto__: __proto__()set __proto__: __proto__()assign: ()arguments: nullcaller: nulllength: 1name: ""prototype: Objectconstructor: ()__proto__: Object__proto__: ()apply: apply()arguments: (...)get arguments: ThrowTypeError()set arguments: ThrowTypeError()bind: bind()call: call()caller: (...)get caller: ThrowTypeError()set caller: ThrowTypeError()constructor: Function()length: 0name: ""toString: toString()Symbol(Symbol.hasInstance): [Symbol.hasInstance]()__proto__: Object<function scope><function scope>No Scopeshash: ""host: "www.facebook.com"hostname: "www.facebook.com"href: "https://www.facebook.com/muhammad.a.nugroho"origin: "https://www.facebook.com"pathname: "/muhammad.a.nugroho"port: ""protocol: "https:"reload: reload()arguments: nullcaller: nulllength: 0name: "reload"__proto__: ()<function scope>replace: ()arguments: nullcaller: nulllength: 1name: ""prototype: Object__proto__: ()<function scope>search: ""toString: toString()arguments: nullcaller: nulllength: 0name: "toString"__proto__: ()<function scope>valueOf: valueOf()arguments: nullcaller: nulllength: 0name: "valueOf"__proto__: ()<function scope>__proto__: Locationconstructor: Location()Symbol(Symbol.toStringTag): "Location"__proto__: Object
+-
+locationbar
+BarProp {visible: true}
+-
+menubar
+BarProp {visible: true}
+-
+monitor
+monitor(fn) { [Command Line API] }
+-
+monitorEvents
+monitorEvents(object, [types]) { [Command Line API] }
+-
+name
+"_e_0QJA"
+-
+navigator
+Navigator {vendorSub: "", productSub: "20030107", vendor: "Google Inc.", maxTouchPoints: 0, hardwareConcurrency: 2…}appCodeName: "Mozilla"appName: "Netscape"appVersion: "5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"cookieEnabled: truecredentials: CredentialsContainer__proto__: CredentialsContainerconstructor: CredentialsContainer()arguments: nullcaller: nulllength: 0name: "CredentialsContainer"prototype: CredentialsContainer__proto__: ()<function scope>get: get()arguments: nullcaller: nulllength: 0name: "get"__proto__: ()<function scope>requireUserMediation: requireUserMediation()arguments: nullcaller: nulllength: 0name: "requireUserMediation"__proto__: ()<function scope>store: store()arguments: nullcaller: nulllength: 1name: "store"__proto__: ()<function scope>Symbol(Symbol.toStringTag): "CredentialsContainer"__proto__: Object__defineGetter__: __defineGetter__()__defineSetter__: __defineSetter__()__lookupGetter__: __lookupGetter__()__lookupSetter__: __lookupSetter__()constructor: Object()hasOwnProperty: hasOwnProperty()isPrototypeOf: isPrototypeOf()propertyIsEnumerable: propertyIsEnumerable()toLocaleString: toLocaleString()toString: toString()valueOf: valueOf()get __proto__: __proto__()set __proto__: __proto__()doNotTrack: nullgeolocation: Geolocation__proto__: GeolocationhardwareConcurrency: 2language: "en-US"languages: Array[3]0: "en-US"1: "en"2: "id"length: 3__proto__: Array[0]maxTouchPoints: 0mediaDevices: MediaDevices__proto__: MediaDevicesconstructor: MediaDevices()arguments: nullcaller: nulllength: 0name: "MediaDevices"prototype: MediaDevices__proto__: ()<function scope>enumerateDevices: enumerateDevices()arguments: nullcaller: nulllength: 0name: "enumerateDevices"__proto__: ()<function scope>Symbol(Symbol.toStringTag): "MediaDevices"__proto__: Object__defineGetter__: __defineGetter__()__defineSetter__: __defineSetter__()__lookupGetter__: __lookupGetter__()__lookupSetter__: __lookupSetter__()constructor: Object()hasOwnProperty: hasOwnProperty()isPrototypeOf: isPrototypeOf()propertyIsEnumerable: propertyIsEnumerable()toLocaleString: toLocaleString()toString: toString()valueOf: valueOf()get __proto__: __proto__()set __proto__: __proto__()mimeTypes: MimeTypeArray0: MimeTypedescription: "Widevine Content Decryption Module"enabledPlugin: Plugin0: MimeTypedescription: "Widevine Content Decryption Module"enabledPlugin: Plugin0: MimeTypedescription: "Widevine Content Decryption Module"enabledPlugin: Plugin0: MimeTypedescription: "Enables Widevine licenses for playback of HTML audio/video content. (version: 1.4.8.885)"filename: "widevinecdmadapter.dll"length: 1name: "Widevine Content Decryption Module"__proto__: Pluginsuffixes: ""type: "application/x-ppapi-widevine-cdm"__proto__: MimeTypeconstructor: MimeType()arguments: nullcaller: nulllength: 0name: "MimeType"prototype: MimeTypeconstructor: MimeType()arguments: nullcaller: nulllength: 0name: "MimeType"prototype: MimeType__proto__: ()<function scope>description: (...)get description: ()enabledPlugin: (...)get enabledPlugin: ()suffixes: (...)get suffixes: ()type: (...)get type: ()Symbol(Symbol.toStringTag): "MimeType"__proto__: Object__proto__: ()<function scope>description: (...)get description: ()enabledPlugin: (...)get enabledPlugin: ()suffixes: (...)get suffixes: ()type: (...)get type: ()Symbol(Symbol.toStringTag): "MimeType"__proto__: Objectdescription: "Enables Widevine licenses for playback of HTML audio/video content. (version: 1.4.8.885)"filename: "widevinecdmadapter.dll"length: 1name: "Widevine Content Decryption Module"__proto__: Pluginconstructor: Plugin()description: (...)get description: ()filename: (...)get filename: ()item: item()length: (...)get length: ()name: (...)get name: ()namedItem: namedItem()Symbol(Symbol.iterator): values()Symbol(Symbol.toStringTag): "Plugin"__proto__: Objectsuffixes: ""type: "application/x-ppapi-widevine-cdm"__proto__: MimeTypeconstructor: MimeType()arguments: nullcaller: nulllength: 0name: "MimeType"prototype: MimeType__proto__: ()<function scope>description: (...)get description: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>enabledPlugin: (...)get enabledPlugin: ()arguments: nullcaller: nulllength: 0name: ""__proto__: ()<function scope>suffixes: (...)get suffixes: ()type: (...)get type: ()Symbol(Symbol.toStringTag): "MimeType"__proto__: Objectdescription: "Enables Widevine licenses for playback of HTML audio/video content. (version: 1.4.8.885)"filename: "widevinecdmadapter.dll"length: 1name: "Widevine Content Decryption Module"__proto__: Pluginconstructor: Plugin()arguments: nullcaller: nulllength: 0name: "Plugin"prototype: Plugin__proto__: ()<function scope>description: (...)get description: ()filename: (...)get filename: ()item: item()length: (...)get length: ()name: (...)get name: ()namedItem: namedItem()Symbol(Symbol.iterator): values()Symbol(Symbol.toStringTag): "Plugin"__proto__: Objectsuffixes: ""type: "application/x-ppapi-widevine-cdm"__proto__: MimeType1: MimeTypedescription: ""enabledPlugin: Pluginsuffixes: "pdf"type: "application/pdf"__proto__: MimeType2: MimeTypedescription: "Shockwave Flash"enabledPlugin: Pluginsuffixes: "swf"type: "application/x-shockwave-flash"__proto__: MimeType3: MimeTypedescription: "FutureSplash Player"enabledPlugin: Plugin0: MimeType1: MimeTypedescription: "Shockwave Flash 21.0 r0"filename: "pepflashplayer.dll"length: 2name: "Shockwave Flash"__proto__: Pluginsuffixes: "spl"type: "application/futuresplash"__proto__: MimeType4: MimeTypedescription: "Native Client Executable"enabledPlugin: Pluginsuffixes: ""type: "application/x-nacl"__proto__: MimeType5: MimeTypedescription: "Portable Native Client Executable"enabledPlugin: Pluginsuffixes: ""type: "application/x-pnacl"__proto__: MimeType6: MimeTypedescription: "Portable Document Format"enabledPlugin: Pluginsuffixes: "pdf"type: "application/x-google-chrome-pdf"__proto__: MimeTypelength: 7__proto__: MimeTypeArrayonLine: truepermissions: Permissions__proto__: Permissionsconstructor: Permissions()arguments: nullcaller: nulllength: 0name: "Permissions"prototype: Permissions__proto__: ()<function scope>query: query()arguments: nullcaller: nulllength: 1name: "query"__proto__: ()<function scope>Symbol(Symbol.toStringTag): "Permissions"__proto__: Objectplatform: "Win32"plugins: PluginArray0: Plugin0: MimeTypedescription: "Enables Widevine licenses for playback of HTML audio/video content. (version: 1.4.8.885)"filename: "widevinecdmadapter.dll"length: 1name: "Widevine Content Decryption Module"__proto__: Plugin1: Plugin0: MimeTypedescription: ""filename: "mhjfbmdgcfjbbpaeojofohoefgiehjai"length: 1name: "Chrome PDF Viewer"__proto__: Plugin2: Plugin0: MimeType1: MimeTypedescription: "Shockwave Flash 21.0 r0"filename: "pepflashplayer.dll"length: 2name: "Shockwave Flash"__proto__: Plugin3: Plugin0: MimeType1: MimeTypedescription: ""filename: "internal-nacl-plugin"length: 2name: "Native Client"__proto__: Plugin4: Pluginlength: 5__proto__: PluginArraypresentation: PresentationdefaultRequest: null__proto__: Presentationproduct: "Gecko"productSub: "20030107"serviceWorker: ServiceWorkerContainercontroller: ServiceWorkercontroller: ServiceWorkeroncontrollerchange: nullonmessage: nullready: Promise__proto__: ServiceWorkerContaineruserAgent: "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36"vendor: "Google Inc."vendorSub: ""webkitPersistentStorage: DeprecatedStorageQuotawebkitTemporaryStorage: DeprecatedStorageQuota__proto__: Navigator
+-
+offscreenBuffering
+true
+-
+onabort
+null
+-
+onafterloadRegister
+(){return c('Run').onAfterLoad.apply(this,arguments);}
+-
+onafterloadRegister_DEPRECATED
+n(aa){var ba=b.PageHooks;if(window.loaded&&ba){var ca=setTimeout(function(){ba.runHook(aa,'onloadhooks:late');},0);return {remove:function(){return clearTimeout(ca);}};}else return t('onloadh…
+-
+onafterunloadhooks
+[j()]
+-
+onanimationend
+null
+-
+onanimationiteration
+null
+-
+onanimationstart
+null
+-
+onautocomplete
+null
+-
+onautocompleteerror
+null
+-
+onbeforeleavehooks
+[j(), j(), j()]
+-
+onbeforeunload
+ea(){if(j)return z.apply(this,arguments);var fa='TimeSlice'+(aa?': '+aa:''),ga='TimeSlice Task'+(aa?': '+aa:''),ha=c('performanceAbsoluteNow')();j=true;k=i++;l=aa;m.length=0;n=0;var ia=c('Err…
+-
+onbeforeunloadRegister
+o(aa,ba){if(ba===undefined)ba=l();return ba?t('onbeforeleavehooks',aa):t('onbeforeunloadhooks',aa);}
+-
+onbeforeunloadhooks
+[j()]
+-
+onblur
+null
+-
+oncancel
+null
+-
+oncanplay
+null
+-
+oncanplaythrough
+null
 
 -HAR:
 
