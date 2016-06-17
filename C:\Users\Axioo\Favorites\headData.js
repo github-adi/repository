@@ -115,6 +115,39 @@ BarProp {visible: true}
 -
 Math
 Math {E: 2.718281828459045, LN10: 2.302585092994046, LN2: 0.6931471805599453, LOG2E: 1.4426950408889634, LOG10E: 0.4342944819032518…}
+-
+-Via Internet Explorer:
+navigator
+{
+   [functions]: ,
+   __proto__: { },
+   appCodeName: "Mozilla",
+   appMinorVersion: "0",
+   appName: "Netscape",
+   appVersion: "5.0 (Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E; rv:11.0) like Gecko",
+   browserLanguage: "en-US",
+   connectionSpeed: <Permission denied>,
+   constructor: { },
+   cookieEnabled: true,
+   cpuClass: "x86",
+   geolocation: { },
+   language: "id-ID",
+   maxTouchPoints: 0,
+   mimeTypes: { },
+   msManipulationViewsEnabled: false,
+   msMaxTouchPoints: 0,
+   msPointerEnabled: true,
+   onLine: true,
+   platform: "Win32",
+   plugins: { },
+   pointerEnabled: true,
+   product: "Gecko",
+   systemLanguage: "id-ID",
+   userAgent: "Mozilla/5.0 (Windows NT 6.1; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.2; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E; rv:11.0) like Gecko",
+   userLanguage: "id-ID",
+   vendor: "",
+   webdriver: false
+}
 
 
 
