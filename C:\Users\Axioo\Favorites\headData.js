@@ -1,5 +1,7 @@
 -My build DIGITAL Command Language:
 -Muhammad Adi Nugroho,S.Adm.Neg.:
+-Web Browser:
+-Mozilla Firefox:
 -Via My Notepad++ (HTML Editor):
 <!DOCTYPE html><html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"  lang="id-ID"  style="font-size:62.5%"  class="hiperf"  dir="ltr" >
 
