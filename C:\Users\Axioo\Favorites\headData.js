@@ -148,6 +148,18 @@ navigator
    vendor: "",
    webdriver: false
 }
+-Via Mozilla Firefox:
+netscape
+Object { , 1 more… }
+-
+navigator
+Navigator { mozContacts: ContactManager, permissions: Permissions, mimeTypes: MimeTypeArray, plugins: PluginArray, doNotTrack: "unspecified", battery: BatteryManager, oscpu: "Windows NT 6.0", vendor: "", vendorSub: "", productSub: "20100101" }
+-
+outerWidth
+1382
+-
+outerHeight
+744
 
 
 
