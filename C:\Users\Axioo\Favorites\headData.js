@@ -2071,5 +2071,9 @@ window
    XMLDocument: { },
    XMLHttpRequestEventTarget: { }
 }
+-
+-M.F:
+tbView
+Object { tname: "bar", tver: "1", domain: "jollywallet.com", bl: Array[20], unti_bl: Array[2], isInBlackListLocal: tbView.isInBlackListLocal(), isInBlackListStorage: tbView.isInBlackListStorage(), isInBlackList: tbView.isInBlackList(), isInsCache: tbView.isInsCache(), get_doc_url: tbView.get_doc_url(), 20 more… }
 
 
