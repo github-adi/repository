@@ -1,0 +1,36 @@
+-My build DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+-Run at :
+https://tonicdev.com/alph4/57684eeaa3de8312008eb3cf:
+-Like I saw movie hacker:
+var Canvas = require('canvas')
+var canvas = new Canvas(700,300)
+var ctx = canvas.getContext('2d');
+
+function drawTree(x1, y1,length,angle,n)
+{
+    var x2 = x1 + length * Math.cos(angle*Math.PI/180);//new x2
+    var y2 = y1 - length * Math.sin(angle*Math.PI/180);//new y2
+ 
+    ctx.beginPath();
+    ctx.moveTo(x1,y1);
+    ctx.lineTo(x2,y2);
+    
+    ctx.strokeStyle = n < 2 ? "green" : "brown";
+    ctx.lineWidth = n-1;
+    ctx.stroke();
+
+    if(n > 0)// recursion
+    {
+        drawTree(x2,y2,length*0.75,angle+70,n-1);
+        drawTree(x2,y2,length*0.75,angle-70,n-1);
+    }
+}
+
+drawTree(350.5, 300, 100, 90, 10)
+
+canvas.toBuffer()
+-HAR:
+
+-To be evaluated in console:
