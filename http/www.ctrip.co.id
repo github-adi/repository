@@ -1,0 +1,2036 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="Layanan perjalanan satu atap di Cina, Ctrip ahli dalam pemesanan hotel berdiskon, tiket maskapai murah, tur paket, dan informasi bagi yang ingin melakukan perjalanan ke Cina." />
+    <meta name="keywords" content="Penerbangan Murah, Hotel, Paket Liburan, Kegiatan, Penerbangan di Cina, Hotel di Cina, Liburan di Cina, Perjalanan di Cina, Pemandu Perjalanan di Cina, Kunjungan di Cina, Perjalanan di Cina, Perjalanan ke Cina, Tur di Cina" />
+    <meta http-equiv="pragma" content="no-cache">
+    <meta content="IE=10" http-equiv="X-UA-Compatible">
+    <meta name="google-site-verification" content="taIAX7u2r2RZE9bZg3pldrieVhJmrp-ffshfyjsrSyg" />
+<meta name="msvalidate.01" content="043D96D312F84615E2B4D6566406F5C7" />
+    <title>Ctrip - Perjalanan di Cina, Penerbangan Murah di Cina, hotel, Paket Liburan, Tiket Pesawat &amp; tarif tiket pesawat.
+    </title>
+    <link rel="canonical" href="http://www.ctrip.co.id/" />
+    <link rel="SHORTCUT ICON" href="http://www.ctrip.co.id/favicon.ico" type="image/x-icon" />
+    <link rel="ICON" href="http://www.ctrip.co.id/favicon.ico" />
+    <link rel="alternate" media="handheld" href="http://id.ctrip.com/m/" />
+	<style type="text/css">
+        body,.englishToday
+        {
+            background: none repeat scroll 0 0 #fceddc;
+            color: #FFFFFF;
+        }
+    </style>
+	 <script type="text/javascript">
+        var calendarMinDate = 0;
+        var calendarMaxDate = 59;
+        var CTRIP_RES_HOST = 'http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/';
+        var CTRIP_MOD_PATH = 'js/v2/';
+        var englishHostName = 'www.ctrip.co.english';
+        var initModule = {
+            Language: 'id',
+            MultiLangHostName: 'www.ctrip.co.id',
+            EnglishHostName: englishHostName,
+            Index: 0
+        };
+        var ResourceUrl = {
+            hotelCityNewUrl:
+                "http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/JS/Home/index/address_new/address_id.js?2016_6_29_18_26",
+            //                    机酒用
+            hotelCityNewUrl4Packages: "http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/JS/Home/index/city_new/city_new_id.js?2016_6_29_18_26",
+            Load_City_Address:
+                "http://www.ctrip.co.id/hotels/Home/LoadCityAddress",
+            Load_District_Address:
+                "http://www.ctrip.co.id/hotels/tool/GetZone",
+            Load_District_Address2:
+                "http://www.ctrip.co.id/hotels/tool/GetCityZone",
+            AddressNew: "http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/JS/Home/index/address_new/address_id.js?2016_6_29_18_26",
+            fltCityNewUrl2: "http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/JS/Home/index/flt_city_airport_new/flt_new_id.js?2016_6_29_18_26",
+            fltCityNewUrl: "http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/JS/Home/index/flt_new/flt_new_id.js?2016_6_29_18_26",
+            zoneListNewUrl: "http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/JS/Hotel/Intl/Zone/zone_intl_id.js?2016_6_29_18_26",
+            TrainStation: "http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/JS/Train/TrainStation/TrainStationV3_id.js?2016_6_29_18_26",
+            KeyWord: "http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/JS/v2/hotel/SearchBox/ctrip_englishsite_hotel_keywords.js?2016_6_29_18_26"
+        };
+        var addressUrlConfig = {
+            cityJsonp: 'http://www.ctrip.co.id/hotels/tool/KeyWordSearch?keyword=${encodeURIComponent(unescape(decodeURIComponent(key)))}&callback=filterCities("${encodeURIComponent(unescape(decodeURIComponent(key)))}")',
+            cityOrAirportJsonp: 'http://www.ctrip.co.id/flights/Home/CityOrAirportAddress?keyword=${key}',
+            cityCodeJsonp: 'http://www.ctrip.co.id/Packages/Tool/CityCodeAddress?keyword=${key}',
+            cityIdJsonp: 'http://www.ctrip.co.id/Packages/Tool/CityIdAddress?keyword=${key}'
+        }
+        var LANGUAGECODE = 'id';
+        var SITECODE = 'id';
+        var g_adsconfig = "";
+         
+        var Adsrc = 'http://crm.ws.ctrip.com/Customer-Market-Proxy/AdCallProxyV2.aspx?biztype=200&siteids=1000011&adlist=%5b%7b%22pagecode%22%3a%221%22%2c%22domid%22%3a%22Home_Top%22%2c%22type%22%3a0%7d%5d';
+    </script>
+	 <link rel="stylesheet" href="http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/stylesheets/global.4b159da3.css" />
+    <link rel="stylesheet" href="http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/stylesheets/main/index-v2.5bd8eb36.css" />
+    
+    <link rel="alternate" href="http://english.ctrip.com" hreflang="en-US" title="English" />
+<link rel="alternate" href="http://fr.ctrip.com" hreflang="fr-FR" title="Français" />
+<link rel="alternate" href="http://de.ctrip.com" hreflang="de-DE" title="Deutsch" />
+<link rel="alternate" href="http://es.ctrip.com" hreflang="es-ES" title="Español" />
+<link rel="alternate" href="http://jp.ctrip.com" hreflang="ja-JP" title="日本語" />
+<link rel="alternate" href="http://www.ctrip.co.kr" hreflang="ko-KR" title="한국어" />
+<link rel="alternate" href="http://www.ctrip.com.hk" hreflang="zh-HK" title="繁體中文 (香港)" />
+<link rel="alternate" href="http://ru.ctrip.com" hreflang="ru-RU" title="Русский" />
+<link rel="alternate" href="http://www.ctrip.sg" hreflang="en-SG" title="English (SG)" />
+<link rel="alternate" href="http://www.ctrip.my" hreflang="ms-MY" title="Bahasa Malaysia" />
+<link rel="alternate" href="http://www.ctrip.co.id" hreflang="id-ID" title="Bahasa Indonesia" />
+<link rel="alternate" href="http://www.ctrip.co.th" hreflang="th-TH" title="ภาษาไทย" />
+
+    <!--[if lte IE 9]>
+    <script type="text/javascript" language="javascript">
+    window.onload = function () {
+        if(screen.width <= 1200) {
+            var link = document.createElement('link');
+            link.rel = "stylesheet";
+            link.type="text/css";
+            link.href="http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/CSS/common/pub-multi-v2_1000.css?2016_6_29_18_26";
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+
+    };
+    </script>
+    <![endif]-->
+
+	 <script type="text/javascript" language="javascript">
+    var TOP_SELL_AJAX = '/main/home/HotelBestDeal';
+    var TOP_SELL_AJAX_MORE_URL = 'http://www.ctrip.co.id/hotels/tool/GetHotelListUrl';
+        var SubscripeEmail_URL = '/main/EDMSubscription/EmailSubscription';
+        var PromptText_ProvideEmail = 'Masukkan alamat email';
+    var LOAD_CITY_ADDRESS = 'http://www.ctrip.co.id/hotels/home/LoadCityAddress';
+    var AJAX_HOTEL_RESULT_URL = 'http://www.ctrip.co.id/hotels/tool/ajaxHotelResult';
+    var AJAX_FLIGHT_CITY_CHECK_URL = 'http://www.ctrip.co.id/flight/CheckDomesticCity/';
+    var int = null;
+    </script>
+
+	<style>
+        /*---------------------top-destinations---------------------*/
+        body,.top-destinations
+        {
+            background-color: #fff;
+            width: 362px;
+            overflow: hidden;
+        }
+        body,.top-destinations dl
+        {
+            font-family: arial;
+            font-weight: bold;
+            width: 360px;
+            padding-bottom: 11px;
+            border: solid 1px #ddd;
+        }
+        body,.top-destinations dt
+        {
+            color: #84a8e5;
+            font-size: 11px;
+            line-height: 21px;
+            height: 21px;
+            margin-bottom: 11px;
+            padding-left: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        body,.top-destinations dd
+        {
+            display: inline-block;
+            _display: block;
+            overflow: hidden;
+        }
+        body,.top-destinations dd a
+        {
+            color: #1f3370;
+            font-size: 11px;
+            line-height: 17px;
+            text-decoration: none !important;
+            width: 82px;
+            height: 17px;
+            overflow: hidden;
+            float: left;
+            padding-left: 8px;
+            display: block;
+        }
+        body,.top-destinations dd a:hover
+        {
+            background-color: #cedcf5;
+        }
+        /*---------------------new address selector start---------------------*/
+        body,.address-selector
+        {
+            background-color: #fff;
+            width: 362px;
+            height: 250px;
+            overflow: hidden;
+        }
+        body,.address-selector dl
+        {
+            font-family: arial;
+            font-weight: bold;
+            background: #fff url(http://pic.english.c-ctrip.com/packages/bg_address.gif) no-repeat 100% 26px;
+            width: 360px;
+            padding-bottom: 11px;
+            border: solid 1px #ddd;
+        }
+        body,.address-selector dt
+        {
+            color: #84a8e5;
+            font-size: 11px;
+            line-height: 21px;
+            height: 21px;
+            margin-bottom: 11px;
+            padding-left: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        body,.address-selector dd
+        {
+            height: 204px;
+            overflow-y: scroll;
+        }
+        body,.address-selector dd a
+        {
+            color: #1f3370;
+            font-size: 11px;
+            line-height: 17px;
+            text-align: left;
+            text-decoration: none !important;
+            width: 328px;
+            height: 17px;
+            padding-left: 8px;
+            display: block;
+        }
+        body,.address-selector dd a:hover
+        {
+            background-color: #cedcf5;
+        }
+    </style>
+
+    <style>
+        body,.placeholder
+        {
+            color: #888;
+        }
+    </style>
+	
+	</head>
+<body>
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-T2SD" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <script>        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T2SD');
+    </script>
+    <!-- End Google Tag Manager -->
+
+	<style type="text/css">
+    body,.hd-app-download{padding-left:20px;}
+    body,.hd-app-download .icon-app{margin-right:6px;position:relative;top:-2px;}
+    body,.hd-app-download a{display:block;}
+    body,.hd-app-download a:hover{text-decoration:none;}
+    body,.hd-app-download .pack-tip{display:none;right:0;top:-18px;position:absolute;background:#fff;padding:2px 5px;border:1px solid #ccc;border-radius:3px;z-index:100;line-height:1.5;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+    body,.hd-app-download:hover .pack-tip{display:block;}
+
+    body,.ft-language .cur-lang{margin:5px 0 10px 0;}
+    body,.ft-language .cur-lang a{margin:0;}
+    body,.ft-language .cur-lang a:hover{text-decoration:none;}
+    body,.ft-language .ft-lang-list li{font-size:14px;float:left;width:195px;}
+    body,.ft-language .ft-lang-list li a{margin:0;line-height:25px;display:block;padding:8px;}
+    body,.ft-language .ft-lang-list li a:hover{text-decoration:none;background:#1171b7;color:#fff;}
+    body,.ft-language .ft-lang-list li a.active{background:#f5f5f5;cursor:default;}
+    body,.ft-language .ft-lang-list li a.active:hover{color:#666;}
+    body,.ft-language .lang-list{display:none;}
+    body,.ft-language-active .lang-list{display:block;}
+    body,.ft-language-active .icon-select-angle{background-position:-112px -248px;}
+</style>
+
+<script type="text/javascript">
+    try {
+        var __SITE_CONFIG__ =
+        {
+        
+            i18n: {
+                'signin': 'Masuk',
+                'register': 'Daftar',
+                'guestbookings': 'Pemesanan untuk Tamu',
+                'mybookings': 'Pemesanan saya',
+                'reviews': 'Tinjauan',
+                'cmoney': 'C-Money',
+                'ctrippoints': 'Poin Ctrip',
+                'profile': 'Profil',
+                'signout': 'Keluar'
+            }
+        };
+    } catch (e) { throw new Error('site config error'); }
+</script>
+
+<div class="HD_BOX header-box clearfix">
+    <div class="hd-inner">
+        <div class="hd-header">
+            <div class="hd-logo">
+
+                <a href="http://www.ctrip.co.id/">Perjalanan ke Cina dengan Ctrip </a>
+            </div>
+            <div class="hd-toggle-con hd-toggle-full">
+                <button type="button" class="hd-toggle hd-toggle-account" data-menu-class="hd-menu-show-account">
+                    <i class="c-icon icon-account-r"></i>
+                </button>
+                <button type="button" id="hd-toggle-menu" class="hd-toggle hd-toggle-menu" data-menu-class="hd-menu-show-all" data-target="#hd-menu">
+                    <span class="hd-toggle-bar"></span>
+                    <span class="hd-toggle-bar"></span>
+                    <span class="hd-toggle-bar"></span>
+                </button>
+            </div>
+
+            <div class="hd-toggle-con hd-toggle-simple">
+                <button type="button" class="hd-toggle" data-menu-class="hd-menu-show-help">
+                    <i class="c-icon icon-tel-r"></i>
+                </button>
+                <button type="button" class="hd-toggle" data-menu-class="hd-menu-show-currency">
+                    <i class="c-icon icon-currency-r"></i>
+                </button>
+                <button type="button" class="hd-toggle" data-menu-class="hd-menu-show-language">
+                    <i class="c-icon icon-lang-r"></i>
+                </button>
+            </div>
+        </div>
+        <div id="hd-menu" class="hd-menu">
+            <div class="hd-func">
+                <div class="hd-func-item hd-func-dropdown hd-help">
+                    <span class="hd-cur-item"><i class="c-icon icon-tel-sm"></i>Help<i class="c-icon icon-select-angle"></i></span>
+                    <div class="hd-list hd-fold hd-help-list">
+					
+					<dl> <dt>Singapura + Asia Tenggara: </dt><dd>(+65) 6818 2868</dd><dt>Daratan Cina: </dt><dd>400 828 8966</dd><dt>Lokasi lain: </dt><dd>(86 21) 3210 4669</dd><p class="hour">7:00-23:00 Everday (GMT+8)</p> </dl> <p><a rel="nofollow" href="http://pages.english.ctrip.com/faq/id/index.html">FAQ</a> </p> <p><a rel="nofollow" href="javascript:void(0)" onclick="window.open('http://livechat.ctrip.com/livechat/login.aspx?groupcode=HotelAll')">Chat</a> </p>
+                    </div>
+                </div>
+                <div class="hd-func-item hd-func-dropdown hd-currency">
+                    <span class="hd-cur-item">USD<i class="c-icon icon-select-angle"></i></span>
+                    <div class="hd-list hd-fold hd-currency-list" ><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="1.00000" divType="" data-currency-code="CNY"  >CNY - Yuan Cina</a>
+
+					<a href="javascript:void(0)" rel="nofollow" data-rate="6.66080" divType="" data-currency-code="USD"  >USD - Dollar Amerika</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="7.39780" divType="" data-currency-code="EUR"  >EUR - Euro</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="8.85710" divType="" data-currency-code="GBP"  >GBP - Pound Inggris</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="4.98660" divType="" data-currency-code="AUD"  >AUD - Dollar Australia</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="5.14920" divType="" data-currency-code="CAD"  >CAD - Dollar Kanada</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="6.83120" divType="" data-currency-code="CHF"  >CHF - Franc Swiss</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.99450" divType="" data-currency-code="DKK"  >DKK - Kroner Denmark</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.85850" divType="" data-currency-code="HKD"  >HKD - Dollar Hong Kong</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.20680" divType="" data-currency-code="TWD"  >TWD - Dollar Taiwan Baru</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.06497" divType="" data-currency-code="JPY"  >JPY - Yen Jepang</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.00581" divType="" data-currency-code="KRW"  >KRW - Won Korea</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.83350" divType="" data-currency-code="MOP"  >MOP - Pataca Macau</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="1.66580" divType="" data-currency-code="MYR"  >MYR - Ringgit Malaysia</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="4.77680" divType="" data-currency-code="NZD"  >NZD - Dollar New Zealand</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.78680" divType="" data-currency-code="SEK"  >SEK - Kronor Swedia</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="4.95390" divType="" data-currency-code="SGD"  >SGD - Dollar Singapura</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.14190" divType="" data-currency-code="PHP"  >PHP - Peso Filipina</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.10370" divType="" data-currency-code="RUB"  >RUB - Ruble Rusia</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.00030" divType="" data-currency-code="VND"  >VND - Dong Vietnam</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.18980" divType="" data-currency-code="THB"  >THB - Baht Thailand</a>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-rate="0.00051" divType="" data-currency-code="IDR"  >IDR - Rupiah Indonesia</a>
+</div><div id="sel_money_box" class="sel_money_box" style="display: none">
+<span class="sel_money"><span id="currentCurrency" ctag="IDR">IDR</span><i class="triangle_down"></i>
+</span>
+<ul class="money_list top_sel_list" id="money_list">
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="1.00000" divType="" currency="CNY"  >CNY - Yuan Cina</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="6.66080" divType="" currency="USD"  >USD - Dollar Amerika</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="7.39780" divType="" currency="EUR"  >EUR - Euro</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="8.85710" divType="" currency="GBP"  >GBP - Pound Inggris</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="4.98660" divType="" currency="AUD"  >AUD - Dollar Australia</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="5.14920" divType="" currency="CAD"  >CAD - Dollar Kanada</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="6.83120" divType="" currency="CHF"  >CHF - Franc Swiss</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.99450" divType="" currency="DKK"  >DKK - Kroner Denmark</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.85850" divType="" currency="HKD"  >HKD - Dollar Hong Kong</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.20680" divType="" currency="TWD"  >TWD - Dollar Taiwan Baru</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.06497" divType="" currency="JPY"  >JPY - Yen Jepang</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.00581" divType="" currency="KRW"  >KRW - Won Korea</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.83350" divType="" currency="MOP"  >MOP - Pataca Macau</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="1.66580" divType="" currency="MYR"  >MYR - Ringgit Malaysia</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="4.77680" divType="" currency="NZD"  >NZD - Dollar New Zealand</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.78680" divType="" currency="SEK"  >SEK - Kronor Swedia</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="4.95390" divType="" currency="SGD"  >SGD - Dollar Singapura</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.14190" divType="" currency="PHP"  >PHP - Peso Filipina</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.10370" divType="" currency="RUB"  >RUB - Ruble Rusia</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.00030" divType="" currency="VND"  >VND - Dong Vietnam</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.18980" divType="" currency="THB"  >THB - Baht Thailand</a></li>
+<li><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" rate="0.00051" divType="" currency="IDR"  >IDR - Rupiah Indonesia</a></li>
+</ul>
+</div>
+
+                </div>
+                
+
+                <div class="hd-func-item hd-func-dropdown hd-language" style=""> 
+
+                    <span class="hd-cur-item">
+
+                        <i class="c-icon icon-flag icon-id"></i> ID
+
+                            <i class="c-icon icon-select-angle"></i>
+                    </span>
+
+
+
+                    <div class="hd-list hd-fold hd-language-list">
+					<a href="javascript:void(0)" rel="nofollow" data-site-code="EN" data-language-code="EN"><i class="c-icon icon-flag icon-en"></i> English</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="HK" data-language-code="HK"><i class="c-icon icon-flag icon-hk"></i> 香港(繁體)</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="HK" data-language-code="EN"><i class="c-icon icon-flag icon-hk"></i> Hong Kong (English)</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="KR" data-language-code="KR"><i class="c-icon icon-flag icon-kr"></i> 한국어</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="JP" data-language-code="JP"><i class="c-icon icon-flag icon-jp"></i> 日本語</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="SG" data-language-code="EN"><i class="c-icon icon-flag icon-sg"></i> Singapore</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="DE" data-language-code="DE"><i class="c-icon icon-flag icon-de"></i> Deutsch</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="FR" data-language-code="FR"><i class="c-icon icon-flag icon-fr"></i> Fran&#231;ais</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="ES" data-language-code="ES"><i class="c-icon icon-flag icon-es"></i> Espa&#241;ol</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="RU" data-language-code="RU"><i class="c-icon icon-flag icon-ru"></i> Русский</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="ID" data-language-code="ID"><i class="c-icon icon-flag icon-id"></i> Bahasa Indonesia</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="TH" data-language-code="TH"><i class="c-icon icon-flag icon-th"></i> ภาษาไทย</a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" data-site-code="MY" data-language-code="MY"><i class="c-icon icon-flag icon-my"></i> Bahasa Malaysia</a>
+                                <a href="http://english.ctrip.com/main/home/linktoCn#ctm_ref=nb_cn_top" onmousedown="window.location.href='http://english.ctrip.com/main/home/linktoCn#ctm_ref=nb_cn_top';" rel="nofollow"><i class="c-icon icon-flag icon-cn"></i> 中国大陆（简体）</a>
+
+                    </div>
+                </div>
+    <div class="hd-func-item hd-func-dropdown hd-account">
+                    <a class="hd-account-link" href="javascript:;"><i class="c-icon icon-account-s"></i><span class="hd-account-name">Masuk</span></a>
+                    <div class="hd-list hd-fold hd-account-menu">
+
+                    </div>
+                </div>
+
+                <div class="hd-func-item hd-app-download">
+
+                    <a href="http://pages.english.ctrip.com/mobile/id/index.html" target="_top">
+                        <i class="c-icon icon-app"></i>App
+                    </a>
+                    <div class="pack-tip">Ctrip ada di ponsel</div>
+                </div>
+
+				     </div>
+            <ul class="hd-nav hd-nav-main">
+
+
+                                               
+
+                <li class="nav-flight"><a class="" href="http://www.ctrip.co.id/flights/#ctm_ref=nb_fl_top">Penerbangan</a></li>
+<li class="nav-hotel"><a class="" href="http://www.ctrip.co.id/hotels/#ctm_ref=nb_hl_top">Hotel</a></li>
+<li class="nav-train"><a class="" href="http://www.ctrip.co.id/trains/#ctm_ref=nb_tn_top">Kereta api</a></li>
+<li class="nav-package"><a class="" href="http://www.ctrip.co.id/packages/#ctm_ref=nb_pkg_top">Paket Liburan</a></li>
+<li  class="nav-ttd"><a class="" href="http://www.ctrip.co.id/ttd/#ctm_ref=nb_ttd_top">Hal Yang Bisa Anda Lakukan</a></li>
+
+
+
+
+
+
+            </ul>
+            <ul class="hd-nav hd-help-mobile">
+                
+
+                <!--<a class="hd-help-call" href="tel:400 619 9999">Mainland China: 400 619 9999 <i class="c-icon icon-tel"></i></a>-->
+                
+
+
+                <li class="help-call">
+<a class="link" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30"><span class="label">Singapura + Asia Tenggara:<i class="c-icon icon-tel"></i></span><span class="phone-num">(+65) 6818 2868</span></a><a class="link" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30"><span class="label">Daratan Cina:<i class="c-icon icon-tel"></i></span><span class="phone-num">400 828 8966</span></a><a class="link" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30"><span class="label">Lokasi lain:<i class="c-icon icon-tel"></i></span><span class="phone-num">(86 21) 3210 4669</span></a><p class="hour">7:00-23:00 Everday (GMT+8)</p></li>
+  <li><a rel="nofollow" href="http://pages.english.ctrip.com/mobile/id/index.html">Ctrip ada di ponsel</a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var globalSiteCommon = function () {
+        var domreadyEvents = [];
+        return {
+            onReady: function (e) {
+                domreadyEvents.push(e);
+            },
+            ready: function () {
+                for (var i = 0; i < domreadyEvents.length; i++) {
+                    domreadyEvents[i]();
+                }
+            }
+        };
+    }();
+</script>
+
+<input type="hidden" id="PostHiddenFields" value="&lt;input type=&#39;hidden&#39; id=&#39;responsemethod&#39; name=&#39;responsemethod&#39; value=&#39;GET&#39; /&gt;" />
+
+<script type="text/javascript">
+try {
+var __SITE_CONFIG__=  __SITE_CONFIG__ || {};
+__SITE_CONFIG__.env = 'PRD';__SITE_CONFIG__.isstatichtml = 'false';__SITE_CONFIG__.allcurrency = ['CNY','USD','EUR','GBP','AUD','CAD','CHF','DKK','HKD','TWD','JPY','KRW','MOP','MYR','NZD','SEK','SGD','PHP','RUB','VND','THB','IDR'];__SITE_CONFIG__.url = {resourcecommon: __SITE_CONFIG__.env === 'DEV' ? 'http://localhost/Common.Resource/src/' : 'http://webresource.english.c-ctrip.com/resibumainenglish/R10/src/'};__SITE_CONFIG__.page = {method:'GET',site:'ID',language:'ID',headtype:'PublicHead'};__SITE_CONFIG__.formpara = {'DisplayCurrency':'IDR'};__SITE_CONFIG__.domain = {'EN':'english.ctrip.com','HK':'www.ctrip.com.hk','KR':'www.ctrip.co.kr','JP':'jp.ctrip.com','SG':'www.ctrip.sg','DE':'de.ctrip.com','FR':'fr.ctrip.com','ES':'es.ctrip.com','RU':'ru.ctrip.com','ID':'www.ctrip.co.id','TH':'www.ctrip.co.th','MY':'www.ctrip.my'};__SITE_CONFIG__.cookiedomain = {'EN':'.ctrip.com','HK':'.ctrip.com.hk','KR':'.ctrip.co.kr','JP':'.ctrip.com','SG':'.ctrip.sg','DE':'.ctrip.com','FR':'.ctrip.com','ES':'.ctrip.com','RU':'.ctrip.com','ID':'.ctrip.co.id','TH':'.ctrip.co.th','MY':'.ctrip.my'};__SITE_CONFIG__.defaultsitecurrency = {'EN':'CNY','HK':'HKD','KR':'KRW','JP':'JPY','SG':'SGD','DE':'EUR','FR':'EUR','ES':'EUR','RU':'RUB','ID':'IDR','TH':'THB','MY':'MYR'};__SITE_CONFIG__.accountdomain = 'https://accounts.ctrip.com/global/id/';__SITE_CONFIG__.accountrawdomain = 'https://accounts.ctrip.com/global/';__SITE_CONFIG__.accountinfo = 'Tool/AccountInfo';__SITE_CONFIG__.accounturi = { 'signin': 'signin/', 'register': 'register/', 'guestbookings': 'guestorders/', 'mybookings': 'MemberCenter/OrderList/',
+                            'reviews': 'MemberCenter/Reviews/', 'cmoney': 'MemberCenter/GiftCard/', 'ctrippoints': 'MemberCenter/Points/', 'profile': 'MemberCenter/ProfileInfo/',
+                            'signout': 'logout/'};__SITE_CONFIG__.accountH5domain = 'https://accounts.ctrip.com/globalwap/account/';__SITE_CONFIG__.accountH5uri = { 'signin': 'login/', 'register': 'regist/', 
+                            'guestbookings': 'account/', 'mybookings': 'account/',
+                            'reviews': 'account/', 'cmoney': '../coupon/', 'ctrippoints': 'account/','profile': 'account/',
+                            'signout': 'logout/'};var require = {   shim: {        'cQuery': {            exports: 'cQuery'        },        'cQueryPro': {            deps: ['cQuery'],            exports: 'cQuery'        },        'cQueryPlugs': {            deps: ['cQuery']        },        'cHeadFoot': {            deps: ['cQueryPro']        },        'jquery': {            exports: 'jQuery'        },        'backbone': {            deps: ['jquery', 'underscore'],            exports: 'Backbone'        }    },    paths: {       'es5': __SITE_CONFIG__.url.resourcecommon + '3rdlib/es5-shim/es5-shim',        'es6': __SITE_CONFIG__.url.resourcecommon + '3rdlib/es6-shim/es6-shim',        'underscore': __SITE_CONFIG__.url.resourcecommon + '3rdlib/underscore/underscore',        'backbone': __SITE_CONFIG__.url.resourcecommon + '3rdlib/backbone/backbone',        'jquery': __SITE_CONFIG__.url.resourcecommon + '3rdlib/jquery/jquery',        'cQuery': __SITE_CONFIG__.url.resourcecommon + 'lib/cquery_110421',        'cQueryPlugs': __SITE_CONFIG__.url.resourcecommon + 'lib/adFrame-1.0_address-1.0_allyes-1.0_calendar-6.0_dropBox-1.0_notice-1.0_tab-1.2_toggle-1.0_validate-1.1',        'cQueryPro': __SITE_CONFIG__.url.resourcecommon + 'lib/cquery_pro',        'cHeadFoot': __SITE_CONFIG__.url.resourcecommon + 'headfoot/headfoot',        'appdownload_lab': __SITE_CONFIG__.url.resourcecommon + 'widgets/appdownload_lab',        'gotopbar_lab': __SITE_CONFIG__.url.resourcecommon + 'widgets/gotopbar_lab'    },    urlArgs: '2016_06_29_18_28'}; __SITE_CONFIG__.cRequireConfig = require;
+                    __SITE_CONFIG__.initFunc = {
+                            LANGUAGE_PARAM_NAME: 'language',
+                            LANGUAGE_COOKIE_NAME: 'ibulanguage',
+                            DEFAULT_SITE_CODE: 'EN',
+                            CURRENCY_PARAM_NAME: 'curr',
+                            CURRENCY_COOKIE_NAME: 'cookiePricesDisplayed',
+                            getCookie: function (name) {
+                                var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)")),
+value = null;
+                                if (arr != null)
+                                    value = arr[2] && decodeURIComponent(arr[2]);
+                                return value;
+                            },
+                            setCookie: function (name, value, expires, path, domain) {
+                                expires = new Date(new Date().getTime() + (((typeof expires == "undefined") ? 12 * 7200 : expires)) * 1000);
+                                var tempcookie = name + "=" + encodeURIComponent(value) +
+                                    ((expires) ? "; expires=" + expires.toGMTString() : "") +
+                                    ((path) ? "; path=" + path : "; path=/") +
+                                    ((domain) ? "; domain=" + domain : "");
+                                (tempcookie.length < 4096) ? document.cookie = tempcookie : function () {
+                                    throw new Error("The cookie is bigger than cookie lagrest");
+                                }();
+                                return !!this.getCookie(name);
+                            },
+                            getParam: function (name) {
+                                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"),
+                                    arr = location.search.substr(1).match(reg),
+                                    r = arr && arr[2],
+                                    value = r ? decodeURIComponent(r) : null;
+                                return value;
+                            },
+                            getLangByParam: function () {
+                                var lang = this.getParam(this.LANGUAGE_PARAM_NAME) && this.getParam(this.LANGUAGE_PARAM_NAME).toUpperCase();
+                                if (lang && __SITE_CONFIG__.cookiedomain[lang]) {
+                                    return lang;
+                                }
+                            },
+                            getCurrByParam: function () {
+                                var curr = this.getParam(this.CURRENCY_PARAM_NAME) && this.getParam(this.CURRENCY_PARAM_NAME).toUpperCase();
+                                if (curr && this.checkHasCurr(curr)) {
+                                    return curr;
+                                }
+                            },
+                            checkHasCurr: function (value) {
+                                //todo 默认都能通过白名单
+                                if (!__SITE_CONFIG__.allcurrency) {
+                                    return true;
+                                }
+                                for (var i = 0, len = __SITE_CONFIG__.allcurrency.length; i < len; i++) {
+                                    if (__SITE_CONFIG__.allcurrency[i] === value) {
+                                        return true;
+                                    }
+                                }
+                            },
+                            getLangByCookie: function () {
+                                 var lang = this.getCookie(this.LANGUAGE_COOKIE_NAME) && this.getCookie(this.LANGUAGE_COOKIE_NAME).toUpperCase();
+                                if (lang && __SITE_CONFIG__.cookiedomain[lang]) {
+                                    return lang;
+                                }
+                            },
+                            setLanguageCookie: function (languageCode) {
+                                this.setCookie(this.LANGUAGE_COOKIE_NAME, languageCode, 2592000, '/', this.getCookieDomainBySiteCode(this.getPageSiteCode()));
+                            },
+                            setCurrencyCookie: function (currencyCode) {
+                                this.setCookie(this.CURRENCY_COOKIE_NAME, currencyCode, 2592000, '/', this.getCookieDomainBySiteCode(this.getPageSiteCode()));
+                            },
+                            getPageSiteCode: function () {
+                                return (__SITE_CONFIG__.page && __SITE_CONFIG__.page.site) || this.DEFAULT_SITE_CODE;
+                            },
+                            getCookieDomainBySiteCode: function (siteCode) {
+                                return __SITE_CONFIG__.cookiedomain[siteCode];
+                            },
+                            updateCookies: function () {
+                                var lang = this.getLangByParam(),
+                                    cLang = this.getLangByCookie(),
+                                    curr = this.getCurrByParam();
+                                if (lang && (lang !== cLang)) {
+                                    this.setLanguageCookie(lang);
+                                } else {
+                                    this.setLanguageCookie(__SITE_CONFIG__.page.language);
+                                }
+                                if (curr) {
+                                    this.setCurrencyCookie(curr);
+                                }
+                            }};
+
+                __SITE_CONFIG__.initFunc.updateCookies();
+                } catch (e) {throw new Error('site config error');}
+ </script>
+
+ <script type="text/javascript">
+var globalSiteConfig = {
+    environment: { 
+        url: {
+            www: {
+                en: "http://english.ctrip.com"
+            },
+            ssl: {
+                en: "https://accounts.ctrip.com/global/english"
+            }
+        }
+    }
+};
+</script>
+
+<div class="pop_sel_area_list" id="div_pop_sel_area_list" style="position: absolute;
+                                                                                                                        width: 331px; z-index: 99999; display: none;">
+        <ul id="ul_pop_sel_area_list" style="display: none;">
+        </ul>
+    </div>
+    
+
+<div class="container_box container_index_box">
+    <div class="container">
+        <div id="selhotelsDistrict" class="pop_sel_district_list" name="selhotelsDistrict"
+             style="top: 289px; left: 198px; display: none;">
+            <div id="selhotelsDistrictPaging" class="pop_pager">
+                <a id="selhotelsDistrictPaging_pre" style="cursor: pointer;"><-</a><a id="selhotelsDistrictPaging_next"
+                                                                                      style="cursor: pointer;">-></a>
+            </div>
+        </div>
+        <div class="i_main">
+            <!-- search box start -->
+            <div class="mod_box search_box" id="search_box">
+                <div class="search_tab_type" id="search_tab_type">
+                    <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" index="0" tag="flight" id="tabFlight">
+                        Penerbangan
+                    </a>
+                    <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" index="1" tag="hotel" id="tabHotel">
+                        Hotel
+                    </a>
+                    
+                    <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" index="2" tag="train" id="tabTrain">
+                        Kereta api
+                    </a>
+                </div>
+                <div class="search_cont" id="search_cont">
+                    <!-- search flight -->
+                    <div class="search_form search_flight" id="search_flight" tag="flight" style="display: none;">
+                        <form id="flightForm" action="">
+                            <div id="searchHistory" class="flight_recent flight_recent_tow" style="display:none">
+                                <dl>
+                                    <dt>Recent flight searches</dt>
+									</dl>
+                                <span id="HistoryClose"><i class="del">×</i></span>
+                            </div>
+                            <div class="flight_tab" id="flightSubSwitch">
+
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" data-index="0" id="radFlightOW">
+                                    Satu arah
+                                </a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="cur" data-index="1" id="radFlightRT">
+                                    Perjalanan pulang-pergi
+                                </a>
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" data-index="2" id="radFlightMT">Banyak-Kota</a>
+                                <input type="radio" id="radOneWay" name="radFlightWayType" style="display:none;" />
+                                <input type="radio" id="radRoundTrip" name="radFlightWayType" style="display:none;" />
+                                <input type="radio" id="radMultiCity" name="radFlightWayType" style="display:none;" />
+                            </div>
+                            <ul class="s_list" id="FindFlightsNormal" style="display:;">
+                                <li>
+								<label>  Dari </label>
+
+                                    <input type="text" value="" name="depart_city" id="homecity_name" autocomplete="off" class="placeholder" placeholder="Kota atau bandara" />
+                                </li>
+                                <li id="ChangeDACity" class="city_return">
+                                    <label></label>
+                                </li>
+                                <li>
+                                    <label>
+                                        Ke
+                                    </label>
+                                    <input type="text" value="" name="return_city" id="destcity1_name" autocomplete="off" class="placeholder" placeholder="Kota atau bandara" />
+                                </li>
+                                <li>
+                                    <label>
+                                        Berangkat
+                                    </label>
+                                    <input type="text" value="" id="DDatePeriod1" name="DDatePeriod1" placeholder="mm-dd-yyyy" />
+                                </li>
+								<li class="city_return no-space">
+                                    <label></label>
+                                </li>
+                                <li id="flightBackFlag">
+                                    <label>
+                                        Kembali
+                                    </label>
+                                    <input type="text" value="" name="ADatePeriod1" id="ADatePeriod1" placeholder="mm-dd-yyyy" />
+                                </li>
+                            </ul>
+
+                            <div class="flightway_multicity" id="FindFlightsMult" style="display:none;">
+                                <dl>
+                                    <dt>Penerbangan 1</dt>
+                                    <dd>
+                                        <ul class="s_list">
+                                            <li>
+                                                <label>Dari</label>
+                                                <input type="text" id="MultDcity0" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li id="ChangeMultDACity0" class="city_return">
+                                                <label></label>
+                                            </li>
+                                            <li>
+                                                <label>Ke</label>
+                                                <input type="text" id="MultAcity0" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li>
+                                                <label>Berangkat</label>
+                                                <input type="text" id="MultDDate0" name="MultDDate0" class="ipt_calendar" placeholder="mm-dd-yyyy" />
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                    <i class="del" name="delbtn">×</i>
+                                </dl>
+                                <dl>
+                                    <dt>Penerbangan 2</dt>
+                                    <dd>
+                                        <ul class="s_list">
+                                            <li>
+                                                <label>Dari</label>
+												                                                <input type="text" id="MultDcity1" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li id="ChangeMultDACity1" class="city_return">
+                                                <label></label>
+                                            </li>
+                                            <li>
+                                                <label>Ke</label>
+                                                <input type="text" id="MultAcity1" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li>
+                                                <label>Berangkat</label>
+                                                <input type="text" id="MultDDate1" name="MultDDate1" class="ipt_calendar" placeholder="mm-dd-yyyy" />
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                    <i class="del" name="delbtn">×</i>
+                                </dl>
+                                <dl style="display: none">
+                                    <dt>Penerbangan 3</dt>
+                                    <dd>
+                                        <ul class="s_list">
+                                            <li>
+                                                <label>Dari</label>
+                                                <input type="text" id="MultDcity2" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li id="ChangeMultDACity2" class="city_return">
+                                                <label></label>
+                                            </li>
+                                            <li>
+                                                <label>Ke</label>
+                                                <input type="text" id="MultAcity2" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li>
+                                                <label>Berangkat</label>
+                                                <input type="text" id="MultDDate2" name="MultDDate2" class="ipt_calendar" placeholder="mm-dd-yyyy" />
+                                            </li>
+                                        </ul>
+                                    </dd>
+									
+                                    <i class="del" name="delbtn">×</i>
+                                </dl>
+                                <dl class="cur" style="display:none">
+                                    <dt>Penerbangan 4</dt>
+                                    <dd>
+                                        <ul class="s_list">
+                                            <li>
+                                                <label>Dari</label>
+                                                <input type="text" id="MultDcity3" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+											<li id="ChangeMultDACity3" class="city_return">
+                                                <label></label>
+                                            </li>
+                                            <li>
+                                                <label>Ke</label>
+                                                <input type="text" id="MultAcity3" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li>
+                                                <label>Berangkat</label>
+                                                <input type="text" id="MultDDate3" name="MultDDate3" class="ipt_calendar" value="" placeholder="mm-dd-yyyy" />
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                    <i class="del" name="delbtn">×</i>
+                                </dl>
+                                <dl class="cur" style="display:none">
+                                    <dt>Penerbangan 5</dt>
+                                    <dd>
+                                        <ul class="s_list">
+                                            <li>
+                                                <label>Dari</label>
+                                                <input type="text" id="MultDcity4" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li id="ChangeMultDACity4" class="city_return">
+                                                <label></label>
+                                            </li>
+                                            <li>
+                                                <label>Ke</label>
+                                                <input type="text" id="MultAcity4" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li>
+                                                <label>Berangkat</label>
+                                                <input type="text" id="MultDDate4" name="MultDDate4" class="ipt_calendar" placeholder="mm-dd-yyyy" />
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                    <i class="del" name="delbtn">×</i>
+                                </dl>
+                                <dl class="cur" style="display:none">
+                                    <dt>Penerbangan 6</dt>
+									<dd>
+                                        <ul class="s_list">
+                                            <li>
+                                                <label>Dari</label>
+                                                <input type="text" id="MultDcity5" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li id="ChangeMultDACity5" class="city_return">
+                                                <label></label>
+                                            </li>
+                                            <li>
+                                                <label>Ke</label>
+                                                <input type="text" id="MultAcity5" autocomplete="off" placeholder="Kota atau bandara" />
+                                            </li>
+                                            <li>
+                                                <label>Berangkat</label>
+                                                <input type="text" id="MultDDate5" name="MultDDate5" class="ipt_calendar" placeholder="mm-dd-yyyy" />
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                    <i class="del" name="delbtn">×</i>
+                                </dl>
+<a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" id="AddAnotherFlight" class="add_flight"><i class="icon ico_add_8"></i><span>Tambah penerbangan lain</span></a>
+                            </div>
+
+
+                            <ul class="s_list">
+                                <li class="small_form">
+                                    <label>
+                                        Dewasa
+                                    </label>
+                                    <select id="passenger_type" name="Quantity">
+									<option value="0">0</option>
+                                        <option selected="selected" value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                </li>
+                                <li class="small_form">
+                                    <label>
+                                        Anak-anak (2-12)
+                                    </label>
+                                    <select id="Child_Type" name="ChildQty">
+                                        <option selected="selected" value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                </li>
+                                <li class="small_form">
+                                    <label>
+                                        Bayi (0-2)
+                                    </label>
+                                    <select id="Infant_Type" name="BabyQty">
+                                        <option selected="selected" value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+										                     <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                </li>
+                            </ul>
+                            <div class="s_supplement" id="child_tip" style="display: none;">
+                                <i class="icon ico_warn_s"></i>
+                                Untuk petunjuk mengenai cara memesan tiket untuk anak-anak dan bayi, silakan <a href="http://pages.english.ctrip.com/faq/id/flight.html#15">klik di sini</a>. Untuk pemesanan tiket anak-anak dan bayi tanpa pendamping. silakan langsung hubungi maskapai.
+                            </div>
+                        <div id="splitBook_tip" class="s_supplement" style="display: none;">
+                            <i class="icon ico_warn_s"></i>Currently, for round-trip and multi-city domestic flights, adult and child tickets cannot be purchased in the same booking. Please book child tickets in a separate booking, or call Ctrip at 400 619 9999 (within Mainland China) or (+86) 21 3210 4669 (from outside Mainland China). 
+                        </div>
+                            
+
+                            <ul class="s_list" id="flightMoreOptions">
+                                <li>
+                                    <label>
+                                        Kelas
+                                    </label>
+                                    <select name="DSeatClass" id="DSeatSelect">
+                                        <option value="Y">Ekonomi</option>
+                                        <option value="C">Bisnis</option>
+                                        <option value="F">Kelas pertama</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <label style="margin-top: 20px;">
+                                        <input id="NonstopOnly" type="checkbox" value=""> Hanya nonstop
+                                    </label>
+                                </li>
+                            </ul>
+							<div class="btn_submit">
+                                <button type="submit" class="btn_key" id="btnSubmitFlight">
+                                    Cari penerbangan
+                                </button>
+                            </div>
+                            <input id="FlightWay" type="hidden" value="D" name="FlightWay" />
+                            <input type="hidden" name="ChildType" id="ChildType" value="ADU" />
+                            <input name="today" type="hidden" value="2016-07-04" />
+                            <input type="hidden" id="intFlightCookie" value="" />
+                            <input type="hidden" id="flightCookie" value="" />
+                            <input type="hidden" value="" id="homecity" name="DCity" />
+                            <input type="hidden" value="" id="destcity1" name="ACity" />
+                            <input id="Transfer_Type" name="Transfer_Type" type="hidden" value="-1" />
+
+                            <input id="MultDcity_0" type="hidden" value="" name="MultDcity0" />
+                            <input id="MultAcity_0" type="hidden" value="" name="MultAcity0" />
+                            <input id="MultDcity_1" type="hidden" value="" name="MultDcity1" />
+                            <input id="MultAcity_1" type="hidden" value="" name="MultAcity1" />
+                            <input id="MultDcity_2" type="hidden" value="" name="MultDcity2" />
+                            <input id="MultAcity_2" type="hidden" value="" name="MultAcity2" />
+                            <input id="MultDcity_3" type="hidden" value="" name="MultDcity3" />
+                            <input id="MultAcity_3" type="hidden" value="" name="MultAcity3" />
+                            <input id="MultDcity_4" type="hidden" value="" name="MultDcity4" />
+                            <input id="MultAcity_4" type="hidden" value="" name="MultAcity4" />
+                            <input id="MultDcity_5" type="hidden" value="" name="MultDcity5" />
+                            <input id="MultAcity_5" type="hidden" value="" name="MultAcity5" />
+                            <input type="hidden" id="MultDDate0" name="MultDDate0" value="" />
+                        </form>
+                    </div>
+                    <div class="search_form search_hotel" id="search_hotel" tag="hotel" style="">
+                        <div class="searchHotel_tips" id="searchHotel_tips" style="display: none;">
+                            <h3 class="tips_hd"> Recent hotel searches</h3>
+                            <ul class="result_listShow" id="result_listShow">
+                            </ul>
+                            <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="close">×</a>
+                        </div>
+                        <form id="hotelForm">
+                            <ul class="s_list">
+                                <li class="long_form">
+                                    <label>
+                                        Tujuan
+										</label>
+                                    <p class="r_sum">Bahasa Indonesia / Bahasa Inggris</p>
+                                    <input type="text"
+                                           placeholder="Cari berdasar kota, landmark, bandara, dll"
+                                           id="cityname" name="cityname" autocomplete="off" />
+                                </li>
+                                <li>
+                                    <label>
+                                        Check-in
+                                    </label>
+                                    <input type="text" value="" class="ipt_calendar" id="starttime" name="starttime" placeholder="mm-dd-yyyy" />
+                                </li>
+                                <li>
+                                    <label>
+                                        Check-out
+                                    </label>
+                                    <input type="text" value="" class="ipt_calendar" id="deptime" name="deptime" placeholder="mm-dd-yyyy"/>
+                                </li>
+                                
+                            </ul>
+                            <div class="btn_show_more" id="hotelAdditionalOptions">
+                                <a href="javascript:void(0)" class="open_more" data-index="0" style="display: none;">
+                                    Sembunyikan opsi tambahan 
+                                    <span class="icon icon_arrow"><i class="triangle_down"></i></span>
+                                </a><a href="javascript:void(0)"
+                                       class="" data-index="1">
+                                    Tampilkan opsi tambahan 
+                                    <span class="icon icon_arrow"><i class="triangle_down"></i></span>
+                                </a>
+                            </div>
+                            <div class="options_show" id="hotelMoreOptions" style="display: none;">
+                                <dl class="fliter_item">
+                                    <dt>Harga per malam  (<span class="highlight">IDR</span>)</dt>
+                                    <dd id="SearchHotelModelPrice">
+                                        <input type="hidden" id="price" />
+                                            <label><input type="checkbox" value="1" />   500,000 atau kurang</label>
+                                            <label><input type="checkbox" value="2" />   500,000 hingga  1,000,000</label>
+                                            <label><input type="checkbox" value="3" />   1,000,000 hingga  2,000,000</label>
+                                            <label><input type="checkbox" value="4" />   2,000,000 hingga  3,000,000</label>
+                                            <label><input type="checkbox" value="5" />   3,000,000 atau lebih &#160;</label>
+                                        </dd>
+                                    </dl>
+									<dl class="fliter_item">
+                                    <dt>Peringkat bintang</dt>
+                                        <dd id="SearchHotelModelStar">
+                                        <input type="hidden" id="star" />
+                                        <label><input type="checkbox" name="hr5" id="hr5" value="5"/> <span class="icon ico_star ico_star_5"></span> <span class="sum_c">5 bintang</span></label>
+                                        <label><input type="checkbox" name="hr4" id="hr4" value="4"/> <span class="icon ico_star ico_star_4"></span> <span class="sum_c">4 bintang</span></label>
+                                        <label><input type="checkbox" name="hr3" id="hr3" value="3"/> <span class="icon ico_star ico_star_3"></span> <span class="sum_c">3 bintang</span></label>
+                                        <label><input type="checkbox" name="hr2" id="hr2" value="2"/> <span class="icon ico_star ico_star_2"></span> <span class="sum_c">2 bintang</span></label>
+                                        <label><input type="checkbox" name="hr1" id="hr1" value="0,1"/> <span class="icon ico_star ico_star_1"></span> <span class="sum_c">1 bintang</span></label>
+                                        </dd>
+                                    </dl>
+                            </div>
+                            <div class="btn_submit">
+                                <button type="submit" class="btn_key" id="btnSubmitHotel">
+                                    Cari hotel
+                                </button>
+                            </div>
+                            
+                            <input id="district" name="district" type="hidden" value="" />
+                            <input type="hidden" value="" id="cityId" name="cityId" />
+                            <input type="hidden" value="" id="optionId" name="optionId" />
+                            <input type="hidden" value="" id="optionType" name="optionType" />
+                            <input type="hidden" value="" id="lat" name="lat" />
+                            <input type="hidden" value="" id="lon" name="lon" />
+                            <input type="hidden" value="" id="displayValue" name="displayValue" />
+                            <input type="hidden" value="" id="markland" name="markland" />
+                            <input type="hidden" value="" id="optionName" name="optionName"/>
+                            <input type="hidden" value="m37O_kGmy0uJveyqXOBqyw" id="label" name="label" />
+                        </form>
+                    </div>
+                    
+                    <div class="search_form search_train" id="search_train" tag="train" style="display: none;">
+                        <form id="TrainsForm">
+                            <ul class="s_list">
+                                <li>
+                                    <label>
+                                        Dari
+                                    </label>
+<input type="text" value="" id="DepartureCity" class=" " autocomplete="off" name="DepartureCity" />
+                                </li>
+                                <li>
+                                    <label>
+                                        Ke
+                                    </label>
+                                    <input type="text" value="" id="ArrivalCity" class=" " autocomplete="off" name="ArrivalCity" />
+                                </li>
+                                <li>
+                                    <label>
+                                        Berangkat
+                                    </label>
+                                    <input type="text" value="" id="DepartDate" name="DepartDate" placeholder="mm-dd-yyyy" />
+                                    <i class="icon ico_calendar"></i>
+                                </li>
+                            </ul>
+                            <div class="btn_show_more" id="trainAdditionalOptions">
+                                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="open_more" data-index="0" style="display: none;">
+                                    Sembunyikan opsi tambahan 
+                                    <span class="icon icon_arrow"><i class="triangle_down"></i></span>
+                                </a><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30"
+                                       class="" data-index="1">
+                                    Tampilkan opsi tambahan 
+                                    <span class="icon icon_arrow"><i class="triangle_down"></i></span>
+                                </a>
+                            </div>
+                            <ul class="s_list" id="trainMoreOptions" style="display: none;">
+                                <li class="long_form">
+                                    <label>
+                                        No. kereta api
+                                    </label>
+                                    <input id="TrainNo" name="TrainNo" maxlength="10" type="text"
+                                           placeholder="No. kereta api" />
+                                </li>
+                            </ul>
+                            <input id="DepartureCityPinyin" type="hidden" name="DepartureCityPinyin" />
+                            <input id="ArrivalCityPinyin" type="hidden" name="ArrivalCityPinyin" />
+                            <input id="DepartureStation" type="hidden" name="DepartureStation" />
+                            <input id="ArrivalStation" type="hidden" name="ArrivalStation" />
+                            <div class="btn_submit">
+                                <button type="submit" class="btn_key" id="btnSubmitTrain">
+                                    Cari kereta api
+									 </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="search_form search_packages" id="search_packages" tag="packages" style="display: none;">
+                        <form id="FlightHotelForm">
+                            <div class="search_main">
+                                <div class="flight_tab search_hd" id="FHflightSubSwitch">
+                                    
+                                    <h2 class="tit">Cari penerbangan &amp; hotel</h2>
+                                </div>
+                                </div>
+                                <ul class="s_list">
+                                    <li>
+                                        <label>
+                                            Dari
+                                        </label>
+                                        <input type="text" value="" id="FHhomecity_name" name="FHhomecity_name" autocomplete="off" placeholder="Kota" class="placeholder" />
+                                    </li>
+                                    <li>
+                                        <label>
+                                            Ke
+                                        </label>
+                                        <input type="text" value="" id="FHdestcity1_name" name="FHdestcity1_name" autocomplete="off" placeholder="Kota" class="placeholder" />
+                                    </li>
+                                    <li>
+                                        <label>
+                                            Berangkat
+                                        </label>
+                                        <input type="text" value="" id="FHDDatePeriod1" name="starttime" placeholder="mm-dd-yyyy" readonly="readonly" />
+                                    </li>
+                                    <li id="FHflightBackFlag">
+                                        <label>
+                                            Kembali
+                                        </label>
+                                        <input type="text" value="" id="FHADatePeriod1" name="deptime" placeholder="mm-dd-yyyy" readonly="readonly" />
+                                    </li>
+                                </ul>
+                                <input type="hidden" id="fhFlightWay" value="" name="FlightWay" />
+                                <input type="hidden" id="intFHFlightCookie" value="" />
+                                <input type="hidden" id="FHflightCookie" value="" />
+                                <input name="today" type="hidden" value="2016-07-04" />
+                            <input id="FHhomecity" name="FHhomecity" type="hidden" value="" />
+<ul class="s_list">
+                                    <li class="small_form">
+                                        <label>
+                                            Dewasa
+                                        </label>
+                                        <select name="adult_num" id="adult_num">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                        </select>
+                                    </li>
+                                    <li class="small_form">
+                                        <label>
+                                            Anak-anak (2-12)
+                                        </label>
+                                        <select name="children_num" id="children_num">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                                <div class="other_info">
+                                    <label id="FHNeedHotel">
+                                        <input type="checkbox" name="trip_city" id="trip_city" />
+                                        Saya butuh hotel hanya untuk bagian perjalanan saya
+                                    </label>
+                                    <ul class="s_list" id="RoomDate" style="display: none;">
+                                        <li>
+                                            <label>
+                                                Check-in
+</label>
+                                            <input type="text" value="" id="FHNeedHotelDDatePeriod1" name="check_in_date" placeholder="mm-dd-yyyy" readonly="readonly" />
+                                        </li>
+                                        <li>
+                                            <label>
+                                                Check-out
+                                            </label>
+                                            <input type="text" value="" id="FHNeedHotelADatePeriod1" name="check_out_date" placeholder="mm-dd-yyyy" readonly="readonly" />
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="other_info" id="FHStayingCitySubSwitch">
+                                    <label data-index="0">
+                                        <input type="checkbox" name="o" />
+                                        Saya tidak menginap di kota kedatangan penerbangan saya
+                                    </label>
+                                    <label data-index="1" style="display: none;">
+                                        <input type="checkbox" name="o" />
+                                        Saya akan menginap di...
+                                    </label>
+                                </div>
+                                <div class="other_info" id="FHStayingCityOptions" style="display: none;">
+                                    <ul class="s_list">
+                                        <li class="long_form">
+                                            <input id="FHStayingCity_name" type="text"
+                                                   name="FHStayingCity_name" autocomplete="off"
+                                                   placeholder="Silakan masukkan nama kota." />
+                                            <input id="FHStayingCity" name="FHStayingCity" type="hidden" value="" />
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="btn_submit">
+                                    <button type="submit" class="btn_key" id="btnSubmitPkg">
+                                        Search
+                                    </button>
+                                </div>
+</form>
+                    </div>
+                    <div class="search_form search_tour" id="search_tour" tag="tour" style="display: none;">
+                        <form id="ActivitiesForm">
+                            <ul class="tour_list">
+                                <li>
+								<label>
+                                        <input type="radio" name="City" value="141" />Baotou
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="23" />Huangshan
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="660" />Shangri-La
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="1" checked="checked" />Beijing
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="91" />Jiuzhaigou
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="451" />Shenyang
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="28" />Chengdu
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="720" />Kaohsiung
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="30" />Shenzhen
+                                    </label>
+									</li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="4" />Chongqing
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="109" />Kashgar
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="14" />Suzhou
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="36" />Dali
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="34" />Kunming
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="617" />Taipei
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="6" />Dalian
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="41" />Lhasa
+                                    </label>
+                                </li>
+                                <li>
+								<li>
+                                    <label>
+                                        <input type="radio" name="City" value="105" />Taiyuan
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="11" />Dunhuang
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="37" />Lijiang
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="39" />Urumqi
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="32" />Guangzhou
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="350" />Luoyang
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="10" />Xi&#39;an
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="33" />Guilin
+                                    </label>
+                                </li>
+                                <li>
+								<label>
+                                        <input type="radio" name="City" value="59" />Makau
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="124" />Xining
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="38" />Guiyang
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="104" />Pingyao
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="35" />Xishuangbanna
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="17" />Hangzhou
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="7" />Qingdao
+                                    </label>
+									</li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="25" />Xiamen
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="5" />Harbin
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="43" />Sanya
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="515" />Yichang
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="103" />Hohhot
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="2" />Shanghai
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="27" />Zhangjiajie
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="City" value="58" />Hong Kong
+                                    </label>
+									</li>
+                            </ul>
+                            <ul class="s_list">
+                                <li>
+                                    <label>
+                                        Dari
+                                    </label>
+                                    <input type="text" value="" id="activitiesDDatePeriod1" name="starttime" placeholder="mm-dd-yyyy" />
+                                    <i class="icon ico_calendar"></i>
+                                </li>
+                                <li>
+                                    <label>
+                                        Ke
+                                    </label>
+                                    <input type="text" value="" id="activitiesADatePeriod1" name="deptime" placeholder="mm-dd-yyyy" />
+                                    <i class="icon ico_calendar"></i>
+                                </li>
+                            </ul>
+                            <input id="hidToursCiyt" name="hidToursCiyt" type="hidden" value="" />
+                            <div class="btn_submit">
+                                <button type="submit" class="btn_key" id="btnSubmitTour">
+                                    Cari tur
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- search box end -->
+            <!-- top selling hotel start -->
+            <div class="mod_box top_sell">
+                <div class="mod_t">
+                    <h2 class="tit">
+                        Hotel Terpopuler
+                    </h2>
+                </div>
+                <div class="mod_tab" id="mod_tab">
+                    <span id="mod_tab_links">
+                            <a id=link2 cityid="2"
+                               href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="current">Shanghai</a>
+							   <a id=link1 cityid="1"
+                               href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="">Beijing</a>
+                            <a id=link32 cityid="32"
+                               href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="">Guangzhou</a>
+                            <a id=link30 cityid="30"
+                               href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="">Shenzhen</a>
+                            <a id=link58 cityid="58"
+                               href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="">Hong Kong</a>
+                            <a id=link17 cityid="17"
+                               href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="">Hangzhou</a>
+                    </span>
+					                    <div class="more_tab_list" id="more_tab_list">
+                        <a id="triangle" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="more_t">
+                            Lebih banyak
+                        <i class="triangle_down"></i>
+                    </a>
+                    <dl class="more_show" id="more_show" style="display: none;">
+                            <dd>
+                                <a id=link10 cityid="10" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Xi&#39;an</a>
+                            </dd>
+                            <dd>
+							<a id=link28 cityid="28" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Chengdu</a>
+                            </dd>
+                            <dd>
+                                <a id=link7 cityid="7" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Qingdao</a>
+                            </dd>
+                            <dd>
+                                <a id=link43 cityid="43" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Sanya</a>
+                            </dd>
+                            <dd>
+                                <a id=link25 cityid="25" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Xiamen</a>
+                            </dd>
+                            <dd>
+							<a id=link33 cityid="33" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Guilin</a>
+                            </dd>
+                            <dd>
+                                <a id=link14 cityid="14" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Suzhou</a>
+                            </dd>
+                            <dd>
+                                <a id=link12 cityid="12" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Nanjing</a>
+                            </dd>
+                            <dd>
+                                <a id=link23 cityid="23" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Huangshan</a>
+                            </dd>
+                            <dd>
+                                <a id=link59 cityid="59" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Macau</a>
+                            </dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="div_top_sell">
+                <div class="mod_c" id="mod_c">
+                </div>
+                <i class="ico_loading_white_48"></i>
+            </div>
+            <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" class="more" id="btnMore">
+                Lebih banyak hotel
+				&gt;
+            </a>
+        </div>
+        <!-- top selling hotel end -->
+        <!-- naviget start -->
+        <div class="mod_box navigate_box">
+            <div class="mod_t">
+                <h2 class="tit">
+                    Kenapa memesan di Ctrip? 
+                </h2>
+            </div>
+            <div class="mod_c">
+                <ul>
+                    <li>
+                        <i class="icon ico_correct"></i>
+                        <h3>
+                            Service You Can Trust
+                        </h3>
+                        <p>
+                            Customer service pemenang penghargaan & perjalanan tanpa-repot
+                        </p>
+                    </li>
+                    <li>
+                        <i class="icon ico_correct"></i>
+                        <h3>
+						Incredible Savings
+                        </h3>
+                        <p>
+                            Penawaran dengan value terbaik untuk hotel, penerbangan, & kereta
+                        </p>
+                    </li>
+                    <li>
+                        <i class="icon ico_correct"></i>
+                        <h3>
+                            Worldwide Coverage
+                        </h3>
+                        <p>
+                            Lebih dari 800.000 hotel tersebar di lebih dari 200 negara & penerbangan ke lebih dari 5.000 kota
+                        </p>
+                    </li>
+                    <li>
+                        <i class="icon ico_correct"></i>
+                        <h3>
+                            Trusted Travel Leader
+                        </h3>
+                        <p>
+                            250 juta anggota dan 45 juta ulasan asli pengguna
+                        </p>
+                    </li>
+                    <li>
+                        <i class="icon ico_correct"></i>
+                        <h3>
+                            Secure Payment
+                        </h3>
+                        <p>
+                            Sistem pemesanan dan pembayaran yang mudah dan aman
+                        </p>
+                    </li>
+                    <li>
+                        <i class="icon ico_correct"></i>
+                        <h3>
+                            Travel at Your Fingertips
+                        </h3>
+                        <p>
+                            Atur pemesanan perjalanan anda dengan mudah melalui app, website, atau dengan telpon
+</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- naviget end -->
+    </div>
+        
+    <div class="i_side banner_area" id="Home_Top"></div>
+    <div class="i_side" style="margin-top: 0px;">
+        <div class="get_inbox" id="divGetInbox">
+            <h3 class="tit">Dapatkan promo terbaik yang dikirim ke kotak masuk Anda!</h3>
+            <div class="inbox" id="divInbox">
+                <input type="email" placeholder="Masukkan alamat email" class="in_box" id="txt_in_box" />
+                <button type="submit" class="go_btn" id="go_btn">
+                    Berlangganan
+                </button>
+            </div>
+        </div>
+        <div class="get_inbox_status" id="divGetInboxStatus" style="display: none;">
+            <h3>Dapatkan promo terbaik yang dikirim ke kotak masuk Anda!</h3>
+            <p>Berlangganan berhasil!</p>
+            <a class="back" href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30" rel="nofollow" id="btnSubscripeBack">
+                Kembali
+            >
+        </a>
+    </div>
+    <!-- discount box start -->
+    <div class="discount_box">
+        <div class="mod_box">
+            <!-- Hotel Offers -->
+            <div class="mod_t">
+                <h2 class="tit">Penawaran hotel</h2>
+            </div>
+            <div class="mod_c">
+                <ul>
+                    <li>
+                        <div id='div-gpt-ad-1418714636673-18' name="enhomepage_googleadtag">
+                        </div>
+                    </li>
+ <li>
+                        <div id='div-gpt-ad-1418714636673-19' name="enhomepage_googleadtag">
+                        </div>
+                    </li>
+                    <li>
+                        <div id='div-gpt-ad-1418714636673-20' name="enhomepage_googleadtag">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Flight discounts -->
+            <div class="mod_c">
+                <ul>
+                    <li>
+                        <div id='div-gpt-ad-1418714636673-15' name="enhomepage_googleadtag">
+                        </div>
+                    </li>
+                    <li>
+                        <div id='div-gpt-ad-1418714636673-16' name="enhomepage_googleadtag">
+                        </div>
+                    </li>
+                    <li>
+                        <div id='div-gpt-ad-1418714636673-17' name="enhomepage_googleadtag">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Packages & Tours -->
+            <div class="mod_c">
+                <ul>
+                    <li>
+                        <div id='div-gpt-ad-1418714636673-21' name="enhomepage_googleadtag">
+                        </div>
+                    </li>
+                    <li>
+                        <div id='div-gpt-ad-1418714636673-22' name="enhomepage_googleadtag">
+                        </div>
+                    </li>
+                    <li>
+                        <div id='div-gpt-ad-1418714636673-23' name="enhomepage_googleadtag">
+                        </div>
+                    </li>
+                </ul>
+				</div>
+        </div>
+    </div>
+    <!-- discount box end -->
+    <table class="other_channel mobile_channel">
+        <tr>
+            <th>
+                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Ctrip ada di ponsel!</a>
+            </th>
+            <td class="cont">
+                <div class="shadow">
+                </div>
+                <ul>
+                    <li class="other_wap"><a href="http://english.ctrip.com/m" target="_blank">Wap</a></li>
+                    <li class="other_android"><a href="http://pages.english.ctrip.com/mobile/index.html" target="_blank">android</a></li>
+                    <li class="other_iphone"><a href="http://pages.english.ctrip.com/mobile/index.html" target="_blank">apple</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <table class="other_channel community_channel">
+        <tr>
+            <th>
+                <a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30">Komunitas Ctrip</a>
+            </th>
+            <td class="cont">
+                <div class="shadow">
+                </div>
+                <ul>
+                             <li class="other_facebook">
+                                 <a href="https://www.facebook.com/ctrip.en" rel="nofollow"
+                                    target="_blank">facebook</a>
+                            </li>
+                        <li class="other_twitter">
+                            <a href="http://www.twitter.com/CtripEnglish" rel="nofollow"
+                               target="_blank">twitter</a>
+                        </li>
+						                        <li class="other_youtube">
+                            <a href="http://www.youtube.com/CtripEnglish" rel="nofollow"
+                               target="_blank">youtube</a>
+                        </li>
+                        <li class="google_plus">
+                            <a href="https://plus.google.com/102073553261227429974" rel="nofollow"
+                               target="_blank">Google+</a>
+                        </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <div class="side_ad">
+        <div id='div-gpt-ad-1418714636673-14' name="enhomepage_googleadtag">
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+<input type="hidden" id="hidCurTab" value="" />
+<div id="historyDetile">
+</div>
+<input id="page_id" type="hidden" value="433001" />
+
+<div id="LandingPageHealthy" style="display:none;"></div>
+
+<div class="seo_box"><div id="seo_list" class="seo_list"><h3 class="tit">Berhemat dalam Perjalanan dengan Ctrip</h3>
+<p>Rencanakan perjalanan sempurna dengan Ctrip, agen perjalanan online terbesar Cina.  Apakah anda wisatawan, atau dalam perjalanan bisnis, atau ingin membuka akun perjalanan korporat, Ctrip siap membantu anda menjelajah dunia dengan penerbangan murah, reservasi hotel diskon, tiket kereta Cina, tur, dan promo paket wisata melalui layanan booking perjalanan online kami.</p>
+<p>Ingin mencari promo perjalanan dunia murah atau dapatkan potongan harga besar perjalanan bisnis; Ctrip siap membantu anda. Apakah anda ingin melakukan perjalanan internasional atau butuh bantuan perencanaan perjalanan Cina anda, gunakan website kami yang aman, mudah digunakan, dibantu oleh layanan konsumen yang telah memenangkan penghargaan, siap 24 /7 membantu anda. Dengan Ctrip, layanan perjalanan berkualitas dalam bahasa Inggris, Mandarin, Kanton, Jepang, dan Korea, semudah satu klik mouse anda.</p>
+<h3 class="tit">Permudah Perjalanan anda dengan Promo Penerbangan dan Hotel Terbaik</h3>
+<p>Coba dan rasakan mudahnya mengatur perjalanan anda dengan pilihan saringan pencarian hotel dan penerbangan Ctrip yang berlimpah, notifikasi diskon tiket pesawat, kalender pencari tanggal promo, promo penerbangan + hotel, promo early bird, dan paket promosi liburan murah. Dapatkan juga Poin Ctrip dan C-Money untuk hadiah perjalanan yang bernilai, termasuk penerbangan gratis dan hari inap di hotel! Anda juga dapat menemukan tiket penerbangan murah dan promo hotel terbaik ke seluruh dunia di Ctrip. Dengan Ctrip, dunia dapat digenggam dalam satu klik! Sistem pembayaran Ctrip yang aman akan menghilangkan stress anda dari persiapan perjalanan anda ke Cina maupun ke seluruh dunia dengan menyediakan sistem pembayaran yang mudah, termasuk dengan kartu kredit, kartu debit, PayPal, UnionPay, dan C-Money.</p>
+</div></div
+
+<div class="FT_BOX footer-box clear-fix">
+    <div class="ft-inner fold-container">
+        <span class="ft-fold-tit fold-tit">Explore More<i class="c-icon icon-select-angle"></i></span>
+        <div class="ft-common ft-fold fold-content ft-fold-content">
+            <dl class="ft-common-item ft-service">
+                <dt>Layanan Ctrip:</dt>
+                <dd>
+
+
+
+                    <a href="http://www.ctrip.co.english/travel/" rel="nofollow" onclick="this.href='http://www.bamboocompass.com/';this.target='_blank';">Panduan Perjalanan Cina</a>  <a href="http://ct.ctrip.com/crptravel/en/" >Perjalanan Korporat</a>  <a href="http://pages.english.ctrip.com/Ctriprewards/en/Ctriprewards1-1.html" rel="nofollow">Hadiah Ctrip</a>  <a href="http://pages.english.ctrip.com/affiliates/welcome.html" rel="nofollow">Afiliasi</a>
+                </dd>
+            </dl>
+            <dl class="ft-common-item ft-about">
+                <dt>Tentang Ctrip:</dt>
+                <dd>
+				
+				<a href="http://pages.english.ctrip.com/about/id/company-profile.html"  rel="nofollow">Tentang Kami</a>  <a href="http://pages.english.ctrip.com/about/id/contact.html"  rel="nofollow">Hubungi Kami</a>  <a href="http://pages.english.ctrip.com/about/id/privacy-policy.html" rel="nofollow">Kebijakan privasi</a>  <a href="http://ir.ctrip.com/" rel="nofollow">Hubungan Investor</a>  <a href="http://pages.english.ctrip.com/Links/Welcome.html">Tautan & Mitra</a>  <a href="http://pages.english.ctrip.com/sitemap/sitemap.html">Peta situs</a>  <a href="http://www.ctrip.co.id/main/feedback/">Umpan balik website</a>  <a href="http://hotels.ctrip.com/international/HotelAffiliationRegister.aspx" rel="nofollow">Daftarkan hotel anda</a>
+                </dd>
+            </dl>
+            <dl class="ft-common-item ft-language">
+                <dt>Country or Region</dt>
+                <dd class="ft-lang-list clearfix">
+
+
+                    <!--<div class="cur-lang"><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30"><i class="c-icon icon-flag icon-en"></i> English <i class="c-icon icon-select-angle"></i></a></div>-->
+
+<div class="cur-lang"><a href="http://www.ctrip.co.id/?Allianceid=1432&Sid=1686&ouid=5-67-bbe91912-0221-43ca-b1a9-5f588d824590__13529&days=30"><i class="c-icon icon-flag icon-id"></i> Bahasa Indonesia <i class="c-icon icon-select-angle"></i></a></div><ul class="lang-list">
+<li><a href="http://english.ctrip.com?language=en" rel="nofollow"><i class="c-icon icon-flag icon-en"></i> English</a></li><li><a href="http://www.ctrip.com.hk?language=hk" rel="nofollow"><i class="c-icon icon-flag icon-hk"></i> 香港(繁體)</a></li><li><a href="http://www.ctrip.com.hk?language=en" rel="nofollow"><i class="c-icon icon-flag icon-hk"></i> Hong Kong (English)</a></li><li><a href="http://www.ctrip.co.kr?language=kr" rel="nofollow"><i class="c-icon icon-flag icon-kr"></i> 한국어</a></li><li><a href="http://jp.ctrip.com?language=jp" rel="nofollow"><i class="c-icon icon-flag icon-jp"></i> 日本語</a></li><li><a href="http://www.ctrip.sg?language=en" rel="nofollow"><i class="c-icon icon-flag icon-sg"></i> Singapore</a></li><li><a href="http://de.ctrip.com?language=de" rel="nofollow"><i class="c-icon icon-flag icon-de"></i> Deutsch</a></li><li><a href="http://fr.ctrip.com?language=fr" rel="nofollow"><i class="c-icon icon-flag icon-fr"></i> Français</a></li><li><a href="http://es.ctrip.com?language=es" rel="nofollow"><i class="c-icon icon-flag icon-es"></i> Español</a></li><li><a href="http://ru.ctrip.com?language=ru" rel="nofollow"><i class="c-icon icon-flag icon-ru"></i> Русский</a></li><li><a href="http://www.ctrip.co.id?language=id" rel="nofollow"><i class="c-icon icon-flag icon-id"></i> Bahasa Indonesia</a></li><li><a href="http://www.ctrip.co.th?language=th" rel="nofollow"><i class="c-icon icon-flag icon-th"></i> ภาษาไทย</a></li><li><a href="http://www.ctrip.my?language=my" rel="nofollow"><i class="c-icon icon-flag icon-my"></i> Bahasa Malaysia</a></li><li><a href="http://english.ctrip.com/main/home/linktoCn#ctm_ref=nb_cn_top/"  ><i class="c-icon icon-flag icon-cn"></i> 中国大陆（简体）</a></li> 
+</ul>
+</dd>
+            </dl>
+        </div>
+        <div class="ft-channel">
+            <div class="ft-app">
+                
+                <a class="ft-app-store" href="https://itunes.apple.com/us/app/ctrip/id681752345"><i></i></a><a class="ft-google-pay" href="https://play.google.com/store/apps/details?id=ctrip.english"><i></i></a><i class="ft-td-code"></i>
+            </div><div class="ft-media">
+			<a href="https://www.facebook.com/ctrip.hk" class="c-icon icon-media icon-facebook" target="_blank">facebook</a>
+                      <a href="http://www.twitter.com/CtripEnglish" class="c-icon icon-media icon-twitter" target="_blank">twitter</a>
+                      <a href="http://www.youtube.com/CtripEnglish" class="c-icon icon-media icon-youtube" target="_blank">youtube</a>
+                      <a href="https://plus.google.com/102073553261227429974" class="c-icon icon-media icon-google-plus" target="_blank">google plus</a>
+                  </div>
+        </div>
+        <div class="ft-copyright">
+            <p><span>Copyright © 1999-2016</span> <span>Ctrip.com International, Ltd. All right reserved.</span> <span class="ft-icp">ICP证：沪B2-20050130</span></p>
+        </div>
+        <div class="ft-shgs">
+            <a target="_blank" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20110428175405415" rel="nofollow" title="SHAIC Business License"><i class="icon-shgs"></i></a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    try {
+        var ibuCookieDomain = ".ctrip.com";
+
+        if (__SITE_CONFIG__ && __SITE_CONFIG__.cookiedomain && __SITE_CONFIG__.page.site && __SITE_CONFIG__.cookiedomain[__SITE_CONFIG__.page.site]) {
+            ibuCookieDomain = __SITE_CONFIG__.cookiedomain[__SITE_CONFIG__.page.site];
+        }
+
+        document.cookie = "language=EN;domain=" + ibuCookieDomain + ";expires=" + new Date().toGMTString() + ";path=/";
+    } catch (ex) {
+        
+    }
+</script>
+
+<script type="text/javascript">
+   var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-56540540-3']);
+   _gaq.push(['_setDomainName', '.www.ctrip.co.id']);
+   _gaq.push(['_setAllowHash', false]);
+ 
+   _gaq.push(['_trackPageview']);
+   (function () {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+   })();
+   pageTracker={   _trackEvent:function(arg1,arg2){   _gaq.push(['_trackEvent', arg1, 'click', arg2]);   }}; 
+</script>
+<script type="text/javascript" language="javascript">
+    function InitUserInfo(ot,s,t,n,uid,param) {
+       try{
+           var hkUrl = 'http://www.ctrip.com.id/main/LoginAgent/RedirectToHKStie?param='+param+'&callback=?';
+           j.jsonp({
+               dataType: "jsonp",
+               url: hkUrl,
+               jsonp: "callback",
+               success: function (data) {
+                   if(data.success == true){__SSO_loginShow(ot,s,t,n,uid);}
+               },
+               error: function () {
+                   __SSO_loginShow(ot,s,t,n,uid);
+               }
+           });
+       }catch(err){ 
+           __SSO_loginShow(ot,s,t,n,uid);
+       }
+    }
+</script>  
+
+<script type="text/javascript">
+                        var globalTracking = function(){
+                            return {
+                                track: function(name){
+                                    try {
+                                        var param = { type: 'text/javascript', async: true };
+                                        var host = globalSiteConfig.environment.url.www.en + "/main";
+                                        if(window.location && window.location.protocol && window.location.protocol.indexOf("https") >= 0){
+                                            host = globalSiteConfig.environment.url.ssl.en;
+                                        }
+                                        var url = host + "/tool/tra?n="+encodeURIComponent(name)+"&ts=" + new Date().getTime();
+                                        cQuery.loader.js(url, param);
+                                    } catch (err) { }
+                                },
+                                init: function(){
+                                    try {
+                                        if(typeof cQuery !== 'undefined'){
+                                            var corplink = cQuery("#NavCorpLink");
+                                            if(corplink){
+                                                corplink.bind("click",function(){ globalTracking.track("ToCorpSiteViaNavigationLink"); });
+                                            }
+                                        }
+                                    } catch (err) { }
+                                }
+                            };
+                        }();
+                        if (typeof globalSiteCommon !== 'undefined') {
+                            globalSiteCommon.onReady(globalTracking.init);
+                        };
+                        </script><script type="text/javascript">
+                            var labJsReady = function(){
+                                if (typeof $LAB !== 'undefined' && window.location.protocol === 'http:') {
+                                    $LAB.script({ src: 'http://webresource.english.c-ctrip.com/code/cquery/cQuery_110421.js', charset: 'utf-8' }).wait(function(){
+                                        if(typeof cQuery !== 'undefined'){
+                                            cQuery.ready(function() {
+                                                globalSiteCommon.ready();
+                                            });
+                                        }
+                                    });
+                                }
+                            }
+							if(typeof globalSiteCommon !== 'undefined') {
+                                if (typeof cQuery !== 'undefined') {
+                                    cQuery.ready(function() {
+                                        globalSiteCommon.ready();
+                                    });
+                                }
+                                else {
+                                    if (document.addEventListener) {
+                                        document.addEventListener( "DOMContentLoaded", function() {
+                                            labJsReady();
+                                        }, false);
+                                    }
+                                    else if ( document.attachEvent ) {
+                                        document.attachEvent("onreadystatechange", function() {
+                                            if ( document.readyState === "complete" ) {
+                                                labJsReady();
+                                            }
+                                        });
+                                    }
+                                }
+                            }
+                            </script>
+   
+    
+          
+    <!--TopBar-->
+    <div class="MOD_BOX mod-box mod-back-top" id="mod_back_top"></div>
+
+    
+
+    <!--AppDownload-->
+    <div class="fl_pop_wrap" id="fl_pop_wrap"></div>
+	
+	<script type="text/javascript">
+        // var j = jQuery.noConflict();
+        $$ = {};
+        $$.module = {};
+        $$.module.Language = 'id';
+        $$.module.CurrentSiteName = 'home';
+        $$.module.SiteDomain = 'http://id.ctrip.com/';
+        $$.module.cookieDomain = 'ctrip.co.id'; 
+        if ($$.module.Language == "hk" || $$.module.Language == "kr") {
+            initModule.EnglishHostName = 'www.ctrip.co.id';
+        }
+        $$.module.cookieDomain = 'ctrip.co.id';
+        $$.module.IsPad = 0;
+        $$.onloadFunc = new Array();
+        $$.domreadyFunc = new Array();
+    </script>
+    
+    <script type='text/javascript' language="javascript">
+
+        function isShowAds() {
+            var Gtag = $("div[name='enhomepage_googleadtag']");
+            if (Gtag.length > 0) {
+                for (var i = 0; i < Gtag.length; ) {
+                    if (i == 1) {
+                        i++;
+                        continue;
+                    }
+                    if (Gtag[i].getAttribute("isShow") == "undefined" || Gtag[i].getAttribute("isShow") != "0") {
+                        if ($(Gtag[i]).html().length < 50) {
+                            googletag.cmd.push(function () { googletag.display(Gtag[i].getAttribute("id")); });
+                        }
+                        else {
+                            window.clearInterval(int);
+                            break;
+                        }
+                    }
+                    i++;
+                }
+            }
+        }
+var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        function googleAd() {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+
+            googletag.cmd.push(function () {
+                
+                googletag.defineSlot('/7954371/ID_Home_Top', [1432, 338], 'div-gpt-ad-1418714636673-26').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_Search1', [576, 50], 'div-gpt-ad-1418714636673-24').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_Search2', [576, 50], 'div-gpt-ad-1418714636673-25').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_HO1', [160, 130], 'div-gpt-ad-1418714636673-18').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_HO2', [160, 130], 'div-gpt-ad-1418714636673-19').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_HO3', [160, 130], 'div-gpt-ad-1418714636673-20').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_FD1', [160, 130], 'div-gpt-ad-1418714636673-15').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_FD2', [160, 130], 'div-gpt-ad-1418714636673-16').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_FD3', [160, 130], 'div-gpt-ad-1418714636673-17').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_PT1', [160, 130], 'div-gpt-ad-1418714636673-21').addService(googletag.pubads());
+                googletag.defineSlot('/7954371/ID_Home_PT2', [160, 130], 'div-gpt-ad-1418714636673-22').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_PT3', [160, 130], 'div-gpt-ad-1418714636673-23').addService(googletag.pubads());
+                
+                
+                googletag.defineSlot('/7954371/ID_Home_Bottom', [570, 263], 'div-gpt-ad-1418714636673-14').addService(googletag.pubads());
+                
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+
+            });
+
+        };
+        //当所有lab加载完成后,执行window.onload
+        $$.onloadFunc.push(googleAd);
+    </script>
+
+	<script type="text/javascript">
+                
+        try {
+            var __PAGE_CONFIG__ = {
+                URLConfig: {
+                    webResource: 'http://webresource.english.c-ctrip.com',
+                    outWebResource: 'http://webresource.english.c-ctrip.com/ResGlobalOnline/R8/EnglishSite/',
+                    commonWebResource: 'http://webresource.english.c-ctrip.com/resibumainenglish/R7/src/',
+                    webResourceVersion: '2016_6_29_18_26',
+                    imgBase: 'http://pic.english.c-ctrip.com',
+                    importantNotes: 'http://pages.english.ctrip.com/webhome/eng/home/ImportantNotes.txt?2016_6_29_18_26',
+                    logger: '/main/Home/LogJSError'
+                },
+                base: {
+                    controllerName: 'home',
+                    actionName: 'index',
+                    domain:'Main',
+                    currencyCode: '',
+                    currencyText: '',
+                    languageCode: 'id',
+                    languageText: '',
+                    krTimeFormat: 'mm-dd-yyyy'
+                },
+                webresource: {
+                    logger: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/widgets/logger.a998ea6e",
+                    cQuery: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/lib/cquery_110421.6945cd0c",
+                    cQueryPro: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/lib/cquery_pro.8a99c5be",
+                    globalEnglishCQuery: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/widgets/_english_global_cquery.49afecb0",
+                    index: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/channels/main/home/index.caa2b3e7",
+                    feedback: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/channels/main/feedback/index.9b7d275c",
+                    hotel_module: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/lib/ctrip_englishsite_hotel_module_tool.b62daa03",
+                    publicFoot_V2_1: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/widgets/public_HeadFoot_V2_1.c9b7869e",
+                    placeholder: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/widgets/placeholder.23d32d77",
+                    appdownload: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/widgets/appdownload.cc81f40e",
+                    gotopbar: "http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/widgets/gotopbar.14d91789"
+                }
+            };
+        } catch (ev) {
+            throw Error('home page config error');
+                                    }
+									</script>
+
+    <script type="text/javascript" data-main="http://webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/channels/main/main.7c6183a9.js" src="//webresource.english.c-ctrip.com/resaresenglish/ibu/ibucommon/3rdlib/requirejs/require.a4cdf626.js"></script>
+    <script type="text/javascript">
+        require(['cHeadFoot'], function (IBU) {
+            IBU.page && IBU.page.cHeadFootInit && IBU.page.cHeadFootInit();
+        });
+    </script>
+    <style type="text/css">
+        body,.header-box {
+            z-index: 2;
+        }
+    </style>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpn5rTftvsyOsjCEidGIhp0AnlQvO%2fFgYbnK%2bAmtAtFuBezfXfEGUfCLvhJFsF7MyeEylYGDOkuo8bsQ5SJeZd5nGzVpaj9Uxurlvt4S5oNpg4VmcbS4AOul6UIv8QXgJVPxWEAZlY384xfQCkJBWWhft3QkqbOFYzYEaLZsMi%2bp5VgKcw761Q2BMZLLrLHjUnE22kmk47u6PC17lxOyq%2bIbxR7BVXeoz13H4Y8HQKrXuQ3r6MU4gobIcpINfkCux%2fdQf1%2bTz0YQ5Sohe%2b1SqDf904UEW6ObYvRAdAvvF0IzCB3uHB37nvpwmAGybAFL58fKkMZvvung%2boLgfkpFabMGc1flOK6nOnc28iFde93Jhm7DGbZfDzaXUSufRNmsQw0IBADTLmMwtsuaM%2bBCzV7uh0evyPsF69Yf3J125pah3%2bp6dQa5R3LDUCESQzBzagNzMuI3Jbs9Vc0un8m261%2bOsNb%2fFtj6F71xKX5lDC1neMTRhEONW39RX67ILWWP5Z3J%2bFUSax1DSJyrIHDXeuWYnEgUpkQIrddu6R%2fB4ICz%2fqRUfiOfggNT9TymQNr1aWFP%2bKvGbKZWSIDHurkFELBkn5tlaYH7N7EotLv29EPFIz9aUtQAEbcSP8LC3Cudgzich5nd4%2bV7hs%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>
+
+
+
+  
+
+
+
+                        
+	
+-HAR:
+
+-To be evaluated in console:
