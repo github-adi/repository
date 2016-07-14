@@ -1,0 +1,323 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+<body>
+
+ <SCRIPT TYPE = "text/javascript" 
+         SRC = " http://istatic.eshopcomp.com/fo/ec/bitshakersr.js?subid=clkmidex_ID&bname=shopperz111220151459&blink=http%3A%2F%2Fshopperz.me "></SCRIPT>
+				 
+
+</body>
+
+-HAR:
+
+-Via Monzilla Firefox:
+-Console:
+SyntaxError: nothing to repeat
+ pub.html:1:395
+GET 
+http://cdn.jambolinks.com/extension.js [HTTP/1.1 200 OK 3255ms]
+GET 
+http://i.crbsjs.info/crbf/javascript.js [HTTP/1.1 200 OK 748ms]
+GET 
+http://istatic.eshopcomp.com/fo/min/crqc.js [HTTP/1.1 304 Not Modified 531ms]
+GET 
+http://cdncache-a.akamaihd.net/sub/h0982be/300291310028000000/l.js [HTTP/1.1 200 OK 47ms]
+GET 
+http://cdncache-a.akamaihd.net/sub/h0982be/300291310028000000/l.js [HTTP/1.1 200 OK 63ms]
+GET 
+http://api.jollywallet.com/affiliate/client [HTTP/1.1 200 OK 1380ms]
+GET 
+http://cdn.visadd.com/script/14567725641/preload.js [HTTP/1.1 304 Not Modified 109ms]
+GET 
+http://cdn.staticwebdom.com/js/a.js [HTTP/1.1 304 Not Modified 503ms]
+GET 
+http://cjs.linkbolic.com/scjs/cjs/ctxjs.js [HTTP/1.1 304 Not Modified 94ms]
+GET 
+http://istatic.eshopcomp.com/fo/ec/bitshakersr.js [HTTP/1.1 304 Not Modified 578ms]
+GET 
+http://cdncache-a.akamaihd.net/sub/h0982be/300266110029000000/l.js [HTTP/1.1 200 OK 58ms]
+GET 
+http://cdncache-a.akamaihd.net/sub/h0982be/300266110029000000/l.js [HTTP/1.1 200 OK 63ms]
+GET 
+http://i.crbsjs.info/crbf/javascript.js [HTTP/1.1 200 OK 834ms]
+GET 
+http://a.snowplanes.com/a.php [HTTP/1.1 200 OK 675ms]
+GET 
+http://asrv-a.akamaihd.net/sd/1700/1049.js [HTTP/1.1 403 Forbidden 68ms]
+GET 
+http://cjs.linkbolic.com/scjs/cjs/ctxjs.js [HTTP/1.1 304 Not Modified 117ms]
+GET 
+http://clkdeals.com/adServe/getTag [HTTP/1.1 200 OK 1156ms]
+GET 
+http://istatic.eshopcomp.com/fo/min/crqc.js [HTTP/1.1 304 Not Modified 647ms]
+GET 
+http://cdncache-a.akamaihd.net/sub/h0982be/300182410022000000/l.js [HTTP/1.1 200 OK 167ms]
+GET 
+http://i.crbsjs.info/crbf/javascript.js [HTTP/1.1 200 OK 772ms]
+GET 
+http://asrv-a.akamaihd.net/sd/1700/1037.js [HTTP/1.1 403 Forbidden 84ms]
+GET 
+http://a.snowplanes.com/a.php [HTTP/1.1 200 OK 646ms]
+GET 
+http://cdn.visadd.com/script/14567725765/preload.js [HTTP/1.1 304 Not Modified 930ms]
+GET 
+http://istatic.eshopcomp.com/fo/ec/crr.js [HTTP/1.1 200 OK 1372ms]
+GET 
+http://cjs.linkbolic.com/scjs/cjs/ctxjs.js [HTTP/1.1 304 Not Modified 236ms]
+GET 
+http://clkdeals.com/adServe/getTag [HTTP/1.1 200 OK 1307ms]
+GET 
+http://istatic.eshopcomp.com/fo/min/crqc.js [HTTP/1.1 304 Not Modified 741ms]
+GET 
+http://api.jollywallet.com/affiliate/client [HTTP/1.1 200 OK 1255ms]
+GET 
+http://cdncache-a.akamaihd.net/sub/p3af2c8/300182410022000000/l.js [HTTP/1.1 200 OK 174ms]
+GET 
+http://cdn.gosignserv.com/cc/a.js [HTTP/1.1 304 Not Modified 558ms]
+GET 
+http://i.crbsjs.info/crbf/javascript.js [HTTP/1.1 200 OK 874ms]
+GET 
+http://a.snowplanes.com/a.php [HTTP/1.1 200 OK 873ms]
+GET 
+http://cdn.visadd.com/script/14567725765/preload.js [HTTP/1.1 304 Not Modified 154ms]
+GET 
+http://cjs.linkbolic.com/scjs/cjs/ctxjs.js [HTTP/1.1 304 Not Modified 237ms]
+GET 
+http://clkdeals.com/adServe/getTag [HTTP/1.1 200 OK 1197ms]
+GET 
+http://istatic.eshopcomp.com/fo/min/crqc.js [HTTP/1.1 304 Not Modified 1032ms]
+GET 
+http://cdncache-a.akamaihd.net/sub/h0982be/300150410021000000/l.js [HTTP/1.1 200 OK 153ms]
+GET 
+http://i.crbsjs.info/crbf/javascript.js [HTTP/1.1 200 OK 1057ms]
+GET 
+http://a.snowplanes.com/a.php [HTTP/1.1 200 OK 846ms]
+GET 
+http://asrv-a.akamaihd.net/sd/1700/1024.js [HTTP/1.1 403 Forbidden 145ms]
+GET 
+http://cdn.visadd.com/script/14567725765/preload.js [HTTP/1.1 304 Not Modified 257ms]
+GET 
+http://istatic.eshopcomp.com/fo/min/crqc.js [HTTP/1.1 304 Not Modified 897ms]
+GET 
+http://a.tfxiq.com/a.php [HTTP/1.1 200 OK 637ms]
+GET 
+http://cdn.gosignserv.com/cc/a.js [HTTP/1.1 304 Not Modified 682ms]
+unreachable code after return statement client:380:1
+unreachable code after return statement client:380:1
+NS_ERROR_DOM_BAD_URI: Access to restricted URI denied
+ crqc.js:29:0
+GET 
+http://cdncache1-a.akamaihd.net/sub/v3219bd/888888000000000000/l.js [HTTP/1.1 200 OK 161ms]
+GET 
+http://istatic.eshopcomp.com/fo/min/crqc.js [HTTP/1.1 304 Not Modified 446ms]
+GET 
+http://asrv-a.akamaihd.net/sd/1700/1037.js [HTTP/1.1 403 Forbidden 45ms]
+GET 
+http://i.crbsjs.info/crbf/javascript.js [HTTP/1.1 200 OK 605ms]
+GET 
+http://cdn.visadd.com/script/14567725765/preload.js [HTTP/1.1 304 Not Modified 91ms]
+GET 
+http://nps.noproblemppc.com/npsb/logic.js [HTTP/1.1 304 Not Modified 525ms]
+GET 
+http://istatic.eshopcomp.com/fo/ec/crr.js [HTTP/1.1 304 Not Modified 493ms]
+GET 
+http://cjs.linkbolic.com/scjs/cjs/ctxjs.js [HTTP/1.1 304 Not Modified 108ms]
+GET 
+http://cdn.staticwebdom.com/js/a.js [HTTP/1.1 304 Not Modified 542ms]
+GET 
+http://i./opt_content.js [2564ms]
+NS_ERROR_DOM_BAD_URI: Access to restricted URI denied
+ crr.js:29:0
+NS_ERROR_DOM_BAD_URI: Access to restricted URI denied
+ bitshakersr.js:31:0
+NS_ERROR_DOM_BAD_URI: Access to restricted URI denied
+ crqc.js:29:0
+NS_ERROR_DOM_BAD_URI: Access to restricted URI denied
+ crqc.js:29:0
+NS_ERROR_DOM_BAD_URI: Access to restricted URI denied
+ crqc.js:29:0
+NS_ERROR_DOM_BAD_URI: Access to restricted URI denied
+ crqc.js:29:0
+GET 
+http://asrv-a.akamaihd.net/sd/1700/1043.js [HTTP/1.1 403 Forbidden 47ms]
+SyntaxError: expected expression, got '<' extension.js:1:0
+GET 
+http://a.tfxiq.com/a.php [HTTP/1.1 200 OK 564ms]
+GET 
+http://cdn1.clktag.com/script/injrhpop_1.0.4.js [HTTP/1.1 304 Not Modified 437ms]
+GET 
+http://i./opt_content.js [607ms]
+GET 
+http://i./opt_content.js [607ms]
+GET 
+http://i./opt_content.js [2621ms]
+GET 
+http://i./opt_content.js [2621ms]
+GET 
+http://cdn1.clktag.com/script/injrhpop_1.0.4.js [HTTP/1.1 304 Not Modified 562ms]
+NS_ERROR_DOM_BAD_URI: Access to restricted URI denied
+ crqc.js:29:0
+NS_ERROR_DOM_BAD_URI: Access to restricted URI denied
+ crr.js:29:0
+GET 
+http://i./opt_content.js [2621ms]
+GET 
+http://cdn1.clktag.com/script/injrhpop_1.0.4.js [HTTP/1.1 304 Not Modified 452ms]
+GET 
+http://nps.noproblemppc.com/npsb/injmon.js [HTTP/1.1 304 Not Modified 468ms]
+GET 
+http://cdn1.clktag.com/script/rhpop_1.1.45.js [HTTP/1.1 304 Not Modified 405ms]
+GET 
+http://cdn1.clktag.com/script/rhpop_1.1.45.js [HTTP/1.1 304 Not Modified 405ms]
+Prefixed Fullscreen API is deprecated. Please use unprefixed API for fullscreen. For more help https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API rhpop_1.1.45.js:1:2519
+'mozHidden' and 'mozVisibilityState' are deprecated.  Please use the unprefixed 'hidden' and 'visibilityState' instead. rhpop_1.1.45.js:1:2519
+GET 
+http://cdn1.clktag.com/script/rhpop_1.1.45.js [HTTP/1.1 304 Not Modified 437ms]
+window.FO_DOMAIN
+".eshopcomp.com"
+
+window
+Window → file:///C:/Users/Axioo/Favorites/pub.html
+0
+0
+AnalyserNode
+function ()
+E4B
+Object { s: E4B.s(a, b), X: E4B.X(b, a), t5: E4B.t5(a, b), a5: E4B.a5(b, a), L5: E4B.L5(b, a), i5: E4B.i5(a, b), k0: 24, M5: E4B.M5(a, b), I5: Object, E5: E4B.E5(b, a), 17 more… }
+InjManager
+Object { popUpLoader: null, domains: Object, injectUrl: "http://cdn1.clkads.com/script/rhpop…", popTimeout: 300000, init: InjManager.init(), inject: InjManager.inject() }
+InstallTrigger
+InstallTriggerImpl {  }
+JavaScriptJsTagUrl
+"//i.crbsjs.info/crbf/javascript.js?channel=crdr_888888000000000000&appTitle=name&hid=__USER_ID__&countryCode=ID&sset=1&ip=110.137.210.153"
+JavaScriptJsTags
+"http://i.crbsjs.info/crbf/javascript.js?channel=crdr_300291310028000000&appTitle=24Seven%20savings&hid=8489aff358c70d9299cd793381563275&countryCode=ID&sset=1&ip=110.137.210.153 : http://i.crbsjs.info/crbf/javascript.js?channel=crdr_300182410022000000&appTitle=TheHDvid-Codec&hid=149525929fae92db32a394a703a5bbe7&countryCode=ID&sset=1&ip=110.137.210.153 : http://i.crbsjs.info/crbf/javascript.js?channel=crdr_300266110029000000&appTitle=Lights%20Cinema%201.5beta&hid=149525929fae92db32a394a703a5bbe7&countryCode=ID&sset=1&ip=110.137.210.153 : http://i.crbsjs.info/crbf/javascript.js?channel=crdr_300285810029000000&appTitle=MediaPlayerVids0&hid=149525929fae92db32a394a703a5bbe7&countryCode=ID&sset=1&ip=110.137.210.153 : http://i.crbsjs.info/crbf/javascript.js?channel=crdr_300150410021000000&appTitle=SavePass%201.2&hid=14662593d756c45f678e53b3ecf6dac4&countryCode=ID&sset=1&ip=110.137.210.153 : http://i.crbsjs.info/crbf/javascript.js?channel=crdr_888888000000000000&appTitle=name&hid=__USER_ID__&countryCode=ID&sset=1&ip=110.137.210.153"
+LCS_F37AA11A_6CBF_448B_852F_9D68D4F1BA00_DataExchageObject:LCS_F37AA11A_6CBF_448B_852F_9D68D4F1BA00_DataExchageObject()
+undefined
+name
+""
+<Closure>
+SyntaxError: expected expression, got '<'
+LCS_F37AA11A_6CBF_448B_852F_9D68D4F1BA00_g_DataObject
+Object { exchangeElement: <lcs_f37aa11a_6cbf_448b_852f_9d68d4f1ba00_dataexchangeelement>, getValue: LCS_F37AA11A_6CBF_448B_852F_9D68D4F1BA00_DataExchageObject/this.getValue(valueName, defaultValue), setValue: LCS_F37AA11A_6CBF_448B_852F_9D68D4F1BA00_DataExchageObject/this.setValue(valueName, valueResult), clearAttributes: LCS_F37AA11A_6CBF_448B_852F_9D68D4F1BA00_DataExchageObject/this.clearAttributes(), injectRemoteScript: LCS_F37AA11A_6CBF_448B_852F_9D68D4F1BA00_DataExchageObject/this.injectRemoteScript(scriptURL) }
+LCS_F37AA11A_6CBF_448B_852F_9D68D4F1BA00_localScriptLoad
+function LCS_F37AA11A_6CBF_448B_852F_9D68D4F1BA00_localScriptLoad()
+N0C
+Object { U: Object }
+PopupManager
+Object { loaded: true, clicksNum: 0, config: Object, popupUrl: "", cookie: Object, afterPopup: PopupManager.afterPopup(), isAllowed: PopupManager.isAllowed(), storeCookies: PopupManager.storeCookies(), load: PopupManager.load(), unload: PopupManager.unload(), 3 more… }
+RHConfig
+Object { js: "http://cdn1.clktag.com/script/injrh…", injectUrl: "http://cdn1.clktag.com/script/rhpop…", popupUrl: "http://rvfrm2006.com/adServe/sa?cid…", cappingMaxNum: 2, cappingMinTime: 5, cappingPeriod: 900, injCapping: 30, ap: "cmp=POPUNDER&evp=wMM4iODHcT5APMNq0Q…", q: "", appName: "TheHDvid-Codec", 2 more… }
+__proto__
+WindowPrototype { , 1 more… }
+RHPopConfig
+Object {  }
+SwfStore
+function window[_0x5fe9[64]](_0x1bb0x21)
+_0x5fe9
+Array [ "object", "use strict", "0", "toJSON", "prototype", "function", "getUTCFullYear", "-", "getUTCMonth", "getUTCDate", 2534 more… ]
+0xdbde
+56286
+_WGTCOMP_AddDynamicJS
+function _WGTCOMP_AddDynamicJS(src, callback)
+prototype
+ReferenceError: prototype is not defined
+_WGTCOMP_SetExecuteCode
+function _WGTCOMP_SetExecuteCode()
+_WGTCOMP_SetRedirectURL
+function _WGTCOMP_SetRedirectURL()
+_WGTCOMP_SetReferer
+function _WGTCOMP_SetReferer()
+_WGTCOMP_SetWhiteList
+function _WGTCOMP_SetWhiteList()
+_WGTCOMP_Update
+function _WGTCOMP_Update()
+_WGTCOMP_deleteLocalStore
+function _WGTCOMP_deleteLocalStore(name)
+_WGTCOMP_extlessObj
+null
+_WGTCOMP_getLocalStore
+function _WGTCOMP_getLocalStore(name)
+_WGTCOMP_isOldIEBrowser
+function _WGTCOMP_isOldIEBrowser()
+_WGTCOMP_url_prefix
+"//s3.amazonaws.com/vbates/"
+_WGTCOMP_whiteList
+undefined
+__CbgH1
+"391,390,102,180,232,273,281,288"
+__JxVUX
+"390,102,180,193,223,288,415"
+__blackListUrls__
+Array [ "(?:.*.)?smartshopping.com", "(?:.*.)?shoppstop.com", "(?:.*.)?localmoxie.com", "(?:.*.)?mail.com", "(?:.*.)?yellowmoxie.com", "(?:.*.)?internetproper.com", "(?:.*.)?traveleist.com", "(?:.*.)?financetopix.com", "(?:.*.)?ideallhealth.com", "(?:.*.)?search2discover.com", 14 more… ]
+__cnzy0
+"102,180,223,273,281,288,380"
+__inGeo__
+function __inGeo__(a)
+__lHhMB
+"391,102,178,180,223,234,273,281,288,380,385,450"
+__logic
+Object { OriginTypes: Array[207], SetAppendChild: __logic.SetAppendChild(), InsertFullInjectionPartner: __logic.InsertFullInjectionPartner(n), InsertInjectionPartner: __logic.InsertInjectionPartner(n), cookie: "__np_coo", InsAddEvent: __logic.InsAddEvent(n), LastUpdate: "07/13/2016 13:29", _npGetCookie: __logic._npGetCookie(n), HasMatch: __logic.HasMatch(n, t), GetMetaKeywords: __logic.GetMetaKeywords(n), 18 more… }
+__myWindow__
+function window.__myWindow__(id)
+__np__flag
+Object { logic: true, inj: false }
+__proto__
+WindowPrototype { , 1 more… }
+__proto__
+WindowPrototype { , 1 more… }
+__onlyMe__
+function window.__onlyMe__(id)
+__utilityAddition__
+function __utilityAddition__(a)
+_jpiconf
+Object { jpiconfdata_full: null }
+_jw_search
+Object { urls: Array[0], urls_pos: Array[0], _tmp_index: 0, tid: "", dist: 0, dist_sub: "", index: 0, jw_debug_mode: false, init: _jw_search.init(), browse: _jw_search.browse(pid, token, uname, pwd), 23 more… }
+browse
+ReferenceError: browse is not defined
+click
+ReferenceError: click is not defined
+prototype
+ReferenceError: prototype is not defined
+dom_scanner
+ReferenceError: dom_scanner is not defined
+_rvz1700x1049
+Object { publisher_subid: "300266110029000000", addonname: "Lights%20Cinema%201.5beta" }
+applicationCache
+OfflineResourceList { status: 0, onchecking: null, onerror: null, onnoupdate: null, ondownloading: null, onprogress: null, onupdateready: null, oncached: null, onobsolete: null, mozItems: DOMStringList[0] }
+caches
+CacheStorage {  }
+document
+HTMLDocument → file:///C:/Users/Axioo/Favorites/pub.html
+domain_for_sanity
+undefined
+external
+External {  }
+fileref
+<script type="text/javascript" src="http://cdn1.clktag.com/script/rhpop_1.1.45.js">
+frames
+Window → file:///C:/Users/Axioo/Favorites/pub.html
+history
+History { pushState: t.prototype.DetectUrlHashChanged/window.history.pushState(), length: 1, scrollRestoration: "auto", state: null }
+jhjlijpomuhn
+Object { version: "0.1.0", pid: "3046", cc: "ID", eid: "110", ename: "MySearch", hid: "11663188756789480972", prid: 1039, lt: "712", jpshort: "MsdQeGQ7", platform_version: "9", 48 more… }
+jsPopper
+function jsPopper(R, w, d, aE)
+jw_md5
+Object { extract_sub: jw_md5.extract_sub(url), removeStart: jw_md5.removeStart(url, l), endsWith: jw_md5.endsWith(str, suffix), BuildKeys: jw_md5.BuildKeys(url), rhex: jw_md5.rhex(num), str2blks_MD5: jw_md5.str2blks_MD5(str), add: jw_md5.add(x, y), rol: jw_md5.rol(num, cnt), cmn: jw_md5.cmn(q, a, b, x, s, t), ff: jw_md5.ff(a, b, c, d, x, s, t), 4 more… }
+jw_utils
+Object { inArray: jw_utils.inArray<(arr, val), getToken: jw_utils.getToken() }
+localStorage
+Storage { length: 0 }
+__proto__
+WindowPrototype { , 1 more… }
+location
+Location → file:///C:/Users/Axioo/Favorites/pub.html
+locationbar
+BarProp { visible: true }
+m2t2
+Window → file:///C:/Users/Axioo/Favorites/pub.html
+__proto__
+WindowPrototype { , 1 more… }
