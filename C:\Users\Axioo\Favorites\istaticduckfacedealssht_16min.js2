@@ -1,0 +1,37 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+<body>
+ <html>
+ <p>
+ http://istatic.duckfacedeals.com/staticFiles/sht_16.min.js
+ </p>
+ <SCRIPT TYPE = "TEXT/JAVASCRIPT" 
+         SRC = " C:\Users\Axioo\Favorites\istaticduckfacedealssht_16min.js "></SCRIPT>
+			</html>	 
+		 </body>
+		 		  -Via Google Chrome:
+																								
+Recording network activity…
+Perform a request or hit F5 to record the reload.
+
+Console
+Animations
+Network conditions
+Rendering
+Search
+Sensors
+
+
+
+
+
+Preserve log
+﻿
+2016-07-18 01:15:11.982 c:\Users\Axioo\Favorites\istaticduckfacedealssht_16min.js:11 coutry result:  {"ip":"110.137.192.252","country_code":"ID","country_name":"Indonesia","region_code":"JB","region_name":"West Java","city":"Bekasi","zip_code":"","time_zone":"Asia/Jakarta","latitude":-6.2349,"longitude":106.9896,"metro_code":0}
+2016-07-18 01:15:11.985
+c:\Users\Axioo\Favorites\istaticduckfacedealssht_16min.js:15 XMLHttpRequest cannot load file://http://app.duckfacedeals.com/distore/cookie/get?key=gi. Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https, chrome-extension-resource.
+2016-07-18 01:15:11.986
+c:\Users\Axioo\Favorites\istaticduckfacedealssht_16min.js:15 Uncaught Error
+﻿
+
