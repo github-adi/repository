@@ -1,0 +1,348 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+document.write('<link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist-embed-f96250b93a853df0c3ce97f06110bad41bc1e47f54f3ec2d67f1d8c7e9920228.css">')
+document.write('<div id=\"gist421182\" class=\"gist\">\n    <div class=\"gist-file\">\n      <div class=\"gist-data\">\n        <div class=\"js-gist-file-update-container js-task-list-container file-box\">\n  <div id=\"file-readline-js\" class=\"file\">\n    \n\n  <div itemprop=\"text\" class=\"blob-wrapper data type-javascript\">\n      <table class=\"highlight tab-size js-file-line-container\" data-tab-size=\"8\">\n      <tr>\n        <td id=\"file-readline-js-L1\" class=\"blob-num js-line-number\" data-line-number=\"1\"><\/td>\n        <td id=\"file-readline-js-LC1\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">var<\/span> Buffer <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">require<\/span>(<span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span>buffer<span class=\"pl-pds\">&#39;<\/span><\/span>).<span class=\"pl-smi\">Buffer<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L2\" class=\"blob-num js-line-number\" data-line-number=\"2\"><\/td>\n        <td id=\"file-readline-js-LC2\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">var<\/span> stdio <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">process<\/span>.<span class=\"pl-en\">binding<\/span>(<span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span>stdio<span class=\"pl-pds\">&#39;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L3\" class=\"blob-num js-line-number\" data-line-number=\"3\"><\/td>\n        <td id=\"file-readline-js-LC3\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L4\" class=\"blob-num js-line-number\" data-line-number=\"4\"><\/td>\n        <td id=\"file-readline-js-LC4\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">var<\/span> stdout <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">process<\/span>.<span class=\"pl-smi\">stdout<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L5\" class=\"blob-num js-line-number\" data-line-number=\"5\"><\/td>\n        <td id=\"file-readline-js-LC5\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">var<\/span> stdin <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">process<\/span>.<span class=\"pl-en\">openStdin<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L6\" class=\"blob-num js-line-number\" data-line-number=\"6\"><\/td>\n        <td id=\"file-readline-js-LC6\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L7\" class=\"blob-num js-line-number\" data-line-number=\"7\"><\/td>\n        <td id=\"file-readline-js-LC7\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(<span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span>hello world<span class=\"pl-cce\">\\n<\/span><span class=\"pl-pds\">&#39;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L8\" class=\"blob-num js-line-number\" data-line-number=\"8\"><\/td>\n        <td id=\"file-readline-js-LC8\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L9\" class=\"blob-num js-line-number\" data-line-number=\"9\"><\/td>\n        <td id=\"file-readline-js-LC9\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">var<\/span> columns <span class=\"pl-k\">=<\/span> <span class=\"pl-smi\">stdio<\/span>.<span class=\"pl-en\">getColumns<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L10\" class=\"blob-num js-line-number\" data-line-number=\"10\"><\/td>\n        <td id=\"file-readline-js-LC10\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(<span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span>columns: <span class=\"pl-pds\">&#39;<\/span><\/span> <span class=\"pl-k\">+<\/span> columns <span class=\"pl-k\">+<\/span> <span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span><span class=\"pl-cce\">\\n<\/span><span class=\"pl-pds\">&#39;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L11\" class=\"blob-num js-line-number\" data-line-number=\"11\"><\/td>\n        <td id=\"file-readline-js-LC11\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L12\" class=\"blob-num js-line-number\" data-line-number=\"12\"><\/td>\n        <td id=\"file-readline-js-LC12\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-smi\">stdio<\/span>.<span class=\"pl-en\">setRawMode<\/span>(<span class=\"pl-c1\">true<\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L13\" class=\"blob-num js-line-number\" data-line-number=\"13\"><\/td>\n        <td id=\"file-readline-js-LC13\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L14\" class=\"blob-num js-line-number\" data-line-number=\"14\"><\/td>\n        <td id=\"file-readline-js-LC14\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">var<\/span> prompt <span class=\"pl-k\">=<\/span> <span class=\"pl-s\"><span class=\"pl-pds\">&quot;<\/span>node&gt; <span class=\"pl-pds\">&quot;<\/span><\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L15\" class=\"blob-num js-line-number\" data-line-number=\"15\"><\/td>\n        <td id=\"file-readline-js-LC15\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">var<\/span> pos <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L16\" class=\"blob-num js-line-number\" data-line-number=\"16\"><\/td>\n        <td id=\"file-readline-js-LC16\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L17\" class=\"blob-num js-line-number\" data-line-number=\"17\"><\/td>\n        <td id=\"file-readline-js-LC17\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L18\" class=\"blob-num js-line-number\" data-line-number=\"18\"><\/td>\n        <td id=\"file-readline-js-LC18\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">var<\/span> currentBuffer;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L19\" class=\"blob-num js-line-number\" data-line-number=\"19\"><\/td>\n        <td id=\"file-readline-js-LC19\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L20\" class=\"blob-num js-line-number\" data-line-number=\"20\"><\/td>\n        <td id=\"file-readline-js-LC20\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">function<\/span> <span class=\"pl-en\">newCurrentBuffer<\/span> () {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L21\" class=\"blob-num js-line-number\" data-line-number=\"21\"><\/td>\n        <td id=\"file-readline-js-LC21\" class=\"blob-code blob-code-inner js-file-line\">  currentBuffer <span class=\"pl-k\">=<\/span> <span class=\"pl-k\">new<\/span> <span class=\"pl-en\">Buffer<\/span>(<span class=\"pl-c1\">10<\/span><span class=\"pl-k\">*<\/span><span class=\"pl-c1\">1024<\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L22\" class=\"blob-num js-line-number\" data-line-number=\"22\"><\/td>\n        <td id=\"file-readline-js-LC22\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span> <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L23\" class=\"blob-num js-line-number\" data-line-number=\"23\"><\/td>\n        <td id=\"file-readline-js-LC23\" class=\"blob-code blob-code-inner js-file-line\">}<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L24\" class=\"blob-num js-line-number\" data-line-number=\"24\"><\/td>\n        <td id=\"file-readline-js-LC24\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L25\" class=\"blob-num js-line-number\" data-line-number=\"25\"><\/td>\n        <td id=\"file-readline-js-LC25\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-en\">newCurrentBuffer<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L26\" class=\"blob-num js-line-number\" data-line-number=\"26\"><\/td>\n        <td id=\"file-readline-js-LC26\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L27\" class=\"blob-num js-line-number\" data-line-number=\"27\"><\/td>\n        <td id=\"file-readline-js-LC27\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L28\" class=\"blob-num js-line-number\" data-line-number=\"28\"><\/td>\n        <td id=\"file-readline-js-LC28\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">var<\/span> history <span class=\"pl-k\">=<\/span> [];<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L29\" class=\"blob-num js-line-number\" data-line-number=\"29\"><\/td>\n        <td id=\"file-readline-js-LC29\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">var<\/span> historyIndex <span class=\"pl-k\">=<\/span> <span class=\"pl-k\">-<\/span><span class=\"pl-c1\">1<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L30\" class=\"blob-num js-line-number\" data-line-number=\"30\"><\/td>\n        <td id=\"file-readline-js-LC30\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L31\" class=\"blob-num js-line-number\" data-line-number=\"31\"><\/td>\n        <td id=\"file-readline-js-LC31\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">function<\/span> <span class=\"pl-en\">addHistory<\/span> () {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L32\" class=\"blob-num js-line-number\" data-line-number=\"32\"><\/td>\n        <td id=\"file-readline-js-LC32\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-smi\">history<\/span>.<span class=\"pl-c1\">unshift<\/span>(currentBuffer);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L33\" class=\"blob-num js-line-number\" data-line-number=\"33\"><\/td>\n        <td id=\"file-readline-js-LC33\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-en\">newCurrentBuffer<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L34\" class=\"blob-num js-line-number\" data-line-number=\"34\"><\/td>\n        <td id=\"file-readline-js-LC34\" class=\"blob-code blob-code-inner js-file-line\">  historyIndex <span class=\"pl-k\">=<\/span> <span class=\"pl-k\">-<\/span><span class=\"pl-c1\">1<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L35\" class=\"blob-num js-line-number\" data-line-number=\"35\"><\/td>\n        <td id=\"file-readline-js-LC35\" class=\"blob-code blob-code-inner js-file-line\">}<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L36\" class=\"blob-num js-line-number\" data-line-number=\"36\"><\/td>\n        <td id=\"file-readline-js-LC36\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L37\" class=\"blob-num js-line-number\" data-line-number=\"37\"><\/td>\n        <td id=\"file-readline-js-LC37\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-k\">function<\/span> <span class=\"pl-en\">refreshLine<\/span> () {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L38\" class=\"blob-num js-line-number\" data-line-number=\"38\"><\/td>\n        <td id=\"file-readline-js-LC38\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-c\">/* Cursor to left edge */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L39\" class=\"blob-num js-line-number\" data-line-number=\"39\"><\/td>\n        <td id=\"file-readline-js-LC39\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(<span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span><span class=\"pl-cce\">\\x<\/span>1b[0G<span class=\"pl-pds\">&#39;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L40\" class=\"blob-num js-line-number\" data-line-number=\"40\"><\/td>\n        <td id=\"file-readline-js-LC40\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L41\" class=\"blob-num js-line-number\" data-line-number=\"41\"><\/td>\n        <td id=\"file-readline-js-LC41\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-c\">/* Write the prompt and the current buffer content */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L42\" class=\"blob-num js-line-number\" data-line-number=\"42\"><\/td>\n        <td id=\"file-readline-js-LC42\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-k\">var<\/span> plen <span class=\"pl-k\">=<\/span> <span class=\"pl-smi\">Buffer<\/span>.<span class=\"pl-en\">byteLength<\/span>(prompt, <span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span>utf8<span class=\"pl-pds\">&#39;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L43\" class=\"blob-num js-line-number\" data-line-number=\"43\"><\/td>\n        <td id=\"file-readline-js-LC43\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(prompt);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L44\" class=\"blob-num js-line-number\" data-line-number=\"44\"><\/td>\n        <td id=\"file-readline-js-LC44\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(<span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-c1\">slice<\/span>(<span class=\"pl-c1\">0<\/span>, <span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span>));<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L45\" class=\"blob-num js-line-number\" data-line-number=\"45\"><\/td>\n        <td id=\"file-readline-js-LC45\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L46\" class=\"blob-num js-line-number\" data-line-number=\"46\"><\/td>\n        <td id=\"file-readline-js-LC46\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-c\">/* Erase to right */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L47\" class=\"blob-num js-line-number\" data-line-number=\"47\"><\/td>\n        <td id=\"file-readline-js-LC47\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(<span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span><span class=\"pl-cce\">\\x<\/span>1b[0K<span class=\"pl-pds\">&#39;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L48\" class=\"blob-num js-line-number\" data-line-number=\"48\"><\/td>\n        <td id=\"file-readline-js-LC48\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L49\" class=\"blob-num js-line-number\" data-line-number=\"49\"><\/td>\n        <td id=\"file-readline-js-LC49\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-c\">/* Move cursor to original position. */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L50\" class=\"blob-num js-line-number\" data-line-number=\"50\"><\/td>\n        <td id=\"file-readline-js-LC50\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(<span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span><span class=\"pl-cce\">\\x<\/span>1b[0G<span class=\"pl-cce\">\\x<\/span>1b[<span class=\"pl-pds\">&#39;<\/span><\/span> <span class=\"pl-k\">+<\/span> (pos<span class=\"pl-k\">+<\/span>plen) <span class=\"pl-k\">+<\/span> <span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span>C<span class=\"pl-pds\">&#39;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L51\" class=\"blob-num js-line-number\" data-line-number=\"51\"><\/td>\n        <td id=\"file-readline-js-LC51\" class=\"blob-code blob-code-inner js-file-line\">}<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L52\" class=\"blob-num js-line-number\" data-line-number=\"52\"><\/td>\n        <td id=\"file-readline-js-LC52\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L53\" class=\"blob-num js-line-number\" data-line-number=\"53\"><\/td>\n        <td id=\"file-readline-js-LC53\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(prompt);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L54\" class=\"blob-num js-line-number\" data-line-number=\"54\"><\/td>\n        <td id=\"file-readline-js-LC54\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L55\" class=\"blob-num js-line-number\" data-line-number=\"55\"><\/td>\n        <td id=\"file-readline-js-LC55\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-smi\">stdin<\/span>.<span class=\"pl-en\">addListener<\/span>(<span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span>data<span class=\"pl-pds\">&#39;<\/span><\/span>, <span class=\"pl-k\">function<\/span> (<span class=\"pl-smi\">b<\/span>) {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L56\" class=\"blob-num js-line-number\" data-line-number=\"56\"><\/td>\n        <td id=\"file-readline-js-LC56\" class=\"blob-code blob-code-inner js-file-line\">  <span class=\"pl-k\">switch<\/span> (b[<span class=\"pl-c1\">0<\/span>]) {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L57\" class=\"blob-num js-line-number\" data-line-number=\"57\"><\/td>\n        <td id=\"file-readline-js-LC57\" class=\"blob-code blob-code-inner js-file-line\">    <span class=\"pl-c\">/* ctrl+c */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L58\" class=\"blob-num js-line-number\" data-line-number=\"58\"><\/td>\n        <td id=\"file-readline-js-LC58\" class=\"blob-code blob-code-inner js-file-line\">    <span class=\"pl-k\">case<\/span> <span class=\"pl-c1\">3<\/span><span class=\"pl-k\">:<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L59\" class=\"blob-num js-line-number\" data-line-number=\"59\"><\/td>\n        <td id=\"file-readline-js-LC59\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-smi\">stdio<\/span>.<span class=\"pl-en\">setRawMode<\/span>(<span class=\"pl-c1\">false<\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L60\" class=\"blob-num js-line-number\" data-line-number=\"60\"><\/td>\n        <td id=\"file-readline-js-LC60\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-c1\">process<\/span>.<span class=\"pl-en\">kill<\/span>(<span class=\"pl-c1\">process<\/span>.<span class=\"pl-smi\">pid<\/span>, <span class=\"pl-s\"><span class=\"pl-pds\">&quot;<\/span>SIGINT<span class=\"pl-pds\">&quot;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L61\" class=\"blob-num js-line-number\" data-line-number=\"61\"><\/td>\n        <td id=\"file-readline-js-LC61\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-k\">break<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L62\" class=\"blob-num js-line-number\" data-line-number=\"62\"><\/td>\n        <td id=\"file-readline-js-LC62\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L63\" class=\"blob-num js-line-number\" data-line-number=\"63\"><\/td>\n        <td id=\"file-readline-js-LC63\" class=\"blob-code blob-code-inner js-file-line\">    <span class=\"pl-k\">case<\/span> <span class=\"pl-c1\">13<\/span><span class=\"pl-k\">:<\/span>    <span class=\"pl-c\">/* enter */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L64\" class=\"blob-num js-line-number\" data-line-number=\"64\"><\/td>\n        <td id=\"file-readline-js-LC64\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(<span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span><span class=\"pl-cce\">\\n<\/span><span class=\"pl-pds\">&#39;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L65\" class=\"blob-num js-line-number\" data-line-number=\"65\"><\/td>\n        <td id=\"file-readline-js-LC65\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-en\">addHistory<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L66\" class=\"blob-num js-line-number\" data-line-number=\"66\"><\/td>\n        <td id=\"file-readline-js-LC66\" class=\"blob-code blob-code-inner js-file-line\">      pos <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L67\" class=\"blob-num js-line-number\" data-line-number=\"67\"><\/td>\n        <td id=\"file-readline-js-LC67\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-en\">refreshLine<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L68\" class=\"blob-num js-line-number\" data-line-number=\"68\"><\/td>\n        <td id=\"file-readline-js-LC68\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-k\">break<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L69\" class=\"blob-num js-line-number\" data-line-number=\"69\"><\/td>\n        <td id=\"file-readline-js-LC69\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L70\" class=\"blob-num js-line-number\" data-line-number=\"70\"><\/td>\n        <td id=\"file-readline-js-LC70\" class=\"blob-code blob-code-inner js-file-line\">    <span class=\"pl-k\">case<\/span> <span class=\"pl-c1\">4<\/span><span class=\"pl-k\">:<\/span>     <span class=\"pl-c\">/* ctrl+d */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L71\" class=\"blob-num js-line-number\" data-line-number=\"71\"><\/td>\n        <td id=\"file-readline-js-LC71\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-smi\">stdin<\/span>.<span class=\"pl-en\">destroy<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L72\" class=\"blob-num js-line-number\" data-line-number=\"72\"><\/td>\n        <td id=\"file-readline-js-LC72\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-k\">break<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L73\" class=\"blob-num js-line-number\" data-line-number=\"73\"><\/td>\n        <td id=\"file-readline-js-LC73\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L74\" class=\"blob-num js-line-number\" data-line-number=\"74\"><\/td>\n        <td id=\"file-readline-js-LC74\" class=\"blob-code blob-code-inner js-file-line\">    <span class=\"pl-k\">case<\/span> <span class=\"pl-c1\">127<\/span><span class=\"pl-k\">:<\/span>   <span class=\"pl-c\">/* backspace */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L75\" class=\"blob-num js-line-number\" data-line-number=\"75\"><\/td>\n        <td id=\"file-readline-js-LC75\" class=\"blob-code blob-code-inner js-file-line\">    <span class=\"pl-k\">case<\/span> <span class=\"pl-c1\">8<\/span><span class=\"pl-k\">:<\/span>     <span class=\"pl-c\">/* ctrl+h */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L76\" class=\"blob-num js-line-number\" data-line-number=\"76\"><\/td>\n        <td id=\"file-readline-js-LC76\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-k\">if<\/span> (pos <span class=\"pl-k\">&gt;<\/span> <span class=\"pl-c1\">0<\/span> <span class=\"pl-k\">&amp;&amp;<\/span> <span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span> <span class=\"pl-k\">&gt;<\/span> <span class=\"pl-c1\">0<\/span>) {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L77\" class=\"blob-num js-line-number\" data-line-number=\"77\"><\/td>\n        <td id=\"file-readline-js-LC77\" class=\"blob-code blob-code-inner js-file-line\">        pos<span class=\"pl-k\">--<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L78\" class=\"blob-num js-line-number\" data-line-number=\"78\"><\/td>\n        <td id=\"file-readline-js-LC78\" class=\"blob-code blob-code-inner js-file-line\">        <span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span><span class=\"pl-k\">--<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L79\" class=\"blob-num js-line-number\" data-line-number=\"79\"><\/td>\n        <td id=\"file-readline-js-LC79\" class=\"blob-code blob-code-inner js-file-line\">        currentBuffer[<span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span>] <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L80\" class=\"blob-num js-line-number\" data-line-number=\"80\"><\/td>\n        <td id=\"file-readline-js-LC80\" class=\"blob-code blob-code-inner js-file-line\">        <span class=\"pl-en\">refreshLine<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L81\" class=\"blob-num js-line-number\" data-line-number=\"81\"><\/td>\n        <td id=\"file-readline-js-LC81\" class=\"blob-code blob-code-inner js-file-line\">      }<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L82\" class=\"blob-num js-line-number\" data-line-number=\"82\"><\/td>\n        <td id=\"file-readline-js-LC82\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-k\">break<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L83\" class=\"blob-num js-line-number\" data-line-number=\"83\"><\/td>\n        <td id=\"file-readline-js-LC83\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L84\" class=\"blob-num js-line-number\" data-line-number=\"84\"><\/td>\n        <td id=\"file-readline-js-LC84\" class=\"blob-code blob-code-inner js-file-line\">    <span class=\"pl-k\">case<\/span> <span class=\"pl-c1\">27<\/span><span class=\"pl-k\">:<\/span>    <span class=\"pl-c\">/* escape sequence */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L85\" class=\"blob-num js-line-number\" data-line-number=\"85\"><\/td>\n        <td id=\"file-readline-js-LC85\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-k\">if<\/span> (b[<span class=\"pl-c1\">1<\/span>] <span class=\"pl-k\">===<\/span> <span class=\"pl-c1\">91<\/span> <span class=\"pl-k\">&amp;&amp;<\/span> b[<span class=\"pl-c1\">2<\/span>] <span class=\"pl-k\">===<\/span> <span class=\"pl-c1\">68<\/span>) {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L86\" class=\"blob-num js-line-number\" data-line-number=\"86\"><\/td>\n        <td id=\"file-readline-js-LC86\" class=\"blob-code blob-code-inner js-file-line\">        <span class=\"pl-c\">// left arrow<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L87\" class=\"blob-num js-line-number\" data-line-number=\"87\"><\/td>\n        <td id=\"file-readline-js-LC87\" class=\"blob-code blob-code-inner js-file-line\">        <span class=\"pl-k\">if<\/span> (pos <span class=\"pl-k\">&gt;<\/span> <span class=\"pl-c1\">0<\/span>) {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L88\" class=\"blob-num js-line-number\" data-line-number=\"88\"><\/td>\n        <td id=\"file-readline-js-LC88\" class=\"blob-code blob-code-inner js-file-line\">          pos<span class=\"pl-k\">--<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L89\" class=\"blob-num js-line-number\" data-line-number=\"89\"><\/td>\n        <td id=\"file-readline-js-LC89\" class=\"blob-code blob-code-inner js-file-line\">          <span class=\"pl-en\">refreshLine<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L90\" class=\"blob-num js-line-number\" data-line-number=\"90\"><\/td>\n        <td id=\"file-readline-js-LC90\" class=\"blob-code blob-code-inner js-file-line\">        }<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L91\" class=\"blob-num js-line-number\" data-line-number=\"91\"><\/td>\n        <td id=\"file-readline-js-LC91\" class=\"blob-code blob-code-inner js-file-line\">      } <span class=\"pl-k\">else<\/span> <span class=\"pl-k\">if<\/span> (b[<span class=\"pl-c1\">1<\/span>] <span class=\"pl-k\">===<\/span> <span class=\"pl-c1\">91<\/span> <span class=\"pl-k\">&amp;&amp;<\/span> b[<span class=\"pl-c1\">2<\/span>] <span class=\"pl-k\">===<\/span> <span class=\"pl-c1\">67<\/span>) {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L92\" class=\"blob-num js-line-number\" data-line-number=\"92\"><\/td>\n        <td id=\"file-readline-js-LC92\" class=\"blob-code blob-code-inner js-file-line\">        <span class=\"pl-k\">if<\/span> (pos <span class=\"pl-k\">!=<\/span> <span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span>) {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L93\" class=\"blob-num js-line-number\" data-line-number=\"93\"><\/td>\n        <td id=\"file-readline-js-LC93\" class=\"blob-code blob-code-inner js-file-line\">          pos<span class=\"pl-k\">++<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L94\" class=\"blob-num js-line-number\" data-line-number=\"94\"><\/td>\n        <td id=\"file-readline-js-LC94\" class=\"blob-code blob-code-inner js-file-line\">          <span class=\"pl-en\">refreshLine<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L95\" class=\"blob-num js-line-number\" data-line-number=\"95\"><\/td>\n        <td id=\"file-readline-js-LC95\" class=\"blob-code blob-code-inner js-file-line\">        }<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L96\" class=\"blob-num js-line-number\" data-line-number=\"96\"><\/td>\n        <td id=\"file-readline-js-LC96\" class=\"blob-code blob-code-inner js-file-line\">      }<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L97\" class=\"blob-num js-line-number\" data-line-number=\"97\"><\/td>\n        <td id=\"file-readline-js-LC97\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-c\">//stdout.write(&#39; esc(&#39; + b[0] +&#39;,&#39; + b[1] +&#39;,&#39;+ b[2] + &#39;) &#39;);<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L98\" class=\"blob-num js-line-number\" data-line-number=\"98\"><\/td>\n        <td id=\"file-readline-js-LC98\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//        if (read(fd,seq,2) == -1) break;<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L99\" class=\"blob-num js-line-number\" data-line-number=\"99\"><\/td>\n        <td id=\"file-readline-js-LC99\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//        if (seq[0] == 91 &amp;&amp; seq[1] == 68) {<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L100\" class=\"blob-num js-line-number\" data-line-number=\"100\"><\/td>\n        <td id=\"file-readline-js-LC100\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//            /* left arrow */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L101\" class=\"blob-num js-line-number\" data-line-number=\"101\"><\/td>\n        <td id=\"file-readline-js-LC101\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//            if (pos &gt; 0) {<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L102\" class=\"blob-num js-line-number\" data-line-number=\"102\"><\/td>\n        <td id=\"file-readline-js-LC102\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//                pos--;<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L103\" class=\"blob-num js-line-number\" data-line-number=\"103\"><\/td>\n        <td id=\"file-readline-js-LC103\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//                refreshLine(fd,prompt,buf,len,pos,cols);<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L104\" class=\"blob-num js-line-number\" data-line-number=\"104\"><\/td>\n        <td id=\"file-readline-js-LC104\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//            }<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L105\" class=\"blob-num js-line-number\" data-line-number=\"105\"><\/td>\n        <td id=\"file-readline-js-LC105\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//        } else if (seq[0] == 91 &amp;&amp; seq[1] == 67) {<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L106\" class=\"blob-num js-line-number\" data-line-number=\"106\"><\/td>\n        <td id=\"file-readline-js-LC106\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//            /* right arrow */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L107\" class=\"blob-num js-line-number\" data-line-number=\"107\"><\/td>\n        <td id=\"file-readline-js-LC107\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//            if (pos != len) {<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L108\" class=\"blob-num js-line-number\" data-line-number=\"108\"><\/td>\n        <td id=\"file-readline-js-LC108\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//                pos++;<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L109\" class=\"blob-num js-line-number\" data-line-number=\"109\"><\/td>\n        <td id=\"file-readline-js-LC109\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//                refreshLine(fd,prompt,buf,len,pos,cols);<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L110\" class=\"blob-num js-line-number\" data-line-number=\"110\"><\/td>\n        <td id=\"file-readline-js-LC110\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//            }<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L111\" class=\"blob-num js-line-number\" data-line-number=\"111\"><\/td>\n        <td id=\"file-readline-js-LC111\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-k\">break<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L112\" class=\"blob-num js-line-number\" data-line-number=\"112\"><\/td>\n        <td id=\"file-readline-js-LC112\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L113\" class=\"blob-num js-line-number\" data-line-number=\"113\"><\/td>\n        <td id=\"file-readline-js-LC113\" class=\"blob-code blob-code-inner js-file-line\">    <span class=\"pl-k\">default<\/span><span class=\"pl-k\">:<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L114\" class=\"blob-num js-line-number\" data-line-number=\"114\"><\/td>\n        <td id=\"file-readline-js-LC114\" class=\"blob-code blob-code-inner js-file-line\">      currentBuffer[<span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span><span class=\"pl-k\">++<\/span>] <span class=\"pl-k\">=<\/span> b[<span class=\"pl-c1\">0<\/span>];      <\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L115\" class=\"blob-num js-line-number\" data-line-number=\"115\"><\/td>\n        <td id=\"file-readline-js-LC115\" class=\"blob-code blob-code-inner js-file-line\">      currentBuffer[<span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span>] <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L116\" class=\"blob-num js-line-number\" data-line-number=\"116\"><\/td>\n        <td id=\"file-readline-js-LC116\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(b);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L117\" class=\"blob-num js-line-number\" data-line-number=\"117\"><\/td>\n        <td id=\"file-readline-js-LC117\" class=\"blob-code blob-code-inner js-file-line\">      pos<span class=\"pl-k\">++<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L118\" class=\"blob-num js-line-number\" data-line-number=\"118\"><\/td>\n        <td id=\"file-readline-js-LC118\" class=\"blob-code blob-code-inner js-file-line\">  }<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L119\" class=\"blob-num js-line-number\" data-line-number=\"119\"><\/td>\n        <td id=\"file-readline-js-LC119\" class=\"blob-code blob-code-inner js-file-line\">});<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L120\" class=\"blob-num js-line-number\" data-line-number=\"120\"><\/td>\n        <td id=\"file-readline-js-LC120\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L121\" class=\"blob-num js-line-number\" data-line-number=\"121\"><\/td>\n        <td id=\"file-readline-js-LC121\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n<\/table>\n\n  <\/div>\n\n  <\/div>\n  \n<\/div>\n\n      <\/div>\n      <div class=\"gist-meta\">\n        <a href=\"https://gist.github.com/ry/421182/raw/adb042f29b298e981e30ed681e7b9ac27724323a/readline.js\" style=\"float:right\">view raw<\/a>\n        <a href=\"https://gist.github.com/ry/421182#file-readline-js\">readline.js<\/a>\n        hosted with &#10084; by <a href=\"https://github.com\">GitHub<\/a>\n      <\/div>\n    <\/div>\n<\/div>\n')
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ document.write('<link rel="stylesheet" href="https://assets-cdn.github.com/as
+sets/gist-embed-f96250b93a853df0c3ce97f06110bad41bc1e47f54f3ec2d67f1d8c7e992022
+8.css">')
+sh.exe": syntax error near unexpected token `'<link rel="stylesheet" href="https
+://assets-cdn.github.com/assets/gist-embed-f96250b93a853df0c3ce97f06110bad41bc1e
+47f54f3ec2d67f1d8c7e9920228.css">''
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ document.write('<div id=\"gist421182\" class=\"gist\">\n    <div class=\"gist
+-file\">\n      <div class=\"gist-data\">\n        <div class=\"js-gist-file-up
+date-container js-task-list-container file-box\">\n  <div id=\"file-readline-js
+\" class=\"file\">\n    \n\n  <div itemprop=\"text\" class=\"blob-wrapper data
+type-javascript\">\n      <table class=\"highlight tab-size js-file-line-contai
+ner\" data-tab-size=\"8\">\n      <tr>\n        <td id=\"file-readline-js-L1\"
+class=\"blob-num js-line-number\" data-line-number=\"1\"><\/td>\n        <td id
+=\"file-readline-js-LC1\" class=\"blob-code blob-code-inner js-file-line\"><spa
+n class=\"pl-k\">var<\/span> Buffer <span class=\"pl-k\">=<\/span> <span class=
+\"pl-c1\">require<\/span>(<span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/s
+pan>buffer<span class=\"pl-pds\">&#39;<\/span><\/span>).<span class=\"pl-smi\">
+Buffer<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline
+-js-L2\" class=\"blob-num js-line-number\" data-line-number=\"2\"><\/td>\n
+   <td id=\"file-readline-js-LC2\" class=\"blob-code blob-code-inner js-file-li
+ne\"><span class=\"pl-k\">var<\/span> stdio <span class=\"pl-k\">=<\/span> <spa
+n class=\"pl-c1\">process<\/span>.<span class=\"pl-en\">binding<\/span>(<span c
+lass=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span>stdio<span class=\"pl-pds\">&
+#39;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-r
+eadline-js-L3\" class=\"blob-num js-line-number\" data-line-number=\"3\"><\/td>
+\n        <td id=\"file-readline-js-LC3\" class=\"blob-code blob-code-inner js-
+file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-
+js-L4\" class=\"blob-num js-line-number\" data-line-number=\"4\"><\/td>\n
+  <td id=\"file-readline-js-LC4\" class=\"blob-code blob-code-inner js-file-lin
+e\"><span class=\"pl-k\">var<\/span> stdout <span class=\"pl-k\">=<\/span> <spa
+n class=\"pl-c1\">process<\/span>.<span class=\"pl-smi\">stdout<\/span>;<\/td>\
+1\" class=\"blob-nu    <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L8
+-Via Node.js:
+ class=\"pl-pds\">&#39;<\/span><span class=\"pl-cce\">\\x<\/span>1b[0G<span clas
+s=\"pl-cce\">\\x<\/span>1b[<span class=\"pl-pds\">&#39;<\/span><\/span> <span cl
+ass=\"pl-k\">+<\/span> (pos<span class=\"pl-k\">+<\/span>plen) <span class=\"pl-
+k\">+<\/span> <span class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span>C<span cl
+ass=\"pl-pds\">&#39;<\/span><\/span>);<\/td>\n      <\/tr>\n      <tr>\n
+<td id=\"file-readline-js-L51\" class=\"blob-num js-line-number\" data-line-numb
+er=\"51\"><\/td>\n        <td id=\"file-readline-js-LC51\" class=\"blob-code blo
+b-code-inner js-file-line\">}<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"
+file-readline-js-L52\" class=\"blob-num js-line-number\" data-line-number=\"52\"
+><\/td>\n        <td id=\"file-readline-js-LC52\" class=\"blob-code blob-code-in
+ner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-rea
+dline-js-L53\" class=\"blob-num js-line-number\" data-line-number=\"53\"><\/td>\
+n        <td id=\"file-readline-js-LC53\" class=\"blob-code blob-code-inner js-f
+ile-line\"><span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/s
+pan>(prompt);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js
+-L54\" class=\"blob-num js-line-number\" data-line-number=\"54\"><\/td>\n
+ <td id=\"file-readline-js-LC54\" class=\"blob-code blob-code-inner js-file-line
+\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L55\" c
+lass=\"blob-num js-line-number\" data-line-number=\"55\"><\/td>\n        <td id=
+\"file-readline-js-LC55\" class=\"blob-code blob-code-inner js-file-line\"><span
+ class=\"pl-smi\">stdin<\/span>.<span class=\"pl-en\">addListener<\/span>(<span
+class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span>data<span class=\"pl-pds\">&#
+39;<\/span><\/span>, <span class=\"pl-k\">function<\/span> (<span class=\"pl-smi
+\">b<\/span>) {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-
+js-L56\" class=\"blob-num js-line-number\" data-line-number=\"56\"><\/td>\n
+   <td id=\"file-readline-js-LC56\" class=\"blob-code blob-code-inner js-file-li
+ne\">  <span class=\"pl-k\">switch<\/span> (b[<span class=\"pl-c1\">0<\/span>])
+{<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L57\" class
+=\"blob-num js-line-number\" data-line-number=\"57\"><\/td>\n        <td id=\"fi
+le-readline-js-LC57\" class=\"blob-code blob-code-inner js-file-line\">    <span
+ class=\"pl-c\">/* ctrl+c */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <t
+d id=\"file-readline-js-L58\" class=\"blob-num js-line-number\" data-line-number
+=\"58\"><\/td>\n        <td id=\"file-readline-js-LC58\" class=\"blob-code blob-
+code-inner js-file-line\">    <span class=\"pl-k\">case<\/span> <span class=\"pl
+-c1\">3<\/span><span class=\"pl-k\">:<\/span><\/td>\n      <\/tr>\n      <tr>\n
+       <td id=\"file-readline-js-L59\" class=\"blob-num js-line-number\" data-li
+ne-number=\"59\"><\/td>\n        <td id=\"file-readline-js-LC59\" class=\"blob-c
+ode blob-code-inner js-file-line\">      <span class=\"pl-smi\">stdio<\/span>.<s
+pan class=\"pl-en\">setRawMode<\/span>(<span class=\"pl-c1\">false<\/span>);<\/t
+d>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L60\" class=\"bl
+ob-num js-line-number\" data-line-number=\"60\"><\/td>\n        <td id=\"file-re
+adline-js-LC60\" class=\"blob-code blob-code-inner js-file-line\">      <span cl
+ass=\"pl-c1\">process<\/span>.<span class=\"pl-en\">kill<\/span>(<span class=\"p
+l-c1\">process<\/span>.<span class=\"pl-smi\">pid<\/span>, <span class=\"pl-s\">
+<span class=\"pl-pds\">&quot;<\/span>SIGINT<span class=\"pl-pds\">&quot;<\/span>
+<\/span>);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L6
+1\" class=\"blob-num js-line-number\" data-line-number=\"61\"><\/td>\n        <t
+d id=\"file-readline-js-LC61\" class=\"blob-code blob-code-inner js-file-line\">
+      <span class=\"pl-k\">break<\/span>;<\/td>\n      <\/tr>\n      <tr>\n
+   <td id=\"file-readline-js-L62\" class=\"blob-num js-line-number\" data-line-n
+umber=\"62\"><\/td>\n        <td id=\"file-readline-js-LC62\" class=\"blob-code
+blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td i
+d=\"file-readline-js-L63\" class=\"blob-num js-line-number\" data-line-number=\"
+63\"><\/td>\n        <td id=\"file-readline-js-LC63\" class=\"blob-code blob-cod
+e-inner js-file-line\">    <span class=\"pl-k\">case<\/span> <span class=\"pl-c1
+\">13<\/span><span class=\"pl-k\">:<\/span>    <span class=\"pl-c\">/* enter */<
+\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L64\"
+ class=\"blob-num js-line-number\" data-line-number=\"64\"><\/td>\n        <td i
+d=\"file-readline-js-LC64\" class=\"blob-code blob-code-inner js-file-line\">
+   <span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\">write<\/span>(<sp
+an class=\"pl-s\"><span class=\"pl-pds\">&#39;<\/span><span class=\"pl-cce\">\\n
+<\/span><span class=\"pl-pds\">&#39;<\/span><\/span>);<\/td>\n      <\/tr>\n
+  <tr>\n        <td id=\"file-readline-js-L65\" class=\"blob-num js-line-number\
+" data-line-number=\"65\"><\/td>\n        <td id=\"file-readline-js-LC65\" class
+=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-en\">addHisto
+ry<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js
+-L66\" class=\"blob-num js-line-number\" data-line-number=\"66\"><\/td>\n
+ <td id=\"file-readline-js-LC66\" class=\"blob-code blob-code-inner js-file-line
+\">      pos <span class=\"pl-k\">=<\/span> <span class=\"pl-c1\">0<\/span>;<\/t
+d>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L67\" class=\"bl
+ob-num js-line-number\" data-line-number=\"67\"><\/td>\n        <td id=\"file-re
+adline-js-LC67\" class=\"blob-code blob-code-inner js-file-line\">      <span cl
+ass=\"pl-en\">refreshLine<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <t
+d id=\"file-readline-js-L68\" class=\"blob-num js-line-number\" data-line-number
+=\"68\"><\/td>\n        <td id=\"file-readline-js-LC68\" class=\"blob-code blob-
+code-inner js-file-line\">      <span class=\"pl-k\">break<\/span>;<\/td>\n
+ <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L69\" class=\"blob-num js
+-line-number\" data-line-number=\"69\"><\/td>\n        <td id=\"file-readline-js
+-LC69\" class=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\
+n      <tr>\n        <td id=\"file-readline-js-L70\" class=\"blob-num js-line-nu
+mber\" data-line-number=\"70\"><\/td>\n        <td id=\"file-readline-js-LC70\"
+class=\"blob-code blob-code-inner js-file-line\">    <span class=\"pl-k\">case<\
+/span> <span class=\"pl-c1\">4<\/span><span class=\"pl-k\">:<\/span>     <span c
+lass=\"pl-c\">/* ctrl+d */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td
+id=\"file-readline-js-L71\" class=\"blob-num js-line-number\" data-line-number=\
+"71\"><\/td>\n        <td id=\"file-readline-js-LC71\" class=\"blob-code blob-co
+de-inner js-file-line\">      <span class=\"pl-smi\">stdin<\/span>.<span class=\
+"pl-en\">destroy<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"fi
+le-readline-js-L72\" class=\"blob-num js-line-number\" data-line-number=\"72\"><
+\/td>\n        <td id=\"file-readline-js-LC72\" class=\"blob-code blob-code-inne
+r js-file-line\">      <span class=\"pl-k\">break<\/span>;<\/td>\n      <\/tr>\n
+      <tr>\n        <td id=\"file-readline-js-L73\" class=\"blob-num js-line-num
+ber\" data-line-number=\"73\"><\/td>\n        <td id=\"file-readline-js-LC73\" c
+lass=\"blob-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <t
+r>\n        <td id=\"file-readline-js-L74\" class=\"blob-num js-line-number\" da
+ta-line-number=\"74\"><\/td>\n        <td id=\"file-readline-js-LC74\" class=\"b
+lob-code blob-code-inner js-file-line\">    <span class=\"pl-k\">case<\/span> <s
+pan class=\"pl-c1\">127<\/span><span class=\"pl-k\">:<\/span>   <span class=\"pl
+-c\">/* backspace */<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"f
+ile-readline-js-L75\" class=\"blob-num js-line-number\" data-line-number=\"75\">
+<\/td>\n        <td id=\"file-readline-js-LC75\" class=\"blob-code blob-code-inn
+er js-file-line\">    <span class=\"pl-k\">case<\/span> <span class=\"pl-c1\">8<
+\/span><span class=\"pl-k\">:<\/span>     <span class=\"pl-c\">/* ctrl+h */<\/sp
+an><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L76\" cla
+ss=\"blob-num js-line-number\" data-line-number=\"76\"><\/td>\n        <td id=\"
+file-readline-js-LC76\" class=\"blob-code blob-code-inner js-file-line\">      <
+span class=\"pl-k\">if<\/span> (pos <span class=\"pl-k\">&gt;<\/span> <span clas
+s=\"pl-c1\">0<\/span> <span class=\"pl-k\">&amp;&amp;<\/span> <span class=\"pl-s
+mi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span> <span class=\"pl-
+k\">&gt;<\/span> <span class=\"pl-c1\">0<\/span>) {<\/td>\n      <\/tr>\n      <
+tr>\n        <td id=\"file-readline-js-L77\" class=\"blob-num js-line-number\" d
+ata-line-number=\"77\"><\/td>\n        <td id=\"file-readline-js-LC77\" class=\"
+blob-code blob-code-inner js-file-line\">        pos<span class=\"pl-k\">--<\/sp
+an>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L78\" cl
+ass=\"blob-num js-line-number\" data-line-number=\"78\"><\/td>\n        <td id=\
+"file-readline-js-LC78\" class=\"blob-code blob-code-inner js-file-line\">
+  <span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/spa
+n><span class=\"pl-k\">--<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td
+id=\"file-readline-js-L79\" class=\"blob-num js-line-number\" data-line-number=\
+"79\"><\/td>\n        <td id=\"file-readline-js-LC79\" class=\"blob-code blob-co
+de-inner js-file-line\">        currentBuffer[<span class=\"pl-smi\">currentBuff
+er<\/span>.<span class=\"pl-smi\">used<\/span>] <span class=\"pl-k\">=<\/span> <
+span class=\"pl-c1\">0<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=
+\"file-readline-js-L80\" class=\"blob-num js-line-number\" data-line-number=\"80
+\"><\/td>\n        <td id=\"file-readline-js-LC80\" class=\"blob-code blob-code-
+inner js-file-line\">        <span class=\"pl-en\">refreshLine<\/span>();<\/td>\
+n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L81\" class=\"blob-
+num js-line-number\" data-line-number=\"81\"><\/td>\n        <td id=\"file-readl
+ine-js-LC81\" class=\"blob-code blob-code-inner js-file-line\">      }<\/td>\n
+    <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L82\" class=\"blob-num
+ js-line-number\" data-line-number=\"82\"><\/td>\n        <td id=\"file-readline
+-js-LC82\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"
+pl-k\">break<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-rea
+dline-js-L83\" class=\"blob-num js-line-number\" data-line-number=\"83\"><\/td>\
+n        <td id=\"file-readline-js-LC83\" class=\"blob-code blob-code-inner js-f
+ile-line\">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js
+-L84\" class=\"blob-num js-line-number\" data-line-number=\"84\"><\/td>\n
+ <td id=\"file-readline-js-LC84\" class=\"blob-code blob-code-inner js-file-line
+\">    <span class=\"pl-k\">case<\/span> <span class=\"pl-c1\">27<\/span><span c
+lass=\"pl-k\">:<\/span>    <span class=\"pl-c\">/* escape sequence */<\/span><\/
+td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L85\" class=\"b
+lob-num js-line-number\" data-line-number=\"85\"><\/td>\n        <td id=\"file-r
+eadline-js-LC85\" class=\"blob-code blob-code-inner js-file-line\">      <span c
+lass=\"pl-k\">if<\/span> (b[<span class=\"pl-c1\">1<\/span>] <span class=\"pl-k\
+">===<\/span> <span class=\"pl-c1\">91<\/span> <span class=\"pl-k\">&amp;&amp;<\
+/span> b[<span class=\"pl-c1\">2<\/span>] <span class=\"pl-k\">===<\/span> <span
+ class=\"pl-c1\">68<\/span>) {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\
+"file-readline-js-L86\" class=\"blob-num js-line-number\" data-line-number=\"86\
+"><\/td>\n        <td id=\"file-readline-js-LC86\" class=\"blob-code blob-code-i
+nner js-file-line\">        <span class=\"pl-c\">// left arrow<\/span><\/td>\n
+    <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L87\" class=\"blob-num
+ js-line-number\" data-line-number=\"87\"><\/td>\n        <td id=\"file-readline
+-js-LC87\" class=\"blob-code blob-code-inner js-file-line\">        <span class=
+\"pl-k\">if<\/span> (pos <span class=\"pl-k\">&gt;<\/span> <span class=\"pl-c1\"
+>0<\/span>) {<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js
+-L88\" class=\"blob-num js-line-number\" data-line-number=\"88\"><\/td>\n
+ <td id=\"file-readline-js-LC88\" class=\"blob-code blob-code-inner js-file-line
+\">          pos<span class=\"pl-k\">--<\/span>;<\/td>\n      <\/tr>\n      <tr>
+\n        <td id=\"file-readline-js-L89\" class=\"blob-num js-line-number\" data
+-line-number=\"89\"><\/td>\n        <td id=\"file-readline-js-LC89\" class=\"blo
+b-code blob-code-inner js-file-line\">          <span class=\"pl-en\">refreshLin
+e<\/span>();<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-
+L90\" class=\"blob-num js-line-number\" data-line-number=\"90\"><\/td>\n
+<td id=\"file-readline-js-LC90\" class=\"blob-code blob-code-inner js-file-line\
+">        }<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L
+91\" class=\"blob-num js-line-number\" data-line-number=\"91\"><\/td>\n        <
+td id=\"file-readline-js-LC91\" class=\"blob-code blob-code-inner js-file-line\"
+>      } <span class=\"pl-k\">else<\/span> <span class=\"pl-k\">if<\/span> (b[<s
+pan class=\"pl-c1\">1<\/span>] <span class=\"pl-k\">===<\/span> <span class=\"pl
+-c1\">91<\/span> <span class=\"pl-k\">&amp;&amp;<\/span> b[<span class=\"pl-c1\"
+>2<\/span>] <span class=\"pl-k\">===<\/span> <span class=\"pl-c1\">67<\/span>) {
+<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L92\" class=
+\"blob-num js-line-number\" data-line-number=\"92\"><\/td>\n        <td id=\"fil
+e-readline-js-LC92\" class=\"blob-code blob-code-inner js-file-line\">        <s
+pan class=\"pl-k\">if<\/span> (pos <span class=\"pl-k\">!=<\/span> <span class=\
+"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span>) {<\/td>\n
+    <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L93\" class=\"blob-num
+ js-line-number\" data-line-number=\"93\"><\/td>\n        <td id=\"file-readline
+-js-LC93\" class=\"blob-code blob-code-inner js-file-line\">          pos<span c
+lass=\"pl-k\">++<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file
+-readline-js-L94\" class=\"blob-num js-line-number\" data-line-number=\"94\"><\/
+td>\n        <td id=\"file-readline-js-LC94\" class=\"blob-code blob-code-inner
+js-file-line\">          <span class=\"pl-en\">refreshLine<\/span>();<\/td>\n
+   <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L95\" class=\"blob-num
+js-line-number\" data-line-number=\"95\"><\/td>\n        <td id=\"file-readline-
+js-LC95\" class=\"blob-code blob-code-inner js-file-line\">        }<\/td>\n
+  <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L96\" class=\"blob-num j
+s-line-number\" data-line-number=\"96\"><\/td>\n        <td id=\"file-readline-j
+s-LC96\" class=\"blob-code blob-code-inner js-file-line\">      }<\/td>\n      <
+\/tr>\n      <tr>\n        <td id=\"file-readline-js-L97\" class=\"blob-num js-l
+ine-number\" data-line-number=\"97\"><\/td>\n        <td id=\"file-readline-js-L
+C97\" class=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-c\
+">//stdout.write(&#39; esc(&#39; + b[0] +&#39;,&#39; + b[1] +&#39;,&#39;+ b[2] +
+ &#39;) &#39;);<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-r
+eadline-js-L98\" class=\"blob-num js-line-number\" data-line-number=\"98\"><\/td
+>\n        <td id=\"file-readline-js-LC98\" class=\"blob-code blob-code-inner js
+-file-line\"><span class=\"pl-c\">//        if (read(fd,seq,2) == -1) break;<\/s
+pan><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L99\" cl
+ass=\"blob-num js-line-number\" data-line-number=\"99\"><\/td>\n        <td id=\
+"file-readline-js-LC99\" class=\"blob-code blob-code-inner js-file-line\"><span
+class=\"pl-c\">//        if (seq[0] == 91 &amp;&amp; seq[1] == 68) {<\/span><\/t
+d>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L100\" class=\"b
+lob-num js-line-number\" data-line-number=\"100\"><\/td>\n        <td id=\"file-
+readline-js-LC100\" class=\"blob-code blob-code-inner js-file-line\"><span class
+=\"pl-c\">//            /* left arrow */<\/span><\/td>\n      <\/tr>\n      <tr>
+\n        <td id=\"file-readline-js-L101\" class=\"blob-num js-line-number\" dat
+a-line-number=\"101\"><\/td>\n        <td id=\"file-readline-js-LC101\" class=\"
+blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//            if (
+pos &gt; 0) {<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-rea
+dline-js-L102\" class=\"blob-num js-line-number\" data-line-number=\"102\"><\/td
+>\n        <td id=\"file-readline-js-LC102\" class=\"blob-code blob-code-inner j
+s-file-line\"><span class=\"pl-c\">//                pos--;<\/span><\/td>\n
+ <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L103\" class=\"blob-num j
+s-line-number\" data-line-number=\"103\"><\/td>\n        <td id=\"file-readline-
+js-LC103\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\"
+>//                refreshLine(fd,prompt,buf,len,pos,cols);<\/span><\/td>\n
+ <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L104\" class=\"blob-num j
+s-line-number\" data-line-number=\"104\"><\/td>\n        <td id=\"file-readline-
+js-LC104\" class=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\"
+>//            }<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-
+readline-js-L105\" class=\"blob-num js-line-number\" data-line-number=\"105\"><\
+/td>\n        <td id=\"file-readline-js-LC105\" class=\"blob-code blob-code-inne
+r js-file-line\"><span class=\"pl-c\">//        } else if (seq[0] == 91 &amp;&am
+p; seq[1] == 67) {<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"fil
+e-readline-js-L106\" class=\"blob-num js-line-number\" data-line-number=\"106\">
+<\/td>\n        <td id=\"file-readline-js-LC106\" class=\"blob-code blob-code-in
+ner js-file-line\"><span class=\"pl-c\">//            /* right arrow */<\/span><
+\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L107\" class=
+\"blob-num js-line-number\" data-line-number=\"107\"><\/td>\n        <td id=\"fi
+le-readline-js-LC107\" class=\"blob-code blob-code-inner js-file-line\"><span cl
+ass=\"pl-c\">//            if (pos != len) {<\/span><\/td>\n      <\/tr>\n
+<tr>\n        <td id=\"file-readline-js-L108\" class=\"blob-num js-line-number\"
+ data-line-number=\"108\"><\/td>\n        <td id=\"file-readline-js-LC108\" clas
+s=\"blob-code blob-code-inner js-file-line\"><span class=\"pl-c\">//
+    pos++;<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readli
+ne-js-L109\" class=\"blob-num js-line-number\" data-line-number=\"109\"><\/td>\n
+        <td id=\"file-readline-js-LC109\" class=\"blob-code blob-code-inner js-f
+ile-line\"><span class=\"pl-c\">//                refreshLine(fd,prompt,buf,len,
+pos,cols);<\/span><\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readli
+ne-js-L110\" class=\"blob-num js-line-number\" data-line-number=\"110\"><\/td>\n
+        <td id=\"file-readline-js-LC110\" class=\"blob-code blob-code-inner js-f
+ile-line\"><span class=\"pl-c\">//            }<\/span><\/td>\n      <\/tr>\n
+   <tr>\n        <td id=\"file-readline-js-L111\" class=\"blob-num js-line-numbe
+r\" data-line-number=\"111\"><\/td>\n        <td id=\"file-readline-js-LC111\" c
+lass=\"blob-code blob-code-inner js-file-line\">      <span class=\"pl-k\">break
+<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L11
+2\" class=\"blob-num js-line-number\" data-line-number=\"112\"><\/td>\n        <
+td id=\"file-readline-js-LC112\" class=\"blob-code blob-code-inner js-file-line\
+">\n<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L113\" c
+lass=\"blob-num js-line-number\" data-line-number=\"113\"><\/td>\n        <td id
+=\"file-readline-js-LC113\" class=\"blob-code blob-code-inner js-file-line\">
+ <span class=\"pl-k\">default<\/span><span class=\"pl-k\">:<\/span><\/td>\n
+ <\/tr>\n      <tr>\n        <td id=\"file-readline-js-L114\" class=\"blob-num j
+s-line-number\" data-line-number=\"114\"><\/td>\n        <td id=\"file-readline-
+js-LC114\" class=\"blob-code blob-code-inner js-file-line\">      currentBuffer[
+<span class=\"pl-smi\">currentBuffer<\/span>.<span class=\"pl-smi\">used<\/span>
+<span class=\"pl-k\">++<\/span>] <span class=\"pl-k\">=<\/span> b[<span class=\"
+pl-c1\">0<\/span>];      <\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file
+-readline-js-L115\" class=\"blob-num js-line-number\" data-line-number=\"115\"><
+\/td>\n        <td id=\"file-readline-js-LC115\" class=\"blob-code blob-code-inn
+er js-file-line\">      currentBuffer[<span class=\"pl-smi\">currentBuffer<\/spa
+n>.<span class=\"pl-smi\">used<\/span>] <span class=\"pl-k\">=<\/span> <span cla
+ss=\"pl-c1\">0<\/span>;<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-r
+eadline-js-L116\" class=\"blob-num js-line-number\" data-line-number=\"116\"><\/
+td>\n        <td id=\"file-readline-js-LC116\" class=\"blob-code blob-code-inner
+ js-file-line\">      <span class=\"pl-smi\">stdout<\/span>.<span class=\"pl-c1\
+">write<\/span>(b);<\/td>\n      <\/tr>\n      <tr>\n        <td id=\"file-readl
+ine-js-L117\" class=\"blob-num js-line-number\" data-line-number=\"117\"><\/td>\
+n        <td id=\"file-readline-js-LC117\" class=\"blob-code blob-code-inner js-
+file-line\">      pos<span class=\"pl-k\">++<\/span>;<\/td>\n      <\/tr>\n
+ <tr>\n        <td id=\"file-readline-js-L118\" class=\"blob-num js-line-number\
+" data-line-number=\"118\"><\/td>\n        <td id=\"file-readline-js-LC118\" cla
+ss=\"blob-code blob-code-inner js-file-line\">  }<\/td>\n      <\/tr>\n      <tr
+>\n        <td id=\"file-readline-js-L119\" class=\"blob-num js-line-number\" da
+ta-line-number=\"119\"><\/td>\n        <td id=\"file-readline-js-LC119\" class=\
+"blob-code blob-code-inner js-file-line\">});<\/td>\n      <\/tr>\n      <tr>\n
+       <td id=\"file-readline-js-L120\" class=\"blob-num js-line-number\" data-l
+ine-number=\"120\"><\/td>\n        <td id=\"file-readline-js-LC120\" class=\"blo
+b-code blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n      <tr>\n
+  <td id=\"file-readline-js-L121\" class=\"blob-num js-line-number\" data-line-n
+umber=\"121\"><\/td>\n        <td id=\"file-readline-js-LC121\" class=\"blob-cod
+e blob-code-inner js-file-line\">\n<\/td>\n      <\/tr>\n<\/table>\n\n  <\/div>\
+n\n  <\/div>\n  \n<\/div>\n\n      <\/div>\n      <div class=\"gist-meta\">\n
+     <a href=\"https://gist.github.com/ry/421182/raw/adb042f29b298e981e30ed681e7
+b9ac27724323a/readline.js\" style=\"float:right\">view raw<\/a>\n        <a href
+=\"https://gist.github.com/ry/421182#file-readline-js\">readline.js<\/a>\n
+  hosted with &#10084; by <a href=\"https://github.com\">GitHub<\/a>\n      <\/d
+iv>\n    <\/div>\n<\/div>\n')
+ReferenceError: document is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+>
