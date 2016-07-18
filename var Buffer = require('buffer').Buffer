@@ -1,0 +1,692 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+var Buffer = require('buffer').Buffer;
+var stdio = process.binding('stdio');
+
+var stdout = process.stdout;
+var stdin = process.openStdin();
+
+stdout.write('hello world\n');
+
+var columns = stdio.getColumns();
+stdout.write('columns: ' + columns + '\n');
+
+stdio.setRawMode(true);
+
+var prompt = "node> ";
+var pos = 0;
+
+
+var currentBuffer;
+
+function newCurrentBuffer () {
+  currentBuffer = new Buffer(10*1024);
+  currentBuffer.used = 0;
+}
+
+newCurrentBuffer();
+
+
+var history = [];
+var historyIndex = -1;
+
+function addHistory () {
+  history.unshift(currentBuffer);
+  newCurrentBuffer();
+  historyIndex = -1;
+}
+
+function refreshLine () {
+  /* Cursor to left edge */
+  stdout.write('\x1b[0G');
+
+  /* Write the prompt and the current buffer content */
+  var plen = Buffer.byteLength(prompt, 'utf8');
+  stdout.write(prompt);
+  stdout.write(currentBuffer.slice(0, currentBuffer.used));
+
+  /* Erase to right */
+  stdout.write('\x1b[0K');
+
+  /* Move cursor to original position. */
+  stdout.write('\x1b[0G\x1b[' + (pos+plen) + 'C');
+}
+
+stdout.write(prompt);
+
+stdin.addListener('data', function (b) {
+  switch (b[0]) {
+    /* ctrl+c */
+    case 3:
+      stdio.setRawMode(false);
+      process.kill(process.pid, "SIGINT");
+      break;
+
+    case 13:    /* enter */
+      stdout.write('\n');
+      addHistory();
+      pos = 0;
+      refreshLine();
+      break;
+
+    case 4:     /* ctrl+d */
+      stdin.destroy();
+      break;
+
+    case 127:   /* backspace */
+    case 8:     /* ctrl+h */
+      if (pos > 0 && currentBuffer.used > 0) {
+        pos--;
+        currentBuffer.used--;
+        currentBuffer[currentBuffer.used] = 0;
+        refreshLine();
+      }
+      break;
+
+    case 27:    /* escape sequence */
+      if (b[1] === 91 && b[2] === 68) {
+        // left arrow
+        if (pos > 0) {
+          pos--;
+          refreshLine();
+        }
+      } else if (b[1] === 91 && b[2] === 67) {
+        if (pos != currentBuffer.used) {
+          pos++;
+          refreshLine();
+        }
+      }
+      //stdout.write(' esc(' + b[0] +',' + b[1] +','+ b[2] + ') ');
+//        if (read(fd,seq,2) == -1) break;
+//        if (seq[0] == 91 && seq[1] == 68) {
+//            /* left arrow */
+//            if (pos > 0) {
+//                pos--;
+//                refreshLine(fd,prompt,buf,len,pos,cols);
+//            }
+//        } else if (seq[0] == 91 && seq[1] == 67) {
+//            /* right arrow */
+//            if (pos != len) {
+//                pos++;
+//                refreshLine(fd,prompt,buf,len,pos,cols);
+//            }
+      break;
+
+    default:
+      currentBuffer[currentBuffer.used++] = b[0];      
+      currentBuffer[currentBuffer.used] = 0;
+      stdout.write(b);
+      pos++;
+  }
+});
+-Via GitBash:
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$   stdout.write(currentBuffer.slice(0, currentBuffer.used));
+sh.exe": syntax error near unexpected token `currentBuffer.slice'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$   /* Erase to right */
+/Git Bash.vbs: line 1: syntax error near unexpected token `('
+/Git Bash.vbs: line 1: `Set fso = CreateObject("Scripting.FileSystemObject")'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$   stdout.write('\x1b[0K');
+sh.exe": syntax error near unexpected token `'\x1b[0K''
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$   /* Move cursor to original position. */
+/Git Bash.vbs: line 1: syntax error near unexpected token `('
+/Git Bash.vbs: line 1: `Set fso = CreateObject("Scripting.FileSystemObject")'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$   stdout.write('\x1b[0G\x1b[' + (pos+plen) + 'C');
+sh.exe": syntax error near unexpected token `'\x1b[0G\x1b[''
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ }
+sh.exe": syntax error near unexpected token `}'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ stdout.write(prompt);
+sh.exe": syntax error near unexpected token `prompt'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ stdin.addListener('data', function (b) {
+sh.exe": syntax error near unexpected token `'data','
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$   switch (b[0]) {
+sh.exe": syntax error near unexpected token `b[0]'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$     /* ctrl+c */
+/Git Bash.vbs: line 1: syntax error near unexpected token `('
+/Git Bash.vbs: line 1: `Set fso = CreateObject("Scripting.FileSystemObject")'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$     case 3:
+>       stdio.setRawMode(false);
+sh.exe": syntax error near unexpected token `stdio.setRawMode'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       process.kill(process.pid, "SIGINT");
+sh.exe": syntax error near unexpected token `process.pid,'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       break;
+sh.exe": break: only meaningful in a `for', `while', or `until' loop
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$     case 13:    /* enter */
+sh.exe": syntax error near unexpected token `/*'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       stdout.write('\n');
+sh.exe": syntax error near unexpected token `'\n''
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       addHistory();
+sh.exe": syntax error near unexpected token `;'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       pos = 0;
+sh.exe": pos: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       refreshLine();
+sh.exe": syntax error near unexpected token `;'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       break;
+sh.exe": break: only meaningful in a `for', `while', or `until' loop
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$     case 4:     /* ctrl+d */
+sh.exe": syntax error near unexpected token `/*'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       stdin.destroy();
+sh.exe": syntax error near unexpected token `;'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       break;
+sh.exe": break: only meaningful in a `for', `while', or `until' loop
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$     case 127:   /* backspace */
+sh.exe": syntax error near unexpected token `/*'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$     case 8:     /* ctrl+h */
+sh.exe": syntax error near unexpected token `/*'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       if (pos > 0 && currentBuffer.used > 0) {
+sh.exe": syntax error near unexpected token `{'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$         pos--;
+sh.exe": pos--: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$         currentBuffer.used--;
+sh.exe": currentBuffer.used--: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$         currentBuffer[currentBuffer.used] = 0;
+sh.exe": currentBuffer[currentBuffer.used]: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$         refreshLine();
+sh.exe": syntax error near unexpected token `;'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       }
+sh.exe": syntax error near unexpected token `}'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       break;
+sh.exe": break: only meaningful in a `for', `while', or `until' loop
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$     case 27:    /* escape sequence */
+sh.exe": syntax error near unexpected token `/*'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       if (b[1] === 91 && b[2] === 68) {
+sh.exe": syntax error near unexpected token `{'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$         // left arrow
+sh.exe": //: is a directory
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$         if (pos > 0) {
+sh.exe": syntax error near unexpected token `{'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$           pos--;
+sh.exe": pos--: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$           refreshLine();
+sh.exe": syntax error near unexpected token `;'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$         }
+sh.exe": syntax error near unexpected token `}'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       } else if (b[1] === 91 && b[2] === 67) {
+sh.exe": syntax error near unexpected token `}'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$         if (pos != currentBuffer.used) {
+sh.exe": syntax error near unexpected token `{'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$           pos++;
+sh.exe": pos++: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$           refreshLine();
+sh.exe": syntax error near unexpected token `;'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$         }
+sh.exe": syntax error near unexpected token `}'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       }
+sh.exe": syntax error near unexpected token `}'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       //stdout.write(' esc(' + b[0] +',' + b[1] +','+ b[2] + ') ');
+sh.exe": syntax error near unexpected token `' esc(''
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //        if (read(fd,seq,2) == -1) break;
+sh.exe": syntax error near unexpected token `('
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //        if (seq[0] == 91 && seq[1] == 68) {
+sh.exe": syntax error near unexpected token `('
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //            /* left arrow */
+sh.exe": //: is a directory
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //            if (pos > 0) {
+sh.exe": syntax error near unexpected token `('
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //                pos--;
+sh.exe": //: is a directory
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //                refreshLine(fd,prompt,buf,len,pos,cols);
+sh.exe": syntax error near unexpected token `('
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //            }
+sh.exe": //: is a directory
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //        } else if (seq[0] == 91 && seq[1] == 67) {
+sh.exe": syntax error near unexpected token `('
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //            /* right arrow */
+sh.exe": //: is a directory
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //            if (pos != len) {
+sh.exe": syntax error near unexpected token `('
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //                pos++;
+sh.exe": //: is a directory
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //                refreshLine(fd,prompt,buf,len,pos,cols);
+sh.exe": syntax error near unexpected token `('
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ //            }
+sh.exe": //: is a directory
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       break;
+sh.exe": break: only meaningful in a `for', `while', or `until' loop
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$     default:
+sh.exe": default:: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       currentBuffer[currentBuffer.used++] = b[0];
+sh.exe": currentBuffer[currentBuffer.used++]: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       currentBuffer[currentBuffer.used] = 0;
+sh.exe": currentBuffer[currentBuffer.used]: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       stdout.write(b);
+sh.exe": syntax error near unexpected token `b'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$       pos++;
+sh.exe": pos++: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$   }
+sh.exe": syntax error near unexpected token `}'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ });
+sh.exe": syntax error near unexpected token `}'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+-Via Node.js:
+> var Buffer = require('buffer').Buffer;
+undefined
+> var stdio = process.binding('stdio');
+Error: No such module: stdio
+    at Error (native)
+    at repl:1:21
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+>
+> var stdout = process.stdout;
+undefined
+> var stdin = process.openStdin();
+undefined
+>
+> stdout.write('hello world\n');
+hello world
+true
+>
+> var columns = stdio.getColumns();
+TypeError: Cannot read property 'getColumns' of undefined
+    at repl:1:20
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> stdout.write('columns: ' + columns + '\n');
+columns: undefined
+true
+>
+> stdio.setRawMode(true);
+TypeError: Cannot read property 'setRawMode' of undefined
+    at repl:1:6
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+>
+> var prompt = "node> ";
+undefined
+> var pos = 0;
+undefined
+>
+>
+> var currentBuffer;
+undefined
+>
+> function newCurrentBuffer () {
+...   currentBuffer = new Buffer(10*1024);
+...   currentBuffer.used = 0;
+... }
+undefined
+>
+> newCurrentBuffer();
+undefined
+>
+>
+> var history = [];
+undefined
+> var historyIndex = -1;
+undefined
+>
+> function addHistory () {
+...   history.unshift(currentBuffer);
+...   newCurrentBuffer();
+...   historyIndex = -1;
+... }
+undefined
+>
+> function refreshLine () {
+...   /* Cursor to left edge */
+...   stdout.write('\x1b[0G');
+...
+...   /* Write the prompt and the current buffer content */
+...   var plen = Buffer.byteLength(prompt, 'utf8');
+...   stdout.write(prompt);
+...   stdout.write(currentBuffer.slice(0, currentBuffer.used));
+...
+...   /* Erase to right */
+...   stdout.write('\x1b[0K');
+...
+...   /* Move cursor to original position. */
+...   stdout.write('\x1b[0G\x1b[' + (pos+plen) + 'C');
+... }
+undefined
+>
+> stdout.write(prompt);
+node> true
+>
+> stdin.addListener('data', function (b) {
+...   switch (b[0]) {
+.....     /* ctrl+c */
+.....     case 3:
+.....       stdio.setRawMode(false);
+.....       process.kill(process.pid, "SIGINT");
+.....       break;
+.....
+...     case 13:    /* enter */
+...       stdout.write('\n');
+...       addHistory();
+...       pos = 0;
+...       refreshLine();
+...       break;
+...
+...     case 4:     /* ctrl+d */
+...       stdin.destroy();
+...       break;
+...
+...     case 127:   /* backspace */
+...     case 8:     /* ctrl+h */
+...       if (pos > 0 && currentBuffer.used > 0) {
+...         pos--;
+...         currentBuffer.used--;
+...         currentBuffer[currentBuffer.used] = 0;
+...         refreshLine();
+...       }
+...       break;
+...
+...     case 27:    /* escape sequence */
+...       if (b[1] === 91 && b[2] === 68) {
+...         // left arrow
+...         if (pos > 0) {
+.....           pos--;
+.....           refreshLine();
+.....         }
+...       } else if (b[1] === 91 && b[2] === 67) {
+...         if (pos != currentBuffer.used) {
+.....           pos++;
+.....           refreshLine();
+.....         }
+...       }
+...       //stdout.write(' esc(' + b[0] +',' + b[1] +','+ b[2] + ') ');
+... //        if (read(fd,seq,2) == -1) break;
+... //        if (seq[0] == 91 && seq[1] == 68) {
+... //            /* left arrow */
+... //            if (pos > 0) {
+..... //                pos--;
+..... //                refreshLine(fd,prompt,buf,len,pos,cols);
+..... //            }
+... //        } else if (seq[0] == 91 && seq[1] == 67) {
+... //            /* right arrow */
+... //            if (pos != len) {
+..... //                pos++;
+..... //                refreshLine(fd,prompt,buf,len,pos,cols);
+..... //            }
+...       break;
+...
+...     default:
+...       currentBuffer[currentBuffer.used++] = b[0];
+...       currentBuffer[currentBuffer.used] = 0;
+...       stdout.write(b);
+...       pos++;
+...   }
+... });
+ReadStream {
+  connecting: false,
+  _hadError: false,
+  _handle:
+   TTY {
+     bytesRead: 2685,
+     _externalStream: {},
+     fd: -1,
+     writeQueueSize: 0,
+     owner: [Circular],
+     onread: [Function: onread],
+     reading: true },
+  _parent: null,
+  _host: null,
+  _readableState:
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 0,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: true,
+     ended: false,
+     endEmitted: false,
+     reading: false,
+     sync: false,
+     needReadable: true,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events:
+   { end: [ [Object], [Function: ontermend] ],
+     finish: [Function: onSocketFinish],
+     _socketEnd: [Function: onSocketEnd],
+     pause: [Function],
+     data: [ [Function: onData], [Function] ],
+     keypress: [Function: onkeypress] },
+  _eventsCount: 6,
+  _maxListeners: undefined,
+  _writableState:
+   WritableState {
+     objectMode: false,
+     highWaterMark: 0,
+     needDrain: false,
+     ending: false,
+     ended: false,
+     finished: false,
+     decodeStrings: false,
+     defaultEncoding: 'utf8',
+     length: 0,
+     writing: false,
+     corked: 0,
+     sync: true,
+     bufferProcessing: false,
+     onwrite: [Function],
+     writecb: null,
+     writelen: 0,
+     bufferedRequest: null,
+     lastBufferedRequest: null,
+     pendingcb: 0,
+     prefinished: false,
+     errorEmitted: false,
+     bufferedRequestCount: 0,
+     corkedRequestsFree: CorkedRequest { next: null, entry: null, finish: [Funct
+ion] } },
+  writable: false,
+  allowHalfOpen: false,
+  destroyed: false,
+  _bytesDispatched: 0,
+  _sockname: null,
+  _writev: null,
+  _pendingData: null,
+  _pendingEncoding: '',
+  server: null,
+  _server: null,
+  isRaw: true,
+  isTTY: true,
+  fd: 0,
+  read: [Function],
+  _consuming: true }
+>
+>
+>
+node>
+>
+node>
+>
+node>
+>
+node>
