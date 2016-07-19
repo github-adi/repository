@@ -1,0 +1,158 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+var dtkNavMenu = [
+    {
+        title:'detikcom',
+        link:'http://www.detik.com/',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_detikcom.png',
+        isNew:false
+    },
+    {
+        title:'detikNews',
+        link:'http://news.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_news.png',
+        isNew:false
+    },
+    {
+        title:'detikFinance',
+        link:'http://finance.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_finance.png',
+        isNew:false
+    },
+    {
+        title:'detikHot',
+        link:'http://hot.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_hot.png',
+        isNew:false
+    },
+    {
+        title:'detikInet',
+        link:'http://inet.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_inet.png',
+        isNew:false
+    },
+    {
+        title:'detikSport',
+        link:'http://sport.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_sport.png',
+        isNew:false
+    },
+    {
+        title:'Sepakbola',
+        link:'http://sport.detik.com/sepakbola',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_sepakbola.png',
+        isNew:false
+    },
+    {
+        title:'detikOto',
+        link:'http://oto.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_oto.png',
+        isNew:false
+    },
+    {
+        title:'detikFood',
+        link:'http://food.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_food.png',
+        isNew:false
+    },
+    {
+        title:'detikHealth',
+        link:'http://health.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_health.png',
+        isNew:false
+    },
+    {
+        title:'Wolipop',
+        link:'http://wolipop.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_wolipop.png',
+        isNew:false
+    },
+    {
+        title:'detikTravel',
+        link:'http://travel.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_travel.png',
+        isNew:false
+    },
+    {
+        title:'detiktv',
+        link:'http://tv.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_tv.png',
+        isNew:false
+    },
+    {
+        title:'detikFoto',
+        link:'http://foto.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_foto.png',
+        isNew:false
+    },
+    {
+        title:'Pasangmata',
+        link:'https://pasangmata.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_pasangmata.png',
+        isNew:false
+    },
+    {
+        title:'detikForum',
+        link:'http://forum.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_forum.png',
+        isNew:false
+    },
+    {
+        title:'Blogdetik',
+        link:'http://blog.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_blogdetik.png',
+        isNew:false
+    },
+    {
+        title:'Morning Friends',
+        link:'http://tv.detik.com/morningfriends',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_mf.png',
+        isNew:false
+    },
+    {
+        title:'detikRewards',
+        link:'https://rewards.detik.com',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_rewards.png',
+        isNew:false
+    },
+    {
+        title:'Solusi UKM',
+        link:'http://solusiukm.detik.com/?utm_source=desktopdetik&utm_medium=navbar&utm_campaign=solusiukm',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_solusiukm.ico',
+        isNew:true
+    },
+    {
+        title:'dNewGeneration',
+        link:'http://www.detik.com/dnewgeneration/?utm_source=desktopdetik&utm_medium=navbar&utm_campaign=dnewgeneration',
+        img:'https://cdn.detik.net.id/libs/dc/v1/image/fmb_dnewg.png',
+        isNew:true
+    }
+], dtkNavMenuStr = '', dtkNavMenuMobileStr = '';
+
+var parseSecond = function() {
+    var result = "desktop",
+        tmp = [];
+    var items = location.search.substr(1).split("&");
+    for (var index = 0; index < items.length; index++) {
+        tmp = items[index].split("=");
+        if (tmp[0] === 'ui') result = decodeURIComponent(tmp[1]);
+    }
+    return result;
+}
+
+for (var i = 0;i < dtkNavMenu.length; i++) {
+    
+    var attr = {cls:'', label:''};
+    
+    if (dtkNavMenu[i].isNew)
+        var attr = {cls:'sp', label:' <strong>new</strong>'};
+    
+    dtkNavMenuStr += ' <a href="'+dtkNavMenu[i].link+'" class="'+attr.cls+'" target="_blank"><img src="'+dtkNavMenu[i].img+'"> <span>'+dtkNavMenu[i].title+'</span>'+attr.label+'</a>';
+    dtkNavMenuMobileStr += ' <option value="'+dtkNavMenu[i].link+'">'+dtkNavMenu[i].title+'</option>';
+}
+
+if (parseSecond()=='mobile')
+    dtkmenu([dtkNavMenuMobileStr]);
+else
+    dtkmenu(['<div class=menu_k>'+dtkNavMenuStr+'<div class=clearfix></div></div>']);
