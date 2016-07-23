@@ -1,0 +1,307 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+https://asia-cdn.inside-graph.com/js/inside.front.js?v=20160720030014
+URL Parameters:
+v=20160720030014
+-Via Node.js:
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> popup.appendTo(container).css({position:"initial",top:0,left:0});popup.removeC
+lass("position");popup.addClass("embed");popup.find(".inside_closeButton").remov
+e();}
+... if(typeof(data.settings.image)!="undefined"&&data.settings.image!=""){var im
+g;var image=data.settings.image;var usingHighDPI=false;if(typeof(data.settings.i
+mageHighDPI)!="undefined"&&data.settings.imageHighDPI!=""){var pr=1;try{pr=windo
+w.devicePixelRatio;}catch(e){}
+... if(pr>=1){image=data.settings.imageHighDPI;usingHighDPI=true;}}
+... if(image.indexOf("http")=="0"){img=$("<img src='"+ image+"' />").appendTo(po
+pupMainContent);}else{img=$("<img src='"+ _insideCDN+"/custom/"+ image+"' />").a
+ppendTo(popupMainContent);}
+... if(usingHighDPI){img.css("max-width",data.settings.imageNormalDPIWidth);}
+... positionPopupOffScreen(popup);popup.hide();popup[0].ready=false;img.load(fun
+ction(){popup[0].ready=true;popup.show();setTimeout(function(){positionPopupOffS
+creen(popup);scalePopups();slideInPopup(popup);},0);if(usingHighDPI){scaleImageB
+yPixelRatio(img);}});}else{positionPopupOffScreen(popup);if(data.type=="survey")
+{popup.addClass("survey");popup[0].ready=false;}else if(data.type=="visitornotif
+y"&&(data.settings.content=="fbchat"||data.settings.content=="fbretail")){popup[
+0].ready=false;}else{if($(popup).find("img").length==0){slideInPopup(popup);}els
+e{popup.find("img").each(function(){$(this).load(function(){positionPopupOffScre
+en(popup);slideInPopup(popup);});if($(this).attr("src")==""){slideInPopup(popup)
+;}})}}}
+... if(typeof(data.settings.popupCountdown)!="undefined"){setTimeout(function(){
+popup.fadeOut(500,function(){$(this).remove();$(".inside_windowBlack").remove();
+})},parseInt(data.settings.popupCountdown)*1000);}
+... if(typeof(data.settings.showCountdown)!="undefined"&&data.settings.showCount
+down==true){$("<div class='inside_popup_countdown'>"+ data.settings.popupCountdo
+wn+"</div>").appendTo(popup);var countdownInt=setInterval(function(){var cd=popu
+p.find(".inside_popup_countdown");cd.text((parseInt(cd.text())-1));},1000)}
+... return popup;}
+... function getSelectionText(){var text="";if(window.getSelection){text=window.
+getSelection().toString();}else if(document.selection&&document.selection.type!=
+"Control"){text=document.selection.createRange().text;}
+... return text;}
+... function scaleImageByPixelRatio(img){var pr=1;try{pr=window.devicePixelRatio
+;}catch(e){}
+... if(device==2&&pr>1){var viewport=getViewPortSize();var w=$(img).width();w=w*
+(1/pr);if(device==2){if(w<viewport.width*0.3){w=viewport.width*0.3;}}
+..... img.css("width",w+"px");}}
+... function roundToPlaces(num,places){places=places<0?0:places;var mult=Math.po
+w(10,places);return Math.round(num*mult)/ mult
+... }
+... function slideInPopup(popup){var viewport=getViewPortSize();var data=popup[0
+].data;var margin=popup[0].margin;var easing="easeOutQuad";popup.show();position
+PopupOffScreen(popup);popup[0].shown=false;setTimeout(function(){setTimeout(func
+tion(){popup[0].shown=true;},1000);if(data.settings.position=="8"||data.settings
+.position=="2"||data.settings.position=="5"){popup.css("left",(viewport.width- p
+opup.outerWidth())*0.5);}
+... if(data.settings.position=="1"||data.settings.position=="2"||data.settings.p
+osition=="3"){popup.css("top",-popup.outerHeight()+"px").animate({"top":margin},
+{duration:500,easing:easing});}else if(data.settings.position=="7"||data.setting
+s.position=="8"||data.settings.position=="9"){popup.css("top",viewport.height+"p
+x").animate({"top":viewport.height- popup.outerHeight()- margin},{duration:500,e
+asing:easing});}else if(data.settings.position=="4"){popup.css("left",-popup.out
+erWidth()+"px").animate({"left":margin},{duration:500,easing:easing});}else if(d
+ata.settings.position=="6"){popup.css("right",-popup.outerWidth()+"px").animate(
+{"right":margin},{duration:500,easing:easing});}else{popup.css("top",(viewport.h
+eight- popup.outerHeight())*0.5+"px");popup.css("left",(viewport.width- popup.ou
+terWidth())*0.5+"px");scalePopups();popup.hide().fadeIn();}
+... if(typeof(data.settings.windowcover)!="undefined"&&data.settings.windowcover
+){var alpha=0.75;if(typeof(data.settings.windowcoveralpha)!="undefined"){alpha=d
+ata.settings.windowcoveralpha;}
+..... addWindowBlack(alpha,data.settings.windowcovercolour,function(){popup.remo
+ve();});}},1000)}
+... function positionPopupOffScreen(popup){var data=popup[0].data;var pos=data.s
+ettings.position;if(pos=="4"||pos=="5"||pos=="6"){popup.css("top",(viewport.heig
+ht- popup.height())*0.5+"px");}
+... if(pos=="5"){popup.css("left",(viewport.width)+"px");}
+... if(pos=="2"||pos=="8"){popup.css("left",((viewport.width- popup.width())*0.5
+)+"px");}
+... if(pos=="1"||pos=="2"||pos=="3"){popup.css("top",-popup.outerHeight()+"px");
+}else if(pos=="7"||pos=="8"||pos=="9"){popup.css("top",viewport.height+"px");}el
+se if(pos=="4"){popup.css("left",-popup.width()+"px");}else if(pos=="6"){popup.c
+ss("right",-popup.width()+"px");}else{popup.css("top",(viewport.height- popup.he
+ight())*0.5+"px");popup.css("left",(viewport.width)+"px");}
+... if(device==2){if(pos=="2"||pos=="5"||pos=="8"){if(viewport.width<500){popup.
+css("left","0px");}else{popup.css("left",(viewport.width)+"px");}}}}
+... function scalePopups(){var viewport=getViewPortSize();$(".inside_visitorNoti
+fy").not(".embed").each(function(){if($(this)[0].shown!=true){return;}
+... if(typeof($(this)[0].ready)!="undefined"&&$(this)[0].ready==false){return;}
+... var pos=$(this).attr("position");var margin=$(this)[0].margin;if(pos=="1"||p
+os=="2"||pos=="3"){$(this).css("top","10px");}
+... if(pos=="4"||pos=="5"||pos=="6"){$(this).css("top",(viewport.height- $(this)
+.outerHeight())*0.5- margin+"px");}
+... if(pos=="7"||pos=="8"||pos=="9"){$(this).css("top",(viewport.height- $(this)
+.outerHeight()- margin)*getViewportScale()+"px");}
+... if(pos=="2"||pos=="5"||pos=="8"){if(device==2||viewport.width<500){$(this).c
+ss("left","0px");var popup=this;setTimeout(function(){$(popup).css("opacity","1"
+);$(popup).css("left",(viewport.width- $(popup).outerWidth())*0.5+"px");},0);}el
+se{$(this).css("left",(viewport.width- $(this).outerWidth())*0.5+"px");}}});}
+... function disconnected(){}
+... var scaleinit=false;var chatPaneMode="";var tabYScale=0.5;var viewport;front
+End.windowScale=windowScale;function windowScale(animTime){if(typeof(animTime)==
+"undefined"){animTime=0;}
+... viewport=getViewPortSize();var top=viewport.height*tabYScale;if(device==3&&(
+navigator.platform.indexOf("iPhone")!=-1||navigator.platform.indexOf("iPad")!=-1
+)){top=viewport.height*tabYScale*getViewportScale();}
+... if(tabPosition=="left"||tabPosition=="right"){top-=$("#inside_tabs").height(
+)*0.5;}
+... if(tabPosition=="bottomright"||tabPosition=="bottomleft"){top-=$("#inside_ta
+bs").height();if($("#inside_tabs").is(":visible")&&!$("#inside_tabs").is(':empty
+')&&$("#inside_tabs").height()==0){setTimeout(windowScale,250);}}
+... if(animTime>0){$("#inside_tabs").stop(true).animate({top:top},animTime);}els
+e{$("#inside_tabs").stop(true);if(ios){$('input').focusin(function(){if((tabPosi
+tion=="bottomright"||tabPosition=="bottomleft")){$("#inside_tabs").css("top",660
++"px");}
+..... else if((tabPosition=="topright"||tabPosition=="topleft")){$("#inside_tabs
+").css("top",top+ $(document).scrollTop()+"px");}});}
+..... if(ios&&!standalone&&safari&&$('input').is(":focus")){$(document).scroll(f
+unction(){if((tabPosition=="bottomright"||tabPosition=="bottomleft")&&$('input')
+.is(":focus")){$("#inside_tabs").css("top",660+ $(document).scrollTop()+"px");}
+....... else if((tabPosition=="right"||tabPosition=="left")&&$('input').is(":foc
+us")){$("#inside_tabs").css("top",535+ $(document).scrollTop()+"px");}
+....... else if((tabPosition=="topright"||tabPosition=="topleft")&&$('input').is
+(":focus")){$("#inside_tabs").css("top",top+ $(document).scrollTop()+"px");}
+....... else{$("#inside_tabs").css("top",top+"px");}})}
+..... else{$("#inside_tabs").css("top",top+"px");}}
+... $("#inside_holder").css("transform","translateZ(0px)");scalePopups();if(IE11
+Quirks){IE11ScrollFix();}}
+... function updateOrientation(){this.orientation=window.orientation;if(this.ori
+entation===undefined){if(document.documentElement.clientWidth>document.documentE
+lement.clientHeight)this.orientation='landscape';else this.orientation='portrait
+';}
+... else if(this.orientation===0||this.orientation===180)this.orientation='portr
+ait';else this.orientation='landscape';};frontEnd.getViewportScale=getViewportSc
+ale;function getViewportScale(){this.viewportScale=1;return this.viewportScale;i
+f(device==1){return this.viewportScale;}
+... var viewportWidth=document.documentElement.clientWidth;this.screenWidth=scre
+en.width;if(this.orientation==='portrait'){if(screen.width>screen.height)this.sc
+reenWidth=screen.height;}
+... else{if(screen.width<screen.height)this.screenWidth=screen.height;}
+... this.viewportScale=this.screenWidth/window.innerWidth;return this.viewportSc
+ale;}
+... var autoHideTimeout;function startautohideTabs(){$("#inside_tabs").bind("mou
+seenter",hoverShowTabs);$("#inside_tabs").bind("mouseleave",function(){autoHideT
+imeout=setTimeout(autohideTabs,5000);});autoHideTimeout=setTimeout(autohideTabs,
+5000);}
+... frontEnd.autohideTabs=autohideTabs;function autohideTabs(time){if(typeof(tim
+e)=="undefined"){time=2000;}
+... var hideAmount=20;if(typeof(frontEnd.settings.autoHideAmount)!="undefined"&&
+!isNaN(frontEnd.settings.autoHideAmount)){hideAmount=parseInt(frontEnd.settings.
+autoHideAmount);}
+... if(tabPosition=="left"||tabPosition=="topleft"||tabPosition=="bottomleft"){$
+("#inside_tabs").animate({left:-$("#inside_liveChatTab img").width()+ hideAmount
+},time);}else{if(time!=0){$("#inside_tabs").animate({right:-$("#inside_liveChatT
+ab img").width()+ hideAmount},time);}else{$("#inside_liveChatTab").show();setTim
+eout(function(){$("#inside_tabs").css({right:-$("#inside_liveChatTab img").width
+()+ hideAmount});},0);}}}
+... function hoverShowTabs(){clearTimeout(autoHideTimeout);if(tabPosition=="left
+"||tabPosition=="topleft"||tabPosition=="bottomleft"){$("#inside_tabs").stop(tru
+e).animate({left:0},500);}else{$("#inside_tabs").stop(true).animate({right:0},50
+0);}}
+... frontEnd.getViewPortSize=getViewPortSize;function getViewPortSize(){updateOr
+ientation();var viewportwidth;var viewportheight;if(typeof window.innerWidth!='u
+ndefined')
+... {viewportwidth=window.innerWidth,viewportheight=window.innerHeight}
+... else if(typeof document.documentElement!='undefined'&&typeof document.docume
+ntElement.clientWidth!='undefined'&&document.documentElement.clientWidth!=0)
+... {viewportwidth=document.documentElement.clientWidth,viewportheight=document.
+documentElement.clientHeight}
+... else
+... {viewportwidth=document.getElementsByTagName('body')[0].clientWidth,viewport
+height=document.getElementsByTagName('body')[0].clientHeight}
+... if(device!=1){var zoomLevel=document.documentElement.clientWidth/window.inne
+rWidth;viewportheight=viewportheight/zoomLevel;}
+... return{width:viewportwidth,height:viewportheight};}
+... frontEnd.setCookie=setCookie;frontEnd.getCookie=getCookie;function getCookie
+(c_name){var i,x,y,ARRcookies=document.cookie.split(";");for(i=0;i<ARRcookies.le
+ngth;i++){x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));y=ARRcookies[i].s
+ubstr(ARRcookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){r
+eturn unescape(y);}}}
+... function setCookie(c_name,value,exdays){var exdate=new Date();exdate.setDate
+(exdate.getDate()+ exdays);var c_value=escape(value)+((exdays==null)?"":"; expir
+es="+exdate.toUTCString());document.cookie=c_name+"="+ c_value;}
+... function trace(){var arr=Array.prototype.slice.call(arguments);if(typeof(con
+sole)!="undefined"){console.log(arr.join(","));}}
+... frontEnd.loadCssFile=loadCssFile;function loadCssFile(url,callback){_insideG
+raph.loadCSS(url,callback);}
+... function loadInsideChat(callback){loadJS(_insideCDN+"js/inside.chat.js?"+ _i
+nsideScriptVersion,"typeof(insideChat) != 'undefined'",function(){if(typeof(call
+back)=="function"){callback();}});if(frontEnd.settings.mergeCustomCSS==true){loa
+dCssFile(_insideCDN+"css/"+ _insideGraph.current.account+"/front/chat?"+ _inside
+ScriptVersion);}else{loadCssFile(_insideCDN+"/css/inside.chat.css?"+ _insideScri
+ptVersion);}
+... if(device==2){loadCssFile(_insideCDN+"/css/inside.chat.mobile.css?"+ _inside
+ScriptVersion);}}
+... function insideChatLoaded(){}
+... function loadRecommends(callback){loadJS(_insideCDN+"js/jquery.lazyload.min.
+js?"+ _insideScriptVersion);loadJS(_insideCDN+"js/inside.recommends.js?"+ _insid
+eScriptVersion,"typeof($.inside.front.recommends) != 'undefined'",function(){if(
+typeof(callback)=="function"){callback();}});loadCssFile(_insideCDN+"/css/inside
+.recommends.css?"+ _insideScriptVersion);}
+... function initRecommends(){insideRecommends.init();}
+... function loadAutomatics(){loadJS(_insideCDN+"js/inside.auto.js?"+ _insideScr
+iptVersion,"typeof(inside_auto) != 'undefined'",autoLoaded);loadCssFile(_insideC
+DN+"/css/inside.auto.css?"+ _insideScriptVersion);}
+SyntaxError: Unexpected token }
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:236:25)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> function autoLoaded(){autoInit();}
+undefined
+> function autoInit(){inside_auto.init();}
+undefined
+> frontEnd.setColourTheme=setColourTheme;function setColourTheme(theme){if(typeo
+f(theme)=="undefined"){return;}
+... theme=parseInt(theme);if(theme==1){loadCssFile(_insideCDN+"/css/inside.front
+.theme_neutral.css?"+ _insideScriptVersion);}
+... if(theme==2){loadCssFile(_insideCDN+"/css/inside.front.theme_dark.css?"+ _in
+sideScriptVersion);}
+... if(theme==3){loadCssFile(_insideCDN+"/css/inside.front.theme_cream.css?"+ _i
+nsideScriptVersion);}}
+ReferenceError: frontEnd is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> frontEnd.loadJS=loadJS;function loadJS(src,instance,onload){var s=document.cre
+ateElement('script');s.setAttribute('type','text/javascript');s.setAttribute('sr
+c',src);if(onload)loadCallback(instance,onload);var head=document.getElementsByT
+agName('head')[0];if(head){head.appendChild(s);}else{document.body.appendChild(s
+);}}
+ReferenceError: frontEnd is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> function loadCallback(check,callback){var interval=setInterval(function(){if(e
+val(check)){clearInterval(interval);callback();}},10);}
+undefined
+> frontEnd.addWindowBlack=addWindowBlack;function addWindowBlack(opacity,colour,
+closeCallback){if(typeof(opacity)=="undefined"||opacity==null){opacity=0.75;}
+... $(".inside_windowBlack").remove();var $windowBlack=$("<div class='inside_win
+dowBlack'><div>").appendTo("#inside_holder");$windowBlack.width($(window).width(
+)+"px");$windowBlack.height($(window).height()+"px");$windowBlack.css("opacity",
+opacity);if(typeof(colour)!="undefined"&&typeof(colour)!=null){$windowBlack.css(
+"background",colour)}
+... $windowBlack.show();$windowBlack.click(function(){$windowBlack.remove();if(t
+ypeof(closeCallback)=="function"){closeCallback();}});}
+ReferenceError: frontEnd is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> frontEnd.addStyleString=addStyleString;function addStyleString(str,id){if(type
+of(id)!="undefined"){$("style#"+ id).remove();}
+... var styleNode=$("<style>"+ str+"</style>").appendTo("body");if(typeof(id)!="
+undefined"){styleNode.attr("id",id);}}
+ReferenceError: frontEnd is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> function escapeHtml(str){var div=document.createElement('div');div.appendChild
+(document.createTextNode(str));return div.innerHTML;};$.inside.front=frontEnd;$(
+document).ready(init);})(window,isLocal()?$:_insideGraph.jQuery)
+... var insideFrontInterface={};function isLocal(){return window.location.href.i
+ndexOf("file://")==0;}
+... WebFontConfig={google:{families:['Open+Sans::latin']}};(function(){var wf=do
+cument.createElement('script');wf.src=('https:'==document.location.protocol?'htt
+ps':'http')+'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';wf.type='tex
+t/javascript';wf.async='true';var s=document.getElementsByTagName('script')[0];s
+.parentNode.insertBefore(wf,s);})();
+...
