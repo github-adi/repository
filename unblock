@@ -1,0 +1,138 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>
+		Unblock Blocked
+	</title>
+    <meta name="description" content="We're here to unblock blocked sites for you.  UnblockBlocked.Net is free proxy created to help you have access to your favorite websites." />
+	<meta name="keywords" content="unblock blocked, unblock proxy, unblock myspace, myspace proxy, proxy site, unblock sites" />
+	<link type="text/css" href="http://www.unblockblocked.net/themes/orange/css/style.css" rel="stylesheet" />	
+
+	<script type="text/javascript" src="http://www.unblockblocked.net/includes/js/effects.js"></script>
+		
+  </head>
+<body>
+
+
+	<div id="header">
+		<h1>
+			<a href="http://www.unblockblocked.net/">Unblock Blocked</a>
+		</h1>
+	</div><!--end header-->
+         
+		<div id="content">
+		<div id="top">
+                <!--Customize site description here-->
+<p>
+We're here to unblock blocked sites for you.  UnblockBlocked.Net is free proxy created to help you have access to your favorite websites. You can easy unblock Myspace, Facebook and many other websites.
+</p>
+<!--End site description-->
+		
+
+<!-- Ad location below the options on the index page-->
+<!--ADD Adsense below here-->
+
+<p>
+<strong>UnblockBlocked.Net</strong> will allow you to bypass network filters and unblock access to any website you want to visit from any place.<br /><br />
+Protect your <strong>anonymity</strong> and be safe with UnblockBlocked.net.
+To <strong>Unblock Blocked</strong>, all you have to is type the URL you want to unblock and click Go!
+</p>
+<!--END adsense code--> 
+
+	<div id="error">Hotlinking directly to proxified pages is not permitted.</div> 
+    	    
+
+		<div id="urlform">
+<form action="includes/process.php?action=update" method="post" class="minime_url_form">
+			<fieldset>
+				<label for="minime_url_textbox" id="minime_url_label">Address: </label>
+				<div id="minime_url_textbox_back">
+					<input type="text" name="u" id="minime_url_textbox" />
+				</div>
+				<input type="submit" value="Go!" id="minime_submit" />
+				<input type="button" id="options_switch"  value="Options" onclick="optionsFx.toggle();" />
+				<br>
+
+
+				</fieldset>	
+		</form>
+<br><br>		
+<script src="http://cdn.gigya.com/wildfire/js/wfapiv2.js"></script>
+<div id="divWildfirePost"></div>
+
+<textarea id="sharecontent" style="display:yes"><a href="http://www.Unblockblocked.net/">Unblock Blocked</a> proxy</textarea>
+      
+</div>
+			
+	</div><!-- end content-->           
+	<div id="footer">
+		<div>
+			<!--add text to footer text here-->
+<!--example links-->
+<ul>
+<li>
+
+<li><a href="http://www.unblockmyspacez.com" title="unblock myspace">unblock myspace</a></li>
+<li><a href="http://forum007.com">Proxy forum</a></li>
+<li><a href="http://www.howtounblock.org" title="how to unblock">how to unblock</a></li>
+<li><a href="http://www.unblockhi5.net" title="unblock hi5">unblock hi5</a></li>
+<li><a href="http://www.unblockbook.net" title="Unblock Facebook">Unblock Facebook</a></li>
+<li><a href="http://www.throughfirewall.com" title="through firewall">through firewall</a></li>
+<li><a href="http://www.proxyfirewall.net" title="proxy firewall">proxy firewall</a></li>
+<li><a href="http://www.behindfirewall.info" title="behind firewall">behind firewall</a></li>
+<li><a href="http://www.internetfirewall.info" title="sites unblock">internet firewall</a></li>
+<li><a href="http://www.firewallblocker.net" title="firewall blocker">firewall blocker</a></li>
+<li><a href="http://www.keepnetworksecurity.info" title="keepnetworksecurity">network security</a></li>
+<li><a href="http://www.sitesproxy.net" title="sites proxy">sites proxy</a></li>
+<li><a href="http://www.sitesunblock.com" title="sites unblock">sites unblock</a></li>
+<li><a href="http://www.proxy.org">Proxy.org</a></li>
+<li><a href="http://www.unblocktwitter.org" title="unblock twitter">unblock twitter</a></li>
+<li><a href="http://theproxyfinder.com/" title="Free Proxy Sites">Free Proxy Sites</a> </li>
+<li><a href="http://meeboproxy.net/" title="Meebo Proxy">Meebo Proxy</a> </li>
+<li><a href="http://www.tech-faq.com">The Tech FAQ</a></li>
+<li><a href="http://www.atproxy.net">ATProxy</a></li>
+<li><a href="http://www.getproxies.net">Getproxies</a></li>
+<li><a href="http://www.proxybuzz.com">proxy</a></li>
+<li><a href="http://proxb.com">Proxy Sites</a></li>
+<li><a href="http://www.azproxies.com/" title="A-Z Proxies">A-Z Proxies</a></li>
+<li><a href="http://www.centurian.org/">Proxy List</a></li>
+<li><a href="http://www.webevader.org" target="_blank" title=free proxy sites,proxy sites, proxy, free proxy list >Free Proxy Sites</a></li>
+<li><a href="http://unblock.me">unblock</a></li>
+<li><a href="http://www.proxysites.in">Proxy Sites</a></li>
+<li><a href="http://www.freeproxies.in">free proxies</a></li>
+<li><a href="http://www.listoprox.info/" title="List o Prox">List o Prox</a></li>
+<li><a href="http://www.allproxysites.com/" title="List o Prox">allproxysites.com</a></li>
+<li><a href="http://www.mywebproxies.com/" title="List o Prox">mywebproxies.com</a></li>
+<li><a href="http://www.proxyliste.com/" title="List o Prox">proxyliste.com</a></li>
+<li><a href="http://www.proxywebsites.biz/" title="List o Prox">proxywebsites.biz</a></li>
+<li><a href="http://slxls.com">Proxy List</a></li>
+<li><a href="http://www.activeproxies.org">Active Proxies</a></li>
+<li><a href="http://www.juvos.com">Proxy Sites</a></li>
+<li><a href="http://mwolk.com/proxy">Proxy</a></li>
+<li><a href="http://mylinktrain.com">Proxy</a></li>
+<li><a href="http://allproxies.biz">Proxy</a></li>
+<li><a href="http://allproxys.net">Proxy</a></li>
+<li><a href="http://www.myipproxylist.com/">Proxy Sites</a></li>
+<li><a href="http://proxy-sites.eu">Proxy Sites</a></li>
+<li><a href="http://www.4proxy.com">Proxy List</a></li>
+</ul>
+<ul>
+<li><a href="http://www.proxysubmit.com/"><img src="http://www.proxysubmit.com/button.php?u=ivangonzalez" alt="Proxy Submit" border="0" /></a></li>
+</ul>
+
+
+<!---end custom footer-->
+		</div>
+  	
+		</div>
+	</div><!-- end footer-->
+
+</html>
+
+-HAR:
+
+-To be evaluated in console:
