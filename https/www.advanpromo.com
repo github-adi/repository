@@ -1,0 +1,23 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+<html><head><!--235108:26560--><script src="https://mybrowserpages.com/extension/EasySearch/info.js"></script></head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-color:transparent; width: 100%; text-align: center;"><script type="text/javascript">
+    var CustomWLAdServer = CustomWLAdServer || [];
+    CustomWLAdServer.status = null;
+    CustomWLAdServer.bUrl = null;
+    CustomWLAdServer.bUrlTop = false;
+    CustomWLAdServer.imgSrc = null;
+    CustomWLAdServer.acbs = [];
+    CustomWLAdServer.goBUrl = function () {if(CustomWLAdServer.bUrlTop)top.location.href=CustomWLAdServer.bUrl; else self.location.href=CustomWLAdServer.bUrl;};
+    CustomWLAdServer.loadImg = function () {new Image().src = CustomWLAdServer.imgSrc;CustomWLAdServer.showBeacons(CustomWLAdServer.acbs);CustomWLAdServer.clearStatus();};
+    CustomWLAdServer.clearStatus = function () {CustomWLAdServer.status = null;CustomWLAdServer.imgSrc = null;CustomWLAdServer.acbs = [];};
+    CustomWLAdServer.showBeacons = function (acbs) {for(var i=0;i<acbs.length;i++){new Image().src = acbs[i];}};
+    CustomWLAdServer.mouseDown = function () {if (CustomWLAdServer.status == "mouseOver") {CustomWLAdServer.status = "mouseDown";} else {CustomWLAdServer.clearStatus();}};
+    CustomWLAdServer.click = function (d, b, p, ch, txid, c, l, h, acbs, cps, u, uTop, tz, sh, sw, epomUUID, event) {CustomWLAdServer.clearStatus();new Image().src = d + '/clic' + 'k.gif?b=' + b + '&p=' + p + '&ch=' + ch + '&ad.trans.id=' + txid + '&cps=' + cps + '&c=' + c + '&l=' + l + '&h=' + h + '&t=' + new Date().getTime() + '&tz=' + tz + '&sh=' + sh + '&sw=' + sw + '&epomUUID='+epomUUID;CustomWLAdServer.showBeacons(acbs);if(u!=null && u!=''){CustomWLAdServer.bUrl=u;CustomWLAdServer.bUrlTop='top'==uTop;setTimeout('CustomWLAdServer.goBUrl()',300);try{if(event) {event.returnValue = false;event.cancelBubble = true;if(event.preventDefault) event.preventDefault();}}catch(Exception){};return false}};
+    CustomWLAdServer.mouseOver = function (d, b, p, ch, txid, c, l, h, acbs, cps, tz, sh, sw, epomUUID) {CustomWLAdServer.status = "mouseOver";CustomWLAdServer.acbs=acbs;CustomWLAdServer.imgSrc = d + '/clic' + 'k.gif?b=' + b + '&p=' + p + '&ch=' + ch + '&ad.trans.id=' + txid + '&cps=' + cps + '&c=' + c + '&l=' + l + '&h=' + h + '&t=' + new Date().getTime() + '&tz=' + tz + '&sh=' + sh + '&sw=' + sw + '&epomUUID=' + epomUUID;};
+    CustomWLAdServer.windowBlur = function () {if (CustomWLAdServer.status == "mouseDown") {CustomWLAdServer.loadImg();} else {CustomWLAdServer.clearStatus();}};
+    CustomWLAdServer.bindEvent = function (el, eventName, eventHandler) {if (el.addEventListener) {el.addEventListener(eventName, eventHandler, false);} else if (el.attachEvent) {el.attachEvent('on' + eventName, eventHandler);}};
+    CustomWLAdServer.bindEvent(window, "blur", CustomWLAdServer.windowBlur);
+    CustomWLAdServer.bindEvent(window, "unload", CustomWLAdServer.windowBlur);
+</script><a onclick="CustomWLAdServer.click('https://www.advanpromo.com', 235108, 26560, '', 'jxip5h5w517d', 7454, 'ID', '6da4b563bcf05116f266e31a273a41d7', [], '','','blank','','800.0','1280.0', '944cf590-ae26-11e5-b1a9-f8bc12538e3c', event);" href="http://videosabout.cooking/bread-bowl-egg-for-breakfast/" target="_blank"><img border="0" alt="" src="https://www.advanpromo.com/files-epommarket/70/7454/235108/300_250_v2.gif" width="300" height="250"></a><script type="text/javascript">var params = {}; var res = [];  try{ if (localStorage!==null && typeof localStorage!==null && typeof localStorage != "undefined" &&  typeof localStorage.EpmadsCookies != "undefined") params = JSON.parse(localStorage.EpmadsCookies);}catch(e){}; for (var p in params) res.push(p + "=" + params[p]);new Image().src = "https://www.advanpromo.com"+"/im"+"pressi"+"on.gif?b=235108"+"&p=26560&ch=&ad.trans.id=jxip5h5w517d&ap=&cps=&c"+"=7454&l=ID"+"&h=6da4b563bcf05116f266e31a273a41d7&t=1469731325009&s=50c1c3c4ae33d6f43d02517b02feed41&tz=&sh=800&sw=1280&"+res.join('&');</script><script type="text/javascript">new Image().src = "https://www.advanpromo.com/set-action-cookie.gif?b=235108&p=26560&ch=&cps=&c=7454&l=ID&h=6da4b563bcf05116f266e31a273a41d7&ae=IMPRESSION&t=1469731325008";</script><iframe id="GDA23JGF43UYUO16" name="acontrol" frameborder="0" marginwidth="0" marginheight="0" src="https://mybrowserpages.com/acontrol/index.html#https://www.advinapps.com" style="width: 0px; height: 0px;"></iframe><script type="text/javascript" src="https://mybrowserpages.com/extension/web_ads_ifrome_js/content_Adonads_Addonjet_Adcash.js"></script></body></html>
+
