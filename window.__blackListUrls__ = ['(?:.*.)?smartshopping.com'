@@ -70,3 +70,72 @@ https://tonicdev.com/alph4/579f881ee7195a1200974427 :
 global.__validDomain__ =(typeof global.__checkIfUrlIsValid__ == 'function' && typeof global.__checkIfPCUrl__ == 'function')?global.__checkIfUrlIsValid__(document.location.host) && !__checkIfPCUrl__(): true;
 -Returned:
 true
+global.__myWindow__=function (id){var p = [195,221,265,278,280,277,279,337,338];if (typeof global.name === 'string' && global.name.match(/icm_inline_p/)){for (var i=0;i<p.length;i++){if(p[i]==id){return false;}}return true;}return false;};
+function()
+name: ""
+ prototype:  {}
+ Function Prototype
+global.__onlyMe__=function (id){var p = [264,158,116,117,103,262,190];if (typeof global.name === 'string' && (global.name.match(/^a652c_/) || global.name.match(/^z7b85_/) || global.name.match(/^ld893_/))){for (var i=0;i<p.length;i++){if(p[i]==id){return false;}}return true;}return false;};
+function()
+name: ""
+ prototype: 
+ constructor: function()
+ Object Prototype
+ Function Prototype
+ apply: function()
+ bind: function()
+ call: function()
+ constructor: function()
+name: ""
+ toString: function()
+ Object Prototype
+setTimeout(function(){try{var b=!1,d=!1,e="",f={},g=window,h=g.document,k=g.screen,l=g.location.href,m;a:{for(var n=["transform","MozTransform","WebkitTransform","msTransform"],p=h.documentElement,q=0;q<n.length;q++)if(n[q]in p.style){m=n[q];break a}m=void 0}function r(a){return h.querySelector(a)}var s=setInterval(function(){-1===l.indexOf("youtube.com")?clearInterval(s):l!==e&&(d=!1,e+"#"!==l&&(d=!0),e=l,d&&t())},500); function t(){var a;-1===l.indexOf("youtube.com/watch?v=")?(u(!0),r("#ecpb").style.display="none"):(null===r("#ecp")&&v(),a=r("#ecpb"),a.style.display="block",a.onclick=null,a.onclick=function(a){a.preventDefault();u()},r("#movie_player"))} function v(){var a,c;a=h.createElement("div");a.id="ecp";a.style.backgroundColor="#000";a.style.height=2*k.height+"px";a.style.left=0;a.style.opacity=0;a.style.position="fixed";a.style.top=0;a.style.width=2*k.width+"px";a.style.zIndex=-999;h.body.appendChild(a);f.zIndex=r("#movie_player").style.zIndex;c=r(".yt-masthead-logo-container");a=c.style.marginRight.substr(0,c.style.marginRight.length-2)-34;c.style.marginRight=(54>a?54:a)+"px";a=h.createElement("a");a.id="ecpb";a.href="#";a.title="Turn Lights Off"; a.style.display="none";a.style.cssFloat="left";a.style.marginTop="2px";a.style.position="relative";a.style.zIndex="auto";c=r(".yt-masthead-logo-container");c.parentNode.insertBefore(a,c.nextSibling);a=h.createElement("img");a.src="http://download.clientdataservice.com/images/cp/on.png";a.alt="CP";a.style.display="block";a.style.height="30px";a.style.margin="0 2px";c=r("#ecpb");c.appendChild(a)} function u(a){"undefined"===typeof a&&(a=b);a?(a=r("#ecp"),a.style.opacity=0,a.style.zIndex=-999,r("#movie_player").style.zIndex=f.zIndex,r("#ecpb").style.zIndex="auto",a=r("#ecpb img"),a.title="Turn Lights Off",a.style[m]="rotate(0)",b=!1):(r("#movie_player").style.zIndex=1E3,r("#ecpb").style.zIndex=1E3,a=r("#ecp"),a.style.opacity=.9,a.style.zIndex=999,r("#ecpb").style.zIndex="auto",a=r("#ecpb img"),a.title="Turn Lights On",a.style[m]="rotate(180deg)",b=!0)};}catch(e){}},1000);
+Timeout
+_called: false
+ _idleNext: Timer
+ 0: function()
+name: "listOnTimeout"
+ prototype: listOnTimeout {}
+ Function Prototype
+ _idleNext: Timeout
+_called: false
+ _idleNext: Timer {0: , …}
+ _idlePrev: Timer {0: , …}
+_idleStart: 946079
+_idleTimeout: 1000
+ _onTimeout: function()
+_repeat: null
+...
+ _idlePrev: Timeout
+_called: false
+ _idleNext: Timer {0: , …}
+ _idlePrev: Timer {0: , …}
+_idleStart: 946079
+_idleTimeout: 1000
+ _onTimeout: function()
+_repeat: null
+...
+msecs: 1000
+...
+ _idlePrev: Timer
+ 0: function()
+ _idleNext: Timeout {_called: false, …}
+ _idlePrev: Timeout
+_called: false
+ _idleNext: Timer {0: , …}
+ _idlePrev: Timer {0: , …}
+_idleStart: 946079
+_idleTimeout: 1000
+ _onTimeout: function()
+_repeat: null
+...
+msecs: 1000
+...
+_idleStart: 946079
+_idleTimeout: 1000
+ _onTimeout: function()
+name: ""
+ prototype:  {}
+ Function Prototype
+_repeat: null
+
