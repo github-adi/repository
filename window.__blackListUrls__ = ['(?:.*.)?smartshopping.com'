@@ -1,0 +1,72 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+-Via Node.js:
+		 > global.__blackListUrls__ = ['(?:.*.)?smartshopping.com','(?:.*.)?shoppstop.com
+','(?:.*.)?localmoxie.com','(?:.*.)?mail.com','(?:.*.)?yellowmoxie.com','(?:.*.)
+?internetproper.com', '(?:.*.)?traveleist.com','(?:.*.)?financetopix.com','(?:.*
+.)?ideallhealth.com','(?:.*.)?search2discover.com','(?:.*.)?variablesearch.com',
+'(?:.*.)?efix.com','(?:.*.)?reimage-express.com','(?:.*.)?anti-toolbar.com','(?:
+.*.)?supersupport.com','(?:.*.)?reimageplus.com','(?:.*.)?reimage.com','(?:.*.)?
+crossrider.com','(?:.*.)?bi.crossrider.com', '(?:.*.)?softonic.com', '(?:.*.)?ma
+ckeeper.com', '(?:.*.)?pckeeper.com', '(?:.*.)?kromtech.com','(?:.*.)?plusnetwor
+k.com'];
+[ '(?:.*.)?smartshopping.com',
+  '(?:.*.)?shoppstop.com',
+  '(?:.*.)?localmoxie.com',
+  '(?:.*.)?mail.com',
+  '(?:.*.)?yellowmoxie.com',
+  '(?:.*.)?internetproper.com',
+  '(?:.*.)?traveleist.com',
+  '(?:.*.)?financetopix.com',
+  '(?:.*.)?ideallhealth.com',
+  '(?:.*.)?search2discover.com',
+  '(?:.*.)?variablesearch.com',
+  '(?:.*.)?efix.com',
+  '(?:.*.)?reimage-express.com',
+  '(?:.*.)?anti-toolbar.com',
+  '(?:.*.)?supersupport.com',
+  '(?:.*.)?reimageplus.com',
+  '(?:.*.)?reimage.com',
+  '(?:.*.)?crossrider.com',
+  '(?:.*.)?bi.crossrider.com',
+  '(?:.*.)?softonic.com',
+  '(?:.*.)?mackeeper.com',
+  '(?:.*.)?pckeeper.com',
+  '(?:.*.)?kromtech.com',
+  '(?:.*.)?plusnetwork.com' ]
+>
+> global .__checkIfUrlIsValid__ = function(url){try {for (var i = 0; i < global
+.__blackListUrls__.length; i++){ if (global .__blackListUrls__[i] === url){retur
+n false;}else{var regex = new RegExp(global .__blackListUrls__[i], 'g');var res
+= url.match(regex);if (res){return false;}}}return true;} catch(e) {return true;
+}}
+[Function]
+> global.__checkIfPCUrl__ = function () {function checkUrl(urlsArr) {for (var i
+= 0; i < urlsArr.length; i++){if (location.href.indexOf(urlsArr[i]) >= 0) {retur
+n true;}}return false;}var full = ['securedshopgate.com','pcutilitiespro.com','p
+crepairlabs.com','superpctools.com','viracure.com'];var sub = ['pcutilitiespro',
+ 'viracure', 'superpctools', 'pcrepairlabs'];var file = ['.optimizerpro','.optim
+izerpro-50','.op-xsell','.op-var1','.op-var2','.op-var3','.op-var4','.op-special
+','.op-xsell-special','.dp-xsell','.driverpro','.drvpro-50','.dp-9','.dp-var1','
+.drvpro','.driverpro-50','.1pk-email','.email-25','.email-35','.email-50','.opti
+mizer-30','.optimizer-35','.optimizer-40','.optimizer-45','.optimizer-rs','.supp
+ort','.support-25','.support-50','.oem','.oem-50','.oem-special','.oem-var1','.a
+vem','.avem-50','.avem-special','.spo','.spo-50','.spo-special','.spu','.spu-50'
+,'.spu-special','.spo-x-sell','.soxsell-special','.spu-x-sell','.systemoptimizer
+','.driverupdater','.so-special','.du-special','.du-xsell','.du-xsell-special','
+.so-xsell','.so-xsell-special','.systemoptimizer-50'];return checkUrl(full) || (
+checkUrl(['safecart.com']) && checkUrl(sub) && checkUrl(file));};
+[Function]
+>
+> global.__onlyMe__=function (id){var p = [264,158,116,117,103,262,190];if (type
+of global.name === 'string' && (global.name.match(/^a652c_/) || global.name.matc
+h(/^z7b85_/) || global.name.match(/^ld893_/))){for (var i=0;i<p.length;i++){if(p
+[i]==id){return false;}}return true;}return false;};
+[Function]
+>
+-Via:
+https://tonicdev.com/alph4/579f881ee7195a1200974427 :
+global.__validDomain__ =(typeof global.__checkIfUrlIsValid__ == 'function' && typeof global.__checkIfPCUrl__ == 'function')?global.__checkIfUrlIsValid__(document.location.host) && !__checkIfPCUrl__(): true;
+-Returned:
+true
