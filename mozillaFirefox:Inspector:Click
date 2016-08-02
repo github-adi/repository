@@ -1,0 +1,202 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+-Via:
+https://tonicdev.com/alph4/delta:
+-click:
+function d(n) {
+  return h || "function" != typeof n[p] ? h ? h.apply(this, arguments) : void 0 : void(h = n[p])
+}
+function d()
+name: "d"
+prototype: d
+constructor: function()
+Object Prototype
+__defineGetter__: function()
+__defineSetter__: function()
+__lookupGetter__: function()
+__lookupSetter__: function()
+__proto__ (getter): function()
+__proto__ (setter): function()
+constructor: function()
+hasOwnProperty: function()
+isPrototypeOf: function()
+propertyIsEnumerable: function()
+toLocaleString: function()
+toString: function()
+valueOf: function()
+Function Prototype
+apply: function()
+bind: function()
+call: function()
+constructor: function()
+name: ""
+toString: function()
+Object Prototype
+__defineGetter__: function()
+__defineSetter__: function()
+__lookupGetter__: function()
+__lookupSetter__: function()
+__proto__ (getter): function()
+__proto__ (setter): function()
+constructor: function()
+hasOwnProperty: function()
+isPrototypeOf: function()
+propertyIsEnumerable: function()
+toLocaleString: function()
+toString: function()
+valueOf: function()
+-hashchange:
+function d() {
+  n.OnHashChanged()
+}
+function d()
+name: "d"
+prototype: d
+constructor: function()
+Object Prototype
+Function Prototype
+apply: function()
+bind: function()
+call: function()
+constructor: function()
+name: ""
+toString: function()
+Object Prototype
+__defineGetter__: function()
+__defineSetter__: function()
+__lookupGetter__: function()
+__lookupSetter__: function()
+__proto__ (getter): function()
+__proto__ (setter): function()
+constructor: function()
+hasOwnProperty: function()
+isPrototypeOf: function()
+propertyIsEnumerable: function()
+toLocaleString: function()
+toString: function()
+valueOf: function()
+-keyup :
+var fn = function(e) {
+  if (typeof addEventListenerForRemoveOnShutDown !== 'undefined') {
+    !callback || callback.call(node, e);
+  }
+}
+function fn()
+name: "fn"
+prototype: fn
+constructor: function()
+Object Prototype
+__defineGetter__: function()
+__defineSetter__: function()
+__lookupGetter__: function()
+__lookupSetter__: function()
+__proto__ (getter): function()
+__proto__ (setter): function()
+constructor: function()
+hasOwnProperty: function()
+isPrototypeOf: function()
+propertyIsEnumerable: function()
+toLocaleString: function()
+toString: function()
+valueOf: function()
+Function Prototype
+apply: function()
+bind: function()
+call: function()
+constructor: function()
+name: ""
+toString: function()
+Object Prototype
+__defineGetter__: function()
+__defineSetter__: function()
+__lookupGetter__: function()
+__lookupSetter__: function()
+__proto__ (getter): function()
+__proto__ (setter): function()
+constructor: function()
+hasOwnProperty: function()
+isPrototypeOf: function()
+propertyIsEnumerable: function()
+toLocaleString: function()
+toString: function()
+valueOf: function()
+-message :
+function t(t) {
+  n.GetMessage(t)
+}
+function t()
+name: "t"
+prototype: t {}
+Function Prototype
+
+var fn = function(e) {
+  if (typeof addEventListenerForRemoveOnShutDown !== 'undefined') {
+    !callback || callback.call(node, e);
+  }
+}
+function fn()
+name: "fn"
+prototype: fn {}
+Function Prototype
+
+-mousedown:
+function d(n) {
+  return h || "function" != typeof n[p] ? h ? h.apply(this, arguments) : void 0 : void(h = n[p])
+}
+function d()
+name: "d"
+prototype: d
+constructor: function()
+Object Prototype
+Function Prototype
+apply: function()
+bind: function()
+call: function()
+constructor: function()
+name: ""
+toString: function()
+Object Prototype
+-mouseup:
+function d(n) {
+  return h || "function" != typeof n[p] ? h ? h.apply(this, arguments) : void 0 : void(h = n[p])
+}
+function d()
+name: "d"
+prototype: d
+constructor: function()
+Object Prototype
+__defineGetter__: function()
+__defineSetter__: function()
+__lookupGetter__: function()
+__lookupSetter__: function()
+__proto__ (getter): function()
+__proto__ (setter): function()
+constructor: function()
+hasOwnProperty: function()
+isPrototypeOf: function()
+propertyIsEnumerable: function()
+toLocaleString: function()
+toString: function()
+valueOf: function()
+Function Prototype
+apply: function()
+bind: function()
+call: function()
+constructor: function()
+name: ""
+toString: function()
+Object Prototype
+__defineGetter__: function()
+__defineSetter__: function()
+__lookupGetter__: function()
+__lookupSetter__: function()
+__proto__ (getter): function()
+__proto__ (setter): function()
+constructor: function()
+hasOwnProperty: function()
+isPrototypeOf: function()
+propertyIsEnumerable: function()
+toLocaleString: function()
+toString: function()
+valueOf: function()
