@@ -62,3 +62,68 @@ Server {
   _pendingResponseData: 0 }
 > Server running at http://127.0.0.2:3000/
 -N.B:Run of the http above.
+-Via:
+https://tonicdev.com/alph4/delta:
+Server
+_connections: 0
+_events: Object
+clientError: function()
+connection: function()
+listening: function()
+request: function()
+name: ""
+Function Prototype
+apply: function()
+bind: function()
+call: function()
+constructor: function()
+name: ""
+toString: function()
+Object Prototype
+...
+_eventsCount: 4
+_handle: null
+_maxListeners: undefined
+_pendingResponseData: 0
+_slaves: Array (0 items)
+length: 0
+Array Prototype
+concat: function()
+constructor: function()
+copyWithin: function()
+entries: function()
+every: function()
+fill: function()
+filter: function()
+find: function()
+findIndex: function()
+forEach: function()
+indexOf: function()
+join: function()
+keys: function()
+lastIndexOf: function()
+length: 0
+map: function()
+pop: function()
+push: function()
+reduce: function()
+reduceRight: function()
+reverse: function()
+shift: function()
+slice: function()
+some: function()
+sort: function()
+splice: function()
+toLocaleString: function()
+toString: function()
+unshift: function()
+Object Prototype
+_unref: false
+_usingSlaves: false
+allowHalfOpen: true
+domain: null
+httpAllowHalfOpen: false
+pauseOnConnect: false
+timeout: 120000
+...
+"Server running at http://127.0.0.2:3000/"
