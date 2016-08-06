@@ -291,6 +291,197 @@ gram Files\\nodejs\\;C:\\Users\\Axioo\\AppData\\Roaming\\npm',
   ga: { [Function] l: 1470507771992, q: [ [Object], [Object], [Object] ] } }
 >
 >
+-Via:
+https://tonicdev.com/alph4/delta:
+Object
+Buffer: function()
+byteLength: function()
+compare: function()
+concat: function()
+isBuffer: function()
+isEncoding: function()
+poolSize: 8192
+Function Prototype
+...
+GLOBAL: Object
+Buffer: function()
+GLOBAL: Object {Buffer: , …}
+GoogleAnalyticsObject: "ga"
+clearImmediate: function()
+clearInterval: function()
+clearTimeout: function()
+console (getter): function()
+ga: function()
+global: Object {Buffer: , …}
+process: process {EventEmitter: , …}
+root: Object {Buffer: , …}
+setImmediate: function()
+setInterval: function()
+setTimeout: function()
+...
+GoogleAnalyticsObject: "ga"
+clearImmediate: function()
+name: ""
+prototype:  {}
+Function Prototype
+clearInterval: function()
+name: ""
+prototype:  {}
+Function Prototype
+clearTimeout: function()
+name: ""
+prototype:  {}
+Function Prototype
+console (getter): function()
+name: ""
+prototype:  {}
+Function Prototype
+ga: function()
+l: 1470508630184
+q: Array (3 items)
+0: Arguments {0: "create", …}
+1: Arguments {0: "require", …}
+2: Arguments {0: "send", …}
+Array Prototype
+...
+Function Prototype
+apply: function()
+bind: function()
+call: function()
+constructor: function()
+name: ""
+toString: function()
+Object Prototype
+...
+global: Object
+Buffer: function()
+GLOBAL: Object {Buffer: , …}
+GoogleAnalyticsObject: "ga"
+clearImmediate: function()
+clearInterval: function()
+clearTimeout: function()
+console (getter): function()
+ga: function()
+global: Object {Buffer: , …}
+process: process {EventEmitter: , …}
+root: Object {Buffer: , …}
+setImmediate: function()
+setInterval: function()
+setTimeout: function()
+...
+process: process
+EventEmitter: function()
+_debugEnd: function()
+_debugPause: function()
+_debugProcess: function()
+_events: Object {newListener: , …}
+_eventsCount: 3
+_exiting: false
+_fatalException: function()
+_getActiveHandles: function()
+_getActiveRequests: function()
+_kill: function()
+_linkedBinding: function()
+_maxListeners: undefined
+_needImmediateCallback: false
+_rawDebug: function()
+_setupDomainUse: function()
+_startProfilerIdleNotifier: function()
+_stopProfilerIdleNotifier: function()
+_tickCallback: function()
+_tickDomainCallback: function()
+abort: function()
+arch: "x64"
+argv: Array ["/usr/local/bin/node", …]
+assert: function()
+binding: function()
+chdir: function()
+config: Object {target_defaults: , …}
+cwd: function()
+debugPort: 5858
+dlopen: function()
+domain: null
+env:  {DEBIAN_FRONTEND: "noninteractive", …}
+execArgv: Array []
+execPath: "/usr/local/bin/node"
+exit: function()
+features: Object {debug: false, …}
+getegid: function()
+geteuid: function()
+getgid: function()
+getgroups: function()
+getuid: function()
+hrtime: function()
+initgroups: function()
+kill: function()
+mainModule: Module {children: , …}
+memoryUsage: function()
+moduleLoadList: Array ["Binding contextify", …]
+nextTick: function()
+openStdin: function()
+pid: 1
+platform: "linux"
+reallyExit: function()
+release: Object {headersUrl: "https://nodejs.org/down…e-v4.4.5-headers.tar.gz", …}
+setegid: function()
+seteuid: function()
+setgid: function()
+setgroups: function()
+setuid: function()
+stderr (getter): function()
+stdin (getter): function()
+stdout (getter): function()
+title: "node"
+umask: function()
+uptime: function()
+version: "v4.4.5"
+versions: Object {ares: "1.10.1-DEV", …}
+process Prototype
+...
+root: Object
+Buffer: function()
+GLOBAL: Object
+Buffer: function()
+GLOBAL: Object {Buffer: , …}
+GoogleAnalyticsObject: "ga"
+clearImmediate: function()
+clearInterval: function()
+clearTimeout: function()
+console (getter): function()
+ga: function()
+global: Object {Buffer: , …}
+process: process {EventEmitter: , …}
+root: Object {Buffer: , …}
+setImmediate: function()
+setInterval: function()
+setTimeout: function()
+...
+GoogleAnalyticsObject: "ga"
+clearImmediate: function()
+clearInterval: function()
+clearTimeout: function()
+console (getter): function()
+ga: function()
+global: Object {Buffer: , …}
+process: process {EventEmitter: , …}
+root: Object {Buffer: , …}
+setImmediate: function()
+setInterval: function()
+setTimeout: function()
+...
+setImmediate: function()
+name: ""
+prototype:  {}
+Function Prototype
+setInterval: function()
+name: ""
+prototype:  {}
+Function Prototype
+setTimeout: function()
+name: ""
+prototype:  {}
+Function Prototype
+...
 
 
 	  
