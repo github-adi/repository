@@ -1,0 +1,120 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+https://jsfiddle.net/adinugroho/dw2se3kr/7/embed/js,html,css,result/dark/:
+-Via Node.js:
+> (function() {
+...   var createEmbedFrame;
+...
+...   createEmbedFrame = function() {
+...     var currentSlug, iframe, listeners, setHeight, target, uid, uriEmbedded,
+ uriOriginal;
+...     uid = "JSFEMB_" + (~~(new Date().getTime() / 86400000));
+...     uriOriginal = "https://jsfiddle.net/adinugroho/dw2se3kr/7/embed/js,html,
+css,result/dark/";
+SyntaxError: Unexpected end of input
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:236:25)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+>     uriEmbedded = "https://jsfiddle.net/adinugroho/dw2se3kr/7/embedded/js,html
+,css,result/dark/";
+'https://jsfiddle.net/adinugroho/dw2se3kr/7/embedded/js,html,css,result/dark/'
+>     currentSlug = "dw2se3kr";
+'dw2se3kr'
+>     target =Object("script[src*='" + uriOriginal + "']");
+ReferenceError: uriOriginal is not defined
+    at repl:1:34
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+>     iframe = Object("iframe");
+[String: 'iframe']
+>     iframe.src = uriEmbedded;
+'https://jsfiddle.net/adinugroho/dw2se3kr/7/embedded/js,html,css,result/dark/'
+>     iframe.id = uid;
+ReferenceError: uid is not defined
+    at repl:1:13
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+>     iframe.width = "100%";
+'100%'
+>     iframe.height = "0";
+'0'
+>     iframe.frameBorder = "0";
+'0'
+>     iframe.allowtransparency = true;
+true
+>     iframe.sandbox = "allow-forms allow-popups allow-scripts allow-same-origin
+";
+'allow-forms allow-popups allow-scripts allow-same-origin'
+>     Object(iframe, target.nextSibling);
+ReferenceError: target is not defined
+    at repl:1:16
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+>     setHeight = function(data) {
+...       if (data.slug === currentSlug) {
+.....         return iframe.height = data.height;
+.....       }
+...     };
+[Function]
+>     listeners = (function(_this) {
+...       return function(event) {
+.....         var data, eventName;
+.....         eventName = event.data[0];
+.....         data = event.data[1];
+.....         switch (eventName) {
+.......           case "embed":
+.......             return setHeight(data);
+.......         }
+.....       };
+...     })(this);
+[Function]
+>     return setHeight("message", listeners, false);
+SyntaxError: Illegal return statement
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:236:25)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+>   };
+...
+...   setTimeout(createEmbedFrame, 5);
+...
+... }).call(this);
+...
+-Via:
+https://tonicdev.com/alph4/delta:
+undefined.
