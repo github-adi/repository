@@ -265,3 +265,19 @@ Object
 account: "Jlb5Gx"
 selector: ".CHANGE_THIS"
 ...
+-Via Node.js:
+> var _timing = { start: +new Date }
+undefined
+>
+-Via:
+file:///C:/Users/Axioo/Favorites/tonic.html:
+
+var _timing = { start: +new Date }
+1
+var _timing = { start: +new Date }
+Save on
+TonicNode 4runhelp
+running
+Object
+start: 1470852449346
+...
