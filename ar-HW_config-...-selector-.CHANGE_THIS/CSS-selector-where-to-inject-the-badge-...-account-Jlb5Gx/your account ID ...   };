@@ -523,3 +523,6 @@ gram Files\\nodejs\\;C:\\Users\\Axioo\\AppData\\Roaming\\npm',
 -Via:
 https://tonicdev.com/alph4/delta:
 false
+> global.adsEnabled = true;
+true
+>
