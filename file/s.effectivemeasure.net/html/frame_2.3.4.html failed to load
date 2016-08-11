@@ -1,0 +1,1472 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+-Via Google Chrome:
+file://s.effectivemeasure.net/html/frame_2.3.4.html failed to load
+document
+#document<html>​<head>​</head>​<body>​<iframe id=​"b06040a1-8d8d-b46d-0d68-c1daaf58e7d9" width=​"0" height=​"0" title=​"empty" src=​"file:​/​/​s.effectivemeasure.net/​html/​frame_2.3.4.html" style=​"display:​ none;​">​#document<!DOCTYPE html><html i18n-values=​"dir:​textdirection;​lang:​language" subframe dir=​"ltr" lang=​"en" i18n-processed>​<head>​<meta charset=​"utf-8">​<meta name=​"viewport" content=​"width=device-width, initial-scale=1.0,
+                                 maximum-scale=1.0, user-scalable=no">​<title i18n-content=​"title">​file://s.effectivemeasure.net/html/frame_2.3.4.html failed to load​</title>​<style>​/* Copyright 2014 The Chromium Authors. All rights reserved.
+   Use of this source code is governed by a BSD-style license that can be
+   found in the LICENSE file. */
+
+a {
+  color: #585858;
+}
+
+.bad-clock .icon {
+  background-image: -webkit-image-set(
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAFo0lEQVR4Xu3cS1OTVxwG8Ha6dsZNt/0S7ozX+wUSGKN7ycIvkJ2OiNcdbvwMfABXLS1VvLXFSMWUgFAh1oJICCEGq8UFp8+fPu87J4S3vrmcvIfOceaZMKOSnN/8z/+c95Yv3B8XFxcXFxcXFzNRZ89+rZLJJNKLDCAZdfp0Hini5zWJ/Izk5e+QAf7bpPzf/yvKLkD0I1lArCOqwazL70D65Xdub5RUagcA0kDJCYCJ8Hen5b22D8y5czvVmTN9gCkRwHzwXvKe8t72wij1JWB6AFMIBDAPVZDPIJ/Fth7zDWAeESD64LPIZ7ICBwAxZBFRlmURiUWLk0ymuCwrG8NtQyqKKfUVYG4RwP7gs8pnbhsOAO4gapvlTluQzFaO+Uoy3nNMAayurlalcOqUKaSUudUKTa9dQN/t3m0EiWOItX6fw6W8nUCDyFJHh5ktAMbUuh0yN4HtBPpWgGIxNYQUTSBhTC3ZccvW3QNoawUR6Afk7p49ZpAwtuYPPHlsFUkFEehHAA0jy61GwthkjM1UTx8BIq2gIeDcQ+7v3atKnZ2trqK+xs/n8JRFVBUEJL+CBGgYQD/t369WWomEMTZ0PgkAaQ8g6ik2RJyH+/apxwD6BSm3tpLS9QPxTGDUFTQkTZrT6wGApIJGkKcHD6p38XjLzkzWfw6ZADb0oHvAEaBHAPpZKohAv7YSCWOup3r6CRBpBX3v9R+pHuSxAB04oDKI4EjGDh1qDRLGXA9Q1iagYQFigxagJwR6BpwxptIsEsYc+roVANajBhpkcxag+3qDBs5TRMd5jowfPtws0rqMPUz1JAkQbQ8i0F1vBWP/GQHOqEwvgWGywPmNWW0GCWMPA9RrA9Cg339YPQR6AhwBGtuEM47kjhxRE0jDSBh7GKABC4CqGzSBZHplNCDA6PGBXhw9qt4nEo0ADYQBytgCJLvnB97yLs2ZQM+Q59WV4+NM8nWqESSMPcwOOm8BEA8v2KC5QcxIgxYgTq0sgSY8HFaP4Ewjvx87Vi9SPgxQ0QYgHqD6q9cIK2jU7z2sHIY4NUAzyF/hkYphptiaDUBjFy6oYa//aLtnArHn1FaOjvMSkdfZsEgY+7YBqpTLKnvxonrI/jPiTS/ijBPHAxKYFxrONDLD5I8f33j9AKQQQHZOsaVr1wSlBmkcSN7hxagGlPtM5Xg4swR6xXwGqWhnk2aWr1/fEmni0iUfiNPLX84nQ+L8wbw+ceK/kPKGlnnzSFNA8nbPOQBNalOKOEw1DiMwfuaQj11dDS7z3ChGmVIA0nRvr8oCaKPvbMJ5ycxqOLObKudP4syfPCmpRcLYDRxqmMlKANLM5cvSf/zqmUI4rQik9ZwAnDnkDbKA/K0jYeyhD1ZtRnoFJKxSWuVwWjHEERjiyCsrR8N5iyu3i4iPhLEbON1hNuUApNdXrgAooHJqgHQchDiSApE+dXXxdIeBE2am8+7GjS2R5oBU1ZCDp5WfBR2HweVtueaWNXDKNXqkeSARRlutiMP404pZJJCHU0RwKanf8El786kEIL0BEisnsOfoOJICIzjLSLmjY5fFl33CZ/XmzSCkwMqZD5hWgkOgnIELh/Yhvb16Vc0RqXa1Ympx1EoikTZw6TnavA9AWujpERgdh0B+5bAp+72npBKJHQZuXrAPqXD7dlDlEIdVw+BGCKmePgO3v9iHBJzaymF0nCUNB9f3C6q7e6eBG6jsyofz57V9DrOpIRc0GMkKUuns7DFwC56dwYGnvpTX9hzGwynF47wFz8BNnLYGx1ScUn64WlXjlOPxxY8Yk6HbgO1H0nsOo+OsVRKJmNEbyW3PGpAAhGg9hwFOyj2KQCR/WjG4TeaWe5hlE5LAlBG8bvUwi3sc6lN390blGMBxD9S5RzINxD3U6x4Ld18s4L6awt64LzdxX4/zDxj9/IEueAvhAAAAAElFTkSuQmCC) 1x,
+      url(data:image/png;base64,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) 2x);
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #646464;
+}
+
+body.safe-browsing {
+  background-color: rgb(206, 52, 38);
+  color: white;
+}
+
+button {
+  -webkit-user-select: none;
+  background: rgb(66, 133, 244);
+  border: 0;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-size: .875em;
+  margin: 0;
+  padding: 10px 24px;
+  transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[dir='rtl'] button {
+  float: left;
+}
+
+button:active {
+  background: rgb(50, 102, 213);
+  outline: 0;
+}
+
+button:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .50);
+}
+
+#debugging {
+  display: inline;
+  overflow: auto;
+}
+
+.debugging-content {
+  line-height: 1em;
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+.debugging-title {
+  font-weight: bold;
+}
+
+#details {
+  color: #696969;
+  margin: 45px 0 50px;
+}
+
+#details p:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+#details-button {
+  background: inherit;
+  border: 0;
+  float: none;
+  margin: 0;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+#details-button:hover {
+  box-shadow: inherit;
+  text-decoration: underline;
+}
+
+.error-code {
+  color: #696969;
+  display: inline;
+  font-size: .86667em;
+  margin-top: 15px;
+  opacity: .5;
+  text-transform: uppercase;
+}
+
+#error-debugging-info {
+  font-size: 0.8em;
+}
+
+h1 {
+  color: #333;
+  font-size: 1.6em;
+  font-weight: normal;
+  line-height: 1.25em;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 125%;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 72px;
+  margin: 0 0 40px;
+  width: 72px;
+}
+
+input[type=checkbox] {
+  opacity: 0;
+}
+
+input[type=checkbox]:focus ~ .checkbox {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.interstitial-wrapper {
+  box-sizing: border-box;
+  font-size: 1em;
+  line-height: 1.6em;
+  margin: 100px auto 0;
+  max-width: 600px;
+  width: 100%;
+}
+
+#main-message > p {
+  display: inline;
+}
+
+#extended-reporting-opt-in {
+  font-size: .875em;
+  margin-top: 39px;
+}
+
+#extended-reporting-opt-in label {
+  position: relative;
+}
+
+.nav-wrapper {
+  margin-top: 51px;
+}
+
+.nav-wrapper::after {
+  clear: both;
+  content: '';
+  display: table;
+  width: 100%;
+}
+
+.safe-browsing :-webkit-any(
+    a, #details, #details-button, h1, h2, p, .small-link) {
+  color: white;
+}
+
+.safe-browsing button {
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.safe-browsing button:active {
+  background-color: rgba(255, 255, 255, .25);
+}
+
+.safe-browsing button:hover {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+.safe-browsing .error-code {
+  display: none;
+}
+
+.safe-browsing .icon {
+  background-image: -webkit-image-set(
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAACFlBMVEX////19fX////////39/f39/f29vb09PQAAAD8/Pz29vbu7u7t7e3bRDfv7+/r6+vcRTjq6ur09PTy8vL86efp6en8/Pzz8/Pw8PDqUEPj4+Ps7OzdRjnfRzrx8fHdRTjl5eXf39/aQzb7+/ve3t7mTUDSPTDpT0L19fX////gSDvZVEneRjnkSz76+vrm5ubVPzLZQjXTPjHKNirNOCzn1dPrUEPoTkHbVkvOOi3jSj3QOy7RPC/o6Ojd3d3cRDfeRzni4uL39/fqUEL29vb5+fntZlrZxsTPOi3RT0TXVEjcV0zWQDPlYFTWU0f86ejYQjX96ejoYVb14uH96ujhSTzUPjHUUUb14uDq19bk5OTlTD/n5+fMOCva2trm1NLp1tXey8riSTziSj3wfHLZ2dnYxcPrZFnQTkLTUEXnTUDaVUrXQTTKNyruZ1rNOSzQOy/…</style>​<style>​/* Copyright 2013 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
+
+/* Don't use the main frame div when the error is in a subframe. */
+html[subframe] #main-frame-error {
+  display: none;
+}
+
+/* Don't use the subframe error div when the error is in a main frame. */
+html:not([subframe]) #sub-frame-error {
+  display: none;
+}
+
+#diagnose-button {
+  -webkit-margin-start: 0;
+  float: none;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  word-wrap: break-word;
+}
+
+h1 span {
+  font-weight: 500;
+}
+
+h2 {
+  color: #666;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+a {
+  color: rgb(17, 85, 204);
+  text-decoration: none;
+}
+
+.icon {
+  -webkit-user-select: none;
+  display: inline-block;
+}
+
+.icon-generic {
+  /**
+   * Can't access chrome://theme/IDR_ERROR_NETWORK_GENERIC from an untrusted
+   * renderer process, so embed the resource manually.
+   */
+  content: -webkit-image-set(
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABIAQMAAABvIyEEAAAABlBMVEUAAABTU1OoaSf/AAAAAXRSTlMAQObYZgAAAENJREFUeF7tzbEJACEQRNGBLeAasBCza2lLEGx0CxFGG9hBMDDxRy/72O9FMnIFapGylsu1fgoBdkXfUHLrQgdfrlJN1BdYBjQQm3UAAAAASUVORK5CYII=) 1x,
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQAQMAAADdiHD7AAAABlBMVEUAAABTU1OoaSf/AAAAAXRSTlMAQObYZgAAAFJJREFUeF7t0cENgDAMQ9FwYgxG6WjpaIzCCAxQxVggFuDiCvlLOeRdHR9yzjncHVoq3npu+wQUrUuJHylSTmBaespJyJQoObUeyxDQb3bEm5Au81c0pSCD8HYAAAAASUVORK5CYII=) 2x);
+}
+
+.icon-offline {
+  content: -webkit-image-set(
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABIAQMAAABvIyEEAAAABlBMVEUAAABTU1OoaSf/AAAAAXRSTlMAQObYZgAAAGxJREFUeF7tyMEJwkAQRuFf5ipMKxYQiJ3Z2nSwrWwBA0+DQZcdxEOueaePp9+dQZFB7GpUcURSVU66yVNFj6LFICatThZB6r/ko/pbRpUgilY0Cbw5sNmb9txGXUKyuH7eV25x39DtJXUNPQGJtWFV+BT/QAAAAABJRU5ErkJggg==) 1x,
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQBAMAAAAVaP+LAAAAGFBMVEUAAABTU1NNTU1TU1NPT09SUlJSUlJTU1O8B7DEAAAAB3RSTlMAoArVKvVgBuEdKgAAAJ1JREFUeF7t1TEOwyAMQNG0Q6/UE+RMXD9d/tC6womIFSL9P+MnAYOXeTIzMzMzMzMzaz8J9Ri6HoITmuHXhISE8nEh9yxDh55aCEUoTGbbQwjqHwIkRAEiIaG0+0AA9VBMaE89Rogeoww936MQrWdBr4GN/z0IAdQ6nQ/FIpRXDwHcA+JIJcQowQAlFUA0MfQpXLlVQfkzR4igS6ENjknm/wiaGhsAAAAASUVORK5CYII=) 2x);
+  position: relative;
+}
+
+.icon-disabled {
+  content: -webkit-image-set(
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAABICAMAAAAZF4G5AAAABlBMVEVMaXFTU1OXUj8tAAAAAXRSTlMAQObYZgAAASZJREFUeAHd11Fq7jAMRGGf/W/6PoWB67YMqv5DybwG/CFjRuR8JBw3+ByiRjgV9W/TJ31P0tBfC6+cj1haUFXKHmVJo5wP98WwQ0ZCbfUc6LQ6VuUBz31ikADkLMkDrfUC4rR6QGW+gF6rx7NaHWCj1Y/W6lf4L7utvgBSt3rBFSS/XBMPUILcJINHCBWYUfpWn4NBi1ZfudIc3rf6/NGEvEA+AsYTJozmXemjXeLZAov+mnkN2HfzXpMSVQDnGw++57qNJ4D1xitA2sJ+VAWMygSEaYf2mYPTjZfk2K8wmP7HLIH5Mg4/pP+PEcDzUvDMvYbs/2NWwPO5vBdMZE4EE5UTQLiBFDaUlTDPBRoJ9HdAYIkIo06og3BNXtCzy7zA1aXk5x+tJARq63eAygAAAABJRU5ErkJggg==) 1x,
+      url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAACQAQMAAAArwfVjAAAABlBMVEVMaXFTU1OXUj8tAAAAAXRSTlMAQObYZgAAAYdJREFUeF7F1EFqwzAUBNARAmVj0FZe5QoBH6BX+dn4GlY2PYNzGx/A0CvkCIJuvIraKJKbgBvzf2g62weDGD7CYggpfFReis4J0ey9EGFIiEQQojFSlA9kSIiqd0KkFjKsewgRbStEN19mxUPTtmW9HQ/h6tyqNQ8NlSMZdzyE6qkoE0trVYGFm0n1WYeBhduzwbwBC7voS+vIxfeMjeaiLxsMMtQNwMPtuew+DjzcTHk8YMfDknEcIUOtf2lVfgVH3K4Xv5PRYAXRVMtItIJ3rfaCIVn9DsTH2NxisAVRex2Hh3hX+/mRUR08bAwPEYsI51ZxWH4Q0SpicQRXeyEaIug48FEdegARfMz/tADVsRciwTAxW308ehmC2gLraC+YCbV3QoTZexa+zegAEW5PhhgYfmbvJgcRqngGByOSXdFJcLk2JeDPEN0kxe1JhIt5FiFA+w+ItMELsUyPF2IaJ4aILqb4FbxPwhImwj6JauKgDUCYaxmYIsd4KXdMjIC9ItB5Bn4BNRwsG0XM2nwAAAAASUVORK5CYII=) 2x);
+  width: 112px;
+}
+
+.error-code {
+  display: block;
+  font-size: .8em;
+}
+
+#content-top {
+  margin: 20px;
+}
+
+#help-box-inner {
+  background-color: #f9f9f9;
+  border-top: 1px solid #EEE;
+  color: #444;
+  padding: 20px;
+  text-align: start;
+}
+
+.hidden {
+  display: none;
+}
+
+#suggestion {
+  margin-top: 15px;
+}
+
+#suggestions-list p {
+  -webkit-margin-after: 0;
+}
+
+#suggestions-list ul {
+  margin-top: 0;
+}
+
+.single-suggestion {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#short-suggestion {
+  margin-top: 5px;
+}
+
+#sub-frame-error-details {
+
+  color: #8F8F8F;
+/* Not done on mobile for performance reasons. */
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+[jscontent=hostName],
+[jscontent=failedUrl] {
+  overflow-wrap: break-word;
+}
+
+#search-container {
+  /* Prevents a space between controls. */
+  display: flex;
+  margin-top: 20px;
+}
+
+#search-box {
+  border: 1px solid #cdcdcd;
+  flex-grow: 1;
+  font-size: 1em;
+  height: 26px;
+  margin-right: 0;
+  padding: 1px 9px;
+}
+
+#search-box:focus {
+  border: 1px solid rgb(93, 154, 255);
+  outline: none;
+}
+
+#search-button {
+  border: none;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  box-shadow: none;
+  display: flex;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+#search-image {
+  content:
+      -webkit-image-set(
+          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAQAAAB+HTb/AAAArElEQVR4Xn3NsUoCUBzG0XvB3U0chR4geo5qihpt6gkCx0bXFsMERWj2KWqIanAvmlUUoQapwU6g4l8H5bd9Z/iSPS0hu/RqZqrncBuzLl7U3Rn4cSpQFTeroejJl1Lgs7f4ceDPdeBMXYp86gaONYJkY83AnqHiGk9wHnjk16PKgo5N9BUCkzPf5j6M0PfuVg5MymoetFwoaKAlB26WdXAvJ7u5mezitqtkT//7Sv/u96CaLQAAAABJRU5ErkJggg==) 1x,
+          url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAeCAQAAACVzLYUAAABYElEQVR4Xr3VMUuVURzH8XO98jgkGikENkRD0KRGDUVDQy0h2SiC4IuIiktL4AvQt1CDBJUJwo1KXXS6cWdHw7tcjWwoC5Hrx+UZgnNO5CXiO/75jD/+QZf9MzjskVU7DrU1zRv9G9ir5hsA4Nii83+GA9ZI1nI1D6tWAE1TRlQMuuuFDthzMQefgo4nKr+f3dIGDdUUHPYD1ISoMQdgJgUfgqaKEOcxWE/BVTArJBvwC0cGY7gNLgiZNsD1GP4EPVn4EtyLYRuczcJ34HYMP4E7GdajDS7FcB48z8AJ8FmI4TjouBkzZ2yBuRQMlsButIZ+dfDVUBqOaIHvavpLVHXfFmAqv45r9gEHNr3y3hcAfLSgSMPgiiZR+6Z9AMuKNAwqpjUcA2h55pxgAfBWkYRlQ254YMJloaxPHbCkiGCymL5RlLA7GnRDXyuC7uhicLoKdRyaDE5Pl00K//93nABqPgBDK8sfWgAAAABJRU5ErkJggg==) 2x);
+  margin: auto;
+}
+
+.secondary-button {
+  -webkit-margin-end: 16px;
+  background: #d9d9d9;
+  color: #696969;
+}
+
+.snackbar {
+  background: #323232;
+  border-radius: 2px;
+  bottom: 24px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: .87em;
+  left: 24px;
+  max-width: 568px;
+  min-width: 288px;
+  opacity: 0;
+  padding: 16px 24px 12px;
+  position: fixed;
+  transform: translateY(90px);
+  will-change: opacity, transform;
+  z-index: 999;
+}
+
+.snackbar-show {
+  -webkit-animation:
+    show-snackbar .25s cubic-bezier(0.0, 0.0, 0.2, 1) forwards,
+    hide-snackbar .25s cubic-bezier(0.4, 0.0, 1, 1) forwards 5s;
+}
+
+@-webkit-keyframes show-snackbar {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes hide-snackbar {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(90px);
+  }
+}
+
+.suggestions {
+  margin-top: 18px;
+}
+
+.suggestion-header {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.suggestion-body {
+  color: #777;
+}
+
+/* Increase line height at higher resolutions. */
+@media (min-width: 641px) and (min-height: 641px) {
+  #help-box-inner {
+    line-height: 18px;
+  }
+}
+
+/* Decrease padding at low sizes. */
+@media (max-width: 640px), (max-height: 640px) {
+  h1 {
+    margin: 0 0 15px;
+  }
+  #content-top {
+    margin: 15px;
+  }
+  #help-box-inner {
+    padding: 20px;
+  }
+  .suggestions {
+    margin-top: 10px;
+  }
+  .suggestion-header {
+    margin-bottom: 0;
+  }
+}
+
+/* Don't allow overflow when in a subframe. */
+html[subframe] body {
+  overflow: hidden;
+}
+
+#sub-frame-error {
+  -webkit-align-items: center;
+  background-color: #DDD;
+  display: -webkit-flex;
+  -webkit-flex-flow: column;
+  height: 100%;
+  -webkit-justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: background-color .2s ease-in-out;
+  width: 100%;
+}
+
+#sub-frame-error:hover {
+  background-color: #EEE;
+}
+
+#sub-frame-error .icon-generic {
+  margin: 0 0 16px;
+}
+
+#sub-frame-error-details {
+  margin: 0 10px;
+  text-align: center;
+  visibility: hidden;
+}
+
+/* Show details only when hovering. */
+#sub-frame-error:hover #sub-frame-error-details {
+  visibility: visible;
+}
+
+/* If the iframe is too small, always hide the error code. */
+/* TODO(mmenke): See if overflow: no-display works better, once supported. */
+@media (max-width: 200px), (max-height: 95px) {
+  #sub-frame-error-details {
+    display: none;
+  }
+}
+
+/* Adjust icon for small embedded frames in apps. */
+@media (max-height: 100px) {
+  #sub-frame-error .icon-generic {
+    height: auto;
+    margin: 0;
+    padding-top: 0;
+    width: 25px;
+  }
+}
+
+/* details-button is special; it's a <button> element that looks like a link. */
+#details-button {
+  box-shadow: none;
+  min-width: 0;
+}
+
+/* Styles for platform dependent separation of controls and details button. */
+.suggested-left > #control-buttons,
+.suggested-left #stale-load-button,
+.suggested-right > #details-button {
+  float: left;
+}
+
+.suggested-right > #control-buttons,
+.suggested-right #stale-load-button,
+.suggested-left > #details-button {
+  float: right;
+}
+
+.suggested-left .secondary-button {
+  -webkit-margin-end: 0px;
+  -webkit-margin-start: 16px;
+}
+
+#details-button.singular {
+  float: none;
+}
+
+#buttons::after {
+  clear: both;
+  content: '';
+  display: block;
+  width: 100%;
+}
+
+/* Offline page */
+.offline {
+  transition: -webkit-filter 1.5s cubic-bezier(0.65, 0.05, 0.36, 1),
+              background-color 1.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+  will-change: -webkit-filter, background-color;
+}
+
+.offline.inverted {
+  -webkit-filter: invert(100%);
+  background-color: #000;
+}
+
+.offline .interstitial-wrapper {
+  color: #2b2b2b;
+  font-size: 1em;
+  line-height: 1.55;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.offline .runner-container {
+  height: 150px;
+  max-width: 600px;
+  overflow: hidden;
+  position: absolute;
+  top: 35px;
+  width: 44px;
+}
+
+.offline .runner-canvas {
+  height: 150px;
+  max-width: 600px;
+  opacity: 1;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.offline .controller {
+  background: rgba(247,247,247, .1);
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+ …</style>​<script>​// Copyright 2015 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+var mobileNav = false;
+
+/**
+ * For small screen mobile the navigation buttons are moved
+ * below the advanced text.
+ */
+function onResize() {
+  var helpOuterBox = document.querySelector('#details');
+  var mainContent = document.querySelector('#main-content');
+  var mediaQuery = '(min-width: 240px) and (max-width: 420px) and ' +
+      '(max-height: 736px) and (min-height: 401px) and ' +
+      '(orientation: portrait), (max-width: 736px) and ' +
+      '(max-height: 420px) and (min-height: 240px) and ' +
+      '(min-width: 421px) and (orientation: landscape)';
+
+  var detailsHidden = helpOuterBox.classList.contains('hidden');
+  var runnerContainer = document.querySelector('.runner-container');
+
+  // Check for change in nav status.
+  if (mobileNav != window.matchMedia(mediaQuery).matches) {
+    mobileNav = !mobileNav;
+
+    // Handle showing the top content / details sections according to state.
+    if (mobileNav) {
+      mainContent.classList.toggle('hidden', !detailsHidden);
+      helpOuterBox.classList.toggle('hidden', detailsHidden);
+      if (runnerContainer) {
+        runnerContainer.classList.toggle('hidden', !detailsHidden);
+      }
+    } else if (!detailsHidden) {
+      // Non mobile nav with visible details.
+      mainContent.classList.remove('hidden');
+      helpOuterBox.classList.remove('hidden');
+      if (runnerContainer) {
+        runnerContainer.classList.remove('hidden');
+      }
+    }
+  }
+}
+
+function setupMobileNav() {
+  window.addEventListener('resize', onResize);
+  onResize();
+}
+
+document.addEventListener('DOMContentLoaded', setupMobileNav);
+</script>​<script>​…​</script>​<script>​// Copyright (c) 2014 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+(function() {
+'use strict';
+/**
+ * T-Rex runner.
+ * @param {string} outerContainerId Outer containing element id.
+ * @param {Object} opt_config
+ * @constructor
+ * @export
+ */
+function Runner(outerContainerId, opt_config) {
+  // Singleton
+  if (Runner.instance_) {
+    return Runner.instance_;
+  }
+  Runner.instance_ = this;
+
+  this.outerContainerEl = document.querySelector(outerContainerId);
+  this.containerEl = null;
+  this.snackbarEl = null;
+  this.detailsButton = this.outerContainerEl.querySelector('#details-button');
+
+  this.config = opt_config || Runner.config;
+
+  this.dimensions = Runner.defaultDimensions;
+
+  this.canvas = null;
+  this.canvasCtx = null;
+
+  this.tRex = null;
+
+  this.distanceMeter = null;
+  this.distanceRan = 0;
+
+  this.highestScore = 0;
+
+  this.time = 0;
+  this.runningTime = 0;
+  this.msPerFrame = 1000 / FPS;
+  this.currentSpeed = this.config.SPEED;
+
+  this.obstacles = [];
+
+  this.started = false;
+  this.activated = false;
+  this.crashed = false;
+  this.paused = false;
+  this.inverted = false;
+  this.invertTimer = 0;
+  this.resizeTimerId_ = null;
+
+  this.playCount = 0;
+
+  // Sound FX.
+  this.audioBuffer = null;
+  this.soundFx = {};
+
+  // Global web audio context for playing sounds.
+  this.audioContext = null;
+
+  // Images.
+  this.images = {};
+  this.imagesLoaded = 0;
+
+  if (this.isDisabled()) {
+    this.setupDisabledRunner();
+  } else {
+    this.loadImages();
+  }
+}
+window['Runner'] = Runner;
+
+
+/**
+ * Default game width.
+ * @const
+ */
+var DEFAULT_WIDTH = 600;
+
+/**
+ * Frames per second.
+ * @const
+ */
+var FPS = 60;
+
+/** @const */
+var IS_HIDPI = window.devicePixelRatio > 1;
+
+/** @const */
+var IS_IOS = window.navigator.userAgent.indexOf('CriOS') > -1 ||
+    window.navigator.userAgent == 'UIWebViewForStaticFileContent';
+
+/** @const */
+var IS_MOBILE = window.navigator.userAgent.indexOf('Mobi') > -1 || IS_IOS;
+
+/** @const */
+var IS_TOUCH_ENABLED = 'ontouchstart' in window;
+
+/**
+ * Default game configuration.
+ * @enum {number}
+ */
+Runner.config = {
+  ACCELERATION: 0.001,
+  BG_CLOUD_SPEED: 0.2,
+  BOTTOM_PAD: 10,
+  CLEAR_TIME: 3000,
+  CLOUD_FREQUENCY: 0.5,
+  GAMEOVER_CLEAR_TIME: 750,
+  GAP_COEFFICIENT: 0.6,
+  GRAVITY: 0.6,
+  INITIAL_JUMP_VELOCITY: 12,
+  INVERT_FADE_DURATION: 12000,
+  INVERT_DISTANCE: 700,
+  MAX_CLOUDS: 6,
+  MAX_OBSTACLE_LENGTH: 3,
+  MAX_OBSTACLE_DUPLICATION: 2,
+  MAX_SPEED: 13,
+  MIN_JUMP_HEIGHT: 35,
+  MOBILE_SPEED_COEFFICIENT: 1.2,
+  RESOURCE_TEMPLATE_ID: 'audio-resources',
+  SPEED: 6,
+  SPEED_DROP_COEFFICIENT: 3
+};
+
+
+/**
+ * Default dimensions.
+ * @enum {string}
+ */
+Runner.defaultDimensions = {
+  WIDTH: DEFAULT_WIDTH,
+  HEIGHT: 150
+};
+
+
+/**
+ * CSS class names.
+ * @enum {string}
+ */
+Runner.classes = {
+  CANVAS: 'runner-canvas',
+  CONTAINER: 'runner-container',
+  CRASHED: 'crashed',
+  ICON: 'icon-offline',
+  INVERTED: 'inverted',
+  SNACKBAR: 'snackbar',
+  SNACKBAR_SHOW: 'snackbar-show',
+  TOUCH_CONTROLLER: 'controller'
+};
+
+
+/**
+ * Sprite definition layout of the spritesheet.
+ * @enum {Object}
+ */
+Runner.spriteDefinition = {
+  LDPI: {
+    CACTUS_LARGE: {x: 332, y: 2},
+    CACTUS_SMALL: {x: 228, y: 2},
+    CLOUD: {x: 86, y: 2},
+    HORIZON: {x: 2, y: 54},
+    MOON: {x: 484, y: 2},
+    PTERODACTYL: {x: 134, y: 2},
+    RESTART: {x: 2, y: 2},
+    TEXT_SPRITE: {x: 655, y: 2},
+    TREX: {x: 848, y: 2},
+    STAR: {x: 645, y: 2}
+  },
+  HDPI: {
+    CACTUS_LARGE: {x: 652, y: 2},
+    CACTUS_SMALL: {x: 446, y: 2},
+    CLOUD: {x: 166, y: 2},
+    HORIZON: {x: 2, y: 104},
+    MOON: {x: 954, y: 2},
+    PTERODACTYL: {x: 260, y: 2},
+    RESTART: {x: 2, y: 2},
+    TEXT_SPRITE: {x: 1294, y: 2},
+    TREX: {x: 1678, y: 2},
+    STAR: {x: 1276, y: 2}
+  }
+};
+
+
+/**
+ * Sound FX. Reference to the ID of the audio tag on interstitial page.
+ * @enum {string}
+ */
+Runner.sounds = {
+  BUTTON_PRESS: 'offline-sound-press',
+  HIT: 'offline-sound-hit',
+  SCORE: 'offline-sound-reached'
+};
+
+
+/**
+ * Key code mapping.
+ * @enum {Object}
+ */
+Runner.keycodes = {
+  JUMP: {'38': 1, '32': 1},  // Up, spacebar
+  DUCK: {'40': 1},  // Down
+  RESTART: {'13': 1}  // Enter
+};
+
+
+/**
+ * Runner event names.
+ * @enum {string}
+ */
+Runner.events = {
+  ANIM_END: 'webkitAnimationEnd',
+  CLICK: 'click',
+  KEYDOWN: 'keydown',
+  KEYUP: 'keyup',
+  MOUSEDOWN: 'mousedown',
+  MOUSEUP: 'mouseup',
+  RESIZE: 'resize',
+  TOUCHEND: 'touchend',
+  TOUCHSTART: 'touchstart',
+  VISIBILITY: 'visibilitychange',
+  BLUR: 'blur',
+  FOCUS: 'focus',
+  LOAD: 'load'
+};
+
+
+Runner.prototype = {
+  /**
+   * Whether the easter egg has been disabled. CrOS enterprise enrolled devices.
+   * @return {boolean}
+   */
+  isDisabled: function() {
+    return loadTimeData && loadTimeData.valueExists('disabledEasterEgg');
+  },
+
+  /**
+   * For disabled instances, set up a snackbar with the disabled message.
+   */
+  setupDisabledRunner: function() {
+    this.containerEl = document.createElement('div');
+    this.containerEl.className = Runner.classes.SNACKBAR;
+    this.containerEl.textContent = loadTimeData.getValue('disabledEasterEgg');
+    this.outerContainerEl.appendChild(this.containerEl);
+
+    // Show notification when the activation key is pressed.
+    document.addEventListener(Runner.events.KEYDOWN, function(e) {
+      if (Runner.keycodes.JUMP[e.keyCode]) {
+        this.containerEl.classList.add(Runner.classes.SNACKBAR_SHOW);
+        document.querySelector('.icon').classList.add('icon-disabled');
+      }
+    }.bind(this));
+  },
+
+  /**
+   * Setting individual settings for debugging.
+   * @param {string} setting
+   * @param {*} value
+   */
+  updateConfigSetting: function(setting, value) {
+    if (setting in this.config && value != undefined) {
+      this.config[setting] = value;
+
+      switch (setting) {
+        case 'GRAVITY':
+        case 'MIN_JUMP_HEIGHT':
+        case 'SPEED_DROP_COEFFICIENT':
+          this.tRex.config[setting] = value;
+          break;
+        case 'INITIAL_JUMP_VELOCITY':
+          this.tRex.setJumpVelocity(value);
+          break;
+        case 'SPEED':
+          this.setSpeed(value);
+          break;
+      }
+    }
+  },
+
+  /**
+   * Cache the appropriate image sprite from the page and get the sprite sheet
+   * definition.
+   */
+  loadImages: function() {
+    if (IS_HIDPI) {
+      Runner.imageSprite = document.getElementById('offline-resources-2x');
+      this.spriteDef = Runner.spriteDefinition.HDPI;
+    } else {
+      Runner.imageSprite = document.getElementById('offline-resources-1x');
+      this.spriteDef = Runner.spriteDefinition.LDPI;
+    }
+
+    this.init();
+  },
+
+  /**
+   * Load and decode base 64 encoded sounds.
+   */
+  loadSounds: function() {
+    if (!IS_IOS) {
+      this.audioContext = new AudioContext();
+
+      var resourceTemplate =
+          document.getElementById(this.config.RESOURCE_TEMPLATE_ID).content;
+
+      for (var sound in Runner.sounds) {
+        var soundSrc =
+            resourceTemplate.getElementById(Runner.sounds[sound]).src;
+        soundSrc = soundSrc.substr(soundSrc.indexOf(',') + 1);
+        var buffer = decodeBase64ToArrayBuffer(soundSrc);
+
+        // Async, so no guarantee of order in array.
+        this.audioContext.decodeAudioData(buffer, function(index, audioData) {
+            this.soundFx[index] = audioData;
+          }.bind(this, sound));
+      }
+    }
+  },
+
+  /**
+   * Sets the game speed. Adjust the speed accordingly if on a smaller screen.
+   * @param {number} opt_speed
+   */
+  setSpeed: function(opt_speed) {
+    var speed = opt_speed || this.currentSpeed;
+
+    // Reduce the speed on smaller mobile screens.
+    if (this.dimensions.WIDTH < DEFAULT_WIDTH) {
+      var mobileSpeed = speed * this.dimensions.WIDTH / DEFAULT_WIDTH *
+          this.config.MOBILE_SPEED_COEFFICIENT;
+      this.currentSpeed = mobileSpeed > speed ? speed : mobileSpeed;
+    } else if (opt_speed) {
+      this.currentSpeed = opt_speed;
+    }
+  },
+
+  /**
+   * Game initialiser.
+   */
+  init: function() {
+    // Hide the static icon.
+    document.querySelector('.' + Runner.classes.ICON).style.visibility =
+        'hidden';
+
+    this.adjustDimensions();
+    this.setSpeed();
+
+    this.containerEl = document.createElement('div');
+    this.containerEl.className = Runner.classes.CONTAINER;
+
+    // Player canvas container.
+    this.canvas = createCanvas(this.containerEl, this.dimensions.WIDTH,
+        this.dimensions.HEIGHT, Runner.classes.PLAYER);
+
+    this.canvasCtx = this.canvas.getContext('2d');
+    this.canvasCtx.fillStyle = '#f7f7f7';
+    this.canvasCtx.fill();
+    Runner.updateCanvasScaling(this.canvas);
+
+    // Horizon contains clouds, obstacles and the ground.
+    this.horizon = new Horizon(this.canvas, this.spriteDef, this.dimensions,
+        this.config.GAP_COEFFICIENT);
+
+    // Distance meter
+    this.distanceMeter = new DistanceMeter(this.canvas,
+          this.spriteDef.TEXT_SPRITE, this.dimensions.WIDTH);
+
+    // Draw t-rex
+    this.tRex = new Trex(this.canvas, this.spriteDef.TREX);
+
+    this.outerContainerEl.appendChild(this.containerEl);
+
+    if (IS_MOBILE) {
+      this.createTouchController();
+    }
+
+    this.startListening();
+    this.update();
+
+    window.addEventListener(Runner.events.RESIZE,
+        this.debounceResize.bind(this));
+  },
+
+  /**
+   * Create the touch controller. A div that covers whole screen.
+   */
+  createTouchController: function() {
+    this.touchController = document.createElement('div');
+    this.touchController.className = Runner.classes.TOUCH_CONTROLLER;
+  },
+
+  /**
+   * Debounce the resize event.
+   */
+  debounceResize: function() {
+    if (!this.resizeTimerId_) {
+      this.resizeTimerId_ =
+          setInterval(this.adjustDimensions.bind(this), 250);
+    }
+  },
+
+  /**
+   * Adjust game space dimensions on resize.
+   */
+  adjustDimensions: function() {
+    clearInterval(this.resizeTimerId_);
+    this.resizeTimerId_ = null;
+
+    var boxStyles = window.getComputedStyle(this.outerContainerEl);
+    var padding = Number(boxStyles.paddingLeft.substr(0,
+      …</script>​</head>​<body id=​"t" i18n-values=​".style.fontFamily:​fontfamily;​.style.fontSize:​fontsize" jstcache=​"0" class=​"neterror" style=​"font-family:​ "Segoe UI", Tahoma, sans-serif;​ font-size:​ 75%;​">​<div id=​"main-frame-error" class=​"interstitial-wrapper" jstcache=​"0">​<div id=​"main-content" jstcache=​"0">​…​</div>​<div id=​"buttons" class=​"nav-wrapper suggested-left" jstcache=​"0">​…​</div>​<div id=​"details" class=​"hidden" jstcache=​"0">​…​</div>​</div>​<div id=​"sub-frame-error" jstcache=​"0">​<!-- Show details when hovering over the icon, in case the details are
+         hidden because they're too large. --><img class=​"icon icon-generic" jseval=​"updateIconClass(this.classList, iconClass)​" jsvalues=​".title:​errorDetails" jstcache=​"1" title=​"The file or directory could not be found.">​<div id=​"sub-frame-error-details" jsvalues=​".innerHTML:​errorDetails" jstcache=​"2">​The file or directory could not be found.​</div>​</div>​<div id=​"offline-resources" jstcache=​"0">​<img id=​"offline-resources-1x" src=​"data:​image/​png;​base64,iVBOR…FUg1OaKSaqSkAAAAASUVORK5CYII=" jstcache=​"0">​<img id=​"offline-resources-2x" src=​"data:​image/​png;​base64,iVBOR…rmVNBFPg6WAAAAABJRU5ErkJggg==" jstcache=​"0">​<template id=​"audio-resources" jstcache=​"0">​#document-fragment<audio id=​"offline-sound-press" src=​"data:​audio/​mpeg;​base64,T2dn…HUxA4Tyi3ZtOwTfcbkBQ4DAImJ6AA" i18n-processed>​</audio>​<audio id=​"offline-sound-hit" src=​"data:​audio/​mpeg;​base64,T2dn…CAA0wQFMAiMtgo6AATVGAE0gADAQA" i18n-processed>​</audio>​<audio id=​"offline-sound-reached" src=​"data:​audio/​mpeg;​base64,T2dn…YmGziAIrZMgZ4l2nedkACHggIAA==" i18n-processed>​</audio>​</template>​</div>​<script jstcache=​"0">​// Copyright (c) 2012 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+/**
+ * @fileoverview This file defines a singleton which provides access to all data
+ * that is available as soon as the page's resources are loaded (before DOM
+ * content has finished loading). This data includes both localized strings and
+ * any data that is important to have ready from a very early stage (e.g. things
+ * that must be displayed right away).
+ */
+
+/** @type {!LoadTimeData} */ var loadTimeData;
+
+// Expose this type globally as a temporary work around until
+// https://github.com/google/closure-compiler/issues/544 is fixed.
+/** @constructor */
+function LoadTimeData() {}
+
+(function() {
+  'use strict';
+
+  LoadTimeData.prototype = {
+    /**
+     * Sets the backing object.
+     *
+     * Note that there is no getter for |data_| to discourage abuse of the form:
+     *
+     *     var value = loadTimeData.data()['key'];
+     *
+     * @param {Object} value The de-serialized page data.
+     */
+    set data(value) {
+      expect(!this.data_, 'Re-setting data.');
+      this.data_ = value;
+    },
+
+    /**
+     * Returns a JsEvalContext for |data_|.
+     * @returns {JsEvalContext}
+     */
+    createJsEvalContext: function() {
+      return new JsEvalContext(this.data_);
+    },
+
+    /**
+     * @param {string} id An ID of a value that might exist.
+     * @return {boolean} True if |id| is a key in the dictionary.
+     */
+    valueExists: function(id) {
+      return id in this.data_;
+    },
+
+    /**
+     * Fetches a value, expecting that it exists.
+     * @param {string} id The key that identifies the desired value.
+     * @return {*} The corresponding value.
+     */
+    getValue: function(id) {
+      expect(this.data_, 'No data. Did you remember to include strings.js?');
+      var value = this.data_[id];
+      expect(typeof value != 'undefined', 'Could not find value for ' + id);
+      return value;
+    },
+
+    /**
+     * As above, but also makes sure that the value is a string.
+     * @param {string} id The key that identifies the desired string.
+     * @return {string} The corresponding string value.
+     */
+    getString: function(id) {
+      var value = this.getValue(id);
+      expectIsType(id, value, 'string');
+      return /** @type {string} */ (value);
+    },
+
+    /**
+     * Returns a formatted localized string where $1 to $9 are replaced by the
+     * second to the tenth argument.
+     * @param {string} id The ID of the string we want.
+     * @param {...(string|number)} var_args The extra values to include in the
+     *     formatted output.
+     * @return {string} The formatted string.
+     */
+    getStringF: function(id, var_args) {
+      var value = this.getString(id);
+      if (!value)
+        return '';
+
+      var varArgs = arguments;
+      return value.replace(/\$[$1-9]/g, function(m) {
+        return m == '$$' ? '$' : varArgs[m[1]];
+      });
+    },
+
+    /**
+     * As above, but also makes sure that the value is a boolean.
+     * @param {string} id The key that identifies the desired boolean.
+     * @return {boolean} The corresponding boolean value.
+     */
+    getBoolean: function(id) {
+      var value = this.getValue(id);
+      expectIsType(id, value, 'boolean');
+      return /** @type {boolean} */ (value);
+    },
+
+    /**
+     * As above, but also makes sure that the value is an integer.
+     * @param {string} id The key that identifies the desired number.
+     * @return {number} The corresponding number value.
+     */
+    getInteger: function(id) {
+      var value = this.getValue(id);
+      expectIsType(id, value, 'number');
+      expect(value == Math.floor(value), 'Number isn\'t integer: ' + value);
+      return /** @type {number} */ (value);
+    },
+
+    /**
+     * Override values in loadTimeData with the values found in |replacements|.
+     * @param {Object} replacements The dictionary object of keys to replace.
+     */
+    overrideValues: function(replacements) {
+      expect(typeof replacements == 'object',
+             'Replacements must be a dictionary object.');
+      for (var key in replacements) {
+        this.data_[key] = replacements[key];
+      }
+    }
+  };
+
+  /**
+   * Checks condition, displays error message if expectation fails.
+   * @param {*} condition The condition to check for truthiness.
+   * @param {string} message The message to display if the check fails.
+   */
+  function expect(condition, message) {
+    if (!condition) {
+      console.error('Unexpected condition on ' + document.location.href + ': ' +
+                    message);
+    }
+  }
+
+  /**
+   * Checks that the given value has the given type.
+   * @param {string} id The id of the value (only used for error message).
+   * @param {*} value The value to check the type on.
+   * @param {string} type The type we expect |value| to be.
+   */
+  function expectIsType(id, value, type) {
+    expect(typeof value == type, '[' + value + '] (' + id +
+                                 ') is not a ' + type);
+  }
+
+  expect(!loadTimeData, 'should only include this file once');
+  loadTimeData = new LoadTimeData;
+})();
+</script>​<script jstcache=​"0">​loadTimeData.data = {"details":"Details","errorCode":"ERR_FILE_NOT_FOUND","errorDetails":"The file or directory could not be found.","fontfamily":"'Segoe UI', Tahoma, sans-serif","fontsize":"75%","heading":{"hostName":"s.effectivemeasure.net","msg":"Your file was not found"},"hideDetails":"Hide details","iconClass":"icon-generic","language":"en","reloadButton":{"msg":"Reload","reloadTrackingId":-1,"reloadUrl":"file://s.effectivemeasure.net/html/frame_2.3.4.html"},"suggestionsDetails":[],"suggestionsSummaryList":[],"suggestionsSummaryListHeader":"Try:","summary":{"dnsDefinition":"DNS is the network service that translates a website’s name to its Internet address.","failedUrl":"file://s.effectivemeasure.net/html/frame_2.3.4.html","hostName":"s.effectivemeasure.net","msg":"It may have been moved or deleted."},"textdirection":"ltr","title":"file://s.effectivemeasure.net/html/frame_2.3.4.html failed to load"};</script>​<script jstcache=​"0">​// Copyright (c) 2012 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+// // Copyright (c) 2012 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+/** @typedef {Document|DocumentFragment|Element} */
+var ProcessingRoot;
+
+/**
+ * @fileoverview This is a simple template engine inspired by JsTemplates
+ * optimized for i18n.
+ *
+ * It currently supports three handlers:
+ *
+ *   * i18n-content which sets the textContent of the element.
+ *
+ *     <span i18n-content="myContent"></span>
+ *
+ *   * i18n-options which generates <option> elements for a <select>.
+ *
+ *     <select i18n-options="myOptionList"></select>
+ *
+ *   * i18n-values is a list of attribute-value or property-value pairs.
+ *     Properties are prefixed with a '.' and can contain nested properties.
+ *
+ *     <span i18n-values="title:myTitle;.style.fontSize:fontSize"></span>
+ *
+ * This file is a copy of i18n_template.js, with minor tweaks to support using
+ * load_time_data.js. It should replace i18n_template.js eventually.
+ */
+
+var i18nTemplate = (function() {
+  /**
+   * This provides the handlers for the templating engine. The key is used as
+   * the attribute name and the value is the function that gets called for every
+   * single node that has this attribute.
+   * @type {!Object}
+   */
+  var handlers = {
+    /**
+     * This handler sets the textContent of the element.
+     * @param {!HTMLElement} element The node to modify.
+     * @param {string} key The name of the value in |data|.
+     * @param {!LoadTimeData} data The data source to draw from.
+     * @param {!Set<ProcessingRoot>} visited
+     */
+    'i18n-content': function(element, key, data, visited) {
+      element.textContent = data.getString(key);
+    },
+
+    /**
+     * This handler adds options to a <select> element.
+     * @param {!HTMLElement} select The node to modify.
+     * @param {string} key The name of the value in |data|. It should
+     *     identify an array of values to initialize an <option>. Each value,
+     *     if a pair, represents [content, value]. Otherwise, it should be a
+     *     content string with no value.
+     * @param {!LoadTimeData} data The data source to draw from.
+     * @param {!Set<ProcessingRoot>} visited
+     */
+    'i18n-options': function(select, key, data, visited) {
+      var options = data.getValue(key);
+      options.forEach(function(optionData) {
+        var option = typeof optionData == 'string' ?
+            new Option(optionData) :
+            new Option(optionData[1], optionData[0]);
+        select.appendChild(option);
+      });
+    },
+
+    /**
+     * This is used to set HTML attributes and DOM properties. The syntax is:
+     *   attributename:key;
+     *   .domProperty:key;
+     *   .nested.dom.property:key
+     * @param {!HTMLElement} element The node to modify.
+     * @param {string} attributeAndKeys The path of the attribute to modify
+     *     followed by a colon, and the name of the value in |data|.
+     *     Multiple attribute/key pairs may be separated by semicolons.
+     * @param {!LoadTimeData} data The data source to draw from.
+     * @param {!Set<ProcessingRoot>} visited
+     */
+    'i18n-values': function(element, attributeAndKeys, data, visited) {
+      var parts = attributeAndKeys.replace(/\s/g, '').split(/;/);
+      parts.forEach(function(part) {
+        if (!part)
+          return;
+
+        var attributeAndKeyPair = part.match(/^([^:]+):(.+)$/);
+        if (!attributeAndKeyPair)
+          throw new Error('malformed i18n-values: ' + attributeAndKeys);
+
+        var propName = attributeAndKeyPair[1];
+        var propExpr = attributeAndKeyPair[2];
+
+        var value = data.getValue(propExpr);
+
+        // Allow a property of the form '.foo.bar' to assign a value into
+        // element.foo.bar.
+        if (propName[0] == '.') {
+          var path = propName.slice(1).split('.');
+          var targetObject = element;
+          while (targetObject && path.length > 1) {
+            targetObject = targetObject[path.shift()];
+          }
+          if (targetObject) {
+            targetObject[path] = value;
+            // In case we set innerHTML (ignoring others) we need to recursively
+            // check the content.
+            if (path == 'innerHTML') {
+              for (var i = 0; i < element.children.length; ++i) {
+                processWithoutCycles(element.children[i], data, visited, false);
+              }
+            }
+          }
+        } else {
+          element.setAttribute(propName, /** @type {string} */(value));
+        }
+      });
+    }
+  };
+
+  var prefixes = [''];
+
+  // Only look through shadow DOM when it's supported. As of April 2015, iOS
+  // Chrome doesn't support shadow DOM.
+  if (Element.prototype.createShadowRoot)
+    prefixes.push('* /deep/ ');
+
+  var attributeNames = Object.keys(handlers);
+  var selector = prefixes.map(function(prefix) {
+    return prefix + '[' + attributeNames.join('], ' + prefix + '[') + ']';
+  }).join(', ');
+
+  /**
+   * Processes a DOM tree using a |data| source to populate template values.
+   * @param {!ProcessingRoot} root The root of the DOM tree to process.
+   * @param {!LoadTimeData} data The data to draw from.
+   */
+  function process(root, data) {
+    processWithoutCycles(root, data, new Set(), true);
+  }
+
+  /**
+   * Internal process() method that stops cycles while processing.
+   * @param {!ProcessingRoot} root
+   * @param {!LoadTimeData} data
+   * @param {!Set<ProcessingRoot>} visited Already visited roots.
+   * @param {boolean} mark Whether nodes should be marked processed.
+   */
+  function processWithoutCycles(root, data, visited, mark) {
+    if (visited.has(root)) {
+      // Found a cycle. Stop it.
+      return;
+    }
+
+    // Mark the node as visited before recursing.
+    visited.add(root);
+
+    var importLinks = root.querySelectorAll('link[rel=import]');
+    for (var i = 0; i < importLinks.length; ++i) {
+      var importLink = /** @type {!HTMLLinkElement} */(importLinks[i]);
+      if (!importLink.import) {
+        // Happens when a <link rel=import> is inside a <template>.
+        // TODO(dbeam): should we log an error if we detect that here?
+        continue;
+      }
+      processWithoutCycles(importLink.import, data, visited, mark);
+    }
+
+    var templates = root.querySelectorAll('template');
+    for (var i = 0; i < templates.length; ++i) {
+      var template = /** @type {HTMLTemplateElement} */(templates[i]);
+      if (!template.content)
+        continue;
+      processWithoutCycles(template.content, data, visited, mark);
+    }
+
+    var isElement = root instanceof Element;
+    if (isElement && root.webkitMatchesSelector(selector))
+      processElement(/** @type {!Element} */(root), data, visited);
+
+    var elements = root.querySelectorAll(selector);
+    for (var i = 0; i < elements.length; ++i) {
+      processElement(elements[i], data, visited);
+    }
+
+    if (mark) {
+      var processed = isElement ? [root] : root.children;
+      if (processed) {
+        for (var i = 0; i < processed.length; ++i) {
+          processed[i].setAttribute('i18n-processed', '');
+        }
+      }
+    }
+  }
+
+  /**
+   * Run through various [i18n-*] attributes and populate.
+   * @param {!Element} element
+   * @param {!LoadTimeData} data
+   * @param {!Set<ProcessingRoot>} visited
+   */
+  function processElement(element, data, visited) {
+    for (var i = 0; i < attributeNames.length; i++) {
+      var name = attributeNames[i];
+      var attribute = element.getAttribute(name);
+      if (attribute != null)
+        handlers[name](element, attribute, data, visited);
+    }
+  }
+
+  return {
+    process: process
+  };
+}());
+
+
+i18nTemplate.process(document, loadTimeData);
+</script>​<script jstcache=​"0">​// Copyright (c) 2012 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+// This file serves as a proxy to bring the included js file from /third_party
+// into its correct location under the resources directory tree, whence it is
+// delivered via a chrome://resources URL.  See ../webui_resources.grd.
+(function(){var i=null;function k(){return Function.prototype.call.apply(Array.prototype.slice,arguments)}function l(a,b){var c=k(arguments,2);return function(){return b.apply(a,c)}}function m(a,b){var c=new n(b);for(c.f=[a];c.f.length;){var e=c,d=c.f.shift();e.g(d);for(d=d.firstChild;d;d=d.nextSibling)d.nodeType==1&&e.f.push(d)}}function n(a){this.g=a}function o(a){a.style.display=""}function p(a){a.style.display="none"};var q=":",r=/\s*;\s*/;function s(){this.i.apply(this,arguments)}s.prototype.i=function(a,b){if(!this.a)this.a={};if(b){var c=this.a,e=b.a,d;for(d in e)c[d]=e[d]}else for(c in d=this.a,e=t,e)d[c]=e[c];this.a.$this=a;this.a.$context=this;this.d=typeof a!="undefined"&&a!=i?a:"";if(!b)this.a.$top=this.d};var t={$default:i},u=[];function v(a){for(var b in a.a)delete a.a[b];a.d=i;u.push(a)}function w(a,b,c){try{return b.call(c,a.a,a.d)}catch(e){return t.$default}}
+function x(a,b,c,e){if(u.length>0){var d=u.pop();s.call(d,b,a);a=d}else a=new s(b,a);a.a.$index=c;a.a.$count=e;return a}var y="a_",z="b_",A="with (a_) with (b_) return ",D={};function E(a){if(!D[a])try{D[a]=new Function(y,z,A+a)}catch(b){}return D[a]}function F(a){for(var b=[],a=a.split(r),c=0,e=a.length;c<e;++c){var d=a[c].indexOf(q);if(!(d<0)){var f;f=a[c].substr(0,d).replace(/^\s+/,"").replace(/\s+$/,"");d=E(a[c].substr(d+1));b.push(f,d)}}return b};var G="jsinstance",H="jsts",I="*",J="div",K="id";function L(){}var M=0,N={0:{}},P={},Q={},R=[];function S(a){a.__jstcache||m(a,function(a){T(a)})}var U=[["jsselect",E],["jsdisplay",E],["jsvalues",F],["jsvars",F],["jseval",function(a){for(var b=[],a=a.split(r),c=0,e=a.length;c<e;++c)if(a[c]){var d=E(a[c]);b.push(d)}return b}],["transclude",function(a){return a}],["jscontent",E],["jsskip",E]];
+function T(a){if(a.__jstcache)return a.__jstcache;var b=a.getAttribute("jstcache");if(b!=i)return a.__jstcache=N[b];for(var b=R.length=0,c=U.length;b<c;++b){var e=U[b][0],d=a.getAttribute(e);Q[e]=d;d!=i&&R.push(e+"="+d)}if(R.length==0)return a.setAttribute("jstcache","0"),a.__jstcache=N[0];var f=R.join("&");if(b=P[f])return a.setAttribute("jstcache",b),a.__jstcache=N[b];for(var h={},b=0,c=U.length;b<c;++b){var d=U[b],e=d[0],g=d[1],d=Q[e];d!=i&&(h[e]=g(d))}b=""+ ++M;a.setAttribute("jstcache",b);N[b]=
+h;P[f]=b;return a.__jstcache=h}function V(a,b){a.h.push(b);a.k.push(0)}function W(a){return a.c.length?a.c.pop():[]}
+L.prototype.e=function(a,b){var c=X(b),e=c.transclude;if(e)(c=Y(e))?(b.parentNode.replaceChild(c,b),e=W(this),e.push(this.e,a,c),V(this,e)):b.parentNode.removeChild(b);else if(c=c.jsselect){var c=w(a,c,b),d=b.getAttribute(G),f=!1;d&&(d.charAt(0)==I?(d=parseInt(d.substr(1),10),f=!0):d=parseInt(d,10));var h=c!=i&&typeof c=="object"&&typeof c.length=="number",e=h?c.length:1,g=h&&e==0;if(h)if(g)d?b.parentNode.removeChild(b):(b.setAttribute(G,"*0"),p(b));else if(o(b),d===i||d===""||f&&d<e-1){f=W(this);
+d=d||0;for(h=e-1;d<h;++d){var j=b.cloneNode(!0);b.parentNode.insertBefore(j,b);Z(j,c,d);g=x(a,c[d],d,e);f.push(this.b,g,j,v,g,i)}Z(b,c,d);g=x(a,c[d],d,e);f.push(this.b,g,b,v,g,i);V(this,f)}else d<e?(f=c[d],Z(b,c,d),g=x(a,f,d,e),f=W(this),f.push(this.b,g,b,v,g,i),V(this,f)):b.parentNode.removeChild(b);else c==i?p(b):(o(b),g=x(a,c,0,1),f=W(this),f.push(this.b,g,b,v,g,i),V(this,f))}else this.b(a,b)};
+L.prototype.b=function(a,b){var c=X(b),e=c.jsdisplay;if(e){if(!w(a,e,b)){p(b);return}o(b)}if(e=c.jsvars)for(var d=0,f=e.length;d<f;d+=2){var h=e[d],g=w(a,e[d+1],b);a.a[h]=g}if(e=c.jsvalues){d=0;for(f=e.length;d<f;d+=2)if(g=e[d],h=w(a,e[d+1],b),g.charAt(0)=="$")a.a[g]=h;else if(g.charAt(0)=="."){for(var g=g.substr(1).split("."),j=b,O=g.length,B=0,$=O-1;B<$;++B){var C=g[B];j[C]||(j[C]={});j=j[C]}j[g[O-1]]=h}else g&&(typeof h=="boolean"?h?b.setAttribute(g,g):b.removeAttribute(g):b.setAttribute(g,""+
+h))}if(e=c.jseval){d=0;for(f=e.length;d<f;++d)w(a,e[d],b)}e=c.jsskip;if(!e||!w(a,e,b))if(c=c.jscontent){if(c=""+w(a,c,b),b.innerHTML!=c){for(;b.firstChild;)e=b.firstChild,e.parentNode.removeChild(e);b.appendChild(this.j.createTextNode(c))}}else{c=W(this);for(e=b.firstChild;e;e=e.nextSibling)e.nodeType==1&&c.push(this.e,a,e);c.length&&V(this,c)}};function X(a){if(a.__jstcache)return a.__jstcache;var b=a.getAttribute("jstcache");if(b)return a.__jstcache=N[b];return T(a)}
+function Y(a,b){var c=document;if(b){var e=c.getElementById(a);if(!e){var e=b(),d=H,f=c.getElementById(d);if(!f)f=c.createElement(J),f.id=d,p(f),f.style.position="absolute",c.body.appendChild(f);d=c.createElement(J);f.appendChild(d);d.innerHTML=e;e=c.getElementById(a)}c=e}else c=c.getElementById(a);return c?(S(c),c=c.cloneNode(!0),c.removeAttribute(K),c):i}function Z(a,b,c){c==b.length-1?a.setAttribute(G,I+c):a.setAttribute(G,""+c)};window.jstGetTemplate=Y;window.JsEvalContext=s;window.jstProcess=function(a,b){var c=new L;S(b);c.j=b?b.nodeType==9?b:b.ownerDocument||document:document;var e=l(c,c.e,a,b),d=c.h=[],f=c.k=[];c.c=[];e();for(var h,g,j;d.length;)h=d[d.length-1],e=f[f.length-1],e>=h.length?(e=c,g=d.pop(),g.length=0,e.c.push(g),f.pop()):(g=h[e++],j=h[e++],h=h[e++],f[f.length-1]=e,g.call(c,j,h))};
+})()
+</script>​<script jstcache=​"0">​var tp = document.getElementById('t');jstProcess(loadTimeData.createJsEvalContext(), tp);</script>​</body>​</html>​</iframe>​<script type=​"text/​javascript" async src=​"http:​/​/​sg-cdn.effectivemeasure.net/​em.js">​</script>​<script type=​"text/​javascript">​        {
+            
+                var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+                em.src = ('https:' == document.location.protocol ? 'https://sg-ssl' : 'http://sg-cdn') + '.effectivemeasure.net/em.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+            }
+require(["mediator", "c.deferred"], function (mediator)
+        {
+            (function () {
+                var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+                em.src = ('https:' == document.location.protocol ? 'https://sg-ssl' : 'http://sg-cdn') + '.effectivemeasure.net/em.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+            })();
+			})();
+                
+                    
+</script>​<script type=​"text/​javascript" src=​"/​/​api.jollywallet.com/​affiliate/​client?p=16&dist=261&sub=chrome208" class=​"JOLLYWALLET_mainScript">​</script>​</body>​</html>​
+
