@@ -526,3 +526,44 @@ false
 > global.adsEnabled = true;
 true
 >
+-
+require(["mediator", "c.deferred"], function (mediator)
+        {
+            (function () {
+                var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+                em.src = ('https:' == document.location.protocol ? 'https://sg-ssl' : 'http://sg-cdn') + '.effectivemeasure.net/em.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+            })();
+
+                
+                    function effectiveMeasureAjaxBeacon()
+                    {
+                        // _em is emitted by effective measure beacon refer -http://goo.gl/NsQ9k
+                        if (window._em && window._em.trackAjaxPageview)
+                        {
+                            window._em.trackAjaxPageview();
+                        }
+                    }
+                    mediator.sub("thirdPartyTrackingUpdate", effectiveMeasureAjaxBeacon);
+                
+        });
+
+-Tonic:
+AssertionError: path must be a string
+actual: false
+expected: true
+generatedMessage: false
+message: "path must be a string"
+name: "AssertionError"
+operator: "=="
+AssertionError Prototype
+constructor: function()
+name: "AssertionError"
+Function Prototype
+Error Prototype
+constructor: function()
+message: ""
+name: "Error"
+toString: function()
+Object Prototype
+...
