@@ -1,0 +1,87 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+JSLint
+Read the instructions.
+Enjoy The Good Parts.
+Source
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+
+require(["mediator", "c.deferred"], function (mediator)
+        {
+            (function () {
+                var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+                em.src = ('https:' == document.location.protocol ? 'https://sg-ssl' : 'http://sg-cdn') + '.effectivemeasure.net/em.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+            })();
+			})();
+JSLintclear
+Warnings
+1.37This function needs a 'use strict' pragma.
+require(["mediator", "c.deferred"], function (mediator)
+1.47Unused 'mediator'.
+require(["mediator", "c.deferred"], function (mediator)
+3.14Don't wrap function literals in parens.
+            (function () {
+5.36Expected '===' and instead saw '=='.
+                em.src = ('https:' == document.location.protocol ? 'https://sg-ssl' : 'http://sg-cdn') + '.effectivemeasure.net/em.js';
+7.15Wrap an immediate function invocation in parentheses to assist the reader in understanding that the expression is the result of a function, and not the function itself.
+            })();
+Function Report
+global
+document, require
+1
+«mediator»(mediator)
+parameter
+mediator
+3
+«mediator»()
+variable
+em, s
+global
+document
+JSLint edition 2016-08-09
+Property Directive
+
+/*property
+    async, createElement, getElementsByTagName, insertBefore, location,
+    parentNode, protocol, src, type
+*/
+
+select propertyJSLintclearclear options
+Options
+Assume...
+in development
+ES6
+a browser
+CouchDB
+Node.js
+
+Fudge...
+First line number is 1
+Tolerate...
+bitwise operators
+eval
+for statement
+multiple vars
+single quote strings
+this
+whitespace mess
+Number...
+
+Maximum line length
+
+Maximum warnings
+Global variables...
+imported globals here
+
