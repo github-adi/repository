@@ -1,0 +1,141 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+require("module")
+-Via:
+https://tonicdev.com/alph4/57af4cf34e962a1200529a03:
+function Module()
+Module: function()
+Module: function()
+_cache: Object {}
+_debug: function()
+_extensions: Object {.js: , …}
+_findPath: function()
+_initPaths: function()
+_load: function()
+_nodeModulePaths: function()
+_pathCache: Object {{"request":"/app/index.js","paths":[""]}: "/app/index.js", …}
+_preloadModules: function()
+_realpathCache: Object {/app: "/app", …}
+_resolveFilename: function()
+_resolveLookupPaths: function()
+globalPaths: Array ["/root/.node_modules", …]
+requireRepl: function()
+runMain: function()
+wrap: function()
+wrapper: Array ["(function (exports, require, m…le, __filename, __dirname) { ", …]
+Function Prototype
+...
+_cache: Object
+Object Prototype
+_debug: function()
+name: ""
+prototype:  {}
+Function Prototype
+_extensions: Object
+.js: function()
+.json: function()
+.node: function()
+...
+_findPath: function()
+name: ""
+prototype:  {}
+Function Prototype
+_initPaths: function()
+name: ""
+prototype:  {}
+Function Prototype
+_load: function()
+name: ""
+prototype:  {}
+Function Prototype
+_nodeModulePaths: function()
+name: ""
+prototype:  {}
+Function Prototype
+_pathCache: Object
+{"request":"/app/index.js","paths":[""]}: "/app/index.js"
+{"request":"/app/system/node_modules/evaluator-connection","paths":[""]}: "/app/system/node_modules/evaluator…ction/lib/evaluator-connection.js"
+{"request":"/app/system/node_modules/evaluator-connection/build/Release/connection.node","paths":[""]}: "/app/system/node_modules/evaluator…ion/build/Release/connection.node"
+{"request":"/app/system/node_modules/file-type","paths":[""]}: "/app/system/node_modules/file-type/index.js"
+{"request":"/app/system/node_modules/object-description","paths":[""]}: "/app/system/node_modules/object-de…ription/lib/object-description.js"
+{"request":"/app/system/node_modules/object-description/build/Release/internal.node","paths":[""]}: "/app/system/node_modules/object-de…ption/build/Release/internal.node"
+{"request":"/app/system/node_modules/semver","paths":[""]}: "/app/system/node_modules/semver/semver.js"
+{"request":"bindings","paths":["/app/system/node_modules/evaluator-connection/lib/node_modules","/app/system/node_modules/evaluator-connection/node_modules","/app/system/node_modules","/app/node_modules","/node_modules","/root/.node_modules","/root/.node_libraries","/usr/local/lib/node"]}: "/app/system/node_modules/bindings/bindings.js"
+{"request":"bindings","paths":["/app/system/node_modules/object-description/lib/node_modules","/app/system/node_modules/object-description/node_modules","/app/system/node_modules","/app/node_modules","/node_modules","/root/.node_modules","/root/.node_libraries","/usr/local/lib/node"]}: "/app/system/node_modules/bindings/bindings.js"
+{"request":"ecma-utils","paths":["/app/system/node_modules/object-description/lib/node_modules","/app/system/node_modules/object-description/node_modules","/app/system/node_modules","/app/node_modules","/node_modules","/root/.node_modules","/root/.node_libraries","/usr/local/lib/node"]}: "/app/system/node_modules/ecma-utils/lib/ecma-utils.js"
+...
+_preloadModules: function()
+name: ""
+prototype:  {}
+Function Prototype
+_realpathCache: Object
+/app: "/app"
+/app/index.js: "/app/index.js"
+/app/system: "/app/system"
+/app/system/node_modules: "/app/system/node_modules"
+/app/system/node_modules/bindings: "/app/system/node_modules/bindings"
+/app/system/node_modules/bindings/bindings.js: "/app/system/node_modules/bindings/bindings.js"
+/app/system/node_modules/ecma-utils: "/app/system/node_modules/ecma-utils"
+/app/system/node_modules/ecma-utils/lib: "/app/system/node_modules/ecma-utils/lib"
+/app/system/node_modules/ecma-utils/lib/ecma-utils.js: "/app/system/node_modules/ecma-utils/lib/ecma-utils.js"
+/app/system/node_modules/evaluator-connection: "/app/system/node_modules/evaluator-connection"
+/app/system/node_modules/evaluator-connection/build: "/app/system/node_modules/evaluator-connection/build"
+/app/system/node_modules/evaluator-connection/build/Release: "/app/system/node_modules/evaluator-connection/build/Release"
+/app/system/node_modules/evaluator-connection/build/Release/connection.node: "/app/system/node_modules/evaluator…ion/build/Release/connection.node"
+/app/system/node_modules/evaluator-connection/lib: "/app/system/node_modules/evaluator-connection/lib"
+/app/system/node_modules/evaluator-connection/lib/evaluator-connection.js: "/app/system/node_modules/evaluator…ction/lib/evaluator-connection.js"
+/app/system/node_modules/file-type: "/app/system/node_modules/file-type"
+/app/system/node_modules/file-type/index.js: "/app/system/node_modules/file-type/index.js"
+/app/system/node_modules/object-description: "/app/system/node_modules/object-description"
+/app/system/node_modules/object-description/build: "/app/system/node_modules/object-description/build"
+/app/system/node_modules/object-description/build/Release: "/app/system/node_modules/object-description/build/Release"
+/app/system/node_modules/object-description/build/Release/internal.node: "/app/system/node_modules/object-de…ption/build/Release/internal.node"
+/app/system/node_modules/object-description/lib: "/app/system/node_modules/object-description/lib"
+/app/system/node_modules/object-description/lib/object-description.js: "/app/system/node_modules/object-de…ription/lib/object-description.js"
+/app/system/node_modules/semver: "/app/system/node_modules/semver"
+/app/system/node_modules/semver/semver.js: "/app/system/node_modules/semver/semver.js"
+...
+_resolveFilename: function()
+name: ""
+prototype:  {}
+Function Prototype
+_resolveLookupPaths: function()
+name: ""
+prototype:  {}
+Function Prototype
+globalPaths: Array (3 items)
+0: "/root/.node_modules"
+1: "/root/.node_libraries"
+2: "/usr/local/lib/node"
+Array Prototype
+...
+requireRepl: function()
+name: "deprecated"
+prototype: deprecated {}
+Function Prototype
+runMain: function()
+name: ""
+prototype:  {}
+Function Prototype
+wrap: function()
+name: ""
+prototype:  {}
+Function Prototype
+wrapper: Array (2 items)
+0: "(function (exports, require, module, __filename, __dirname) { "
+1: "\n});"
+Array Prototype
+...
+Function Prototype
+apply: function()
+bind: function()
+call: function()
+constructor: function()
+name: ""
+toString: function()
+Object Prototype
+...
+
+2
+​
