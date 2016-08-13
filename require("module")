@@ -139,3 +139,29 @@ Object Prototype
 
 2
 ​
+-Via Node.js Command Prompt:
+> require("module")
+{ [Function: Module]
+  _cache: {},
+  _pathCache: {},
+  _extensions: { '.js': [Function], '.json': [Function], '.node': [Function] },
+  globalPaths:
+   [ 'C:\\Users\\Axioo\\.node_modules',
+     'C:\\Users\\Axioo\\.node_libraries',
+     'C:\\Program Files\\lib\\node' ],
+  wrapper:
+   [ '(function (exports, require, module, __filename, __dirname) { ',
+     '\n});' ],
+  wrap: [Function],
+  _debug: [Function],
+  _findPath: [Function],
+  _nodeModulePaths: [Function],
+  _resolveLookupPaths: [Function],
+  _load: [Function],
+  _resolveFilename: [Function],
+  runMain: [Function],
+  _initPaths: [Function],
+  requireRepl: [Function: deprecated],
+  _preloadModules: [Function],
+  Module: [Circular] }
+>
