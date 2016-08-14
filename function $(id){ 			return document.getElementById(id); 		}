@@ -1,0 +1,156 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+JSLint
+Read the instructions.
+Enjoy The Good Parts.
+Source
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+
+
+function $(id){
+			return document.getElementById(id);
+		}
+		
+		$('unblocker-form').onsubmit = function(){
+			var url = $('url').value;
+			if(url.substr(0,4) != "http"){
+				url = "http://" + url;
+			}
+			window.location.pathname = 'proxy/' + url;
+			return false;
+		};
+		
+		function checkError(){
+			var search = window.location.search;
+			var start = search.indexOf('error=');
+			if(start > -1){
+				var stop = search.indexOf('&', start);
+				if(stop == -1){ stop = undefined; }
+				// +6 for "error="
+				var err = search.substr(start+6, stop);
+                var $error = $('error');
+				$error.innerText = $error.textContent = decodeURIComponent(err);
+				$error.style.display = "block";
+			}
+		}
+    
+		window.onload = function() { 
+			$('url').focus(); 
+			checkError(); 
+		}
+JSLintclear
+Warnings
+1.1This function needs a 'use strict' pragma.
+function $(id){
+5.34This function needs a 'use strict' pragma.
+		$('unblocker-form').onsubmit = function(){
+7.23Expected '!==' and instead saw '!='.
+			if(url.substr(0,4) != "http"){
+10.4Undeclared 'window'.
+			window.location.pathname = 'proxy/' + url;
+14.3This function needs a 'use strict' pragma.
+		function checkError(){
+15.17Undeclared 'window'.
+			var search = window.location.search;
+19.13Expected '===' and instead saw '=='.
+				if(stop == -1){ stop = undefined; }
+23.43Unexpected '='.
+				$error.innerText = $error.textContent = decodeURIComponent(err);
+28.3Undeclared 'window'.
+		window.onload = function() { 
+28.19This function needs a 'use strict' pragma.
+		window.onload = function() { 
+31.4Expected ';' and instead saw '(end)'.
+		}
+Function Report
+global
+$, checkError, decodeURIComponent, document
+1
+$(id)
+parameter
+id
+global
+document
+5
+«onsubmit»()
+variable
+url
+global
+$
+14
+checkError()
+variable
+$error, err, search, start, stop
+global
+$, decodeURIComponent
+28
+«onload»()
+global
+$, checkError
+JSLint edition 2016-08-12
+Property Directive
+
+/*property
+    display, focus, getElementById, indexOf, innerText, location, onload,
+    onsubmit, pathname, search, style, substr, textContent, value
+*/
+
+select propertyJSLintclearclear options
+Options
+Assume...
+in development
+ES6
+a browser
+CouchDB
+Node.js
+
+Fudge...
+First line number is 1
+Tolerate...
+bitwise operators
+eval
+for statement
+multiple vars
+single quote strings
+this
+whitespace mess
+Number...
+
+Maximum line length
+
+Maximum warnings
+Global variables...
+imported globals here
