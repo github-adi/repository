@@ -154,3 +154,14 @@ Maximum line length
 Maximum warnings
 Global variables...
 imported globals here
+-Via :
+https://tonicdev.com/alph4/57af4cf34e962a1200529a03:
+(adsbygoogle = global .adsbygoogle || []).push({});
+-Returned:
+1
+-Via jslint:
+/*property
+    adsbygoogle
+*/
+
+
