@@ -1,0 +1,115 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+-Via GitBash:
+touch README.md SUMMARY.md
+git init
+git add README.md SUMMARY.md
+git commit -m "first commit"
+git remote add gitbook https://git.gitbook.com/alph4delta/mybooks.git
+git push -u -f gitbook master
+
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ touch README.md SUMMARY.md
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ git init
+Reinitialized existing Git repository in C:/Users/Axioo/.git/
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ git add README.md SUMMARY.md
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ git commit -m "first commit"
+On branch master
+You are currently rebasing.
+
+Untracked files:
+        )&&(S=S.replace(Fa,
+        .TianTianVM/
+        .android/
+        .bash_history
+        .cache/
+        .config/
+        .gem/
+        .gitconfig
+        .node_repl_history
+        .oracle_jre_usage/
+        .ssh/
+        .websiteauditor.properties
+        .websiteauditor/
+        AppData/
+        Axioo - Shortcut.lnk
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Dropbox/
+        Favorites/
+        Google Drive/
+        Links/
+        Music/
+        NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TM.blf
+        NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer000000000000
+00000001.regtrans-ms
+        NTUSER.DAT{6cced2f1-6e01-11de-8bed-001e0bcd1824}.TMContainer000000000000
+00000002.regtrans-ms
+        Pasword.txt
+        Pictures/
+        Saved Games/
+        SkyDrive/
+        SpawnApps/
+        SyncFolder/
+        Tracing/
+        Videos/
+        _viminfo
+        chromium-dashboard/
+        connect()
+        contestapplet.conf
+        contestapplet.conf.bak
+        dsn
+        googleads-adxbuyer-examples/
+        gplus-domains-quickstart-java/
+        gplus-haiku-server-java/
+        gplus-quickstart-javascript/
+        i am.txt
+        mandrill-api-js/
+        manifest.json.pem
+        manifest.json/
+        mercurial.ini
+        ntuser.dat
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.dat{6cced2f0-6e01-11de-8bed-001e0bcd1824}.TxR.0.regtrans-ms
+        ntuser.dat{6cced2f0-6e01-11de-8bed-001e0bcd1824}.TxR.1.regtrans-ms
+        ntuser.dat{6cced2f0-6e01-11de-8bed-001e0bcd1824}.TxR.2.regtrans-ms
+        ntuser.dat{6cced2f0-6e01-11de-8bed-001e0bcd1824}.TxR.blf
+        ntuser.ini
+        ntuser.pol
+        password
+        password)
+        php
+        pswrds.txt
+        tutorial/
+        username
+        wiki/
+
+nothing added to commit but untracked files present
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ git remote add gitbook https://git.gitbook.com/alph4delta/mybooks.git
+fatal: remote gitbook already exists.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ git push -u -f gitbook master
+fatal: unable to access 'https://git.gitbook.com/{{UserName}}/{{Book}}.git/': Co
+uld not resolve host: git.gitbook.com
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
