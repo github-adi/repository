@@ -1,0 +1,614 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+<html>
+<head>
+<script type="text/javascript">
+function foo(response) {
+  var meta = response.meta;
+  var data = response.data;
+  console.log(meta);
+  console.log(data);
+}
+
+var script = document.createElement('script');
+script.src = 'https://api.github.com?callback=foo';
+
+document.getElementsByTagName('head')[0].appendChild(script);
+</script>
+</head>
+
+<body>
+  <p>Open up your browser's console.</p>
+</body>
+</html>
+-Via Google Chrome:
+-Console:
+/**/foo({meta: {Content-Type: "application/javascript; charset=utf-8", X-RateLimit-Limit: "60",…},…})
+data
+:
+{current_user_url: "https://api.github.com/user",…}
+authorizations_url
+:
+"https://api.github.com/authorizations"
+code_search_url
+:
+"https://api.github.com/search/code?q={query}{&page,per_page,sort,order}"
+current_user_authorizations_html_url
+:
+"https://github.com/settings/connections/applications{/client_id}"
+current_user_repositories_url
+:
+"https://api.github.com/user/repos{?type,page,per_page,sort}"
+current_user_url
+:
+"https://api.github.com/user"
+emails_url
+:
+"https://api.github.com/user/emails"
+emojis_url
+:
+"https://api.github.com/emojis"
+events_url
+:
+"https://api.github.com/events"
+feeds_url
+:
+"https://api.github.com/feeds"
+followers_url
+:
+"https://api.github.com/user/followers"
+following_url
+:
+"https://api.github.com/user/following{/target}"
+gists_url
+:
+"https://api.github.com/gists{/gist_id}"
+hub_url
+:
+"https://api.github.com/hub"
+issue_search_url
+:
+"https://api.github.com/search/issues?q={query}{&page,per_page,sort,order}"
+issues_url
+:
+"https://api.github.com/issues"
+keys_url
+:
+"https://api.github.com/user/keys"
+notifications_url
+:
+"https://api.github.com/notifications"
+organization_repositories_url
+:
+"https://api.github.com/orgs/{org}/repos{?type,page,per_page,sort}"
+organization_url
+:
+"https://api.github.com/orgs/{org}"
+public_gists_url
+:
+"https://api.github.com/gists/public"
+rate_limit_url
+:
+"https://api.github.com/rate_limit"
+repository_search_url
+:
+"https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}"
+repository_url
+:
+"https://api.github.com/repos/{owner}/{repo}"
+starred_gists_url
+:
+"https://api.github.com/gists/starred"
+starred_url
+:
+"https://api.github.com/user/starred{/owner}{/repo}"
+team_url
+:
+"https://api.github.com/teams"
+user_organizations_url
+:
+"https://api.github.com/user/orgs"
+user_repositories_url
+:
+"https://api.github.com/users/{user}/repos{?type,page,per_page,sort}"
+user_search_url
+:
+"https://api.github.com/search/users?q={query}{&page,per_page,sort,order}"
+user_url
+:
+"https://api.github.com/users/{user}"
+meta
+:
+{Content-Type: "application/javascript; charset=utf-8", X-RateLimit-Limit: "60",…}
+Cache-Control
+:
+"public, max-age=60, s-maxage=60"
+Content-Type
+:
+"application/javascript; charset=utf-8"
+ETag
+:
+""d251d84fc3f78921c16c7f9c99d74eae""
+Vary
+:
+"Accept"
+X-GitHub-Media-Type
+:
+"github.v3"
+X-RateLimit-Limit
+:
+"60"
+X-RateLimit-Remaining
+:
+"59"
+X-RateLimit-Reset
+:
+"1471288272"
+status
+:
+200
+Name
+Path
+publish.html
+/C:/Users/Axioo/Favorites
+?callback=foo
+api.github.com
+3 requests ❘ 835 B transferred ❘ Finish: 30.25 s ❘ DOMContentLoaded: 85 ms ❘ Load: 30.25 s
+
+Console
+Animations
+Network conditions
+Rendering
+Search
+Sensors
+
+
+
+
+
+Preserve log
+﻿
+2016-08-16 01:17:28.857 publish.html:7 
+Object {Content-Type: "application/javascript; charset=utf-8", X-RateLimit-Limit: "60", X-RateLimit-Remaining: "59", X-RateLimit-Reset: "1471288272", Cache-Control: "public, max-age=60, s-maxage=60"…}
+Cache-Control
+:
+"public, max-age=60, s-maxage=60"
+Content-Type
+:
+"application/javascript; charset=utf-8"
+ETag
+:
+""d251d84fc3f78921c16c7f9c99d74eae""
+Vary
+:
+"Accept"
+X-GitHub-Media-Type
+:
+"github.v3"
+X-RateLimit-Limit
+:
+"60"
+X-RateLimit-Remaining
+:
+"59"
+X-RateLimit-Reset
+:
+"1471288272"
+status
+:
+200
+__proto__
+:
+Object
+2016-08-16 01:17:28.905 publish.html:8 
+Object {current_user_url: "https://api.github.com/user", current_user_authorizations_html_url: "https://github.com/settings/connections/applications{/client_id}", authorizations_url: "https://api.github.com/authorizations", code_search_url: "https://api.github.com/search/code?q={query}{&page,per_page,sort,order}", emails_url: "https://api.github.com/user/emails"…}
+authorizations_url
+:
+"https://api.github.com/authorizations"
+code_search_url
+:
+"https://api.github.com/search/code?q={query}{&page,per_page,sort,order}"
+current_user_authorizations_html_url
+:
+"https://github.com/settings/connections/applications{/client_id}"
+current_user_repositories_url
+:
+"https://api.github.com/user/repos{?type,page,per_page,sort}"
+current_user_url
+:
+"https://api.github.com/user"
+emails_url
+:
+"https://api.github.com/user/emails"
+emojis_url
+:
+"https://api.github.com/emojis"
+events_url
+:
+"https://api.github.com/events"
+feeds_url
+:
+"https://api.github.com/feeds"
+followers_url
+:
+"https://api.github.com/user/followers"
+following_url
+:
+"https://api.github.com/user/following{/target}"
+gists_url
+:
+"https://api.github.com/gists{/gist_id}"
+hub_url
+:
+"https://api.github.com/hub"
+issue_search_url
+:
+"https://api.github.com/search/issues?q={query}{&page,per_page,sort,order}"
+issues_url
+:
+"https://api.github.com/issues"
+keys_url
+:
+"https://api.github.com/user/keys"
+notifications_url
+:
+"https://api.github.com/notifications"
+organization_repositories_url
+:
+"https://api.github.com/orgs/{org}/repos{?type,page,per_page,sort}"
+organization_url
+:
+"https://api.github.com/orgs/{org}"
+public_gists_url
+:
+"https://api.github.com/gists/public"
+rate_limit_url
+:
+"https://api.github.com/rate_limit"
+repository_search_url
+:
+"https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}"
+repository_url
+:
+"https://api.github.com/repos/{owner}/{repo}"
+starred_gists_url
+:
+"https://api.github.com/gists/starred"
+starred_url
+:
+"https://api.github.com/user/starred{/owner}{/repo}"
+team_url
+:
+"https://api.github.com/teams"
+user_organizations_url
+:
+"https://api.github.com/user/orgs"
+user_repositories_url
+:
+"https://api.github.com/users/{user}/repos{?type,page,per_page,sort}"
+user_search_url
+:
+"https://api.github.com/search/users?q={query}{&page,per_page,sort,order}"
+user_url
+:
+"https://api.github.com/users/{user}"
+__proto__
+:
+Object
+2016-08-16 01:17:57.907
+add-js.js:8 GET file://api.jollywallet.com/affiliate/client?p=16&dist=261&sub=chrome208 net::ERR_FILE_NOT_FOUND
+﻿-Link Address:
+https://api.github.com/?callback=foo
+-Request Headers:
+GET /?callback=foo HTTP/1.1
+Host: api.github.com
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8,id;q=0.6
+Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367
+If-None-Match: W/"d251d84fc3f78921c16c7f9c99d74eae"
+-Response Headers:
+HTTP/1.1 304 Not Modified
+Server: GitHub.com
+Date: Mon, 15 Aug 2016 18:17:29 GMT
+Status: 304 Not Modified
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 59
+X-RateLimit-Reset: 1471288272
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept
+ETag: "d251d84fc3f78921c16c7f9c99d74eae"
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Served-By: e183f7c661b1bbc2c987b3c4dc7b04e0
+X-GitHub-Request-Id: B4F4A38D:4DE8:14F6658:57B20738
+-Response:
+/**/foo({
+  "meta": {
+    "Content-Type": "application/javascript; charset=utf-8",
+    "X-RateLimit-Limit": "60",
+    "X-RateLimit-Remaining": "59",
+    "X-RateLimit-Reset": "1471288272",
+    "Cache-Control": "public, max-age=60, s-maxage=60",
+    "Vary": "Accept",
+    "ETag": "\"d251d84fc3f78921c16c7f9c99d74eae\"",
+    "X-GitHub-Media-Type": "github.v3",
+    "status": 200
+  },
+  "data": {
+    "current_user_url": "https://api.github.com/user",
+    "current_user_authorizations_html_url": "https://github.com/settings/connections/applications{/client_id}",
+    "authorizations_url": "https://api.github.com/authorizations",
+    "code_search_url": "https://api.github.com/search/code?q={query}{&page,per_page,sort,order}",
+    "emails_url": "https://api.github.com/user/emails",
+    "emojis_url": "https://api.github.com/emojis",
+    "events_url": "https://api.github.com/events",
+    "feeds_url": "https://api.github.com/feeds",
+    "followers_url": "https://api.github.com/user/followers",
+    "following_url": "https://api.github.com/user/following{/target}",
+    "gists_url": "https://api.github.com/gists{/gist_id}",
+    "hub_url": "https://api.github.com/hub",
+    "issue_search_url": "https://api.github.com/search/issues?q={query}{&page,per_page,sort,order}",
+    "issues_url": "https://api.github.com/issues",
+    "keys_url": "https://api.github.com/user/keys",
+    "notifications_url": "https://api.github.com/notifications",
+    "organization_repositories_url": "https://api.github.com/orgs/{org}/repos{?type,page,per_page,sort}",
+    "organization_url": "https://api.github.com/orgs/{org}",
+    "public_gists_url": "https://api.github.com/gists/public",
+    "rate_limit_url": "https://api.github.com/rate_limit",
+    "repository_url": "https://api.github.com/repos/{owner}/{repo}",
+    "repository_search_url": "https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}",
+    "current_user_repositories_url": "https://api.github.com/user/repos{?type,page,per_page,sort}",
+    "starred_url": "https://api.github.com/user/starred{/owner}{/repo}",
+    "starred_gists_url": "https://api.github.com/gists/starred",
+    "team_url": "https://api.github.com/teams",
+    "user_url": "https://api.github.com/users/{user}",
+    "user_organizations_url": "https://api.github.com/user/orgs",
+    "user_repositories_url": "https://api.github.com/users/{user}/repos{?type,page,per_page,sort}",
+    "user_search_url": "https://api.github.com/search/users?q={query}{&page,per_page,sort,order}"
+  }
+})
+-cURL (cmd):
+curl "https://api.github.com/?callback=foo" -H "If-None-Match: W/""d251d84fc3f78921c16c7f9c99d74eae""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: */*" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" --compressed
+-cURL (bash):
+curl 'https://api.github.com/?callback=foo' -H 'If-None-Match: W/"d251d84fc3f78921c16c7f9c99d74eae"' -H 'Accept-Encoding: gzip, deflate, sdch, br' -H 'Accept-Language: en-US,en;q=0.8,id;q=0.6' -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36' -H 'Accept: */*' -H 'Cache-Control: max-age=0' -H 'Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367' -H 'Connection: keep-alive' --compressed
+-HAR:
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2016-08-15T18:17:27.657Z",
+        "id": "page_1",
+        "title": "file:///C:/Users/Axioo/Favorites/publish.html",
+        "pageTimings": {
+          "onContentLoad": 85.21899999868765,
+          "onLoad": 30250.264999998763
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2016-08-15T18:17:27.742Z",
+        "time": 1039.1380000000936,
+        "request": {
+          "method": "GET",
+          "url": "https://api.github.com/?callback=foo",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "If-None-Match",
+              "value": "W/\"d251d84fc3f78921c16c7f9c99d74eae\""
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "api.github.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.8,id;q=0.6"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "Cookie",
+              "value": "_octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "callback",
+              "value": "foo"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "_octo",
+              "value": "GH1.1.1076573575.1449854366",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "logged_in",
+              "value": "yes",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "dotcom_user",
+              "value": "alph4delta",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utma",
+              "value": "58162108.1550248153.1449854367.1469303160.1469303160.1",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__utmz",
+              "value": "58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.2.1550248153.1449854367",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 657,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 15 Aug 2016 18:17:29 GMT"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "Status",
+              "value": "304 Not Modified"
+            },
+            {
+              "name": "X-RateLimit-Remaining",
+              "value": "59"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubdomains; preload"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "X-Served-By",
+              "value": "e183f7c661b1bbc2c987b3c4dc7b04e0"
+            },
+            {
+              "name": "Server",
+              "value": "GitHub.com"
+            },
+            {
+              "name": "X-GitHub-Request-Id",
+              "value": "B4F4A38D:4DE8:14F6658:57B20738"
+            },
+            {
+              "name": "ETag",
+              "value": "\"d251d84fc3f78921c16c7f9c99d74eae\""
+            },
+            {
+              "name": "Content-Security-Policy",
+              "value": "default-src 'none'"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "deny"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=60, s-maxage=60"
+            },
+            {
+              "name": "X-RateLimit-Reset",
+              "value": "1471288272"
+            },
+            {
+              "name": "X-RateLimit-Limit",
+              "value": "60"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2520,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": 835,
+          "bodySize": 0,
+          "_transferSize": 835
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.49499999881664,
+          "dns": 79.53300000008316,
+          "connect": 641.5010000000623,
+          "send": 1.3639999997390078,
+          "wait": 311.1920000010289,
+          "receive": 3.0530000003636815,
+          "ssl": 344.44199999961694
+        },
+        "serverIPAddress": "192.30.253.117",
+        "connection": "44565",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
+
+
+
