@@ -609,6 +609,44 @@ curl 'https://api.github.com/?callback=foo' -H 'If-None-Match: W/"d251d84fc3f789
     ]
   }
 }
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl https://api.github.com/users/technoweenie -I
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Mon, 15 Aug 2016 19:29:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1346
+Status: 200 OK
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 57
+X-RateLimit-Reset: 1471292697
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept
+ETag: "dc39ff1293015bfc6218c0fdda2aa7cc"
+Last-Modified: Tue, 02 Aug 2016 22:34:04 GMT
+X-GitHub-Media-Type: github.v3
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-Ra
+teLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X
+-Poll-Interval
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Served-By: 52437fedc85beec8da3449496900fb9a
+X-GitHub-Request-Id: B4F4A38D:4DE6:29E6F27:57B2182E
+
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
 
 
 
