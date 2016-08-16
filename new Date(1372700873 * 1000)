@@ -4,6 +4,8 @@
 -Via:
 https://tonicdev.com/alph4/57b230e76599c412006efe8b :
 new Date(1372700873 * 1000)
+-Returned:
+Tue Jul 02 2013 00:47:53 GMT+0700 (SE Asia Standard Time)
 Date Prototype
 constructor: function()
 getDate: function()
