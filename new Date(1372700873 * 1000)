@@ -275,3 +275,6 @@ propertyIsEnumerable: function()
 toLocaleString: function()
 toString: function()
 valueOf: function()
+-
+ content = +new Date 
+1471464747487
