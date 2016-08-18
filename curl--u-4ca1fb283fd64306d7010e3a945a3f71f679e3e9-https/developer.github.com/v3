@@ -1,0 +1,27 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl -u "4ca1fb283fd64306d7010e3a945a3f71f679e3e9" https://developer.github.com/v3
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl -u "4ca1fb283fd64306d7010e3a945a3f71f679e3e9" https://developer.github.c
+om/v3
+Enter host password for user '4ca1fb283fd64306d7010e3a945a3f71f679e3e9':
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
