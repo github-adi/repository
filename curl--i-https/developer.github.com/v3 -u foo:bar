@@ -1,0 +1,46 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+curl -i  https://developer.github.com/v3 -u foo:bar
+-Via My Notepad++ (HTML Editor):
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl -i  https://developer.github.com/v3 -u foo:bar
+HTTP/1.1 301 Moved Permanently
+Server: GitHub.com
+Content-Type: text/html
+Location: http://developer.github.com/v3/
+Access-Control-Allow-Origin: *
+Expires: Fri, 19 Aug 2016 17:27:39 GMT
+Cache-Control: max-age=600
+X-GitHub-Request-Id: 2BF94B1A:550F:2EC08D7:57B73F33
+Content-Length: 178
+Accept-Ranges: bytes
+Date: Fri, 19 Aug 2016 17:17:40 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-sin6920-SIN
+X-Cache: MISS
+X-Cache-Hits: 0
+Vary: Accept-Encoding
+X-Fastly-Request-ID: 66b03d77994402d84766ab2af630130d7bff6d66
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
