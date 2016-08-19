@@ -1,0 +1,40 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+curl -i -u alph4delta -d '{"scopes":["public_repo"]}' https://developer.github.com/v3
+-Via My Notepad++ (HTML Editor):
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl -i -u alph4delta -d '{"scopes":["public_repo"]}' https://developer.githu
+b.com/v3
+Enter host password for user 'alph4delta':
+HTTP/1.1 405 Method Not Allowed
+Server: Varnish
+Retry-After: 0
+Content-Type:
+Content-Length: 131
+Accept-Ranges: bytes
+Date: Fri, 19 Aug 2016 16:57:13 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-sin6920-SIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-ID: 05a121f76f54de2ff028e8b1b7acdeb120fb7f95
+
+<html>
+<head><title>405 Not Allowed</title></head>
+<body bgcolor="white">
+<center><h1>405 Not Allowed</h1></center>
+</body>
+</html>
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
