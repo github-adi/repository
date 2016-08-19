@@ -1,0 +1,39 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+curl -i  https://developer.github.com/v3 -H "Origin: https://developer.github.com/v3" -X OPTIONS
+-Via My Notepad++ (HTML Editor):
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl -i  https://developer.github.com/v3 -H "Origin: https://developer.github
+.com/v3" -X OPTIONS
+HTTP/1.1 405 Method Not Allowed
+Server: Varnish
+Retry-After: 0
+Content-Type:
+Content-Length: 131
+Accept-Ranges: bytes
+Date: Fri, 19 Aug 2016 18:15:23 GMT
+Via: 1.1 varnish
+Connection: close
+X-Served-By: cache-sin6922-SIN
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-ID: 56baa3176e40e0a722a578597875ff7681f088b9
+
+<html>
+<head><title>405 Not Allowed</title></head>
+<body bgcolor="white">
+<center><h1>405 Not Allowed</h1></center>
+</body>
+</html>
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
