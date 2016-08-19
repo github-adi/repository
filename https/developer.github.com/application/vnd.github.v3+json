@@ -1,0 +1,25 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+https://developer.github.com/application/vnd.github.v3+json
+-Via My Notepad++ (HTML Editor):
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl  -H "Time-Zone: Asia/Jakarta" -X POST  https://developer.github.com/appl
+ication/vnd.github.v3+json
+<html>
+<head><title>405 Not Allowed</title></head>
+<body bgcolor="white">
+<center><h1>405 Not Allowed</h1></center>
+</body>
+</html>
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
