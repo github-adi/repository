@@ -1,0 +1,309 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+Curl –i “https://github.com/github-adi/repository/blob/master/curl--i-https/apis.google.com/_/scs/abc-static/_/js/k-gapi.gapi.en.xej1Zm3gE0Y.O/m-iframes-googleapis_client/rt-j/d-1/rs%3DAHpOoo-sR4lSlZfnlntJ-N0rG1mLyBSreQ”
+-Via GitBash:
+d>
+        <td id="LC285" class="blob-code blob-code-inner js-file-line">c=c[b];c.e
+rror||(c=c.data||c.result);a(c)})},Uk=function(a,b,c){a={method:a,rpc:</td>
+      </tr>
+      <tr>
+        <td id="L286" class="blob-num js-line-number" data-line-number="286"></t
+d>
+        <td id="LC286" class="blob-code blob-code-inner js-file-line">b||{}};Sk(
+a,c);a.execute=Tk;return a},Vk=function(a,b){for(var c=a.split(&quot;.&quot;),d=
+</td>
+      </tr>
+      <tr>
+        <td id="L287" class="blob-num js-line-number" data-line-number="287"></t
+d>
+        <td id="LC287" class="blob-code blob-code-inner js-file-line">function(c
+){c=c||{};c.groupId=c.groupId||&quot;@self&quot;;c.userId=c.userId||&quot;@viewe
+r&quot;;re</td>
+      </tr>
+      <tr>
+        <td id="L288" class="blob-num js-line-number" data-line-number="288"></t
+d>
+        <td id="LC288" class="blob-code blob-code-inner js-file-line">turn Uk(a,
+c,b)},e=_.r,</td>
+      </tr>
+      <tr>
+        <td id="L289" class="blob-num js-line-number" data-line-number="289"></t
+d>
+        <td id="LC289" class="blob-code blob-code-inner js-file-line">f=0,g=c.le
+ngth;f&lt;g;++f){var k=e[c[f]]||{};f+1==g&amp;&amp;(k=d);e=e[c[f]]=k}if(1&lt;c.l
+engt</td>
+      </tr>
+      <tr>
+        <td id="L290" class="blob-num js-line-number" data-line-number="290"></t
+d>
+        <td id="LC290" class="blob-code blob-code-inner js-file-line">h&amp;&amp
+;&quot;googleapis&quot;!=c[0])for(c[0]=&quot;googleapis&quot;,&quot;delete&quot;
+==c[c.length-1]&amp;&amp;(c[c.length</td>
+      </tr>
+      <tr>
+        <td id="L291" class="blob-num js-line-number" data-line-number="291"></t
+d>
+        <td id="LC291" class="blob-code blob-code-inner js-file-line">-1]=&quot;
+remove&quot;),e=_.r,f=0,g=c.length;f&lt;g;++f)k=e[c[f]]||{},f+1==g&amp;&amp;(k=d
+),e=e[c[f]]</td>
+      </tr>
+      <tr>
+        <td id="L292" class="blob-num js-line-number" data-line-number="292"></t
+d>
+        <td id="LC292" class="blob-code blob-code-inner js-file-line">=k},Wk;for
+(Wk in _.D(&quot;googleapis.config/methods&quot;))Vk(Wk);</td>
+      </tr>
+      <tr>
+        <td id="L293" class="blob-num js-line-number" data-line-number="293"></t
+d>
+        <td id="LC293" class="blob-code blob-code-inner js-file-line">_.C(&quot;
+googleapis.newRequest&quot;,function(a,b,c){return Uk(a,b,c)});_.C(&quot;googlea
+pis.n</td>
+      </tr>
+      <tr>
+        <td id="L294" class="blob-num js-line-number" data-line-number="294"></t
+d>
+        <td id="LC294" class="blob-code blob-code-inner js-file-line">ewHttpRequ
+est&quot;,function(a){return Qk(a)});_.C(&quot;googleapis.register&quot;,functio
+n(a,b</td>
+      </tr>
+      <tr>
+        <td id="L295" class="blob-num js-line-number" data-line-number="295"></t
+d>
+        <td id="LC295" class="blob-code blob-code-inner js-file-line">){Vk(a,b)}
+);_.C(&quot;googleapis.setUrlParameter&quot;,function(a,b){if(&quot;trace&quot;!
+==a)throw</td>
+      </tr>
+      <tr>
+        <td id="L296" class="blob-num js-line-number" data-line-number="296"></t
+d>
+        <td id="LC296" class="blob-code blob-code-inner js-file-line">Error(&quo
+t;F&quot;);_.yb(&quot;client/trace&quot;,b)});_.C(&quot;googleapis.setDeveloperK
+ey&quot;,function(a)</td>
+      </tr>
+      <tr>
+        <td id="L297" class="blob-num js-line-number" data-line-number="297"></t
+d>
+        <td id="LC297" class="blob-code blob-code-inner js-file-line">{_.yb(&quo
+t;googleapis.config/developerKey&quot;,a);_.yb(&quot;client/apiKey&quot;,a)});_.
+C(&quot;googlea</td>
+      </tr>
+      <tr>
+        <td id="L298" class="blob-num js-line-number" data-line-number="298"></t
+d>
+        <td id="LC298" class="blob-code blob-code-inner js-file-line">pis.setVer
+sions&quot;,function(a){_.yb(&quot;googleapis.config/versions&quot;,a)});</td>
+      </tr>
+      <tr>
+        <td id="L299" class="blob-num js-line-number" data-line-number="299"></t
+d>
+        <td id="LC299" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L300" class="blob-num js-line-number" data-line-number="300"></t
+d>
+        <td id="LC300" class="blob-code blob-code-inner js-file-line">}catch(e){
+_._DumpException(e)}</td>
+      </tr>
+      <tr>
+        <td id="L301" class="blob-num js-line-number" data-line-number="301"></t
+d>
+        <td id="LC301" class="blob-code blob-code-inner js-file-line">})(this._)
+;</td>
+      </tr>
+      <tr>
+        <td id="L302" class="blob-num js-line-number" data-line-number="302"></t
+d>
+        <td id="LC302" class="blob-code blob-code-inner js-file-line">// Google
+Inc.</td>
+      </tr>
+      <tr>
+        <td id="L303" class="blob-num js-line-number" data-line-number="303"></t
+d>
+        <td id="LC303" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L304" class="blob-num js-line-number" data-line-number="304"></t
+d>
+        <td id="LC304" class="blob-code blob-code-inner js-file-line">Axioo@AXIO
+O-PC ~ (master|AM/REBASE)</td>
+      </tr>
+      <tr>
+        <td id="L305" class="blob-num js-line-number" data-line-number="305"></t
+d>
+        <td id="LC305" class="blob-code blob-code-inner js-file-line">$</td>
+      </tr>
+      <tr>
+        <td id="L306" class="blob-num js-line-number" data-line-number="306"></t
+d>
+        <td id="LC306" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L307" class="blob-num js-line-number" data-line-number="307"></t
+d>
+        <td id="LC307" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L308" class="blob-num js-line-number" data-line-number="308"></t
+d>
+        <td id="LC308" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L309" class="blob-num js-line-number" data-line-number="309"></t
+d>
+        <td id="LC309" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+</table>
+
+  </div>
+
+</div>
+
+<button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump"
+ data-hotkey="l" class="hidden">Jump to Line</button>
+<div id="jump-to-line" style="display:none">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="" class="
+js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline
+"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input class="form-control linejump-input js-jump-to-line-field" type="text"
+ placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+    <button type="submit" class="btn">Go</button>
+</form></div>
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+
+    </div>
+  </div>
+
+    </div>
+
+        <div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to co
+ntact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to ap
+i, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to tra
+ining, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, t
+ext:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog,
+ text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to abou
+t, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark"
+title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" ve
+rsion="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.5
+4 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49
+-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.8
+2.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87
+.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.2
+7.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1
+.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2
+.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2016 <span title="0.06529s from github-fe164-cp1-prd.iad.github
+.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to
+ terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go
+to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to s
+ecurity, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to st
+atus, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help,
+ text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+    <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version=
+"1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5
+s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.
+86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path><
+/svg>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dism
+iss" aria-label="Dismiss error">
+        <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1
+.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-
+3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></pat
+h></svg>
+      </button>
+      You can't perform that action at this time.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/
+compat-40e365359d1c4db1e36a55be458e60f2b7c24d58b5a00ae13398480e7ba768e0.js"></sc
+ript>
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/
+frameworks-655305f0453f424f8dab87dc1ae0e385e5982f72f7e2ce14eb1a9c229174cebe.js">
+</script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.gith
+ub.com/assets/github-5b26137e505956beabe3500d02fe0cbfcfc914b7054613b4b38812c765d
+5b51d.js"></script>
+
+
+
+
+
+
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flas
+h-banner hidden">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version=
+"1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5
+s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.
+86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path><
+/svg>
+      <span class="signed-in-tab-flash">You signed in with another tab or window
+. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window
+. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+    <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header"
+aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Clo
+se modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1
+" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.
+75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path>
+</svg>
+    </button>
+  </div>
+</div>
+
+  </body>
+</html>
+
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
+
