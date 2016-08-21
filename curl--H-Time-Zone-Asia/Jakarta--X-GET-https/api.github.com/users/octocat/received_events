@@ -1,0 +1,310 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl -H "Time-Zone: Asia/Jakarta" -X GET https://api.github.com/users/octocat/received_events
+-Via GitBash:
+    "repo": {
+      "id": 1300192,
+      "name": "octocat/Spoon-Knife",
+      "url": "https://api.github.com/repos/octocat/Spoon-Knife"
+    },
+    "payload": {
+      "forkee": {
+        "id": 66177684,
+        "name": "Spoon-Knife",
+        "full_name": "fulvionedel/Spoon-Knife",
+        "owner": {
+          "login": "fulvionedel",
+          "id": 14778552,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14778552?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/fulvionedel",
+          "html_url": "https://github.com/fulvionedel",
+          "followers_url": "https://api.github.com/users/fulvionedel/followers",
+
+          "following_url": "https://api.github.com/users/fulvionedel/following{/
+other_user}",
+          "gists_url": "https://api.github.com/users/fulvionedel/gists{/gist_id}
+",
+          "starred_url": "https://api.github.com/users/fulvionedel/starred{/owne
+r}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/fulvionedel/subscri
+ptions",
+          "organizations_url": "https://api.github.com/users/fulvionedel/orgs",
+          "repos_url": "https://api.github.com/users/fulvionedel/repos",
+          "events_url": "https://api.github.com/users/fulvionedel/events{/privac
+y}",
+          "received_events_url": "https://api.github.com/users/fulvionedel/recei
+ved_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/fulvionedel/Spoon-Knife",
+        "description": "This repo is for demonstration purposes only.",
+        "fork": true,
+        "url": "https://api.github.com/repos/fulvionedel/Spoon-Knife",
+        "forks_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/forks
+",
+        "keys_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/keys{/
+key_id}",
+        "collaborators_url": "https://api.github.com/repos/fulvionedel/Spoon-Kni
+fe/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/teams
+",
+        "hooks_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/hooks
+",
+        "issue_events_url": "https://api.github.com/repos/fulvionedel/Spoon-Knif
+e/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/even
+ts",
+        "assignees_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/a
+ssignees{/user}",
+        "branches_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/br
+anches{/branch}",
+        "tags_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/tags",
+
+        "blobs_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/git/b
+lobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/gi
+t/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/gi
+t/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/git/t
+rees{/sha}",
+        "statuses_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/st
+atuses/{sha}",
+        "languages_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/l
+anguages",
+        "stargazers_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/
+stargazers",
+        "contributors_url": "https://api.github.com/repos/fulvionedel/Spoon-Knif
+e/contributors",
+        "subscribers_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife
+/subscribers",
+        "subscription_url": "https://api.github.com/repos/fulvionedel/Spoon-Knif
+e/subscription",
+        "commits_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/com
+mits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife
+/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/co
+mments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/fulvionedel/Spoon-Kni
+fe/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/co
+ntents/{+path}",
+        "compare_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/com
+pare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/merg
+es",
+        "archive_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/{ar
+chive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/d
+ownloads",
+        "issues_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/issu
+es{/number}",
+        "pulls_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/pulls
+{/number}",
+        "milestones_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/
+milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/fulvionedel/Spoon-Kni
+fe/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/labe
+ls{/name}",
+        "releases_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife/re
+leases{/id}",
+        "deployments_url": "https://api.github.com/repos/fulvionedel/Spoon-Knife
+/deployments",
+        "created_at": "2016-08-21T02:32:11Z",
+        "updated_at": "2016-08-20T15:09:41Z",
+        "pushed_at": "2016-08-20T16:33:28Z",
+        "git_url": "git://github.com/fulvionedel/Spoon-Knife.git",
+        "ssh_url": "git@github.com:fulvionedel/Spoon-Knife.git",
+        "clone_url": "https://github.com/fulvionedel/Spoon-Knife.git",
+        "svn_url": "https://github.com/fulvionedel/Spoon-Knife",
+        "homepage": "",
+        "size": 1407736,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2016-08-21T02:32:12Z"
+  },
+  {
+    "id": "4446972560",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 20699053,
+      "login": "zhanghao-blog",
+      "display_login": "zhanghao-blog",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zhanghao-blog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20699053?"
+    },
+    "repo": {
+      "id": 1300192,
+      "name": "octocat/Spoon-Knife",
+      "url": "https://api.github.com/repos/octocat/Spoon-Knife"
+    },
+    "payload": {
+      "forkee": {
+        "id": 66175822,
+        "name": "Spoon-Knife",
+        "full_name": "zhanghao-blog/Spoon-Knife",
+        "owner": {
+          "login": "zhanghao-blog",
+          "id": 20699053,
+          "avatar_url": "https://avatars.githubusercontent.com/u/20699053?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/zhanghao-blog",
+          "html_url": "https://github.com/zhanghao-blog",
+          "followers_url": "https://api.github.com/users/zhanghao-blog/followers
+",
+          "following_url": "https://api.github.com/users/zhanghao-blog/following
+{/other_user}",
+          "gists_url": "https://api.github.com/users/zhanghao-blog/gists{/gist_i
+d}",
+          "starred_url": "https://api.github.com/users/zhanghao-blog/starred{/ow
+ner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/zhanghao-blog/subsc
+riptions",
+          "organizations_url": "https://api.github.com/users/zhanghao-blog/orgs"
+,
+          "repos_url": "https://api.github.com/users/zhanghao-blog/repos",
+          "events_url": "https://api.github.com/users/zhanghao-blog/events{/priv
+acy}",
+          "received_events_url": "https://api.github.com/users/zhanghao-blog/rec
+eived_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/zhanghao-blog/Spoon-Knife",
+        "description": "This repo is for demonstration purposes only.",
+        "fork": true,
+        "url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife",
+        "forks_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/for
+ks",
+        "keys_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/keys
+{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/zhanghao-blog/Spoon-K
+nife/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/tea
+ms",
+        "hooks_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/hoo
+ks",
+        "issue_events_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Kn
+ife/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/ev
+ents",
+        "assignees_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife
+/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/
+branches{/branch}",
+        "tags_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/tags
+",
+        "blobs_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/git
+/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/
+git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/
+git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/git
+/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/
+statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife
+/languages",
+        "stargazers_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knif
+e/stargazers",
+        "contributors_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Kn
+ife/contributors",
+        "subscribers_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Kni
+fe/subscribers",
+        "subscription_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Kn
+ife/subscription",
+        "commits_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/c
+ommits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Kni
+fe/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/
+comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/zhanghao-blog/Spoon-K
+nife/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/
+contents/{+path}",
+        "compare_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/c
+ompare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/me
+rges",
+        "archive_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/{
+archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife
+/downloads",
+        "issues_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/is
+sues{/number}",
+        "pulls_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/pul
+ls{/number}",
+        "milestones_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knif
+e/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/zhanghao-blog/Spoon-K
+nife/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/la
+bels{/name}",
+        "releases_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Knife/
+releases{/id}",
+        "deployments_url": "https://api.github.com/repos/zhanghao-blog/Spoon-Kni
+fe/deployments",
+        "created_at": "2016-08-21T01:30:37Z",
+        "updated_at": "2016-08-20T15:09:41Z",
+        "pushed_at": "2016-08-20T16:33:28Z",
+        "git_url": "git://github.com/zhanghao-blog/Spoon-Knife.git",
+        "ssh_url": "git@github.com:zhanghao-blog/Spoon-Knife.git",
+        "clone_url": "https://github.com/zhanghao-blog/Spoon-Knife.git",
+        "svn_url": "https://github.com/zhanghao-blog/Spoon-Knife",
+        "homepage": "",
+        "size": 1407736,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2016-08-21T01:30:38Z"
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
+
+
