@@ -1,0 +1,310 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl -H "Time-Zone: Asia/Jakarta" -X GET https://api.github.com/events
+-Via GitBash:
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 5,
+        "created_at": "2016-07-30T14:20:26Z",
+        "updated_at": "2016-08-21T18:18:24Z",
+        "closed_at": "2016-08-21T18:18:24Z",
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/ngoquang2708/android_device_samsung
+_vivalto3gvn/issues/comments/241272754",
+        "html_url": "https://github.com/ngoquang2708/android_device_samsung_viva
+lto3gvn/issues/60#issuecomment-241272754",
+        "issue_url": "https://api.github.com/repos/ngoquang2708/android_device_s
+amsung_vivalto3gvn/issues/60",
+        "id": 241272754,
+        "user": {
+          "login": "ngoquang2708",
+          "id": 9676278,
+          "avatar_url": "https://avatars.githubusercontent.com/u/9676278?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ngoquang2708",
+          "html_url": "https://github.com/ngoquang2708",
+          "followers_url": "https://api.github.com/users/ngoquang2708/followers"
+,
+          "following_url": "https://api.github.com/users/ngoquang2708/following{
+/other_user}",
+          "gists_url": "https://api.github.com/users/ngoquang2708/gists{/gist_id
+}",
+          "starred_url": "https://api.github.com/users/ngoquang2708/starred{/own
+er}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ngoquang2708/subscr
+iptions",
+          "organizations_url": "https://api.github.com/users/ngoquang2708/orgs",
+
+          "repos_url": "https://api.github.com/users/ngoquang2708/repos",
+          "events_url": "https://api.github.com/users/ngoquang2708/events{/priva
+cy}",
+          "received_events_url": "https://api.github.com/users/ngoquang2708/rece
+ived_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-08-21T18:18:24Z",
+        "updated_at": "2016-08-21T18:18:24Z",
+        "body": "Not exits anymore. I replaced my old battery to a new one which
+ causes this issue. It has no problems after switch back to the old one."
+      }
+    },
+    "public": true,
+    "created_at": "2016-08-21T18:18:24Z"
+  },
+  {
+    "id": "4448065453",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 1840401,
+      "login": "130s",
+      "display_login": "130s",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/130s",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1840401?"
+    },
+    "repo": {
+      "id": 65497911,
+      "name": "ros-gbp/moveit-release",
+      "url": "https://api.github.com/repos/ros-gbp/moveit-release"
+    },
+    "payload": {
+      "ref": "rpm/jade/22/moveit_ros_visualization",
+      "ref_type": "branch",
+      "master_branch": "tester",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-08-21T18:18:24Z",
+    "org": {
+      "id": 2328636,
+      "login": "ros-gbp",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/ros-gbp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2328636?"
+    }
+  },
+  {
+    "id": "4448065452",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 967831,
+      "login": "lyqyd",
+      "display_login": "lyqyd",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lyqyd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/967831?"
+    },
+    "repo": {
+      "id": 6806008,
+      "name": "lyqyd/cc-packman",
+      "url": "https://api.github.com/repos/lyqyd/cc-packman"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/lyqyd/cc-packman/issues/38",
+        "repository_url": "https://api.github.com/repos/lyqyd/cc-packman",
+        "labels_url": "https://api.github.com/repos/lyqyd/cc-packman/issues/38/l
+abels{/name}",
+        "comments_url": "https://api.github.com/repos/lyqyd/cc-packman/issues/38
+/comments",
+        "events_url": "https://api.github.com/repos/lyqyd/cc-packman/issues/38/e
+vents",
+        "html_url": "https://github.com/lyqyd/cc-packman/pull/38",
+        "id": 172325772,
+        "number": 38,
+        "title": "Added H4X0RZ/TheFreakLord repo",
+        "user": {
+          "login": "TheFreakLord",
+          "id": 4933475,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4933475?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/TheFreakLord",
+          "html_url": "https://github.com/TheFreakLord",
+          "followers_url": "https://api.github.com/users/TheFreakLord/followers"
+,
+          "following_url": "https://api.github.com/users/TheFreakLord/following{
+/other_user}",
+          "gists_url": "https://api.github.com/users/TheFreakLord/gists{/gist_id
+}",
+          "starred_url": "https://api.github.com/users/TheFreakLord/starred{/own
+er}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/TheFreakLord/subscr
+iptions",
+          "organizations_url": "https://api.github.com/users/TheFreakLord/orgs",
+
+          "repos_url": "https://api.github.com/users/TheFreakLord/repos",
+          "events_url": "https://api.github.com/users/TheFreakLord/events{/priva
+cy}",
+          "received_events_url": "https://api.github.com/users/TheFreakLord/rece
+ived_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2016-08-21T15:20:00Z",
+        "updated_at": "2016-08-21T18:18:24Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/lyqyd/cc-packman/pulls/38",
+          "html_url": "https://github.com/lyqyd/cc-packman/pull/38",
+          "diff_url": "https://github.com/lyqyd/cc-packman/pull/38.diff",
+          "patch_url": "https://github.com/lyqyd/cc-packman/pull/38.patch"
+        },
+        "body": "Please :)"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/lyqyd/cc-packman/issues/comments/24
+1272751",
+        "html_url": "https://github.com/lyqyd/cc-packman/pull/38#issuecomment-24
+1272751",
+        "issue_url": "https://api.github.com/repos/lyqyd/cc-packman/issues/38",
+        "id": 241272751,
+        "user": {
+          "login": "lyqyd",
+          "id": 967831,
+          "avatar_url": "https://avatars.githubusercontent.com/u/967831?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/lyqyd",
+          "html_url": "https://github.com/lyqyd",
+          "followers_url": "https://api.github.com/users/lyqyd/followers",
+          "following_url": "https://api.github.com/users/lyqyd/following{/other_
+user}",
+          "gists_url": "https://api.github.com/users/lyqyd/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/lyqyd/starred{/owner}{/re
+po}",
+          "subscriptions_url": "https://api.github.com/users/lyqyd/subscriptions
+",
+          "organizations_url": "https://api.github.com/users/lyqyd/orgs",
+          "repos_url": "https://api.github.com/users/lyqyd/repos",
+          "events_url": "https://api.github.com/users/lyqyd/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/lyqyd/received_ev
+ents",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-08-21T18:18:24Z",
+        "updated_at": "2016-08-21T18:18:24Z",
+        "body": "Thanks, added!"
+      }
+    },
+    "public": true,
+    "created_at": "2016-08-21T18:18:24Z"
+  },
+  {
+    "id": "4448065451",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 21159899,
+      "login": "Thadd1971",
+      "display_login": "Thadd1971",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Thadd1971",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21159899?"
+    },
+    "repo": {
+      "id": 64591555,
+      "name": "haxxorsid/Swing-Paint-Application",
+      "url": "https://api.github.com/repos/haxxorsid/Swing-Paint-Application"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-08-21T18:18:24Z"
+  },
+  {
+    "id": "4448065450",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 817054,
+      "login": "zuzak",
+      "display_login": "zuzak",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zuzak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/817054?"
+    },
+    "repo": {
+      "id": 16521444,
+      "name": "zuzakistan/civilservant",
+      "url": "https://api.github.com/repos/zuzakistan/civilservant"
+    },
+    "payload": {
+      "ref": "bucket",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "A╠Âw╠Âf╠Âu╠Âl╠Â IRC bot",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-08-21T18:18:24Z",
+    "org": {
+      "id": 6226775,
+      "login": "zuzakistan",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/zuzakistan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6226775?"
+    }
+  },
+  {
+    "id": "4448065449",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 1840401,
+      "login": "130s",
+      "display_login": "130s",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/130s",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1840401?"
+    },
+    "repo": {
+      "id": 65497911,
+      "name": "ros-gbp/moveit-release",
+      "url": "https://api.github.com/repos/ros-gbp/moveit-release"
+    },
+    "payload": {
+      "ref": "patches/debian/jade/moveit_planners",
+      "ref_type": "branch",
+      "master_branch": "tester",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-08-21T18:18:24Z",
+    "org": {
+      "id": 2328636,
+      "login": "ros-gbp",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/ros-gbp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2328636?"
+    }
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
+
+
