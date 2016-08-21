@@ -1,0 +1,310 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl -H "Time-Zone: Asia/Jakarta" -X GET https://api.github.com/events
+-Via GitBash:
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Marthan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21159234?"
+    },
+    "repo": {
+      "id": 66217154,
+      "name": "Marthan/Coursera",
+      "url": "https://api.github.com/repos/Marthan/Coursera"
+    },
+    "payload": {
+      "ref": "gh-pages",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "Second Coursera Test Repository ",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-08-21T19:40:46Z"
+  },
+  {
+    "id": "4448177743",
+    "type": "PushEvent",
+    "actor": {
+      "id": 10667698,
+      "login": "hansemannn",
+      "display_login": "hansemannn",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hansemannn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10667698?"
+    },
+    "repo": {
+      "id": 44414242,
+      "name": "appcelerator/hyperloop-examples",
+      "url": "https://api.github.com/repos/appcelerator/hyperloop-examples"
+    },
+    "payload": {
+      "push_id": 1259964254,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/master",
+      "head": "7f100aa07dcbe45f60ce2a52fa535233b3bf7fd7",
+      "before": "252aa713a0b17bc55523bde265a7bcd2cc3c8da4",
+      "commits": [
+        {
+          "sha": "8b822e626fb8206315c1e738aa751b909c16cd06",
+          "author": {
+            "email": "hans.knoechel@hs-osnabrueck.de",
+            "name": "Hans Knoechel"
+          },
+          "message": "Fix 3rd-party libraries for Android",
+          "distinct": true,
+          "url": "https://api.github.com/repos/appcelerator/hyperloop-examples/c
+ommits/8b822e626fb8206315c1e738aa751b909c16cd06"
+        },
+        {
+          "sha": "7f100aa07dcbe45f60ce2a52fa535233b3bf7fd7",
+          "author": {
+            "email": "hansemannn@users.noreply.github.com",
+            "name": "Hans Knoechel"
+          },
+          "message": "Merge pull request #44 from hansemannn/FIX_ANDROID\n\nFix
+3rd-party libraries for Android",
+          "distinct": true,
+          "url": "https://api.github.com/repos/appcelerator/hyperloop-examples/c
+ommits/7f100aa07dcbe45f60ce2a52fa535233b3bf7fd7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-08-21T19:40:45Z",
+    "org": {
+      "id": 82188,
+      "login": "appcelerator",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/appcelerator",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82188?"
+    }
+  },
+  {
+    "id": "4448177741",
+    "type": "PushEvent",
+    "actor": {
+      "id": 3526486,
+      "login": "anishathalye",
+      "display_login": "anishathalye",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anishathalye",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3526486?"
+    },
+    "repo": {
+      "id": 11202663,
+      "name": "anishathalye/dotfiles",
+      "url": "https://api.github.com/repos/anishathalye/dotfiles"
+    },
+    "payload": {
+      "push_id": 1259964251,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "da8a4cfb5469c2e84a369260a08f34d8a369864d",
+      "before": "41949d5085d3b8ef94d2e3082fbe7a6a4acf45de",
+      "commits": [
+        {
+          "sha": "da8a4cfb5469c2e84a369260a08f34d8a369864d",
+          "author": {
+            "email": "me@anishathalye.com",
+            "name": "Anish Athalye"
+          },
+          "message": "Enable fenced code block syntax highlighting",
+          "distinct": true,
+          "url": "https://api.github.com/repos/anishathalye/dotfiles/commits/da8
+a4cfb5469c2e84a369260a08f34d8a369864d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-08-21T19:40:45Z"
+  },
+  {
+    "id": "4448177739",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 11999859,
+      "login": "joeblew99",
+      "display_login": "joeblew99",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joeblew99",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11999859?"
+    },
+    "repo": {
+      "id": 12112609,
+      "name": "lonnc/golang-nw",
+      "url": "https://api.github.com/repos/lonnc/golang-nw"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/lonnc/golang-nw/issues/21",
+        "repository_url": "https://api.github.com/repos/lonnc/golang-nw",
+        "labels_url": "https://api.github.com/repos/lonnc/golang-nw/issues/21/la
+bels{/name}",
+        "comments_url": "https://api.github.com/repos/lonnc/golang-nw/issues/21/
+comments",
+        "events_url": "https://api.github.com/repos/lonnc/golang-nw/issues/21/ev
+ents",
+        "html_url": "https://github.com/lonnc/golang-nw/issues/21",
+        "id": 172337185,
+        "number": 21,
+        "title": "panic: missing environment variable 'GOLANG-NW'",
+        "user": {
+          "login": "joeblew99",
+          "id": 11999859,
+          "avatar_url": "https://avatars.githubusercontent.com/u/11999859?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/joeblew99",
+          "html_url": "https://github.com/joeblew99",
+          "followers_url": "https://api.github.com/users/joeblew99/followers",
+          "following_url": "https://api.github.com/users/joeblew99/following{/ot
+her_user}",
+          "gists_url": "https://api.github.com/users/joeblew99/gists{/gist_id}",
+
+          "starred_url": "https://api.github.com/users/joeblew99/starred{/owner}
+{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joeblew99/subscript
+ions",
+          "organizations_url": "https://api.github.com/users/joeblew99/orgs",
+          "repos_url": "https://api.github.com/users/joeblew99/repos",
+          "events_url": "https://api.github.com/users/joeblew99/events{/privacy}
+",
+          "received_events_url": "https://api.github.com/users/joeblew99/receive
+d_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2016-08-21T19:40:45Z",
+        "updated_at": "2016-08-21T19:40:45Z",
+        "closed_at": null,
+        "body": "OSX\r\ngo 1.6.3\r\n\r\nI made a simple example app the same as
+yours\r\ni installed it\r\ni try then to run it and it blows up with:\r\npanic:
+missing environment variable 'GOLANG-NW'\r\n\r\nIs there a need for a special en
+v variable to be present ?\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2016-08-21T19:40:45Z"
+  },
+  {
+    "id": "4448177737",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 20915059,
+      "login": "ML2020",
+      "display_login": "ML2020",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ML2020",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20915059?"
+    },
+    "repo": {
+      "id": 66217269,
+      "name": "ML2020/Mean-Shift-Clustering-with-Titanic-Data",
+      "url": "https://api.github.com/repos/ML2020/Mean-Shift-Clustering-with-Tit
+anic-Data"
+    },
+    "payload": {
+      "ref": null,
+      "ref_type": "repository",
+      "master_branch": "master",
+      "description": "MeanShiftClustering using the Titanic dataset",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2016-08-21T19:40:45Z"
+  },
+  {
+    "id": "4448177736",
+    "type": "PushEvent",
+    "actor": {
+      "id": 17657657,
+      "login": "micahwhitetech",
+      "display_login": "micahwhitetech",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/micahwhitetech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17657657?"
+    },
+    "repo": {
+      "id": 66113802,
+      "name": "micahwhitetech/81deploy3",
+      "url": "https://api.github.com/repos/micahwhitetech/81deploy3"
+    },
+    "payload": {
+      "push_id": 1259964250,
+      "size": 0,
+      "distinct_size": 0,
+      "ref": "refs/heads/master",
+      "head": "1d0bfe10491ce8ca72c6ff4c6c27172650c0a0bd",
+      "before": "1d0bfe10491ce8ca72c6ff4c6c27172650c0a0bd",
+      "commits": [
+
+      ]
+    },
+    "public": true,
+    "created_at": "2016-08-21T19:40:45Z"
+  },
+  {
+    "id": "4448177735",
+    "type": "PushEvent",
+    "actor": {
+      "id": 5451903,
+      "login": "AndrewBezold",
+      "display_login": "AndrewBezold",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndrewBezold",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5451903?"
+    },
+    "repo": {
+      "id": 55542780,
+      "name": "AndrewBezold/GrowingNN",
+      "url": "https://api.github.com/repos/AndrewBezold/GrowingNN"
+    },
+    "payload": {
+      "push_id": 1259964249,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/GrowthMethod2",
+      "head": "481a6007e0acbc9e343d4164244e1e966fc465b9",
+      "before": "b43618995d26b73ca78db2151e92418e29e8a263",
+      "commits": [
+        {
+          "sha": "481a6007e0acbc9e343d4164244e1e966fc465b9",
+          "author": {
+            "email": "andrew.bezold@gmail.com",
+            "name": "Andrew Bezold"
+          },
+          "message": "Dump\n\nDumping to update.  Some things may not work corre
+ctly at the moment,\nand a logloss error function was added and will be removed.
+",
+          "distinct": true,
+          "url": "https://api.github.com/repos/AndrewBezold/GrowingNN/commits/48
+1a6007e0acbc9e343d4164244e1e966fc465b9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-08-21T19:40:45Z"
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
+
+
