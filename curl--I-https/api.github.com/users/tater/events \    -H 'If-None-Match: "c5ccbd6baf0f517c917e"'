@@ -1,0 +1,50 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl -I https://api.github.com/users/tater/events \
+   -H 'If-None-Match: "c5ccbd6baf0f517c917e"'
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl -I https://api.github.com/users/tater/events \
+>    -H 'If-None-Match: "c5ccbd6baf0f517c917e"'
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Sun, 21 Aug 2016 18:10:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 5
+Status: 200 OK
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 58
+X-RateLimit-Reset: 1471806147
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept
+ETag: "73ca617c70cd2bd9b6f009dab5e2d49d"
+X-Poll-Interval: 60
+X-GitHub-Media-Type: github.v3
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-Ra
+teLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X
+-Poll-Interval
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Served-By: a241e1a8264a6ace03db946c85b92db3
+X-GitHub-Request-Id: 6E89D5F6:6519:50C6DF0:57B9EE7B
+
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
+
+
