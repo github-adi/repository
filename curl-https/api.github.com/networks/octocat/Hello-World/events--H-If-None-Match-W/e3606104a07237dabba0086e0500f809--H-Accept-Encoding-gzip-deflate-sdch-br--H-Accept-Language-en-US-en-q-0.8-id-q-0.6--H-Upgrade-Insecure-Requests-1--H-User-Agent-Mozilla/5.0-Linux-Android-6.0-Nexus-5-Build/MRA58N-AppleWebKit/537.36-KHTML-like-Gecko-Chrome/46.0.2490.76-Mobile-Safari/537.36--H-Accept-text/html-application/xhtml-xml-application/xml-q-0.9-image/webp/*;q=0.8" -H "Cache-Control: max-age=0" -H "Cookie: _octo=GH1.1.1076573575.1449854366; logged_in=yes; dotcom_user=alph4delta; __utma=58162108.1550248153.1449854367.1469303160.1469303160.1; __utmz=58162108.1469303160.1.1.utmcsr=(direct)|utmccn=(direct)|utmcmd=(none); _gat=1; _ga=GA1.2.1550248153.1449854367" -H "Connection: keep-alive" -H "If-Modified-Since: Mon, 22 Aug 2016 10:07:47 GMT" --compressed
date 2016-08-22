@@ -1,0 +1,308 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/networks/octocat/Hello-World/events" -H "If-None-Match: W/""e3606104a07237dabba0086e0500f809""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" -H "If-Modified-Since: Mon, 22 Aug 2016 10:07:47 GMT" --compressed
+-Via GitBash:
+rld/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/testgithub16/Hello-World/t
+ags",
+            "blobs_url": "https://api.github.com/repos/testgithub16/Hello-World/
+git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/testgithub16/Hello-World/
+git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/testgithub16/Hello-Wo
+rld/languages",
+            "stargazers_url": "https://api.github.com/repos/testgithub16/Hello-W
+orld/stargazers",
+            "contributors_url": "https://api.github.com/repos/testgithub16/Hello
+-World/contributors",
+            "subscribers_url": "https://api.github.com/repos/testgithub16/Hello-
+World/subscribers",
+            "subscription_url": "https://api.github.com/repos/testgithub16/Hello
+-World/subscription",
+            "commits_url": "https://api.github.com/repos/testgithub16/Hello-Worl
+d/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/testgithub16/Hello-
+World/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/testgithub16/Hell
+o-World/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/testgithub16/Hello-Worl
+d/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/testgithub16/Hello-World
+/merges",
+            "archive_url": "https://api.github.com/repos/testgithub16/Hello-Worl
+d/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/testgithub16/Hello-Wo
+rld/downloads",
+            "issues_url": "https://api.github.com/repos/testgithub16/Hello-World
+/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/testgithub16/Hello-World/
+pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/testgithub16/Hello-W
+orld/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/testgithub16/Hell
+o-World/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/testgithub16/Hello-World
+/labels{/name}",
+            "releases_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/testgithub16/Hello-
+World/deployments",
+            "created_at": "2016-07-23T14:32:55Z",
+            "updated_at": "2016-07-21T19:30:04Z",
+            "pushed_at": "2016-07-23T18:11:09Z",
+            "git_url": "git://github.com/testgithub16/Hello-World.git",
+            "ssh_url": "git@github.com:testgithub16/Hello-World.git",
+            "clone_url": "https://github.com/testgithub16/Hello-World.git",
+            "svn_url": "https://github.com/testgithub16/Hello-World",
+            "homepage": "",
+            "size": 1,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "test-sub"
+          }
+        },
+        "base": {
+          "label": "testgithub16:test",
+          "ref": "test",
+          "sha": "b3cbd5bbd7e81436d2eee04537ea2b4c0cad4cdf",
+          "user": {
+            "login": "testgithub16",
+            "id": 20613673,
+            "avatar_url": "https://avatars.githubusercontent.com/u/20613673?v=3"
+,
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/testgithub16",
+            "html_url": "https://github.com/testgithub16",
+            "followers_url": "https://api.github.com/users/testgithub16/follower
+s",
+            "following_url": "https://api.github.com/users/testgithub16/followin
+g{/other_user}",
+            "gists_url": "https://api.github.com/users/testgithub16/gists{/gist_
+id}",
+            "starred_url": "https://api.github.com/users/testgithub16/starred{/o
+wner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/testgithub16/subs
+criptions",
+            "organizations_url": "https://api.github.com/users/testgithub16/orgs
+",
+            "repos_url": "https://api.github.com/users/testgithub16/repos",
+            "events_url": "https://api.github.com/users/testgithub16/events{/pri
+vacy}",
+            "received_events_url": "https://api.github.com/users/testgithub16/re
+ceived_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 64020032,
+            "name": "Hello-World",
+            "full_name": "testgithub16/Hello-World",
+            "owner": {
+              "login": "testgithub16",
+              "id": 20613673,
+              "avatar_url": "https://avatars.githubusercontent.com/u/20613673?v=
+3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/testgithub16",
+              "html_url": "https://github.com/testgithub16",
+              "followers_url": "https://api.github.com/users/testgithub16/follow
+ers",
+              "following_url": "https://api.github.com/users/testgithub16/follow
+ing{/other_user}",
+              "gists_url": "https://api.github.com/users/testgithub16/gists{/gis
+t_id}",
+              "starred_url": "https://api.github.com/users/testgithub16/starred{
+/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/testgithub16/su
+bscriptions",
+              "organizations_url": "https://api.github.com/users/testgithub16/or
+gs",
+              "repos_url": "https://api.github.com/users/testgithub16/repos",
+              "events_url": "https://api.github.com/users/testgithub16/events{/p
+rivacy}",
+              "received_events_url": "https://api.github.com/users/testgithub16/
+received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/testgithub16/Hello-World",
+            "description": "My first repository on GitHub!",
+            "fork": true,
+            "url": "https://api.github.com/repos/testgithub16/Hello-World",
+            "forks_url": "https://api.github.com/repos/testgithub16/Hello-World/
+forks",
+            "keys_url": "https://api.github.com/repos/testgithub16/Hello-World/k
+eys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/testgithub16/Hell
+o-World/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/testgithub16/Hello-World/
+teams",
+            "hooks_url": "https://api.github.com/repos/testgithub16/Hello-World/
+hooks",
+            "issue_events_url": "https://api.github.com/repos/testgithub16/Hello
+-World/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/testgithub16/Hello-World
+/events",
+            "assignees_url": "https://api.github.com/repos/testgithub16/Hello-Wo
+rld/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/testgithub16/Hello-World/t
+ags",
+            "blobs_url": "https://api.github.com/repos/testgithub16/Hello-World/
+git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/testgithub16/Hello-World/
+git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/testgithub16/Hello-Wo
+rld/languages",
+            "stargazers_url": "https://api.github.com/repos/testgithub16/Hello-W
+orld/stargazers",
+            "contributors_url": "https://api.github.com/repos/testgithub16/Hello
+-World/contributors",
+            "subscribers_url": "https://api.github.com/repos/testgithub16/Hello-
+World/subscribers",
+            "subscription_url": "https://api.github.com/repos/testgithub16/Hello
+-World/subscription",
+            "commits_url": "https://api.github.com/repos/testgithub16/Hello-Worl
+d/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/testgithub16/Hello-
+World/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/testgithub16/Hell
+o-World/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/testgithub16/Hello-Worl
+d/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/testgithub16/Hello-World
+/merges",
+            "archive_url": "https://api.github.com/repos/testgithub16/Hello-Worl
+d/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/testgithub16/Hello-Wo
+rld/downloads",
+            "issues_url": "https://api.github.com/repos/testgithub16/Hello-World
+/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/testgithub16/Hello-World/
+pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/testgithub16/Hello-W
+orld/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/testgithub16/Hell
+o-World/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/testgithub16/Hello-World
+/labels{/name}",
+            "releases_url": "https://api.github.com/repos/testgithub16/Hello-Wor
+ld/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/testgithub16/Hello-
+World/deployments",
+            "created_at": "2016-07-23T14:32:55Z",
+            "updated_at": "2016-07-21T19:30:04Z",
+            "pushed_at": "2016-07-23T18:11:09Z",
+            "git_url": "git://github.com/testgithub16/Hello-World.git",
+            "ssh_url": "git@github.com:testgithub16/Hello-World.git",
+            "clone_url": "https://github.com/testgithub16/Hello-World.git",
+            "svn_url": "https://github.com/testgithub16/Hello-World",
+            "homepage": "",
+            "size": 1,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "test-sub"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/testgithub16/Hello-World/pulls
+/1"
+          },
+          "html": {
+            "href": "https://github.com/testgithub16/Hello-World/pull/1"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/testgithub16/Hello-World/issue
+s/1"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/testgithub16/Hello-World/issue
+s/1/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/testgithub16/Hello-World/pulls
+/1/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/testgithub16/Hello-World/pulls
+/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/testgithub16/Hello-World/pulls
+/1/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/testgithub16/Hello-World/statu
+ses/41e7baf1c6ffe529574cee28abd622e7be7fcbbf"
+          }
+        },
+        "merged": false,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 1,
+        "deletions": 0,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2016-07-23T18:22:49Z"
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
