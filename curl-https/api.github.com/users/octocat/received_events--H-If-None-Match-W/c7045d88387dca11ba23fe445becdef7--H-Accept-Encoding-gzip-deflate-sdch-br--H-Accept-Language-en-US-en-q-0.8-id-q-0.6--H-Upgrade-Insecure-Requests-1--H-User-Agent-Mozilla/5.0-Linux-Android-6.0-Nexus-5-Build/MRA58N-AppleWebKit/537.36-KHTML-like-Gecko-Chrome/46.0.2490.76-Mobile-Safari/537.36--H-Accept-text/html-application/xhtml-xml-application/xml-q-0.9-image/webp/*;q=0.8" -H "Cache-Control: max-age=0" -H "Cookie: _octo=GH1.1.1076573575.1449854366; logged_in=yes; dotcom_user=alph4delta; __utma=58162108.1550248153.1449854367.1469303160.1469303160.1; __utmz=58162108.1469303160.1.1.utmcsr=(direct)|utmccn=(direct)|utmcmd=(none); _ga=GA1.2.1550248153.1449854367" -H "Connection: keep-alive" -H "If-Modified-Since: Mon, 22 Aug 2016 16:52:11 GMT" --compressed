@@ -1,0 +1,308 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/users/octocat/received_events" -H "If-None-Match: W/""c7045d88387dca11ba23fe445becdef7""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" -H "If-Modified-Since: Mon, 22 Aug 2016 16:52:11 GMT" --compressed
+-Via GitBash:
+      }
+    },
+    "public": true,
+    "created_at": "2016-08-22T08:16:17Z"
+  },
+  {
+    "id": "4449450971",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 12998976,
+      "login": "bzzhang",
+      "display_login": "bzzhang",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bzzhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12998976?"
+    },
+    "repo": {
+      "id": 1300192,
+      "name": "octocat/Spoon-Knife",
+      "url": "https://api.github.com/repos/octocat/Spoon-Knife"
+    },
+    "payload": {
+      "forkee": {
+        "id": 66249106,
+        "name": "Spoon-Knife",
+        "full_name": "bzzhang/Spoon-Knife",
+        "owner": {
+          "login": "bzzhang",
+          "id": 12998976,
+          "avatar_url": "https://avatars.githubusercontent.com/u/12998976?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/bzzhang",
+          "html_url": "https://github.com/bzzhang",
+          "followers_url": "https://api.github.com/users/bzzhang/followers",
+          "following_url": "https://api.github.com/users/bzzhang/following{/othe
+r_user}",
+          "gists_url": "https://api.github.com/users/bzzhang/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/bzzhang/starred{/owner}{/
+repo}",
+          "subscriptions_url": "https://api.github.com/users/bzzhang/subscriptio
+ns",
+          "organizations_url": "https://api.github.com/users/bzzhang/orgs",
+          "repos_url": "https://api.github.com/users/bzzhang/repos",
+          "events_url": "https://api.github.com/users/bzzhang/events{/privacy}",
+
+          "received_events_url": "https://api.github.com/users/bzzhang/received_
+events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/bzzhang/Spoon-Knife",
+        "description": "This repo is for demonstration purposes only.",
+        "fork": true,
+        "url": "https://api.github.com/repos/bzzhang/Spoon-Knife",
+        "forks_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/forks",
+        "keys_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/keys{/key_
+id}",
+        "collaborators_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/c
+ollaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/teams",
+        "hooks_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/hooks",
+        "issue_events_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/is
+sues/events{/number}",
+        "events_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/events",
+
+        "assignees_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/assig
+nees{/user}",
+        "branches_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/branch
+es{/branch}",
+        "tags_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/tags",
+        "blobs_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/git/blobs
+{/sha}",
+        "git_tags_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/git/ta
+gs{/sha}",
+        "git_refs_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/git/re
+fs{/sha}",
+        "trees_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/git/trees
+{/sha}",
+        "statuses_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/status
+es/{sha}",
+        "languages_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/langu
+ages",
+        "stargazers_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/star
+gazers",
+        "contributors_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/co
+ntributors",
+        "subscribers_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/sub
+scribers",
+        "subscription_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/su
+bscription",
+        "commits_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/commits
+{/sha}",
+        "git_commits_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/git
+/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/commen
+ts{/number}",
+        "issue_comment_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/i
+ssues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/conten
+ts/{+path}",
+        "compare_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/compare
+/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/merges",
+
+        "archive_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/{archiv
+e_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/downl
+oads",
+        "issues_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/issues{/
+number}",
+        "pulls_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/pulls{/nu
+mber}",
+        "milestones_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/mile
+stones{/number}",
+        "notifications_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/n
+otifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/labels{/
+name}",
+        "releases_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/releas
+es{/id}",
+        "deployments_url": "https://api.github.com/repos/bzzhang/Spoon-Knife/dep
+loyments",
+        "created_at": "2016-08-22T07:21:35Z",
+        "updated_at": "2016-08-22T02:48:40Z",
+        "pushed_at": "2016-08-22T07:05:38Z",
+        "git_url": "git://github.com/bzzhang/Spoon-Knife.git",
+        "ssh_url": "git@github.com:bzzhang/Spoon-Knife.git",
+        "clone_url": "https://github.com/bzzhang/Spoon-Knife.git",
+        "svn_url": "https://github.com/bzzhang/Spoon-Knife",
+        "homepage": "",
+        "size": 1407736,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2016-08-22T07:21:36Z"
+  },
+  {
+    "id": "4449347140",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 7108002,
+      "login": "Esec",
+      "display_login": "Esec",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Esec",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7108002?"
+    },
+    "repo": {
+      "id": 1300192,
+      "name": "octocat/Spoon-Knife",
+      "url": "https://api.github.com/repos/octocat/Spoon-Knife"
+    },
+    "payload": {
+      "forkee": {
+        "id": 66246897,
+        "name": "Spoon-Knife",
+        "full_name": "Esec/Spoon-Knife",
+        "owner": {
+          "login": "Esec",
+          "id": 7108002,
+          "avatar_url": "https://avatars.githubusercontent.com/u/7108002?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Esec",
+          "html_url": "https://github.com/Esec",
+          "followers_url": "https://api.github.com/users/Esec/followers",
+          "following_url": "https://api.github.com/users/Esec/following{/other_u
+ser}",
+          "gists_url": "https://api.github.com/users/Esec/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Esec/starred{/owner}{/rep
+o}",
+          "subscriptions_url": "https://api.github.com/users/Esec/subscriptions"
+,
+          "organizations_url": "https://api.github.com/users/Esec/orgs",
+          "repos_url": "https://api.github.com/users/Esec/repos",
+          "events_url": "https://api.github.com/users/Esec/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Esec/received_eve
+nts",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/Esec/Spoon-Knife",
+        "description": "This repo is for demonstration purposes only.",
+        "fork": true,
+        "url": "https://api.github.com/repos/Esec/Spoon-Knife",
+        "forks_url": "https://api.github.com/repos/Esec/Spoon-Knife/forks",
+        "keys_url": "https://api.github.com/repos/Esec/Spoon-Knife/keys{/key_id}
+",
+        "collaborators_url": "https://api.github.com/repos/Esec/Spoon-Knife/coll
+aborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/Esec/Spoon-Knife/teams",
+        "hooks_url": "https://api.github.com/repos/Esec/Spoon-Knife/hooks",
+        "issue_events_url": "https://api.github.com/repos/Esec/Spoon-Knife/issue
+s/events{/number}",
+        "events_url": "https://api.github.com/repos/Esec/Spoon-Knife/events",
+        "assignees_url": "https://api.github.com/repos/Esec/Spoon-Knife/assignee
+s{/user}",
+        "branches_url": "https://api.github.com/repos/Esec/Spoon-Knife/branches{
+/branch}",
+        "tags_url": "https://api.github.com/repos/Esec/Spoon-Knife/tags",
+        "blobs_url": "https://api.github.com/repos/Esec/Spoon-Knife/git/blobs{/s
+ha}",
+        "git_tags_url": "https://api.github.com/repos/Esec/Spoon-Knife/git/tags{
+/sha}",
+        "git_refs_url": "https://api.github.com/repos/Esec/Spoon-Knife/git/refs{
+/sha}",
+        "trees_url": "https://api.github.com/repos/Esec/Spoon-Knife/git/trees{/s
+ha}",
+        "statuses_url": "https://api.github.com/repos/Esec/Spoon-Knife/statuses/
+{sha}",
+        "languages_url": "https://api.github.com/repos/Esec/Spoon-Knife/language
+s",
+        "stargazers_url": "https://api.github.com/repos/Esec/Spoon-Knife/stargaz
+ers",
+        "contributors_url": "https://api.github.com/repos/Esec/Spoon-Knife/contr
+ibutors",
+        "subscribers_url": "https://api.github.com/repos/Esec/Spoon-Knife/subscr
+ibers",
+        "subscription_url": "https://api.github.com/repos/Esec/Spoon-Knife/subsc
+ription",
+        "commits_url": "https://api.github.com/repos/Esec/Spoon-Knife/commits{/s
+ha}",
+        "git_commits_url": "https://api.github.com/repos/Esec/Spoon-Knife/git/co
+mmits{/sha}",
+        "comments_url": "https://api.github.com/repos/Esec/Spoon-Knife/comments{
+/number}",
+        "issue_comment_url": "https://api.github.com/repos/Esec/Spoon-Knife/issu
+es/comments{/number}",
+        "contents_url": "https://api.github.com/repos/Esec/Spoon-Knife/contents/
+{+path}",
+        "compare_url": "https://api.github.com/repos/Esec/Spoon-Knife/compare/{b
+ase}...{head}",
+        "merges_url": "https://api.github.com/repos/Esec/Spoon-Knife/merges",
+        "archive_url": "https://api.github.com/repos/Esec/Spoon-Knife/{archive_f
+ormat}{/ref}",
+        "downloads_url": "https://api.github.com/repos/Esec/Spoon-Knife/download
+s",
+        "issues_url": "https://api.github.com/repos/Esec/Spoon-Knife/issues{/num
+ber}",
+        "pulls_url": "https://api.github.com/repos/Esec/Spoon-Knife/pulls{/numbe
+r}",
+        "milestones_url": "https://api.github.com/repos/Esec/Spoon-Knife/milesto
+nes{/number}",
+        "notifications_url": "https://api.github.com/repos/Esec/Spoon-Knife/noti
+fications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/Esec/Spoon-Knife/labels{/nam
+e}",
+        "releases_url": "https://api.github.com/repos/Esec/Spoon-Knife/releases{
+/id}",
+        "deployments_url": "https://api.github.com/repos/Esec/Spoon-Knife/deploy
+ments",
+        "created_at": "2016-08-22T06:47:48Z",
+        "updated_at": "2016-08-22T02:48:40Z",
+        "pushed_at": "2016-08-22T06:44:24Z",
+        "git_url": "git://github.com/Esec/Spoon-Knife.git",
+        "ssh_url": "git@github.com:Esec/Spoon-Knife.git",
+        "clone_url": "https://github.com/Esec/Spoon-Knife.git",
+        "svn_url": "https://github.com/Esec/Spoon-Knife",
+        "homepage": "",
+        "size": 1407736,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2016-08-22T06:47:49Z"
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
