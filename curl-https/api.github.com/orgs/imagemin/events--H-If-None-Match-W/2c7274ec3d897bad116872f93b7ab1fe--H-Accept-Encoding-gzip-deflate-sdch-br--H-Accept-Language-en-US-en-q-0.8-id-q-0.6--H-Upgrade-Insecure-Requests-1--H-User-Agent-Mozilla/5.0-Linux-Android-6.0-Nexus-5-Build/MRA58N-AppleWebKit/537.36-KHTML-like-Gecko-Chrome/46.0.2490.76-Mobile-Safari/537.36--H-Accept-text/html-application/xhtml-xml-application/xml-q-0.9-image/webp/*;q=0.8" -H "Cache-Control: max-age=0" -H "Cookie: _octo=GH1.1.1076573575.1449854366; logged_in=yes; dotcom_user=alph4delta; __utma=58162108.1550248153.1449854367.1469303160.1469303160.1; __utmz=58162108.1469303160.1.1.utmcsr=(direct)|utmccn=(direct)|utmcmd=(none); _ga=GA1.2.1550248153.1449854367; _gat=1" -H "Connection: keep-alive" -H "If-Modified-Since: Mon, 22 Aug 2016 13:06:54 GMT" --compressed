@@ -1,0 +1,309 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/orgs/imagemin/events" -H "If-None-Match: W/""2c7274ec3d897bad116872f93b7ab1fe""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1" -H "Connection: keep-alive" -H "If-Modified-Since: Mon, 22 Aug 2016 13:06:54 GMT" --compressed
+-Via GitBash:
+    "public": true,
+    "created_at": "2016-08-20T01:56:45Z",
+    "org": {
+      "id": 7868808,
+      "login": "imagemin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/imagemin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7868808?"
+    }
+  },
+  {
+    "id": "4445389959",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 6822354,
+      "login": "mamadoo",
+      "display_login": "mamadoo",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mamadoo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6822354?"
+    },
+    "repo": {
+      "id": 14105478,
+      "name": "imagemin/imagemin",
+      "url": "https://api.github.com/repos/imagemin/imagemin"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-08-20T01:51:38Z",
+    "org": {
+      "id": 7868808,
+      "login": "imagemin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/imagemin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7868808?"
+    }
+  },
+  {
+    "id": "4442982881",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 4573947,
+      "login": "dennishall1",
+      "display_login": "dennishall1",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dennishall1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4573947?"
+    },
+    "repo": {
+      "id": 14105478,
+      "name": "imagemin/imagemin",
+      "url": "https://api.github.com/repos/imagemin/imagemin"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-08-19T15:13:26Z",
+    "org": {
+      "id": 7868808,
+      "login": "imagemin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/imagemin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7868808?"
+    }
+  },
+  {
+    "id": "4442933751",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 413772,
+      "login": "graingert",
+      "display_login": "graingert",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/graingert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/413772?"
+    },
+    "repo": {
+      "id": 14105478,
+      "name": "imagemin/imagemin",
+      "url": "https://api.github.com/repos/imagemin/imagemin"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/imagemin/imagemin/issues/194",
+        "repository_url": "https://api.github.com/repos/imagemin/imagemin",
+        "labels_url": "https://api.github.com/repos/imagemin/imagemin/issues/194
+/labels{/name}",
+        "comments_url": "https://api.github.com/repos/imagemin/imagemin/issues/1
+94/comments",
+        "events_url": "https://api.github.com/repos/imagemin/imagemin/issues/194
+/events",
+        "html_url": "https://github.com/imagemin/imagemin/issues/194",
+        "id": 172152402,
+        "number": 194,
+        "title": "http://imagemin.io is down",
+        "user": {
+          "login": "graingert",
+          "id": 413772,
+          "avatar_url": "https://avatars.githubusercontent.com/u/413772?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/graingert",
+          "html_url": "https://github.com/graingert",
+          "followers_url": "https://api.github.com/users/graingert/followers",
+          "following_url": "https://api.github.com/users/graingert/following{/ot
+her_user}",
+          "gists_url": "https://api.github.com/users/graingert/gists{/gist_id}",
+
+          "starred_url": "https://api.github.com/users/graingert/starred{/owner}
+{/repo}",
+          "subscriptions_url": "https://api.github.com/users/graingert/subscript
+ions",
+          "organizations_url": "https://api.github.com/users/graingert/orgs",
+          "repos_url": "https://api.github.com/users/graingert/repos",
+          "events_url": "https://api.github.com/users/graingert/events{/privacy}
+",
+          "received_events_url": "https://api.github.com/users/graingert/receive
+d_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2016-08-19T15:04:37Z",
+        "updated_at": "2016-08-19T15:04:37Z",
+        "closed_at": null,
+        "body": ""
+      }
+    },
+    "public": true,
+    "created_at": "2016-08-19T15:04:37Z",
+    "org": {
+      "id": 7868808,
+      "login": "imagemin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/imagemin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7868808?"
+    }
+  },
+  {
+    "id": "4440331177",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 1888508,
+      "login": "zry656565",
+      "display_login": "zry656565",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zry656565",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1888508?"
+    },
+    "repo": {
+      "id": 14105478,
+      "name": "imagemin/imagemin",
+      "url": "https://api.github.com/repos/imagemin/imagemin"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-08-19T02:46:25Z",
+    "org": {
+      "id": 7868808,
+      "login": "imagemin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/imagemin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7868808?"
+    }
+  },
+  {
+    "id": "4438294765",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 5710962,
+      "login": "andyfenelon",
+      "display_login": "andyfenelon",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andyfenelon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5710962?"
+    },
+    "repo": {
+      "id": 23705182,
+      "name": "imagemin/imagemin-webp",
+      "url": "https://api.github.com/repos/imagemin/imagemin-webp"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-08-18T18:06:33Z",
+    "org": {
+      "id": 7868808,
+      "login": "imagemin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/imagemin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7868808?"
+    }
+  },
+  {
+    "id": "4436615420",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 740978,
+      "login": "bernharduw",
+      "display_login": "bernharduw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bernharduw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/740978?"
+    },
+    "repo": {
+      "id": 14105478,
+      "name": "imagemin/imagemin",
+      "url": "https://api.github.com/repos/imagemin/imagemin"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-08-18T13:07:44Z",
+    "org": {
+      "id": 7868808,
+      "login": "imagemin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/imagemin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7868808?"
+    }
+  },
+  {
+    "id": "4434432073",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 15116923,
+      "login": "comeUpWithItLater",
+      "display_login": "comeUpWithItLater",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/comeUpWithItLater",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15116923?"
+    },
+    "repo": {
+      "id": 14105478,
+      "name": "imagemin/imagemin",
+      "url": "https://api.github.com/repos/imagemin/imagemin"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-08-18T02:34:18Z",
+    "org": {
+      "id": 7868808,
+      "login": "imagemin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/imagemin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7868808?"
+    }
+  },
+  {
+    "id": "4434204596",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 3926533,
+      "login": "catcxj",
+      "display_login": "catcxj",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/catcxj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3926533?"
+    },
+    "repo": {
+      "id": 14105478,
+      "name": "imagemin/imagemin",
+      "url": "https://api.github.com/repos/imagemin/imagemin"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-08-18T01:07:48Z",
+    "org": {
+      "id": 7868808,
+      "login": "imagemin",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/imagemin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7868808?"
+    }
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
+
