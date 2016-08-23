@@ -1,0 +1,113 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/users/alph4delta/received_events" -H "If-None-Match: W/""ca5ac292792cb8083cc9b76a763d85eb""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" -H "If-Modified-Since: Thu, 11 Aug 2016 17:01:36 GMT" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/users/alph4delta/received_events" -H "If-None-Ma
+tch: W/""ca5ac292792cb8083cc9b76a763d85eb""" -H "Accept-Encoding: gzip, deflate
+, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-
+Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA
+58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/5
+37.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/
+webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.107657357
+5.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153
+.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(dir
+ect)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.1449854367" -H
+ "Connection: keep-alive" -H "If-Modified-Since: Thu, 11 Aug 2016 17:01:36 GMT"
+ --compressed
+[
+  {
+    "id": "4406125566",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 1437502,
+      "login": "dani3l",
+      "display_login": "dani3l",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dani3l",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1437502?"
+    },
+    "repo": {
+      "id": 23520058,
+      "name": "github-adi/repository",
+      "url": "https://api.github.com/repos/github-adi/repository"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/github-adi/repository/issues/2",
+        "repository_url": "https://api.github.com/repos/github-adi/repository",
+        "labels_url": "https://api.github.com/repos/github-adi/repository/issues
+/2/labels{/name}",
+        "comments_url": "https://api.github.com/repos/github-adi/repository/issu
+es/2/comments",
+        "events_url": "https://api.github.com/repos/github-adi/repository/issues
+/2/events",
+        "html_url": "https://github.com/github-adi/repository/issues/2",
+        "id": 170695273,
+        "number": 2,
+        "title": "Hi man! what is the purpose of this repo?",
+        "user": {
+          "login": "dani3l",
+          "id": 1437502,
+          "avatar_url": "https://avatars.githubusercontent.com/u/1437502?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dani3l",
+          "html_url": "https://github.com/dani3l",
+          "followers_url": "https://api.github.com/users/dani3l/followers",
+          "following_url": "https://api.github.com/users/dani3l/following{/other
+_user}",
+          "gists_url": "https://api.github.com/users/dani3l/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dani3l/starred{/owner}{/r
+epo}",
+          "subscriptions_url": "https://api.github.com/users/dani3l/subscription
+s",
+          "organizations_url": "https://api.github.com/users/dani3l/orgs",
+          "repos_url": "https://api.github.com/users/dani3l/repos",
+          "events_url": "https://api.github.com/users/dani3l/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dani3l/received_e
+vents",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2016-08-11T17:01:36Z",
+        "updated_at": "2016-08-11T17:01:36Z",
+        "closed_at": null,
+        "body": "i've been trying to figure it out \r\nthanks!"
+      }
+    },
+    "public": true,
+    "created_at": "2016-08-11T17:01:36Z",
+    "org": {
+      "id": 8607263,
+      "login": "github-adi",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/github-adi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8607263?"
+    }
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
