@@ -1,0 +1,60 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/gists/1/comments/817263" -H "If-None-Match: W/""bae6ee4c88c1077c0a03523ecd856dd2""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1" -H "Connection: keep-alive" -H "If-Modified-Since: Sat, 27 Feb 2016 06:20:57 GMT" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/gists/1/comments/817263" -H "If-None-Match: W/""
+bae6ee4c88c1077c0a03523ecd856dd2""" -H "Accept-Encoding: gzip, deflate, sdch, b
+r" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests:
+ 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) Appl
+eWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H
+ "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;
+q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854
+366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.14498543
+67.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmc
+cn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1" -H "Connect
+ion: keep-alive" -H "If-Modified-Since: Sat, 27 Feb 2016 06:20:57 GMT" --compre
+ssed
+{
+  "url": "https://api.github.com/gists/1/comments/817263",
+  "id": 817263,
+  "user": {
+    "login": "mwatts7222",
+    "id": 3528708,
+    "avatar_url": "https://avatars.githubusercontent.com/u/3528708?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mwatts7222",
+    "html_url": "https://github.com/mwatts7222",
+    "followers_url": "https://api.github.com/users/mwatts7222/followers",
+    "following_url": "https://api.github.com/users/mwatts7222/following{/other_u
+ser}",
+    "gists_url": "https://api.github.com/users/mwatts7222/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mwatts7222/starred{/owner}{/rep
+o}",
+    "subscriptions_url": "https://api.github.com/users/mwatts7222/subscriptions"
+,
+    "organizations_url": "https://api.github.com/users/mwatts7222/orgs",
+    "repos_url": "https://api.github.com/users/mwatts7222/repos",
+    "events_url": "https://api.github.com/users/mwatts7222/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mwatts7222/received_eve
+nts",
+    "type": "User",
+    "site_admin": false
+  },
+  "created_at": "2013-04-17T13:10:50Z",
+  "updated_at": "2013-04-17T13:10:50Z",
+  "body": "Perfect! Love It!"
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
