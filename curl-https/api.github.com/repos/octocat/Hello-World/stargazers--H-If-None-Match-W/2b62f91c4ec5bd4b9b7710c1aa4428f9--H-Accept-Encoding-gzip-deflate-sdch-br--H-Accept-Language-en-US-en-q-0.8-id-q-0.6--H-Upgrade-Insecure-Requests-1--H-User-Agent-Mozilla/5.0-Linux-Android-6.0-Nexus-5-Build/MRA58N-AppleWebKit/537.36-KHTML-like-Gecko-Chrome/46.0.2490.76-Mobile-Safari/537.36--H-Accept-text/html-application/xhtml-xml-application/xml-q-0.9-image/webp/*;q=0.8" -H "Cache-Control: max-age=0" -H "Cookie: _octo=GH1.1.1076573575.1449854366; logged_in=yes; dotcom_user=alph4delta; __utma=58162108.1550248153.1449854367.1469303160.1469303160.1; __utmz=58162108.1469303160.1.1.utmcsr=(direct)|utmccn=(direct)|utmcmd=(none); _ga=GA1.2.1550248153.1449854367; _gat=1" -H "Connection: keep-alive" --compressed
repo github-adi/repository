@@ -1,0 +1,308 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/repos/octocat/Hello-World/stargazers" -H "If-None-Match: W/""2b62f91c4ec5bd4b9b7710c1aa4428f9""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1" -H "Connection: keep-alive" --compressed
+-Via GitBash:
+    "received_events_url": "https://api.github.com/users/damiendeakes/received_e
+vents",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "adelcambre",
+    "id": 242,
+    "avatar_url": "https://avatars.githubusercontent.com/u/242?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/adelcambre",
+    "html_url": "https://github.com/adelcambre",
+    "followers_url": "https://api.github.com/users/adelcambre/followers",
+    "following_url": "https://api.github.com/users/adelcambre/following{/other_u
+ser}",
+    "gists_url": "https://api.github.com/users/adelcambre/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/adelcambre/starred{/owner}{/rep
+o}",
+    "subscriptions_url": "https://api.github.com/users/adelcambre/subscriptions"
+,
+    "organizations_url": "https://api.github.com/users/adelcambre/orgs",
+    "repos_url": "https://api.github.com/users/adelcambre/repos",
+    "events_url": "https://api.github.com/users/adelcambre/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/adelcambre/received_eve
+nts",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "usergenic",
+    "id": 578,
+    "avatar_url": "https://avatars.githubusercontent.com/u/578?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/usergenic",
+    "html_url": "https://github.com/usergenic",
+    "followers_url": "https://api.github.com/users/usergenic/followers",
+    "following_url": "https://api.github.com/users/usergenic/following{/other_us
+er}",
+    "gists_url": "https://api.github.com/users/usergenic/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/usergenic/starred{/owner}{/repo
+}",
+    "subscriptions_url": "https://api.github.com/users/usergenic/subscriptions",
+
+    "organizations_url": "https://api.github.com/users/usergenic/orgs",
+    "repos_url": "https://api.github.com/users/usergenic/repos",
+    "events_url": "https://api.github.com/users/usergenic/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/usergenic/received_even
+ts",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "fdb",
+    "id": 8477,
+    "avatar_url": "https://avatars.githubusercontent.com/u/8477?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fdb",
+    "html_url": "https://github.com/fdb",
+    "followers_url": "https://api.github.com/users/fdb/followers",
+    "following_url": "https://api.github.com/users/fdb/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fdb/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fdb/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fdb/subscriptions",
+    "organizations_url": "https://api.github.com/users/fdb/orgs",
+    "repos_url": "https://api.github.com/users/fdb/repos",
+    "events_url": "https://api.github.com/users/fdb/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fdb/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "darinel",
+    "id": 29478,
+    "avatar_url": "https://avatars.githubusercontent.com/u/29478?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/darinel",
+    "html_url": "https://github.com/darinel",
+    "followers_url": "https://api.github.com/users/darinel/followers",
+    "following_url": "https://api.github.com/users/darinel/following{/other_user
+}",
+    "gists_url": "https://api.github.com/users/darinel/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/darinel/starred{/owner}{/repo}"
+,
+    "subscriptions_url": "https://api.github.com/users/darinel/subscriptions",
+    "organizations_url": "https://api.github.com/users/darinel/orgs",
+    "repos_url": "https://api.github.com/users/darinel/repos",
+    "events_url": "https://api.github.com/users/darinel/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/darinel/received_events
+",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "Willianvdv",
+    "id": 102915,
+    "avatar_url": "https://avatars.githubusercontent.com/u/102915?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Willianvdv",
+    "html_url": "https://github.com/Willianvdv",
+    "followers_url": "https://api.github.com/users/Willianvdv/followers",
+    "following_url": "https://api.github.com/users/Willianvdv/following{/other_u
+ser}",
+    "gists_url": "https://api.github.com/users/Willianvdv/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Willianvdv/starred{/owner}{/rep
+o}",
+    "subscriptions_url": "https://api.github.com/users/Willianvdv/subscriptions"
+,
+    "organizations_url": "https://api.github.com/users/Willianvdv/orgs",
+    "repos_url": "https://api.github.com/users/Willianvdv/repos",
+    "events_url": "https://api.github.com/users/Willianvdv/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Willianvdv/received_eve
+nts",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "sul4bh",
+    "id": 109486,
+    "avatar_url": "https://avatars.githubusercontent.com/u/109486?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sul4bh",
+    "html_url": "https://github.com/sul4bh",
+    "followers_url": "https://api.github.com/users/sul4bh/followers",
+    "following_url": "https://api.github.com/users/sul4bh/following{/other_user}
+",
+    "gists_url": "https://api.github.com/users/sul4bh/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sul4bh/starred{/owner}{/repo}",
+
+    "subscriptions_url": "https://api.github.com/users/sul4bh/subscriptions",
+    "organizations_url": "https://api.github.com/users/sul4bh/orgs",
+    "repos_url": "https://api.github.com/users/sul4bh/repos",
+    "events_url": "https://api.github.com/users/sul4bh/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sul4bh/received_events"
+,
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "preavy",
+    "id": 131258,
+    "avatar_url": "https://avatars.githubusercontent.com/u/131258?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/preavy",
+    "html_url": "https://github.com/preavy",
+    "followers_url": "https://api.github.com/users/preavy/followers",
+    "following_url": "https://api.github.com/users/preavy/following{/other_user}
+",
+    "gists_url": "https://api.github.com/users/preavy/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/preavy/starred{/owner}{/repo}",
+
+    "subscriptions_url": "https://api.github.com/users/preavy/subscriptions",
+    "organizations_url": "https://api.github.com/users/preavy/orgs",
+    "repos_url": "https://api.github.com/users/preavy/repos",
+    "events_url": "https://api.github.com/users/preavy/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/preavy/received_events"
+,
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "benjic",
+    "id": 135916,
+    "avatar_url": "https://avatars.githubusercontent.com/u/135916?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/benjic",
+    "html_url": "https://github.com/benjic",
+    "followers_url": "https://api.github.com/users/benjic/followers",
+    "following_url": "https://api.github.com/users/benjic/following{/other_user}
+",
+    "gists_url": "https://api.github.com/users/benjic/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/benjic/starred{/owner}{/repo}",
+
+    "subscriptions_url": "https://api.github.com/users/benjic/subscriptions",
+    "organizations_url": "https://api.github.com/users/benjic/orgs",
+    "repos_url": "https://api.github.com/users/benjic/repos",
+    "events_url": "https://api.github.com/users/benjic/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/benjic/received_events"
+,
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "hagiwaratakayuki",
+    "id": 141513,
+    "avatar_url": "https://avatars.githubusercontent.com/u/141513?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/hagiwaratakayuki",
+    "html_url": "https://github.com/hagiwaratakayuki",
+    "followers_url": "https://api.github.com/users/hagiwaratakayuki/followers",
+    "following_url": "https://api.github.com/users/hagiwaratakayuki/following{/o
+ther_user}",
+    "gists_url": "https://api.github.com/users/hagiwaratakayuki/gists{/gist_id}"
+,
+    "starred_url": "https://api.github.com/users/hagiwaratakayuki/starred{/owner
+}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/hagiwaratakayuki/subscrip
+tions",
+    "organizations_url": "https://api.github.com/users/hagiwaratakayuki/orgs",
+    "repos_url": "https://api.github.com/users/hagiwaratakayuki/repos",
+    "events_url": "https://api.github.com/users/hagiwaratakayuki/events{/privacy
+}",
+    "received_events_url": "https://api.github.com/users/hagiwaratakayuki/receiv
+ed_events",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "stefanlasiewski",
+    "id": 142752,
+    "avatar_url": "https://avatars.githubusercontent.com/u/142752?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/stefanlasiewski",
+    "html_url": "https://github.com/stefanlasiewski",
+    "followers_url": "https://api.github.com/users/stefanlasiewski/followers",
+    "following_url": "https://api.github.com/users/stefanlasiewski/following{/ot
+her_user}",
+    "gists_url": "https://api.github.com/users/stefanlasiewski/gists{/gist_id}",
+
+    "starred_url": "https://api.github.com/users/stefanlasiewski/starred{/owner}
+{/repo}",
+    "subscriptions_url": "https://api.github.com/users/stefanlasiewski/subscript
+ions",
+    "organizations_url": "https://api.github.com/users/stefanlasiewski/orgs",
+    "repos_url": "https://api.github.com/users/stefanlasiewski/repos",
+    "events_url": "https://api.github.com/users/stefanlasiewski/events{/privacy}
+",
+    "received_events_url": "https://api.github.com/users/stefanlasiewski/receive
+d_events",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "hbjerry",
+    "id": 174603,
+    "avatar_url": "https://avatars.githubusercontent.com/u/174603?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/hbjerry",
+    "html_url": "https://github.com/hbjerry",
+    "followers_url": "https://api.github.com/users/hbjerry/followers",
+    "following_url": "https://api.github.com/users/hbjerry/following{/other_user
+}",
+    "gists_url": "https://api.github.com/users/hbjerry/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/hbjerry/starred{/owner}{/repo}"
+,
+    "subscriptions_url": "https://api.github.com/users/hbjerry/subscriptions",
+    "organizations_url": "https://api.github.com/users/hbjerry/orgs",
+    "repos_url": "https://api.github.com/users/hbjerry/repos",
+    "events_url": "https://api.github.com/users/hbjerry/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/hbjerry/received_events
+",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "Visgean",
+    "id": 193832,
+    "avatar_url": "https://avatars.githubusercontent.com/u/193832?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Visgean",
+    "html_url": "https://github.com/Visgean",
+    "followers_url": "https://api.github.com/users/Visgean/followers",
+    "following_url": "https://api.github.com/users/Visgean/following{/other_user
+}",
+    "gists_url": "https://api.github.com/users/Visgean/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Visgean/starred{/owner}{/repo}"
+,
+    "subscriptions_url": "https://api.github.com/users/Visgean/subscriptions",
+    "organizations_url": "https://api.github.com/users/Visgean/orgs",
+    "repos_url": "https://api.github.com/users/Visgean/repos",
+    "events_url": "https://api.github.com/users/Visgean/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Visgean/received_events
+",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "jiska",
+    "id": 210861,
+    "avatar_url": "https://avatars.githubusercontent.com/u/210861?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jiska",
+    "html_url": "https://github.com/jiska",
+    "followers_url": "https://api.github.com/users/jiska/followers",
+    "following_url": "https://api.github.com/users/jiska/following{/other_user}"
+,
+    "gists_url": "https://api.github.com/users/jiska/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jiska/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jiska/subscriptions",
+    "organizations_url": "https://api.github.com/users/jiska/orgs",
+    "repos_url": "https://api.github.com/users/jiska/repos",
+    "events_url": "https://api.github.com/users/jiska/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jiska/received_events",
+
+    "type": "User",
+    "site_admin": false
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
