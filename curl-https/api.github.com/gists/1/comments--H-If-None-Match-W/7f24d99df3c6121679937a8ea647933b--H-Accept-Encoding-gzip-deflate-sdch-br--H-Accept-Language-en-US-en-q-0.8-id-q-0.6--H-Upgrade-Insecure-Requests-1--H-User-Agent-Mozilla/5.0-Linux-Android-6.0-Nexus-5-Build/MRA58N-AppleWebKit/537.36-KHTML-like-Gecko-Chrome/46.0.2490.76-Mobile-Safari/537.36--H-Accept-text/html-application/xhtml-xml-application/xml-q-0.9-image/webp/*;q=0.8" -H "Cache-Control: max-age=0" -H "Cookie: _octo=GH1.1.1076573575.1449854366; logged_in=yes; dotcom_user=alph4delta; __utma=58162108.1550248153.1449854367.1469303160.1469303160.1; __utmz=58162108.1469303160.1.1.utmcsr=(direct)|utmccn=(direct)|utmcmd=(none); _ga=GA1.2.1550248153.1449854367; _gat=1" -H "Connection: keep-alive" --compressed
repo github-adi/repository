@@ -1,0 +1,309 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/gists/1/comments" -H "If-None-Match: W/""7f24d99df3c6121679937a8ea647933b""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1" -H "Connection: keep-alive" --compressed
+Via GitBash:
+      "events_url": "https://api.github.com/users/sandeshg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sandeshg/received_eve
+nts",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-03-07T15:10:02Z",
+    "updated_at": "2013-03-07T15:10:02Z",
+    "body": "LOL\r\n"
+  },
+  {
+    "url": "https://api.github.com/gists/1/comments/817263",
+    "id": 817263,
+    "user": {
+      "login": "mwatts7222",
+      "id": 3528708,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3528708?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mwatts7222",
+      "html_url": "https://github.com/mwatts7222",
+      "followers_url": "https://api.github.com/users/mwatts7222/followers",
+      "following_url": "https://api.github.com/users/mwatts7222/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/mwatts7222/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mwatts7222/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/mwatts7222/subscription
+s",
+      "organizations_url": "https://api.github.com/users/mwatts7222/orgs",
+      "repos_url": "https://api.github.com/users/mwatts7222/repos",
+      "events_url": "https://api.github.com/users/mwatts7222/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mwatts7222/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-04-17T13:10:50Z",
+    "updated_at": "2013-04-17T13:10:50Z",
+    "body": "Perfect! Love It!"
+  },
+  {
+    "url": "https://api.github.com/gists/1/comments/863545",
+    "id": 863545,
+    "user": {
+      "login": "DesiRls",
+      "id": 5009786,
+      "avatar_url": "https://avatars.githubusercontent.com/u/5009786?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DesiRls",
+      "html_url": "https://github.com/DesiRls",
+      "followers_url": "https://api.github.com/users/DesiRls/followers",
+      "following_url": "https://api.github.com/users/DesiRls/following{/other_us
+er}",
+      "gists_url": "https://api.github.com/users/DesiRls/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DesiRls/starred{/owner}{/repo
+}",
+      "subscriptions_url": "https://api.github.com/users/DesiRls/subscriptions",
+
+      "organizations_url": "https://api.github.com/users/DesiRls/orgs",
+      "repos_url": "https://api.github.com/users/DesiRls/repos",
+      "events_url": "https://api.github.com/users/DesiRls/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DesiRls/received_even
+ts",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-15T03:05:54Z",
+    "updated_at": "2013-07-15T03:05:54Z",
+    "body": "Watch WWE Money in the Bank 2013 - 14th July 2013 - *720p* HD Full
+Replay - Watch Online / Download\r\n\r\n<a href=\"http://www.desirls.com/pay-per
+-views/179-watch-wwe-money-bank-2013-14th-july-2013-7-14-2013-full-replay-watch-
+online-download.html\"><img src=\"https://a248.e.akamai.net/camo.github.com/3e05
+b158b046df08afa863e20f0d93aeaa80fc61/687474703a2f2f332e62702e626c6f6773706f742e6
+36f6d2f2d47627277667654336a78512f5564302d6f3943516f35492f41414141414141414338512
+f4961334b6e2d32334666342f73313630302f66697665732e706e67\" alt=\"five\" style=\"m
+ax-width:100%;\"></a>\r\n"
+  },
+  {
+    "url": "https://api.github.com/gists/1/comments/865721",
+    "id": 865721,
+    "user": {
+      "login": "JackQiu",
+      "id": 1920429,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1920429?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JackQiu",
+      "html_url": "https://github.com/JackQiu",
+      "followers_url": "https://api.github.com/users/JackQiu/followers",
+      "following_url": "https://api.github.com/users/JackQiu/following{/other_us
+er}",
+      "gists_url": "https://api.github.com/users/JackQiu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JackQiu/starred{/owner}{/repo
+}",
+      "subscriptions_url": "https://api.github.com/users/JackQiu/subscriptions",
+
+      "organizations_url": "https://api.github.com/users/JackQiu/orgs",
+      "repos_url": "https://api.github.com/users/JackQiu/repos",
+      "events_url": "https://api.github.com/users/JackQiu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JackQiu/received_even
+ts",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-18T01:17:14Z",
+    "updated_at": "2013-07-18T01:17:14Z",
+    "body": "lol  god man"
+  },
+  {
+    "url": "https://api.github.com/gists/1/comments/868987",
+    "id": 868987,
+    "user": {
+      "login": "livesoccer",
+      "id": 5066845,
+      "avatar_url": "https://avatars.githubusercontent.com/u/5066845?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/livesoccer",
+      "html_url": "https://github.com/livesoccer",
+      "followers_url": "https://api.github.com/users/livesoccer/followers",
+      "following_url": "https://api.github.com/users/livesoccer/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/livesoccer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/livesoccer/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/livesoccer/subscription
+s",
+      "organizations_url": "https://api.github.com/users/livesoccer/orgs",
+      "repos_url": "https://api.github.com/users/livesoccer/repos",
+      "events_url": "https://api.github.com/users/livesoccer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/livesoccer/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-23T08:52:17Z",
+    "updated_at": "2013-07-23T08:52:17Z",
+    "body": "lol"
+  },
+  {
+    "url": "https://api.github.com/gists/1/comments/868993",
+    "id": 868993,
+    "user": {
+      "login": "livesoccer",
+      "id": 5066845,
+      "avatar_url": "https://avatars.githubusercontent.com/u/5066845?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/livesoccer",
+      "html_url": "https://github.com/livesoccer",
+      "followers_url": "https://api.github.com/users/livesoccer/followers",
+      "following_url": "https://api.github.com/users/livesoccer/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/livesoccer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/livesoccer/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/livesoccer/subscription
+s",
+      "organizations_url": "https://api.github.com/users/livesoccer/orgs",
+      "repos_url": "https://api.github.com/users/livesoccer/repos",
+      "events_url": "https://api.github.com/users/livesoccer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/livesoccer/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-23T08:53:06Z",
+    "updated_at": "2013-07-23T08:53:06Z",
+    "body": "lol"
+  },
+  {
+    "url": "https://api.github.com/gists/1/comments/874311",
+    "id": 874311,
+    "user": {
+      "login": "livesportshd",
+      "id": 5102228,
+      "avatar_url": "https://avatars.githubusercontent.com/u/5102228?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/livesportshd",
+      "html_url": "https://github.com/livesportshd",
+      "followers_url": "https://api.github.com/users/livesportshd/followers",
+      "following_url": "https://api.github.com/users/livesportshd/following{/oth
+er_user}",
+      "gists_url": "https://api.github.com/users/livesportshd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/livesportshd/starred{/owner}{
+/repo}",
+      "subscriptions_url": "https://api.github.com/users/livesportshd/subscripti
+ons",
+      "organizations_url": "https://api.github.com/users/livesportshd/orgs",
+      "repos_url": "https://api.github.com/users/livesportshd/repos",
+      "events_url": "https://api.github.com/users/livesportshd/events{/privacy}"
+,
+      "received_events_url": "https://api.github.com/users/livesportshd/received
+_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-27T11:55:26Z",
+    "updated_at": "2013-07-27T11:55:26Z",
+    "body": "<felek></felek>\r\n<kelek></felek>\r\n<kdb></kdb>\r\n<sihot></isnt>
+\r\n<sksu></ssku>\r\n<fkus></faku>\r\n<keus></wkeu>\r\n<lwla></lwla>\r\n<updee><
+/upede>\r\n<wewnda></wewnda>\r\n[![five](http://3.bp.blogspot.com/-Lf5PBM5E3DU/U
+d1AB2j1IqI/AAAAAAAAC8k/JJIv6vZiExg/s1600/five.jpg)](http://goo.gl/hqGUw)"
+  },
+  {
+    "url": "https://api.github.com/gists/1/comments/874312",
+    "id": 874312,
+    "user": {
+      "login": "livesportshd",
+      "id": 5102228,
+      "avatar_url": "https://avatars.githubusercontent.com/u/5102228?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/livesportshd",
+      "html_url": "https://github.com/livesportshd",
+      "followers_url": "https://api.github.com/users/livesportshd/followers",
+      "following_url": "https://api.github.com/users/livesportshd/following{/oth
+er_user}",
+      "gists_url": "https://api.github.com/users/livesportshd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/livesportshd/starred{/owner}{
+/repo}",
+      "subscriptions_url": "https://api.github.com/users/livesportshd/subscripti
+ons",
+      "organizations_url": "https://api.github.com/users/livesportshd/orgs",
+      "repos_url": "https://api.github.com/users/livesportshd/repos",
+      "events_url": "https://api.github.com/users/livesportshd/events{/privacy}"
+,
+      "received_events_url": "https://api.github.com/users/livesportshd/received
+_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-27T11:55:40Z",
+    "updated_at": "2013-07-27T11:55:40Z",
+    "body": "<felek></felek>\r\n<kelek></felek>\r\n<kdb></kdb>\r\n<sihot></isnt>
+\r\n<sksu></ssku>\r\n<fkus></faku>\r\n<keus></wkeu>\r\n<lwla></lwla>\r\n<updee><
+/upede>\r\n<wewnda></wewnda>\r\n[![five](http://3.bp.blogspot.com/-Lf5PBM5E3DU/U
+d1AB2j1IqI/AAAAAAAAC8k/JJIv6vZiExg/s1600/five.jpg)](http://goo.gl/hqGUw)"
+  },
+  {
+    "url": "https://api.github.com/gists/1/comments/879309",
+    "id": 879309,
+    "user": {
+      "login": "cbleslie",
+      "id": 500963,
+      "avatar_url": "https://avatars.githubusercontent.com/u/500963?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cbleslie",
+      "html_url": "https://github.com/cbleslie",
+      "followers_url": "https://api.github.com/users/cbleslie/followers",
+      "following_url": "https://api.github.com/users/cbleslie/following{/other_u
+ser}",
+      "gists_url": "https://api.github.com/users/cbleslie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cbleslie/starred{/owner}{/rep
+o}",
+      "subscriptions_url": "https://api.github.com/users/cbleslie/subscriptions"
+,
+      "organizations_url": "https://api.github.com/users/cbleslie/orgs",
+      "repos_url": "https://api.github.com/users/cbleslie/repos",
+      "events_url": "https://api.github.com/users/cbleslie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cbleslie/received_eve
+nts",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-08-02T20:29:47Z",
+    "updated_at": "2013-08-02T20:29:47Z",
+    "body": "I am fairly positive that you are useful without gist. I mean. I co
+uld eat you."
+  },
+  {
+    "url": "https://api.github.com/gists/1/comments/899623",
+    "id": 899623,
+    "user": {
+      "login": "emperatriz",
+      "id": 5365500,
+      "avatar_url": "https://avatars.githubusercontent.com/u/5365500?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/emperatriz",
+      "html_url": "https://github.com/emperatriz",
+      "followers_url": "https://api.github.com/users/emperatriz/followers",
+      "following_url": "https://api.github.com/users/emperatriz/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/emperatriz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/emperatriz/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/emperatriz/subscription
+s",
+      "organizations_url": "https://api.github.com/users/emperatriz/orgs",
+      "repos_url": "https://api.github.com/users/emperatriz/repos",
+      "events_url": "https://api.github.com/users/emperatriz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/emperatriz/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-09-02T16:22:34Z",
+    "updated_at": "2013-09-02T16:22:34Z",
+    "body": "haha...new on this gist thing.this one is cute!"
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
+
