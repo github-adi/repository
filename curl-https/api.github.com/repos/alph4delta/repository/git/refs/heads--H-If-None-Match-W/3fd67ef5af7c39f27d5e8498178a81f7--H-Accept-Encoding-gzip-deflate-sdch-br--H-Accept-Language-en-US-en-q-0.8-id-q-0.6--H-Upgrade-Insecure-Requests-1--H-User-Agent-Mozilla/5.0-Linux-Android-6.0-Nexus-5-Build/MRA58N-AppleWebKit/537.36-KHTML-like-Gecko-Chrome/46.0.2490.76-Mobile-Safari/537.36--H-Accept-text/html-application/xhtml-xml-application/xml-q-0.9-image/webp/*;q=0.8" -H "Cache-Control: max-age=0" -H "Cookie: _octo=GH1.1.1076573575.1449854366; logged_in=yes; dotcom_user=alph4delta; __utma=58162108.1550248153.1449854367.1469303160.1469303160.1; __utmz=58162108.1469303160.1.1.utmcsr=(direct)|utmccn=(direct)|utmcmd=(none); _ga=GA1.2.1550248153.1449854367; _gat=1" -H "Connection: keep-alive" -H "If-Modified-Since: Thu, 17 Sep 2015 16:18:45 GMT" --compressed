@@ -1,0 +1,54 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/repos/alph4delta/repository/git/refs/heads" -H "If-None-Match: W/""3fd67ef5af7c39f27d5e8498178a81f7""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1" -H "Connection: keep-alive" -H "If-Modified-Since: Thu, 17 Sep 2015 16:18:45 GMT" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/repos/alph4delta/repository/git/refs/heads" -H "
+If-None-Match: W/""3fd67ef5af7c39f27d5e8498178a81f7""" -H "Accept-Encoding: gzi
+p, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade
+-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5
+ Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobil
+e Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=
+0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1
+.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.
+1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.u
+tmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367;
+_gat=1" -H "Connection: keep-alive" -H "If-Modified-Since: Thu, 17 Sep 2015 16:
+18:45 GMT" --compressed
+[
+  {
+    "ref": "refs/heads/gh-pages",
+    "url": "https://api.github.com/repos/alph4delta/repository/git/refs/heads/gh
+-pages",
+    "object": {
+      "sha": "24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+      "type": "commit",
+      "url": "https://api.github.com/repos/alph4delta/repository/git/commits/242
+02079fbe8d1e7a0b369414d37bdb59fb2c0a6"
+    }
+  },
+  {
+    "ref": "refs/heads/master",
+    "url": "https://api.github.com/repos/alph4delta/repository/git/refs/heads/ma
+ster",
+    "object": {
+      "sha": "6e08e150ae82e60969cdd16d374d2875678f8c9a",
+      "type": "commit",
+      "url": "https://api.github.com/repos/alph4delta/repository/git/commits/6e0
+8e150ae82e60969cdd16d374d2875678f8c9a"
+    }
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
