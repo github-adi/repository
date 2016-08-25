@@ -1,0 +1,114 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/repos/alph4delta/repository/git/blobs/275fa879ecac207622a5e1d64330eeb182d93bb3" -H "If-None-Match: W/""cb3a24fa1700d4966744f02d4439b3d1""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/repos/alph4delta/repository/git/blobs/275fa879ec
+ac207622a5e1d64330eeb182d93bb3" -H "If-None-Match: W/""cb3a24fa1700d4966744f02d
+4439b3d1""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language:
+en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozi
+lla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, l
+ike Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,appl
+ication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control
+: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotc
+om_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160
+.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none
+); _gat=1; _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" --compr
+essed
+{
+  "sha": "275fa879ecac207622a5e1d64330eeb182d93bb3",
+  "size": 4413,
+  "url": "https://api.github.com/repos/alph4delta/repository/git/blobs/275fa879e
+cac207622a5e1d64330eeb182d93bb3",
+  "content": "PCFET0NUWVBFIGh0bWw+CjxodG1sPgoKICA8aGVhZD4KICAgIDxtZXRhIGNo\nYXJz
+ZXQ9J3V0Zi04Jz4KICAgIDxtZXRhIGh0dHAtZXF1aXY9IlgtVUEtQ29t\ncGF0aWJsZSIgY29udGVudD
+0iY2hyb21lPTEiPgogICAgPG1ldGEgbmFtZT0i\nZGVzY3JpcHRpb24iIGNvbnRlbnQ9IlJlcG9zaXRv
+cnkgOiBnaXRodWItYWRp\nIGhhY2sgcmVwb3NpdG9yeS4iPgoKICAgIDxsaW5rIHJlbD0ic3R5bGVzaG
+Vl\ndCIgdHlwZT0idGV4dC9jc3MiIG1lZGlhPSJzY3JlZW4iIGhyZWY9InN0eWxl\nc2hlZXRzL3N0eW
+xlc2hlZXQuY3NzIj4KCiAgICA8dGl0bGU+UmVwb3NpdG9y\neTwvdGl0bGU+CiAgPC9oZWFkPgoKICA8
+Ym9keT4KCiAgICA8IS0tIEhFQURF\nUiAtLT4KICAgIDxkaXYgaWQ9ImhlYWRlcl93cmFwIiBjbGFzcz
+0ib3V0ZXIi\nPgogICAgICAgIDxoZWFkZXIgY2xhc3M9ImlubmVyIj4KICAgICAgICAgIDxh\nIGlkPS
+Jmb3JrbWVfYmFubmVyIiBocmVmPSJodHRwczovL2dpdGh1Yi5jb20v\nZ2l0aHViLWFkaS9yZXBvc2l0
+b3J5Ij5WaWV3IG9uIEdpdEh1YjwvYT4KCiAg\nICAgICAgICA8aDEgaWQ9InByb2plY3RfdGl0bGUiPl
+JlcG9zaXRvcnk8L2gx\nPgogICAgICAgICAgPGgyIGlkPSJwcm9qZWN0X3RhZ2xpbmUiPmdpdGh1Yi1h
+\nZGkgaGFjayByZXBvc2l0b3J5LjwvaDI+CgogICAgICAgICAgICA8c2VjdGlv\nbiBpZD0iZG93bmxv
+YWRzIj4KICAgICAgICAgICAgICA8YSBjbGFzcz0iemlw\nX2Rvd25sb2FkX2xpbmsiIGhyZWY9Imh0dH
+BzOi8vZ2l0aHViLmNvbS9naXRo\ndWItYWRpL3JlcG9zaXRvcnkvemlwYmFsbC9tYXN0ZXIiPkRvd25s
+b2FkIHRo\naXMgcHJvamVjdCBhcyBhIC56aXAgZmlsZTwvYT4KICAgICAgICAgICAgICA8\nYSBjbGFz
+cz0idGFyX2Rvd25sb2FkX2xpbmsiIGhyZWY9Imh0dHBzOi8vZ2l0\naHViLmNvbS9naXRodWItYWRpL3
+JlcG9zaXRvcnkvdGFyYmFsbC9tYXN0ZXIi\nPkRvd25sb2FkIHRoaXMgcHJvamVjdCBhcyBhIHRhci5n
+eiBmaWxlPC9hPgog\nICAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgPC9oZWFkZXI+CiAgICA8\n
+L2Rpdj4KCiAgICA8IS0tIE1BSU4gQ09OVEVOVCAtLT4KICAgIDxkaXYgaWQ9\nIm1haW5fY29udGVudF
+93cmFwIiBjbGFzcz0ib3V0ZXIiPgogICAgICA8c2Vj\ndGlvbiBpZD0ibWFpbl9jb250ZW50IiBjbGFz
+cz0iaW5uZXIiPgogICAgICAg\nIDxoMz4KPGEgbmFtZT0id2VsY29tZS10by1naXRodWItcGFnZXMiIG
+NsYXNz\nPSJhbmNob3IiIGhyZWY9IiN3ZWxjb21lLXRvLWdpdGh1Yi1wYWdlcyI+PHNw\nYW4gY2xhc3
+M9Im9jdGljb24gb2N0aWNvbi1saW5rIj48L3NwYW4+PC9hPldl\nbGNvbWUgdG8gR2l0SHViIFBhZ2Vz
+LjwvaDM+Cgo8cD5UaGlzIGF1dG9tYXRp\nYyBwYWdlIGdlbmVyYXRvciBpcyB0aGUgZWFzaWVzdCB3YX
+kgdG8gY3JlYXRl\nIGJlYXV0aWZ1bCBwYWdlcyBmb3IgYWxsIG9mIHlvdXIgcHJvamVjdHMuIEF1\ndG
+hvciB5b3VyIHBhZ2UgY29udGVudCBoZXJlIHVzaW5nIEdpdEh1YiBGbGF2\nb3JlZCBNYXJrZG93biwg
+c2VsZWN0IGEgdGVtcGxhdGUgY3JhZnRlZCBieSBh\nIGRlc2lnbmVyLCBhbmQgcHVibGlzaC4gQWZ0ZX
+IgeW91ciBwYWdlIGlzIGdl\nbmVyYXRlZCwgeW91IGNhbiBjaGVjayBvdXQgdGhlIG5ldyBicmFuY2g6
+PC9w\nPgoKPHByZT48Y29kZT4kIGNkIHlvdXJfcmVwb19yb290L3JlcG9fbmFtZQok\nIGdpdCBmZXRj
+aCBvcmlnaW4KJCBnaXQgY2hlY2tvdXQgZ2gtcGFnZXMKPC9j\nb2RlPjwvcHJlPgoKPHA+SWYgeW91J3
+JlIHVzaW5nIHRoZSBHaXRIdWIgZm9y\nIE1hYywgc2ltcGx5IHN5bmMgeW91ciByZXBvc2l0b3J5IGFu
+ZCB5b3UnbGwg\nc2VlIHRoZSBuZXcgYnJhbmNoLjwvcD4KCjxoMz4KPGEgbmFtZT0iZGVzaWdu\nZXIt
+dGVtcGxhdGVzIiBjbGFzcz0iYW5jaG9yIiBocmVmPSIjZGVzaWduZXIt\ndGVtcGxhdGVzIj48c3Bhbi
+BjbGFzcz0ib2N0aWNvbiBvY3RpY29uLWxpbmsi\nPjwvc3Bhbj48L2E+RGVzaWduZXIgVGVtcGxhdGVz
+PC9oMz4KCjxwPldlJ3Zl\nIGNyYWZ0ZWQgc29tZSBoYW5kc29tZSB0ZW1wbGF0ZXMgZm9yIHlvdSB0by
+B1\nc2UuIEdvIGFoZWFkIGFuZCBjb250aW51ZSB0byBsYXlvdXRzIHRvIGJyb3dz\nZSB0aHJvdWdoIH
+RoZW0uIFlvdSBjYW4gZWFzaWx5IGdvIGJhY2sgdG8gZWRp\ndCB5b3VyIHBhZ2UgYmVmb3JlIHB1Ymxp
+c2hpbmcuIEFmdGVyIHB1Ymxpc2hp\nbmcgeW91ciBwYWdlLCB5b3UgY2FuIHJldmlzaXQgdGhlIHBhZ2
+UgZ2VuZXJh\ndG9yIGFuZCBzd2l0Y2ggdG8gYW5vdGhlciB0aGVtZS4gWW91ciBQYWdlIGNv\nbnRlbn
+Qgd2lsbCBiZSBwcmVzZXJ2ZWQgaWYgaXQgcmVtYWluZWQgbWFya2Rv\nd24gZm9ybWF0LjwvcD4KCjxo
+Mz4KPGEgbmFtZT0icmF0aGVyLWRyaXZlLXN0\naWNrIiBjbGFzcz0iYW5jaG9yIiBocmVmPSIjcmF0aG
+VyLWRyaXZlLXN0aWNr\nIj48c3BhbiBjbGFzcz0ib2N0aWNvbiBvY3RpY29uLWxpbmsiPjwvc3Bhbj48
+\nL2E+UmF0aGVyIERyaXZlIFN0aWNrPzwvaDM+Cgo8cD5JZiB5b3UgcHJlZmVy\nIHRvIG5vdCB1c2Ug
+dGhlIGF1dG9tYXRpYyBnZW5lcmF0b3IsIHB1c2ggYSBi\ncmFuY2ggbmFtZWQgPGNvZGU+Z2gtcGFnZX
+M8L2NvZGU+IHRvIHlvdXIgcmVw\nb3NpdG9yeSB0byBjcmVhdGUgYSBwYWdlIG1hbnVhbGx5LiBJbiBh
+ZGRpdGlv\nbiB0byBzdXBwb3J0aW5nIHJlZ3VsYXIgSFRNTCBjb250ZW50LCBHaXRIdWIg\nUGFnZXMg
+c3VwcG9ydCBKZWt5bGwsIGEgc2ltcGxlLCBibG9nIGF3YXJlIHN0\nYXRpYyBzaXRlIGdlbmVyYXRvci
+B3cml0dGVuIGJ5IG91ciBvd24gVG9tIFBy\nZXN0b24tV2VybmVyLiBKZWt5bGwgbWFrZXMgaXQgZWFz
+eSB0byBjcmVhdGUg\nc2l0ZS13aWRlIGhlYWRlcnMgYW5kIGZvb3RlcnMgd2l0aG91dCBoYXZpbmcg\n
+dG8gY29weSB0aGVtIGFjcm9zcyBldmVyeSBwYWdlLiBJdCBhbHNvIG9mZmVy\ncyBpbnRlbGxpZ2VudC
+BibG9nIHN1cHBvcnQgYW5kIG90aGVyIGFkdmFuY2Vk\nIHRlbXBsYXRpbmcgZmVhdHVyZXMuPC9wPgoK
+PGgzPgo8YSBuYW1lPSJhdXRo\nb3JzLWFuZC1jb250cmlidXRvcnMiIGNsYXNzPSJhbmNob3IiIGhyZW
+Y9IiNh\ndXRob3JzLWFuZC1jb250cmlidXRvcnMiPjxzcGFuIGNsYXNzPSJvY3RpY29u\nIG9jdGljb2
+4tbGluayI+PC9zcGFuPjwvYT5BdXRob3JzIGFuZCBDb250cmli\ndXRvcnM8L2gzPgoKPHA+WW91IGNh
+biA8YSBocmVmPSJodHRwczovL2dpdGh1\nYi5jb20vYmxvZy84MjEiIGNsYXNzPSJ1c2VyLW1lbnRpb2
+4iPkBtZW50aW9u\nPC9hPiBhIEdpdEh1YiB1c2VybmFtZSB0byBnZW5lcmF0ZSBhIGxpbmsgdG8g\ndG
+hlaXIgcHJvZmlsZS4gVGhlIHJlc3VsdGluZyA8Y29kZT4mbHQ7YSZndDs8\nL2NvZGU+IGVsZW1lbnQg
+d2lsbCBsaW5rIHRvIHRoZSBjb250cmlidXRvcidz\nIEdpdEh1YiBQcm9maWxlLiBGb3IgZXhhbXBsZT
+ogSW4gMjAwNywgQ2hyaXMg\nV2Fuc3RyYXRoICg8YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vZGVm
+dW5r\ndCIgY2xhc3M9InVzZXItbWVudGlvbiI+QGRlZnVua3Q8L2E+KSwgUEogSHll\ndHQgKDxhIGhy
+ZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9wamh5ZXR0IiBjbGFz\ncz0idXNlci1tZW50aW9uIj5AcGpoeW
+V0dDwvYT4pLCBhbmQgVG9tIFByZXN0\nb24tV2VybmVyICg8YSBocmVmPSJodHRwczovL2dpdGh1Yi5j
+b20vbW9qb21i\nbyIgY2xhc3M9InVzZXItbWVudGlvbiI+QG1vam9tYm88L2E+KSBmb3VuZGVk\nIEdp
+dEh1Yi48L3A+Cgo8aDM+CjxhIG5hbWU9InN1cHBvcnQtb3ItY29udGFj\ndCIgY2xhc3M9ImFuY2hvci
+IgaHJlZj0iI3N1cHBvcnQtb3ItY29udGFjdCI+\nPHNwYW4gY2xhc3M9Im9jdGljb24gb2N0aWNvbi1s
+aW5rIj48L3NwYW4+PC9h\nPlN1cHBvcnQgb3IgQ29udGFjdDwvaDM+Cgo8cD5IYXZpbmcgdHJvdWJsZS
+B3\naXRoIFBhZ2VzPyBDaGVjayBvdXQgdGhlIGRvY3VtZW50YXRpb24gYXQgPGEg\naHJlZj0iaHR0cD
+ovL2hlbHAuZ2l0aHViLmNvbS9wYWdlcyI+aHR0cDovL2hl\nbHAuZ2l0aHViLmNvbS9wYWdlczwvYT4g
+b3IgY29udGFjdCA8YSBocmVmPSJt\nYWlsdG86c3VwcG9ydEBnaXRodWIuY29tIj5zdXBwb3J0QGdpdG
+h1Yi5jb208\nL2E+IGFuZCB3ZeKAmWxsIGhlbHAgeW91IHNvcnQgaXQgb3V0LjwvcD4KICAg\nICAgPC
+9zZWN0aW9uPgogICAgPC9kaXY+CgogICAgPCEtLSBGT09URVIgIC0t\nPgogICAgPGRpdiBpZD0iZm9v
+dGVyX3dyYXAiIGNsYXNzPSJvdXRlciI+CiAg\nICAgIDxmb290ZXIgY2xhc3M9ImlubmVyIj4KICAgIC
+AgICA8cCBjbGFzcz0i\nY29weXJpZ2h0Ij5SZXBvc2l0b3J5IG1haW50YWluZWQgYnkgPGEgaHJlZj0i
+\naHR0cHM6Ly9naXRodWIuY29tL2dpdGh1Yi1hZGkiPmdpdGh1Yi1hZGk8L2E+\nPC9wPgogICAgICAg
+IDxwPlB1Ymxpc2hlZCB3aXRoIDxhIGhyZWY9Imh0dHA6\nLy9wYWdlcy5naXRodWIuY29tIj5HaXRIdW
+IgUGFnZXM8L2E+PC9wPgogICAg\nICA8L2Zvb3Rlcj4KICAgIDwvZGl2PgoKICAgIAoKICA8L2JvZHk+
+CjwvaHRt\nbD4K\n",
+  "encoding": "base64"
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
