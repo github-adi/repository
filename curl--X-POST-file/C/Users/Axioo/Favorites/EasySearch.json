@@ -1,0 +1,26 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl -X POST file:///C:/Users/Axioo/Favorites/EasySearch.json
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl -X POST file:///C:/Users/Axioo/Favorites/EasySearch.json
+´╗┐{
+"https:\/\/mybrowserpages.com\/extension\/EasySearch\/info.js"
+}
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl file:///C:/Users/Axioo/Favorites/EasySearch.json
+´╗┐{
+"https:\/\/mybrowserpages.com\/extension\/EasySearch\/info.js"
+}
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
