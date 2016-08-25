@@ -1,0 +1,74 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/repos/alph4delta/repository/git/trees/904b56dc3a0acd2c362e92e63f7844473f2e6acc" -H "If-None-Match: W/""13f0733542dcbedbf628204549a76e5d""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1" -H "Connection: keep-alive" -H "If-Modified-Since: Thu, 17 Sep 2015 16:18:45 GMT" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/repos/alph4delta/repository/git/trees/904b56dc3a
+0acd2c362e92e63f7844473f2e6acc" -H "If-None-Match: W/""13f0733542dcbedbf6282045
+49a76e5d""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language:
+en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozi
+lla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, l
+ike Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,appl
+ication/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control
+: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotc
+om_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160
+.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none
+); _ga=GA1.2.1550248153.1449854367; _gat=1" -H "Connection: keep-alive" -H "If-
+Modified-Since: Thu, 17 Sep 2015 16:18:45 GMT" --compressed
+{
+  "sha": "904b56dc3a0acd2c362e92e63f7844473f2e6acc",
+  "url": "https://api.github.com/repos/alph4delta/repository/git/trees/904b56dc3
+a0acd2c362e92e63f7844473f2e6acc",
+  "tree": [
+    {
+      "path": "bg_hr.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "514aee5056a320b059a4b92fc31385b01f3fd707",
+      "size": 78,
+      "url": "https://api.github.com/repos/alph4delta/repository/git/blobs/514ae
+e5056a320b059a4b92fc31385b01f3fd707"
+    },
+    {
+      "path": "blacktocat.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e160053a5bfc1f1891c5df1a04244b46132ed91c",
+      "size": 463,
+      "url": "https://api.github.com/repos/alph4delta/repository/git/blobs/e1600
+53a5bfc1f1891c5df1a04244b46132ed91c"
+    },
+    {
+      "path": "icon_download.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a793f17688b22d0c98f8b32855f69daff65afaf",
+      "size": 216,
+      "url": "https://api.github.com/repos/alph4delta/repository/git/blobs/5a793
+f17688b22d0c98f8b32855f69daff65afaf"
+    },
+    {
+      "path": "sprite_download.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9f8de24c1c49ce421a44ce2a24ac22d045a39fe",
+      "size": 14832,
+      "url": "https://api.github.com/repos/alph4delta/repository/git/blobs/f9f8d
+e24c1c49ce421a44ce2a24ac22d045a39fe"
+    }
+  ],
+  "truncated": false
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
