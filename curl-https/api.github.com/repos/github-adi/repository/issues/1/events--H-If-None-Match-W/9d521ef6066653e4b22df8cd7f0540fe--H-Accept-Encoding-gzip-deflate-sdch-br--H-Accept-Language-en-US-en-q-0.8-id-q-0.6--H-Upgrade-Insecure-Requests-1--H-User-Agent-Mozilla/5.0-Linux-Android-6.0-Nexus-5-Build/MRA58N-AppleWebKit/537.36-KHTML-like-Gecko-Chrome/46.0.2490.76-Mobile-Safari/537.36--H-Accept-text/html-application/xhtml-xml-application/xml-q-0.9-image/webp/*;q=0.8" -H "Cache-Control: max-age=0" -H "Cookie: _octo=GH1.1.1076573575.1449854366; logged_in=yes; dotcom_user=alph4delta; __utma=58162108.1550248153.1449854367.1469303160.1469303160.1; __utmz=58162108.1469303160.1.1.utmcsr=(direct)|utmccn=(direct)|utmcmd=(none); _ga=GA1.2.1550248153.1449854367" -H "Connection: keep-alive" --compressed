@@ -1,0 +1,67 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/repos/github-adi/repository/issues/1/events" -H "If-None-Match: W/""9d521ef6066653e4b22df8cd7f0540fe""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/repos/github-adi/repository/issues/1/events" -H
+"If-None-Match: W/""9d521ef6066653e4b22df8cd7f0540fe""" -H "Accept-Encoding: gz
+ip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrad
+e-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus
+5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobi
+le Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q
+=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.
+1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108
+.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.
+utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367"
+ -H "Connection: keep-alive" --compressed
+[
+  {
+    "id": 162234582,
+    "url": "https://api.github.com/repos/github-adi/repository/issues/events/162
+234582",
+    "actor": {
+      "login": "alph4delta",
+      "id": 8028833,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alph4delta",
+      "html_url": "https://github.com/alph4delta",
+      "followers_url": "https://api.github.com/users/alph4delta/followers",
+      "following_url": "https://api.github.com/users/alph4delta/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/alph4delta/subscription
+s",
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "event": "labeled",
+    "commit_id": null,
+    "commit_url": null,
+    "created_at": "2014-09-07T19:16:23Z",
+    "label": {
+      "name": "bug",
+      "color": "fc2929"
+    }
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
