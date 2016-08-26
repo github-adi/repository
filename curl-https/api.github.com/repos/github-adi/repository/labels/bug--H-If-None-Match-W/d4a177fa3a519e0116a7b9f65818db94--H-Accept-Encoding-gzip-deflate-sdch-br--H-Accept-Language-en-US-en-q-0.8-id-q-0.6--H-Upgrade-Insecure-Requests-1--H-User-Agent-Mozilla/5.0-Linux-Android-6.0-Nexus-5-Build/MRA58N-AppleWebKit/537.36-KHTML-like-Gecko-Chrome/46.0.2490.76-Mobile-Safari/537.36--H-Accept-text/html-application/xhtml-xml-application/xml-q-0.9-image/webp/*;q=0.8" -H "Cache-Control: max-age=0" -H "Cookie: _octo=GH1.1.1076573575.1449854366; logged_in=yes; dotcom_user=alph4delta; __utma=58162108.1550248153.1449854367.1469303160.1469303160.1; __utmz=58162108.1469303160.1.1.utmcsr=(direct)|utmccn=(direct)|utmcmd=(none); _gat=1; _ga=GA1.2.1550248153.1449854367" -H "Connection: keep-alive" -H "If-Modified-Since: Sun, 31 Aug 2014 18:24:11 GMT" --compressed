@@ -1,0 +1,35 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/repos/github-adi/repository/labels/bug" -H "If-None-Match: W/""d4a177fa3a519e0116a7b9f65818db94""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" -H "If-Modified-Since: Sun, 31 Aug 2014 18:24:11 GMT" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/repos/github-adi/repository/labels/bug" -H "If-N
+one-Match: W/""d4a177fa3a519e0116a7b9f65818db94""" -H "Accept-Encoding: gzip, d
+eflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Ins
+ecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Bui
+ld/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Sa
+fari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,
+image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.107
+6573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550
+248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcs
+r=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.14498543
+67" -H "Connection: keep-alive" -H "If-Modified-Since: Sun, 31 Aug 2014 18:24:1
+1 GMT" --compressed
+{
+  "url": "https://api.github.com/repos/github-adi/repository/labels/bug",
+  "name": "bug",
+  "color": "fc2929"
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
