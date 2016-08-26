@@ -1,0 +1,23 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl -X PATCH file:///C:/Users/Axioo/Favorites/commit4.JSON
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl -X PATCH file:///C:/Users/Axioo/Favorites/commit4.JSON
+´╗┐{
+  "url": "https://api.github.com/repos/github-adi/repository/labels/bug",
+  "name": "bug",
+  "color": "fc2929"
+}
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
