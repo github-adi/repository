@@ -1,0 +1,308 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl 'https://api.github.com/emojis' -H 'If-None-Match: W/"c4e704ff3a6d404ebe5e84e7870c0917"' -H 'Accept-Encoding: gzip, deflate, sdch, br' -H 'Accept-Language: en-US,en;q=0.8,id;q=0.6' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cache-Control: max-age=0' -H 'Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.1449854367' -H 'Connection: keep-alive' --compressed
+-Via GitBash:
+  "star": "https://assets-cdn.github.com/images/icons/emoji/unicode/2b50.png?v6"
+,
+  "star2": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f31f.png?v
+6",
+  "stars": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f320.png?v
+6",
+  "station": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f689.png
+?v6",
+  "statue_of_liberty": "https://assets-cdn.github.com/images/icons/emoji/unicode
+/1f5fd.png?v6",
+  "steam_locomotive": "https://assets-cdn.github.com/images/icons/emoji/unicode/
+1f682.png?v6",
+  "stew": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f372.png?v6
+",
+  "straight_ruler": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f
+4cf.png?v6",
+  "strawberry": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f353.
+png?v6",
+  "stuck_out_tongue": "https://assets-cdn.github.com/images/icons/emoji/unicode/
+1f61b.png?v6",
+  "stuck_out_tongue_closed_eyes": "https://assets-cdn.github.com/images/icons/em
+oji/unicode/1f61d.png?v6",
+  "stuck_out_tongue_winking_eye": "https://assets-cdn.github.com/images/icons/em
+oji/unicode/1f61c.png?v6",
+  "sun_with_face": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3
+1e.png?v6",
+  "sunflower": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f33b.p
+ng?v6",
+  "sunglasses": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f60e.
+png?v6",
+  "sunny": "https://assets-cdn.github.com/images/icons/emoji/unicode/2600.png?v6
+",
+  "sunrise": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f305.png
+?v6",
+  "sunrise_over_mountains": "https://assets-cdn.github.com/images/icons/emoji/un
+icode/1f304.png?v6",
+  "surfer": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3c4.png?
+v6",
+  "sushi": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f363.png?v
+6",
+  "suspect": "https://assets-cdn.github.com/images/icons/emoji/suspect.png?v6",
+  "suspension_railway": "https://assets-cdn.github.com/images/icons/emoji/unicod
+e/1f69f.png?v6",
+  "sweat": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f613.png?v
+6",
+  "sweat_drops": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a6
+.png?v6",
+  "sweat_smile": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f605
+.png?v6",
+  "sweet_potato": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f36
+0.png?v6",
+  "swimmer": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3ca.png
+?v6",
+  "symbols": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f523.png
+?v6",
+  "syringe": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f489.png
+?v6",
+  "tada": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png?v6
+",
+  "tanabata_tree": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3
+8b.png?v6",
+  "tangerine": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f34a.p
+ng?v6",
+  "taurus": "https://assets-cdn.github.com/images/icons/emoji/unicode/2649.png?v
+6",
+  "taxi": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f695.png?v6
+",
+  "tea": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f375.png?v6"
+,
+  "telephone": "https://assets-cdn.github.com/images/icons/emoji/unicode/260e.pn
+g?v6",
+  "telephone_receiver": "https://assets-cdn.github.com/images/icons/emoji/unicod
+e/1f4de.png?v6",
+  "telescope": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f52d.p
+ng?v6",
+  "tennis": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3be.png?
+v6",
+  "tent": "https://assets-cdn.github.com/images/icons/emoji/unicode/26fa.png?v6"
+,
+  "thought_balloon": "https://assets-cdn.github.com/images/icons/emoji/unicode/1
+f4ad.png?v6",
+  "three": "https://assets-cdn.github.com/images/icons/emoji/unicode/0033-20e3.p
+ng?v6",
+  "thumbsdown": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.
+png?v6",
+  "thumbsup": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.pn
+g?v6",
+  "ticket": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3ab.png?
+v6",
+  "tiger": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f42f.png?v
+6",
+  "tiger2": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f405.png?
+v6",
+  "tired_face": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f62b.
+png?v6",
+  "tm": "https://assets-cdn.github.com/images/icons/emoji/unicode/2122.png?v6",
+  "toilet": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f6bd.png?
+v6",
+  "tokyo_tower": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f5fc
+.png?v6",
+  "tomato": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f345.png?
+v6",
+  "tongue": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f445.png?
+v6",
+  "top": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f51d.png?v6"
+,
+  "tophat": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3a9.png?
+v6",
+  "tractor": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f69c.png
+?v6",
+  "traffic_light": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f6
+a5.png?v6",
+  "train": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f68b.png?v
+6",
+  "train2": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f686.png?
+v6",
+  "tram": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f68a.png?v6
+",
+  "triangular_flag_on_post": "https://assets-cdn.github.com/images/icons/emoji/u
+nicode/1f6a9.png?v6",
+  "triangular_ruler": "https://assets-cdn.github.com/images/icons/emoji/unicode/
+1f4d0.png?v6",
+  "trident": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f531.png
+?v6",
+  "triumph": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f624.png
+?v6",
+  "trolleybus": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f68e.
+png?v6",
+  "trollface": "https://assets-cdn.github.com/images/icons/emoji/trollface.png?v
+6",
+  "trophy": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3c6.png?
+v6",
+  "tropical_drink": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f
+379.png?v6",
+  "tropical_fish": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f4
+20.png?v6",
+  "truck": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f69a.png?v
+6",
+  "trumpet": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3ba.png
+?v6",
+  "tshirt": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f455.png?
+v6",
+  "tulip": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f337.png?v
+6",
+  "turtle": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f422.png?
+v6",
+  "tv": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f4fa.png?v6",
+
+  "twisted_rightwards_arrows": "https://assets-cdn.github.com/images/icons/emoji
+/unicode/1f500.png?v6",
+  "two": "https://assets-cdn.github.com/images/icons/emoji/unicode/0032-20e3.png
+?v6",
+  "two_hearts": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f495.
+png?v6",
+  "two_men_holding_hands": "https://assets-cdn.github.com/images/icons/emoji/uni
+code/1f46c.png?v6",
+  "two_women_holding_hands": "https://assets-cdn.github.com/images/icons/emoji/u
+nicode/1f46d.png?v6",
+  "u5272": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f239.png?v
+6",
+  "u5408": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f234.png?v
+6",
+  "u55b6": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f23a.png?v
+6",
+  "u6307": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f22f.png?v
+6",
+  "u6708": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f237.png?v
+6",
+  "u6709": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f236.png?v
+6",
+  "u6e80": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f235.png?v
+6",
+  "u7121": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f21a.png?v
+6",
+  "u7533": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f238.png?v
+6",
+  "u7981": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f232.png?v
+6",
+  "u7a7a": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f233.png?v
+6",
+  "uk": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f1ec-1f1e7.pn
+g?v6",
+  "umbrella": "https://assets-cdn.github.com/images/icons/emoji/unicode/2614.png
+?v6",
+  "unamused": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f612.pn
+g?v6",
+  "underage": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f51e.pn
+g?v6",
+  "unlock": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f513.png?
+v6",
+  "up": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f199.png?v6",
+
+  "us": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f1fa-1f1f8.pn
+g?v6",
+  "v": "https://assets-cdn.github.com/images/icons/emoji/unicode/270c.png?v6",
+  "vertical_traffic_light": "https://assets-cdn.github.com/images/icons/emoji/un
+icode/1f6a6.png?v6",
+  "vhs": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f4fc.png?v6"
+,
+  "vibration_mode": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f
+4f3.png?v6",
+  "video_camera": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f
+9.png?v6",
+  "video_game": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3ae.
+png?v6",
+  "violin": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f3bb.png?
+v6",
+  "virgo": "https://assets-cdn.github.com/images/icons/emoji/unicode/264d.png?v6
+",
+  "volcano": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f30b.png
+?v6",
+  "vs": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f19a.png?v6",
+
+  "walking": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f6b6.png
+?v6",
+  "waning_crescent_moon": "https://assets-cdn.github.com/images/icons/emoji/unic
+ode/1f318.png?v6",
+  "waning_gibbous_moon": "https://assets-cdn.github.com/images/icons/emoji/unico
+de/1f316.png?v6",
+  "warning": "https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png?
+v6",
+  "watch": "https://assets-cdn.github.com/images/icons/emoji/unicode/231a.png?v6
+",
+  "water_buffalo": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f4
+03.png?v6",
+  "watermelon": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f349.
+png?v6",
+  "wave": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f44b.png?v6
+",
+  "wavy_dash": "https://assets-cdn.github.com/images/icons/emoji/unicode/3030.pn
+g?v6",
+  "waxing_crescent_moon": "https://assets-cdn.github.com/images/icons/emoji/unic
+ode/1f312.png?v6",
+  "waxing_gibbous_moon": "https://assets-cdn.github.com/images/icons/emoji/unico
+de/1f314.png?v6",
+  "wc": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f6be.png?v6",
+
+  "weary": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f629.png?v
+6",
+  "wedding": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f492.png
+?v6",
+  "whale": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f433.png?v
+6",
+  "whale2": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f40b.png?
+v6",
+  "wheelchair": "https://assets-cdn.github.com/images/icons/emoji/unicode/267f.p
+ng?v6",
+  "white_check_mark": "https://assets-cdn.github.com/images/icons/emoji/unicode/
+2705.png?v6",
+  "white_circle": "https://assets-cdn.github.com/images/icons/emoji/unicode/26aa
+.png?v6",
+  "white_flower": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a
+e.png?v6",
+  "white_large_square": "https://assets-cdn.github.com/images/icons/emoji/unicod
+e/2b1c.png?v6",
+  "white_medium_small_square": "https://assets-cdn.github.com/images/icons/emoji
+/unicode/25fd.png?v6",
+  "white_medium_square": "https://assets-cdn.github.com/images/icons/emoji/unico
+de/25fb.png?v6",
+  "white_small_square": "https://assets-cdn.github.com/images/icons/emoji/unicod
+e/25ab.png?v6",
+  "white_square_button": "https://assets-cdn.github.com/images/icons/emoji/unico
+de/1f533.png?v6",
+  "wind_chime": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f390.
+png?v6",
+  "wine_glass": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f377.
+png?v6",
+  "wink": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png?v6
+",
+  "wolf": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f43a.png?v6
+",
+  "woman": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f469.png?v
+6",
+  "womans_clothes": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f
+45a.png?v6",
+  "womans_hat": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f452.
+png?v6",
+  "womens": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f6ba.png?
+v6",
+  "worried": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f61f.png
+?v6",
+  "wrench": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f527.png?
+v6",
+  "x": "https://assets-cdn.github.com/images/icons/emoji/unicode/274c.png?v6",
+  "yellow_heart": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f49
+b.png?v6",
+  "yen": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f4b4.png?v6"
+,
+  "yum": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f60b.png?v6"
+,
+  "zap": "https://assets-cdn.github.com/images/icons/emoji/unicode/26a1.png?v6",
+
+  "zero": "https://assets-cdn.github.com/images/icons/emoji/unicode/0030-20e3.pn
+g?v6",
+  "zzz": "https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a4.png?v6"
+
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
