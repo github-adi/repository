@@ -1,0 +1,37 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl –X POST "file:///C:/Users/Axioo/Favorites/gitTags.JSON" -H "Accept: appl
+ication/vnd.github.wyandotte-preview+json”
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ Curl –X POST file:///C:/Users/Axioo/Favorites/gitTags.JSON -H "Accept: applic
+ation/vnd.github.wyandotte-preview+json”
+> curl –X POST "file:///C:/Users/Axioo/Favorites/gitTags.JSON" -H "Accept: appl
+ication/vnd.github.wyandotte-preview+json”
+curl: (6) Could not resolve host: -X
+curl: (6) Could not resolve host: POST
+´╗┐{
+  "tag": "v0.0.1",
+  "message": "initial version\n",
+  "object": "275fa879ecac207622a5e1d64330eeb182d93bb3",
+  "type": "commit",
+  "tagger": {
+    "name": "Muhammad Adi Nugroho,S.Adm.Neg.",
+    "email": "adi.go.rich@gmail.com",
+    "date": "2016-08-26T02:42:30+12:00"
+  }
+}
+curl: (6) Could not resolve host: application
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
