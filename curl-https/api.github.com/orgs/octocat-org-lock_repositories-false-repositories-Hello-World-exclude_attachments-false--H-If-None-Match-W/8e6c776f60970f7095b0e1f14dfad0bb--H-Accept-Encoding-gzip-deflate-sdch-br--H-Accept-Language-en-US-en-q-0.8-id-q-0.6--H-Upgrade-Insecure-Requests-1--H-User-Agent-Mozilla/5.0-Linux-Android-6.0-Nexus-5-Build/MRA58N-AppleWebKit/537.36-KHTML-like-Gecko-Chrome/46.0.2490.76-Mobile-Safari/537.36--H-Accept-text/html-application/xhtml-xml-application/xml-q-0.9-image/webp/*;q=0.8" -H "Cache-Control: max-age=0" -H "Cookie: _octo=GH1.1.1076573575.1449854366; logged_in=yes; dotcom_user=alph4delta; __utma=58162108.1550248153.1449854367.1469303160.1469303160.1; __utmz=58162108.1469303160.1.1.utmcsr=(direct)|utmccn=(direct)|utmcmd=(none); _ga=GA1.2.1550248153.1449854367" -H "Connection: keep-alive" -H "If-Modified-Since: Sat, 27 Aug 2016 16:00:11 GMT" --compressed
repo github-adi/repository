@@ -1,0 +1,52 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/orgs/octocat-org?lock_repositories=false&repositories=Hello-World&exclude_attachments=false" -H "If-None-Match: W/""8e6c776f60970f7095b0e1f14dfad0bb""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" -H "If-Modified-Since: Sat, 27 Aug 2016 16:00:11 GMT" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/orgs/octocat-org?lock_repositories=false&reposit
+ories=Hello-World&exclude_attachments=false" -H "If-None-Match: W/""8e6c776f609
+70f7095b0e1f14dfad0bb""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Acce
+pt-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "Use
+r-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537
+.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: t
+ext/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "
+Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged
+_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.14693031
+60.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)
+|utmcmd=(none); _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" -H
+ "If-Modified-Since: Sat, 27 Aug 2016 16:00:11 GMT" --compressed
+{
+  "login": "octocat-org",
+  "id": 21279392,
+  "url": "https://api.github.com/orgs/octocat-org",
+  "repos_url": "https://api.github.com/orgs/octocat-org/repos",
+  "events_url": "https://api.github.com/orgs/octocat-org/events",
+  "hooks_url": "https://api.github.com/orgs/octocat-org/hooks",
+  "issues_url": "https://api.github.com/orgs/octocat-org/issues",
+  "members_url": "https://api.github.com/orgs/octocat-org/members{/member}",
+  "public_members_url": "https://api.github.com/orgs/octocat-org/public_members{
+/member}",
+  "avatar_url": "https://avatars.githubusercontent.com/u/21279392?v=3",
+  "description": null,
+  "public_repos": 1,
+  "public_gists": 0,
+  "followers": 0,
+  "following": 0,
+  "html_url": "https://github.com/octocat-org",
+  "created_at": "2016-08-27T14:41:35Z",
+  "updated_at": "2016-08-27T16:00:11Z",
+  "type": "Organization"
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
