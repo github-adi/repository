@@ -1,0 +1,49 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/meta" -H "If-None-Match: W/""37694c9e30acade3141d9c87104197b3""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/meta" -H "If-None-Match: W/""37694c9e30acade3141
+d9c87104197b3""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Langu
+age: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent:
+ Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHT
+ML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html
+,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Co
+ntrol: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes;
+ dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.14693
+03160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=
+(none); _gat=1; _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" --
+compressed
+{
+  "verifiable_password_authentication": true,
+  "github_services_sha": "08bbfe546f72544bc0d5eea3aea0d7723dc05413",
+  "hooks": [
+    "192.30.252.0/22"
+  ],
+  "git": [
+    "192.30.252.0/22"
+  ],
+  "pages": [
+    "192.30.252.153/32",
+    "192.30.252.154/32"
+  ],
+  "importer": [
+    "54.158.161.132",
+    "54.226.70.38",
+    "54.87.5.173",
+    "54.166.52.62"
+  ]
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
