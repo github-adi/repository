@@ -1,0 +1,26 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl -X GET 'https://api.github.com/gitignore/templates/C'
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl -X GET 'https://api.github.com/gitignore/templates/C'
+{
+  "name": "C",
+  "source": "# Object files\n*.o\n*.ko\n*.obj\n*.elf\n\n# Precompiled Headers\n*
+.gch\n*.pch\n\n# Libraries\n*.lib\n*.a\n*.la\n*.lo\n\n# Shared objects (inc. Win
+dows DLLs)\n*.dll\n*.so\n*.so.*\n*.dylib\n\n# Executables\n*.exe\n*.out\n*.app\n
+*.i*86\n*.x86_64\n*.hex\n\n# Debug files\n*.dSYM/\n*.su\n"
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
