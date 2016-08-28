@@ -1,0 +1,68 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl  -X GET 'https://api.github.com/repos/github-adi/repository/license'
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl  -X GET 'https://api.github.com/repos/github-adi/repository/license'
+{
+  "name": "MITLicense",
+  "path": "MITLicense",
+  "sha": "364be444ba48a9e0934fe4ec048c4d008966ffec",
+  "size": 1088,
+  "url": "https://api.github.com/repos/github-adi/repository/contents/MITLicense
+?ref=master",
+  "html_url": "https://github.com/github-adi/repository/blob/master/MITLicense",
+
+  "git_url": "https://api.github.com/repos/github-adi/repository/git/blobs/364be
+444ba48a9e0934fe4ec048c4d008966ffec",
+  "download_url": "https://raw.githubusercontent.com/github-adi/repository/maste
+r/MITLicense",
+  "type": "file",
+  "content": "TUlUIExpY2Vuc2UKCkNvcHlyaWdodCAoYykgMjAxNiBNdWhhbW1hZCBBZGkg\nTnVn
+cm9obyxTLkFkbS5OZWcuCgpQZXJtaXNzaW9uIGlzIGhlcmVieSBncmFu\ndGVkLCBmcmVlIG9mIGNoYX
+JnZSwgdG8gYW55IHBlcnNvbiBvYnRhaW5pbmcg\nYSBjb3B5Cm9mIHRoaXMgc29mdHdhcmUgYW5kIGFz
+c29jaWF0ZWQgZG9jdW1l\nbnRhdGlvbiBmaWxlcyAodGhlICJTb2Z0d2FyZSIpLCB0byBkZWFsCmluIH
+Ro\nZSBTb2Z0d2FyZSB3aXRob3V0IHJlc3RyaWN0aW9uLCBpbmNsdWRpbmcgd2l0\naG91dCBsaW1pdG
+F0aW9uIHRoZSByaWdodHMKdG8gdXNlLCBjb3B5LCBtb2Rp\nZnksIG1lcmdlLCBwdWJsaXNoLCBkaXN0
+cmlidXRlLCBzdWJsaWNlbnNlLCBh\nbmQvb3Igc2VsbApjb3BpZXMgb2YgdGhlIFNvZnR3YXJlLCBhbm
+QgdG8gcGVy\nbWl0IHBlcnNvbnMgdG8gd2hvbSB0aGUgU29mdHdhcmUgaXMKZnVybmlzaGVk\nIHRvIG
+RvIHNvLCBzdWJqZWN0IHRvIHRoZSBmb2xsb3dpbmcgY29uZGl0aW9u\nczoKClRoZSBhYm92ZSBjb3B5
+cmlnaHQgbm90aWNlIGFuZCB0aGlzIHBlcm1p\nc3Npb24gbm90aWNlIHNoYWxsIGJlIGluY2x1ZGVkIG
+luIGFsbApjb3BpZXMg\nb3Igc3Vic3RhbnRpYWwgcG9ydGlvbnMgb2YgdGhlIFNvZnR3YXJlLgoKVEhF
+\nIFNPRlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIsIFdJVEhPVVQgV0FSUkFO\nVFkgT0YgQU5ZIEtJ
+TkQsIEVYUFJFU1MgT1IKSU1QTElFRCwgSU5DTFVESU5H\nIEJVVCBOT1QgTElNSVRFRCBUTyBUSEUgV0
+FSUkFOVElFUyBPRiBNRVJDSEFO\nVEFCSUxJVFksCkZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQ
+T1NFIEFO\nRCBOT05JTkZSSU5HRU1FTlQuIElOIE5PIEVWRU5UIFNIQUxMIFRIRQpBVVRI\nT1JTIE9S
+IENPUFlSSUdIVCBIT0xERVJTIEJFIExJQUJMRSBGT1IgQU5ZIENM\nQUlNLCBEQU1BR0VTIE9SIE9USE
+VSCkxJQUJJTElUWSwgV0hFVEhFUiBJTiBB\nTiBBQ1RJT04gT0YgQ09OVFJBQ1QsIFRPUlQgT1IgT1RI
+RVJXSVNFLCBBUklT\nSU5HIEZST00sCk9VVCBPRiBPUiBJTiBDT05ORUNUSU9OIFdJVEggVEhFIFNP\n
+RlRXQVJFIE9SIFRIRSBVU0UgT1IgT1RIRVIgREVBTElOR1MgSU4gVEhFClNP\nRlRXQVJFLgo=\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/github-adi/repository/contents/MITLice
+nse?ref=master",
+    "git": "https://api.github.com/repos/github-adi/repository/git/blobs/364be44
+4ba48a9e0934fe4ec048c4d008966ffec",
+    "html": "https://github.com/github-adi/repository/blob/master/MITLicense"
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  }
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
