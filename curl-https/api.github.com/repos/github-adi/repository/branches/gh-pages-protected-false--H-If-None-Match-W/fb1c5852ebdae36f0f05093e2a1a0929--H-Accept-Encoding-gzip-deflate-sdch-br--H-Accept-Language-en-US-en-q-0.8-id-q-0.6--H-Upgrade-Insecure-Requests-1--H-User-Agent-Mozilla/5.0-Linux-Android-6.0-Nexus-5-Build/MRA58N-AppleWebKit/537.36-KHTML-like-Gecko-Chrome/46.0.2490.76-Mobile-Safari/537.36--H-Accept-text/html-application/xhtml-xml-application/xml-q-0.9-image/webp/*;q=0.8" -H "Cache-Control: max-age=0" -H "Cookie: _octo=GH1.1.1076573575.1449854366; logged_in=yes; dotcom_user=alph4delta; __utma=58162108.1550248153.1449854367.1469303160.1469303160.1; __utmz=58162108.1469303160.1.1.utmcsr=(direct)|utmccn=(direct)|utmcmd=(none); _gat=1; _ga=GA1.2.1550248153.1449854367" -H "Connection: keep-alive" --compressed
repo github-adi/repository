@@ -1,0 +1,116 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/repos/github-adi/repository/branches/gh-pages?protected=false" -H "If-None-Match: W/""fb1c5852ebdae36f0f05093e2a1a0929""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/repos/github-adi/repository/branches/gh-pages?pr
+otected=false" -H "If-None-Match: W/""fb1c5852ebdae36f0f05093e2a1a0929""" -H "A
+ccept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id
+;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; A
+ndroid 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome
+/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml
+,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "
+Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delt
+a; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=581621
+08.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA
+1.2.1550248153.1449854367" -H "Connection: keep-alive" --compressed
+{
+  "name": "gh-pages",
+  "commit": {
+    "sha": "24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+    "commit": {
+      "author": {
+        "name": "Muhammad_Adi_Nugroho",
+        "email": "adi.go.rich@gmail.com",
+        "date": "2014-09-07T19:09:04Z"
+      },
+      "committer": {
+        "name": "Muhammad_Adi_Nugroho",
+        "email": "adi.go.rich@gmail.com",
+        "date": "2014-09-07T19:09:04Z"
+      },
+      "message": "Create gh-pages branch via GitHub",
+      "tree": {
+        "sha": "e316e6e1cecaaf610027ccf8493bb89a447a8f67",
+        "url": "https://api.github.com/repos/github-adi/repository/git/trees/e31
+6e6e1cecaaf610027ccf8493bb89a447a8f67"
+      },
+      "url": "https://api.github.com/repos/github-adi/repository/git/commits/242
+02079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/github-adi/repository/commits/24202079f
+be8d1e7a0b369414d37bdb59fb2c0a6",
+    "html_url": "https://github.com/github-adi/repository/commit/24202079fbe8d1e
+7a0b369414d37bdb59fb2c0a6",
+    "comments_url": "https://api.github.com/repos/github-adi/repository/commits/
+24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/comments",
+    "author": {
+      "login": "alph4delta",
+      "id": 8028833,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alph4delta",
+      "html_url": "https://github.com/alph4delta",
+      "followers_url": "https://api.github.com/users/alph4delta/followers",
+      "following_url": "https://api.github.com/users/alph4delta/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/alph4delta/subscription
+s",
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "alph4delta",
+      "id": 8028833,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alph4delta",
+      "html_url": "https://github.com/alph4delta",
+      "followers_url": "https://api.github.com/users/alph4delta/followers",
+      "following_url": "https://api.github.com/users/alph4delta/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/alph4delta/subscription
+s",
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+
+    ]
+  },
+  "_links": {
+    "self": "https://api.github.com/repos/github-adi/repository/branches/gh-page
+s",
+    "html": "https://github.com/github-adi/repository/tree/gh-pages"
+  }
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
