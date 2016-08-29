@@ -1,0 +1,56 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/repos/alph4delta/repository/contents/images/bg_hr.png?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6" -H "If-None-Match: W/""fa28501e91fd83d3e4ab947d3d7b9a9f""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" -H "If-Modified-Since: Sun, 07 Sep 2014 19:09:04 GMT" --compressed
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl "https://api.github.com/repos/alph4delta/repository/contents/images/bg_h
+r.png?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6" -H "If-None-Match: W/""fa28
+501e91fd83d3e4ab947d3d7b9a9f""" -H "Accept-Encoding: gzip, deflate, sdch, br" -
+H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1"
+-H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWeb
+Kit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Ac
+cept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.
+8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366;
+ logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1
+469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(
+direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-al
+ive" -H "If-Modified-Since: Sun, 07 Sep 2014 19:09:04 GMT" --compressed
+{
+  "name": "bg_hr.png",
+  "path": "images/bg_hr.png",
+  "sha": "514aee5056a320b059a4b92fc31385b01f3fd707",
+  "size": 78,
+  "url": "https://api.github.com/repos/alph4delta/repository/contents/images/bg_
+hr.png?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+  "html_url": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b
+369414d37bdb59fb2c0a6/images/bg_hr.png",
+  "git_url": "https://api.github.com/repos/alph4delta/repository/git/blobs/514ae
+e5056a320b059a4b92fc31385b01f3fd707",
+  "download_url": "https://raw.githubusercontent.com/alph4delta/repository/24202
+079fbe8d1e7a0b369414d37bdb59fb2c0a6/images/bg_hr.png",
+  "type": "file",
+  "content": "iVBORw0KGgoAAAANSUhEUgAAAAQAAAAVCAYAAABhe09AAAAAFUlEQVQY02Ng\nGDLg
+3Llz/0GYYcgBAN3DBtMvUcW7AAAAAElFTkSuQmCC\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/alph4delta/repository/contents/images/
+bg_hr.png?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+    "git": "https://api.github.com/repos/alph4delta/repository/git/blobs/514aee5
+056a320b059a4b92fc31385b01f3fd707",
+    "html": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b36
+9414d37bdb59fb2c0a6/images/bg_hr.png"
+  }
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
