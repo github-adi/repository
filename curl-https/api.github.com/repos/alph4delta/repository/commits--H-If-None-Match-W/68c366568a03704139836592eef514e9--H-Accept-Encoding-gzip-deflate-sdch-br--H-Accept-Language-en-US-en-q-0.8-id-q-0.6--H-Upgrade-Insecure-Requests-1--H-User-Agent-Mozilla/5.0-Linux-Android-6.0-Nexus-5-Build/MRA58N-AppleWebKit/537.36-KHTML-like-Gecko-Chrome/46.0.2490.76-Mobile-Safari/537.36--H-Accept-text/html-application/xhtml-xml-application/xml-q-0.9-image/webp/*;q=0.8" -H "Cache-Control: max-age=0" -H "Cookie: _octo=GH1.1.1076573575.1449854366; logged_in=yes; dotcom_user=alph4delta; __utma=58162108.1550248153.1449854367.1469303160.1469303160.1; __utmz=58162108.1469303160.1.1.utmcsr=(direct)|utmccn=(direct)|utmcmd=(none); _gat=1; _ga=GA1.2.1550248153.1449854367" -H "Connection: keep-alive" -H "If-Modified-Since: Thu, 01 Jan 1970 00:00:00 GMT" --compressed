@@ -1,0 +1,308 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/repos/alph4delta/repository/commits" -H "If-None-Match: W/""68c366568a03704139836592eef514e9""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.1449854367" -H "Connection: keep-alive" -H "If-Modified-Since: Thu, 01 Jan 1970 00:00:00 GMT" --compressed
+-Via GitBash:
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "alph4delta",
+      "id": 8028833,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alph4delta",
+      "html_url": "https://github.com/alph4delta",
+      "followers_url": "https://api.github.com/users/alph4delta/followers",
+      "following_url": "https://api.github.com/users/alph4delta/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/alph4delta/subscription
+s",
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3c1a898157e7febebff13212de29f4aa853ff3ce",
+        "url": "https://api.github.com/repos/alph4delta/repository/commits/3c1a8
+98157e7febebff13212de29f4aa853ff3ce",
+        "html_url": "https://github.com/alph4delta/repository/commit/3c1a898157e
+7febebff13212de29f4aa853ff3ce"
+      }
+    ]
+  },
+  {
+    "sha": "3c1a898157e7febebff13212de29f4aa853ff3ce",
+    "commit": {
+      "author": {
+        "name": "Muhammad_Adi_Nugroho",
+        "email": "adi.go.rich@gmail.com",
+        "date": "2015-09-27T19:11:20Z"
+      },
+      "committer": {
+        "name": "Muhammad_Adi_Nugroho",
+        "email": "adi.go.rich@gmail.com",
+        "date": "2015-09-27T19:11:20Z"
+      },
+      "message": "Create view.contextualyield",
+      "tree": {
+        "sha": "53a71a63970d7f74fe41a40594705b86c8655452",
+        "url": "https://api.github.com/repos/alph4delta/repository/git/trees/53a
+71a63970d7f74fe41a40594705b86c8655452"
+      },
+      "url": "https://api.github.com/repos/alph4delta/repository/git/commits/3c1
+a898157e7febebff13212de29f4aa853ff3ce",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/alph4delta/repository/commits/3c1a89815
+7e7febebff13212de29f4aa853ff3ce",
+    "html_url": "https://github.com/alph4delta/repository/commit/3c1a898157e7feb
+ebff13212de29f4aa853ff3ce",
+    "comments_url": "https://api.github.com/repos/alph4delta/repository/commits/
+3c1a898157e7febebff13212de29f4aa853ff3ce/comments",
+    "author": {
+      "login": "alph4delta",
+      "id": 8028833,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alph4delta",
+      "html_url": "https://github.com/alph4delta",
+      "followers_url": "https://api.github.com/users/alph4delta/followers",
+      "following_url": "https://api.github.com/users/alph4delta/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/alph4delta/subscription
+s",
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "alph4delta",
+      "id": 8028833,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alph4delta",
+      "html_url": "https://github.com/alph4delta",
+      "followers_url": "https://api.github.com/users/alph4delta/followers",
+      "following_url": "https://api.github.com/users/alph4delta/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/alph4delta/subscription
+s",
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28fd495e2f09bcf4f4aba434f76090e5e93b421b",
+        "url": "https://api.github.com/repos/alph4delta/repository/commits/28fd4
+95e2f09bcf4f4aba434f76090e5e93b421b",
+        "html_url": "https://github.com/alph4delta/repository/commit/28fd495e2f0
+9bcf4f4aba434f76090e5e93b421b"
+      }
+    ]
+  },
+  {
+    "sha": "28fd495e2f09bcf4f4aba434f76090e5e93b421b",
+    "commit": {
+      "author": {
+        "name": "Muhammad_Adi_Nugroho",
+        "email": "adi.go.rich@gmail.com",
+        "date": "2015-09-26T17:58:20Z"
+      },
+      "committer": {
+        "name": "Muhammad_Adi_Nugroho",
+        "email": "adi.go.rich@gmail.com",
+        "date": "2015-09-26T17:58:20Z"
+      },
+      "message": "Rename developerAgnesMonica to g+",
+      "tree": {
+        "sha": "c829d3aad1565c44b74ad547cf3d4239784a6fda",
+        "url": "https://api.github.com/repos/alph4delta/repository/git/trees/c82
+9d3aad1565c44b74ad547cf3d4239784a6fda"
+      },
+      "url": "https://api.github.com/repos/alph4delta/repository/git/commits/28f
+d495e2f09bcf4f4aba434f76090e5e93b421b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/alph4delta/repository/commits/28fd495e2
+f09bcf4f4aba434f76090e5e93b421b",
+    "html_url": "https://github.com/alph4delta/repository/commit/28fd495e2f09bcf
+4f4aba434f76090e5e93b421b",
+    "comments_url": "https://api.github.com/repos/alph4delta/repository/commits/
+28fd495e2f09bcf4f4aba434f76090e5e93b421b/comments",
+    "author": {
+      "login": "alph4delta",
+      "id": 8028833,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alph4delta",
+      "html_url": "https://github.com/alph4delta",
+      "followers_url": "https://api.github.com/users/alph4delta/followers",
+      "following_url": "https://api.github.com/users/alph4delta/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/alph4delta/subscription
+s",
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "alph4delta",
+      "id": 8028833,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alph4delta",
+      "html_url": "https://github.com/alph4delta",
+      "followers_url": "https://api.github.com/users/alph4delta/followers",
+      "following_url": "https://api.github.com/users/alph4delta/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/alph4delta/subscription
+s",
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bdb640bae3f4c5b7645fb49908091b5526445261",
+        "url": "https://api.github.com/repos/alph4delta/repository/commits/bdb64
+0bae3f4c5b7645fb49908091b5526445261",
+        "html_url": "https://github.com/alph4delta/repository/commit/bdb640bae3f
+4c5b7645fb49908091b5526445261"
+      }
+    ]
+  },
+  {
+    "sha": "bdb640bae3f4c5b7645fb49908091b5526445261",
+    "commit": {
+      "author": {
+        "name": "Muhammad_Adi_Nugroho",
+        "email": "adi.go.rich@gmail.com",
+        "date": "2015-09-24T17:47:21Z"
+      },
+      "committer": {
+        "name": "Muhammad_Adi_Nugroho",
+        "email": "adi.go.rich@gmail.com",
+        "date": "2015-09-24T17:47:21Z"
+      },
+      "message": "Update ebook",
+      "tree": {
+        "sha": "7b5af1d28bcc19a1b1a5507199b5cfee84013658",
+        "url": "https://api.github.com/repos/alph4delta/repository/git/trees/7b5
+af1d28bcc19a1b1a5507199b5cfee84013658"
+      },
+      "url": "https://api.github.com/repos/alph4delta/repository/git/commits/bdb
+640bae3f4c5b7645fb49908091b5526445261",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/alph4delta/repository/commits/bdb640bae
+3f4c5b7645fb49908091b5526445261",
+    "html_url": "https://github.com/alph4delta/repository/commit/bdb640bae3f4c5b
+7645fb49908091b5526445261",
+    "comments_url": "https://api.github.com/repos/alph4delta/repository/commits/
+bdb640bae3f4c5b7645fb49908091b5526445261/comments",
+    "author": {
+      "login": "alph4delta",
+      "id": 8028833,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alph4delta",
+      "html_url": "https://github.com/alph4delta",
+      "followers_url": "https://api.github.com/users/alph4delta/followers",
+      "following_url": "https://api.github.com/users/alph4delta/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/alph4delta/subscription
+s",
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "alph4delta",
+      "id": 8028833,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alph4delta",
+      "html_url": "https://github.com/alph4delta",
+      "followers_url": "https://api.github.com/users/alph4delta/followers",
+      "following_url": "https://api.github.com/users/alph4delta/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/alph4delta/subscription
+s",
+      "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+      "repos_url": "https://api.github.com/users/alph4delta/repos",
+      "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alph4delta/received_e
+vents",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "630740c497eb27286aeed9efe5bb57ce2390608c",
+        "url": "https://api.github.com/repos/alph4delta/repository/commits/63074
+0c497eb27286aeed9efe5bb57ce2390608c",
+        "html_url": "https://github.com/alph4delta/repository/commit/630740c497e
+b27286aeed9efe5bb57ce2390608c"
+      }
+    ]
+  }
+]
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+
+
+
