@@ -303,6 +303,222 @@ e: 12px;\n+  }\n+\n+  code, pre {\n+    min-width: 320px;\n+    max-width: 480px
 
 Axioo@AXIOO-PC ~ (master|AM/REBASE)
 $
+-Request Headers:
+GET /repos/alph4delta/repository/commits/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6?comments=2 HTTP/1.1
+Host: api.github.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-US,en;q=0.8,id;q=0.6
+Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _gat=1; _ga=GA1.2.1550248153.1449854367
+If-None-Match: W/"1f78ffa3a9bed32d3ea75b2c5c5e780c"
+If-Modified-Since: Sun, 07 Sep 2014 19:09:04 GMT
+-Response Headers:
+HTTP/1.1 304 Not Modified
+Server: GitHub.com
+Date: Mon, 29 Aug 2016 18:29:46 GMT
+Status: 304 Not Modified
+X-RateLimit-Limit: 60
+X-RateLimit-Remaining: 35
+X-RateLimit-Reset: 1472495802
+Cache-Control: public, max-age=60, s-maxage=60
+Vary: Accept
+ETag: "1f78ffa3a9bed32d3ea75b2c5c5e780c"
+Last-Modified: Sun, 07 Sep 2014 19:09:04 GMT
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Served-By: e724c57ebb9961c772a91e2dd7421c8d
+X-GitHub-Request-Id: 6E89D12E:5481:BA04F4E:57C47F19
+-Response:
+{
+  "sha": "24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+  "commit": {
+    "author": {
+      "name": "Muhammad_Adi_Nugroho",
+      "email": "adi.go.rich@gmail.com",
+      "date": "2014-09-07T19:09:04Z"
+    },
+    "committer": {
+      "name": "Muhammad_Adi_Nugroho",
+      "email": "adi.go.rich@gmail.com",
+      "date": "2014-09-07T19:09:04Z"
+    },
+    "message": "Create gh-pages branch via GitHub",
+    "tree": {
+      "sha": "e316e6e1cecaaf610027ccf8493bb89a447a8f67",
+      "url": "https://api.github.com/repos/alph4delta/repository/git/trees/e316e6e1cecaaf610027ccf8493bb89a447a8f67"
+    },
+    "url": "https://api.github.com/repos/alph4delta/repository/git/commits/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+    "comment_count": 0
+  },
+  "url": "https://api.github.com/repos/alph4delta/repository/commits/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+  "html_url": "https://github.com/alph4delta/repository/commit/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+  "comments_url": "https://api.github.com/repos/alph4delta/repository/commits/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/comments",
+  "author": {
+    "login": "alph4delta",
+    "id": 8028833,
+    "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alph4delta",
+    "html_url": "https://github.com/alph4delta",
+    "followers_url": "https://api.github.com/users/alph4delta/followers",
+    "following_url": "https://api.github.com/users/alph4delta/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alph4delta/subscriptions",
+    "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+    "repos_url": "https://api.github.com/users/alph4delta/repos",
+    "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alph4delta/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "alph4delta",
+    "id": 8028833,
+    "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alph4delta",
+    "html_url": "https://github.com/alph4delta",
+    "followers_url": "https://api.github.com/users/alph4delta/followers",
+    "following_url": "https://api.github.com/users/alph4delta/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alph4delta/subscriptions",
+    "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+    "repos_url": "https://api.github.com/users/alph4delta/repos",
+    "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alph4delta/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "parents": [
+
+  ],
+  "stats": {
+    "total": 574,
+    "additions": 574,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "514aee5056a320b059a4b92fc31385b01f3fd707",
+      "filename": "images/bg_hr.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/images/bg_hr.png",
+      "raw_url": "https://github.com/alph4delta/repository/raw/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/images/bg_hr.png",
+      "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/images/bg_hr.png?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6"
+    },
+    {
+      "sha": "e160053a5bfc1f1891c5df1a04244b46132ed91c",
+      "filename": "images/blacktocat.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/images/blacktocat.png",
+      "raw_url": "https://github.com/alph4delta/repository/raw/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/images/blacktocat.png",
+      "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/images/blacktocat.png?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6"
+    },
+    {
+      "sha": "5a793f17688b22d0c98f8b32855f69daff65afaf",
+      "filename": "images/icon_download.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/images/icon_download.png",
+      "raw_url": "https://github.com/alph4delta/repository/raw/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/images/icon_download.png",
+      "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/images/icon_download.png?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6"
+    },
+    {
+      "sha": "f9f8de24c1c49ce421a44ce2a24ac22d045a39fe",
+      "filename": "images/sprite_download.png",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/images/sprite_download.png",
+      "raw_url": "https://github.com/alph4delta/repository/raw/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/images/sprite_download.png",
+      "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/images/sprite_download.png?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6"
+    },
+    {
+      "sha": "275fa879ecac207622a5e1d64330eeb182d93bb3",
+      "filename": "index.html",
+      "status": "added",
+      "additions": 79,
+      "deletions": 0,
+      "changes": 79,
+      "blob_url": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/index.html",
+      "raw_url": "https://github.com/alph4delta/repository/raw/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/index.html",
+      "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/index.html?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+      "patch": "@@ -0,0 +1,79 @@\n+<!DOCTYPE html>\n+<html>\n+\n+  <head>\n+    <meta charset='utf-8'>\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1\">\n+    <meta name=\"description\" content=\"Repository : github-adi hack repository.\">\n+\n+    <link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"stylesheets/stylesheet.css\">\n+\n+    <title>Repository</title>\n+  </head>\n+\n+  <body>\n+\n+    <!-- HEADER -->\n+    <div id=\"header_wrap\" class=\"outer\">\n+        <header class=\"inner\">\n+          <a id=\"forkme_banner\" href=\"https://github.com/github-adi/repository\">View on GitHub</a>\n+\n+          <h1 id=\"project_title\">Repository</h1>\n+          <h2 id=\"project_tagline\">github-adi hack repository.</h2>\n+\n+            <section id=\"downloads\">\n+              <a class=\"zip_download_link\" href=\"https://github.com/github-adi/repository/zipball/master\">Download this project as a .zip file</a>\n+              <a class=\"tar_download_link\" href=\"https://github.com/github-adi/repository/tarball/master\">Download this project as a tar.gz file</a>\n+            </section>\n+        </header>\n+    </div>\n+\n+    <!-- MAIN CONTENT -->\n+    <div id=\"main_content_wrap\" class=\"outer\">\n+      <section id=\"main_content\" class=\"inner\">\n+        <h3>\n+<a name=\"welcome-to-github-pages\" class=\"anchor\" href=\"#welcome-to-github-pages\"><span class=\"octicon octicon-link\"></span></a>Welcome to GitHub Pages.</h3>\n+\n+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>\n+\n+<pre><code>$ cd your_repo_root/repo_name\n+$ git fetch origin\n+$ git checkout gh-pages\n+</code></pre>\n+\n+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>\n+\n+<h3>\n+<a name=\"designer-templates\" class=\"anchor\" href=\"#designer-templates\"><span class=\"octicon octicon-link\"></span></a>Designer Templates</h3>\n+\n+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>\n+\n+<h3>\n+<a name=\"rather-drive-stick\" class=\"anchor\" href=\"#rather-drive-stick\"><span class=\"octicon octicon-link\"></span></a>Rather Drive Stick?</h3>\n+\n+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>\n+\n+<h3>\n+<a name=\"authors-and-contributors\" class=\"anchor\" href=\"#authors-and-contributors\"><span class=\"octicon octicon-link\"></span></a>Authors and Contributors</h3>\n+\n+<p>You can <a href=\"https://github.com/blog/821\" class=\"user-mention\">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href=\"https://github.com/defunkt\" class=\"user-mention\">@defunkt</a>), PJ Hyett (<a href=\"https://github.com/pjhyett\" class=\"user-mention\">@pjhyett</a>), and Tom Preston-Werner (<a href=\"https://github.com/mojombo\" class=\"user-mention\">@mojombo</a>) founded GitHub.</p>\n+\n+<h3>\n+<a name=\"support-or-contact\" class=\"anchor\" href=\"#support-or-contact\"><span class=\"octicon octicon-link\"></span></a>Support or Contact</h3>\n+\n+<p>Having trouble with Pages? Check out the documentation at <a href=\"http://help.github.com/pages\">http://help.github.com/pages</a> or contact <a href=\"mailto:support@github.com\">support@github.com</a> and we’ll help you sort it out.</p>\n+      </section>\n+    </div>\n+\n+    <!-- FOOTER  -->\n+    <div id=\"footer_wrap\" class=\"outer\">\n+      <footer class=\"inner\">\n+        <p class=\"copyright\">Repository maintained by <a href=\"https://github.com/github-adi\">github-adi</a></p>\n+        <p>Published with <a href=\"http://pages.github.com\">GitHub Pages</a></p>\n+      </footer>\n+    </div>\n+\n+    \n+\n+  </body>\n+</html>"
+    },
+    {
+      "sha": "d8135d37b1f4b5043a444dadecb5ed610a1d33f9",
+      "filename": "javascripts/main.js",
+      "status": "added",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/javascripts/main.js",
+      "raw_url": "https://github.com/alph4delta/repository/raw/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/javascripts/main.js",
+      "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/javascripts/main.js?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+      "patch": "@@ -0,0 +1 @@\n+console.log('This would be the main JS file.');"
+    },
+    {
+      "sha": "d344b311e8faad0fa0fb583f03d2ec44b39bbd12",
+      "filename": "params.json",
+      "status": "added",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/params.json",
+      "raw_url": "https://github.com/alph4delta/repository/raw/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/params.json",
+      "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/params.json?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+      "patch": "@@ -0,0 +1 @@\n+{\"name\":\"Repository\",\"tagline\":\"github-adi hack repository.\",\"body\":\"### Welcome to GitHub Pages.\\r\\nThis automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:\\r\\n\\r\\n```\\r\\n$ cd your_repo_root/repo_name\\r\\n$ git fetch origin\\r\\n$ git checkout gh-pages\\r\\n```\\r\\n\\r\\nIf you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.\\r\\n\\r\\n### Designer Templates\\r\\nWe've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.\\r\\n\\r\\n### Rather Drive Stick?\\r\\nIf you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.\\r\\n\\r\\n### Authors and Contributors\\r\\nYou can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.\\r\\n\\r\\n### Support or Contact\\r\\nHaving trouble with Pages? Check out the documentation at http://help.github.com/pages or contact support@github.com and we’ll help you sort it out.\\r\\n\",\"google\":\"\",\"note\":\"Don't delete this file! It's used internally to help with page regeneration.\"}\n\\ No newline at end of file"
+    },
+    {
+      "sha": "e65cedff6e7f3938aa740bd0db3b0177fa4512ef",
+      "filename": "stylesheets/pygment_trac.css",
+      "status": "added",
+      "additions": 70,
+      "deletions": 0,
+      "changes": 70,
+      "blob_url": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/stylesheets/pygment_trac.css",
+      "raw_url": "https://github.com/alph4delta/repository/raw/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/stylesheets/pygment_trac.css",
+      "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/stylesheets/pygment_trac.css?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+      "patch": "@@ -0,0 +1,70 @@\n+.highlight .hll { background-color: #ffffcc }\n+.highlight  { background: #f0f3f3; }\n+.highlight .c { color: #0099FF; font-style: italic } /* Comment */\n+.highlight .err { color: #AA0000; background-color: #FFAAAA } /* Error */\n+.highlight .k { color: #006699; font-weight: bold } /* Keyword */\n+.highlight .o { color: #555555 } /* Operator */\n+.highlight .cm { color: #0099FF; font-style: italic } /* Comment.Multiline */\n+.highlight .cp { color: #009999 } /* Comment.Preproc */\n+.highlight .c1 { color: #0099FF; font-style: italic } /* Comment.Single */\n+.highlight .cs { color: #0099FF; font-weight: bold; font-style: italic } /* Comment.Special */\n+.highlight .gd { background-color: #FFCCCC; border: 1px solid #CC0000 } /* Generic.Deleted */\n+.highlight .ge { font-style: italic } /* Generic.Emph */\n+.highlight .gr { color: #FF0000 } /* Generic.Error */\n+.highlight .gh { color: #003300; font-weight: bold } /* Generic.Heading */\n+.highlight .gi { background-color: #CCFFCC; border: 1px solid #00CC00 } /* Generic.Inserted */\n+.highlight .go { color: #AAAAAA } /* Generic.Output */\n+.highlight .gp { color: #000099; font-weight: bold } /* Generic.Prompt */\n+.highlight .gs { font-weight: bold } /* Generic.Strong */\n+.highlight .gu { color: #003300; font-weight: bold } /* Generic.Subheading */\n+.highlight .gt { color: #99CC66 } /* Generic.Traceback */\n+.highlight .kc { color: #006699; font-weight: bold } /* Keyword.Constant */\n+.highlight .kd { color: #006699; font-weight: bold } /* Keyword.Declaration */\n+.highlight .kn { color: #006699; font-weight: bold } /* Keyword.Namespace */\n+.highlight .kp { color: #006699 } /* Keyword.Pseudo */\n+.highlight .kr { color: #006699; font-weight: bold } /* Keyword.Reserved */\n+.highlight .kt { color: #007788; font-weight: bold } /* Keyword.Type */\n+.highlight .m { color: #FF6600 } /* Literal.Number */\n+.highlight .s { color: #CC3300 } /* Literal.String */\n+.highlight .na { color: #330099 } /* Name.Attribute */\n+.highlight .nb { color: #336666 } /* Name.Builtin */\n+.highlight .nc { color: #00AA88; font-weight: bold } /* Name.Class */\n+.highlight .no { color: #336600 } /* Name.Constant */\n+.highlight .nd { color: #9999FF } /* Name.Decorator */\n+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */\n+.highlight .ne { color: #CC0000; font-weight: bold } /* Name.Exception */\n+.highlight .nf { color: #CC00FF } /* Name.Function */\n+.highlight .nl { color: #9999FF } /* Name.Label */\n+.highlight .nn { color: #00CCFF; font-weight: bold } /* Name.Namespace */\n+.highlight .nt { color: #330099; font-weight: bold } /* Name.Tag */\n+.highlight .nv { color: #003333 } /* Name.Variable */\n+.highlight .ow { color: #000000; font-weight: bold } /* Operator.Word */\n+.highlight .w { color: #bbbbbb } /* Text.Whitespace */\n+.highlight .mf { color: #FF6600 } /* Literal.Number.Float */\n+.highlight .mh { color: #FF6600 } /* Literal.Number.Hex */\n+.highlight .mi { color: #FF6600 } /* Literal.Number.Integer */\n+.highlight .mo { color: #FF6600 } /* Literal.Number.Oct */\n+.highlight .sb { color: #CC3300 } /* Literal.String.Backtick */\n+.highlight .sc { color: #CC3300 } /* Literal.String.Char */\n+.highlight .sd { color: #CC3300; font-style: italic } /* Literal.String.Doc */\n+.highlight .s2 { color: #CC3300 } /* Literal.String.Double */\n+.highlight .se { color: #CC3300; font-weight: bold } /* Literal.String.Escape */\n+.highlight .sh { color: #CC3300 } /* Literal.String.Heredoc */\n+.highlight .si { color: #AA0000 } /* Literal.String.Interpol */\n+.highlight .sx { color: #CC3300 } /* Literal.String.Other */\n+.highlight .sr { color: #33AAAA } /* Literal.String.Regex */\n+.highlight .s1 { color: #CC3300 } /* Literal.String.Single */\n+.highlight .ss { color: #FFCC33 } /* Literal.String.Symbol */\n+.highlight .bp { color: #336666 } /* Name.Builtin.Pseudo */\n+.highlight .vc { color: #003333 } /* Name.Variable.Class */\n+.highlight .vg { color: #003333 } /* Name.Variable.Global */\n+.highlight .vi { color: #003333 } /* Name.Variable.Instance */\n+.highlight .il { color: #FF6600 } /* Literal.Number.Integer.Long */\n+\n+.type-csharp .highlight .k { color: #0000FF }\n+.type-csharp .highlight .kt { color: #0000FF }\n+.type-csharp .highlight .nf { color: #000000; font-weight: normal }\n+.type-csharp .highlight .nc { color: #2B91AF }\n+.type-csharp .highlight .nn { color: #000000 }\n+.type-csharp .highlight .s { color: #A31515 }\n+.type-csharp .highlight .sc { color: #A31515 }"
+    },
+    {
+      "sha": "7a08b019b135826b38d1f71eb5ee41fecc42bc76",
+      "filename": "stylesheets/stylesheet.css",
+      "status": "added",
+      "additions": 423,
+      "deletions": 0,
+      "changes": 423,
+      "blob_url": "https://github.com/alph4delta/repository/blob/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/stylesheets/stylesheet.css",
+      "raw_url": "https://github.com/alph4delta/repository/raw/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6/stylesheets/stylesheet.css",
+      "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/stylesheets/stylesheet.css?ref=24202079fbe8d1e7a0b369414d37bdb59fb2c0a6",
+      "patch": "@@ -0,0 +1,423 @@\n+/*******************************************************************************\n+Slate Theme for GitHub Pages\n+by Jason Costello, @jsncostello\n+*******************************************************************************/\n+\n+@import url(pygment_trac.css);\n+\n+/*******************************************************************************\n+MeyerWeb Reset\n+*******************************************************************************/\n+\n+html, body, div, span, applet, object, iframe,\n+h1, h2, h3, h4, h5, h6, p, blockquote, pre,\n+a, abbr, acronym, address, big, cite, code,\n+del, dfn, em, img, ins, kbd, q, s, samp,\n+small, strike, strong, sub, sup, tt, var,\n+b, u, i, center,\n+dl, dt, dd, ol, ul, li,\n+fieldset, form, label, legend,\n+table, caption, tbody, tfoot, thead, tr, th, td,\n+article, aside, canvas, details, embed,\n+figure, figcaption, footer, header, hgroup,\n+menu, nav, output, ruby, section, summary,\n+time, mark, audio, video {\n+  margin: 0;\n+  padding: 0;\n+  border: 0;\n+  font: inherit;\n+  vertical-align: baseline;\n+}\n+\n+/* HTML5 display-role reset for older browsers */\n+article, aside, details, figcaption, figure,\n+footer, header, hgroup, menu, nav, section {\n+  display: block;\n+}\n+\n+ol, ul {\n+  list-style: none;\n+}\n+\n+table {\n+  border-collapse: collapse;\n+  border-spacing: 0;\n+}\n+\n+/*******************************************************************************\n+Theme Styles\n+*******************************************************************************/\n+\n+body {\n+  box-sizing: border-box;\n+  color:#373737;\n+  background: #212121;\n+  font-size: 16px;\n+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;\n+  line-height: 1.5;\n+  -webkit-font-smoothing: antialiased;\n+}\n+\n+h1, h2, h3, h4, h5, h6 {\n+  margin: 10px 0;\n+  font-weight: 700;\n+  color:#222222;\n+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;\n+  letter-spacing: -1px;\n+}\n+\n+h1 {\n+  font-size: 36px;\n+  font-weight: 700;\n+}\n+\n+h2 {\n+  padding-bottom: 10px;\n+  font-size: 32px;\n+  background: url('../images/bg_hr.png') repeat-x bottom;\n+}\n+\n+h3 {\n+  font-size: 24px;\n+}\n+\n+h4 {\n+  font-size: 21px;\n+}\n+\n+h5 {\n+  font-size: 18px;\n+}\n+\n+h6 {\n+  font-size: 16px;\n+}\n+\n+p {\n+  margin: 10px 0 15px 0;\n+}\n+\n+footer p {\n+  color: #f2f2f2;\n+}\n+\n+a {\n+  text-decoration: none;\n+  color: #007edf;\n+  text-shadow: none;\n+\n+  transition: color 0.5s ease;\n+  transition: text-shadow 0.5s ease;\n+  -webkit-transition: color 0.5s ease;\n+  -webkit-transition: text-shadow 0.5s ease;\n+  -moz-transition: color 0.5s ease;\n+  -moz-transition: text-shadow 0.5s ease;\n+  -o-transition: color 0.5s ease;\n+  -o-transition: text-shadow 0.5s ease;\n+  -ms-transition: color 0.5s ease;\n+  -ms-transition: text-shadow 0.5s ease;\n+}\n+\n+a:hover, a:focus {text-decoration: underline;}\n+\n+footer a {\n+  color: #F2F2F2;\n+  text-decoration: underline;\n+}\n+\n+em {\n+  font-style: italic;\n+}\n+\n+strong {\n+  font-weight: bold;\n+}\n+\n+img {\n+  position: relative;\n+  margin: 0 auto;\n+  max-width: 739px;\n+  padding: 5px;\n+  margin: 10px 0 10px 0;\n+  border: 1px solid #ebebeb;\n+\n+  box-shadow: 0 0 5px #ebebeb;\n+  -webkit-box-shadow: 0 0 5px #ebebeb;\n+  -moz-box-shadow: 0 0 5px #ebebeb;\n+  -o-box-shadow: 0 0 5px #ebebeb;\n+  -ms-box-shadow: 0 0 5px #ebebeb;\n+}\n+\n+p img {\n+  display: inline;\n+  margin: 0;\n+  padding: 0;\n+  vertical-align: middle;\n+  text-align: center;\n+  border: none;\n+}\n+\n+pre, code {\n+  width: 100%;\n+  color: #222;\n+  background-color: #fff;\n+\n+  font-family: Monaco, \"Bitstream Vera Sans Mono\", \"Lucida Console\", Terminal, monospace;\n+  font-size: 14px;\n+\n+  border-radius: 2px;\n+  -moz-border-radius: 2px;\n+  -webkit-border-radius: 2px;\n+}\n+\n+pre {\n+  width: 100%;\n+  padding: 10px;\n+  box-shadow: 0 0 10px rgba(0,0,0,.1);\n+  overflow: auto;\n+}\n+\n+code {\n+  padding: 3px;\n+  margin: 0 3px;\n+  box-shadow: 0 0 10px rgba(0,0,0,.1);\n+}\n+\n+pre code {\n+  display: block;\n+  box-shadow: none;\n+}\n+\n+blockquote {\n+  color: #666;\n+  margin-bottom: 20px;\n+  padding: 0 0 0 20px;\n+  border-left: 3px solid #bbb;\n+}\n+\n+\n+ul, ol, dl {\n+  margin-bottom: 15px\n+}\n+\n+ul {\n+  list-style: inside;\n+  padding-left: 20px;\n+}\n+\n+ol {\n+  list-style: decimal inside;\n+  padding-left: 20px;\n+}\n+\n+dl dt {\n+  font-weight: bold;\n+}\n+\n+dl dd {\n+  padding-left: 20px;\n+  font-style: italic;\n+}\n+\n+dl p {\n+  padding-left: 20px;\n+  font-style: italic;\n+}\n+\n+hr {\n+  height: 1px;\n+  margin-bottom: 5px;\n+  border: none;\n+  background: url('../images/bg_hr.png') repeat-x center;\n+}\n+\n+table {\n+  border: 1px solid #373737;\n+  margin-bottom: 20px;\n+  text-align: left;\n+ }\n+\n+th {\n+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n+  padding: 10px;\n+  background: #373737;\n+  color: #fff;\n+ }\n+\n+td {\n+  padding: 10px;\n+  border: 1px solid #373737;\n+ }\n+\n+form {\n+  background: #f2f2f2;\n+  padding: 20px;\n+}\n+\n+/*******************************************************************************\n+Full-Width Styles\n+*******************************************************************************/\n+\n+.outer {\n+  width: 100%;\n+}\n+\n+.inner {\n+  position: relative;\n+  max-width: 640px;\n+  padding: 20px 10px;\n+  margin: 0 auto;\n+}\n+\n+#forkme_banner {\n+  display: block;\n+  position: absolute;\n+  top:0;\n+  right: 10px;\n+  z-index: 10;\n+  padding: 10px 50px 10px 10px;\n+  color: #fff;\n+  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;\n+  font-weight: 700;\n+  box-shadow: 0 0 10px rgba(0,0,0,.5);\n+  border-bottom-left-radius: 2px;\n+  border-bottom-right-radius: 2px;\n+}\n+\n+#header_wrap {\n+  background: #212121;\n+  background: -moz-linear-gradient(top, #373737, #212121);\n+  background: -webkit-linear-gradient(top, #373737, #212121);\n+  background: -ms-linear-gradient(top, #373737, #212121);\n+  background: -o-linear-gradient(top, #373737, #212121);\n+  background: linear-gradient(top, #373737, #212121);\n+}\n+\n+#header_wrap .inner {\n+  padding: 50px 10px 30px 10px;\n+}\n+\n+#project_title {\n+  margin: 0;\n+  color: #fff;\n+  font-size: 42px;\n+  font-weight: 700;\n+  text-shadow: #111 0px 0px 10px;\n+}\n+\n+#project_tagline {\n+  color: #fff;\n+  font-size: 24px;\n+  font-weight: 300;\n+  background: none;\n+  text-shadow: #111 0px 0px 10px;\n+}\n+\n+#downloads {\n+  position: absolute;\n+  width: 210px;\n+  z-index: 10;\n+  bottom: -40px;\n+  right: 0;\n+  height: 70px;\n+  background: url('../images/icon_download.png') no-repeat 0% 90%;\n+}\n+\n+.zip_download_link {\n+  display: block;\n+  float: right;\n+  width: 90px;\n+  height:70px;\n+  text-indent: -5000px;\n+  overflow: hidden;\n+  background: url(../images/sprite_download.png) no-repeat bottom left;\n+}\n+\n+.tar_download_link {\n+  display: block;\n+  float: right;\n+  width: 90px;\n+  height:70px;\n+  text-indent: -5000px;\n+  overflow: hidden;\n+  background: url(../images/sprite_download.png) no-repeat bottom right;\n+  margin-left: 10px;\n+}\n+\n+.zip_download_link:hover {\n+  background: url(../images/sprite_download.png) no-repeat top left;\n+}\n+\n+.tar_download_link:hover {\n+  background: url(../images/sprite_download.png) no-repeat top right;\n+}\n+\n+#main_content_wrap {\n+  background: #f2f2f2;\n+  border-top: 1px solid #111;\n+  border-bottom: 1px solid #111;\n+}\n+\n+#main_content {\n+  padding-top: 40px;\n+}\n+\n+#footer_wrap {\n+  background: #212121;\n+}\n+\n+\n+\n+/*******************************************************************************\n+Small Device Styles\n+*******************************************************************************/\n+\n+@media screen and (max-width: 480px) {\n+  body {\n+    font-size:14px;\n+  }\n+\n+  #downloads {\n+    display: none;\n+  }\n+\n+  .inner {\n+    min-width: 320px;\n+    max-width: 480px;\n+  }\n+\n+  #project_title {\n+  font-size: 32px;\n+  }\n+\n+  h1 {\n+    font-size: 28px;\n+  }\n+\n+  h2 {\n+    font-size: 24px;\n+  }\n+\n+  h3 {\n+    font-size: 21px;\n+  }\n+\n+  h4 {\n+    font-size: 18px;\n+  }\n+\n+  h5 {\n+    font-size: 14px;\n+  }\n+\n+  h6 {\n+    font-size: 12px;\n+  }\n+\n+  code, pre {\n+    min-width: 320px;\n+    max-width: 480px;\n+    font-size: 11px;\n+  }\n+\n+}"
+    }
+  ]
+}
+-Link Address:
+https://api.github.com/repos/alph4delta/repository/commits/24202079fbe8d1e7a0b369414d37bdb59fb2c0a6?comments=2
+
 
 
 
