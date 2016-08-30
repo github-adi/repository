@@ -1,0 +1,575 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl "https://api.github.com/repos/alph4delta/repository?sort=newest" -H "If-None-Match: W/""666abbcae2ebd9d0ba0fe5db2f3d7ac5""" -H "Accept-Encoding: gzip, deflate, sdch, br" -H "Accept-Language: en-US,en;q=0.8,id;q=0.6" -H "Upgrade-Insecure-Requests: 1" -H "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" -H "Cache-Control: max-age=0" -H "Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1469303160.1469303160.1; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1" -H "Connection: keep-alive" -H "If-Modified-Since: Thu, 17 Sep 2015 16:18:45 GMT" --compressed
+-Via GitBash:
+  "comments_url": "https://api.github.com/repos/alph4delta/repository/comments{/
+number}",
+  "issue_comment_url": "https://api.github.com/repos/alph4delta/repository/issue
+s/comments{/number}",
+  "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/{
++path}",
+  "compare_url": "https://api.github.com/repos/alph4delta/repository/compare/{ba
+se}...{head}",
+  "merges_url": "https://api.github.com/repos/alph4delta/repository/merges",
+  "archive_url": "https://api.github.com/repos/alph4delta/repository/{archive_fo
+rmat}{/ref}",
+  "downloads_url": "https://api.github.com/repos/alph4delta/repository/downloads
+",
+  "issues_url": "https://api.github.com/repos/alph4delta/repository/issues{/numb
+er}",
+  "pulls_url": "https://api.github.com/repos/alph4delta/repository/pulls{/number
+}",
+  "milestones_url": "https://api.github.com/repos/alph4delta/repository/mileston
+es{/number}",
+  "notifications_url": "https://api.github.com/repos/alph4delta/repository/notif
+ications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/alph4delta/repository/labels{/name
+}",
+  "releases_url": "https://api.github.com/repos/alph4delta/repository/releases{/
+id}",
+  "deployments_url": "https://api.github.com/repos/alph4delta/repository/deploym
+ents",
+  "created_at": "2015-09-01T20:28:21Z",
+  "updated_at": "2015-09-17T16:18:45Z",
+  "pushed_at": "2015-12-04T17:59:05Z",
+  "git_url": "git://github.com/alph4delta/repository.git",
+  "ssh_url": "git@github.com:alph4delta/repository.git",
+  "clone_url": "https://github.com/alph4delta/repository.git",
+  "svn_url": "https://github.com/alph4delta/repository",
+  "homepage": null,
+  "size": 353,
+  "stargazers_count": 0,
+  "watchers_count": 0,
+  "language": "HTML",
+  "has_issues": false,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "forks_count": 0,
+  "mirror_url": null,
+  "open_issues_count": 0,
+  "forks": 0,
+  "open_issues": 0,
+  "watchers": 0,
+  "default_branch": "master",
+  "parent": {
+    "id": 23520058,
+    "name": "repository",
+    "full_name": "github-adi/repository",
+    "owner": {
+      "login": "github-adi",
+      "id": 8607263,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8607263?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-adi",
+      "html_url": "https://github.com/github-adi",
+      "followers_url": "https://api.github.com/users/github-adi/followers",
+      "following_url": "https://api.github.com/users/github-adi/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/github-adi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-adi/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/github-adi/subscription
+s",
+      "organizations_url": "https://api.github.com/users/github-adi/orgs",
+      "repos_url": "https://api.github.com/users/github-adi/repos",
+      "events_url": "https://api.github.com/users/github-adi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-adi/received_e
+vents",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "private": false,
+    "html_url": "https://github.com/github-adi/repository",
+    "description": "github-adi hack repository.",
+    "fork": false,
+    "url": "https://api.github.com/repos/github-adi/repository",
+    "forks_url": "https://api.github.com/repos/github-adi/repository/forks",
+    "keys_url": "https://api.github.com/repos/github-adi/repository/keys{/key_id
+}",
+    "collaborators_url": "https://api.github.com/repos/github-adi/repository/col
+laborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/github-adi/repository/teams",
+    "hooks_url": "https://api.github.com/repos/github-adi/repository/hooks",
+    "issue_events_url": "https://api.github.com/repos/github-adi/repository/issu
+es/events{/number}",
+    "events_url": "https://api.github.com/repos/github-adi/repository/events",
+    "assignees_url": "https://api.github.com/repos/github-adi/repository/assigne
+es{/user}",
+    "branches_url": "https://api.github.com/repos/github-adi/repository/branches
+{/branch}",
+    "tags_url": "https://api.github.com/repos/github-adi/repository/tags",
+    "blobs_url": "https://api.github.com/repos/github-adi/repository/git/blobs{/
+sha}",
+    "git_tags_url": "https://api.github.com/repos/github-adi/repository/git/tags
+{/sha}",
+    "git_refs_url": "https://api.github.com/repos/github-adi/repository/git/refs
+{/sha}",
+    "trees_url": "https://api.github.com/repos/github-adi/repository/git/trees{/
+sha}",
+    "statuses_url": "https://api.github.com/repos/github-adi/repository/statuses
+/{sha}",
+    "languages_url": "https://api.github.com/repos/github-adi/repository/languag
+es",
+    "stargazers_url": "https://api.github.com/repos/github-adi/repository/starga
+zers",
+    "contributors_url": "https://api.github.com/repos/github-adi/repository/cont
+ributors",
+    "subscribers_url": "https://api.github.com/repos/github-adi/repository/subsc
+ribers",
+    "subscription_url": "https://api.github.com/repos/github-adi/repository/subs
+cription",
+    "commits_url": "https://api.github.com/repos/github-adi/repository/commits{/
+sha}",
+    "git_commits_url": "https://api.github.com/repos/github-adi/repository/git/c
+ommits{/sha}",
+    "comments_url": "https://api.github.com/repos/github-adi/repository/comments
+{/number}",
+    "issue_comment_url": "https://api.github.com/repos/github-adi/repository/iss
+ues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/github-adi/repository/contents
+/{+path}",
+    "compare_url": "https://api.github.com/repos/github-adi/repository/compare/{
+base}...{head}",
+    "merges_url": "https://api.github.com/repos/github-adi/repository/merges",
+    "archive_url": "https://api.github.com/repos/github-adi/repository/{archive_
+format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/github-adi/repository/downloa
+ds",
+    "issues_url": "https://api.github.com/repos/github-adi/repository/issues{/nu
+mber}",
+    "pulls_url": "https://api.github.com/repos/github-adi/repository/pulls{/numb
+er}",
+    "milestones_url": "https://api.github.com/repos/github-adi/repository/milest
+ones{/number}",
+    "notifications_url": "https://api.github.com/repos/github-adi/repository/not
+ifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/github-adi/repository/labels{/na
+me}",
+    "releases_url": "https://api.github.com/repos/github-adi/repository/releases
+{/id}",
+    "deployments_url": "https://api.github.com/repos/github-adi/repository/deplo
+yments",
+    "created_at": "2014-08-31T18:24:11Z",
+    "updated_at": "2016-07-15T18:24:51Z",
+    "pushed_at": "2016-08-30T16:32:25Z",
+    "git_url": "git://github.com/github-adi/repository.git",
+    "ssh_url": "git@github.com:github-adi/repository.git",
+    "clone_url": "https://github.com/github-adi/repository.git",
+    "svn_url": "https://github.com/github-adi/repository",
+    "homepage": null,
+    "size": 22225,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "forks": 1,
+    "open_issues": 2,
+    "watchers": 0,
+    "default_branch": "master"
+  },
+  "source": {
+    "id": 23520058,
+    "name": "repository",
+    "full_name": "github-adi/repository",
+    "owner": {
+      "login": "github-adi",
+      "id": 8607263,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8607263?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-adi",
+      "html_url": "https://github.com/github-adi",
+      "followers_url": "https://api.github.com/users/github-adi/followers",
+      "following_url": "https://api.github.com/users/github-adi/following{/other
+_user}",
+      "gists_url": "https://api.github.com/users/github-adi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-adi/starred{/owner}{/r
+epo}",
+      "subscriptions_url": "https://api.github.com/users/github-adi/subscription
+s",
+      "organizations_url": "https://api.github.com/users/github-adi/orgs",
+      "repos_url": "https://api.github.com/users/github-adi/repos",
+      "events_url": "https://api.github.com/users/github-adi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-adi/received_e
+vents",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "private": false,
+    "html_url": "https://github.com/github-adi/repository",
+    "description": "github-adi hack repository.",
+    "fork": false,
+    "url": "https://api.github.com/repos/github-adi/repository",
+    "forks_url": "https://api.github.com/repos/github-adi/repository/forks",
+    "keys_url": "https://api.github.com/repos/github-adi/repository/keys{/key_id
+}",
+    "collaborators_url": "https://api.github.com/repos/github-adi/repository/col
+laborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/github-adi/repository/teams",
+    "hooks_url": "https://api.github.com/repos/github-adi/repository/hooks",
+    "issue_events_url": "https://api.github.com/repos/github-adi/repository/issu
+es/events{/number}",
+    "events_url": "https://api.github.com/repos/github-adi/repository/events",
+    "assignees_url": "https://api.github.com/repos/github-adi/repository/assigne
+es{/user}",
+    "branches_url": "https://api.github.com/repos/github-adi/repository/branches
+{/branch}",
+    "tags_url": "https://api.github.com/repos/github-adi/repository/tags",
+    "blobs_url": "https://api.github.com/repos/github-adi/repository/git/blobs{/
+sha}",
+    "git_tags_url": "https://api.github.com/repos/github-adi/repository/git/tags
+{/sha}",
+    "git_refs_url": "https://api.github.com/repos/github-adi/repository/git/refs
+{/sha}",
+    "trees_url": "https://api.github.com/repos/github-adi/repository/git/trees{/
+sha}",
+    "statuses_url": "https://api.github.com/repos/github-adi/repository/statuses
+/{sha}",
+    "languages_url": "https://api.github.com/repos/github-adi/repository/languag
+es",
+    "stargazers_url": "https://api.github.com/repos/github-adi/repository/starga
+zers",
+    "contributors_url": "https://api.github.com/repos/github-adi/repository/cont
+ributors",
+    "subscribers_url": "https://api.github.com/repos/github-adi/repository/subsc
+ribers",
+    "subscription_url": "https://api.github.com/repos/github-adi/repository/subs
+cription",
+    "commits_url": "https://api.github.com/repos/github-adi/repository/commits{/
+sha}",
+    "git_commits_url": "https://api.github.com/repos/github-adi/repository/git/c
+ommits{/sha}",
+    "comments_url": "https://api.github.com/repos/github-adi/repository/comments
+{/number}",
+    "issue_comment_url": "https://api.github.com/repos/github-adi/repository/iss
+ues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/github-adi/repository/contents
+/{+path}",
+    "compare_url": "https://api.github.com/repos/github-adi/repository/compare/{
+base}...{head}",
+    "merges_url": "https://api.github.com/repos/github-adi/repository/merges",
+    "archive_url": "https://api.github.com/repos/github-adi/repository/{archive_
+format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/github-adi/repository/downloa
+ds",
+    "issues_url": "https://api.github.com/repos/github-adi/repository/issues{/nu
+mber}",
+    "pulls_url": "https://api.github.com/repos/github-adi/repository/pulls{/numb
+er}",
+    "milestones_url": "https://api.github.com/repos/github-adi/repository/milest
+ones{/number}",
+    "notifications_url": "https://api.github.com/repos/github-adi/repository/not
+ifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/github-adi/repository/labels{/na
+me}",
+    "releases_url": "https://api.github.com/repos/github-adi/repository/releases
+{/id}",
+    "deployments_url": "https://api.github.com/repos/github-adi/repository/deplo
+yments",
+    "created_at": "2014-08-31T18:24:11Z",
+    "updated_at": "2016-07-15T18:24:51Z",
+    "pushed_at": "2016-08-30T16:32:25Z",
+    "git_url": "git://github.com/github-adi/repository.git",
+    "ssh_url": "git@github.com:github-adi/repository.git",
+    "clone_url": "https://github.com/github-adi/repository.git",
+    "svn_url": "https://github.com/github-adi/repository",
+    "homepage": null,
+    "size": 22225,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "forks": 1,
+    "open_issues": 2,
+    "watchers": 0,
+    "default_branch": "master"
+  },
+  "network_count": 1,
+  "subscribers_count": 1
+}
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+-Response:
+{
+  "id": 41761648,
+  "name": "repository",
+  "full_name": "alph4delta/repository",
+  "owner": {
+    "login": "alph4delta",
+    "id": 8028833,
+    "avatar_url": "https://avatars.githubusercontent.com/u/8028833?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alph4delta",
+    "html_url": "https://github.com/alph4delta",
+    "followers_url": "https://api.github.com/users/alph4delta/followers",
+    "following_url": "https://api.github.com/users/alph4delta/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alph4delta/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alph4delta/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alph4delta/subscriptions",
+    "organizations_url": "https://api.github.com/users/alph4delta/orgs",
+    "repos_url": "https://api.github.com/users/alph4delta/repos",
+    "events_url": "https://api.github.com/users/alph4delta/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alph4delta/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  "private": false,
+  "html_url": "https://github.com/alph4delta/repository",
+  "description": "github-adi hack repository.",
+  "fork": true,
+  "url": "https://api.github.com/repos/alph4delta/repository",
+  "forks_url": "https://api.github.com/repos/alph4delta/repository/forks",
+  "keys_url": "https://api.github.com/repos/alph4delta/repository/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/alph4delta/repository/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/alph4delta/repository/teams",
+  "hooks_url": "https://api.github.com/repos/alph4delta/repository/hooks",
+  "issue_events_url": "https://api.github.com/repos/alph4delta/repository/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/alph4delta/repository/events",
+  "assignees_url": "https://api.github.com/repos/alph4delta/repository/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/alph4delta/repository/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/alph4delta/repository/tags",
+  "blobs_url": "https://api.github.com/repos/alph4delta/repository/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/alph4delta/repository/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/alph4delta/repository/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/alph4delta/repository/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/alph4delta/repository/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/alph4delta/repository/languages",
+  "stargazers_url": "https://api.github.com/repos/alph4delta/repository/stargazers",
+  "contributors_url": "https://api.github.com/repos/alph4delta/repository/contributors",
+  "subscribers_url": "https://api.github.com/repos/alph4delta/repository/subscribers",
+  "subscription_url": "https://api.github.com/repos/alph4delta/repository/subscription",
+  "commits_url": "https://api.github.com/repos/alph4delta/repository/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/alph4delta/repository/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/alph4delta/repository/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/alph4delta/repository/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/alph4delta/repository/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/alph4delta/repository/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/alph4delta/repository/merges",
+  "archive_url": "https://api.github.com/repos/alph4delta/repository/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/alph4delta/repository/downloads",
+  "issues_url": "https://api.github.com/repos/alph4delta/repository/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/alph4delta/repository/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/alph4delta/repository/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/alph4delta/repository/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/alph4delta/repository/labels{/name}",
+  "releases_url": "https://api.github.com/repos/alph4delta/repository/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/alph4delta/repository/deployments",
+  "created_at": "2015-09-01T20:28:21Z",
+  "updated_at": "2015-09-17T16:18:45Z",
+  "pushed_at": "2015-12-04T17:59:05Z",
+  "git_url": "git://github.com/alph4delta/repository.git",
+  "ssh_url": "git@github.com:alph4delta/repository.git",
+  "clone_url": "https://github.com/alph4delta/repository.git",
+  "svn_url": "https://github.com/alph4delta/repository",
+  "homepage": null,
+  "size": 353,
+  "stargazers_count": 0,
+  "watchers_count": 0,
+  "language": "HTML",
+  "has_issues": false,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "forks_count": 0,
+  "mirror_url": null,
+  "open_issues_count": 0,
+  "forks": 0,
+  "open_issues": 0,
+  "watchers": 0,
+  "default_branch": "master",
+  "parent": {
+    "id": 23520058,
+    "name": "repository",
+    "full_name": "github-adi/repository",
+    "owner": {
+      "login": "github-adi",
+      "id": 8607263,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8607263?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-adi",
+      "html_url": "https://github.com/github-adi",
+      "followers_url": "https://api.github.com/users/github-adi/followers",
+      "following_url": "https://api.github.com/users/github-adi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-adi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-adi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-adi/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-adi/orgs",
+      "repos_url": "https://api.github.com/users/github-adi/repos",
+      "events_url": "https://api.github.com/users/github-adi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-adi/received_events",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "private": false,
+    "html_url": "https://github.com/github-adi/repository",
+    "description": "github-adi hack repository.",
+    "fork": false,
+    "url": "https://api.github.com/repos/github-adi/repository",
+    "forks_url": "https://api.github.com/repos/github-adi/repository/forks",
+    "keys_url": "https://api.github.com/repos/github-adi/repository/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/github-adi/repository/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/github-adi/repository/teams",
+    "hooks_url": "https://api.github.com/repos/github-adi/repository/hooks",
+    "issue_events_url": "https://api.github.com/repos/github-adi/repository/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/github-adi/repository/events",
+    "assignees_url": "https://api.github.com/repos/github-adi/repository/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/github-adi/repository/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/github-adi/repository/tags",
+    "blobs_url": "https://api.github.com/repos/github-adi/repository/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/github-adi/repository/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/github-adi/repository/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/github-adi/repository/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/github-adi/repository/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/github-adi/repository/languages",
+    "stargazers_url": "https://api.github.com/repos/github-adi/repository/stargazers",
+    "contributors_url": "https://api.github.com/repos/github-adi/repository/contributors",
+    "subscribers_url": "https://api.github.com/repos/github-adi/repository/subscribers",
+    "subscription_url": "https://api.github.com/repos/github-adi/repository/subscription",
+    "commits_url": "https://api.github.com/repos/github-adi/repository/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/github-adi/repository/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/github-adi/repository/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/github-adi/repository/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/github-adi/repository/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/github-adi/repository/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/github-adi/repository/merges",
+    "archive_url": "https://api.github.com/repos/github-adi/repository/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/github-adi/repository/downloads",
+    "issues_url": "https://api.github.com/repos/github-adi/repository/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/github-adi/repository/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/github-adi/repository/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/github-adi/repository/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/github-adi/repository/labels{/name}",
+    "releases_url": "https://api.github.com/repos/github-adi/repository/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/github-adi/repository/deployments",
+    "created_at": "2014-08-31T18:24:11Z",
+    "updated_at": "2016-07-15T18:24:51Z",
+    "pushed_at": "2016-08-30T16:32:25Z",
+    "git_url": "git://github.com/github-adi/repository.git",
+    "ssh_url": "git@github.com:github-adi/repository.git",
+    "clone_url": "https://github.com/github-adi/repository.git",
+    "svn_url": "https://github.com/github-adi/repository",
+    "homepage": null,
+    "size": 22225,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "forks": 1,
+    "open_issues": 2,
+    "watchers": 0,
+    "default_branch": "master"
+  },
+  "source": {
+    "id": 23520058,
+    "name": "repository",
+    "full_name": "github-adi/repository",
+    "owner": {
+      "login": "github-adi",
+      "id": 8607263,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8607263?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-adi",
+      "html_url": "https://github.com/github-adi",
+      "followers_url": "https://api.github.com/users/github-adi/followers",
+      "following_url": "https://api.github.com/users/github-adi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-adi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-adi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-adi/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-adi/orgs",
+      "repos_url": "https://api.github.com/users/github-adi/repos",
+      "events_url": "https://api.github.com/users/github-adi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-adi/received_events",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "private": false,
+    "html_url": "https://github.com/github-adi/repository",
+    "description": "github-adi hack repository.",
+    "fork": false,
+    "url": "https://api.github.com/repos/github-adi/repository",
+    "forks_url": "https://api.github.com/repos/github-adi/repository/forks",
+    "keys_url": "https://api.github.com/repos/github-adi/repository/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/github-adi/repository/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/github-adi/repository/teams",
+    "hooks_url": "https://api.github.com/repos/github-adi/repository/hooks",
+    "issue_events_url": "https://api.github.com/repos/github-adi/repository/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/github-adi/repository/events",
+    "assignees_url": "https://api.github.com/repos/github-adi/repository/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/github-adi/repository/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/github-adi/repository/tags",
+    "blobs_url": "https://api.github.com/repos/github-adi/repository/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/github-adi/repository/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/github-adi/repository/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/github-adi/repository/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/github-adi/repository/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/github-adi/repository/languages",
+    "stargazers_url": "https://api.github.com/repos/github-adi/repository/stargazers",
+    "contributors_url": "https://api.github.com/repos/github-adi/repository/contributors",
+    "subscribers_url": "https://api.github.com/repos/github-adi/repository/subscribers",
+    "subscription_url": "https://api.github.com/repos/github-adi/repository/subscription",
+    "commits_url": "https://api.github.com/repos/github-adi/repository/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/github-adi/repository/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/github-adi/repository/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/github-adi/repository/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/github-adi/repository/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/github-adi/repository/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/github-adi/repository/merges",
+    "archive_url": "https://api.github.com/repos/github-adi/repository/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/github-adi/repository/downloads",
+    "issues_url": "https://api.github.com/repos/github-adi/repository/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/github-adi/repository/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/github-adi/repository/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/github-adi/repository/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/github-adi/repository/labels{/name}",
+    "releases_url": "https://api.github.com/repos/github-adi/repository/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/github-adi/repository/deployments",
+    "created_at": "2014-08-31T18:24:11Z",
+    "updated_at": "2016-07-15T18:24:51Z",
+    "pushed_at": "2016-08-30T16:32:25Z",
+    "git_url": "git://github.com/github-adi/repository.git",
+    "ssh_url": "git@github.com:github-adi/repository.git",
+    "clone_url": "https://github.com/github-adi/repository.git",
+    "svn_url": "https://github.com/github-adi/repository",
+    "homepage": null,
+    "size": 22225,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "forks": 1,
+    "open_issues": 2,
+    "watchers": 0,
+    "default_branch": "master"
+  },
+  "network_count": 1,
+  "subscribers_count": 1
+}
+
+
+
