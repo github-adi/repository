@@ -1,0 +1,27 @@
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ ssh-keygen -t rsa -b 4096 -C "adi.go.rich@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Axioo/.ssh/id_rsa):
+/c/Users/Axioo/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Axioo/.ssh/id_rsa.
+Your public key has been saved in /c/Users/Axioo/.ssh/id_rsa.pub.
+The key fingerprint is:
+19:1f:2b:0e:10:2f:91:85:84:bb:25:a3:77:c0:01:28 adi.go.rich@gmail.com
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
