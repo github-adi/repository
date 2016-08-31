@@ -1,0 +1,16 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Axioo>ping -a 110.137.197.102
+
+Pinging 102.subnet110-137-197.speedy.telkom.net.id [110.137.197.102] with 32 byt
+es of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 110.137.197.102:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\Users\Axioo>
