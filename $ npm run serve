@@ -1,0 +1,33 @@
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ npm run serve
+npm ERR! Windows_NT 6.1.7601
+npm ERR! argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\
+node_modules\\npm\\bin\\npm-cli.js" "run" "serve"
+npm ERR! node v6.2.2
+npm ERR! npm  v3.10.5
+npm ERR! path C:\Users\Axioo\package.json
+npm ERR! code ENOENT
+npm ERR! errno -4058
+npm ERR! syscall open
+
+npm ERR! enoent ENOENT: no such file or directory, open 'C:\Users\Axioo\package.
+json'
+npm ERR! enoent ENOENT: no such file or directory, open 'C:\Users\Axioo\package.
+json'
+npm ERR! enoent This is most likely not a problem with npm itself
+npm ERR! enoent and is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     C:\Users\Axioo\npm-debug.log
+/c/Program Files/nodejs/npm: line 14:  3572 Signal 112              (core dumped
+) "$basedir/node" "$basedir/node_modules/npm/bin/npm-cli.js" "$@"
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
