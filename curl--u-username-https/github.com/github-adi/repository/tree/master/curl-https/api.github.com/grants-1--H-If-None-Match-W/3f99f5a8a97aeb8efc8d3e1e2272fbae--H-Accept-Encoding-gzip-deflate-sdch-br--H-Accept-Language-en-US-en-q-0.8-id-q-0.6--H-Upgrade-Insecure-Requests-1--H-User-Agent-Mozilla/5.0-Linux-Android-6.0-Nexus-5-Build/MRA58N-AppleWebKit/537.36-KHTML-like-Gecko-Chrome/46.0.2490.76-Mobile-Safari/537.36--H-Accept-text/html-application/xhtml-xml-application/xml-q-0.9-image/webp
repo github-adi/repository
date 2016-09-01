@@ -1,0 +1,313 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl -u username https://github.com/github-adi/repository/tree/master/curl-https/api.github.com/grants-1--H-If-None-Match-W/3f99f5a8a97aeb8efc8d3e1e2272fbae--H-Accept-Encoding-gzip-deflate-sdch-br--H-Accept-Language-en-US-en-q-0.8-id-q-0.6--H-Upgrade-Insecure-Requests-1--H-User-Agent-Mozilla/5.0-Linux-Android-6.0-Nexus-5-Build/MRA58N-AppleWebKit/537.36-KHTML-like-Gecko-Chrome/46.0.2490.76-Mobile-Safari/537.36--H-Accept-text/html-application/xhtml-xml-application/xml-q-0.9-image/webp
+-Via GitBash:
+f99f5a8a97aeb8efc8d3e1e2272fbae--H-Accept-Encoding-gzip-deflate-sdch-br--H-Accep
+t-Language-en-US-en-q-0.8-id-q-0.6--H-Upgrade-Insecure-Requests-1--H-User-Agent-
+Mozilla/5.0-Linux-Android-6.0-Nexus-5-Build/MRA58N-AppleWebKit/537.36-KHTML-like
+-Gecko-Chrome/46.0.2490.76-Mobile-Safari/537.36--H-Accept-text"><span>537.36--H-
+Accept-text</span></a></span><span class="separator">/</span><span class="js-pat
+h-segment"><a href="/github-adi/repository/tree/master/curl-https/api.github.com
+/grants-1--H-If-None-Match-W/3f99f5a8a97aeb8efc8d3e1e2272fbae--H-Accept-Encoding
+-gzip-deflate-sdch-br--H-Accept-Language-en-US-en-q-0.8-id-q-0.6--H-Upgrade-Inse
+cure-Requests-1--H-User-Agent-Mozilla/5.0-Linux-Android-6.0-Nexus-5-Build/MRA58N
+-AppleWebKit/537.36-KHTML-like-Gecko-Chrome/46.0.2490.76-Mobile-Safari/537.36--H
+-Accept-text/html-application"><span>html-application</span></a></span><span cla
+ss="separator">/</span><span class="js-path-segment"><a href="/github-adi/reposi
+tory/tree/master/curl-https/api.github.com/grants-1--H-If-None-Match-W/3f99f5a8a
+97aeb8efc8d3e1e2272fbae--H-Accept-Encoding-gzip-deflate-sdch-br--H-Accept-Langua
+ge-en-US-en-q-0.8-id-q-0.6--H-Upgrade-Insecure-Requests-1--H-User-Agent-Mozilla/
+5.0-Linux-Android-6.0-Nexus-5-Build/MRA58N-AppleWebKit/537.36-KHTML-like-Gecko-C
+hrome/46.0.2490.76-Mobile-Safari/537.36--H-Accept-text/html-application/xhtml-xm
+l-application"><span>xhtml-xml-application</span></a></span><span class="separat
+or">/</span><span class="js-path-segment"><a href="/github-adi/repository/tree/m
+aster/curl-https/api.github.com/grants-1--H-If-None-Match-W/3f99f5a8a97aeb8efc8d
+3e1e2272fbae--H-Accept-Encoding-gzip-deflate-sdch-br--H-Accept-Language-en-US-en
+-q-0.8-id-q-0.6--H-Upgrade-Insecure-Requests-1--H-User-Agent-Mozilla/5.0-Linux-A
+ndroid-6.0-Nexus-5-Build/MRA58N-AppleWebKit/537.36-KHTML-like-Gecko-Chrome/46.0.
+2490.76-Mobile-Safari/537.36--H-Accept-text/html-application/xhtml-xml-applicati
+on/xml-q-0.9-image"><span>xml-q-0.9-image</span></a></span><span class="separato
+r">/</span><strong class="final-path">webp</strong><span class="separator">/</sp
+an></div>
+</div>
+
+
+
+
+  <div class="commit-tease js-details-container">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="/github-adi/repository/commit/3792c4920c
+a95acded88f9dbf517058e19fab185" data-pjax>
+        3792c49
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2016-09-01T20:23:41
+Z">Sep 2, 2016</relative-time></span>
+    </span>
+
+
+    <span class="commit-author-section">
+      <img alt="@alph4delta" class="avatar" height="20" src="https://avatars0.gi
+thubusercontent.com/u/8028833?v=3&amp;s=40" width="20" />
+      <a href="/alph4delta" class="user-mention" rel="contributor">alph4delta</a
+>
+        committed on <strong>GitHub</strong>
+    </span>
+
+        <a href="/github-adi/repository/commit/3792c4920ca95acded88f9dbf517058e1
+9fab185" class="message" data-pjax="true" title="Create *;q=0.8&quot; -H &quot;C
+ache-Control: max-age=0&quot; -H &quot;Cookie: _octo=GH1.1.1076573575.1449854366
+; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1
+472581331.1472592007.3; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(d
+irect)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1&quot; -H &quot;Con
+nection: keep-alive&quot; --compressed">Create *;q=0.8" -H "Cache-Control: max-a
+ge=0" -H "Cookie: _octo=GH1.1ÔÇª</a>
+          <span class="hidden-text-expander inline">
+            <button type="button" class="ellipsis-expander js-details-target">&h
+ellip;</button>
+          </span>
+    </span>
+
+      <div class="commit-desc"><pre class="text-small">ÔÇª.1076573575.1449854366
+; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.1449854367.1
+472581331.1472592007.3; __utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(d
+irect)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1" -H "Connection: k
+eep-alive" --compressed</pre></div>
+  </div>
+
+
+<div class="file-wrap">
+
+  <a href="/github-adi/repository/tree/3792c4920ca95acded88f9dbf517058e19fab185/
+curl-https/api.github.com/grants-1--H-If-None-Match-W/3f99f5a8a97aeb8efc8d3e1e22
+72fbae--H-Accept-Encoding-gzip-deflate-sdch-br--H-Accept-Language-en-US-en-q-0.8
+-id-q-0.6--H-Upgrade-Insecure-Requests-1--H-User-Agent-Mozilla/5.0-Linux-Android
+-6.0-Nexus-5-Build/MRA58N-AppleWebKit/537.36-KHTML-like-Gecko-Chrome/46.0.2490.7
+6-Mobile-Safari/537.36--H-Accept-text/html-application/xhtml-xml-application/xml
+-q-0.9-image/webp" class="d-none js-permalink-shortcut" data-hotkey="y">Permalin
+k</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" da
+ta-pjax>
+      <tr class="up-tree js-navigation-item">
+        <td></td>
+        <td><a href="/github-adi/repository/tree/master/curl-https/api.github.co
+m/grants-1--H-If-None-Match-W/3f99f5a8a97aeb8efc8d3e1e2272fbae--H-Accept-Encodin
+g-gzip-deflate-sdch-br--H-Accept-Language-en-US-en-q-0.8-id-q-0.6--H-Upgrade-Ins
+ecure-Requests-1--H-User-Agent-Mozilla/5.0-Linux-Android-6.0-Nexus-5-Build/MRA58
+N-AppleWebKit/537.36-KHTML-like-Gecko-Chrome/46.0.2490.76-Mobile-Safari/537.36--
+H-Accept-text/html-application/xhtml-xml-application/xml-q-0.9-image" class="js-
+navigation-open" rel="nofollow" title="Go to parent directory">..</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg aria-hidden="true" class="octicon octicon-alert" h
+eight="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.1
+8-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h
+13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h
+-2V6h2v4z"></path></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information
+.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16
+" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v
+1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.
+55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.gith
+ub.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/github-adi/
+repository/blob/master/curl-https/api.github.com/grants-1--H-If-None-Match-W/3f9
+9f5a8a97aeb8efc8d3e1e2272fbae--H-Accept-Encoding-gzip-deflate-sdch-br--H-Accept-
+Language-en-US-en-q-0.8-id-q-0.6--H-Upgrade-Insecure-Requests-1--H-User-Agent-Mo
+zilla/5.0-Linux-Android-6.0-Nexus-5-Build/MRA58N-AppleWebKit/537.36-KHTML-like-G
+ecko-Chrome/46.0.2490.76-Mobile-Safari/537.36--H-Accept-text/html-application/xh
+tml-xml-application/xml-q-0.9-image/webp/*%3Bq%3D0.8%22%20-H%20%22Cache-Control:
+%20max-age%3D0%22%20-H%20%22Cookie:%20_octo%3DGH1.1.1076573575.1449854366%3B%20l
+ogged_in%3Dyes%3B%20dotcom_user%3Dalph4delta%3B%20__utma%3D58162108.1550248153.1
+449854367.1472581331.1472592007.3%3B%20__utmz%3D58162108.1469303160.1.1.utmcsr%3
+D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B%20_ga%3DGA1.2.1550248153.1449
+854367%3B%20_gat%3D1%22%20-H%20%22Connection:%20keep-alive%22%20--compressed" cl
+ass="js-navigation-open" id="89f41dd5a57cedd7003cb46424b9b045-b66148ff23cc643196
+10a489c1946e10c47254ee" title="*;q=0.8&quot; -H &quot;Cache-Control: max-age=0&q
+uot; -H &quot;Cookie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_u
+ser=alph4delta; __utma=58162108.1550248153.1449854367.1472581331.1472592007.3; _
+_utmz=58162108.1469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga
+=GA1.2.1550248153.1449854367; _gat=1&quot; -H &quot;Connection: keep-alive&quot;
+ --compressed">*;q=0.8&quot; -H &quot;Cache-Control: max-age=0&quot; -H &quot;Co
+okie: _octo=GH1.1.1076573575.1449854366; logged_in=yes; dotcom_user=alph4delta;
+__utma=58162108.1550248153.1449854367.1472581331.1472592007.3; __utmz=58162108.1
+469303160.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.155024815
+3.1449854367; _gat=1&quot; -H &quot;Connection: keep-alive&quot; --compressed</a
+></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="/github-adi/repository/commit/3792c4920ca95acded88f9d
+bf517058e19fab185" class="message" data-pjax="true" title="Create *;q=0.8&quot;
+-H &quot;Cache-Control: max-age=0&quot; -H &quot;Cookie: _octo=GH1.1.1076573575.
+1449854366; logged_in=yes; dotcom_user=alph4delta; __utma=58162108.1550248153.14
+49854367.1472581331.1472592007.3; __utmz=58162108.1469303160.1.1.utmcsr=(direct)
+|utmccn=(direct)|utmcmd=(none); _ga=GA1.2.1550248153.1449854367; _gat=1&quot; -H
+ &quot;Connection: keep-alive&quot; --compressed">Create *;q=0.8" -H "Cache-Cont
+rol: max-age=0" -H "Cookie: _octo=GH1.1ÔÇª</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2
+016-09-01T20:23:41Z">Sep 1, 2016</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+
+    </div>
+  </div>
+
+    </div>
+
+        <div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to co
+ntact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to ap
+i, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to tra
+ining, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, t
+ext:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog,
+ text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to abou
+t, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark"
+title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" ve
+rsion="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.5
+4 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49
+-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.8
+2.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87
+.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.2
+7.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1
+.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2
+.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2016 <span title="0.09922s from github-fe144-cp1-prd.iad.github
+.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to
+ terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go
+to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to s
+ecurity, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to st
+atus, text:status">Status</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help,
+ text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+    <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version=
+"1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5
+s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.
+86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path><
+/svg>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dism
+iss" aria-label="Dismiss error">
+        <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1
+.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-
+3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></pat
+h></svg>
+      </button>
+      You can't perform that action at this time.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/
+compat-40e365359d1c4db1e36a55be458e60f2b7c24d58b5a00ae13398480e7ba768e0.js"></sc
+ript>
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/
+frameworks-fda0e6b6a3864df864404821826631190d8d6099c0cafbddc23f64bda67319a6.js">
+</script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.gith
+ub.com/assets/github-8faf3410b2cc9ba873e71cfbfed11ea88a48951425ec13203f592a23749
+ab630.js"></script>
+
+
+
+
+
+
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flas
+h-banner d-none">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version=
+"1.1" viewBox="0 0 16 16" width="16"><path d="M8.865 1.52c-.18-.31-.51-.5-.87-.5
+s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.
+86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path><
+/svg>
+      <span class="signed-in-tab-flash">You signed in with another tab or window
+. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window
+. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+    <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header"
+aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Clo
+se modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1
+" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.
+75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path>
+</svg>
+    </button>
+  </div>
+</div>
+
+  </body>
+</html>
+
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
+-Response:
+-Via Dev Tools Google Chrome:
+
+
+
+
+
+
