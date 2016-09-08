@@ -1,0 +1,68 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+
+{
+var flickr = new Flickr({
+  api_key: "9ad160d9865876d4eb23f692d0739122"
+});
+}
+{
+flickr.photos.search({
+  text: "red+panda"
+}, function(err, result) {
+  if(err) { throw new Error(err); }
+  // do something with result
+}
+}
+{
+var flickr = new Flickr({
+  endpoint: "http//api.flickr.com/services/rest/"
+});
+}
+{
+var Flickr = require("flickrapi"),
+    flickrOptions = {
+      api_key: "9ad160d9865876d4eb23f692d0739122",
+      secret: "b39bc0374ba3b787"
+    };
+ 
+Flickr.tokenOnly(flickrOptions, function(error, flickr) {
+  // we can now use "flickr" as our API object,
+  // but we can only call public methods and access public data
+});
+}
+{
+var Flickr = require("flickrapi"),
+    flickrOptions = {
+      api_key: "9ad160d9865876d4eb23f692d0739122",
+      secret: "b39bc0374ba3b787"
+    };
+ 
+Flickr.authenticate(flickrOptions, function(error, flickr) {
+  // we can now use "flickr" as our API object
+});
+}
+{
+var Flickr = require("flickrapi"),
+    flickrOptions = {
+      api_key: "9ad160d9865876d4eb23f692d0739122",
+      secret: "b39bc0374ba3b787",
+      requestOptions: {
+        timeout: 20000,
+        /* other default options accepted by request.defaults */
+      }
+    };
+ 
+Flickr.tokenOnly(flickrOptions, function(error, flickr) {
+  // we can now use "flickr" as our API object,
+  // but we can only call public methods and access public data
+});
+}
+
+</script>
+</body>
