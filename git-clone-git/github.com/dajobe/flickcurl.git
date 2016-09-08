@@ -1,0 +1,20 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ git clone git://github.com/dajobe/flickcurl.git
+Cloning into 'flickcurl'...
+remote: Counting objects: 7722, done.
+remote: Total 7722 (delta 0), reused 0 (delta 0), pack-reused 7722
+Receiving objects: 100% (7722/7722), 4.67 MiB | 152.00 KiB/s, done.
+Resolving deltas: 100% (5047/5047), done.
+Checking connectivity... done.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
