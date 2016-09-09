@@ -1,0 +1,480 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+file:///C:/Users/Axioo/Favorites/flickr.activity.html:
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us" class=" styleguide">
+<head>
+	<title>Flickr Api Explorer - flickr.activity.userComments</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world, securely and privately show content to your friends and family, or blog the photos and videos you take with a cameraphone.">
+	<meta http-equiv="imagetoolbar" content="no">
+
+	<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Flickr" />
+	<link href="/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+
+
+
+<meta name="robots" content="noarchive">
+
+	<meta name="viewport" content="width=1036">
+<meta name="application-name" content="Flickr Api Explorer - flickr.activity.userComments"/>
+<meta name="msapplication-TileColor" content="#ffffff"/>
+<meta name="msapplication-TileImage" content="https://s.yimg.com/pw/images/favicon-msapplication-tileimage.png"/>
+	
+
+<link type="text/css" rel="stylesheet" href="https://s.yimg.com/pw/css/c_s_fold_main.css.v393661073.518537151.747681544.37">
+<link type="text/css" rel="stylesheet" href="https://s.yimg.com/pw/css/c_s_foot_zeus.css.v1619629420.37">
+<link type="text/css" rel="stylesheet" href="https://s.yimg.com/pw/css/c_s_flickr_nav.css.v736530141.37">
+<link type="text/css" rel="stylesheet" href="https://s.yimg.com/pw/css/c_s_global_nav_restyle.css.v962873381.37">
+
+
+
+<link rel="shortcut icon" type="image/ico" href="https://s.yimg.com/pw/favicon.ico" />
+
+<script>
+(function(wipe_msg, root_url, bust_image_search, is_debug) {
+
+var w=window,d=document,top_loc=top.location,self_loc=self.location,referrer=d.referrer,flickr_regex=/^[A-Za-z]+:\/{2,3}(?:[0-9\-A-Za-z]+\.)*flickr\.(?:(?:com)|(?:net))(?::\d+)?(?:\/[^?#]*)?(?:\?[^#]*)?(?:#.*)?$/i,self_is_offline=(self_loc.protocol&&self_loc.protocol.indexOf('http')<0),self_is_flickr=flickr_regex.test(self_loc),self_url=self_is_flickr?self_loc.href:root_url+'/',photo_page_re_result=self_is_flickr&&/\/photos\/[^\/]+\/(\d+)/i.exec(self_loc.pathname),photo_id=photo_page_re_result&&parseInt(photo_page_re_result[1],10),frame_whitelist_regex=/^[A-Za-z]+:\/{2,3}(?:[0-9\-A-Za-z]+\.)*(?:(?:flickr\.(?:(?:com)|(?:net)))|(?:yahoo\.(?:(?:com)|(?:net)|(?:(?:com?\.)?[A-Za-z]{2})))|(?:creativecommons\.org)|(?:eyewonderlabs\.com)|(?:stumbleupon\.com)|(?:screenqueri\.es)|(?:su\.pr)|(?:bing\.com)|(?:bingj\.com)|(?:webcache\.googleusercontent\.com)|(?:google\.(?:(?:com)|(?:(?:com?\.)?[A-Za-z]{2}))))(?::\d+)?(?:\/[^?#]*)?(?:\?[^#]*)?(?:#.*)?$/i,self_whitelist_regex=/^[A-Za-z]+:\/{2,3}(?:[0-9\-A-Za-z]+\.)*(?:(?:flickr\.(?:(?:com)|(?:net)))|(?:yahoo\.(?:(?:com)|(?:net)|(?:(?:com?\.)?[A-Za-z]{2})))|(?:translate\.google\.com)|(?:translate\.googleusercontent\.com)|(?:web\.archive\.org))(?::\d+)?(?:\/[^?#]*)?(?:\?[^#]*)?(?:#.*)?$/i,image_search_regex=/^[A-Za-z]+:\/{2,3}(?:[0-9\-A-Za-z]+\.)*(?:(?:(?:google)|(?:bing))\.(?:(?:com)|(?:(?:com?\.)?[A-Za-z]{2})))(?::\d+)?(?:\/[^?#]*)?(?:\?[^#]*)?(?:#.*)?$/i,referrer_is_flickr=flickr_regex.test(referrer),referrer_is_whitelisted=frame_whitelist_regex.test(referrer),referrer_is_image_search=image_search_regex.test(referrer),faq_url=root_url+'/frame_redir.gne?source='+encodeURIComponent(referrer)+'&dest='+encodeURIComponent(root_url+'/help/blogging/#1392237'),redir_url=root_url+'/frame_redir.gne?source='+encodeURIComponent(referrer)+'&dest='+encodeURIComponent(self_url),should_bust,should_wipe,base;function redirect(){w.onerror=function(){return true;};if(typeof top_loc.replace==='function'){top_loc.replace(redir_url);}else{top_loc.href=redir_url;}} function wipe(){var logo_w,font_size,win_width,html,msg;w.onerror=function(){return true;};logo_w=162;font_size='12px';d.head.parentNode.removeChild(d.head);setInterval(function(){if(d&&d.body){if(d.body.lastChild&&d.body.lastChild.className&&d.body.lastChild.className==='wipe-msg'){}else{msg=wipe_msg.replace('{url}',redir_url).replace('{faq}',faq_url);if(typeof w.innerWidth==='number'){win_width=w.innerWidth;}else if(d.body.clientWidth){win_width=d.body.clientWidth;} if(win_width&&win_width<162){logo_w=win_width;font_size='10px';} html='<div class="wipe-msg" style="font-size:'+font_size+';text-align:left;"><div style="margin-bottom:3px;"><img alt="Flickr" width="'+logo_w+'" src="https://s.yimg.com/pw/images/logo_home.png"></div><div style="padding-left:5px;line-height:1.2em;">'+msg+'</div></div>';d.body.style.margin='0';d.body.innerHTML=html;}}},200);} function get_frame_depth(){var win=self,frame_depth=0;while(win!==win.parent){frame_depth+=1;win=win.parent;} return frame_depth;} function debug(){if(is_debug){console.log(arguments);}} if(self_is_flickr&&self_loc===top_loc){}else if(self_is_offline){}else if(!self_is_flickr&&!self_whitelist_regex.test(self_loc)){should_wipe=true;}else if(bust_image_search&&photo_id&&referrer_is_image_search){should_bust=true;}else if(!referrer_is_whitelisted&&get_frame_depth()>0){should_wipe=true;}else if(!referrer_is_flickr&&get_frame_depth()>1){should_wipe=true;} if(is_debug){debug({self_is_flickr:self_is_flickr,top_loc:top_loc,self_loc:self_loc,referrer:referrer,self_is_offline:self_is_offline,self_is_flickr:self_is_flickr,self_url:self_url,photo_page_re_result:photo_page_re_result,photo_id:photo_id,referrer_is_flickr:referrer_is_flickr,referrer_is_whitelisted:referrer_is_whitelisted,referrer_is_image_search:referrer_is_image_search,self_is_whitelisted:self_whitelist_regex.test(self_loc),frame_depth:get_frame_depth(),faq_url:faq_url,redir_url:redir_url,should_bust:should_bust,should_wipe:should_wipe,base:base});}else{if(should_bust){setTimeout(function(){w.onbeforeunload=w.onunload=null;redirect();},1000);setTimeout(wipe,2000);redirect();}else if(should_wipe){wipe();}else if(referrer_is_whitelisted&&!referrer_is_flickr){base=document.createElement('base');base.target='_top';document.getElementsByTagName('head')[0].appendChild(base);}}
+
+}('We\'re sorry, Flickr <a href="{faq}" target="_top">doesn\'t allow embedding within frames</a>.<br><br>If you\'d like to view this content, <a href="{url}" target="_top">please click here</a>.', 'https://www.flickr.com', true, false));
+
+</script>
+<script type="text/javascript">	
+if(window.opener&&window.location.href.match(/photo_grease_postlogin.gne/)){window.opener.location=window.location;window.close();}
+
+</script>
+
+	<link href="https://s.yimg.com/pw/css/c_s_services.css.v535321728.37" rel="stylesheet" type="text/css" />
+	<link href="https://s.yimg.com/pw/css/c_s_appgarden.css.v586686825.37" rel="stylesheet" type="text/css" />
+	<link href="https://s.yimg.com/pw/css/c_s_app_summary.css.v1783484595.37" rel="stylesheet" type="text/css" />
+<link href="/css/services.css.v535321728" rel="stylesheet" type="text/css" />
+
+
+<!--[if LT IE 7]>
+<style type="text/css">
+.trans_png {
+	behavior: url('/javascript/pngbehavior2.htc');
+	border:0;
+}
+</style>
+<![endif]-->
+
+
+
+<!-- global js vars -->
+
+<script type="text/javascript">
+var global_magisterLudi = '2b6e696c02f912417b2f67f923add9f8',
+global_auth_hash = 'c89613607200e80b02643a23f2c301745d74f57d252cfdd889ee8d2c79f6263b',
+global_auth_token = '',
+global_flickr_secret = '5094150ede902a8b',
+global_slideShowVersion = '1235967984',
+global_slideShowCodeVersion = '1329954558',
+global_slideShowVersionV2 = '992474601',
+global_slideShowCodeVersionV2 = '815334016',
+global_slideShowTextVersion = '522575751',
+global_slideShowVersionV3 = '261948265',
+global_nsid = '131982638@N07',
+global_hashed_nsid = '',
+global_ispro = 0,
+global_dbid = '131961308',
+global_name ='nugrohomuhammad65',
+global_expire ='0',
+global_icon_url ='https://farm8.staticflickr.com/7706/buddyicons/131982638@N07.jpg?1429979235#131982638@N07',
+global_tag_limit = '75',
+global_collection_depth_limit = 5,
+global_stewartVersion = '384028786',
+global_contact_limit = '100000',
+global_eighteen = 1,
+global_group_limit = 5000,
+global_photos_ids_limit = 20,
+one_photo_show_belongs = 0,
+prefs_isset_viewgeo = 0,
+photos_url = '/photos/131982638@N07/',
+disable_stewart = 0;
+disable_geo = 0;
+var global_rper = 0;
+
+var global_widget_carets = 0;
+var global_explore_search = 1;
+
+var global_intl_lang = 'en-us';
+
+var _photo_root = 'http://farm.'+'staticflickr.com'+'/';
+var _site_root = 'https://www.flickr.com';
+var _images_root = 'https://s.yimg.com/pw/images';
+var _intl_images_root = 'https://s.yimg.com/pw/images/en-us';
+var _enable_popup_login = 1;
+var do_bbml = 1;
+
+</script>
+<script type="text/javascript" src="https://s.yimg.com/pw/javascript/global.js.v2055206793.37"></script>
+<script>
+		(function(F){var TIMEOUT=10000;var pollers={},pollerCount=0,cachedEls={},testDiv=document.createElement('div'),support={nativeTrim:typeof String.prototype.trim==='function',classList:'classList'in testDiv};F.util={clone:function(o){if(o===null||typeof o!=='object'){return o;} var c=new o.constructor();for(var k in o){c[k]=F.util.clone(o[k]);} return c;},trim:function(str){if(support.nativeTrim){return str.trim();} else{return str.replace(/^\s+|\s+$/g,'');}},getElementById:function(id){if(!cachedEls[id]){cachedEls[id]=document.getElementById(id);} return cachedEls[id];},hasClass:function(el,className){if(!el){return false;} if(support.classList){return el.classList.contains(className);} else{var re=new RegExp('(?:^|\\s+)'+className+'(?:\\s+|$)');return re.test(el.className);}},addClass:function(el,className){if(!el){return;} if(support.classList){el.classList.add(className);} else if(!F.util.hasClass(el,className)){el.className=F.util.trim([el.className,className].join(' '));}},removeClass:function(el,className){if(support.classList){el.classList.remove(className);} else if(className&&F.util.hasClass(el,className)){el.className=F.util.trim(el.className.replace(new RegExp('(?:^|\\s+)'+className+'(?:\\s+|$)'),' '));if(F.util.hasClass(el,className)){F.util.removeClass(el,className);}}},whenElementExists:function(id,callback,interval){var iterations=0,pollerId=id+pollerCount++;interval=interval||10;var checkElementAndCallback=function(){var el=(id==='body')?document.body:F.util.getElementById(id);if(el){clearInterval(pollers[pollerId]);callback(el);return true;} else if(++iterations*interval>=TIMEOUT){clearInterval(pollers[pollerId]);return false;}};if(!checkElementAndCallback()){pollers[pollerId]=setInterval(checkElementAndCallback,interval);}},addListener:function(el,type,fn,capture){if(el.addEventListener){el.addEventListener(type,fn,capture);} else if(el.attachEvent){el.attachEvent('on'+type,fn);}},setCookie:function(name,value,days,path){var date,expires='',path=path||'/';if(days){date=new Date();date.setTime(date.getTime()+(days*24*60*60*1000));expires='; expires='+date.toGMTString();} document.cookie=name+'='+value+expires+'; path='+path;},getCookie:function(name){var i,cookies=' '+document.cookie+';';name=' '+name+'=';if((i=cookies.indexOf(name))>=0){i+=name.length;cookies=cookies.substring(i,cookies.indexOf(';',i));return cookies;}},removeCookie:function(name){return F.util.setCookie(name,'',0);}};testDiv=null;}(F));
+		(function(F){var el,w,d,n,ua,ae,is_away_from_tab,de,disabled=false,assigned_events=false;w=window;d=w.document;n=w.navigator;ua=n&&n.userAgent;var supportsActiveElt=false;if('activeElement'in document){supportsActiveElt=true;} function doF(e,me){if(is_away_from_tab&&e.target===w){is_away_from_tab=false;}else{el=e.target||me;}} function doB(e){if(el!==w&&e.target===w){is_away_from_tab=true;}else{el=undefined;}} function get(){var nt,in_doc;if(supportsActiveElt){el=document.activeElement;}else if(el&&(nt=el.nodeType)){if(d.contains){if((ua&&ua.match(/Opera[\s\/]([^\s]*)/))||nt===1){in_doc=d.contains(el);}else{while(el){if(d===el){in_doc=true;} el=el.parentNode;}}}else if(d.compareDocumentPosition){if(d===el||!!(d.compareDocumentPosition(el)&16)){in_doc=true;}}else{var myEl=el;while(myEl){if(d===myEl){in_doc=true;} myEl=myEl.parentNode;}}} return in_doc?el:undefined;} function isInput(){var n=get(),nn;if(!n){return false;} nn=n.nodeName.toLowerCase();return(nn==='input'||nn==='textarea');} function instrumentInputs(){if(!assigned_events){var i,me,inputs=document.getElementsByTagName('input'),tas=document.getElementsByTagName('textarea'),nInputs=inputs.length,nTextAreas=tas.length;if(nInputs||nTextAreas){for(i=0;i<nTextAreas;i++){me=tas[i];tas[i].attachEvent('onfocusin',function(e){if(!disabled){doF(e,me);}});} for(i=0;i<nInputs;i++){me=inputs[i];inputs[i].attachEvent('onfocusin',function(e){if(!disabled){doF(e,me);}});} assigned_events=true;}}} function destroy(){disabled=true;if(de=w.removeEventListener){de('focus',doF,true);de('blur',doB,true);}else if(de=d.removeEvent){de('blur',doB);}} function dom_onready(onready_handler){if(typeof onready_handler==='undefined'){return false;} if(document.readyState==='complete'){onready_handler();}else{if(document.addEventListener){DOMContentLoaded=function(){document.removeEventListener('DOMContentLoaded',DOMContentLoaded,false);onready_handler();};}else if(document.attachEvent){DOMContentLoaded=function(){if(document.readyState==='complete'){document.detachEvent('onreadystatechange',DOMContentLoaded);onready_handler();}};} if(document.addEventListener){document.addEventListener('DOMContentLoaded',onready_handler,false);}else if(document.attachEvent){document.attachEvent('onreadystatechange',onready_handler);}}} if(ae=w.addEventListener){ae('focus',doF,true);ae('blur',doB,true);}else if(ae=d.attachEvent){dom_onready(instrumentInputs);ae('onfocusout',doB);} F.focus_tracker={get:get,isInput:isInput,destroy:destroy};}(F));</script>
+
+<script type="text/javascript">
+
+</script>
+
+<script type="text/javascript" src="https://s.yimg.com/pw/javascript/fold_main.js.v1285580603.1410848155.1977671447.287681598.1043327076.2027507753.987446301.1204980162.662292606.81602582.1631543492.954470858.1733462207.442825364.1942606608.1136860472.1679380312.899552323.1606936761.281350481.320740220.1766357895.373801310.738950122.616219821.1436689662.37"></script>
+
+<script type="text/javascript" src="https://s.yimg.com/pw/javascript/s_output_en-us.js.566885398716721118df8cd58d322f34"></script>
+<script type="text/javascript">
+
+YAHOO.util.Event.addListener(window, 'load', F._window_onload);
+YAHOO.util.Event.addListener(window, 'resize', F._window_onresize);
+YAHOO.util.Event.addListener(window, 'blur', F._window_onblur);
+YAHOO.util.Event.addListener(window, 'focus', F._window_onfocus);
+YAHOO.util.Event.addListener(window, 'unload', F._window_onunload);
+
+</script>
+
+<script type="text/javascript">
+var global_joinDate = F.convert_unix_time_stamp('1429890885');
+var global_time_stamp = '160909103507';
+
+
+fixMaxWidth_getWidth = (navigator.userAgent.match(/MSIE 6/i)?function(el) {
+  return el.currentStyle['max-width'];
+}:function(el){
+  return el.currentStyle['maxWidth'];
+});
+
+fixMaxWidth = function(el) {
+  try {
+    el.runtimeStyle.behavior = 'none';
+    var mw = fixMaxWidth_getWidth(el);
+    var nmw = parseInt(mw,10) || 10000;
+    var cW = parseInt(el.offsetWidth);
+    var cH = parseInt(el.offsetHeight);
+    var ratio = (cH/cW);
+    if (el.offsetWidth>nmw) {
+      el.style.width = (nmw+'px');
+      if (!isNaN(cH) && cH) {
+        el.style.height = (Math.ceil(nmw*ratio)+'px');
+      }
+    }
+  } catch(e) {
+    // oh well
+  }
+}
+
+
+
+YAHOO.util.Event.onDOMReady(F._window_onload_dom);
+
+
+F.keyboardShortcuts.enableAll();
+</script>
+
+<!--[if IE]>
+<style type="text/css">
+
+img.notsowide {
+ behavior:expression(fixMaxWidth(this));
+}
+
+</style>
+<![endif]-->
+
+	<script type="text/javascript" src="https://s.yimg.com/pw/javascript/appgarden.js.v1162095391.37"></script>
+
+
+
+
+
+
+</head>
+
+
+<body class="zeus new-footer new-header super-liquid extras quirks en-us">
+
+<script type='text/javascript'>
+	('<a href="https://www.flickr.com/enfnl">')
+</script>
+<!-- <a href="https://www.flickr.com/enfnl"> -->
+
+<noscript>
+	<div id="beacon"><img src="https://geo.yahoo.com/f?s=792600122&t=3a199f32a3c0c8b221ae7ddbc698b35c&r=https%3A%2F%2Fwww.flickr.com%2Fservices%2Fapi%2Fflickr.activity.userComments.html&fl_ev=0&lang=en&intl=us" width="0" height="0" alt="" /></div>
+</noscript>
+
+
+<script>
+	/*jslint white: false, undef: false, browser: true, eqeqeq: true, regexp: false, newcap: true, immed: true, onevar: false, plusplus: false */
+/*global F: false, YUI: false, window: false */ 
+
+(function(F){var OFFSETS={GLOBAL_NAV:null,UNIVERSAL_HEADER:null};function alignToAnchor(anchor,preventDelay){var delay=(!preventDelay&&document.documentMode)?800:50;var elt=document.getElementById(anchor)||document.getElementsByName(anchor)[0];if(elt){setTimeout(function(){var destination=elt.offsetTop,origPosition=elt.style.position;if(F.util.hasClass(document.body,'header-underlap')){destination-=OFFSETS.GLOBAL_NAV;} if(F.util.hasClass(document.body,'with-eyebrow')){destination-=OFFSETS.UNIVERSAL_HEADER;} if(!origPosition){elt.style.position='relative';destination=Math.max(destination,elt.offsetTop-destination);elt.style.position=origPosition;} window.scrollTo(0,destination);},delay);}} function normalizeAnchor(){var anchor=document.location.hash;if(anchor[0]==='#'){anchor=anchor.replace('#','');} return anchor;} function handleEvent(elt,eventName,handler,useCapture){useCapture=useCapture||false;if(elt.addEventListener){elt.addEventListener(eventName,handler,useCapture);}else if(elt.attachEvent){elt.attachEvent('on'+eventName,handler);}} F.anchorRepositioner={init:function(){F.util.whenElementExists('global-nav',function(nav){OFFSETS.GLOBAL_NAV=nav.offsetHeight;});F.util.whenElementExists('eyebrow',function(eyebrow){OFFSETS.UNIVERSAL_HEADER=eyebrow.offsetHeight;});var pageLoadAnchor=normalizeAnchor();if(pageLoadAnchor){handleEvent(document,'DOMContentLoaded',function(){alignToAnchor(pageLoadAnchor);});} handleEvent(window,'hashchange',function(e){if(e.preventDefault){e.preventDefault();}else{e.returnValue=false;} var anchor=normalizeAnchor();alignToAnchor(anchor);},true);}};}(F));	F.anchorRepositioner.init();
+</script>
+
+
+<script>
+			/*jslint white: false, undef: false, browser: true, eqeqeq: true, regexp: false, newcap: true, immed: true, onevar: false, plusplus: false */
+/*global F: false, YUI: false, window: false */
+
+(function(F) {
+	var useNewExplore =  false ,
+    	    useEyebrow = false,
+	    HEIGHT_TO_PHOTO_TOP = 49,
+    	    savingThrowAgainstTrailingCommas = true;
+ 
+            var NEW_PHOTO_HEIGHT;
+    var MIN_PAGE_WIDTH=1024,MIN_PAGE_HEIGHT=768,MIN_PHOTO_WIDTH=975,SCROLLBAR_GUTTER=26,PHOTO_INTERIOR_PADDING_TOP=0,PHOTO_INTERIOR_PADDING_SIDES=10,PHOTO_TITLE_HEIGHT=41,PHOTO_ATTRIBUTION_HEIGHT=NEW_PHOTO_HEIGHT||45;var bodyInitialized=false,subnavDefaultWidth=0;function verifyDimension(n){return(typeof n==='number'&&n>0);} function resizeCoverPhoto(subnav){var main=F.util.getElementById('main')||F.util.getElementById('Main');if(F.util.hasClass(document.body,'breakout')){subnav.style.left=0;subnav.style.width='auto';return;} if(!subnavDefaultWidth){subnavDefaultWidth=main.offsetWidth;} var clientWidth=document.body.clientWidth;if(clientWidth<975){return;} var offset=Math.ceil((clientWidth-subnavDefaultWidth)/2);subnav.style.left=(-1*offset)+'px';subnav.style.width=clientWidth+'px';} F.liquid={getDimensions:function(preventHighResolution){var doc=window.document,win=doc.defaultView||doc.parentWindow,mode=doc.compatMode,h=win.innerHeight,w=win.innerWidth,root=doc.documentElement,preventHighResolution=preventHighResolution||false,pixelRatio=preventHighResolution?1:(window.devicePixelRatio||1);if(mode){if(mode!=='CSS1Compat'){root=doc.body;} h=root.clientHeight;w=root.clientWidth;} h*=pixelRatio;w*=pixelRatio;if(verifyDimension(w)&&verifyDimension(h)){return{height:h,width:w,isHighResolution:(pixelRatio>1)};} return false;},getAvailableSpaceForPhoto:function(){var dimensions,pixelRatio=window.devicePixelRatio||1;dimensions=F.liquid.getDimensions()||{width:MIN_PAGE_WIDTH,height:MIN_PAGE_HEIGHT};return{w:Math.max(dimensions.width-(2*pixelRatio*PHOTO_INTERIOR_PADDING_SIDES),pixelRatio*MIN_PHOTO_WIDTH),h:dimensions.height-(pixelRatio*(HEIGHT_TO_PHOTO_TOP+PHOTO_INTERIOR_PADDING_TOP+PHOTO_TITLE_HEIGHT+PHOTO_ATTRIBUTION_HEIGHT))};},getAvailableSpaceForPhotoContainer:function(){var dimensions,pixelRatio=window.devicePixelRatio||1;dimensions=F.liquid.getDimensions()||{width:MIN_PAGE_WIDTH,height:MIN_PAGE_HEIGHT};dimensions.width/=pixelRatio;dimensions.height/=pixelRatio;return{w:dimensions.width,h:dimensions.height-HEIGHT_TO_PHOTO_TOP-PHOTO_ATTRIBUTION_HEIGHT};},resizePage:function(){var pageDimensions=F.liquid.getDimensions(true),pageWidth=pageDimensions.width,pageHeight=pageDimensions.height-HEIGHT_TO_PHOTO_TOP;F.util.setCookie('liqpw',pageWidth,365);F.util.setCookie('liqph',pageHeight,365);if(!bodyInitialized){F.util.whenElementExists('body',function(body){F.util.addClass(body,'liquid');bodyInitialized=true;});} F.util.whenElementExists('subnav-refresh',function(subnav){resizeCoverPhoto(subnav);});return pageWidth;}};}(F));		F.liquid.resizePage();
+</script>
+
+
+<a name="top"></a>
+
+
+<div id="global-nav" class="no-js  styleguide-global-nav">
+	
+	<div id="gn-wrap" class="gn-wrap " >
+
+		<div class="logo">
+			<a href="https://www.flickr.com/" data-track="Logo-main" title="Flickr logo. If you click it, you'll go home">				<span class="refresh-logo-2013">Flickr logo. If you click it, you'll go home</span>
+							</a>		</div>
+
+		<div class="nav small-logo">
+						<ul class="top-nav">
+				
+								<li class="gn-menu-parent toplink" data-context="you">
+											<a data-track="You-main" class="gn-link" href="https://www.flickr.com/photos/131982638@N07/"><span>You</span></a>
+										<div class="panel" id="you-panel">
+						<div class="arrow"></div>
+						<div class="bd">
+							<ul>
+								<li class="gn-subnav-item"><a data-track="You-cameraroll" href="https://www.flickr.com/cameraroll">Camera Roll</a></li>								<li class="gn-subnav-item"><a data-track="You-photostream" href="https://www.flickr.com/photos/131982638@N07/">Photostream</a></li>
+								<li class="gn-subnav-item"><a data-track="You-sets" href="https://www.flickr.com/photos/131982638@N07/albums">Albums</a></li>
+								<li class="gn-subnav-item"><a data-track="You-favorites" href="https://www.flickr.com/photos/131982638@N07/favorites">Favorites</a></li>
+								<li class="gn-subnav-item"><a data-track="You-groups" href="https://www.flickr.com/groups">Groups</a></li>
+								<li class="gn-subnav-item"><a data-track="You-galleries" href="https://www.flickr.com/photos/131982638@N07/galleries">Galleries</a></li>
+								<li class="gn-subnav-item"><a data-track="You-creations" href="https://www.flickr.com/photos/131982638@N07/creations/">Creations</a></li>								<li class="gn-subnav-item"><a data-track="You-people" href="/photos/friends">People</a></li>
+								<li class="gn-subnav-item"><a data-track="You-recent_activity" href="https://www.flickr.com/activity">Recent Activity</a></li>
+																											<li class="gn-subnav-item stats"><a data-track="You-stats" href="https://www.flickr.com/photos/131982638@N07/stats">Stats</a></li>
+																									<li class="gn-subnav-item"><a data-track="You-organize" href="https://www.flickr.com/photos/organize">Organize</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				
+								<li class="gn-menu-parent toplink" data-context="explore">
+					<a data-track="Explore-main" class="gn-link explore" href="https://www.flickr.com/explore"><span>Explore</span></a>
+					<div class="panel" id="explore-panel">
+						<div class="arrow"></div>
+						<div class="bd">
+							<ul>
+								<li class="gn-subnav-item"><a data-track="Explore-recent_photos" href="https://www.flickr.com/explore">Recent Photos</a></li>
+																	<li class="gn-subnav-item"><a data-track="Explore-trending_tags_click" href="https://www.flickr.com/tags">Trending<span class="label-beta">NEW</span></a></li>
+																									<li class="gn-subnav-item"><a data-track="Explore-vr_landing_click" href="https://www.flickr.com/vr">Flickr VR</a></li>
+																<li class="gn-subnav-item"><a data-track="Explore-the_commons" href="https://www.flickr.com/commons">The Commons</a></li>
+								<li class="gn-subnav-item"><a data-track="Explore-galleries" href="https://www.flickr.com/galleries">Galleries</a></li>
+								<li class="gn-subnav-item"><a data-track="Explore-world_map" href="https://www.flickr.com/map">World Map</a></li>
+								<li class="gn-subnav-item"><a data-track="Explore-app_garden" href="https://www.flickr.com/services">App Garden</a></li>
+								<li class="gn-subnav-item"><a data-track="Explore-camera_finder" href="https://www.flickr.com/cameras">Camera Finder</a></li>
+													<li class="gn-subnav-item"><a data-track="Explore-the_weekly_flickr" href="https://www.flickr.com/photos/flickr/albums/72157639868074114/">The Weekly Flickr</a></li>
+													<li class="gn-subnav-item"><a data-track="Explore-flickr_blog" href="http://blog.flickr.net">FlickrBlog</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				
+								<li class="toplink">
+					<a data-track="Create-main" class="gn-link" href="https://www.flickr.com/create"><span>Create</span></a>
+									</li>
+							</ul>
+					</div>
+
+		<div class="tools with-upload-icon">
+
+									
+									<form action="https://www.flickr.com/search/" method="get" role="search" class="nav-selecta bo-selecta-3">
+									<input type="text" placeholder="Photos, people, or groups" name="q" value="" id="gn-search-field" class="gn-search" autocomplete="off" aria-label="Search">
+				
+				<input type="submit" data-track="Search-search_icon" class="search-icon icon rapidnofollow" tabindex="-1" value="Search">
+			</form>
+			
+			<ul class="top-nav">
+
+								<li class="toplink upload-icon-link">
+					<a data-track="UploadIcon-main" class="gn-link global-nav-upload" href="/upload">
+						<i class="upload-icon" title="Upload">Upload</i>
+					</a>
+				</li>
+								
+				
+								<li class="gn-menu-parent toplink gn-account" data-context="account">
+					<span class="gn-link account"><img class="gn-buddyicon" src="https://farm8.staticflickr.com/7706/buddyicons/131982638@N07.jpg?1429979235#131982638@N07" alt="" width="33" height="33"></span>
+
+					
+
+					<div id="gb-ac-wrap">
+						<div id="gb-ac-panel" class="panel arrow_box new-account-menu">
+
+							<div id="gb-ac-profile" class="clearfix">
+								<div class="wrap left">
+									<div class="iwrap">
+
+										<div class="welcome "><span lang="nl" title="">Hoi,</span> nugrohomuhammad65!</div>
+										<div class="wel-desc">
+																							Now you know how to greet people in Dutch!																					</div>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="usage">
+								
+																		
+									<div class="meter-bd">
+										<div class="meter" style="width:100%; max-width:100%"></div>
+										<div class="bars">
+											<div></div>
+											<div></div>
+											<div></div>
+											<div></div>
+											<div></div>
+											<div></div>
+											<div></div>
+											<div></div>
+										</div>
+									</div>
+
+																			<div class="disk center">Using 0.0015% of 1TB</div>
+									
+									<div class="upgrade">
+										
+																																														<div class="upgrade">
+														<a href="https://www.flickr.com/account/upgrade/pro" class="Butt upgrade-btn go-pro">Get Pro</a>
+													</div>
+												
+																					
+
+
+									</div>
+															</div>
+							<ul class="ac-nav">
+								<li>
+									<a data-track="Account-flickrmail-menu" href="https://www.flickr.com/mail">FlickrMail</a>
+								</li>
+								<li>
+									<a data-track="Account-help" href="https://help.yahoo.com/kb/index?page=product&y=PROD_FLICKR&locale=en_US">Help</a>
+								</li>
+								<li>
+									<a data-track="Account-settings" href="https://www.flickr.com/account">Settings</a>
+								</li>
+								<li>
+									<a data-track="Account-sign_out" href="https://www.flickr.com/logout.gne?magic_cookie=c89613607200e80b02643a23f2c301745d74f57d252cfdd889ee8d2c79f6263b">Sign out</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				
+				
+				
+							</ul>
+		</div>
+	</div>
+</div>
+
+
+	
+
+</div>
+
+
+	
+	
+<div id="Main" class="" role="main">
+
+
+	<table width="800" cellspacing="0" id="SubNav">
+		<tr>
+			<td class="Section">
+				<h1><a href="https://www.flickr.com/services/">The App Garden</a></h1>
+				<p class="LinksNewP">
+				<span class="LinksNew">
+					<span><a href="https://www.flickr.com/services/apps/create/">Create an App</a></span> 
+					<span><a href="https://www.flickr.com/services/api/">API Documentation</a></span> 
+					<span><a href="https://www.flickr.com/services/feeds/">Feeds</a></span>					<a href="https://www.flickr.com/services/apps/about/">What is the App Garden?</a> 
+				</span>
+				</p>
+			</td>
+		</tr>
+	</table>
+
+
+<script type="text/javascript">
+<!--
+
+function check_field(value_field, check_field){
+	var v = document.getElementById(value_field);
+	var c = document.getElementById(check_field);
+	if ((v.value != null) && (v.value != '')){
+		c.checked = true;
+	}
+}
+
+//-->
+</script>
+
+<h3><b>flickr.activity.userComments</b></h3>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr valign="top">
+<td width="60%">
+
+<h4>Arguments</h4>
+
+<form action="https://www.flickr.com/services/api/explore/flickr.activity.userComments" method="post">
+<input type="hidden" name="method" value="flickr.activity.userComments" />
+<input type="hidden" name="magic_cookie" value="c89613607200e80b02643a23f2c301745d74f57d252cfdd889ee8d2c79f6263b" />
+
+
+<table id="Explorer" cellspacing="0" width="100%">
+	<tr>
+		<th>Name</th>
+		<th>Required</th>
+		<th>Send</th>
+		<th>Value</th>
+	</tr>
+	<tr>
+		<td title="Number of items to return per page. If this argument is omitted, it defaults to 10. The maximum allowed value is 50.">per_page</td>
+		<td>optional</td>
+		<td><input type="checkbox" id="enable_per_page" name="enable_per_page" /></td>
+		<td><input type="text" name="param_per_page" id="param_per_page" value="" onchange="check_field('param_per_page', 'enable_per_page');" onkeypress="check_field('param_per_page', 'enable_per_page');" onkeyup="check_field('param_per_page', 'enable_per_page');" /></td>
+	</tr>
+	<tr>
+		<td title="The page of results to return. If this argument is omitted, it defaults to 1.">page</td>
+		<td>optional</td>
+		<td><input type="checkbox" id="enable_page" name="enable_page" /></td>
+		<td><input type="text" name="param_page" id="param_page" value="" onchange="check_field('param_page', 'enable_page');" onkeypress="check_field('param_page', 'enable_page');" onkeyup="check_field('param_page', 'enable_page');" /></td>
+	</tr>
+</table>
+
+
+<p>Output: <select name="format">
+	<option value="rest">XML (REST)</option>
+	<option value="json">JSONP</option>
+	<option value="json-nc">JSON</option>
+	<option value="php_serial">PHP Serial</option>
+</select></p>
+
+<p><input type="radio" name="sign_call" value="full" id="signfull" checked /> <label for="signfull">Sign call as nugrohomuhammad65 with full permissions?</label></p>
+<p><input type="radio" name="sign_call" value="sign" id="justsigncall" /> <label for="justsigncall">Sign call with no user token?</label></p>
+<p><input type="radio" name="sign_call" value="none" id="nosign" /> <label for="nosign">Do not sign call?</label></p>
+
+<br />
+
+<input type="submit" value="Call Method..." />
+</form>
+
+<p><a href="https://www.flickr.com/services/api/flickr.activity.userComments.htm">Back to the flickr.activity.userComments documentation</a></p>
+
+</td>
+
+<td><img src="https://s.yimg.com/pw/images/spaceball.gif" width="50" height="1" style="border: 0" alt="spacer" /></td>
+</body>
+</html>
