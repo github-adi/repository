@@ -1,0 +1,180 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+curl -X POST "https://www.telunjuk.com/telunjuk/redirect/145834551/114?t=n&ut
+m_source=adcash&utm_medium=popunder&utm_content=zalora-nike-free-rn-flyknit&utm
+_campaign=promote-campaign"
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ curl -X POST "https://www.telunjuk.com/telunjuk/redirect/145834551/114?t=n&ut
+m_source=adcash&utm_medium=popunder&utm_content=zalora-nike-free-rn-flyknit&utm
+_campaign=promote-campaign"
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Telunjuk.com</title>
+        <meta name='description' content='Telunjuk 2.0 meta description' />
+
+        <link rel="icon" href="//asset.telunjuk.co.id/s/images/favicon.png" type
+="image/png" />
+        <link rel="canonical" href="//www.telunjuk.com" />
+
+        <title>Telunjuk Redirect</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/c
+ss/bootstrap.min.css">
+        <link rel="stylesheet" href="//asset.telunjuk.co.id/general_1/custom_red
+irect.css">
+        <!-- Custom styles for this template -->
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-9216037-1']);
+            _gaq.push(['_setDomainName', 'telunjuk.com']);
+            _gaq.push(['_trackPageview']);
+            _gaq.push(['_addTrans',
+                '1473527757', // transaction ID - required
+                'Zalora Indonesia', // affiliation or
+                '137', // total - required
+                '0', // tax
+                '0', // shipping
+                '', // city                 '', // state or province
+                ''             // country
+            ]);
+            // add item might be called for every item in the shopping cart
+            // where your ecommerce engine loops through each item in the cart a
+nd
+            // prints out _addItem for each
+
+            _gaq.push(['_addItem',
+                '1473527757', // transaction ID - required
+                'ALL145834551', // SKU/code - required
+                'Nike Free RN Flyknit', // product name
+                'all', // category or variation
+                '137', // unit price - required
+                '1'               // quantity - required
+            ]);
+
+            _gaq.push(['_set', 'currencyCode', 'IDR']);
+            _gaq.push(['_trackTrans']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+ : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+
+            /* <![CDATA[ */
+            var google_conversion_id = 1019951675;
+            var google_conversion_language = "en";
+            var google_conversion_format = "3";
+            var google_conversion_color = "ffffff";
+            var google_conversion_label = "yQpdCN2RhgsQu_Ss5gM";
+            var google_conversion_value = 137;
+            var google_remarketing_only = false;
+            /* ]]> */
+
+            _gaq.push(['_trackEvent', 'Conversion Referral Tracker', 'Page', doc
+ument.referrer]);
+            _gaq.push(['_trackEvent', 'Product Merchant - 114', '1979000', 'Nike
+ Free RN Flyknit']);
+
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/co
+nversion.js"></script>
+        <noscript>
+        <img height="1" width="1" style="border-style:none;" alt="" src="//www.g
+oogleadservices.com/pagead/conversion/1019951675/?value=137&amp;label=yQpdCN2Rhg
+sQu_Ss5gM&amp;guid=ON&amp;script=0"/>
+        </noscript>
+    </head>
+
+    <body>
+
+                <!-- Google Tag Manager -->
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MW3
+LV5"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe
+></noscript>
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s
+)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src
+=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefo
+re(j,f);
+            })(window,document,'script','dataLayer','GTM-MW3LV5');</script>
+        <!-- End Google Tag Manager -->
+
+        <div class="container">
+            <div class="jumbotron">
+
+                <img class="logotjk" src="//asset.telunjuk.co.id/s/images/logo-t
+elunjuk-hires-red.png" alt="Telunjuk.com">
+                <p class="lead parts">Menuju Zalora Indonesia</p>
+                <img src="//asset.telunjuk.co.id/s/images/telunjuk-loading-1.gif
+" alt="Loading Telunjuk Redirect">
+                <p class="lead parts">Nike Free RN Flyknit</p>
+                <img src="//cdn.telunjuk.com/store/logo/100/25/zalora_indonesia.
+png" alt="logo merchant">
+                <p class="lead parts">Happy Shopping :)</p>
+                <p style="color: #757575; font-size:13px;">
+                    <a class="linkmanual" href="http://zalorasea.go2cloud.org/af
+f_c?offer_id=6&aff_id=1453&file_id=1134&url=http://www.zalora.co.id/Nike-Free-RN
+-Flyknit-1114216.html?utm_source=HasOffers&utm_medium=Affiliate&utm_campaign={af
+filiate_id}&utm_content=ProductFeed" style="color:#2196F3;">
+                        Klik di sini jika Anda tidak menuju Zalora Indonesia sec
+ara otomatis
+                    </a>
+                </p>
+                <input id="product" type="hidden" value="145834551,114,1979000,1
+37,4cda2fd61ddcc08c049175273750f55e,,all,redirect_page">
+            </div>
+
+            <footer class="footer">
+                <div>&copy; 2016 Telunjuk.com &middot; All rights reserved</div>
+
+            </footer>
+
+        </div> <!-- /container -->
+        <script type="text/javascript" src="//ssp.adskom.com/ak-dco.js" async="t
+rue" id="__akcr"></script>
+        <script type="text/javascript">
+            window.akcr = window.akcr || [];
+            window.akcr.push(
+                    {event: "setAccount", account: 22451},
+                    {event: "setHashedEmail", email: ""},
+                    {event: "setSiteType", type: "d"},
+                    {event: "trackTransaction", id: "1473527757", item: [
+                            {id: "145834551", price: 0, quantity: 1}
+                            /* #add a line for each item in the user's cart# */
+                        ]});
+        </script>
+        <script type="text/javascript" src="//asset.telunjuk.co.id/general_1/ta_
+service.js" async></script>
+        <script src="//asset.telunjuk.co.id/s/js/libs/jquerycombined.js"></scrip
+t>
+        <script type="text/javascript">
+            setTimeout("location.href = 'http://zalorasea.go2cloud.org/aff_c?off
+er_id=6&aff_id=1453&file_id=1134&url=http://www.zalora.co.id/Nike-Free-RN-Flykni
+t-1114216.html?utm_source=HasOffers&utm_medium=Affiliate&utm_campaign={affiliate
+_id}&utm_content=ProductFeed';", 2500);
+        </script>
+    </body>
+</html>
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
