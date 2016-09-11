@@ -3,7 +3,7 @@
 -Via My Notepad++ (HTML Editor):
 function toString(obj)
 {try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
--Via JSLint:
+-Via file:///C:/Users/Axioo/Favorites/jsLint.html:
 0.0This function needs a 'use strict' pragma.
 function toString(obj)
 1.0Expected one space between ')' and '{'.
@@ -77,3 +77,6 @@ Property Directive
 ame(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
 undefined
 > 
+-Via file:///C:/Users/Axioo/Favorites/tonic.html:
+-Returned:
+function toString()
