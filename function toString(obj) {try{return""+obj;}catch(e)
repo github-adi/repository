@@ -71,4 +71,9 @@ Property Directive
 /*property
     internalConstructorName, subtype
 */
-
+-Via Node.js:
+> function toString(obj)
+... {try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorN
+ame(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+undefined
+> 
