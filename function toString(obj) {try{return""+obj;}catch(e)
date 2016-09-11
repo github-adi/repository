@@ -1,0 +1,74 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+function toString(obj)
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+-Via JSLint:
+0.0This function needs a 'use strict' pragma.
+function toString(obj)
+1.0Expected one space between ')' and '{'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.1Expected a line break between '{' and 'try'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.4Expected one space between 'try' and '{'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.5Expected a line break between '{' and 'return'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.11Expected one space between 'return' and ''.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.13Expected one space between '+' and '+'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.14Expected one space between '+' and 'obj'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.19Expected one space between '}' and 'catch'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.24Expected one space between 'catch' and '('.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.25Unused 'e'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.27Expected one space between ')' and '{'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.28Expected a line break between '{' and 'var'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.36Expected one space between 'name' and '='.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.37Undeclared 'InjectedScriptHost'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.84Expected one space between ')' and '||'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.86Undeclared 'InjectedScriptHost'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.117Expected one space between ')' and '||'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.119Expected one space between '||' and '('.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.132Expected one space between ';' and 'return'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.138Expected one space between 'return' and '#<'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.142Expected one space between '#<' and '+'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.143Expected one space between '+' and 'name'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.147Expected one space between 'name' and '+'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+1.148Expected one space between '+' and '>'.
+{try{return""+obj;}catch(e){var name=InjectedScriptHost.internalConstructorName(obj)||InjectedScriptHost.subtype(obj)||(typeof obj);return"#<"+name+">";}}
+Function Report
+global
+toString
+0
+toString(obj)
+parameter
+obj
+variable
+name
+exception
+e
+JSLint edition 2016-08-31
+Property Directive
+
+/*property
+    internalConstructorName, subtype
+*/
+
