@@ -1,0 +1,47 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+// Create a deferredConfig prototype so that we can check for it when reviewing the configs later.
+function DeferredConfig () {
+}
+DeferredConfig.prototype.resolve = function (config) {};
+
+// Accept a function that we'll use to resolve this value later and return a 'deferred' configuration value to resolve it later.
+function deferConfig (func) {
+  var obj = Object.create(DeferredConfig.prototype);
+  obj.resolve = func;
+  return obj;
+}
+
+module.exports.deferConfig = deferConfig;
+module.exports.DeferredConfig = DeferredConfig;
+-Via https://tonicdev.com/npm/module-js:
+-Returned:
+function DeferredConfig()
+name: "DeferredConfig"
+prototype: DeferredConfig
+resolve: function()
+Object Prototype
+__defineGetter__: function()
+__defineSetter__: function()
+__lookupGetter__: function()
+__lookupSetter__: function()
+__proto__ (getter): function()
+__proto__ (setter): function()
+constructor: function()
+hasOwnProperty: function()
+isPrototypeOf: function()
+propertyIsEnumerable: function()
+toLocaleString: function()
+toString: function()
+valueOf: function()
+...
+Function Prototype
+apply: function()
+bind: function()
+call: function()
+constructor: function()
+name: ""
+toString: function()
+Object Prototype
+
