@@ -1,0 +1,25 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+[SecurityScan]
+Rank=400
+FirstInstallWait=14400
+
+
+FirstStartWait=0
+
+
+ScanParameters=SecurityScanner.dll /auto /nosplash
+ScanUrl=https://liteapps.mcafee.com/apps/mss/3.11/default.asp
+HelpUrl=https://liteapps.mcafee.com/apps/mss/3.11/help.asp
+RequestedAffid=739
+ent-detect=1
+eula_major=3
+eula_minor=0
+[queryparams]
+eula=1
+
+
+
+[DataAnalytics]
+TrackingID=UA-49812791-4
