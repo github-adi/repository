@@ -96,5 +96,30 @@ Property Directive
 */
 
 select propertyJSLintclearclear options
+-Via Node.js:
+> // Create a deferredConfig prototype so that we can check for it when reviewin
+g the configs later.
+undefined
+> function DeferredConfig () {
+... }
+undefined
+> DeferredConfig.prototype.resolve = function (config) {};
+[Function]
+>
+> // Accept a function that we'll use to resolve this value later and return a '
+deferred' configuration value to resolve it later.
+undefined
+> function deferConfig (func) {
+...   var obj = Object.create(DeferredConfig.prototype);
+...   obj.resolve = func;
+...   return obj;
+... }
+undefined
+>
+> module.exports.deferConfig = deferConfig;
+[Function: deferConfig]
+> module.exports.DeferredConfig = DeferredConfig;
+[Function: DeferredConfig]
+>
 
 
