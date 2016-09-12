@@ -44,4 +44,57 @@ constructor: function()
 name: ""
 toString: function()
 Object Prototype
+-Via file:///C:/Users/Axioo/Favorites/jsLint.html:
+1.0This function needs a 'use strict' pragma.
+function DeferredConfig () {
+1.24Unexpected space between 'DeferredConfig' and '('.
+function DeferredConfig () {
+1.27Empty block.
+function DeferredConfig () {
+3.35This function needs a 'use strict' pragma.
+DeferredConfig.prototype.resolve = function (config) {};
+3.45Unused 'config'.
+DeferredConfig.prototype.resolve = function (config) {};
+3.53Empty block.
+DeferredConfig.prototype.resolve = function (config) {};
+6.0This function needs a 'use strict' pragma.
+function deferConfig (func) {
+6.21Unexpected space between 'deferConfig' and '('.
+function deferConfig (func) {
+7.2Expected 'var' at column 4, not column 2.
+  var obj = Object.create(DeferredConfig.prototype);
+8.2Expected 'obj' at column 4, not column 2.
+  obj.resolve = func;
+9.2Expected 'return' at column 4, not column 2.
+  return obj;
+12.0Undeclared 'module'.
+module.exports.deferConfig = deferConfig;
+13.0Undeclared 'module'.
+module.exports.DeferredConfig = DeferredConfig;
+Function Report
+global
+DeferredConfig, Object, deferConfig
+1
+DeferredConfig()
+3
+«resolve»(config)
+parameter
+config
+6
+deferConfig(func)
+parameter
+func
+variable
+obj
+global
+DeferredConfig, Object
+JSLint edition 2016-08-31
+Property Directive
+
+/*property
+    DeferredConfig, create, deferConfig, exports, prototype, resolve
+*/
+
+select propertyJSLintclearclear options
+
 
