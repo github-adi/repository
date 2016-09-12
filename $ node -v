@@ -1,0 +1,32 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+-Via GitBash:
+Welcome to Git (version 1.9.4-preview20140611)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ node -v
+v6.2.2
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ npm -v
+3.10.5
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$ npm install config
+C:\Users\Axioo
+`-- config@1.21.0
+
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\Axioo\package.
+json'
+npm WARN Axioo No description
+npm WARN Axioo No repository field.
+npm WARN Axioo No README data
+npm WARN Axioo No license field.
+
+Axioo@AXIOO-PC ~ (master|AM/REBASE)
+$
