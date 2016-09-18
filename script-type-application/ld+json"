@@ -1,0 +1,29 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+script type="application/ld+json"
+-Via Node.js:
+> {
+...   "@context" : "https://schema.org",
+...   "@type" : "Organization",
+...   "name" : "Tempo Media Group",
+...   "url" : "https://www.tempo.co",
+...   "sameAs" : [
+...     "https://www.facebook.com/TempoMedia",
+...     "https://twitter.com/tempodotco",
+...     "https://plus.google.com/109335234362909335582/posts",
+...     "https://www.youtube.com/user/tempodotco",
+...     "https://www.pinterest.com/tempoco/"
+...   ]
+... }
+{ '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Tempo Media Group',
+  url: 'https://www.tempo.co',
+  sameAs:
+   [ 'https://www.facebook.com/TempoMedia',
+     'https://twitter.com/tempodotco',
+     'https://plus.google.com/109335234362909335582/posts',
+     'https://www.youtube.com/user/tempodotco',
+     'https://www.pinterest.com/tempoco/' ] }
+>
