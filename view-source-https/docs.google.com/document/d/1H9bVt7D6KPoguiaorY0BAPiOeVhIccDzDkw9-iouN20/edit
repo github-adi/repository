@@ -1,0 +1,486 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via https://runkit.com/alph4/579a3ce06ee5271200079616:
+view-source:https://docs.google.com/document/d/1H9bVt7D6KPoguiaorY0BAPiOeVhIccDzDkw9-iouN20/edit:
+R
+
+saved
+
+untitled notebook
+node v4.5.0 version: master publishendpointsharetweet
+
+1
+_docs_flag_initialData={"bl":"explorer_2016-36-Thu_RC0","uls":"{\"langs\":[\"en\"],\"itcs\":[],\"override\":\"\",\"selected\":\"\",\"activated\":false}","docs-mid":2048,"docs-eicd":false,"docs-icdmt":[],"eer":false,"ardfe":true,"efunct":false,"docs-text-ewf":true,"docs-text-efwi":false,"docs-text-ewfird":false,"docs-text-wfird":10,"docs-wfsl":["ca","da","de","en","es","fi","fr","it","nl","no","pt","sv"],"docs-effla":false,"docs-text-fse":false,"dksup":"/document","dtsup":"/spreadsheet","drsup":"/spreadsheets","dpsup":"/presentation","ddsup":"/drawings","docs-offline-scstpim":360,"docs-offline-esbst":true,"docs-offline-esmst":true,"docs-offline-eslcst":true,"docs-offline-esast":true,"docs-offline-esist":true,"docs-offline-eswst":true,"docs-offline-esddt":true,"docs-offline-esuuct":true,"docs-offline-esct":true,"docs-offline-eskst":false,"dkscu":"/upload/blob/document","drscu":"/upload/blob/spreadsheets","dpscu":"/upload/blob/presentation","ddscu":"/upload/blob/drawings","dksci":"/upload/document/resumable","drsci":"/upload/spreadsheets/resumable","dpsci":"/upload/presentation/resumable","ddsci":"/upload/drawings/resumable","docs-offline-udcl":false,"docs-offline-edswut":false,"gaia_session_id":"0","buildLabel":"explorer_2016-36-Thu_RC0","docs-show_debug_info":false,"docs-offline-mnd":4000,"eacer":false,"docs-offline-eoaoisc":true,"owsprv":1,"dffd":["Calibri","Cambria","Syncopate","Lobster","Corsiva","Coming Soon","Shadows Into Light","Indie Flower","Tahoma","Crafty Girls","Proxima Nova","Roboto Condensed","Average","Ultra","Lato","Source Code Pro","Old Standard TT","Alfa Slab One","Playfair Display","PT Sans Narrow","Muli","Montserrat","Roboto Slab","Raleway","Open Sans","Oswald","Amatic SC","Source Sans Pro","Roboto","Economica","Reenie Beenie","Stint Ultra Expanded","Alegreya","Bree Serif","Merriweather","Permanent Marker","Pinyon Script","Roboto Mono","Varela Round"],"dffm":["Calibri","Cambria","Syncopate","Lobster","Corsiva","Coming Soon","Shadows Into Light","Indie Flower","Tahoma","Crafty Girls","Proxima Nova","Roboto Condensed","Average","Ultra","Lato","Source Code Pro","Old Standard TT","Alfa Slab One","Playfair Display","PT Sans Narrow","Muli","Montserrat","Roboto Slab","Raleway","Open Sans","Oswald","Amatic SC","Source Sans Pro","Roboto","Economica","Reenie Beenie","Stint Ultra Expanded","Alegreya","Bree Serif","Merriweather","Permanent Marker","Pinyon Script","Roboto Mono","Varela Round"],"docs-dbsw":false,"docs-offline-eshcst":false,"docs-offline-esdcst":false,"docs-offline-sastpim":15,"docs-offline-ecasq":false,"docs-offline-edlc":true,"docs-offline-uaca":true,"docs-offline-msq":5.36870912E9,"docs-offline-msur":0.25,"docs-offline-mrs":1.073741824E9,"omrs":1.073741824E9,"docs-net-usud":true,"docs-net-udmi":500000,"docs-net-udpt":40000,"ebser":false,"docs-offline-edrr2":true,"docs-offline-icoambu":true,"docs-offline-escc":true,"docs-offline-sceid":"lmjegmlicamnimmfhcmpkclmigmmcbeh","docs-ecidc":true,"docs-offline-eosi":false,"docs-offline-eoaoico":false,"docs-offline-eoaoipu":false,"docs-sw-eksw":false,"docs-sw-ersw":false,"docs-sw-epsw":false,"ncablmu":"https://docs.google.com/support/bin/static.py?page\u003dknown_issues.cs","docos-eos":true,"lssv":7,"oswu":"/fe/s/fe.s.ClientModule.nocache.js","docs-offline-nnodi":100,"docs-offline-swcmcd":30000,"docs-offline-swcmcul":10,"sgcn":"APISID","eooodab":false,"docs-localstore-ehpmdo":false,"docs-localstore-eubm":true,"docs-localstore-lral":500,"docs-localstore-ilat":0,"docs-localstore-iort":10000,"docs-localstore-sefr":true,"docs-offline-dbfuac":20000,"docs-extension-id":"ghbmnnjooekpmoecnnnilnnbdlolhkhi","dcau":"https://chrome.google.com/webstore/detail/ghbmnnjooekpmoecnnnilnnbdlolhkhi","dchau":"https://chrome.google.com/webstore/detail/apdfllckaahabafndbhieahigkjlhalf","docs-ewtaoe":false,"docs-dmam":false,"docs-offline-hsu":"docs.google.com","docs-offline-oebp":"/offline/eventbusworker.js","docs-offline-eltoseb":false,"docs-offline-eoseb":false,"docs-offline-dleb":false,"docs-offline-toomem":false,"docs-offline-mobile-mms":15000000,"docs-offline-desktop-mms":200000000,"kixOfflineUrl":"/document","trixOfflineUrl":"/spreadsheet","trixOfflineUrlSuffix":"/offline/view","trixOnlineUrlSuffix":"/ccc","ritzOfflineUrl":"/spreadsheets","drawingsOfflineUrl":"/drawings","punchOfflineUrl":"/presentation","docs-offline-lsuid":"u1edc793ac5c00e33","docs-offline-ue":"adi.go.rich@gmail.com","udurls":true,"pado":true,"olbu":"/offline","oooap":"/optout","efh":true,"pfwl":["https://drive.google.com"],"docs-obsImUrl":"https://ssl.gstatic.com/docs/common/cleardot.gif","dlurl":"https://drive.google.com/","aoiurl":"https://docs.google.com/","coiurl":"https://docs.google.com/","pfoiurl":"https://docs.google.com/","xtok":"AC4w5VhZy6Tv_uykP7LYoRPQoG9WNdjpUA:1474384534686","ppfx":"/e","email":"adi.go.rich@gmail.com","drdn":"drive.google.com","drcuap":"/doclist/offline/cacheupdater","launcher-bspi":900000,"launcher-ehs":true,"info_params":{"ouid":"u1edc793ac5c00e33","token":"AC4w5VhZy6Tv_uykP7LYoRPQoG9WNdjpUA:1474384534686"},"docs-sw-eposw":false,"docs-offline-ospp":"/offline","docs-sw-ecosw":false,"docs-sw-esosw":false,"mobilenative-ecbc":false,"docs-ebcrsct":false,"docs-aiiws":"docs_warm_nf","docs-ails":"docs_warm","docs-fwds":"docs_nf"}; _docs_flag_cek= null ;
+2
+_docs_flag_initialData
++ add library...
+
+Object
+aoiurl: "https://docs.google.com/"
+200 OKHeaders 
+x-xss-protection
+server
+content-type
+date
+cache-control
+vary
+x-content-type-options
+accept-ranges
+alt-svc
+connection
+1; mode=block
+GSE
+text/html; charset=UTF-8
+Wed, 21 Sep 2016 19:46:53 GMT
+no-cache
+Accept-Encoding
+nosniff
+none
+quic=":443"; ma=2592000; v="36,35,34,33,32"
+close
+ardfe: true
+bl: "explorer_2016-36-Thu_RC0"
+buildLabel: "explorer_2016-36-Thu_RC0"
+coiurl: "https://docs.google.com/"
+200 OKHeaders 
+x-xss-protection
+server
+content-type
+date
+cache-control
+vary
+x-content-type-options
+accept-ranges
+alt-svc
+connection
+1; mode=block
+GSE
+text/html; charset=UTF-8
+Wed, 21 Sep 2016 19:46:53 GMT
+no-cache
+Accept-Encoding
+nosniff
+none
+quic=":443"; ma=2592000; v="36,35,34,33,32"
+close
+dcau: "https://chrome.google.com/…jooekpmoecnnnilnnbdlolhkhi" HTTP Response 
+301 Moved PermanentlyHeaders 
+x-xss-protection
+server
+x-frame-options
+content-security-policy
+p3p
+content-type
+date
+set-cookie
+cache-control
+vary
+x-content-type-options
+expires
+location
+accept-ranges
+alt-svc
+pragma
+connection
+1; mode=block
+GSE
+SAMEORIGIN
+report-uri /webstore/csp_report?policyver=105; default-src 'none'; img-src 'self' data: https://*.gstatic.com https://ssl.google-analytics.com https://*.googleusercontent.com https://*.google.com https://stats.g.doubleclick.net https://i.ytimg.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' https://www.google.com https://apis.google.com https://apps.google.com https://alphonso-preprod.corp.google.com https://ssl.google-analytics.com https://ssl.gstatic.com https://support.google.com https://talkgadget.google.com https://www.youtube.com https://clients1.google.com https://checkout.google.com https://wallet.google.com https://wallet-web.sandbox.google.com https://payments.google.com https://sandbox.google.com https://www.gstatic.com https://*.ytimg.com; connect-src 'self' https://scotty-stats.sandbox.google.com https://ssl.google-analytics.com https://www.google.com https://clients2.google.com; frame-src 'self' https://www.youtube.com https://apis.google.com https://apps.google.com https://alphonso-preprod.corp.google.com https://plus.google.com https://plusone.google.com https://ssl.gstatic.com https://clients6.google.com https://checkout.google.com https://wallet.google.com https://wallet-web.sandbox.google.com https://payments.google.com https://sandbox.google.com https://accounts.google.com https://feedback.googleusercontent.com https://www.google.com https://tools.google.com; font-src 'self' data: https://fonts.gstatic.com https://themes.googleusercontent.com; style-src 'unsafe-inline' 'self' https://fonts.googleapis.com https://www.google.com https://ajax.googleapis.com https://*.gstatic.com;
+CP="This is not a P3P policy! See https://support.google.com/accounts/answer/151657?hl=en for more info."
+text/html; charset=UTF-8
+Wed, 21 Sep 2016 19:47:19 GMT
+1015NID=87=N1qP95_gfY0U-lJ2KOp1qGjMfCOkaoENJg95F7dMIUh8hU0743FMgIE1S8Pim_IXAKHCAX3fgyQugIZZZimEW614H9jNCPwFve1xUO-wIg3F_iryPvmuXuh-REdRSDSH;Domain=.google.com;Path=/;Expires=Thu, 23-Mar-2017 19:47:19 GMT;HttpOnly
+no-cache, no-store, max-age=0, must-revalidate
+Accept-Encoding
+nosniff
+Mon, 01 Jan 1990 00:00:00 GMT
+https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi
+none
+quic=":443"; ma=2592000; v="36,35,34,33,32"
+no-cache
+close
+dchau: "https://chrome.google.com/…ckaahabafndbhieahigkjlhalf" HTTP Response 
+301 Moved PermanentlyHeaders 
+x-xss-protection
+server
+x-frame-options
+content-security-policy
+p3p
+content-type
+date
+set-cookie
+cache-control
+vary
+x-content-type-options
+expires
+location
+accept-ranges
+alt-svc
+pragma
+connection
+1; mode=block
+GSE
+SAMEORIGIN
+report-uri /webstore/csp_report?policyver=105; default-src 'none'; img-src 'self' data: https://*.gstatic.com https://ssl.google-analytics.com https://*.googleusercontent.com https://*.google.com https://stats.g.doubleclick.net https://i.ytimg.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' https://www.google.com https://apis.google.com https://apps.google.com https://alphonso-preprod.corp.google.com https://ssl.google-analytics.com https://ssl.gstatic.com https://support.google.com https://talkgadget.google.com https://www.youtube.com https://clients1.google.com https://checkout.google.com https://wallet.google.com https://wallet-web.sandbox.google.com https://payments.google.com https://sandbox.google.com https://www.gstatic.com https://*.ytimg.com; connect-src 'self' https://scotty-stats.sandbox.google.com https://ssl.google-analytics.com https://www.google.com https://clients2.google.com; frame-src 'self' https://www.youtube.com https://apis.google.com https://apps.google.com https://alphonso-preprod.corp.google.com https://plus.google.com https://plusone.google.com https://ssl.gstatic.com https://clients6.google.com https://checkout.google.com https://wallet.google.com https://wallet-web.sandbox.google.com https://payments.google.com https://sandbox.google.com https://accounts.google.com https://feedback.googleusercontent.com https://www.google.com https://tools.google.com; font-src 'self' data: https://fonts.gstatic.com https://themes.googleusercontent.com; style-src 'unsafe-inline' 'self' https://fonts.googleapis.com https://www.google.com https://ajax.googleapis.com https://*.gstatic.com;
+CP="This is not a P3P policy! See https://support.google.com/accounts/answer/151657?hl=en for more info."
+text/html; charset=UTF-8
+Wed, 21 Sep 2016 19:47:18 GMT
+1015NID=87=mZkCy0lpx2yqQ-JkGYpSk_iwSVU28xFVEzLWgKdBqPsHASr5thk8D-sW16j1BBKMACFSdcoI4BESI0PL6kt4-QHUyKp1dP5ucgo_s_EX09dv-VCnCxiigN3jZnWFh-h_;Domain=.google.com;Path=/;Expires=Thu, 23-Mar-2017 19:47:18 GMT;HttpOnly
+no-cache, no-store, max-age=0, must-revalidate
+Accept-Encoding
+nosniff
+Mon, 01 Jan 1990 00:00:00 GMT
+https://chrome.google.com/webstore/detail/google-drive/apdfllckaahabafndbhieahigkjlhalf
+none
+quic=":443"; ma=2592000; v="36,35,34,33,32"
+no-cache
+close
+ddsci: "/upload/drawings/resumable"
+ddscu: "/upload/blob/drawings"
+ddsup: "/drawings"
+dffd: Array (39 items)
+0: "Calibri"
+1: "Cambria"
+2: "Syncopate"
+3: "Lobster"
+4: "Corsiva"
+5: "Coming Soon"
+6: "Shadows Into Light"
+7: "Indie Flower"
+8: "Tahoma"
+9: "Crafty Girls"
+10: "Proxima Nova"
+11: "Roboto Condensed"
+12: "Average"
+13: "Ultra"
+14: "Lato"
+15: "Source Code Pro"
+16: "Old Standard TT"
+17: "Alfa Slab One"
+18: "Playfair Display"
+19: "PT Sans Narrow"
+20: "Muli"
+21: "Montserrat"
+22: "Roboto Slab"
+23: "Raleway"
+24: "Open Sans"
+25: "Oswald"
+26: "Amatic SC"
+27: "Source Sans Pro"
+28: "Roboto"
+29: "Economica"
+30: "Reenie Beenie"
+31: "Stint Ultra Expanded"
+32: "Alegreya"
+33: "Bree Serif"
+34: "Merriweather"
+35: "Permanent Marker"
+36: "Pinyon Script"
+37: "Roboto Mono"
+38: "Varela Round"
+Array Prototype
+...
+dffm: Array (39 items)
+0: "Calibri"
+1: "Cambria"
+2: "Syncopate"
+3: "Lobster"
+4: "Corsiva"
+5: "Coming Soon"
+6: "Shadows Into Light"
+7: "Indie Flower"
+8: "Tahoma"
+9: "Crafty Girls"
+10: "Proxima Nova"
+11: "Roboto Condensed"
+12: "Average"
+13: "Ultra"
+14: "Lato"
+15: "Source Code Pro"
+16: "Old Standard TT"
+17: "Alfa Slab One"
+18: "Playfair Display"
+19: "PT Sans Narrow"
+20: "Muli"
+21: "Montserrat"
+22: "Roboto Slab"
+23: "Raleway"
+24: "Open Sans"
+25: "Oswald"
+26: "Amatic SC"
+27: "Source Sans Pro"
+28: "Roboto"
+29: "Economica"
+30: "Reenie Beenie"
+31: "Stint Ultra Expanded"
+32: "Alegreya"
+33: "Bree Serif"
+34: "Merriweather"
+35: "Permanent Marker"
+36: "Pinyon Script"
+37: "Roboto Mono"
+38: "Varela Round"
+Array Prototype
+...
+dksci: "/upload/document/resumable"
+dkscu: "/upload/blob/document"
+dksup: "/document"
+dlurl: "https://drive.google.com/"
+200 OKHeaders 
+x-xss-protection
+server
+content-type
+date
+cache-control
+vary
+x-content-type-options
+accept-ranges
+alt-svc
+connection
+1; mode=block
+GSE
+text/html; charset=UTF-8
+Wed, 21 Sep 2016 19:47:11 GMT
+no-cache
+Accept-Encoding
+nosniff
+none
+quic=":443"; ma=2592000; v="36,35,34,33,32"
+close
+docos-eos: true
+docs-aiiws: "docs_warm_nf"
+docs-ails: "docs_warm"
+docs-dbsw: false
+docs-dmam: false
+docs-ebcrsct: false
+docs-ecidc: true
+docs-effla: false
+docs-eicd: false
+docs-ewtaoe: false
+docs-extension-id: "ghbmnnjooekpmoecnnnilnnbdlolhkhi"
+docs-fwds: "docs_nf"
+docs-icdmt: Array (0 items)
+length: 0
+Array Prototype
+docs-localstore-ehpmdo: false
+docs-localstore-eubm: true
+docs-localstore-ilat: 0
+docs-localstore-iort: 10000
+docs-localstore-lral: 500
+docs-localstore-sefr: true
+docs-mid: 2048
+docs-net-udmi: 500000
+docs-net-udpt: 40000
+docs-net-usud: true
+docs-obsImUrl: "https://ssl.gstatic.com/docs/common/cleardot.gif" Image Viewer 
+docs-offline-dbfuac: 20000
+docs-offline-desktop-mms: 200000000
+docs-offline-dleb: false
+docs-offline-ecasq: false
+docs-offline-edlc: true
+docs-offline-edrr2: true
+docs-offline-edswut: false
+docs-offline-eltoseb: false
+docs-offline-eoaoico: false
+docs-offline-eoaoipu: false
+docs-offline-eoaoisc: true
+docs-offline-eoseb: false
+docs-offline-eosi: false
+docs-offline-esast: true
+docs-offline-esbst: true
+docs-offline-escc: true
+docs-offline-esct: true
+docs-offline-esdcst: false
+docs-offline-esddt: true
+docs-offline-eshcst: false
+docs-offline-esist: true
+docs-offline-eskst: false
+docs-offline-eslcst: true
+docs-offline-esmst: true
+docs-offline-esuuct: true
+docs-offline-eswst: true
+docs-offline-hsu: "docs.google.com"
+docs-offline-icoambu: true
+docs-offline-lsuid: "u1edc793ac5c00e33"
+docs-offline-mnd: 4000
+docs-offline-mobile-mms: 15000000
+docs-offline-mrs: 1073741824
+docs-offline-msq: 5368709120
+docs-offline-msur: 0.25
+docs-offline-nnodi: 100
+docs-offline-oebp: "/offline/eventbusworker.js"
+docs-offline-ospp: "/offline"
+docs-offline-sastpim: 15
+docs-offline-sceid: "lmjegmlicamnimmfhcmpkclmigmmcbeh"
+docs-offline-scstpim: 360
+docs-offline-swcmcd: 30000
+docs-offline-swcmcul: 10
+docs-offline-toomem: false
+docs-offline-uaca: true
+docs-offline-udcl: false
+docs-offline-ue: "adi.go.rich@gmail.com"
+docs-show_debug_info: false
+docs-sw-ecosw: false
+docs-sw-eksw: false
+docs-sw-eposw: false
+docs-sw-epsw: false
+docs-sw-ersw: false
+docs-sw-esosw: false
+docs-text-efwi: false
+docs-text-ewf: true
+docs-text-ewfird: false
+docs-text-fse: false
+docs-text-wfird: 10
+docs-wfsl: Array (12 items)
+0: "ca"
+1: "da"
+2: "de"
+3: "en"
+4: "es"
+5: "fi"
+6: "fr"
+7: "it"
+8: "nl"
+9: "no"
+10: "pt"
+11: "sv"
+Array Prototype
+concat: function()
+constructor: function()
+copyWithin: function()
+entries: function()
+every: function()
+fill: function()
+filter: function()
+find: function()
+findIndex: function()
+forEach: function()
+indexOf: function()
+join: function()
+keys: function()
+lastIndexOf: function()
+length: 0
+map: function()
+pop: function()
+push: function()
+reduce: function()
+reduceRight: function()
+reverse: function()
+shift: function()
+slice: function()
+some: function()
+sort: function()
+splice: function()
+toLocaleString: function()
+toString: function()
+unshift: function()
+Object Prototype
+...
+dpsci: "/upload/presentation/resumable"
+dpscu: "/upload/blob/presentation"
+dpsup: "/presentation"
+drawingsOfflineUrl: "/drawings"
+drcuap: "/doclist/offline/cacheupdater"
+drdn: "drive.google.com"
+drsci: "/upload/spreadsheets/resumable"
+drscu: "/upload/blob/spreadsheets"
+drsup: "/spreadsheets"
+dtsup: "/spreadsheet"
+eacer: false
+ebser: false
+eer: false
+efh: true
+efunct: false
+email: "adi.go.rich@gmail.com"
+eooodab: false
+gaia_session_id: "0"
+info_params: Object
+ouid: "u1edc793ac5c00e33"
+token: "AC4w5VhZy6Tv_uykP7LYoRPQoG9WNdjpUA:1474384534686"
+...
+kixOfflineUrl: "/document"
+launcher-bspi: 900000
+launcher-ehs: true
+lssv: 7
+mobilenative-ecbc: false
+ncablmu: "https://docs.google.com/support/bin/static.py?page=known_issues.cs"
+301 Moved PermanentlyHeaders 
+x-xss-protection
+server
+x-frame-options
+content-type
+date
+cache-control
+x-content-type-options
+expires
+location
+content-length
+alt-svc
+connection
+1; mode=block
+support-content-ui
+SAMEORIGIN
+text/html; charset=UTF-8
+Wed, 21 Sep 2016 19:49:14 GMT
+private, max-age=0
+nosniff
+Wed, 21 Sep 2016 19:49:14 GMT
+https://support.google.com/docs/known-issues
+241
+quic=":443"; ma=2592000; v="36,35,34,33,32"
+close
+olbu: "/offline"
+omrs: 1073741824
+oooap: "/optout"
+oswu: "/fe/s/fe.s.ClientModule.nocache.js"
+owsprv: 1
+pado: true
+pfoiurl: "https://docs.google.com/"
+200 OKHeaders 
+x-xss-protection
+server
+content-type
+date
+cache-control
+vary
+x-content-type-options
+accept-ranges
+alt-svc
+connection
+1; mode=block
+GSE
+text/html; charset=UTF-8
+Wed, 21 Sep 2016 19:46:53 GMT
+no-cache
+Accept-Encoding
+nosniff
+none
+quic=":443"; ma=2592000; v="36,35,34,33,32"
+close
+pfwl: Array (1 item)
+0: "https://drive.google.com"
+Array Prototype
+...
+ppfx: "/e"
+punchOfflineUrl: "/presentation"
+ritzOfflineUrl: "/spreadsheets"
+sgcn: "APISID"
+trixOfflineUrl: "/spreadsheet"
+trixOfflineUrlSuffix: "/offline/view"
+trixOnlineUrlSuffix: "/ccc"
+udurls: true
+uls: "{\"langs\":[\"en\"],\"itcs\":[],\"…lected\":\"\",\"activated\":false}"
+
+{"langs":["en"],"itcs":[],"override":"","selected":"","activated":false}
+xtok: "AC4w5VhZy6Tv_uykP7LYoRPQoG9WNdjpUA:1474384534686"
+...
+
+3
+​
+run or press shift + return
+no comments
+
+running
+
+
+
