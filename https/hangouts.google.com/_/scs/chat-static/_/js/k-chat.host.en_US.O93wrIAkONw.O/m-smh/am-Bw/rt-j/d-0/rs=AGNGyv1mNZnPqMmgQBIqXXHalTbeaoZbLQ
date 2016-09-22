@@ -1,0 +1,308 @@
+-My build of DIGITAL Command Language:
+-Muhammad Adi Nugroho,S.Adm.Neg.:
+-Via My Notepad++ (HTML Editor):
+https://hangouts.google.com/_/scs/chat-static/_/js/k=chat.host.en_US.O93wrIAkONw.O/m=smh/am=Bw/rt=j/d=0/rs=AGNGyv1mNZnPqMmgQBIqXXHalTbeaoZbLQ:
+-Via file:///C:/Users/Axioo/Favorites/tonic.html:
+-Via GitBash:
+-Via Node.js:
+-Returned:
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> _.k.Hd=function(a){this.w!=a&&(this.w&&bf(this,this.w,"unload",this.Rc),this.w
+=a,_.L(this,a,"unload",this.Rc,void 0));a=Be(a);Ip(this.R,a,De(a.a,"BODY",void 0
+,void 0)[0],1,"gtn-roster-iframe-id-q")};_.k.Rc=function(){this.za&&(this.i["gth
+-hover-card"]=this.za);this.w=null};_.k.me=function(a,b,c){c||Lh(this.l,a,b);thi
+s.b.send("*oft",[this.K])};_.k.Cf=function(a){this.l.j(a)};
+TypeError: Cannot set property 'Hd' of undefined
+    at repl:1:7
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> var Sp=function(a){a.Pb();var b=Ce(window.document,a.a.a);if(null!==b){_.Rp(a,
+!0);var c=new lf("/talkgadget/qsignin?passive=0&noref=true&nb=true&nc=true");a.a
+.locale&&M(c,"hl",a.a.locale);a.a.b&&M(c,"authuser",a.a.b);a.a.propertyName&&M(c
+,"prop",a.a.propertyName);M(c,"aeh","1");var d=wf(new lf(a.a.ia),c).toString();b
+.src="";qe(function(){b.src=d;b.style.display="";b.style.a="none";b.style.width=
+"100%";b.style.height="100%"},0)}};_.k=Y.prototype;
+{ ga: [Function],
+  ya: { [Function] Rp: [Function], k: [Circular] },
+  N: [Function],
+  Nc: { [Function] k: [Circular] },
+  ve: [Function],
+  ib: [Function],
+  Yb: [Function],
+  Fd: [Function],
+  Wb: [Function],
+  Od: [Function],
+  Nd: { [Function] k: [Circular] } }
+> _.k.af=function(a){6==_.T(new _.Si(a.a),1)&&Sp(this);this.Db(a.a)};_.k.Ee=func
+tion(a){a=new Pi(a.a);0==_.T(a,1)?Lh(this.l,a.G(),_.T(a,3)):1==_.T(a,1)&&this.l.
+j(a.G())};_.k.Pe=function(){var a=new Wi;_.U(a,1,!!this.Oa&&null);_.mm(this.c,a)
+};_.k.Ud=function(a){var b=new Ti;_.U(b,1,a);_.mm(this.c,b)};_.k.ne=function(a){
+this.c.c.send("h",[a])};_.k.Db=function(a){nm(this.c,a)};_.k.Qc=function(a){_.lp
+(this.f,a)};Y.prototype._h=Y.prototype.ne;Y.prototype._d=Y.prototype.Qc;
+TypeError: Cannot set property 'af' of undefined
+    at repl:1:7
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> Y.prototype._addClientMessageCallback=Y.prototype.Wb;Y.prototype._addHostBundl
+eMessageCallback=Y.prototype.Wb;Y.prototype._onHostActivity=Y.prototype.Td;Y.pro
+totype._setSharedPresence=Y.prototype.Xd;Y.prototype._setIdle=Y.prototype.N;Y.pr
+ototype._showChat=Y.prototype.Yd;Y.prototype._endChat=Y.prototype.Md;Y.prototype
+._startVoiceChat=Y.prototype.$d;Y.prototype._startVideoChat=Y.prototype.Zd;Y.pro
+totype._callPhone=Y.prototype.Id;Y.prototype._setRosterExpanded=Y.prototype.Wd;
+undefined
+> Y.prototype._isAnyMoleOpen=Y.prototype.Sd;Y.prototype._setCss=Y.prototype.Vd;Y
+.prototype._deliverToTango=Y.prototype.Kd;Y.prototype._deliverToChatSupport=Y.pr
+ototype.Jd;Y.prototype._getPresence=Y.prototype.Qd;Y.prototype._dockMolesToHost=
+Y.prototype.Ld;Y.prototype._addMiniRoster=Y.prototype.Gd;Y.prototype._getSelfPre
+sence=Y.prototype.Rd;Y.prototype._getContactCount=Y.prototype.Pd;Y.prototype._ad
+dHostCallback=Y.prototype.Yb;Y.prototype._addKeyboardShortcutCallback=Y.prototyp
+e.Fd;
+[Function]
+> Y.prototype._focusRoster=Y.prototype.Od;Y.prototype._focusMole=Y.prototype.Nd;
+Y.prototype._addPopoutRoster=Y.prototype.Hd;Y.prototype._sendExtensionMessage=Y.
+prototype.Ud;Y.prototype._rosterIframeLoaded=Y.prototype.Xb;Y.prototype._forceRe
+load=Y.prototype.Cb;ca("GTalkNotifier",Y,void 0);
+ReferenceError: ca is not defined
+    at repl:1:259
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+>
+> _.el=!0;
+true
+> var Tp=[2,6],Up=function(a,b){var c=_.Ee("talk_loading_msg",a.g.D(a.a.c));c&&(
+b?_.ol(c,"talk_network_warning"):_.ql(c,"talk_network_warning"))},Vp=function(a)
+{_.S(this,a,0,-1,Tp)};_.z(Vp,_.R);var Wp=function(a){for(var b=0,c=arguments.len
+gth;b<c;++b){var d=arguments[b];_.ia(d)?Wp.apply(null,d):_.Rb(d)}},Xp=function()
+{};_.z(Xp,_.rm);_.mj(Xp,_.rm);Xp.prototype.c=function(){return!1};
+TypeError: _.z is not a function
+    at repl:1:183
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> var Yp=function(){if(_.Ee("talk_loading_msg")){var a=_.Ee("talk_loading_msg_er
+ror");a&&_.Re(a)}},Zp=function(a){var b=_.Ee("talk_loading_msg");if(b){Yp();var
+c=window.document.createElement("DIV");_.Ge(c,{"class":"talk_loading_msg_error",
+style:"margin: 12px 8px; font-size: 10px"});var d=window.document.createElement(
+"DIV");_.Ve(d,"Errors: "+a.join(", "));c.appendChild(d);b.appendChild(c)}};
+undefined
+> var aq=function(a){_.S(this,a,"h_ce",-1,$p)};_.z(aq,_.R);var $p=[1];aq.a="h_ce
+";var bq=function(a){_.S(this,a,"h_h",-1,null)};_.z(bq,_.R);bq.a="h_h";var cq=fu
+nction(a){_.S(this,a,"h_hr",-1,null)};_.z(cq,_.R);cq.a="h_hr";var dq=function(a)
+{_.pm.call(this,a);this.M=new _.se((0,_.x)(this.gf,this),2E3);this.h=new _.se((0
+,_.x)(this.Fc,this));this.j=new _.se((0,_.x)(this.Fc,this));this.g=new _.J(this)
+;this.m=null;this.f=this.P=!1;this.l=new _.Ed(3E4,9E5);this.i=new _.Ed(45E3,9E5)
+;this.c=!1};_.z(dq,_.pm);_.mj(dq,_.pm);
+TypeError: Cannot read property 'z' of undefined
+    at repl:1:47
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> dq.prototype.Ic=function(a,b,c){this.m=a;a=(0,_.x)(this.Qe,this);_.L(this.g,b,
+"h_h",a,void 0);a=(0,_.x)(this.Ge,this);_.L(this.g,b,"h_cs",a,void 0);a=(0,_.x)(
+this.Fe,this);_.L(this.g,b,"h_ce",a,void 0);b=(0,_.x)(this.He,this);_.L(this.g,c
+,"b",b,void 0);eq(this)};dq.prototype.mb=function(){return!0};dq.prototype.cd=fu
+nction(){this.c=this.f=!1;eq(this)};
+TypeError: Cannot read property 'prototype' of undefined
+    at repl:1:3
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> dq.prototype.bd=function(){var a=new cq;_.U(a,1,4E3);_.mm(this.m,a);this.f=!0;
+this.c=!1;Up(this.a,!1);eq(this);this.j.start((.9+Math.random()*(1.1-.9))*(0==th
+is.i.c?35E3:this.i.a))};var eq=function(a){a.c||_.Lp?_.te(a.h):a.h.start((.9+Mat
+h.random()*(1.1-.9))*(a.f?a.i:a.l).a)};_.k=dq.prototype;_.k.Fc=function(){this.c
+||_.Lp||(this.M.start(),_.Fd(this.l),_.Fd(this.i),this.h.start((.9+Math.random()
+*(1.1-.9))*this.l.a))};
+TypeError: Cannot read property 'prototype' of undefined
+    at repl:1:3
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> _.k.gf=function(){this.f||(Zp(["101"]),_.jl(this.a.j,2641));this.a.Cb(1);this.
+P=this.f=!1;Up(this.a,!1);eq(this);_.te(this.j)};_.k.Fe=function(a){a=new aq(a.a
+);Zp(_.T(a,1))};_.k.Ge=function(a){6==_.T(new _.Si(a.a),1)&&(this.c=!0);if(this.
+c||_.Lp)_.te(this.j),_.te(this.M),_.te(this.h)};_.k.He=function(){_.jl(this.a.j,
+2713)};
+TypeError: Cannot read property 'k' of undefined
+    at repl:1:2
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> _.k.Qe=function(a){a=new bq(a.a);_.T(a,2)&&Up(this.a,!0);_.T(a,1)||_.Rp(this.a
+,!0);if(_.T(a,4)){this.P||(this.P=!0,_.jl(this.a.j,2676));if(a=this.a.h)_.fp(a,3
+63),_.gp(a),this.a.h=null;Yp();_.te(this.j);this.l.reset();this.i.reset();eq(thi
+s);_.te(this.M)}else eq(this)};_.k.hb=function(a){null!=a&&("load"==a.type?_.jl(
+this.a.j,2639):"error"==a.type&&_.jl(this.a.j,2640));this.c=!1;this.f=!0;eq(this
+)};_.k.Kc=function(){var a=new _.Si;_.U(a,1,6);_.lp(this.a.f,_.ai(a))}; _.k.S=fu
+nction(){Wp(this.M,this.h,this.g);dq.B.S.call(this)};_.k.Vb=function(){return!0}
+;_.k.hd=function(){return!0};
+TypeError: Cannot read property 'k' of undefined
+    at repl:1:2
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> var fq=function(){this.a=null};_.z(fq,_.cl);_.mj(fq,_.cl);fq.prototype.f=funct
+ion(a){this.a=a.get(_.Cm).propertyName};fq.prototype.c=function(a){if(null!=this
+.a){a=_.dl(a);var b=_.Zh(a,Vp,9)||new Vp;_.bi(a,9,b);_.U(b,4,this.a)}};
+TypeError: Cannot read property 'z' of undefined
+    at repl:1:33
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> var gq=function(a){_.S(this,a,"h_maa",-1,null)};_.z(gq,_.R);gq.a="h_maa";gq.pr
+ototype.G=function(){return _.T(this,1)};var hq=function(a){_.S(this,a,"h_mac",-
+1,null)};_.z(hq,_.R);hq.a="h_mac";hq.prototype.G=function(){return _.T(this,1)};
+hq.prototype.v=function(){return _.T(this,3)};hq.prototype.A=function(){return _
+.T(this,4)};var iq=function(a){_.S(this,a,"h_maps",-1,null)};_.z(iq,_.R);iq.a="h
+_maps";iq.prototype.G=function(){return _.T(this,1)};iq.prototype.v=function(){r
+eturn _.T(this,3)};iq.prototype.A=function(){return _.T(this,4)};var jq=function
+(a){_.S(this,a,"h_mad",-1,null)};_.z(jq,_.R);jq.a="h_mad";jq.prototype.G=functio
+n(){return _.T(this,1)};var kq=function(a){_.S(this,a,"h_mafn",-1,null)};_.z(kq,
+_.R);kq.a="h_mafn";kq.prototype.G=function(){return _.T(this,1)};var lq=function
+(a){_.S(this,a,"h_map",-1,null)};_.z(lq,_.R);lq.a="h_map";lq.prototype.G=functio
+n(){return _.T(this,1)};var mq=function(a){_.S(this,a,"h_mars",-1,null)};_.z(mq,
+_.R);mq.a="h_mars";mq.prototype.G=function(){return _.T(this,1)};mq.prototype.v=
+function(){return _.T(this,3)};mq.prototype.A=function(){return _.T(this,4)};var
+ nq=function(a){_.S(this,a,"h_mam",-1,null)};_.z(nq,_.R);nq.a="h_mam";nq.prototy
+pe.G=function(){return _.T(this,1)};nq.prototype.oa=function(a){_.U(this,2,a)};v
+ar oq=function(a){_.S(this,a,"h_mas",-1,null)};_.z(oq,_.R);oq.a="h_mas";var pq=f
+unction(a,b,c){_.G.call(this);this.a=a;this.h=c;this.b=[];this.f=b.l;this.c=[]};
+_.z(pq,_.Sm);_.k=pq.prototype;_.k.tc=function(){(0,_.A)(this.c,function(a){var b
+=new jq;_.U(b,1,a);_.om(this.a,b)},this);this.c=[]};
+TypeError: Cannot read property 'z' of undefined
+    at repl:1:50
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> _.k.Ma=function(a,b){for(var c=this.b.length-1;0<=c;c--){var d=this.b[c];if(!_
+.vd(b,d)){_.ab(this.b,c);var e=d,f=new jq;_.U(f,1,e);_.om(this.a,f);this.h(d)}}f
+or(c=0;c<a.length;c++)d=a[c],_.$a(this.b,d)||(this.b.push(d),e=b.get(d),f=new hq
+,_.U(f,1,d),_.U(f,2,e.url),_.U(f,3,e.width||0),_.U(f,4,e.height||0),_.U(f,5,this
+.f),_.om(this.a,f))};_.k.Zb=function(a,b,c,d,e){var f=new gq;_.U(f,1,a);_.U(f,2,
+b);_.U(f,3,c);0<=d&&_.U(f,4,d);0<=e&&_.U(f,5,e);_.om(this.a,f);return null};_.k.
+Ub=function(){};
+TypeError: Cannot read property 'k' of undefined
+    at repl:1:2
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> _.k.wb=function(a,b,c,d){this.c.push(a);var e=new iq;_.U(e,1,a);_.U(e,2,b);_.U
+(e,3,c);_.U(e,4,d);_.om(this.a,e)};_.k.fd=function(){};_.k.yc=function(a,b,c){va
+r d=new kq;_.U(d,1,a);_.U(d,2,b);_.U(d,3,c);_.om(this.a,d)};_.k.xc=function(){};
+_.k.jd=function(){};_.k.lb=function(a,b){var c=new nq;_.U(c,1,a);c.oa(b);_.om(th
+is.a,c)};_.k.Wc=function(a){var b=new lq;_.U(b,1,a);_.om(this.a,b)};_.k.Zc=funct
+ion(a,b,c,d){var e=new mq;_.U(e,1,a);_.U(e,2,b);_.U(e,3,c);_.U(e,4,d);_.U(e,5,th
+is.f);_.om(this.a,e)}; _.k.ed=function(){};_.k.Vc=function(){return null};_.k.Gc
+=function(){};_.k.mc=function(a){var b=new oq;_.U(b,1,a);_.om(this.a,b)};_.k.uc=
+function(){};_.k.lc=function(){return _.db(this.b)};
+TypeError: Cannot read property 'k' of undefined
+    at repl:1:2
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> var qq=function(a){_.pm.call(this,a)};_.z(qq,_.pm);_.mj(qq,_.pm);qq.prototype.
+qc=function(a){return new pq(this.a.c,this.a.a,a)};
+TypeError: Cannot read property 'z' of undefined
+    at repl:1:40
+    at REPLServer.defaultEval (repl.js:272:27)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:441:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+    at REPLServer.Interface._onLine (readline.js:224:10)
+    at REPLServer.Interface._line (readline.js:566:8)
+    at REPLServer.Interface._ttyWrite (readline.js:843:14)
+> }catch(e){_._DumpException(e)}
+... })(this.A2A);
+... // Google Inc.
+...
+...
