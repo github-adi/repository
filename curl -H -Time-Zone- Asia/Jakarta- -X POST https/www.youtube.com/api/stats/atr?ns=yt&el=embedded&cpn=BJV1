@@ -1,0 +1,76 @@
+-By Muhammad Adi Nugroho, S.Adm.Neg:
+=HTTPS:
+https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=BJV1bVkdmmuth8mY&docid=q-K15w3Ticw&ver=2&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fq-K15w3Ticw&cmt=4.555&plid=AAVVAbSYY3ntE6YK&ei=-AJ1WambJ8GKoAOOo6moCQ&fmt=134&fs=0&rt=92.718&of=10KI4gU3lhPisV6UNZzMEA&euri&lact=6904&cl=162509712&mos=0&vm=CAIQARgB&volume=100&c=WEB&cver=1.20170718&cplayer=UNIPLAYER&cbr=Firefox&cbrver=54.0&cos=Windows&cosver=6.1&hl=en_US&cr=ID&len=3114.961&fexp=9405970%2C9422596%2C9431012%2C9434289%2C9439832%2C9446364%2C9447852%2C9449243%2C9450707%2C9453897%2C9457141%2C9457283%2C9463594%2C9465813%2C9466793%2C9466795%2C9466797%2C9467217%2C9468797%2C9468799%2C9468805%2C9469355%2C9474595%2C9474797%2C9477080%2C9479479%2C9480475%2C9480534%2C9480776%2C9481318%2C9481346%2C9482647%2C9482788%2C9482976%2C9484209%2C9484706&afmt=251
+-Via GitBash:
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$ curl -H "Time-Zone: Asia/Jakarta" -X POST https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=BJV1bVkdmmuth8mY&docid=q-K15w3Ticw&ver=2&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fq-K15w3Ticw&cmt=4.555&plid=AAVVAbSYY3ntE6YK&ei=-AJ1WambJ8GKoAOOo6moCQ&fmt=134&fs=0&rt=92.718&of=10KI4gU3lhPisV6UNZzMEA&euri&lact=6904&cl=162509712&mos=0&vm=CAIQARgB&volume=100&c=WEB&cver=1.20170718&cplayer=UNIPLAYER&cbr=Firefox&cbrver=54.0&cos=Windows&cosver=6.1&hl=en_US&cr=ID&len=3114.961&fexp=9405970%2C9422596%2C9431012%2C9434289%2C9439832%2C9446364%2C9447852%2C9449243%2C9450707%2C9453897%2C9457141%2C9457283%2C9463594%2C9465813%2C9466793%2C9466795%2C9466797%2C9467217%2C9468797%2C9468799%2C9468805%2C9469355%2C9474595%2C9474797%2C9477080%2C9479479%2C9480475%2C9480534%2C9480776%2C9481318%2C9481346%2C9482647%2C9482788%2C9482976%2C9484209%2C9484706&afmt=251
+[1] 3196
+[2] 2832
+[3] 3668
+[4] 2936
+[5] 3384
+[6] 3016
+[7] 1028
+[8] 2820
+[9] 2476
+[10] 1388
+[11] 2160
+[12] 4028
+[13] 3568
+[14] 2172
+bash: euri: command not found
+[15] 704
+[16] 3012
+[17] 2996
+[18] 3492
+[19] 3892
+[20] 928
+[21] 2548
+[22] 2880
+[23] 3600
+[24] 3884
+[25] 1916
+[26] 2184
+[27] 2228
+[28] 3552
+[29] 1256
+[30] 3468
+[2]   Done                    el=embedded
+[3]   Done                    cpn=BJV1bVkdmmuth8mY
+[4]   Done                    docid=q-K15w3Ticw
+[5]   Done                    ver=2
+[6]   Done                    referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fq-K15w3Ticw
+[7]   Done                    cmt=4.555
+[8]   Done                    plid=AAVVAbSYY3ntE6YK
+[9]   Done                    ei=-AJ1WambJ8GKoAOOo6moCQ
+[10]   Done                    fmt=134
+[11]   Done                    fs=0
+[12]   Done                    rt=92.718
+[13]   Done                    of=10KI4gU3lhPisV6UNZzMEA
+[14]   Exit 127                euri
+[15]   Done                    lact=6904
+[16]   Done                    cl=162509712
+[17]   Done                    mos=0
+[18]   Done                    vm=CAIQARgB
+[19]   Done                    volume=100
+[20]   Done                    c=WEB
+[21]   Done                    cver=1.20170718
+[22]   Done                    cplayer=UNIPLAYER
+[23]   Done                    cbr=Firefox
+[24]   Done                    cbrver=54.0
+[25]   Done                    cos=Windows
+[26]   Done                    cosver=6.1
+[27]   Done                    hl=en_US
+[28]   Done                    cr=ID
+[29]   Done                    len=3114.961
+[30]+  Done                    fexp=9405970%2C9422596%2C9431012%2C9434289%2C9439832%2C9446364%2C9447852%2C9449243%2C9450707%2C9453897%2C9457141%2C9457283%2C9463594%2C9465813%2C9466793%2C9466795%2C9466797%2C9467217%2C9468797%2C9468799%2C9468805%2C9469355%2C9474595%2C9474797%2C9477080%2C9479479%2C9480475%2C9480534%2C9480776%2C9481318%2C9481346%2C9482647%2C9482788%2C9482976%2C9484209%2C9484706
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+[1]+  Done                    curl -H "Time-Zone: Asia/Jakarta" -X POST https://www.youtube.com/api/stats/atr?ns=yt
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$
