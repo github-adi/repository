@@ -1,0 +1,34 @@
+-By Muhammad Adi Nugroho, S.Adm.Neg.:
+-POST Data:
+atr=a=3&b=AxeyosZ-fBLvo0icToMU8h0aB8w&c=1500840696&d=1&e=q-K15w3Ticw&c3a=26&c1a=1&c6a=1&hh=Fju4A1GemvnC5LNq-c8tigjAGWK3HmMqtVTmvtWZp6g&r1a=!4OOl48JCUo8Q_ZFj6ihEatxbfwSHN7MCAAAAuVIAAABfmQFlkKJ2L43_V-ZogFYn-1XFbSNHHbpHfGyDA9OE_Egw0n56E1H2XJdAMTar_DllAFQUE0MNTJUlTeDAPREqklG63rT-0xlu_0MCOeogqFnnUe8BEqJtdqA7cCzcTwRWEyYkfiaOVPRxgcS9VN083tpqixTLTPGcrcckvGOlcESVQtrBhcCzxQqmz0dgAbJOvltIHSfspN8ysJBuMAoQxLAFjlEk_SaRFUCwC8cIlHc-m5Vg4v5acLYx182i2f5gBQPc4VLtNFhLk-c-4Q7ZupNMeZimnOmPBqmPxf-OA7SBLRhFengipx-ut8r0dpi2Qitq0UaspHkEv8pJ0DXZidjFPocNfPrO-tkKLkcDnLNT-571roMJyW8pbY3C-CeNvx8WxGcgp8Wgz4lzGYHjwLwh090HJb5u8GO_qx6mOYnzdasNviDYMgNDiWvFsDovJKg6H83CJKaQ0K3hOGRuNOv31ozawU2N&r3a=20&r6a=1500840697
+session_token=QUFFLUhqbGIzMVI1MzlzNkxvY3F0elVQVFpXNm8yRllwd3xBQ3Jtc0ttM0pUZ0x3VUVSNUVVT0llNlZvdmpWZGRtT3J6dnc4bm9ueE9Cdk9ZWFpDQ0VPVDdleUthZ1J3alBuLXBxeng2M09WT2pVTkRvVUlfWFlPSHlUYlNsY3JTRThiUkhnMUNwQ0lIWjd0UG9UWWNKMnEwd0NMRXJfWnNNdnZubjlZM0UzR0ZkVmNrek5LYmRVUXc2ZUpQQWtQRnlxakE=
+-cURL:
+curl "https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=BJV1bVkdmmuth8mY&docid=q-K15w3Ticw&ver=2&referrer=https"%"3A"%"2F"%"2Fwww.youtube.com"%"2Fembed"%"2Fq-K15w3Ticw&cmt=4.555&plid=AAVVAbSYY3ntE6YK&ei=-AJ1WambJ8GKoAOOo6moCQ&fmt=134&fs=0&rt=92.718&of=10KI4gU3lhPisV6UNZzMEA&euri&lact=6904&cl=162509712&mos=0&vm=CAIQARgB&volume=100&c=WEB&cver=1.20170718&cplayer=UNIPLAYER&cbr=Firefox&cbrver=54.0&cos=Windows&cosver=6.1&hl=en_US&cr=ID&len=3114.961&fexp=9405970"%"2C9422596"%"2C9431012"%"2C9434289"%"2C9439832"%"2C9446364"%"2C9447852"%"2C9449243"%"2C9450707"%"2C9453897"%"2C9457141"%"2C9457283"%"2C9463594"%"2C9465813"%"2C9466793"%"2C9466795"%"2C9466797"%"2C9467217"%"2C9468797"%"2C9468799"%"2C9468805"%"2C9469355"%"2C9474595"%"2C9474797"%"2C9477080"%"2C9479479"%"2C9480475"%"2C9480534"%"2C9480776"%"2C9481318"%"2C9481346"%"2C9482647"%"2C9482788"%"2C9482976"%"2C9484209"%"2C9484706&afmt=251" --2.0 -H "Host: www.youtube.com" -H "User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:54.0) Gecko/20100101 Firefox/54.0" -H "Accept: */*" -H "Accept-Language: en-US,en;q=0.5" --compressed -H "Referer: https://www.youtube.com/embed/q-K15w3Ticw" -H "X-YouTube-Client-Name: 1" -H "X-YouTube-Client-Version: 1.20170718" -H "Content-Type: application/x-www-form-urlencoded" -H "Cookie: VISITOR_INFO1_LIVE=at30RgbIabg; PREF=f1=50000000&f5=30; YSC=81FqgoHFrhw" -H "Connection: keep-alive" --data "atr=a"%"3D3"%"26b"%"3DAxeyosZ-fBLvo0icToMU8h0aB8w"%"26c"%"3D1500840696"%"26d"%"3D1"%"26e"%"3Dq-K15w3Ticw"%"26c3a"%"3D26"%"26c1a"%"3D1"%"26c6a"%"3D1"%"26hh"%"3DFju4A1GemvnC5LNq-c8tigjAGWK3HmMqtVTmvtWZp6g"%"26r1a"%"3D!4OOl48JCUo8Q_ZFj6ihEatxbfwSHN7MCAAAAuVIAAABfmQFlkKJ2L43_V-ZogFYn-1XFbSNHHbpHfGyDA9OE_Egw0n56E1H2XJdAMTar_DllAFQUE0MNTJUlTeDAPREqklG63rT-0xlu_0MCOeogqFnnUe8BEqJtdqA7cCzcTwRWEyYkfiaOVPRxgcS9VN083tpqixTLTPGcrcckvGOlcESVQtrBhcCzxQqmz0dgAbJOvltIHSfspN8ysJBuMAoQxLAFjlEk_SaRFUCwC8cIlHc-m5Vg4v5acLYx182i2f5gBQPc4VLtNFhLk-c-4Q7ZupNMeZimnOmPBqmPxf-OA7SBLRhFengipx-ut8r0dpi2Qitq0UaspHkEv8pJ0DXZidjFPocNfPrO-tkKLkcDnLNT-571roMJyW8pbY3C-CeNvx8WxGcgp8Wgz4lzGYHjwLwh090HJb5u8GO_qx6mOYnzdasNviDYMgNDiWvFsDovJKg6H83CJKaQ0K3hOGRuNOv31ozawU2N"%"26r3a"%"3D20"%"26r6a"%"3D1500840697&session_token=QUFFLUhqbGIzMVI1MzlzNkxvY3F0elVQVFpXNm8yRllwd3xBQ3Jtc0ttM0pUZ0x3VUVSNUVVT0llNlZvdmpWZGRtT3J6dnc4bm9ueE9Cdk9ZWFpDQ0VPVDdleUthZ1J3alBuLXBxeng2M09WT2pVTkRvVUlfWFlPSHlUYlNsY3JTRThiUkhnMUNwQ0lIWjd0UG9UWWNKMnEwd0NMRXJfWnNNdnZubjlZM0UzR0ZkVmNrek5LYmRVUXc2ZUpQQWtQRnlxakE"%"3D"
+-Request Headers:
+POST /api/stats/atr?ns=yt&el=embedded&cpn=BJV1bVkdmmuth8mY&docid=q-K15w3Ticw&ver=2&referrer=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fq-K15w3Ticw&cmt=4.555&plid=AAVVAbSYY3ntE6YK&ei=-AJ1WambJ8GKoAOOo6moCQ&fmt=134&fs=0&rt=92.718&of=10KI4gU3lhPisV6UNZzMEA&euri&lact=6904&cl=162509712&mos=0&vm=CAIQARgB&volume=100&c=WEB&cver=1.20170718&cplayer=UNIPLAYER&cbr=Firefox&cbrver=54.0&cos=Windows&cosver=6.1&hl=en_US&cr=ID&len=3114.961&fexp=9405970%2C9422596%2C9431012%2C9434289%2C9439832%2C9446364%2C9447852%2C9449243%2C9450707%2C9453897%2C9457141%2C9457283%2C9463594%2C9465813%2C9466793%2C9466795%2C9466797%2C9467217%2C9468797%2C9468799%2C9468805%2C9469355%2C9474595%2C9474797%2C9477080%2C9479479%2C9480475%2C9480534%2C9480776%2C9481318%2C9481346%2C9482647%2C9482788%2C9482976%2C9484209%2C9484706&afmt=251 HTTP/1.1
+Host: www.youtube.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://www.youtube.com/embed/q-K15w3Ticw
+X-YouTube-Client-Name: 1
+X-YouTube-Client-Version: 1.20170718
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1013
+Cookie: VISITOR_INFO1_LIVE=at30RgbIabg; PREF=f1=50000000&f5=30; YSC=81FqgoHFrhw
+Connection: keep-alive
+-Response Headers:
+HTTP/2.0 204 No Content
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 23 Jul 2017 20:11:44 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+Server: Video Stats Server
+Content-Length: 0
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: quic=":443"; ma=2592000; v="39,38,37,36,35"
+X-Firefox-Spdy: h2
