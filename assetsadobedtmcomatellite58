@@ -1,0 +1,40 @@
+<a href="https://assets.adobedtm.com/2f39014c5d5172df150d19eb00fe42ddba079437/scripts/satellite-58046db664746d5fd4004a88.js
+" target="_blank">https://assets.adobedtm.com/2f39014c5d5172df150d19eb00fe42ddba079437/scripts/satellite-58046db664746d5fd4004a88.js
+</a>
+
+<script>
+(function(event, target, $variables){})
+
+</script>
+
+<script>
+function wsa_include_js(){
+var wsa_host = (("https:" == document.location.protocol) ? "https://" : "http://");
+var js = document.createElement("script");
+js.setAttribute("language", "javascript");
+js.setAttribute("type", "text/javascript");
+js.setAttribute("src", wsa_host + "tracking-v4-samsung-id.websitealive.com/js/clients/samsung-id/alivetracker.min.js");
+document.getElementsByTagName("head").item(0).appendChild(js);
+}
+</script>
+
+<script>
+if (window.attachEvent) {window.attachEvent("onload", wsa_include_js());}
+else if (window.addEventListener) {window.addEventListener("load", wsa_include_js(), false);}
+else {document.addEventListener("load", wsa_include_js(), false);}
+</script>
+
+<script>
+{
+var c=document.createElement("iframe");
+
+c.setAttribute("type","text/javascript");
+
+c.setAttribute("src","https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js");
+
+document.body.appendChild(c);
+}
+</script>
+
+
+
