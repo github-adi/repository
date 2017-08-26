@@ -1,0 +1,75 @@
+<iframe class="tutorial_iframe" src="http://createjs.com/gs_tuts/SoundJS_Tutorial.html" frameborder="0" scrolling="no"></iframe>
+<html><head>
+	<script src="http://code.createjs.com/createjs-2015.05.21.min.js"></script>
+	<script>
+		var soundID = 'Thunder';
+
+		function loadSound () {
+			createjs.Sound.registerSound('assets/thunder.mp3', soundID);
+		}
+
+		function playSound () {
+			createjs.Sound.play(soundID);
+		}
+	</script>
+	<style>
+		body {
+			margin: 0;
+			position: absolute;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			background-color: rgba( 250, 252, 255, 1 );
+		}
+
+		body {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			left: 20px;
+			bottom: 20px;
+			margin: 0;
+			text-align: center;
+			font-size: 30px;
+			line-height: 30px;
+			font-family: 'effra', sans-serif;
+			font-weight: 700;
+			background-color: rgba(37,229,130,0.9);
+			color: rgba( 250, 252, 255, 1 );
+			text-transform: uppercase;
+		}
+		
+		body {
+			background-color: rgba(37,229,130,0.8);
+			cursor: pointer;
+		}
+
+		body {
+			background-color: rgba(37,229,130,0.8);
+		}
+
+		p {
+			position: absolute;
+			top:calc(50% - 48px);
+			bottom:0;
+			left:0;
+			right:0;
+		}
+		body {
+			background-color: transparent;
+		}
+		body {
+			background-color: transparent;
+		}
+	</style>
+</head>
+<body onload="loadSound();">
+	<div onclick="playSound();" class="playSound">
+		<p>Play Sound</p>
+	</div>
+
+</body></html>
+
+<iframe class="tutorial_iframe" src="http://createjs.com/gs_tuts/SoundJS_Tutorial.html" frameborder="0" scrolling="no"></iframe>
+		
