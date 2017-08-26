@@ -1,0 +1,71 @@
+<html><head>
+	<script src="http://code.createjs.com/createjs-2015.05.21.min.js"></script>
+	<script>
+		function loadImage() {
+			var preload = new createjs.LoadQueue();
+			preload.addEventListener("fileload", handleFileComplete);
+			preload.loadFile('https://raw.githubusercontent.com/CreateJS/PreloadJS/master/_assets/art/Autumn.png');
+		}
+
+		function handleFileComplete(event) {
+			document.body.appendChild(event.result);
+		}
+	</script>
+
+	<style>
+		body {
+			margin: 0;
+			position: absolute;
+			top:0;
+			bottom:0;
+			left:0;
+			right:0;
+			background-color: rgba( 250, 252, 255, 1 );
+		}
+
+		img {
+			display: inline-block;
+			width: 20%;
+			height: auto;
+			float: right;
+		}
+		.load-image {
+			position: absolute;
+			top: 0;
+			right: 20px;
+			left: 20px;
+			bottom: 0;
+			margin: auto;
+			height: 32px;
+			padding: 10px 0;
+			text-align: center;
+			font-size: 30px;
+			line-height: 30px;
+			font-family: 'effra', sans-serif;
+			font-weight: 700;
+			background-color: rgba(230,115,222,0.9);
+			color: rgba( 250, 252, 255, 1 );
+			text-transform: uppercase;
+		}
+		
+		.load-image:hover {
+			background-color: rgba(230,115,222,0.9);
+			cursor: pointer;
+		}
+		.load-image:active {
+			background-color: rgba(230,115,222,0.9);
+		}
+		::-moz-selection {
+			background-color: transparent;
+		}
+		::selection {
+			background-color: transparent;
+		}
+	</style>
+</head>
+<body>
+	<p onclick="loadImage();" class="load-image">Load Image</p>
+
+</body></html>
+
+<iframe class="tutorial_iframe" src="http://createjs.com/gs_tuts/PreloadJS_Tutorial.html" frameborder="0" scrolling="no"></iframe>
