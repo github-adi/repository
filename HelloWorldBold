@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PreloadJS: Custom Loader</title>
+
+	<link href="https://raw.githubusercontent.com/CreateJS/PreloadJS/master/_assets/css/shared.css" rel="stylesheet" type="text/css"/>
+	<link href="https://raw.githubusercontent.com/CreateJS/PreloadJS/master/_assets/css/examples.css" rel="stylesheet" type="text/css"/>
+	
+	<style type="text/css">
+		#template {
+			display:none;
+		}
+        .font-display {
+            display: block;
+            position: relative;
+            line-height: normal;
+        }
+	</style>
+</head>
+<body onload="init()">
+
+	<script type="text/javascript">
+        function init() {
+            if (window.top != window) {
+                document.getElementById("header").style.display = "none";
+            }
+        }
+        function loadFonts(config) {
+            var loader = new createjs.FontLoader(config, true);
+            loader.on("complete", handleLoad);
+            loader.load();
+        }
+        function handleLoad() {
+            var div = document.createElement("div");
+            div.className = "resultItem";
+            div.innerHTML = "COMPLETE";
+            result.appendChild(div);
+        }
+        function loadManualList() {
+            loadFonts({
+                src: [
+                    {
+                        src: "local('regul'), url(https://raw.githubusercontent.com/CreateJS/PreloadJS/master/_assets/fonts/regul-book.woff) format('woff')",
+                        family: "regul"
+                    },
+                    {
+                        src: "local('regul'), url(https://raw.githubusercontent.com/CreateJS/PreloadJS/master/_assets/fonts/regul-bold.woff) format('woff')",
+                        family: "regul",
+                        weight: "bold"
+                    }
+                ],
+                type: "font",
+                injectCSS: true
+            });
+            return false;
+        }
+        function loadSrc() {
+            loadFonts({
+                src: "https://raw.githubusercontent.com/CreateJS/PreloadJS/master/_assets/fonts/regul-bold.woff"
+            });
+            return false;
+        }
+        function loadSrcList() {
+            loadFonts({
+                src: [
+                    "https://raw.githubusercontent.com/CreateJS/PreloadJS/master/_assets/fonts/regul-book.woff",
+                    "https://raw.githubusercontent.com/CreateJS/PreloadJS/master/_assets/fonts/regul-bold.woff"
+                ],
+                type: "font"
+            });
+            return false;
+        }
+        function loadCSS() {
+            loadFonts({
+                src: foo,
+                type: "fontcss"
+            });
+            return false;
+        }
+        function loadGoogleFonts() {
+            loadFonts({
+                src: "https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic",
+                type: "fontcss"
+            });
+            return false;
+        }
+    </script>
+    
+    <div style="font-family: regul; font-size:72pt;" class="font-display">
+   		Hello World!
+   	</div>
+   	<div style="font-family: regul; font-weight: bold; font-size:72pt;" class="font-display">
+   		Hello World (bold)!
+   	</div>
+    <div style="font-family: Roboto; font-size:72pt;" class="font-display">
+        Hello World (google)!
+    </div>
+   	<div id="result">
+
+   	</div>
+
+
+</body>
+</html>
