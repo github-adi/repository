@@ -1,0 +1,108 @@
+<html><head>
+	<title>EaselJS: Sprite Sheet Example</title>
+
+	<style type="text/css">
+
+		#testCanvas {
+
+			background-color: #efefef;
+		}
+	</style>
+	<script>
+		// this sets the namespace for CreateJS to the window object, so you can instantiate objects without specifying 
+		// the namespace: "new Graphics()" instead of "new createjs.Graphics()"
+		var createjs = window;
+
+	</script>
+
+	<script src="http://code.createjs.com/preloadjs-0.1.0.min.js"></script>
+	<script src="http://fabiobiondi.com/blog/demo/html5_createjs/2012_createjs_zoe_intro/lib/easeljs-NEXT.min.js"></script>
+
+
+	<script type="text/javascript">
+
+	
+	var stage;
+	var smoke
+		
+		function init() {
+
+			// Canvas reference
+			var canvas = document.getElementById("testCanvas");
+
+			// CreateJS stage
+			stage = new Stage(canvas);
+		
+			spriteSheet = {"images": ["http://fabiobiondi.com/blog/demo/html5_createjs/2012_createjs_zoe_intro/Smoke.png"], "animations": {"jump": [10, 19], "boom": [0, 9]}, "frames": {"height": 94, "regX": 0, "count": 20, "regY": 0, "width": 96}}
+
+			var ss = new SpriteSheet(spriteSheet);
+			smoke = new BitmapAnimation(ss);
+
+			smoke.x = 200;
+			smoke.y = 90;
+			
+			
+			manifest = [
+				{src:"http://fabiobiondi.com/blog/demo/html5_createjs/2012_createjs_zoe_intro/Smoke.png", id:"smoke"}
+			];
+
+			loader = new PreloadJS();
+			loader.onComplete = handleComplete;
+			loader.loadManifest(manifest);
+			
+
+		}
+
+
+		/**
+		 * Assets loaded
+		 */
+		function handleComplete() {
+
+			stage.onMouseDown= smokeDisplay;
+						
+			Ticker.setFPS(40);
+			Ticker.addListener(window);
+		}
+
+		function smokeDisplay(e) {
+
+			// Get the animation label ("boom" or "jump") from the HTML Select
+			var aniLabel = document.getElementById('selection').value
+			
+			// Display the smoke to stage
+			stage.addChild(smoke);
+
+			// Start animation ("boom" or "jump")
+			smoke.gotoAndPlay(aniLabel);
+
+			// Set the smoke position
+			smoke.x = e.stageX;
+			smoke.y = e.stageY;
+			
+			// Remove smoke when animation ends
+			smoke.onAnimationEnd = function () { stage.removeChild(smoke); }
+		}
+
+	
+		function tick() {
+		
+			stage.update();
+		}
+
+	</script>
+</head>
+<body onload="init();">
+	Select the smoke effect and click on stage 
+	<select id="selection">
+	  <option value="boom">boom</option>
+	  <option value="jump">jump</option>
+	</select>
+
+	<div class="canvasHolder">
+		<canvas id="testCanvas" width="960" height="400"></canvas>
+	</div>
+
+
+
+</body></html>
