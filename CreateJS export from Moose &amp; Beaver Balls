@@ -68,7 +68,7 @@ function init() {
 	
 	setupPhysics();
 
-	c.Sound.registerSound("assets/explosion.mp3", "splort");
+	c.Sound.registerSound("https://raw.githubusercontent.com/CreateJS/sandbox/master/EaselJS_Box2dWeb/assets/explosion.mp3", "splort");
 
 	c.Ticker.setFPS(30);
 	c.Ticker.addEventListener("tick", tick.bind(this));
@@ -222,6 +222,21 @@ function boom(evt) {
 }
 
 </script>
+
+<script>
+//*dari https://xhr.spec.whatwg.org/*\\
+function fetchStatus(address) {
+  var client = new XMLHttpRequest();
+  client.onload = function() {
+    // in case of network errors this might not give reliable results
+    returnStatus(this.status);
+  }
+  client.open("HEAD", address);
+  client.send();
+}
+
+</script>
+
 </head>
 
 <body onload="init();" style="background-color:#D4D4D4">
