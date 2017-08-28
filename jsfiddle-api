@@ -1,0 +1,17 @@
+https://www.npmjs.com/package/jsfiddle-api
+
+> node test/1.js
+node test/1.js
+     ^^^^
+
+SyntaxError: Unexpected identifier
+
+>
+undefined
+> { html: '<div class="hi">Hi</div>',
+...   js: '$(".hi").fadeOut();',
+...   css: '.hi {\n    color: red;\n}' }
+{ html: '<div class="hi">Hi</div>',
+  js: '$(".hi").fadeOut();',
+  css: '.hi {\n    color: red;\n}' }
+>
