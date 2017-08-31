@@ -1,0 +1,34 @@
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$ curl -H "Time-Zone: Asia/Jakarta" -X GET https://raw.githubusercontent.com/CreateJS/EaselJS-NodeJS/master/package.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   497  100   497    0     0    758      0 --:--:-- --:--:-- --:--:--   796{
+        "name":"node-easel",
+        "description":"node wrapper for EaselJS, utilizing node-canvas.",
+        "version":"0.1.2",
+        "author":"Wes Gorgichuk <wes@gskinner.com>",
+        "keywords":[
+                "canvas",
+                "graphic",
+                "graphics",
+                "vector",
+                "image",
+                "drawing",
+                "images",
+                "easel"
+        ],
+        "homepage":"https://github.com/wdamien/node-easel",
+        "repository":"git://github.com/wdamien/node-easel",
+        "main":"./src/node-easel.js",
+        "dependencies":{
+                "canvas":"1.x"
+        },
+        "engines":{
+                "node":">= 0.8.0 && < 1.0.0"
+        }
+}
+
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$
