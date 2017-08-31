@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <script type="text/javascript" src="C:\Program Files\Notepad++\UID.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\EventDispatcher.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\MouseEvent.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\Matrix2D.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\Rectangle.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\Filter.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\BoxBlurFilter.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\DisplayObject.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\Container.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\Text.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\Graphics.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\Shape.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\Stage.js"></script>
+    <script type="text/javascript" src="C:\Program Files\Notepad++\Rnd.js"></script>
+
+    <script type="text/javascript">
+        var canvas, stage, ctx;
+
+        var Captcha = function () { }
+
+        function create() {
+            stage.clear();
+            stage.removeAllChildren();
+
+            var usedCharacters = [];
+
+            var characters = 'abcdefjhjklmnpqrxtuvwxyz23456789'.split('');
+
+            var length = 9;
+            var lastX = 15;
+            while (length--) {
+                var char = characters[Rnd.random() * characters.length | 0];
+                usedCharacters.push(char);
+
+                var t = new createjs.Text(char, "25px Verdana", "#000");
+                t.textBaseline = "top";
+
+                var w = 20;//ctx.measureText(char).width;
+                var h = 25;//t.getMeasuredLineHeight();
+
+                t.x = lastX;
+                t.y = Rnd.random() * (canvas.height - h);
+                t.skewX = Rnd.random() * w * 2;
+                t.skewY = Rnd.random() * h * 2;
+                stage.addChild(t);
+
+                lastX += w + (Rnd.random() * w);
+            }
+
+            var g = new createjs.Graphics();
+            g.initialize(ctx);
+
+            var shape = new createjs.Shape(g);
+            g.setStrokeStyle(1).beginStroke("#00acc");
+
+            length = 10;
+            while (length--) {
+                g.lineTo(Rnd.random() * canvas.width, Rnd.random() * canvas.height);
+                g.moveTo(Rnd.random() * canvas.width, Rnd.random() * canvas.height);
+            }
+
+            var g2 = new createjs.Graphics();
+            g2.initialize(ctx);
+
+            var shape2 = new createjs.Shape(g2);
+            length = 40;
+            while (length--) {
+                g2.setStrokeStyle(0).beginFill('#' + (Rnd.random() * 0xffffff | 0)).drawCircle(Rnd.random() * canvas.width, Rnd.random() * canvas.height, Rnd.random() * 3 | 0).endFill();
+            }
+
+            stage.addChild(shape, shape2);
+
+            var blurFilter = new createjs.BoxBlurFilter(3, 2, 2);
+            var margins = blurFilter.getBounds();
+
+            t.cache(0, 0, t.getMeasuredWidth() + margins.width, t.getMeasuredLineHeight() + margins.height);
+
+            stage.tick();
+        }
+
+        function createCaptchas() {
+            var rand = Math.random() * 0xffffff | 0;
+            Rnd.setSeed(rand);
+
+            document.getElementById('captcha').src = 'http://3.bp.blogspot.com/-y5pkRVbYRP8/Tam5Rh1KZnI/AAAAAAAAAHc/3PxEMnzUg5c/w1200-h630-p-k-no-nu/captcha.png' + rand;
+
+            create();
+        }
+
+        function init() {
+            if (canvas) {
+                document.removeChild(canvas);
+            }
+
+            canvas = document.createElement('canvas');
+            canvas.width = 175;
+            canvas.height = 75;
+
+            var parent = document.getElementById('c');
+            parent.appendChild(canvas);
+
+            ctx = canvas.getContext('2d');
+            stage = new createjs.Stage(canvas);
+
+            createCaptchas();
+        }
+    </script>
+
+</head>
+
+<body onload="init();">
+
+<div style="display: block; width: 400px;">
+    <h3>Video Example</h3>
+    <a href="https://www.youtube.com/watch?v=_0LeYIz6uLY" target="_blank">Play Video (takes a few seconds to create)</a>
+
+    <h3>Captcha Example</h3>
+
+    <div id="c" style="float: left; padding-right: 20px;">
+        <p>EaselJS (client)</p>
+    </div>
+
+    <div id="serverEasel" style="float: left; padding-bottom: 20px;">
+        <p>EaselJS (server)</p>
+        <img id="captcha" alt="captcha">
+    </div>
+
+    <input type="button" value="Random Captcha" onclick="createCaptchas();">
+
+    <h3>Graphics Test</h3>
+    <img src="http://hasgraphics.com/wp-content/uploads/2010/08/spritesheet7.png" alt="">
+
+    <h3>SpritesheetBuilder Test</h3>
+    <img src="http://hasgraphics.com/wp-content/uploads/2010/08/spritesheet7.png" alt="">
+</div>
+
+</body>
+</html>
