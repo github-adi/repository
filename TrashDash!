@@ -1,0 +1,304 @@
+<html><head>
+<meta charset="UTF-8">
+<title>Trash Dash!!</title>
+
+<script src="http://gskinner.com/playpen/AdobeAnimateDemo/trashdash/js/createjs-2015.05.21.combined.js"></script>
+<script src="http://gskinner.com/playpen/AdobeAnimateDemo/trashdash/js/movieclip-0.8.1.min.js"></script>
+<script src="http://gskinner.com/playpen/AdobeAnimateDemo/trashdash/js/Rnd.js"></script>
+<script src="http://gskinner.com/playpen/AdobeAnimateDemo/trashdash/AnimateGame.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet" type="text/css">
+
+<script>
+var c=createjs, canvas, stage, exportRoot;
+var menu, game, obstacles, scoreFld, velY, hero, bg1, bg2, wallImg, wallHitArea, loadFld;
+var w, h, nextObstacle, baseSpeed, gravity, dead, inDash, score, displayScore, difficulty;
+
+// setup:
+function init() {
+	canvas = document.getElementById("canvas");
+	stage = new c.Stage("canvas");
+	w = canvas.width;
+	h = canvas.height;
+	
+	// add loding text:
+	loadFld = new c.Text("", "bold 36pt Arial", "#6688CC");
+	loadFld.x = w/2;
+	loadFld.y = h/2;
+	loadFld.textAlign = "center";
+	loadFld.textBaseline = "middle";
+	stage.addChild(loadFld);
+
+	var loader = new c.LoadQueue(false);
+	loader.installPlugin(createjs.Sound);
+	loader.addEventListener("complete", handleComplete);
+	loader.on("progress", handleProgress);
+	loader.loadManifest([
+			{src:"sounds/demosong.mp3", id:"demosong"},
+			{src:"sounds/crunch.mp3", id:"crunch"},
+			{src:"sounds/jump.mp3", id:"jump"},
+			{src:"sounds/splat.mp3", id:"splat"},
+			{src:"sounds/woosh.mp3", id:"woosh"}
+		]);
+}
+
+// load handlers:
+function handleProgress(evt) {
+	loadFld.text = "Loading... "+(evt.progress*100|0)+"%"
+	stage.update();
+}
+
+function handleComplete(evt) {
+	loadFld.parent.removeChild(loadFld);
+	
+	menu = new lib.Menu();
+	menu.playBtn.on("click", startGame, this);
+	
+	bg1 = getTiledBg(new lib.BackgroundParallax1());
+	bg1.y = h;
+	
+	bg2 = getTiledBg(new lib.BackgroundParallax2());
+	bg2.y = h;
+	
+	// cache our wall image, so it doesn't have to render as vector every time:
+	var wall = new lib.Wall();
+	wall.hitArea.visible = false;
+	wall.cache(0, 0, 190, 640);
+	wallImg = wall.cacheCanvas;
+	wallHitArea = wall.hitArea;
+	
+	var sky = new lib.Sky();
+	sky.y = h;
+	
+	stage.addChild(sky, bg2, bg1,menu);
+	
+	c.Touch.enable(stage);
+	stage.enableMouseOver();
+	
+	playSound("demosong", -1);
+	
+	c.Ticker.framerate = 30;
+	c.Ticker.on("tick", tick);
+	
+	// input events:
+	window.addEventListener("keydown", handleKey);
+	stage.on("stagemousedown", handleClick);
+}
+
+function getTiledBg(tile) {
+	// pre-render the tile to a cache, then "clone" and offset the cache with a Bitmap:
+	var bg = new c.Container();
+	tile.cache(0, -700, 1281, 700);
+	var bmp = new c.Bitmap(tile.cacheCanvas);
+	bmp.x = 1280;
+	bmp.y = -700;
+	bg.addChild(tile, bmp);
+	return bg;
+}
+
+function tick(evt) {
+	if (game) { gameTick(evt); }
+	stage.update(evt);
+}
+
+// game start / end:
+function startGame() {
+	menu.parent.removeChild(menu);
+	
+	// starting values:
+	velY = 0;
+	difficulty = 0;
+	dead = false;
+	gravity = 2;
+	baseSpeed = 15;
+	displayScore = score = 0;
+	
+	// set up UI:
+	game = new c.Container();
+	scoreFld = new c.Text("0", "72pt 'Luckiest Guy'");
+	scoreFld.x = 90;
+	scoreFld.y = 60;
+	
+	hero = new lib.Hero();
+	hero.scaleX = hero.scaleY = 0.6;
+	hero.x = 250;
+	hero.y = 60;
+	hero.weight = 0;
+	hero.gotoAndPlay("idle");
+	
+	obstacles = new c.Container();
+	nextObstacle = 0;
+	
+	game.addChild(obstacles, hero, scoreFld);
+	stage.addChild(game);
+}
+
+function endGame() {
+	game.parent.removeChild(game);
+	game = null;
+	stage.addChild(menu);
+}
+
+// stuff Marty do:
+function jump() {
+	if (dead || inDash) { return; }
+	playSound("jump");
+	velY = Math.max(-30, velY - 50);
+	hero.gotoAndPlay("jump");
+}
+
+function dash() {
+	if (dead || inDash) { return; }
+	playSound("woosh");
+	hero.gotoAndPlay("dash");
+	c.Tween.get(hero, {override:true}).to({x:350}, 500);
+	inDash = true;
+}
+
+function die() {
+	if (dead) { return; }
+	playSound("splat");
+	inDash = false;
+	dead = true;
+	hero.gotoAndPlay("death");
+	c.Tween.get(this).to({baseSpeed:0},3000).call(endGame);
+	velY = -30;
+}
+
+// game loop:
+function gameTick(evt) {
+	var speed = baseSpeed*(difficulty+1);
+	
+	if (inDash) {
+		if (changeWeight(-0.03) === 0) {
+			hero.gotoAndPlay("idle");
+			inDash = false;
+			c.Tween.get(hero, {override:true}).to({x:250}, 500);
+		} else {
+			velY *= 0.9;
+			speed *= 3.5;
+		}
+	}
+	
+	if (!inDash) { velY += gravity; }
+	hero.y += velY;
+	if (hero.y < -30) {
+		velY = 0;
+		hero.y = -30;
+	} else if (hero.y > h+40) {
+		die();
+	}
+	
+	bg1.x -= speed*0.15;
+	if (bg1.x < -1280) { bg1.x += 1280; }
+	
+	bg2.x -= speed*0.07;
+	if (bg2.x < -1280) { bg2.x += 1280; }
+	
+	if ((nextObstacle -= speed) < 0) {
+		addObstacle();
+	}
+	
+	for (var i=obstacles.numChildren-1; i>=0; i--) {
+		var obstacle = obstacles.getChildAt(i);
+		obstacle.x -= speed;
+		if (obstacle.x < -100 && !dead) {
+			obstacles.removeChild(obstacle);
+			c.Tween.removeTweens(obstacle);
+			setScore(score+(100+hero.weight*200|0)*10);
+			difficulty = Math.min(1, difficulty+0.04);
+		}
+	}
+	
+	var target = obstacles.getObjectUnderPoint(hero.x, hero.y, 1);
+	if (target && !dead) {
+		if (target.trash) {
+			target.parent.removeChild(target);
+			changeWeight(0.2);
+			playSound("crunch");
+		} else if (!inDash) {
+			die();
+		}
+	}
+}
+
+// setters & such:
+function changeWeight(val) {
+	hero.weight = Math.max(0, hero.weight + val);
+	var body = hero.body.body;
+	body.scaleY = 1+ hero.weight;
+	body.scaleX = 1+ hero.weight * 0.6;
+	gravity = Math.pow(1+hero.weight, 1.4)*3;
+	return hero.weight;
+}
+
+function setScore(val) {
+	score = val;
+	c.Tween.get(this).to({displayScore:score}, 600).on("change", function() {
+		scoreFld.text = displayScore|0;
+	});
+}
+
+function addObstacle() {
+	var obstacle;
+	nextObstacle = Rnd.integer(700-difficulty*300,1200-difficulty*600);
+	
+	if (Rnd.bit(0.33-difficulty*0.15)) {
+		// trash
+		var obstacle = new lib.Trash();
+		obstacle.gotoAndStop(Rnd(obstacle.totalFrames)|0);
+		obstacle.trash = true;
+		nextObstacle *= 0.5;
+	} else if (Rnd.bit(0.7-difficulty*0.3)) {
+		// wall
+		obstacle = new c.Container();
+		var top = new c.Bitmap(wallImg);
+		var bottom = new c.Bitmap(wallImg);
+		top.x = bottom.x = -60;
+		top.hitArea = bottom.hitArea = wallHitArea;
+		var gapSize = Rnd(400-difficulty*200, 500-difficulty*100);
+		top.y = -620-gapSize/2;
+		bottom.y = gapSize/2;
+		obstacle.addChild(top, bottom);
+	} else {
+		// enemy
+		obstacle = new lib.Enemy();
+	}
+	
+	obstacle.y = h/2+Rnd(-200,200);
+	obstacle.x = w+60;
+	var dur = Rnd(1500, 5000);
+	c.Tween.get(obstacle, {loop:-1}).to({y:h/2+Rnd(-250,250)}, dur, c.Ease.quadInOut).to({y:obstacle.y}, dur, c.Ease.quadInOut);
+	obstacle.mouseChildren = false;
+	obstacles.addChild(obstacle);
+}
+
+// what we do:
+function handleKey(evt) {
+	if (evt.keyCode == 38) {
+		if (game) { jump(); }
+		else { startGame(); }
+	} else if (evt.keyCode == 39) {
+		dash();
+	}
+	evt.preventDefault();
+}
+
+function handleClick(evt) {
+	if (!game) { return; }
+	if (evt.stageX < w/2) {
+		jump();
+	} else {
+		dash();
+	}
+}
+
+function playSound(id, loop) {
+	createjs.Sound.play(id, createjs.Sound.INTERRUPT_EARLY, 0, 0, loop);
+}
+</script>
+</head>
+
+<body onload="init();" style="background-color:#D4D4D4;margin:0px;">
+	<canvas id="canvas" width="1280" height="720" style="background-color: rgb(168, 241, 242);"></canvas>
+
+</body></html>
