@@ -153,8 +153,8 @@ div.jp-jplayer {
     <div id="jp_container_1" class="jp-audio jp-state-playing">
         <div class="jp-gui jp-interface">
             <div class="jp-controls" style="">
-                <a href="javascript:;" class="jp-play" tabindex="1" title="play" style="display: none;"></a>
-                <a href="javascript:;" class="jp-pause" tabindex="1" title="pause" style="display: block;"></a>
+                <a href="http://live.dreamersradio.com:8500/;stream.nsv" class="jp-play" tabindex="1" title="play" style="display: none;"></a>
+                <a href="http://live.dreamersradio.com:8500/;stream.nsv" class="jp-pause" tabindex="1" title="pause" style="display: block;"></a>
             </div>
             <div id="line">
                 <div style="font-family:calibri; font-weight:normal; line-height:24px; margin-left:10px;">
@@ -166,8 +166,8 @@ div.jp-jplayer {
                 
             </div>
             <div id="volume">
-                <a href="javascript:;" class="jp-mute" tabindex="1" title="mute"></a>
-                <a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute" style="display: none;"></a>
+                <a href="http://live.dreamersradio.com:8500/;stream.nsv" class="jp-mute" tabindex="1" title="mute"></a>
+                <a href="http://live.dreamersradio.com:8500/;stream.nsv" class="jp-unmute" tabindex="1" title="unmute" style="display: none;"></a>
             </div>
             <div class="jp-volume-bar">
                 <div class="jp-volume-bar-value" title="volume" style="width: 80%;"></div>
