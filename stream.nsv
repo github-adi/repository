@@ -1,0 +1,196 @@
+<div style="width:100%; height:32px; background:#d30180; position:fixed; z-index:10; top:0">
+	<div style="width:1070px; height:32px; margin-right: auto; margin-left: auto">
+        <div style="width:1070px; margin-left:auto; margin-right:auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
+            <div style="float:left; border-left:solid 2px #ad0469; height:32px; margin-left:16px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"></div>
+            <div style="float:left; color:#fff; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">
+                <div id="transisi1" style="padding-left:15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"><div style="padding-top:5px"><a href="http://www.dreamers.id"><img src="http://www.dreamers.id/images/landing/home_icon.png" height="20"></a></div></div>
+            </div>
+            
+            <div style="float:left; border-left:solid 2px #ad0469; height:32px; padding-left:2px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;"></div>
+            <div style="margin-left:5px; float:left; margin-top:2px">
+                <script type="text/javascript" src="http://www.dreamers.id/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	setInterval(cekcookie, 60000); //cek 10 detik
+}); 
+
+function cekcookie(){
+	$.ajax({
+		type: "POST",
+		url: "http://hiburan.dreamers.id/config/cekcookieradio.php",
+		dataType: "json",
+		data: {
+			"urlpage": "http://hiburan.dreamers.id/article/66308/snapchat-millen-cyrus-unggah-video-super-vulgar-benarkah-di-hack"
+		},
+		success: function(response) {
+			$('#statuscookie').html(response.message);
+			if(response.message == "cookie baru dibuat"){
+				$("#jquery_jplayer_1").jPlayer("play");
+			}
+		}
+	});
+}
+
+$(document).ready(function(){
+		$("#jquery_jplayer_1").jPlayer({
+			ready: function () {
+				$(this).jPlayer("setMedia", {
+											mp3:"http://live.dreamersradio.com:8500/;stream.nsv"
+									}).jPlayer("play");
+			},
+			swfPath: "http://www.dreamers.id/js",
+			solution: "html,flash",
+			supplied: "mp3",
+			wmode: "window"
+		});
+	
+});
+
+</script>
+<style>
+/*
+ * Skin for jPlayer Plugin (jQuery JavaScript Library)
+ * http://www.happyworm.com/jquery/jplayer
+ *
+ * Skin Name: Blue Monday
+ *
+ * Copyright (c) 2010-2011 Happyworm Ltd
+ * Dual licensed under the MIT and GPL licenses.
+ *  - http://www.opensource.org/licenses/mit-license.php
+ *  - http://www.gnu.org/copyleft/gpl.html
+ *
+ * Author: Silvia Benvenuti
+ * Skin Version: 4.0 (jPlayer 2.1.0)
+ * Date: 1st September 2011
+ */
+
+div.jp-interface .jp-controls a {
+display:block;
+overflow:hidden;
+text-indent:-9999px;
+z-index:2;
+}
+a.jp-play {
+position:absolute;
+margin-left:0px;
+margin-top:3px;
+width:120px;
+height:21px;
+background-image:url(http://www.dreamers.id/images/landing/radio-off.png);
+background-repeat:no-repeat;
+z-index:2;
+}
+a.jp-pause {
+position:absolute;
+margin-left:px;
+margin-top:1px;
+width:120px;
+height:24px;
+background-image:url(http://www.dreamers.id/images/landing/radio-on.png);
+background-repeat:no-repeat;
+z-index:2;
+}
+#line {
+position:absolute;
+background:#b90477;
+margin-left:125px;
+margin-top:2px;
+width:500px;
+height:24px;
+z-index:2;
+}
+div.jp-volume-bar-value {
+background-color:#aa0470;
+width:0px;
+height:7px;
+z-index:2;
+}
+div.jp-volume-bar {
+position: absolute;
+overflow:hidden;
+background-color:#b6aeb9;
+width:95px;
+height:4px;
+cursor: pointer;
+border-radius:2px;
+z-index:2;
+}
+div.jp-audio div.jp-volume-bar {
+margin-top:12px;
+margin-left:665px;
+z-index:2;
+}
+a.jp-mute {
+position:absolute;
+margin-left:645px;
+margin-top:8px;
+width:14px;
+height:12px;
+background-image:url(http://www.dreamers.id/images/landing/volume.png);
+background-repeat:no-repeat;
+z-index:2;
+}
+a.jp-unmute {
+position:absolute;
+margin-left:645px;
+margin-top:8px;
+width:14px;
+height:12px;
+background-image:url(http://www.dreamers.id/images/landing/volume-mute.png);
+background-repeat:no-repeat;
+z-index:2;
+}
+
+div.jp-jplayer audio,
+div.jp-jplayer {
+	width:0px;
+	height:0px;
+}
+</style>
+<div style="width:780px;height:27px">
+    <div id="jquery_jplayer_1" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_0" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_0" preload="metadata" src="http://live.dreamersradio.com:8500/;stream.nsv"></audio></div>
+    <div id="jp_container_1" class="jp-audio jp-state-playing">
+        <div class="jp-gui jp-interface">
+            <div class="jp-controls" style="">
+                <a href="javascript:;" class="jp-play" tabindex="1" title="play" style="display: none;"></a>
+                <a href="javascript:;" class="jp-pause" tabindex="1" title="pause" style="display: block;"></a>
+            </div>
+            <div id="line">
+                <div style="font-family:calibri; font-weight:normal; line-height:24px; margin-left:10px;">
+                    <marquee scrolldelay="180" style="width:480px; margin-top:-3px">
+                        <iframe src="http://www.dreamers.id/widgetplayer/now_playing_widget.php" frameborder="0" width="220" height="18" marginheight="0" marginwidth="0" scrolling="no" style="margin-top:6px;"></iframe>
+                    </marquee>
+                </div>
+                <div style="clear:both;"></div>
+                
+            </div>
+            <div id="volume">
+                <a href="javascript:;" class="jp-mute" tabindex="1" title="mute"></a>
+                <a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute" style="display: none;"></a>
+            </div>
+            <div class="jp-volume-bar">
+                <div class="jp-volume-bar-value" title="volume" style="width: 80%;"></div>
+            </div>
+        </div>
+        <!--
+        <div style="position:absolute; margin-left:550px; margin-top:-1px; z-index:10">
+        	<iframe src="widgetplayer/melon.php" frameborder="0" width="80" height="20" marginheight="0" marginwidth="0" scrolling="no" style="margin-top:6px;"></iframe>
+        </div>
+        -->
+    </div>
+    
+</div>
+<div style="clear:both"></div>
+                            <script>console.log( 'Debug Objects: play' );</script>            </div>
+                        <div style="float:left; border-left:solid 2px #ad0469; height:32px"></div>
+            <div style="float:left; color:#fff">
+                                <div id="transisi2" onclick="location.href='http://www.dreamers.id/sign-in.php?url=http://hiburan.dreamers.id/article/66308/snapchat-millen-cyrus-unggah-video-super-vulgar-benarkah-di-hack'"><div style="text-align:center; padding-top:6px; font-size:16px">SIGN IN</div></div>
+                            </div>
+            <div style="float:left; color:#fff">
+                                <div id="transisi" onclick="location.href='http://www.dreamers.id/signup"><div style="text-align:center; padding-top:6px; font-weight:bold; font-size:16px">SIGN UP</div></div>
+                            </div>
+            <div id="clear"></div>
+                    </div>
+    </div>
+</div>
