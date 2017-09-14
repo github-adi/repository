@@ -1,0 +1,182 @@
+<html>//*Bisa di Chrome*\\<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Twitter web player</title>
+    <link rel="stylesheet" href="https://abs.twimg.com/web-video-player/43262f546348e277401a4881bc7c576ba200922b/styles/main.css">
+    <base target="_blank">
+  </head>
+  <body class="edge" data-language-code="en">
+    <div class="mobile-player-controls">
+      <span class="rosetta-icon rosetta-icon-play"></span>
+    </div>
+    <div id="playerContainer" class="player-container full-screen-enabled video-playing" data-config="{&quot;scribe_widget_origin&quot;:true,&quot;heartbeatEnabled&quot;:true,&quot;video_url&quot;:&quot;https:\/\/video.twimg.com\/tweet_video\/C8wojK_V0AAA4be.mp4&quot;,&quot;videoInfo&quot;:{&quot;title&quot;:null,&quot;description&quot;:null,&quot;publisher&quot;:{&quot;screen_name&quot;:&quot;CreateJS&quot;,&quot;name&quot;:&quot;CreateJS&quot;,&quot;profile_image_url&quot;:&quot;https:\/\/pbs.twimg.com\/profile_images\/545257467060318208\/diemMQoR_normal.png&quot;}},&quot;cardUrl&quot;:&quot;https:\/\/t.co\/bxGGPAJIaO&quot;,&quot;content_type&quot;:&quot;video\/mp4&quot;,&quot;owner_id&quot;:&quot;462434831&quot;,&quot;looping_enabled&quot;:true,&quot;show_cookie_override_en&quot;:true,&quot;scribe_playlist_url&quot;:&quot;https:\/\/twitter.com\/CreateJS\/status\/850099536588656640\/photo\/1&quot;,&quot;source_type&quot;:&quot;gif&quot;,&quot;image_src&quot;:&quot;https:\/\/pbs.twimg.com\/tweet_video_thumb\/C8wojK_V0AAA4be.jpg&quot;,&quot;heartbeatIntervalInMs&quot;:5000.0,&quot;use_tfw_live_heartbeat_event_category&quot;:true,&quot;video_loading_timeout&quot;:-1000.0,&quot;status&quot;:{&quot;created_at&quot;:&quot;Thu Apr 06 21:34:58 +0000 2017&quot;,&quot;id&quot;:850099536588656640,&quot;id_str&quot;:&quot;850099536588656640&quot;,&quot;text&quot;:&quot;Meanwhile, at CreateJS HQ\u2019s bug base @gskinner is efficiently kicking butt! https:\/\/t.co\/bxGGPAJIaO&quot;,&quot;truncated&quot;:false,&quot;entities&quot;:{&quot;hashtags&quot;:[],&quot;symbols&quot;:[],&quot;user_mentions&quot;:[{&quot;screen_name&quot;:&quot;gskinner&quot;,&quot;name&quot;:&quot;Grant Skinner&quot;,&quot;id&quot;:17067603,&quot;id_str&quot;:&quot;17067603&quot;,&quot;indices&quot;:[37,46]}],&quot;urls&quot;:[{&quot;url&quot;:&quot;https:\/\/t.co\/bxGGPAJIaO&quot;,&quot;expanded_url&quot;:&quot;https:\/\/twitter.com\/CreateJS\/status\/850099536588656640\/photo\/1&quot;,&quot;display_url&quot;:&quot;pic.twitter.com\/bxGGPAJIaO&quot;,&quot;indices&quot;:[76,99]}]},&quot;source&quot;:&quot;\u003ca href=\&quot;http:\/\/twitter.com\&quot; rel=\&quot;nofollow\&quot;\u003eTwitter Web Client\u003c\/a\u003e&quot;,&quot;in_reply_to_status_id&quot;:null,&quot;in_reply_to_status_id_str&quot;:null,&quot;in_reply_to_user_id&quot;:null,&quot;in_reply_to_user_id_str&quot;:null,&quot;in_reply_to_screen_name&quot;:null,&quot;geo&quot;:null,&quot;coordinates&quot;:null,&quot;place&quot;:null,&quot;contributors&quot;:null,&quot;retweet_count&quot;:0,&quot;favorite_count&quot;:0,&quot;favorited&quot;:false,&quot;retweeted&quot;:false,&quot;possibly_sensitive&quot;:false,&quot;lang&quot;:&quot;en&quot;},&quot;show_cookie_override_all&quot;:true,&quot;video_session_enabled&quot;:false,&quot;media_id&quot;:&quot;850099014376738816&quot;,&quot;statusTimestamp&quot;:{&quot;local&quot;:&quot;9:34 PM - 6 Apr 2017&quot;},&quot;user&quot;:{&quot;screen_name&quot;:&quot;CreateJS&quot;,&quot;name&quot;:&quot;CreateJS&quot;,&quot;profile_image_url&quot;:&quot;https:\/\/pbs.twimg.com\/profile_images\/545257467060318208\/diemMQoR_bigger.png&quot;},&quot;tweet_id&quot;:&quot;850099536588656640&quot;}" data-source-type="gif">
+      <div class="player-wrapper first-play-reported">
+        <div class="spinner-container"><div class="spinner"></div></div>
+      <div class="video-display content" style="display: block;"><video data-id="content" data-type="content" src="https://video.twimg.com/tweet_video/C8wojK_V0AAA4be.mp4" type="video/mp4" class="visible playing" style="width: 100%; height: 100%;"></video></div></div>
+
+      <div class="gif-play-pause bg-play-pause" style="display: block;"></div>
+
+      <div class="all-controls player-controls bg-play-pause">
+        <div class="embedded-info bg-play-pause">
+          <div class="embedded-info-contents bg-play-pause">
+            <a class="user-details embedded-publisher-link">
+              <img class="profile-image embedded-publisher-profile-image">
+              <span class="real-name embedded-publisher-name"></span>
+              <span class="screenname embedded-publisher-screen-name"></span>
+            </a>
+            <div class="tweet-title embedded-video-title"></div>
+          </div>
+        </div>
+
+        <div class="player-controls-bottom-container">
+          <div class="player-controls-bottom">
+            <div class="player-controls-bottom-top">
+              <div class="scrubber-background scrubber">
+                <div class="scrubber-track">
+                  <div class="scrubber-track-played"></div>
+                  <div class="scrubber-thumb"></div>
+                </div>
+              </div>
+            </div>
+            <div class="player-controls-bottom-left">
+              <a class="play-button">
+                <span class="rosetta-icon rosetta-icon-play"></span>
+                <span class="rosetta-icon rosetta-icon-pause"></span>
+                <span class="rosetta-icon rosetta-icon-stop"></span>
+              </a>
+              <a class="replay-button">
+                <span class="rosetta-icon rosetta-icon-replay"></span>
+              </a>
+              <div class="track-label"></div>
+              <div class="time-display time-display-countdown"></div>
+              <div class="view-counts-display"></div>
+            </div>
+            <div class="player-controls-bottom-right">
+              <div class="time-display time-display-progress"></div>
+              <a class="captions-button">
+                <span class="rosetta-icon rosetta-icon-captions"></span>
+              </a>
+              <div class="volume-control-container">
+                <div class="volume-slider-background volume-slider">
+                  <div class="volume-slider-track">
+                    <div class="volume-slider-track-moved"></div>
+                    <div class="volume-slider-thumb"></div>
+                  </div>
+                </div>
+                <div class="sound-button sound-on">
+                  <span class="rosetta-icon rosetta-icon-sound-on"></span>
+                  <span class="rosetta-icon rosetta-icon-sound-off"></span>
+                </div>
+              </div>
+              <a class="full-screen-button expand">
+                <span class="rosetta-icon rosetta-icon-expand"></span>
+                <span class="rosetta-icon rosetta-icon-shrink"></span>
+              </a>
+              <a class="twitter-button">
+                <span class="rosetta-icon rosetta-icon-twitter"></span>
+              </a>
+              <div class="skip-button-wrapper">
+                <a class="skip-button skip-button-controls">
+                  <div class="skip-label"></div>
+                  <span class="rosetta-icon rosetta-icon-step-forward"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="call-to-action-container">
+          <div class="call-to-action"></div>
+        </div>
+      </div>
+
+      <div class="poster-image-container" style="display: none;">
+        <div class="poster-image" style="background-image: url(&quot;https://pbs.twimg.com/tweet_video_thumb/C8wojK_V0AAA4be.jpg&quot;); display: none;"></div>
+        <span class="poster-play-icon">
+          <span class="rosetta-icon rosetta-icon-media-play-fill"></span>
+          <span class="rosetta-icon rosetta-icon-media-play"></span>
+        </span>
+        <div class="embedded-info embedded-info-visible">
+          <a class="user-details embedded-publisher-link">
+            <img class="profile-image embedded-publisher-profile-image">
+            <span class="real-name embedded-publisher-name"></span>
+            <span class="screenname embedded-publisher-screen-name"></span>
+          </a>
+          <div class="tweet-title embedded-video-title"></div>
+          <div class="twitter-button-container">
+            <a class="twitter-button embedded-tweet-permalink">
+              <span class="rosetta-icon rosetta-icon-twitter"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="duration-badge">
+        <span class="duration"></span>
+        <div class="equalizer">
+          <img src="https://abs.twimg.com/web-video-player/43262f546348e277401a4881bc7c576ba200922b/styles/img/media_equalizer.gif" alt="equalizer">
+        </div>
+      </div>
+
+      <div class="view-counts-badge">
+        <span class="view-counts"></span>
+      </div>
+
+      <div class="video-360-badge">
+        <span class="video-360-label"></span>
+      </div>
+
+      <div class="skip-badge">
+        <a class="skip-button">
+          <div class="skip-label"></div>
+          <span class="rosetta-icon rosetta-icon-step-forward"></span>
+        </a>
+      </div>
+
+      <div class="gif-badge rosetta-icon rosetta-icon-gif"></div>
+      <div class="snap-reel-badge-container">
+        <div class="snap-reel-badge rosetta-icon rosetta-icon-snap-reel"></div>
+        <div class="snap-reel-hint"><div class="snap-reel-hint-text"></div></div>
+      </div>
+
+      <div class="embedded-tweet">
+        <a class="close-button embedded-tweet-close-button">
+          <span class="rosetta-icon rosetta-icon-close"></span>
+        </a>
+        <div class="tweet-details bg-play-pause">
+          <div class="header bg-play-pause">
+            <a class="user-details embedded-tweet-author-link">
+              <img class="profile-image embedded-tweet-author-profile-image">
+              <span class="real-name embedded-tweet-author-name"></span>
+              <span class="screenname embedded-tweet-author-screen-name"></span>
+            </a>
+            <a class="button follow-button embedded-tweet-follow-button">
+              <span class="rosetta-icon rosetta-icon-twitter"></span>
+              <span class="embedded-tweet-follow-button-text">Follow</span>
+            </a>
+          </div>
+          <div class="tweet-text embedded-tweet-text"></div>
+          <a class="timestamp embedded-tweet-timestamp embedded-tweet-permalink"></a>
+        </div>
+        <div class="twitter-button-container">
+          <a class="twitter-button embedded-tweet-close-button">
+            <span class="rosetta-icon rosetta-icon-twitter"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="error-msg-container">
+        <div class="error-msg-content">
+          <button class="retry-button">
+            <span class="rosetta-icon rosetta-icon-replay"></span>
+          </button>
+          <div class="error-msg"></div>
+          <a href="https://t.lv.twimg.com/live_video_cookies" class="button allow-cookies-button" target="_blank">Allow</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-ad textAd text_ad text_ads text-ads text-ad-links" id="ad-bait"></div>
+
+    <script src="https://abs.twimg.com/web-video-player/43262f546348e277401a4881bc7c576ba200922b/js/build.min.js"></script>
+  
+
+</body></html>
