@@ -1,0 +1,271 @@
+<html><head lang="en">
+    <meta charset="UTF-8">
+    <title>KaLOGOscope</title>
+
+    <script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+    <link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css" type="text/css">
+    <style>
+        canvas {
+            background-color: #000;
+        }
+    </style>
+</head>
+
+<body class="template">
+
+<div class="controls">
+	<a href="https://lab.gskinner.com/content/lanny.mcnie/kalogoscope/index3.html#" onclick="changeMode(this)">Mode: random</a>
+	<a href="https://lab.gskinner.com/content/lanny.mcnie/kalogoscope/index3.html#" onclick="changeGroup(this)" id="groupBtn" style="display: none;">Current: Chris K</a>
+	<a href="https://lab.gskinner.com/content/lanny.mcnie/kalogoscope/index3.html#" onclick="togglePause(this)" id="pauseBtn">Pause</a>
+</div>
+
+<canvas id="canvas" width="1366" height="455" style="width: 1366px; height: 455px; background-color: rgb(95, 54, 46);"></canvas>
+
+    <script src="https://code.createjs.com/createjs-2014.12.12.combined.js"></script>
+    <script src="https://lab.gskinner.com/content/lanny.mcnie/kalogoscope/CreateJSKaleidoscope.js"></script>
+    <script src="https://lab.gskinner.com/content/lanny.mcnie/kalogoscope/ColorPlugin.js"></script>
+
+    <script>
+        var stage = new createjs.Stage("canvas");
+
+        var k, logos = [], max=20,
+                bg, art = new createjs.Container();
+
+        // Note: Animate exports Sprite
+        var names = ["Mike", "Patrick", "David", null, null,
+                     "Wes", "Sebastian", "Eddie", null, null,
+                    "Alex", "Trevor", "Chris K", null, null,
+                     "Chris C", "Grant", "Matthew", null, null,
+                    "Blair", "Lanny", "Michael", null, null,
+                    "Bobi", "Shawn"],
+                mode = "random", // random, group, single
+                currentGroup = 0;
+
+        var queue = new createjs.LoadQueue();
+        queue.on("complete", init);
+        queue.on("error", function(e) {
+        	console.log(e);
+        });
+        queue.loadManifest([
+           {src:"All_atlas_.json",id:"avatars", type:"spritesheet"},
+           {src:"mosaic.png", id:"noise"}
+        ]);
+
+        var bmp, noise;
+
+        createjs.ColorPlugin.install();
+
+        function init(event) {
+            currentGroup = Math.random() * names.length | 0;
+            changeGroup();
+            changeMode();
+
+            bmp = new createjs.Sprite(queue.getResult("avatars"), currentGroup);
+
+            bmp.scaleX = bmp.scaleY = 4;
+            bmp.regX = 30; bmp.regY = 50;
+            art.addChild(bmp);
+
+            k = new CreateJSKaleidoscope(600, art, 9);
+            k.x = k.y = 400;
+
+            bg = new createjs.Shape();
+            bg.colorCmd = bg.graphics.f("#000000").command;
+            bg.sizeCmd = bg.graphics.dr(0,0,200,200).command;
+
+            noise = new createjs.Shape();
+            noise.gradCmd = noise.graphics.lf(["rgba(0,0,0,0.1)", "rgba(0,0,0,0)"], [1, 0], 0, 0, 200,200).command;
+            noise.graphics.append(bg.sizeCmd); // Gradient
+            var m = new createjs.Matrix2D();
+            noise.noiseCmd = noise.graphics.bf(queue.getResult("noise"), "repeat", m).command; // Noise
+            noise.graphics.append(bg.sizeCmd);
+
+            stage.addChild(bg, k, noise);
+
+            createjs.Ticker.on("tick", tick);
+
+            createjs.Tween.get(bmp, {loop: true})
+                    .to({rotation: 360 * 3}, 25000)
+                    .to({rotation: 0}, 25000);
+
+            rotate();
+            changeColor(true, true);
+
+            stage.on("resize", reset);
+            LabTemplate.setupStageResize(stage);
+            LabTemplate.loadComplete();
+        }
+
+        function rotate() {
+            k.rotation = k.rotation % 360;
+            var a = Math.random() * 45 + 45;
+            if (Math.random() > 0.5) { a *= -1; }
+            var dur = Math.random() * 5000 + 3000;
+            createjs.Tween.get(k).to({rotation:a}, dur, createjs.Ease.quadInOut).call(rotate);
+            changeColor();
+            //rotationSpeed = Math.random() * 0.3 - 0.15;
+        }
+
+        function reset(event) {
+            var w = event.size.width, h = event.size.height,
+                r = Math.sqrt(w*w + h*h);
+            k.radius = r;
+            bg.sizeCmd.w = w;
+            bg.sizeCmd.h = h;
+
+            noise.gradCmd.style = noise.gradCmd.linearGradient(["rgba(0,0,0,0.5)", "rgba(0,0,0,0)"], [1, 0], 0,0, w, h).style;
+
+            k.x = w >> 1;
+            k.y = h >> 1;
+            max = r / 10;
+            stage.update();
+        };
+
+        var colors = ["#5e3a9a","#3d8e4e","#5f362e","#4f5f6b", "#4f463d"];
+        //var colors = ["#773660","#9e4064","#cd5068","#f58b6b"];
+        function changeColor(immediate, first) {
+            var color;
+            while (color == null || color == bg.colorCmd.style) {
+                color = colors[first == true ? 0 : Math.random()*colors.length|0];
+            }
+            if (immediate) {
+                bg.colorCmd.style = color;
+            } else {
+                createjs.Tween.get(bg.colorCmd).to({style:color}, 1000);
+            }
+        }
+
+        var index = 0, rotationSpeed = 0.1;
+        function tick(e) {
+            if (createjs.Ticker.paused) { return; }
+            var m = null;
+            if (logos.length < max && Math.random() < 0.25) {
+                m = new createjs.Sprite(queue.getResult("avatars")).set({
+                    a: Math.random() * 90 * Math.PI/180,
+                    speed: Math.random() * 10+3,
+                    rotation: Math.random() * 360,
+                    acc: Math.random() * 0.5,
+                    rot: Math.random() * 8 - 4,
+                    y: -100, x: -100,
+                });
+
+                switch (mode) {
+                    case "random":
+                        m.gotoAndStop(getNextGroup(true));
+                        break;
+                    case "cycle":
+                    case "single":
+                        m.gotoAndStop(currentGroup);
+                        break;
+                }
+                m.regX = 25; m.regY = 40;
+                m.scaleX = m.scaleY = (Math.random() > 0.99 ? 10 : Math.random() * 3 + 3 | 0) / 3;
+                if (Math.random() > 0.9) { m.compositeOperation = "destination-out"; }
+                else if (Math.random() > 0.9) { m.compositeOperation = "difference"; }
+                art.addChild(m);
+                logos.push(m);
+            }
+
+            for (var i = 0, l=logos.length; i<l; i++) {
+                m = logos[i];
+                m.speedX += m.acc;
+                m.speedY += m.acc;
+                var speedX = Math.cos(m.a) * m.speed,
+                        speedY = Math.sin(m.a) * m.speed
+                m.x += speedX;
+                m.y += speedY;
+                m.rotation += m.rot;
+
+                if (m.x > k.radius || m.y > k.radius) {
+                    logos.splice(i, 1);
+                    art.removeChild(m);
+                    i--; l--;
+                }
+            }
+
+            stage.canvas.style.backgroundColor = bg.colorCmd.style;
+            var x = Math.cos(rotationSpeed)*1;
+            var y = Math.sin(rotationSpeed)*1;
+            noise.noiseCmd.matrix.translate(x,y);// * -Math.PI/180);
+            stage.update();
+        }
+
+        window.addEventListener("keydown", function() {
+            togglePause();
+        });
+
+        function getNextGroup(random) {
+            var num = currentGroup, groupName = null;
+            while (groupName == null) {
+                if (random) {
+                    num = Math.random() * 18 | 0;
+                } else {
+                    num = (num+1) % names.length;
+                }
+                groupName = names[num];
+            }
+            return num;
+        }
+
+        function changeMode(link) {
+            if (link == null) {
+                mode = "random";
+            } else {
+                var modes = ["random", "single", "cycle"];
+                var currentMode = modes.indexOf(mode);
+                mode = modes[(currentMode + 1) % modes.length];
+                link.innerHTML = "Mode: " + mode;
+            }
+
+            clearTimeout(cycleTimeout);
+            if (mode == "cycle") {
+                cycle();
+            }
+
+            var btn = document.getElementById("groupBtn");
+            btn.style.display = mode == "random" ? "none" : "block";
+
+        }
+
+        var cycleTimeout = null;
+        function cycle(change) {
+            clearTimeout(cycleTimeout);
+            cycleTimeout = setTimeout(cycle, Math.random() * 5000 + 3000);
+            if (change != false) { changeGroup(); }
+        }
+
+        function changeGroup() {
+            if (mode == "cycle") {
+                currentGroup = getNextGroup(true);
+            } else if (mode == "random") {
+                return;
+            } else {
+                if (currentGroup == -1) {
+                    currentGroup = getNextGroup(true);
+                } else {
+                    currentGroup = getNextGroup();
+                }
+            }
+            //console.log(currentGroup, names[currentGroup]);
+            bmp.gotoAndStop(currentGroup);
+            var modeName = (mode == "single") ? "Single" : "Current"
+            document.getElementById("groupBtn").innerHTML = modeName +": "+names[currentGroup];
+
+            if (mode == "cycle") {
+                cycle(false);
+            } else if (mode == "single") {
+                for (var i=0, l=logos.length; i<l; i++) {
+                    logos[i].gotoAndStop(currentGroup);
+                }
+                stage.update();
+            }
+        }
+
+        function togglePause() {
+            createjs.Ticker.paused = !createjs.Ticker.paused;
+            document.getElementById("pauseBtn").innerHTML = createjs.Ticker.paused ? "Resume" : "Pause";
+        }
+    </script>
+
+</body></html>
+https://jsfiddle.net/ad4bg9bv/
