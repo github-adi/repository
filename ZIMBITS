@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>ZIM BITS - Dial and Indicator Components for JavaScript HTML 5 Canvas and CreateJS - Tips, Techniques and Tutorials</title>
+
+<!-- for CreateJS and ZIMjs http://zimjs.com - free to modify - Dan Zen 2016 -->
+<!-- see http://zimjs.com/templates for more templates and meta tags -->
+
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script>var zon = true; // true for comments from zim code</script>
+<script src="https://d309knd7es5f10.cloudfront.net/zim_4.3.1.js"></script>
+<script src="http://zimjs.com/code/bits/footer2.js"></script><!-- you will not need this -->
+
+<style>
+	body {margin:0px; padding:0px; background-color:#eee;}
+</style>
+
+<script>
+
+// SCALING OPTIONS
+// scaling can have values as follows with full being the default
+// "fit"	sets canvas and stage to dimensions and scales to fit inside window size
+// "outside"	sets canvas and stage to dimensions and scales to fit outside window size
+// "full"	sets stage to window size with no scaling
+// "tagID"	add canvas to HTML tag of ID - set to dimensions if provided - no scaling
+
+var scaling = "fit"; // this will resize to fit inside the screen dimensions
+var width = 1000;
+var height = 800;
+var color = "#333";
+var frame = new zim.Frame(scaling, width, height, color);
+frame.on("ready", function() {
+	zog("ready from ZIM Frame");
+
+	var stage = frame.stage;
+	var stageW = frame.width;
+	var stageH = frame.height;
+
+	var x = true;
+	var y = x ? 2 : 1;
+	zog(y);
+
+
+	// ZIM BITS - Dials and Indicators (2016)
+
+	// the zim.Dial component lets you make a round dial
+	// you can set min, max and how much the value steps (like you can for a slider)
+	// you can also change the type of pointer
+	// there are ticks and you can change the location of the ticks
+	// when the dial changes, it dispatches a change event
+	// and you can ask for the dial's currentValue
+	// there are a few other parameters as well - so check out the docs!
+
+	// the zim.Indicator shows what number you are on
+	// like little round dots that show what page, level in a game or what promo is showing
+
+
+	// STEPS
+
+	// 1. make a zim.Dial() with its parameters set
+	// 2. add a change event to capture when the dial moves
+	// 3. make an zim.Indicator() with its parameters
+	// 4. when the dial changes update the selectedIndex of the indicator
+
+	// of course dials can control more than just indicators
+	// and indicators can show more things than just dial settings
+
+	// with this setting, components will not update the stage - we need to in our event functions!
+	zim.OPTIMIZE = true;
+
+
+	// FIRST DIAL
+	// features a basic dial with some coloring
+	// by default, dials only go up to the last tick and will not keep spinning around
+	// the indicator uses the fill feature
+
+	// 1. make a zim.Dial() with its parameters set
+	// min, max, step, width, color, indicatorColor, indicatorScale, type, innerCircle, innerScale, useTicks, innerTicks, tickColor
+	var dial = new zim.Dial({
+		min:1, max:8, step:1, width:200,
+		color:frame.green,
+		indicatorColor:frame.grey,
+		tickColor:frame.green
+	});
+	stage.addChild(dial);
+	// zim.place(dial,"dial");
+	dial.x = 250; dial.y = 450;
+
+	// 2. add a change event to capture when the dial moves
+	dial.on("change", function() {
+		// dials and sliders do not have selectedIndex properties
+		// because they might not even have an index if there are no steps
+		// but we can use the dial currentValue to find an equivalent index
+		// since dial.steps == 1 we could just use dial.currentValue-dial.min
+		// but below is a more complete formula
+		// now, if we want, we can set the dial step to .5 for instance
+		// perhaps then also set the height of the Indicator to 30 (or the width to 500)
+		indicator.selectedIndex = Math.round((dial.currentValue-dial.min)/dial.step);
+		stage.update();
+	});
+
+	// 3. make an zim.Indicator() with its parameters
+	// we will show a step for each mark on the dial
+	// again a more complete formula than needed in this case
+	var steps = (dial.max-dial.min)/dial.step+1;
+	var indicator = new zim.Indicator({num:steps, fill:true, offColor:-1, borderColor:"#666"});
+	stage.addChild(indicator);
+	indicator.x = dial.x - indicator.width/2;
+	indicator.y = 220;
+	indicator.selectedIndex = 0;
+
+
+	// SECOND DIAL AND INDICATOR
+	// features inside ticks, the dial can go right around and the scales have been adjusted
+	// the indicator does not fill - it just does one at a time which is the default
+
+	var dial2 = new zim.Dial({
+		min:1, max:6, step:1, width:300,
+		indicatorScale:.6, innerScale:.7,
+		color:frame.blue, innerTicks:true,
+		indicatorColor:frame.grey,
+		tickColor:frame.grey,
+		limit:false
+	});
+	stage.addChild(dial2);
+	dial2.x = 700; dial2.y = 450;
+	dial2.on("change", function() {
+		indicator2.selectedIndex = Math.round((dial2.currentValue-dial2.min)/dial2.step);
+		stage.update();
+	});
+
+	var steps = (dial2.max-dial2.min)/dial2.step+1;
+	var indicator2 = new zim.Indicator({num:steps, height:50, color:frame.blue, offColor:frame.grey, type:"square"});
+	stage.addChild(indicator2);
+	indicator2.x = dial2.x - indicator2.width/2;
+	indicator2.y = 220;
+	indicator2.selectedIndex = 0;
+
+
+	// THIRD DIAL AT TOP CONTROLS THE SCALE OF THE SECOND DIAL
+	// features the dot indicator and step = 0 for analog-like values
+
+	var dial3 = new zim.Dial({
+		min:1, max:.5, step:0, width:100,
+		indicatorScale:1.5, innerCircle:false,
+		color:frame.pink, type:"dot",
+		indicatorColor:"rgba(256,256,256,.6)"
+	});
+	stage.addChild(dial3);
+	dial3.x = dial2.x; dial3.y = 100;
+	dial3.on("change", function() {
+		zim.scale(dial2, dial3.currentValue);
+		stage.update();
+	});
+
+
+	var title = "Dial and Indicator Components";
+	var label = new zim.Label(title, 30, null, "#666");
+	stage.addChild(label);
+	label.x = 40;
+	label.y = 40;
+
+	makeFooter(stage, stageW, stageH); // ZIM BITS footer - you will not need this
+
+	stage.update();
+
+}); // end of ready
+
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+
+</head>
+
+<body>
+<!-- canvas with id="myCanvas" is made by zim Frame -->
+</body>
+</html>
