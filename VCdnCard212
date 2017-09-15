@@ -1,0 +1,81 @@
+<html><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# vine-app: http://ogp.me/ns/fb/vine-app#">
+    <title>Martin Wefail's post on Vine</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://v.cdn.vine.co/vine-fw/card-212b0bd259e45f0044943ff856568363.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta property="twitter:card" content="player">
+    <meta property="twitter:title" content="Martin Wefail's post on Vine">
+    <meta property="twitter:description" content="2010: &quot;hurray! Flash is dead! No Flash banners on my phone!&quot; 2015 Wefail: &quot;LOL&quot;">
+
+    <meta property="twitter:image" content="https://v.cdn.vine.co/r/videos/937B5BC9431263858261099536384_36c6a12c227.4.4.366924097089761411.mp4.jpg?versionId=THb17Fbz0NNan8xaOm2XH18GpiwlFtEM">
+    <meta property="twitter:site" content="@vinecreators">
+    <meta property="twitter:player:width" content="435">
+    <meta property="twitter:player:height" content="435">
+    <meta property="twitter:player" content="https://vine.co/v/e0ZODOA2dUm/card">
+    <meta property="twitter:player:stream" content="https://v.cdn.vine.co/r/videos/937B5BC9431263858261099536384_36c6a12c227.4.4.366924097089761411.mp4?versionId=s7xAvcJI6oEX.VN3ajNCK6YH0wsOFr5Y">
+    <meta property="twitter:player:stream:content_type" content="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+  </head>
+  <body class="embed-muted embed-playing embed-hover">
+    <div class="card" data-cardtype="twitter">
+      <div class="video-wrapper" style="width: 506px; height: 506px;">
+        <div class="video-container main"><video id="video" muted="" type="video/mp4" preload="auto" poster="https://v.cdn.vine.co/r/videos/937B5BC9431263858261099536384_36c6a12c227.4.4.366924097089761411.mp4.jpg?versionId=THb17Fbz0NNan8xaOm2XH18GpiwlFtEM" src="blob:https://vine.co/8411aad6-f7f8-4ef2-ae13-f2a630b20eb2"></video>
+          <img class="thumbnail" src="https://v.cdn.vine.co/r/videos/937B5BC9431263858261099536384_36c6a12c227.4.4.366924097089761411.mp4.jpg?versionId=THb17Fbz0NNan8xaOm2XH18GpiwlFtEM">
+          <div class="play-button"></div>
+          <div class="warning-overlay" style="display: none">
+            <div class="warning-content">
+              <p class="title">Warning</p>
+              <p class="subtitle">This post may contain sensitive content.</p>
+              <button>View this post</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="VolumeControl VolumeControl--muted js-video-controls">
+        
+          <div class="VolumeControl__text-wrapper" style="width: 0px;">
+            <div class="VolumeControl__text">
+              Click&nbsp;for&nbsp;sound
+            </div>
+          </div>
+        
+          <div class="VolumeControl__icon-wrapper">
+            <span class="icon-audio_on"></span>
+            <span class="icon-audio_off"></span>
+          </div>
+        
+          <div class="VolumeControl__slider">
+            <div class="VolumeControl__slider-volume-off">
+              <div class="VolumeControl__slider-volume-on" style="transform: translateY(120px);">
+              </div>
+            </div>
+        
+            <div class="VolumeControl__slider-handle" style="transform: translateY(120px);">
+            </div>
+          </div>
+        </div>
+
+        <div class="vine-badge">
+          <a href="" target="_blank">
+            <span class="icon-vine_logo"></span>
+          </a>
+          <img class="equalizer" src="https://v.cdn.vine.co/vine-fw/images/media_equalizer-ee8e3ceb7818f5248d1f9eb12a1bc32d.gif">
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" async="" src="https://stats.g.doubleclick.net/dc.js"></script><script src="https://v.cdn.vine.co/vine-fw/vendor-9c73cfc7d11ecba22102787576e28ff5.js"></script>
+    <script type="application/json" id="configuration">
+      {
+        "post": {"thumbnailUrl":"https:\//v.cdn.vine.co\/r\/videos\/937B5BC9431263858261099536384_36c6a12c227.4.4.366924097089761411.mp4.jpg?versionId=THb17Fbz0NNan8xaOm2XH18GpiwlFtEM","videoUrls":[],"shortId":"e0ZODOA2dUm","entities":[],"description":"2010: \"hurray! Flash is dead! No Flash banners on my phone!\" 2015 Wefail: \"LOL\"","postIdStr":"1263858263934873600","user":{"username":"Martin Wefail","avatarUrl":"http:\//v.cdn.vine.co\/avatars\/default.png","userIdStr":"1025516885707730944","profileUrl":"\/u\/1025516885707730944"},"createdPretty":"Oct 8, 2015","loops":10743,"explicitContent":0,"username":"Martin Wefail","userIdStr":"1025516885707730944","verified":0,"created":"2015-10-08T10:51:45.000000","permalinkUrl":"https:\//vine.co\/v\/e0ZODOA2dUm","userId":1025516885707731000,"comments":0,"vanityUrls":[],"likes":1,"videoLowURL":"http:\//v.cdn.vine.co\/r\/videos_r2\/937B5BC9431263858261099536384_36c6a12c227.4.4.366924097089761411.mp4?versionId=1PVtsEjkPfdFjFwWEVfjm63SxiV1z5K_","videoUrl":"http:\//v.cdn.vine.co\/r\/videos\/937B5BC9431263858261099536384_36c6a12c227.4.4.366924097089761411.mp4?versionId=s7xAvcJI6oEX.VN3ajNCK6YH0wsOFr5Y","videoDashUrl":"http:\//v.cdn.vine.co\/r\/videos_h264dash\/937B5BC9431263858261099536384_36c6a12c227.4.4.366924097089761411.mp4?versionId=HBu4SArBvwOFrdrOgyQLncdLYOs4xQYU","postId":1263858263934873600,"reposts":0,"avatarUrl":"http:\//v.cdn.vine.co\/avatars\/default.png"},
+        
+        "client": "[object Object]",
+        "cdnHost": "https://v.cdn.vine.co/vine-fw"
+      }
+    </script>
+    <script src="https://v.cdn.vine.co/vine-fw/card-09a59c9d86100e34fa6be048c995e8ed.js"></script>
+  
+
+</body></html>
