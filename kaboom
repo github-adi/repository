@@ -1,0 +1,208 @@
+<html><head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico">
+  <link rel="mask-icon" type="" href="https://production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111">
+  <title>CodePen - Ka-booooom!</title>
+  <link href="https://fonts.googleapis.com/css?family=Knewave|Raleway" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  
+      <style>
+      body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@-webkit-keyframes reveal {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal {
+  100% {
+    opacity: 1;
+  }
+}
+#title {
+  display: block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  font-family: "Knewave", cursive;
+  font-size: 24px;
+  text-shadow: 1px 1px 3px black;
+  text-align: center;
+  color: white;
+  mix-blend-mode: overlay;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+}
+#title::after {
+  content: "A Pen by Chris Caldwell";
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  margin-top: 1em;
+  color: white;
+}
+
+    </style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+</head>
+
+<body translate="no">
+
+  <h1 id="title">Ka-booooom!</h1>
+    <script src="https://production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.min.js"></script>
+
+    <script>
+    var numWalkers;
+var fr = 60;
+var walkers = [];
+var stage;
+var hue;
+var bgHue;
+var shadow;
+var origin;
+var reset = true;
+
+
+function setup() {
+	// p5js treats setup() like a window.onload event
+	// Create Stage
+	stage = createVector(document.body.offsetWidth, document.body.offsetHeight);
+	createCanvas(stage.x, stage.y);
+  frameRate(fr);
+
+	// Setup walkers
+	numWalkers = random(50, 200);
+
+	// Set Background
+	hue = random(0, 360);
+	colorMode(HSB);
+	background(hue, 90, 50);
+
+	// Create Walkers
+	for (i = 0; i < numWalkers; i++) {if (window.CP.shouldStopExecution(1)){break;}
+	    walkers[i] = new Walker();
+	}
+window.CP.exitedLoop(1);
+
+  
+  window.addEventListener("resize", resize);
+
+}
+
+function resetCanvas() {
+	clear();
+}
+function resize () {
+  resizeCanvas(window.innerWidth, window.innerHeight);
+  setup();
+}
+
+function draw() {
+	// Uncomment to see draw behavior
+	// resetCanvas();
+  if (mouseIsPressed) {
+    if (reset) {
+      clear ();
+      setup();
+      reset = false;
+    }
+  } else {
+      reset = true;
+  }
+	// Update Walker
+	for (i = 0; i < numWalkers; i++) {if (window.CP.shouldStopExecution(2)){break;}
+	    walkers[i].display();
+		walkers[i].update();
+	}
+window.CP.exitedLoop(2);
+
+}
+
+function Walker() {
+	// Set Properties
+	this.pos = createVector(width/2, height/2);
+  this.vel = createVector(0, 0);
+  this.acc = createVector(random(random(-.05, .05), random(-.3,.3)), random(random(-.05, .05), random(-.3,.3)));
+	this.decay = random(.5, 2); // Rate at which walkers shrink
+	this.colorAngle = hue + random(-80, 80);
+	this.sat = random(70, 80);
+	this.light = random(60, 80);
+	this.shadow = createVector(-this.acc.x, -this.acc.y);
+  
+	if (stage.x >= stage.y) {
+		this.size = random(width*.02, width*.07);
+		this.speed = random(width*.0032, width*.012);
+	} else {
+		this.size = random(height*.02, height*.07);
+		this.speed = random(height*.0032, height*.012);
+	}
+
+
+	this.update = function() {
+
+		var randomWalk = createVector(random(-this.speed, this.speed),random(-this.speed, this.speed));
+    this.vel.add(this.acc.mult(1.005));
+		this.pos.add(this.vel);
+    this.pos.add(randomWalk);
+		this.size -= this.decay;
+
+		this.colorAngle += random(-.5, 1.5);
+		if(this.colorAngle <= 0) {
+			this.colorAngle += 360;
+		} else if (this.colorAngle >=360) {
+			this.colorAngle -= 360;
+		}
+    
+    this.light += .03;
+    this.sat += .03;
+	}
+
+	this.display = function() {
+
+		if(this.size <= 0){
+			return;
+		} else {
+			colorMode(HSB);
+
+			//Shadow
+			fill(this.colorAngle, this.sat, this.light);
+			noStroke();
+			ellipse(this.pos.x + this.shadow.x, this.pos.y + this.shadow.y, this.size, this.size);
+
+			// Circle
+			fill(this.colorAngle, this.sat, this.light);
+			noStroke();
+			ellipse(this.pos.x, this.pos.y, this.size, this.size);
+		}
+	}
+}
+  //# sourceURL=pen.js
+  </script>
+
+ <canvas id="defaultCanvas0" width="1349" height="410" style="width: 1349px; height: 410px;"></canvas></body></html>
