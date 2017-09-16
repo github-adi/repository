@@ -1,0 +1,225 @@
+<html><head lang="en">
+	<meta charset="UTF-8">
+	<title>Ghost Donut</title>
+	<script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+ 	<link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css" type="text/css">
+	<style type="text/css">
+		canvas {
+			background: #000;
+			-webkit-transition: background 4000ms linear;
+			-moz-transition: background 4000ms linear;
+			-o-transition: background 4000ms linear;
+			-ms-transition: background 4000ms linear;
+			transition: background 4000ms linear;
+		}
+	</style>
+</head>
+<body onload="init()" class="template">
+	<canvas id="diagram" width="1366" height="455" style="background: rgb(0, 0, 0); width: 1366px; height: 455px;"></canvas>
+	<script src="https://code.createjs.com/createjs-2014.12.12.combined.js"></script>
+	<script src="https://lab.gskinner.com/content/grant.skinner/ghost-donut/Rnd.js"></script>
+	<script>
+		
+		var monitor;
+		function init() {
+			new GhostDonut("diagram", 600, 1.6);
+		}
+	</script>
+	<script>
+		(function() {
+			var c = createjs;
+			
+			function GhostDonut(canvas, duration, scale) {
+				this.duration = duration||-1;
+				this.scale = scale;
+				this.setup(canvas);
+			}
+			var p = GhostDonut.prototype;
+			
+			p.setup = function(canvas) {
+				var stage = this.stage = new c.Stage(canvas);
+				var  w = this.w = stage.canvas.width, h = this.h = stage.canvas.height;
+				stage.mouseChildren = false;
+				this.count = 0;
+
+				this.cont = new c.Container();
+				stage.addChild(this.cont);
+				
+				this.setupPoints();
+				
+				var art = this.art = this.cont.addChild(new c.Container());
+				art.cache(-w/2,-h/2,w,h,this.scale);
+
+				this.shape = art.addChild(new c.Shape());
+				this.shape.compositeOperation = "lighter";
+
+				var bmp1 = new c.Bitmap(this.getCloud((this.radius * 0.38 >> 1) * 2))
+				bmp1.setTransform(0, 0, 1, 1, 0, 0, 0, bmp1.image.width / 2, bmp1.image.height / 2);
+				bmp1.v = -0.19;
+				var bmp2 = bmp1.clone();
+				bmp2.v = 0.17;
+				bmp2.alpha = 0.9;
+				bmp2.rotation = 130;
+				var bmp3 = bmp1.clone();
+				bmp3.v = -0.13;
+				bmp3.alpha = 0.6;
+				bmp3.scaleX = -1.1;
+				bmp3.scaleY = 1.1;
+				bmp3.rotation = 170;
+				bmps = [bmp1, bmp2, bmp3];
+				art.addChild(bmp1, bmp2, bmp3);
+
+				c.Ticker.timingMode = c.Ticker.RAF;
+				c.Ticker.on("tick", this.tick ,this);
+
+				stage.on("resize", this.handleResize, this);
+				LabTemplate.setupStageResize(stage);
+				LabTemplate.loadComplete();
+				
+				this.mode = 0;
+			}
+			
+			p.setupPoints = function() {
+				var pi2 = Math.PI * 2, w = this.w, h = this.h, shift = 0.08;
+				var radius = this.radius = Math.sqrt(w * w + h * h) / 2 * 0.70; // 0.70
+				this.points = points = [];
+				var a = Rnd(360), b=Rnd(300,600), d=Rnd(60,120);
+				for (var i = 0; i < radius * radius * 0.0015; i++) {
+					var offR = Rnd(pi2), offD = Rnd(radius * shift), r = Rnd.boolean(0.4) ? (0.85 - shift) : (Rnd(0.4, 1 - shift));
+                    points.push({
+                        cx: Math.cos(offR) * offD,
+                        cy: Math.sin(offR) * offD,
+                        r: r * radius,
+                        a: Rnd(pi2),
+                        v: Rnd(0.001, 0.0025) / r / r * Rnd.sign(0.75),
+                        link: null,
+                        color: c.Graphics.getHSL(r*b+a+Rnd(-d,d), 100, 20, Rnd(0.03, 0.08))
+                    });
+				}
+				this.stage.canvas.style.background = c.Graphics.getHSL(a+90, 100, 5);
+			}
+
+			p.tick = function(evt) {
+			
+				if (this.mode) {
+					if (this.duration <= 0) {
+						this.art.alpha = 1;
+						this.mode = 0;
+						this.duration = 1000;
+						var cc = this.art.cacheCanvas;
+						cc.getContext("2d").clearRect(0,0,cc.width,cc.height);
+						this.setupPoints();
+					} else {
+						this.art.alpha = this.duration/200 - (this.count/80)*0.08;
+					}
+				} else {
+					
+					// this solves issues with artifacts when fading by small amounts:
+					this.count = (this.count+1) %80;
+					this.art.alpha = 1 - (this.count/80)*0.08;
+					if (this.count == 0) { this.fade(0.08); }
+					
+				}
+				
+				if (--this.duration <= 0 && this.mode === 0) {
+					this.mode = 1;
+					this.duration = 200;
+					this.stage.canvas.style.background = "#000";
+				}
+				
+			
+				var shape = this.shape, stage=this.stage, points=this.points, radius=this.radius;
+				var pi2 = Math.PI * 2, g = shape.graphics.clear(), w = stage.canvas.width, h = stage.canvas.height;
+				var maxD = radius * 0.4;
+			
+				for (var i = 0, l = points.length; i < l; i++) {
+					var pt = points[i];
+					pt.a = (pt.a + pt.v) % pi2;
+					pt.x = Math.cos(pt.a) * pt.r + pt.cx;
+					pt.y = Math.sin(pt.a) * pt.r + pt.cy;
+					//g.f("rgba(20,20,20,0.3)").s().dr(pt.x-1, pt.y-1, 2,2);
+
+					var link = this.checkLink(pt, points, 0.3);
+					if (link) {
+						var dx = (pt.x - link.x), dy = (pt.y - link.y), d = Math.sqrt(dx * dx + dy * dy);
+						var t = Math.max(0.25, Math.min(1, (maxD - d) / maxD))*2;
+						g.ss(t, "round").s(pt.color).mt(pt.x, pt.y).lt(link.x, link.y); // "rgba(20,20,20," + t + ")"
+					}
+				}
+
+				for (i = 0, l = bmps.length; i < l; i++) {
+					var bmp = bmps[i];
+					bmp.rotation += bmp.v;
+				}
+			
+				this.art.updateCache("lighten");
+					
+				this.stage.update(evt);
+			};
+
+
+			p.handleResize = function(event) {
+			   this.cont.x = event.size.width/2;
+			   this.cont.y = event.size.height/2;
+
+			   this.cont.scaleX = this.cont.scaleY = Math.min(event.size.width, event.size.height)/720;
+
+		   };
+
+			p.checkLink = function(pt, pts, chance) {
+				var link = pt.link, radius=this.radius;
+				if (link && Rnd.boolean(0.04)) {
+					var dx = (pt.x - link.x), dy = (pt.y - link.y), d = Math.sqrt(dx * dx + dy * dy);
+					if (d > radius * 0.2) { return (pt.link = null); }
+				}
+				if ((!link && Rnd.boolean(chance) || Rnd.boolean(0.01)) && pts.length > 0) {
+					// naive link search:
+					for (var i = 0; i < chance; i++) {
+						var pt2 = pts[Rnd(pts.length) | 0];
+						if (pt2 === pt || pt2.link === pt) { continue; }
+						dx = (pt.x - pt2.x);
+						dy = (pt.y - pt2.y);
+						d = Math.sqrt(dx * dx + dy * dy);
+						if (d < radius * 0.2) { return (pt.link = pt2); }
+					}
+				}
+				return link;
+			}
+
+			p.getCloud = function(radius) {
+				var shape = new c.Shape(), g = shape.graphics, pi2 = Math.PI * 2, pts = [];
+				for (var i = 0; i < radius * radius * 0.007; i++) {
+					var a = Rnd(pi2);
+					var d = Rnd(radius * 0.9, radius);
+					var pt = {x: Math.cos(a) * d, y: Math.sin(a) * d};
+					var link = this.checkLink(pt, pts, 1);
+					//g.f("rgba(20,20,20,0.5)").s().dr(pt.x-1, pt.y-1, 2, 2);
+					if (link) { g.s(c.Graphics.getHSL(Rnd(360), 50, 100, 0.01)).mt(pt.x, pt.y).lt(link.x, link.y); }
+					pts.push(pt);
+				}
+				shape.cache(-radius, -radius, radius * 2, radius * 2);
+				return shape.cacheCanvas;
+			}
+			
+			p.fade2 = function(amt) {
+				var canvas = this.stage.canvas, ctx = canvas.getContext("2d");
+				var imgData = ctx.getImageData(0,0,canvas.width,canvas.height), data=imgData.data;
+				
+				for (var i=3,l=data.length; i<l; i+= 4) {
+					data[i] -= amt;
+				}
+				ctx.putImageData(imgData, 0, 0);
+			}
+			
+			p.fade = function(amt) {
+				var cc = this.art.cacheCanvas, ctx = cc.getContext("2d");
+				ctx.globalCompositeOperation = "destination-out";
+				ctx.fillStyle = c.Graphics.getRGB(0,0,0,amt);
+				ctx.fillRect(0,0,cc.width, cc.height);
+			}
+			
+			window.GhostDonut = GhostDonut;
+		})();
+	</script>
+
+</body></html>
