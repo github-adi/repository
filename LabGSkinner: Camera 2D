@@ -1,0 +1,166 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Camera2D</title>
+
+    <script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+    <link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css" type="text/css">
+    <style>
+        /* Custom styles */
+    </style>
+</head>
+
+<body class="template">
+
+<div class="controls">
+</div>
+
+<canvas id="canvas" width="1366" height="455" style="background-color: rgb(0, 0, 0); width: 1366px; height: 455px;"></canvas>
+
+<!-- CreateJS libs. Include what you need -->
+<script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+<script src="https://lab.gskinner.com/content/lanny.mcnie/tornado-2.5d/Camera.js"></script>
+
+<!-- Custom script (inline or external) -->
+<script>
+
+    var w, h, index = 0;
+
+    var stage = new createjs.Stage("canvas");
+    //stage.autoClear = false;
+    createjs.Ticker.timingMode = createjs.Ticker.RAF;
+    createjs.Ticker.on("tick", tick);
+
+    var container = new createjs.Container();
+    stage.addChild(container);
+    container.y = 100;
+    container.x = 100;
+
+    var points = [];
+
+    var pool = [];
+
+    var img = new Image();
+    img.src = "https://lab.gskinner.com/content/lanny.mcnie/tornado-2.5d/rose.png";
+    var img2 = new Image();
+    img2.src = "https://lab.gskinner.com/content/lanny.mcnie/tornado-2.5d/green.png";
+
+    function addBall(factor, color, direction, multiplier) {
+        if (pool.length == 0) {
+            if (points.length > 500) { return; }
+            /*var shape = new ShapeSprite();
+            shape.cmd = shape.graphics.f(color).command;
+            shape.graphics
+                    .dc(0, 0, 3);
+                //.ss(6).s(color).mt(0,-25).lt(0,25)//.dc(0, 0, 20);
+            */
+
+            shape = new BitmapSprite(img);
+            points.push(shape);
+            container.addChild(shape);
+        } else {
+            shape = pool.pop();
+            shape.visible = true;
+            shape.hidden = false;
+            //shape.cmd.style = color;
+        }
+        shape._y = shape._y = 100;
+        //shape.rotation = Math.random() * 360;
+
+        shape._scaleX = shape._scaleY = 0.2;//Math.random();//*0.4+0.2;
+        shape.multiplier = multiplier || 2;//Math.random()*2+0.5;
+        shape.compositeOperation = "lighter";
+        shape.index = Math.random()*100 + Math.random();
+        shape.factor = factor || 50;// + Math.random()*5;
+        shape.direction = direction || 1;//Math.random()>0.5?1:-1;
+    };
+
+
+    var center = new ShapeSprite();
+    center.graphics.ss(3).f("#000").dr(-200,-2000,400,3000);
+    points.push(center);
+    container.addChild(center);
+
+    var camera = new Camera(points, container);
+    camera.z = -200;
+    camera.x = 0;
+    camera.y = -180;
+    camera.focalDistance = 300;
+
+    var bg = new createjs.Shape();
+    bg.cmd = bg.graphics.f("#fff").command;
+    bg.graphics.dr(0,0,100,100);
+    bg.alpha = 0.07;
+    //stage.addChild(bg);
+
+    stage.on("stagemousedown", function() {
+        for (var i=0;i<3;i++) {
+            addBall(Math.random()*10+5, "#ffffff", -1, Math.random()*5+1);
+        }
+    });
+    document.addEventListener("mousewheel", function(event) {
+        camera.focalDistance = Math.max(100, Math.min(500, camera.focalDistance - event.deltaY/5));
+    }, false);
+
+    function tick(event) {
+        index += 0.1;
+
+        var r = (index)%360;
+        var color = createjs.Graphics.getHSL(r,100,50);
+        if (Math.random() > 0.2) { addBall(null, color); }
+
+        bg.cmd.style = createjs.Graphics.getHSL(r,100,2);
+
+        for (var i=points.length-1; i>=0; i--) {
+            var shape = points[i];
+
+            if (shape.hidden) { continue; }
+            if (shape == center) { continue; }
+
+            if (shape._y < -600) {
+                shape.visible = false;
+                shape.hidden = true;
+                pool.push(shape);
+            } else {
+                shape._x = Math.sin(shape.index+=0.08) * 100-25;//(shape.factor+=0.05);
+                shape._z = Math.cos(shape.index) * shape.factor;
+                shape._y -= 1 * shape.multiplier;
+                //shape._scaleX = shape._scaleY = 0.2;//Math.pow(Math.abs(shape._y),0.6)/100;
+            }
+        }
+
+        var pos = stage.mouseX - stage.canvas.width/2;
+        camera.x = pos <= 0 ? -Math.pow(Math.abs(pos), 0.75) : Math.pow(pos, 0.75);// - stage.canvas.width/2;
+        pos = -300 + stage.mouseY - stage.canvas.height;
+        camera.z = -Math.pow(Math.abs(pos), 0.75)// - stage.canvas.width/2;
+
+        camera.update();
+        stage.update(event);
+    }
+
+    // Resize event when you have EaselJS/Stage
+    function handleResize(event) {
+        w = event.size.width;
+        h = event.size.height;
+
+        container.x = w / 2;
+        container.y = h / 2;
+
+        bg.scaleX = w/100; bg.scaleY = h/100;
+
+        stage.update();
+    }
+
+    function toggleAutoClear() {
+        stage.autoClear = !stage.autoClear;
+    }
+
+    stage.on("resize", handleResize);
+    LabTemplate.setupStageResize(stage);
+
+    // Call this if you have no assets to load. Otherwise call it when your content is fully loaded.
+    LabTemplate.loadComplete();
+
+</script>
+
+
+</body></html>
