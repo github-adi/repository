@@ -1,0 +1,261 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Connections</title>
+
+    <script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+    <link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css" type="text/css">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,width=device-width,minimal-ui">
+</head>
+
+<body class="template">
+
+<canvas id="canvas" width="1366" height="455" style="width: 1366px; height: 455px;"></canvas>
+
+<!-- Controls sample -->
+<div class="controls" data-label="Options">
+	<a href="https://lab.gskinner.com/content/lanny.mcnie/connections/connections.html#" onclick="reset()">Reset</a>
+</div>
+
+<!-- CreateJS libs. Include what you need -->
+<script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+
+<!-- Custom script (inline or external) -->
+<script>
+
+    var stage = new createjs.Stage("canvas");
+    createjs.Ticker.on("tick", tick);
+    createjs.Touch.enable(stage);
+    stage.enableMouseOver();
+
+    var connection = null,
+            connections = [],
+            ends = [];
+
+    stage.on("resize", handleResize);
+   	LabTemplate.setupStageResize(stage);
+
+
+    function drawEnds(size) {
+
+        var w = size.width, h = size.height, d = Math.sqrt(w*w+h*h),
+            num = d/30;
+
+        for (var i = 0; i < num; i++) {
+
+            var x,y;
+            var check = 0;
+            while (true) {
+                if (check++ > 10) { console.log("TOO MANY");break; }
+                x = Math.random() * (w - 100) + 50;
+                y = Math.random() * (h - 120) + 50;
+
+                var distX = w/2 - x;
+                var distY = h/2 - y;
+                if (Math.abs(distX) < 150 && Math.abs(distY) < 40) { continue; }
+                break;
+            }
+
+            var end = new createjs.Shape().set({
+                x: x,
+                y: y,
+                cursor: "pointer",
+                name: "target",
+                connections: [],
+                connected: 0
+            });
+
+            var g = end.graphics.ss(3, null, null, null, true);
+            end.strokeCommand = g.s("#666").command;
+            end.fillCommand = g.f("#fff").command;
+            end.circleCommand = g.dc(0, 0, 20).command;
+
+            stage.addChild(end);
+            ends.push(end);
+            end.on("mousedown", handlePress);
+        }
+
+        createRandomConnections(4);
+
+        var text = new createjs.Text("[Drag to complete connections]", "bold 20px Arial", "#333")
+                .set({x:w/2, y:h/2, alpha:0, textAlign:"center"});
+        stage.addChild(text);
+
+        createjs.Tween.get(text)
+                .wait(1000)
+                .to({alpha:1}, 300)
+                .wait(3000)
+                .to({alpha:0}, 600)
+                .call(function() {
+                     stage.removeChild(text)
+                  });
+    }
+
+    function createRandomConnections(num) {
+        for (var i = 0, l = num; i < l; i++) {
+            var end = ends[Math.random() * ends.length | 0];
+            var nextEnd = ends[Math.random() * ends.length | 0];
+            if (connectionExists(end, nextEnd)) {
+                continue;
+            }
+            end.connected++;
+            nextEnd.connected++;
+
+            connection = createConnection(end);
+            stage.addChild(connection);
+            completeConnection(nextEnd);
+        }
+    }
+
+    function handlePress(event) {
+        connection = createConnection(event.target);
+        stage.addChild(connection);
+        stage.addEventListener("stagemousemove", drawLine);
+        stage.addEventListener("stagemouseup", endDraw);
+    }
+
+    function createConnection(target) {
+        return new createjs.Shape().set({
+            x:target.x,
+            y:target.y,
+            mouseEnabled:false,
+            graphics: new createjs.Graphics().ss(3).s("#666").sd([3,3],0).dc(0,0,30),
+            start: target,
+            end: null
+        });
+    }
+
+    function drawLine(event) {
+        connection.graphics.clear()
+                .ss(3).s("#f00")
+                .sd([3,4],0)
+                .mt(0,0)
+                .lt(stage.mouseX-connection.x, stage.mouseY-connection.y);
+
+        var target, targets = stage.getObjectsUnderPoint(stage.mouseX, stage.mouseY, 1);
+        for (var i=0, l=targets.length; i<l; i++) {
+            var currentTarget = targets[i];
+            if (currentTarget == connection.start) { continue; }
+            if (!connectionExists(currentTarget, connection.start)) {
+                target = targets[i];
+                break;
+            }
+        }
+        for (i=0; i<ends.length; i++) {
+            var end = ends[i];
+            if (end == target) {
+                end.scaled = true;
+                createjs.Tween.get(end, {override:true}).to({scaleX:1.5, scaleY:1.5}, 100, createjs.Ease.quadIn);
+            } else if (end.scaled) {
+                if (end.scaled) {
+                    createjs.Tween.get(end, {override:true}).to({scaleX:1, scaleY:1}, 500, createjs.Ease.bounceOut);
+                    end.scaled = false;
+                }
+            }
+        }
+    }
+
+    function connectionExists(start, end) {
+        if (start == end) { return true; }
+        for (var i= 0, l=connections.length; i<l; i++) {
+            var connection = connections[i];
+            if ((connection.start == start && connection.end == end)
+                    || (connection.start == end && connection.end == start)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function endDraw() {
+        var target, targets = stage.getObjectsUnderPoint(stage.mouseX, stage.mouseY, 1);
+        for (var i=0; i<targets.length; i++) {
+            if (targets[i].scaled) {
+                target = targets[i];
+                break;
+            }
+        }
+
+        if (target != null) {
+            completeConnection(target, connection);
+        } else {
+            createjs.Tween.get(connection).to({alpha:0}, 1200, createjs.Ease.quadOut).call(function(event) {
+                stage.removeChild(event.target.target);
+            });
+        }
+
+        stage.removeEventListener("stagemousemove", drawLine);
+        stage.removeEventListener("stagemouseup", endDraw);
+    }
+
+    function completeConnection(target) {
+        target.scaled = false;
+        createjs.Tween.get(target, {override:true}).to({scaleX:1, scaleY:1}, 500, createjs.Ease.bounceOut);
+
+        target.connected++;
+        var amt = 255-target.connected/10*255|0;
+        target.fillCommand.style = createjs.Graphics.getRGB(amt,amt,amt);
+
+        connection.start.connected++;
+        amt = 255-connection.start.connected/10*255|0;
+        connection.start.fillCommand.style = createjs.Graphics.getRGB(amt,amt,amt);
+
+        connection.graphics.clear()
+                .ss(3,"round").s("#069")
+                .mt(0,0);
+        connection.lineCommand = connection.graphics.lt(target.x-connection.x, target.y-connection.y).command;
+        connection.end = target;
+        connections.push(connection);
+    }
+
+    function tick(event) {
+        stage.update();
+    }
+
+	// Resize event when you have EaselJS/Stage
+	function handleResize(event) {
+
+		var oldSize = event.oldSize; // Rectangle
+		var newSize = event.size;
+
+        if (connections.length == 0) {
+            drawEnds(newSize);
+            return;
+        }
+
+        // Reflow the connections and lines
+        for (var i=0, l=ends.length; i<l; i++) {
+            var end = ends[i];
+            end.x = (end.x/oldSize.width) * newSize.width;
+            end.y = (end.y/oldSize.height) * newSize.height;
+        }
+        for (var i= 0, l=connections.length; i<l; i++) {
+            var connection = connections[i];
+            connection.x = connection.start.x;
+            connection.y = connection.start.y;
+            connection.lineCommand.x = connection.end.x - connection.x;
+            connection.lineCommand.y = connection.end.y - connection.y;
+        }
+	}
+
+    function reset() {
+        for (var i = 0, l=connections.length; i<l; i++) {
+            var connection = connections[i];
+            stage.removeChild(connection);
+        }
+        connections.length = 0;
+        for (var i = 0, l=ends.length; i<l; i++) {
+            var end = ends[i];
+            end.connected = 0;
+            end.fillCommand.style = "#fff";
+        }
+
+        createRandomConnections(Math.random() * 3+3);
+    }
+
+	// Call this if you have no assets to load. Otherwise call it when your content is fully loaded.
+	LabTemplate.loadComplete();
+
+</script>
+
+
+</body></html>
