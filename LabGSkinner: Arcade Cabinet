@@ -1,0 +1,320 @@
+<html><head>
+    <meta charset="UTF-8">
+    <title>Arcade Cabinet</title>
+    <link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css">
+    <script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+
+    <link rel="stylesheet" href="https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/styles.css">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,width=device-width,minimal-ui">
+    <style>
+        body { touch-action: none; }
+    </style>
+</head>
+
+<body class="template">
+
+<div class="cabinet-container" id="container" style="transform: scale(0.96, 0.96);">
+    <div id="cabinet" class="cabinet jjr" style="transform: translateZ(0px) rotateY(645.48deg);">
+        <div class="cabinet-shadow"></div>
+        <div id="leftside" class="cabinet-side cabinet-side-left"><canvas width="200" height="500"></canvas></div>
+        <div id="rightside" class="cabinet-side cabinet-side-right"><canvas width="200" height="500"></canvas></div>
+        <div class="cabinet-banner" style="background-image: url(https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/banner.jpg);"></div>
+        <div class="cabinet-banner-bottom" style="background-image: url(https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/speakerPanel.jpg);"></div>
+        <div class="cabinet-screen" style="background-image: url(https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/screen.gif);"></div>
+        <div class="cabinet-front-mid-top" style="background-image: url(https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/buttons.jpg);"></div>
+        <div class="cabinet-front-mid" style="background-image: url(https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/frontpanel.jpg);"></div>
+        <div class="cabinet-front-mid-bottom"></div>
+        <div class="cabinet-front-bottom" style="background-image: url(https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/frontBottom.jpg);"></div>
+        <div class="cabinet-top"></div>
+        <div class="cabinet-back"></div>
+        <div class="cabinet-back-top"></div>
+        <div class="cabinet-bottom"></div>
+        <div id="joystick1" class="joystick js1">
+            <div class="handle" style="transform: rotateY(-285.48deg); background-image: url(https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/joystick.png);"></div>
+        </div>
+        <div id="joystick2" class="joystick js2">
+            <div class="handle" style="transform: rotateY(-285.48deg); background-image: url(https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/joystick.png);"></div>
+        </div>
+    </div>
+</div>
+
+<div class="controls" data-label="Cabinets">
+	<a href="https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/index.html#" onclick="loadCabinet('jjr')">Jump Jet Rex (2015)</a>
+	<a href="https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/index.html#" onclick="loadCabinet('bard')">Bardbarian (2014)</a>
+</div>
+
+<script src="https://code.createjs.com/tweenjs-0.6.1.min.js"></script>
+<script src="https://code.createjs.com/preloadjs-0.6.1.min.js"></script>
+
+<script>
+    var dragProps,
+            rotationY = -30,
+            rotationX = 0,
+            scaleFactor = 1,
+            rotationDirection = 0,
+            sideImage, activeTween,
+            cabinetId, oldCabinetId,
+            cabinetQueue, animationQueue, changeScreenTimeout,
+            cabinet = document.getElementById("cabinet"),
+            joystick1 = document.querySelector("#joystick1 .handle"),
+            joystick2 = document.querySelector("#joystick2 .handle");
+
+    function init() {
+        createjs.Ticker.timingMode = createjs.Ticker.RAF;
+        createjs.Ticker.on("tick", idle);
+
+        // Feature-detect preserve-3d
+        var detect = document.createElement("div");
+        detect.style.transformStyle = "preserve-3d";
+        if (detect.style.transformStyle.length == 0) {
+            LabTemplate.error("Your browser does not support the 'preserve-3d' transform style, which this lab requires.");
+            LabTemplate.loadComplete();
+            return;
+        }
+
+        var sharedQueue = new createjs.LoadQueue(false);
+        sharedQueue.on("complete", handleSharedComplete);
+        sharedQueue.loadManifest([
+            "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/background.png",
+            "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/joystick.png",
+            "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/frontBottom.jpg"
+        ]);
+
+        // Hack to get a decent start size
+        //rotationX = (window.innerHeight-300)*2 - 1000;
+        var el = document.getElementById("container");
+        var scale = window.innerHeight/700;
+        el.style.transform = el.style.webkitTransform = "scale("+scale+","+scale+")";
+    }
+
+    function handleSharedComplete(event) {
+        setBackground("handle", "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/joystick.png", true);
+        setBackground("cabinet-front-bottom", "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/frontBottom.jpg", true);
+        loadCabinet("jjr");
+
+        document.addEventListener("mousedown", handleMouseDown, false);
+        if ("ontouchstart" in window) {
+            document.addEventListener("touchstart", handleMouseDown, false);
+        } else if (window.navigator["pointerEnabled"]) {
+            document.addEventListener("pointerdown", handleMouseDown, false);
+        }
+    }
+
+    function loadCabinet(id) {
+        if (id == null) {
+            id = "jjr";
+        }
+        if (cabinetId == id) {
+            return;
+        }
+
+        oldCabinetId = cabinetId;
+        cabinetId = id;
+
+        LabTemplate.loadProgress(0);
+
+        if (cabinetQueue != null) {
+            cabinetQueue.cancel();
+            animationQueue.cancel();
+        }
+
+        cabinetQueue = new createjs.LoadQueue(false, cabinetId + "/");
+        cabinetQueue.on("complete", handleLoad);
+        cabinetQueue.on("progress", handleProgress);
+        cabinetQueue.loadManifest([
+            "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/screen.png",
+            {id:"side-image", src:"https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/side1.jpg"},
+            "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/banner.jpg",
+            "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/buttons.jpg",
+            "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/speakerPanel.jpg",
+            "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/frontpanel.jpg"
+        ], true);
+
+        animationQueue = new createjs.LoadQueue(false, cabinetId + "/");
+        animationQueue.loadFile("https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/screen.gif", false);
+        animationQueue.on("complete", handleScreenLoad);
+
+        cabinetQueue.next = animationQueue;
+    }
+
+    function handleProgress(event) {
+        LabTemplate.loadProgress(event.progress);
+    }
+
+    function handleLoad(event) {
+        setBackground("cabinet-screen", "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/screen.png");
+        setBackground("cabinet-banner", "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/banner.jpg");
+        setBackground("cabinet-front-mid-top", "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/buttons.jpg");
+        setBackground("cabinet-banner-bottom", "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/speakerPanel.jpg");
+        setBackground("cabinet-front-mid", "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/frontpanel.jpg");
+
+        var side = document.getElementById("rightside");
+        side.firstChild && side.removeChild(side.firstChild);
+        side.appendChild(getSide());
+
+        side = document.getElementById("leftside");
+        side.firstChild && side.removeChild(side.firstChild);
+        side.appendChild(getSide());
+
+        changeScreenTimeout = setTimeout(changeScreen, 5000);
+
+        setTimeout(function() {
+            cabinet.classList.remove(oldCabinetId);
+            cabinet.classList.add(cabinetId);
+            LabTemplate.loadComplete();
+        }, 10);
+
+    }
+
+    function handleScreenLoad(event) {
+        if (changeScreenTimeout == null) {
+            changeScreen();
+        }
+    }
+
+    function changeScreen() {
+        if (!animationQueue.loaded) {
+            changeScreenTimeout = null;
+            return;
+        }
+        setBackground("cabinet-screen", "https://lab.gskinner.com/content/grant.skinner/arcade-cabinet/jjr/screen.gif");
+
+        if (rotationDirection == 0 && dragProps == null) {
+            createjs.Tween.get(window).to({rotationDirection:1}, 1000, createjs.Ease.quadIn);
+        }
+    }
+
+    function setBackground(className, src, globalCabinet) {
+        if (globalCabinet != true) { src = cabinetId + "/" + src; }
+        var divs = document.getElementsByClassName(className);
+        if (divs != null) {
+            for (var i= 0, l=divs.length; i<l; i++) {
+                //divs[i].style.display = "none";
+
+               /* (function(div) {
+                    setTimeout(function () {
+                        div.style.display = "block";
+                    }, 10);
+                }(divs[i]));*/
+
+                divs[i].style.backgroundImage = "url('" + src + "')";
+            }
+        }
+    }
+
+    function idle() {
+        if (dragProps) { return; }
+        rotationY += rotationDirection;
+        updateTransform();
+    }
+
+    function getSide() {
+        var sideCanvas = document.createElement("canvas");
+        var ctx = sideCanvas.getContext("2d");
+        sideCanvas.width = 200;
+        sideCanvas.height = 500;
+
+        ctx.scale(2,2);
+        ctx.fillStyle = "#0FF";
+        ctx.beginPath();
+        ctx.moveTo(0, 250);
+        ctx.lineTo(0, 50);
+        ctx.lineTo(75, 0);
+        ctx.lineTo(100, 5);
+        ctx.lineTo(100, 35);
+        ctx.lineTo(65, 60);
+        ctx.lineTo(75, 125);
+        ctx.lineTo(100, 130);
+        ctx.lineTo(100, 145);
+        ctx.lineTo(85, 150);
+        ctx.lineTo(85, 250);
+        ctx.closePath();
+        ctx.fill();
+
+        ctx.globalCompositeOperation = "source-in";
+        var sideImage = cabinetQueue.getResult("side-image");
+        ctx.drawImage(sideImage, 0, 0, 100, 250);
+
+        return sideCanvas;
+    }
+
+    function handleMouseDown(evt) {
+        dragProps = getDragProps(evt);
+
+        window.addEventListener("mousemove", handleMouseMove, false);
+        window.addEventListener("mouseup", handleMouseUp, false);
+        if ("ontouchstart" in window) {
+            window.addEventListener("touchmove", handleMouseMove, false);
+            window.addEventListener("touchend", handleMouseUp, false);
+        } else if (window.navigator["pointerEnabled"]) {
+            window.addEventListener("pointermove", handleMouseMove, false);
+            window.addEventListener("pointerup", handleMouseUp, false);
+        }
+
+        // Reset Tweens
+        rotationDirection = rotationDirection > 0 ? 0.5 : -0.5;
+        createjs.Tween.removeAllTweens();
+
+        evt.preventDefault();
+    }
+
+    function handleMouseMove(evt) {
+
+        var pos = getDragProps(evt);
+
+        if (dragProps == null) { return; }
+        var dx = pos.x - dragProps.x;
+        var dy = pos.y - dragProps.y;
+
+        dragProps = pos;
+
+        rotationY += dx * 0.2;
+        rotationDirection = dx;
+        rotationX += dy * 1;
+        updateTransform();
+        evt.preventDefault();
+        //return false;
+    }
+
+    function getDragProps(evt) {
+        if (evt.targetTouches) {
+            var touch = evt.targetTouches[0];
+            return {x:touch.clientX, y:touch.clientY};
+        } else {
+            return {x: evt.clientX||evt.pageX, y: evt.clientY||evt.pageY};
+        }
+    }
+
+    function updateTransform() {
+        var cabinetTransform = "translateZ(" + (rotationX).toFixed(2) + "px) rotateY(" + rotationY.toFixed(2) + "deg)";
+        cabinet.style.transform = cabinet.style.webkitTransform = cabinetTransform;
+
+        var joystickTransform = "rotateY(" + (360 - rotationY.toFixed(2)) + "deg)";
+        joystick1.style.transform = joystick2.style.transform = joystick1.style.webkitTransform = joystick2.style.webkitTransform = joystickTransform;
+    }
+
+    function handleMouseUp(evt) {
+        window.removeEventListener("mousemove", handleMouseMove);
+        window.removeEventListener("mouseup", handleMouseUp);
+        window.removeEventListener("touchmove", handleMouseMove);
+        window.removeEventListener("touchend", handleMouseUp);
+        window.removeEventListener("pointermove", handleMouseMove);
+        window.removeEventListener("pointerup", handleMouseUp);
+
+        var endDirection = rotationDirection > 0 ? 1 : -1;
+        rotationDirection = Math.min(40, Math.max(-40, rotationDirection));
+        activeTween = createjs.Tween.get(window, {override:true})
+                .to({rotationDirection:endDirection*0.5}, Math.abs(rotationDirection*100), createjs.Ease.quadOut)
+                .call(function() {
+                   rotationY = rotationY%360;
+                });
+        dragProps = null;
+    }
+
+    init();
+
+</script>
+
+
+
+</body></html>
