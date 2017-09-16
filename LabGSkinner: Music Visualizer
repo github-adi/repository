@@ -1,0 +1,194 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EaselJS Demo: Music Visualizer in HTML5 canvas.</title>
+
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,width=device-width,minimal-ui">
+
+	<script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+	<link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css">
+    <style>
+        canvas { background-color: black; }
+        .clickToStart {
+            background-color: rgba(0,0,0,0.8);
+            color: white;
+        }
+    </style>
+
+<link href="https://lab.gskinner.com/content/grant.skinner/music-viz/styles.css" rel="stylesheet" type="text/css">
+
+<script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+<script src="https://lab.gskinner.com/content/grant.skinner/music-viz/VolumeMonitor.js"></script>
+<script src="https://lab.gskinner.com/content/grant.skinner/music-viz/Rnd.js"></script>
+</head>
+	
+<body class="template">
+
+	<div id="wrapper"><div class="container" style="height: 700px; width: 700px; transform: translate(-50%, -50%) scale(1.95143, 1.95143) rotate(1362.59deg);"><canvas height="700" width="700" class="side" style="transform: scale(0.33, 0.33) rotate(90deg) translateX(-28.8%) perspective(350px) rotateY(60deg);"></canvas><canvas height="700" width="700" class="side" style="transform: scale(0.33, 0.33) rotate(210deg) translateX(-28.8%) perspective(350px) rotateY(60deg);"></canvas><canvas height="700" width="700" class="side" style="transform: scale(0.33, 0.33) rotate(330deg) translateX(-28.8%) perspective(350px) rotateY(60deg);"></canvas></div></div>
+	
+	<script>
+	var c = createjs;
+	var canvas,stage,holder,fade, wrapper = document.getElementById("wrapper");
+	var hue=0, mirrorCtx;
+	var sides, div, divTransform, spritePool, bgVal=0;
+	var size = 700;
+
+	if (window.devicePixelRatio) {
+		size /= window.devicePixelRatio;
+	}
+
+	function init() {
+		sides = [];
+		spritePool = [];
+		addSides();
+		// create a new stage and point it at our canvas:
+		stage = new c.Stage(canvas);
+		stage.autoClear = false;
+		holder = new c.Container();
+		//holder.compositeOperation = "lighter";
+
+		fade = new c.Shape();
+
+		fpsFld = new c.Text("--","10px Arial","#FFF");
+		fpsFld.alpha = 0.4;
+		fpsFld.x = 20;
+		fpsFld.y = 26;
+
+		var gradient = new c.Shape();
+		gradient.graphics.f("rgba(0,0,0,0.1)").r(0,0,size*0.2,1000); // lf(["rgba(0,0,0,1)","rgba(0,0,0,0)"],[0,0.3],0,0,size/2,0)
+
+		stage.scaleX = -1; stage.x = size;
+		stage.addChild(fade, holder, gradient);//, fpsFld);
+
+		//document.onkeydown = handleKeydown;
+		q = new c.LoadQueue();
+		q.installPlugin(c.Sound);
+		q.loadManifest([
+			{src:"https://lab.gskinner.com/content/grant.skinner/music-viz/music0.mp3", id:"music"}
+		]);
+		q.addEventListener("progress", handleProgress);
+		q.addEventListener("complete", handleComplete);
+
+	}
+
+	function handleProgress(event) {
+		LabTemplate.loadProgress(event.progress);
+	};
+
+	function handleComplete() {
+		LabTemplate.setupStageResize(null, resize);
+		LabTemplate.setupClickToStart(run);
+		LabTemplate.loadComplete();
+	}
+
+	function run() {
+		var sound = c.Sound.play("music", {offset: 49400});
+		sound.setPan(0.0001); // fix for SoundJS v0.6.1
+		monitor = new VolumeMonitor();
+	
+		c.Ticker.timingMode = c.Ticker.RAF;
+		c.Ticker.on("tick", tick, Window);
+	}
+
+var r = 0, r2 = 0;
+	function tick(evt) {
+		fpsFld.text = Math.round(c.Ticker.getMeasuredFPS())+"fps";
+		var h = canvas.height, w = canvas.width;
+		var t = evt.delta, o=monitor.getData();
+		
+		var avg = o.avg, vol = o.vol, delta = o.delta;
+		if (isNaN(avg)) { console.log("blah!"); return; }
+		hue += vol*delta*20+avg;
+		var val = 0.001, col=c.Graphics.getHSL(hue, 0*delta*delta+0, 100, vol*vol*0.9+0.1);
+		while (val <= delta) {
+			var particle = getSprite(col);
+			particle.y = h/2+Rnd.sign()*Rnd(vol*h/2*1.02);
+			particle.x = w*0.1;
+			particle.scaleX = particle.scaleY = delta*3*size/1000;
+			particle.velX = ((delta)*60+15)*Rnd(0.9,1)*size/1000;
+			val += 0.07 * t/50;
+		}
+		for (var i=holder.getNumChildren()-1; i>=0; i--) {
+			var particle = holder.getChildAt(i);
+			particle.x += particle.velX*t/50;
+			if (particle.x > w || particle.x < 0) { retireSprite(particle); }
+		}
+		
+		//bgVal = Math.max(bgVal*0.98, delta*delta*10 + avg*3 + 1);
+		//document.body.style.background = c.Graphics.getHSL(hue+30, 50, bgVal);
+		fade.alpha = 0.15+avg*avg*0.3;
+		fade.compositeOperation = "destination-out";
+		
+		r += (vol*avg*2-r)*0.05;
+		r2 += r;
+		div.style.transform = div.style.webkitTransform = divTransform + " rotate("+r2+"deg)";
+		
+		updateSides();
+		holder.alpha = 0.3+avg*0.7;
+		
+		stage.update();
+	}
+	
+	function getSprite(color) {
+		var sprite;
+		if (spritePool.length) {
+			sprite = spritePool.pop();
+			sprite.fill.style = color;
+		} else {
+			sprite = new c.Shape();
+			var g = sprite.graphics;
+			sprite.fill = g.f(color).command;
+			g.r(-5,-25,20,40);
+		}
+		holder.addChild(sprite);
+		return sprite;
+	}
+	
+	function retireSprite(sprite) {
+		holder.removeChild(sprite);
+		spritePool.push(sprite);
+	}
+	
+	function addSides() {
+		div = document.createElement("div");
+		div.style.width = div.style.height = size+"px";
+        div.className = "container";
+		wrapper.appendChild(div);
+		for (var i=0; i<3; i++) {
+			var o = document.createElement("canvas");
+			var style = o.style;
+			var a = i/3 * 360+90;
+			o.width = o.height = size;
+			div.appendChild(o);
+            o.className = "side";
+			style.transform = style.webkitTransform = "scale(0.33, 0.33) rotate("+a+"deg) translateX(-28.8%) perspective("+size/2+"px) rotateY(60deg)";
+			if (i == 0) { canvas = o; }
+			sides.push(o);
+		}
+	}
+	
+	function updateSides() {
+		for (var i=1; i<sides.length; i++) {
+			var o = sides[i];
+			var ctx = o.getContext("2d");
+			ctx.clearRect(0,0,size,size);
+			ctx.drawImage(canvas, 0, 0);
+		}
+	}
+	
+	function resize(event) {
+		var w = event.size.width, h=event.size.height, r=Math.sqrt(w*w+h*h);
+		var s = Math.max(w/size, h/size);// / window.devicePixelRatio;
+		divTransform = "translate(-50%, -50%) scale("+s+","+s+")";
+		fade.graphics.clear().f("#000").dr(0,0,canvas.width,canvas.height);
+
+		if (div.style.transform == null || div.style.transform == "") {
+			div.style.transform = div.style.webkitTransform = divTransform;
+		}
+	}
+	init();
+
+	</script>
+
+<p>hanya jalan di:</p>
+<a href="https://jsfiddle.net/d4ww0okk/" target="_blank">https://jsfiddle.net/d4ww0okk/</a>
+</body></html>
