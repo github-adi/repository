@@ -1,0 +1,186 @@
+<html><head lang="en">
+    <meta charset="UTF-8">
+    <title>Hex Grid</title>
+
+    <script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+    <link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css" type="text/css">
+
+    <style>
+        canvas {
+            background-color: #112;
+        }
+    </style>
+</head>
+
+<body class="template">
+
+<canvas id="hexCanvas" width="1366" height="455" style="width: 1366px; height: 455px;"></canvas>
+
+<script type="text/javascript" src="https://lab.gskinner.com/content/grant.skinner/hex/Rnd.js"></script>
+<script type="text/javascript" src="https://code.createjs.com/easeljs-0.8.1.min.js"></script>
+<script type="text/javascript">var c = createjs;</script>
+<script type="text/javascript">
+    var radius = 5;
+
+    function drawHex(ctx, x, y, fill, m, s) {
+        var r = radius-1-s/2;
+        r *= m||1;
+        r = Math.ceil(r);
+        ctx.beginPath();
+        var p = Math.PI / 6 * 2;
+        for (var i = 0; i < 6; i++) {
+            var x1 = x + Math.cos(p * i) * r, y1 = y + Math.sin(p * i) * r;
+            if (i == 0) {
+                ctx.moveTo(x1, y1);
+            }
+            else {
+                ctx.lineTo(x1, y1);
+            }
+        }
+        ctx.closePath();
+        ctx.strokeStyle = fill;
+        ctx.lineWidth = s||1;
+        ctx.stroke();
+        return ctx;
+    }
+</script>
+<script type="text/javascript">
+    var canvas = hexCanvas, w, h, ctx, hexGrid, rows, cols;
+
+    var nextT = 0, fadeT = 0, hue = 0;
+    var count = 0;
+
+    function init() {
+        w = canvas.width, h = canvas.height, ctx = canvas.getContext("2d");
+        radius = Math.max(12,h/80);
+        hexGrid = buildGrid(w, h, radius);
+
+		c.Ticker.timingMode = c.Ticker.RAF;
+		c.Ticker.on("tick", tick, this);
+    }
+
+    function buildGrid(w, h, r) {
+        var rowh = r * Math.sin(Math.PI / 3);
+        var colW = r * 2 * 1.5;
+        rows = Math.ceil(h / rowh) + 1;
+        cols = Math.ceil(w / colW) + 1;
+        var grid = [];
+        for (var row = 0; row < rows; row++) {
+            var y = row * rowh;
+            for (var col = 0; col < cols; col++) {
+                var x = col * colW + (row % 2) * colW / 2;
+                var hex = {col: col, row: row, tol: 1 + Rnd.float(2), pot: 0};
+                hex.color = c.Graphics.getHSL(Rnd.float(198, 204), 20, Rnd.float(75, 80), Rnd.float(0.01, 0.03));
+                hex.x = x;
+                hex.y = y;
+                grid.push(hex);
+            }
+        }
+
+        // neighbors:
+        for (var i = 0, l = grid.length; i < l; i++) {
+            hex = grid[i];
+            var off = hex.row % 2;
+            var col = hex.col;
+            hex.neighbors = [
+                grid[i - cols * 2],
+                col + off < cols ? grid[i - cols + off] : null,
+                col + off < cols ? grid[i + cols + off] : null,
+                grid[i + cols * 2],
+                col + off > 0 ? grid[i + cols - 1 + off] : null,
+                col + off > 0 ? grid[i - cols - 1 + off] : null
+            ];
+        }
+
+        return grid;
+    }
+
+    function drawGrid(ctx, grid) {
+        for (var i = 0, l = grid.length; i < l; i++) {
+            var hex = grid[i];
+            if (!hex.clean) {
+            	var m = Rnd(0.6,1);
+                drawHex(ctx, hex.x, hex.y, hex.color, m, Rnd(1,radius/6));
+                drawHex(ctx, hex.x, hex.y, hex.color, Rnd(0.2,m-0.1), Rnd(1,radius/4));
+                hex.clean = true;
+            }
+        }
+    }
+
+    var watchList = [];
+    function tick(evt) {
+        var delta = evt.delta, grid = hexGrid;
+        var t = getTime();
+        for (var i = watchList.length - 1; i >= 0; i--) {
+            var hex = watchList[i];
+            if (!hex) { break; }
+            if (hex.t < t) {
+            	removeFromWatch(hex);
+                trigger(hex, t);
+            }
+        }
+
+        if (fadeT < t) {
+            ctx.globalCompositeOperation = "destination-in";
+            ctx.fillStyle = c.Graphics.getHSL(0, 0, 100, 0.95);
+            ctx.fillRect(0, 0, w, h);
+            ctx.globalCompositeOperation = "lighter";
+            fadeT = t + 250;
+        }
+
+        if (t > nextT) {
+            hex = hexGrid[Rnd.integer(cols) - cols + cols * rows]; //
+            hex.t = getTime() + Rnd.float(100, 200);
+            hex.from = 3;//Rnd.integer(6);
+            hex.hue = Rnd(360);
+            hex.lm = 0.7;
+            hex.chance = 1.2;
+            watchList.push(hex);
+            nextT = getTime() + 200;
+        }
+        drawGrid(ctx, hexGrid);
+    }
+
+    function trigger(hex, t) {
+        hex.val = Rnd(400,900);
+        hex.t = t + hex.val;
+        hex.clean = false;
+        var chance = hex.chance;
+        while (Rnd.boolean(chance)) {
+        	var turn = Rnd.bit(0.5) * Rnd.sign();
+            var dir = (hex.from + 3 + turn + 6) % 6;
+            var neighbor = hex.neighbors[dir];
+            chance *= 0.25;
+            if (!neighbor || neighbor.t >= t) {
+                continue;
+            }
+            neighbor.val = Rnd.float(0,1)*Rnd.float(0,1)*50+5;
+            neighbor.t = t;// + neighbor.val;
+            neighbor.from = (dir + 3) % 6;
+            neighbor.chance = hex.chance * 0.999;
+            neighbor.hue = hex.hue;// + Rnd(-3,3)+(dir-3);
+        	neighbor.color = c.Graphics.getHSL(neighbor.hue, 50, Rnd(20,35));
+            neighbor.lm = hex.lm;
+            watchList.push(neighbor);
+        }
+    }
+    
+    function removeFromWatch(hex) {
+    	// this could be improved by switching to a double linked list
+    	for (var i = watchList.length - 1; i >= 0; i--) {
+            if (hex === watchList[i]) {
+            	watchList.splice(i,1);
+            }
+        }
+    }
+
+    function getTime() {
+        return (new Date()).getTime();
+    }
+
+    LabTemplate.setupStageResize(canvas, init);
+    LabTemplate.loadComplete();
+
+</script>
+
+</body></html>
