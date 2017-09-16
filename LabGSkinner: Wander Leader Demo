@@ -1,0 +1,301 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Wander Leader Demo</title>
+	<script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+	<link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css">
+    <style type="text/css">
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+		.gui {
+			position: absolute;
+			top: 100px;
+			right: 0;
+		}
+		canvas {
+			position: absolute;
+			background-color:#000000;
+		}
+    </style>
+
+
+<style type="text/css">.dg ul{list-style:none;margin:0;padding:0;width:100%;clear:both}.dg.ac{position:fixed;top:0;left:0;right:0;height:0;z-index:0}.dg:not(.ac) .main{overflow:hidden}.dg.main{-webkit-transition:opacity 0.1s linear;-o-transition:opacity 0.1s linear;-moz-transition:opacity 0.1s linear;transition:opacity 0.1s linear}.dg.main.taller-than-window{overflow-y:auto}.dg.main.taller-than-window .close-button{opacity:1;margin-top:-1px;border-top:1px solid #2c2c2c}.dg.main ul.closed .close-button{opacity:1 !important}.dg.main:hover .close-button,.dg.main .close-button.drag{opacity:1}.dg.main .close-button{-webkit-transition:opacity 0.1s linear;-o-transition:opacity 0.1s linear;-moz-transition:opacity 0.1s linear;transition:opacity 0.1s linear;border:0;position:absolute;line-height:19px;height:20px;cursor:pointer;text-align:center;background-color:#000}.dg.main .close-button:hover{background-color:#111}.dg.a{float:right;margin-right:15px;overflow-x:hidden}.dg.a.has-save ul{margin-top:27px}.dg.a.has-save ul.closed{margin-top:0}.dg.a .save-row{position:fixed;top:0;z-index:1002}.dg li{-webkit-transition:height 0.1s ease-out;-o-transition:height 0.1s ease-out;-moz-transition:height 0.1s ease-out;transition:height 0.1s ease-out}.dg li:not(.folder){cursor:auto;height:27px;line-height:27px;overflow:hidden;padding:0 4px 0 5px}.dg li.folder{padding:0;border-left:4px solid rgba(0,0,0,0)}.dg li.title{cursor:pointer;margin-left:-4px}.dg .closed li:not(.title),.dg .closed ul li,.dg .closed ul li > *{height:0;overflow:hidden;border:0}.dg .cr{clear:both;padding-left:3px;height:27px}.dg .property-name{cursor:default;float:left;clear:left;width:40%;overflow:hidden;text-overflow:ellipsis}.dg .c{float:left;width:60%}.dg .c input[type=text]{border:0;margin-top:4px;padding:3px;width:100%;float:right}.dg .has-slider input[type=text]{width:30%;margin-left:0}.dg .slider{float:left;width:66%;margin-left:-5px;margin-right:0;height:19px;margin-top:4px}.dg .slider-fg{height:100%}.dg .c input[type=checkbox]{margin-top:9px}.dg .c select{margin-top:5px}.dg .cr.function,.dg .cr.function .property-name,.dg .cr.function *,.dg .cr.boolean,.dg .cr.boolean *{cursor:pointer}.dg .selector{display:none;position:absolute;margin-left:-9px;margin-top:23px;z-index:10}.dg .c:hover .selector,.dg .selector.drag{display:block}.dg li.save-row{padding:0}.dg li.save-row .button{display:inline-block;padding:0px 6px}.dg.dialogue{background-color:#222;width:460px;padding:15px;font-size:13px;line-height:15px}#dg-new-constructor{padding:10px;color:#222;font-family:Monaco, monospace;font-size:10px;border:0;resize:none;box-shadow:inset 1px 1px 1px #888;word-wrap:break-word;margin:12px 0;display:block;width:440px;overflow-y:scroll;height:100px;position:relative}#dg-local-explain{display:none;font-size:11px;line-height:17px;border-radius:3px;background-color:#333;padding:8px;margin-top:10px}#dg-local-explain code{font-size:10px}#dat-gui-save-locally{display:none}.dg{color:#eee;font:11px 'Lucida Grande', sans-serif;text-shadow:0 -1px 0 #111}.dg.main::-webkit-scrollbar{width:5px;background:#1a1a1a}.dg.main::-webkit-scrollbar-corner{height:0;display:none}.dg.main::-webkit-scrollbar-thumb{border-radius:5px;background:#676767}.dg li:not(.folder){background:#1a1a1a;border-bottom:1px solid #2c2c2c}.dg li.save-row{line-height:25px;background:#dad5cb;border:0}.dg li.save-row select{margin-left:5px;width:108px}.dg li.save-row .button{margin-left:5px;margin-top:1px;border-radius:2px;font-size:9px;line-height:7px;padding:4px 4px 5px 4px;background:#c5bdad;color:#fff;text-shadow:0 1px 0 #b0a58f;box-shadow:0 -1px 0 #b0a58f;cursor:pointer}.dg li.save-row .button.gears{background:#c5bdad url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAYAAAB/9ZQ7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQJJREFUeNpiYKAU/P//PwGIC/ApCABiBSAW+I8AClAcgKxQ4T9hoMAEUrxx2QSGN6+egDX+/vWT4e7N82AMYoPAx/evwWoYoSYbACX2s7KxCxzcsezDh3evFoDEBYTEEqycggWAzA9AuUSQQgeYPa9fPv6/YWm/Acx5IPb7ty/fw+QZblw67vDs8R0YHyQhgObx+yAJkBqmG5dPPDh1aPOGR/eugW0G4vlIoTIfyFcA+QekhhHJhPdQxbiAIguMBTQZrPD7108M6roWYDFQiIAAv6Aow/1bFwXgis+f2LUAynwoIaNcz8XNx3Dl7MEJUDGQpx9gtQ8YCueB+D26OECAAQDadt7e46D42QAAAABJRU5ErkJggg==) 2px 1px no-repeat;height:7px;width:8px}.dg li.save-row .button:hover{background-color:#bab19e;box-shadow:0 -1px 0 #b0a58f}.dg li.folder{border-bottom:0}.dg li.title{padding-left:16px;background:#000 url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;cursor:pointer;border-bottom:1px solid rgba(255,255,255,0.2)}.dg .closed li.title{background-image:url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlGIWqMCbWAEAOw==)}.dg .cr.boolean{border-left:3px solid #806787}.dg .cr.function{border-left:3px solid #e61d5f}.dg .cr.number{border-left:3px solid #2fa1d6}.dg .cr.number input[type=text]{color:#2fa1d6}.dg .cr.string{border-left:3px solid #1ed36f}.dg .cr.string input[type=text]{color:#1ed36f}.dg .cr.function:hover,.dg .cr.boolean:hover{background:#111}.dg .c input[type=text]{background:#303030;outline:none}.dg .c input[type=text]:hover{background:#3c3c3c}.dg .c input[type=text]:focus{background:#494949;color:#fff}.dg .c .slider{background:#303030;cursor:ew-resize}.dg .c .slider-fg{background:#2fa1d6}.dg .c .slider:hover{background:#3c3c3c}.dg .c .slider:hover .slider-fg{background:#44abda}
+</style></head>
+
+<body class="template" bgcolor="#000000">
+<canvas id="testCanvas" width="1366" height="455" style="width: 1366px; height: 455px;"></canvas><br>
+<div class="gui" id="gui-container"><div class="dg main" style="width: 245px;"><ul><li class="folder"><div class="dg"><ul><li class="title">Particle</li><li class="cr string"><div><span class="property-name">particle</span><div class="c"><select><option value="rose">rose</option><option value="green">green</option></select></div></div></li></ul></div></li><li class="folder"><div class="dg"><ul><li class="title">effects</li><li class="cr number has-slider"><div><span class="property-name">fade</span><div class="c"><div><input type="text"></div><div class="slider"><div class="slider-fg" style="width: 100%;"></div></div></div></div></li><li class="cr string"><div><span class="property-name">effect</span><div class="c"><select><option value="snake">snake</option><option value="explode">explode</option><option value="gravity">gravity</option><option value="wind">wind</option></select></div></div></li><li class="cr string"><div><span class="property-name">lighting</span><div class="c"><select><option value="lighten">lighten</option><option value="none">none</option></select></div></div></li></ul></div></li><li class="cr function"><div><span class="property-name">addWander</span><div class="c"><div class="button"></div></div></div></li><li class="cr function"><div><span class="property-name">removeWander</span><div class="c"><div class="button"></div></div></div></li><li class="cr boolean"><div><span class="property-name">follow</span><div class="c"><input type="checkbox"></div></div></li></ul><div class="close-button" style="width: 245px;">Close Controls</div></div></div>
+<script src="https://code.createjs.com/easeljs-0.8.1.min.js"></script>
+<script src="https://code.createjs.com/preloadjs-0.6.1.min.js"></script>
+<script src="https://lab.gskinner.com/content/sebastian.derossi/wander/libs/dat.gui.min.js"></script>
+<script src="https://code.createjs.com/tweenjs-0.6.1.min.js"></script>
+<script src="https://lab.gskinner.com/content/sebastian.derossi/wander/Rnd.js"></script>
+<script src="https://lab.gskinner.com/content/sebastian.derossi/wander/Wander.js"></script>
+<script>
+
+		var canvas, stage;
+		var bg;
+		var leader;
+		var wanderLeader;
+		var followers;
+		var settings;
+		var fps = 30;
+		var images;
+		var max = 3;
+		var effectsData = [ 'snake', 'explode', 'gravity', 'wind'];
+		var lightingData = [ 'lighten', 'none'];
+		var particlesData = [ 'rose', 'green'];
+		var mouseMove = null;
+
+		init();
+
+		function init() {
+			//check to see if we are running in a browser with touch support
+			stage = new createjs.Stage("testCanvas");
+			createjs.Touch.enable(stage);
+			canvas = document.getElementById("testCanvas");
+			followers = [];
+
+			images = images||{};
+
+            settings = {
+				fade:1,
+				effect:'snake',
+				particle: "rose",
+				lighting: "none",
+				addWander:handleAddWander,
+				removeWander:handleRemoveWander,
+				follow:false
+            };
+			if (!glab.Capabilities.isMobile) {
+				max = 5;
+				var gui = new dat.GUI({ autoPlace: false });
+				var guiContainer = document.getElementById('gui-container');
+				guiContainer.appendChild(gui.domElement);
+
+				var particles = gui.addFolder("Particle");
+				particles.add(settings, 'particle',particlesData);
+
+				var effects = gui.addFolder("effects");
+				effects.add(settings, 'fade', 0, 1).onChange(handleFadeChange);
+				effects.add(settings, 'effect', effectsData );
+				effects.add(settings, 'lighting', lightingData );
+				gui.add(settings, 'addWander');
+				gui.add(settings, 'removeWander');
+				gui.add(settings, 'follow').onChange(handleFollowMouse);
+
+				particles.open();
+				effects.open();
+			} else {
+				randomSettings();
+				mouseDown = stage.on("stagemousedown", handleMouseDown);
+				mouseUp = stage.on("stagemouseup", handleMouseUp);
+			}
+
+
+			createjs.Ticker.timingMode = createjs.Ticker.RAF;
+            createjs.Ticker.framerate = fps;
+
+			lq = new createjs.LoadQueue(false);
+			lq.on("complete", handleComplete, this);
+			lq.on("fileload", handleFileLoad, this);
+			lq.loadManifest([
+					{id:"rose", src:"https://lab.gskinner.com/content/sebastian.derossi/wander/images/rose.png"},
+					{id:"green", src:"https://lab.gskinner.com/content/sebastian.derossi/wander/images/green.png"}
+				]
+			)
+        }
+
+		function handleMouseDown(event) {
+			randomSettings();
+		}
+
+		function handleMouseUp(event) {
+		}
+
+		function randomSettings() {
+			settings.fade = Math.random();
+			settings.effects = effectsData[Math.random()*effectsData.length|0];
+			settings.lighting = lightingData[(Math.random() < 0.5) ? 0 : 1];
+			settings.particle = particlesData[(Math.random() < 0.5) ? 0 : 1];
+		}
+
+		function handleLightingChange(event) {
+			settings.lighting = event.value;
+		}
+
+		function handleEffectChange(event) {
+			settings.effect = event.value;
+		}
+
+		function handleParticleChange(event) {
+			settings.particle = event.value;
+		}
+
+		function handleResize(event) {
+			wanderLeader.targetX = event.size.width >> 1;
+			wanderLeader.targetY = event.size.height >> 1;
+			wanderLeader.outerRadius = Math.min(event.size.width, event.size.height)/2;
+			wanderLeader.innerRadius = wanderLeader.outerRadius/2;
+
+			for(var i=0;i<followers.length;i++) {
+				var w = followers[i];
+				w.targetX = wanderLeader.x;
+				w.targetY = wanderLeader.y;
+				w.outerRadius = wanderLeader.outerRadius;
+				w.innerRadius = wanderLeader.innerRadius;
+			}
+
+			bg.graphics.clear().f("#000000").dr(0, 0, canvas.width, canvas.height);
+			bg.cache(0, 0, canvas.width, canvas.height);
+		}
+
+		function handleFileLoad(event) {
+			if (event.item.type == "image") { images[event.item.id] = event.result; }
+		}
+
+		function handleComplete (event) {
+			createjs.Ticker.addEventListener("tick", tick);
+			createBG();
+
+			createLeader();
+
+			handleAddWander();
+			stage.addEventListener("resize", handleResize);
+			LabTemplate.loadComplete();
+			LabTemplate.setupStageResize(stage);
+
+		}
+
+		function handleReset(event) {
+			stage.removeAllChildren();
+			createBG();
+			createLeader();
+			handleAddWander();
+		}
+
+		function createLeader() {
+			leader = new createjs.Shape();
+			leader.x = canvas.width>>1;
+			leader.y = canvas.height>>1;
+			var outerRadius = Math.min(canvas.width, canvas.height)/2;
+			var innerRadius = outerRadius/2;
+
+			wanderLeader = new Wander(leader, {speed:15,outerRadius:outerRadius,
+										targetX:canvas.width>>1, targetY:canvas.height>>1,
+										innerRadius:innerRadius,varyRotation:0.4});
+		}
+
+		function createBG() {
+			bg = new createjs.Shape();
+			bg.graphics.f("#000000").dr(0, 0, canvas.width, canvas.height);
+			bg.cache(0, 0, canvas.width, canvas.height);
+			bg.alpha = settings.fade;
+			stage.addChild(bg);
+		}
+
+		function handleFadeChange(num) {
+			stage.autoClear = num == 1 ? true : false;
+			settings.fade = num;
+			bg.alpha = settings.fade;
+		}
+
+		function handleFollowMouse() {
+			settings.follow = !settings.follow;
+		}
+
+		function handleRemoveWander() {
+			if (stage.getNumChildren() > 1) {
+				stage.removeChildAt(1);
+				followers.shift();
+			}
+		}
+
+        function handleAddWander() {
+			createFollower();
+        }
+
+        function createFollower() {
+			if (followers.length == max) { return }
+			var s = new createjs.Shape();
+			s.x = leader.x;
+			s.y = leader.y;
+
+			var swarmCanvas = new createjs.Container();
+			var outerRadius = Math.min(canvas.width, canvas.height)/2;
+			var innerRadius = outerRadius/2;
+			var w = new Wander(s,{speed:15, outerRadius:outerRadius,
+				targetObject:leader, data:{canvas:swarmCanvas},
+				rotationLimit:5+Math.random()*15 | 0,
+				innerRadius:innerRadius ,varyRotation:0.4, onChange:onChange});
+
+			followers.push(w);
+			stage.addChild(swarmCanvas);
+        }
+
+        function onChange(wander) {
+			var target = wander.target;
+			var data = wander.data;
+			var bmp = new createjs.Bitmap(images[settings.particle]);
+			bmp.compositeOperation = settings.lighting;
+			bmp.x = target.x;
+			bmp.y = target.y;
+
+			bmp.regX = bmp.image.width>>1;
+			bmp.regY = bmp.image.height>>1;
+			bmp.scaleX = bmp.scaleY = 0;
+
+			data.canvas.addChild(bmp);
+			if (settings.effect == "snake") {
+				createjs.Tween.get(bmp).to({scaleX:1, scaleY:1, rotation:Math.random()*180}, 1500, createjs.Ease.cubicOut)
+						.wait(100).to({scaleX:0, scaleY:0, rotation:0}, 1000)
+						.call(killBox, [{data:data, ref:bmp}]);
+			} else if(settings.effect == "explode") {
+				createjs.Tween.get(bmp).to({scaleX:1, scaleY:1, rotation:Math.random()*180}, 1000, createjs.Ease.cubicOut)
+						.wait(50).to({
+									scaleX:0,
+									scaleY:0,
+									rotation:0,
+									x:Rnd.float(-100, (canvas.width)+100),
+									y:Rnd.float(-100, (canvas.height)+100)},
+									1500).call(killBox, [{data:data, ref:bmp}]);
+			} else if(settings.effect == "gravity") {
+				createjs.Tween.get(bmp).to({scaleX:1, scaleY:1, rotation:Math.random()*500}, 2500, createjs.Ease.cubicOut)
+						.wait(50).to({scaleX:0, scaleY:0, rotation:0, y:-Math.random()*500}, 2500)
+						.call(killBox, [{data:data, ref:bmp}]);
+			}
+
+			else if(settings.effect == "wind") {
+				createjs.Tween.get(bmp).to({scaleX:1, scaleY:1, rotation:Math.random()*500}, 1500, createjs.Ease.cubicOut)
+						.wait(50).to({scaleX:0, scaleY:0, rotation:0, x:-Math.random()*400}, 2500)
+						.call(killBox, [{data:data, ref:bmp}]);
+			}
+
+        }
+
+        function killBox(targetObj) {
+			if (targetObj.data) {
+				var canvas = targetObj.data.canvas;
+				canvas.removeChild(targetObj.ref);
+			}
+        }
+
+		function tick(event) {
+			var t = event.delta/(1000/fps);
+			wanderLeader.update(t);
+			for(var i=0;i<followers.length;i++) {
+				followers[i].update(t);
+			}
+			if (settings.follow) {
+				wanderLeader.targetX = stage.mouseX;
+				wanderLeader.targetY = stage.mouseY;
+			}
+			stage.update();
+		}
+
+    </script>
+
+
+</body></html>
