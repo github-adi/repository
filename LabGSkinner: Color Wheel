@@ -1,0 +1,136 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Color Wheel</title>
+
+    <script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+    <link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css" type="text/css">
+    <style>
+         canvas {
+             background-color: #111122;
+         }
+    </style>
+</head>
+
+<body class="template">
+
+<canvas id="canvas" width="1366" height="455" style="background: rgb(10, 30, 10); width: 1366px; height: 455px;"></canvas>
+
+<!-- Controls sample -->
+<div class="controls">
+	<a href="" onclick="toggleShadow()" class="no-mobile">Shadow</a>
+	<a href="" onclick="toggleMode()" class="no-mobile">Mode</a>
+	<a href="" onclick="redraw()">Redraw</a>
+</div>
+
+<!-- CreateJS libs. Include what you need -->
+<script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+
+<!-- Custom script (inline or external) -->
+<script>
+
+	var stage = new createjs.Stage("canvas");
+	createjs.Ticker.addEventListener("tick", stage);
+    stage.on("resize", handleResize);
+
+	var s = stage.addChild(new createjs.Shape().set({x:300,y:300}));
+    var modeText = stage.addChild(new createjs.Text("monochrome", "bold 20px Arial", "#fff").set({textAlign:"center", alpha:0.3}));
+
+    var tweens = [], total = 10, shadow = new createjs.Shadow("#000",2,2,20);
+    if (!glab.Capabilities.isIOS) { toggleShadow(true); }
+
+    var colors = ["#fff", "#f00", "#f90", "#ff0", "#0f0", "#00f", "#90f", "#f0f"];
+
+    var mode = 0;
+    function toggleMode() {
+        mode = mode + 1;
+        if (mode > 3) { mode = 0; }
+
+        var t = "monochrome";
+        switch (mode) {
+            case 1: t = "hue shift"; break;
+            case 2: t = "rainbow"; break;
+            case 3: t = "random"; break;
+        }
+        modeText.text = t;
+
+        redraw();
+    }
+
+    function redraw() {
+        s.graphics.clear();
+        for (var i= 0, l=tweens.length; i<l; i++) { createjs.Tween.removeTweens(tweens[i].target); }
+        tweens.length = 0;
+
+        var rainbow = (mode == 2);
+
+        total = Math.random()*15+10|0;
+        if (rainbow) { total = colors.length; }
+
+        rescale();
+
+        var hue = Math.random() * 360,
+                lum = 50;
+        for (var i=1; i<total; i++) {
+
+            if (mode == 0) { lum = i/total*50+10; } // Lum shift
+            if (mode == 1) { hue = i/total*255; } // Hue Shift
+            if (mode == 3) { hue = Math.random() * 360; lum = Math.random() * 100; } // Random
+
+            var color = createjs.Graphics.getHSL(hue, 100, lum);
+
+            if (rainbow) {
+                color = colors[i];
+            }
+
+            s.graphics.ss(total+Math.random()*20).s(color);
+            var a = Math.random()*Math.PI*2;
+            var arcCommand = s.graphics.arc(0,0,i*15+8,a,a).command;
+
+            var dir = (Math.random()>0.33 ? 1 : -1)
+            var tween = createjs.Tween.get(arcCommand, {loop:true})
+                .to({endAngle:a+Math.PI*2 * dir}, Math.random()*1500+3500, createjs.Ease.easeOut)
+                .to({startAngle:a+Math.PI*2*dir}, Math.random()*1500+3500, createjs.Ease.easeIn);
+            tweens.push(tween);
+        }
+        createjs.Tween.get(s, {loop:true}).to({rotation:-360}, 15000, createjs.Ease.easeOut);
+        stage.canvas.style.background = createjs.Graphics.getHSL(hue+180, 50,8);
+    }
+
+    redraw();
+    createjs.Tween.get(s, {loop: true}).to({rotation: -360}, 3000);
+
+    var w = 100, h = 100;
+
+	// Resize event when you have EaselJS/Stage
+	function handleResize(event) {
+        w = event.size.width; h = event.size.height;
+		s.x = w/2;
+		s.y = h/2;
+        modeText.x = s.x;
+        modeText.y = h - 65;
+        rescale();
+	}
+
+    function rescale() {
+        var diameter = total * 38;
+        var scale = Math.min(w / diameter, h / diameter);
+        s.scaleX = s.scaleY = scale;
+    }
+
+    function toggleShadow(show) {
+        if (show == true || (show == null && s.shadow == null)) {
+            s.shadow = shadow;
+        } else if (show === false || (show == null && s.shadow != null)) {
+            s.shadow = null;
+        }
+    }
+
+	LabTemplate.setupStageResize(stage);
+
+	// Call this if you have no assets to load. Otherwise call it when your content is fully loaded.
+	LabTemplate.loadComplete();
+
+</script>
+
+
+</body></html>
