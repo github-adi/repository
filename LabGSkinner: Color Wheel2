@@ -1,0 +1,140 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Color Wheel</title>
+
+    <script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+    <link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css" type="text/css">
+    <style>
+        canvas {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body class="template">
+
+<canvas id="canvas" width="1366" height="455" style="width: 1366px; height: 455px;"></canvas>
+<div class="controls" data-label="options:">
+    <a href="https://lab.gskinner.com/content/lanny.mcnie/color_swirl/index.html#" onclick="reset()">Run Again</a>
+    <!--<a href="#" onclick="handleSave()" class="no-mobile">Save Image</a>-->
+</div>
+
+<script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+
+<script>
+    var stage = new createjs.Stage("canvas");
+    stage.autoClear = false;
+    var tickListener;// = createjs.Ticker.on("tick", stage);
+    createjs.Ticker.framerate = 480;
+
+    var c = stage.addChild(new createjs.Container());
+
+    var count = 0,
+            MAX_LOOPS = 8,
+            drawLoops = MAX_LOOPS;
+
+    // The shape is what is drawn each "frame"
+    var s = new createjs.Shape();
+    var stroke = s.graphics.ss(0.2, null, null, null, false);
+    var color = s.graphics.s("#fff").command;
+    var rect = s.graphics.dr(-50,-50,100,100).command;
+    s.compositeOperation = "multiply";
+    c.addChild(s);
+
+    // Background adds a slight fade-back
+    var bg = new createjs.Shape();
+    bg.graphics.f("#000").dr(0,0,stage.canvas.width,stage.canvas.height);
+    bg.alpha = 0.001;
+    stage.addChild(bg);
+
+    var tween = createjs.Tween.get(s, {loop:true})
+        .to({rotation:0, scaleX:0.05, scaleY:0.01, alpha:0}, 0, createjs.Ease.quadInOut)
+        .to({rotation:400, scaleX:10, scaleY:10, alpha:1}, 4000, createjs.Ease.quadOut)
+        .call(change);
+
+    stage.on("resize", reset);
+
+    setTimeout(function() {
+        LabTemplate.setupStageResize(stage);
+    }, 500);
+
+    function change() {
+        // Change Color
+        var r = (Math.random()*16 | 0) * 16;
+        var g = (Math.random()*16 | 0) * 16;
+        var b = (Math.random()*16 | 0) * 16;
+        color.style = createjs.Graphics.getRGB(r,g,b);
+        colors.push(color.style);
+
+        // Change Size
+        var x =  Math.random() * 50 + 80;
+        var y = x;//Math.random() * 50 + 50; // Square for now
+        rect.x = -x/2;
+        rect.y = -y/2;
+        rect.w = x;
+        rect.h = y;
+
+        // Limit
+        if (count++ >= drawLoops) {
+            tween.setPaused(true);
+            createjs.Ticker.off("tick", tickListener);
+            tickListener = null;
+        }
+    }
+
+    var colors;
+    function reset(event) {
+        stage.clear();
+
+        count = 0;
+        drawLoops = MAX_LOOPS + (Math.random() * (MAX_LOOPS * 0.4 - 0.2) | 0);
+        colors = [];
+
+        tween.setPosition(0);
+        tween.setPaused(false);
+
+        if (tickListener == null) {
+            tickListener = createjs.Ticker.on("tick", stage);
+        }
+
+        // Scale the container
+        c.x = stage.canvas.width/2;
+        c.y = stage.canvas.height/2;
+
+        var scale = Math.max(stage.canvas.width, stage.canvas.height)/600;
+        c.scaleX = c.scaleY = scale;
+        stroke.thickness = scale;
+
+        // Reset the Shape
+        s.scaleX = s.scaleY = 0;
+        s.alpha = 0;
+        s.rotation = 0;
+
+        change();
+
+        return false;
+    }
+
+    function again() {
+        count = 0;
+        drawLoops = 1;
+        createjs.Ticker.on("tick", tickListener);
+        tween.setPaused(false);
+    }
+
+    function handleSave(event) {
+        var img = stage.toDataURL("#000");
+        try {
+            window.open(img, "Title");
+        } catch (e) {
+
+        }
+        return false;
+    }
+
+    LabTemplate.loadComplete();
+
+</script>
+
+
+</body></html>
