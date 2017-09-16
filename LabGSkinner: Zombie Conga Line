@@ -1,0 +1,21 @@
+<html><head>
+	<title>Zombie Conga Line</title>
+    <script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+    <link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css">
+    <style>
+        canvas { background-color: #fff; }
+    </style>
+</head>
+<body class="template">
+	<canvas id="canvas" width="1366" height="455" style="width: 1366px; height: 455px;"></canvas>
+
+	<script src="https://code.createjs.com/createjs-2015.05.21.combined.js"></script>
+	<script src="https://code.createjs.com/movieclip-0.8.1.min.js"></script>
+
+	<script src="https://lab.gskinner.com/content/grant.skinner/zombie-conga-line/assets/ZombieArt.js"></script>
+	<script src="https://lab.gskinner.com/content/grant.skinner/zombie-conga-line/js/Rnd.js"></script>
+	<script src="https://lab.gskinner.com/content/grant.skinner/zombie-conga-line/js/Wander.js"></script>
+	<script src="https://lab.gskinner.com/content/grant.skinner/zombie-conga-line/js/Zombie.js"></script>
+	<script src="https://lab.gskinner.com/content/grant.skinner/zombie-conga-line/js/ZCL.js"></script>
+
+</body></html>
