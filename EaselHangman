@@ -1,0 +1,257 @@
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>EaselHangman - jsFiddle demo by jamestyner</title>
+  
+  <script type="text/javascript" src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_4/createjs-2013.02.12.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_4/result-light.css">
+      
+      <script type="text/javascript" src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_4/jquery-1.10.1.min.js"></script>
+  
+  <style type="text/css">
+    #wrapper {
+    width: 450px;
+}
+  </style>
+
+<script type="text/javascript">//<![CDATA[ 
+window.onload=function(){
+var canvas = document.getElementById("testCanvas");
+var stage = new createjs.Stage(canvas);
+
+var alphabetArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var wordList = ["apple", "orange", "dog", "rabbit", "nettuts", "envato", "jquery", "php", "laravel"];
+var theWord = "";
+var guessWord = [];
+var newGuessWord = "";
+var numWrong = 0;
+var gameOver = false;
+var guessedLetters = [];
+var hangmanShape = new createjs.Shape();
+var theWordText = new createjs.Text("", "bold 35px Arial", "#000000");
+var theOutComeText = new createjs.Text("", "bold 50px Arial", "#FF0000");
+theOutComeText.x = 90;
+theOutComeText.y = 200;
+theWordText.x = 50;
+theWordText.y = 27;
+stage.addChild(theWordText, theOutComeText);
+stage.addChild(hangmanShape);
+createjs.Ticker.addEventListener("tick", handleTick);
+function handleTick(event) {
+  stage.update()
+}
+
+
+function startGame() {
+    hangmanShape.graphics.clear();
+    createGuessWord();
+    drawCanvas();
+    theOutComeText.text = "";
+    enableButtons();
+    addKeyListener();
+    
+}
+
+function createGuessWord() {
+    guessWord = new Array();
+    var randomWord = Math.floor(Math.random() * wordList.length);
+    theWord = wordList[randomWord];
+    for (var i = 0; i < theWord.length; i++) {
+        guessWord[i] = "?";
+    }
+    newGuessWord = guessWord.join("");
+}
+
+function drawGallows() {
+    hangmanShape.graphics.moveTo(120, 305);
+    hangmanShape.graphics.lineTo(280, 305);
+    hangmanShape.graphics.moveTo(260, 305);
+    hangmanShape.graphics.lineTo(260, 70);
+    hangmanShape.graphics.lineTo(180, 70);
+    hangmanShape.graphics.lineTo(180, 96);
+
+
+}
+
+function drawHead() {
+    hangmanShape.graphics.arc(180, 120, 23, 0, Math.PI * 2, false);
+    hangmanShape.graphics.closePath();
+
+}
+
+function drawBody() {
+    hangmanShape.graphics.moveTo(180, 143);
+    hangmanShape.graphics.lineTo(180, 248);
+
+}
+
+function drawArm1() {
+    hangmanShape.graphics.moveTo(180, 175);
+    hangmanShape.graphics.lineTo(142, 167);
+
+}
+
+function drawArm2() {
+    hangmanShape.graphics.moveTo(180, 175);
+    hangmanShape.graphics.lineTo(218, 167);
+
+}
+
+function drawLeg1() {
+    hangmanShape.graphics.moveTo(180, 245);
+    hangmanShape.graphics.lineTo(145, 270);
+
+}
+
+function drawLeg2() {
+    hangmanShape.graphics.moveTo(180, 245);
+    hangmanShape.graphics.lineTo(215, 270);
+
+}
+
+function drawHangman(drawNum) {
+    hangmanShape.graphics.setStrokeStyle(1).beginStroke("rgba(0,0,0,1)");
+    switch (drawNum) {
+        case 0:
+            drawGallows();
+            break;
+        case 1:
+            drawHead();
+            break;
+        case 2:
+            drawBody();
+            break;
+        case 3:
+            drawArm1();
+            break;
+        case 4:
+            drawArm2();
+            break;
+        case 5:
+            drawLeg1();
+            break;
+        case 6:
+            drawLeg2();
+            break;
+    }
+}
+
+function drawCanvas() {
+   hangmanShape.graphics.clear();
+
+    for (var i = 0; i <= numWrong; i++) {
+        drawHangman(i);
+    }
+
+    if (gameOver) {
+        disableButtons();
+        removeKeyListener();
+        theOutComeText.text = "You Lose";
+        theOutComeText.color = "#FF0000";
+        theWordText.text = theWord;
+        setTimeout(function(){ doGameOver() }, 3000);
+    } else {
+        theWordText.text = newGuessWord;
+    }
+
+}
+for (var i = 0; i < alphabetArray.length; i++) {
+    $('<button/>', {
+        text: alphabetArray[i],
+        id: 'btn_' + alphabetArray[i],
+        width: "30px",
+        click: function (event) {
+            checkGuess(event, false);
+        }
+    }).appendTo("#buttondiv");
+}
+
+function disableButtons() {
+    $("#buttondiv button").attr("disabled", "disabled");
+}
+disableButtons();
+
+function enableButtons() {
+    $("#buttondiv button").removeAttr("disabled");
+}
+
+function addKeyListener() {
+    $(document).on("keyup", function (event) {
+        checkGuess(event, true);
+
+    });
+}
+
+function removeKeyListener() {
+    $(document).off("keyup");
+}
+function checkGuess(event,isKeyPress){
+		var currentButton;
+		var theLetter;
+		var RegEx = /[a-zA-Z]/;
+	    var correctGuess = false;
+
+    if(isKeyPress){
+		currentButton = "btn_"+String.fromCharCode(event.keyCode);
+		theLetter = $("#"+currentButton).text().toLowerCase();
+		$("#"+currentButton).attr("disabled", "disabled");
+		if(!RegEx.test(theLetter)){
+			return;
+		}
+	}else{
+	   currentButton = $(event.target);
+	   $(currentButton).attr("disabled", "disabled");
+	   theLetter = $(currentButton).text().toLowerCase();
+	}
+	
+	if(guessedLetters.indexOf(theLetter) >=0){
+		return;
+	}else{
+		guessedLetters.push(theLetter);
+	}
+		
+		for(var i =0;i<theWord.length;i++){
+			if(theWord.charAt(i) == theLetter){
+				guessWord[i] = theLetter;
+				correctGuess = true;
+			}
+		}
+			newGuessWord = guessWord.join("");
+			
+		if(!correctGuess){
+			numWrong++
+		}
+		if(newGuessWord == theWord){
+		  disableButtons();
+		  removeKeyListener();
+          theOutComeText.text = "YOU WIN";
+          theOutComeText.color = "#00FF00";
+          theWordText.text = theWord;
+		  setTimeout(function(){ doGameOver() },3000);
+		}
+		if(numWrong == 6){
+			gameOver = true;
+		}
+		drawCanvas();
+    }
+	function doGameOver(){
+	numWrong = 0;
+	gameOver = false;
+	guessedLetters = new Array();
+    startGame();
+	}
+startGame();
+}//]]>  
+
+</script>
+
+
+</head>
+<body>
+  <div id="wrapper">
+    <canvas id="testCanvas" width="400" height="350"></canvas>
+    <div id="buttondiv"><button id="btn_A" style="width: 30px;">A</button><button id="btn_B" style="width: 30px;">B</button><button id="btn_C" style="width: 30px;">C</button><button id="btn_D" style="width: 30px;">D</button><button id="btn_E" style="width: 30px;">E</button><button id="btn_F" style="width: 30px;">F</button><button id="btn_G" style="width: 30px;">G</button><button id="btn_H" style="width: 30px;">H</button><button id="btn_I" style="width: 30px;">I</button><button id="btn_J" style="width: 30px;">J</button><button id="btn_K" style="width: 30px;">K</button><button id="btn_L" style="width: 30px;">L</button><button id="btn_M" style="width: 30px;">M</button><button id="btn_N" style="width: 30px;">N</button><button id="btn_O" style="width: 30px;">O</button><button id="btn_P" style="width: 30px;">P</button><button id="btn_Q" style="width: 30px;">Q</button><button id="btn_R" style="width: 30px;">R</button><button id="btn_S" style="width: 30px;">S</button><button id="btn_T" style="width: 30px;">T</button><button id="btn_U" style="width: 30px;">U</button><button id="btn_V" style="width: 30px;">V</button><button id="btn_W" style="width: 30px;">W</button><button id="btn_X" style="width: 30px;">X</button><button id="btn_Y" style="width: 30px;">Y</button><button id="btn_Z" style="width: 30px;">Z</button></div>
+</div>
+
+</body></html>
+<iframe src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_4/index.html" width="600" height="600"></iframe>
