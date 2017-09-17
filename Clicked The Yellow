@@ -1,0 +1,60 @@
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Clicked The Yellow: EaselJS Shapes - jsFiddle demo by jamestyner</title>
+  
+  <script type="text/javascript" src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_2/createjs-2013.09.25.combined.js"></script>
+    
+  <link rel="stylesheet" type="text/css" href="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_2/result-light.css">
+  
+  <style type="text/css">
+    
+  </style>
+  
+<script type="text/javascript">//<![CDATA[ 
+window.onload=function(){
+var canvas = document.getElementById("testCanvas");
+var stage = new createjs.Stage(canvas);
+
+//Must enable MouseOver for mouseover/mouseout, rollover/rollout events
+stage.enableMouseOver(10)
+
+
+
+function drawTheShapes() {
+    for(var i=0;i<15;i++){
+    var theShape = new createjs.Shape();
+    theShape.graphics.setStrokeStyle(1).beginStroke(createjs.Graphics.getRGB(0, 0, 0)).beginFill(createjs.Graphics.getRGB(255,255,51)).drawCircle(0, 0, 20).moveTo(-20,0).lineTo
+(20,0);
+    theShape.x = Math.floor(Math.random() * 600);
+    theShape.y = Math.floor(Math.random() * 300);
+    theShape.scaleX = Math.floor(Math.random() * 2)+1;
+    theShape.scaleY = Math.floor(Math.random() * 2)+1;
+    theShape.alpha = Math.random() * 1;
+    theShape.rotation = Math.floor(Math.random() * 360);
+    theShape.on("click",handleClick,null,false);            
+    theShape.on("mouseout",handleMouseOut,null,false);
+    stage.addChild(theShape);
+    }
+    stage.update();
+}
+
+function handleClick(e){
+    alert("Muhammd Adi Nugroho,S.Adm.Neg.: You clicked");
+}
+
+function handleMouseOut(e){
+    console.log("You Moused Out");
+}
+
+drawTheShapes();
+}//]]>  
+
+</script>
+
+
+</head>
+<body>
+  <canvas id="testCanvas" width="600" height="300"></canvas>
+
+</body></html>
+<iframe src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_2/index.html" width="600" height="300"></iframe>
