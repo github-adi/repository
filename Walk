@@ -1,0 +1,152 @@
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Walk - jsFiddle demo by jamestyner</title>
+  
+  <script type="text/javascript" src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_6/createjs-2013.09.25.combined.js"></script>
+   
+  <link rel="stylesheet" type="text/css" href="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_6/result-light.css">
+      
+      <script type="text/javascript" src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_6/imagestrings.js"></script>
+      
+  <style type="text/css">
+    
+  </style>
+  
+<script type="text/javascript">//<![CDATA[ 
+window.onload=function(){
+//Sprites from http://kenney.nl/post/platformer-art
+
+var canvas = document.getElementById("Canvas");
+stage = new createjs.Stage(canvas)
+var stageHeight = 300;
+var stageWidth = 600;
+var blockHeight = 70;
+var characterHeight = 96;
+var characterWidth = 75;
+var KEYCODE_SPACE = 32;
+var KEYCODE_LEFT = 37;
+var KEYCODE_RIGHT = 39;
+var jumpSpeed = 1000;
+var xVel = 5;
+var yVel = 0;
+var gravity = 1.2;
+var isJumping = false;
+var moveLeft = false;
+var moveRight = false;
+var characterGround = stageHeight - blockHeight - characterHeight;
+var character;
+var spriteSheet;
+var ground;
+var characterMoving = true;
+
+function setup() {
+    spritesheet = new createjs.SpriteSheet({
+			"images": [characterImage],
+			"frames": {"height": 96, "count": 10, "width": 75},
+            "animations": { run: [0,9]}
+		});
+		character = new createjs.Sprite(spritesheet);
+		character.framerate = 30; 
+        character.x = (stageWidth / 2) - characterWidth;
+        character.y = characterGround;
+        stage.addChild(character);
+    
+       ground = new createjs.Bitmap(groundImage);
+       for (i = 0; i < 8; i++) {
+        var tempBitMap = ground.clone();
+        tempBitMap.x = i * 70;
+        tempBitMap.y = stageHeight - blockHeight;
+        stage.addChild(tempBitMap);
+    }
+    
+    createjs.Ticker.addEventListener("tick", tick);
+    document.onkeydown = handleKeyDown;
+    document.onkeyup = handleKeyUp;
+
+}
+
+function handleKeyDown(e) {
+    switch (e.keyCode) {
+        case KEYCODE_SPACE:
+        case 87:  // W
+            jump();
+            break;
+        case KEYCODE_LEFT:
+        case 65:  // A
+            moveLeft = true;
+           character.play();
+            break;
+        case KEYCODE_RIGHT:
+        case 68:  // D
+            moveRight = true;
+           character.play();
+            break;
+    }
+ 
+}
+
+function handleKeyUp(e) {
+    switch (e.keyCode) {
+        case KEYCODE_LEFT:
+        case 65:  // A
+            moveLeft = false;
+            character.gotoAndStop(0);
+            break;
+        case KEYCODE_RIGHT:
+        case 68:  // D
+            moveRight = false;
+            character.gotoAndStop(0);
+            break;
+            
+    }
+}
+
+function jump() {
+    if (isJumping == false) {
+        yVel = -15;
+        isJumping = true;
+    }
+}
+
+function tick(event) {
+
+    if (moveLeft) {
+        character.x -= xVel;
+        if (character.scaleX > 0) {
+            character.scaleX *= -1;
+            character.x += characterWidth;
+        }
+     }else if (moveRight) {
+        character.x += xVel;
+        if (character.scaleX < 0) {
+            character.scaleX *= -1;
+            character.x -= characterWidth;
+        }
+        }
+
+    if (isJumping) {
+        yVel += gravity;
+        character.y += yVel;
+        
+        if (character.y > characterGround) {
+            character.y = characterGround;
+            yVel = 0;
+            isJumping = false;
+        }
+        
+        
+    }
+    
+    stage.update();
+}
+setup();
+}//]]>  
+
+</script>
+
+</head>
+<body>
+  <canvas id="Canvas" width="600" height="300"></canvas>
+  
+</body></html>
+<iframe src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_6/index.html" width="600" height="500"></iframe>
