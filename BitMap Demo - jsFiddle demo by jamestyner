@@ -1,0 +1,54 @@
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>BitMap Demo - jsFiddle demo by jamestyner</title>
+  
+  <script type="text/javascript" src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_7/createjs-2013.09.25.combined.js"></script>
+     
+  <link rel="stylesheet" type="text/css" href="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_7/result-light.css">
+      
+      <script type="text/javascript" src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_7/createimgstring.js"></script>
+      
+  <style type="text/css">
+    
+  </style>
+  
+<script type="text/javascript">//<![CDATA[ 
+window.onload=function(){
+var canvas = document.getElementById("testCanvas");
+var stage = new createjs.Stage(canvas);
+
+var container = new createjs.Container();
+stage.addChild(container);
+
+stage.on("stagemousedown",moveContainer,null,false);
+
+function setup(){
+    for(var i = 0;i<3;i++){
+        var tempBitMap = new createjs.Bitmap(logoImage);
+        tempBitMap.x = 0;
+        tempBitMap.y = i * 75;
+        
+        container.addChild(tempBitMap);
+    }
+    stage.update();
+    setTimeout(function(){stage.update()},3000);
+}
+
+function moveContainer(){
+    container.x +=20;
+    stage.update();
+}
+setup();
+
+
+}//]]>  
+
+</script>
+
+
+</head>
+<body>
+  <canvas id="testCanvas" width="600" height="300"></canvas>
+
+</body></html>
+<iframe src="https://tutsplus.github.io/jsfiddle-demos/using_createjs_easeljs_example_7/index.html" width="600" height="300"></iframe>
