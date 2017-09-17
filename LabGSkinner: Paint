@@ -1,0 +1,199 @@
+<html><head>
+	<meta charset="UTF-8">
+	<title>Paint</title>
+	<script src="https://lab.gskinner.com/content/assets/template.min.js"></script>
+	<link rel="stylesheet" href="https://lab.gskinner.com/content/assets/template.css">
+	<style>
+		canvas {
+			background-color:#FFFFFF;
+		}
+	</style>
+</head>
+
+<body class="template">
+<canvas id="canvas" width="1366" height="455" style="width: 1366px; height: 455px;"></canvas>
+<!-- Controls sample -->
+<div class="controls" data-label="Options">
+	<a href="https://lab.gskinner.com/content/sebastian.derossi/paint/paint3.html#" onclick="clearCanvas()">Clear</a>
+</div>
+<script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+<script src="https://code.createjs.com/movieclip-0.7.1.min.js"></script>
+<script src="https://lab.gskinner.com/content/sebastian.derossi/paint/Rnd.js"></script>
+<script src="https://lab.gskinner.com/content/sebastian.derossi/paint/Drip.js"></script>
+<script src="https://lab.gskinner.com/content/sebastian.derossi/paint/SplatTypes.js"></script>
+<script>
+	var canvas, stage;
+	var currentPaintCanvas = null;
+	var mouseMove = null;
+	var startIndex = 0;
+	var txt = null;
+	var scale = 1;
+	var index2 = 0;
+	var colors = [
+		createjs.Graphics.getRGB(50, 129, 255),
+		createjs.Graphics.getRGB(255, 0, 153),
+		createjs.Graphics.getRGB(140, 237, 255),
+		createjs.Graphics.getRGB(255,69,0),
+		createjs.Graphics.getRGB(56, 75, 81),
+		createjs.Graphics.getRGB(190, 255, 0),
+		createjs.Graphics.getRGB(27, 158, 217),
+		createjs.Graphics.getRGB(237, 15, 89),
+		createjs.Graphics.getRGB(248, 135, 48),
+		createjs.Graphics.getRGB(255, 61, 156),
+		createjs.Graphics.getRGB(219, 0, 176)
+	];
+
+	init();
+
+	function init() {
+		canvas = document.getElementById("canvas");
+		stage = new createjs.Stage(canvas);
+		stage.autoClear = true;
+		createjs.Touch.enable(stage);
+
+		LabTemplate.setupStageResize(stage);
+		LabTemplate.loadComplete();
+		stage.on("resize", handleResize);
+		showInstructions();
+	}
+
+	function showInstructions() {
+		selectedIndex = Rnd.float(0, colors.length-1) | 0;
+		var color = colors[selectedIndex];
+		txt = new createjs.Text("[ CLICK/TAP TO DRAW ]", "Bold 25px Arial", color);
+		stage.addChild(txt);
+		stage.update();
+		start();
+	}
+
+	function handleResize(event) {
+		var newSize = event.size;
+		if (txt != null) {
+			var b = txt.getBounds();
+			txt.x = newSize.width - b.width>>1;
+			txt.y = newSize.height - b.height>>1;
+		}
+		scale = Math.min(newSize.width/1024, newSize.height/920);
+		stage.update();
+	}
+
+	function start(event) {
+		index = 0;
+		index2 = 0; //SD:Keeps index of selected splats
+		mouseDown = stage.on("stagemousedown", handleMouseDown);
+		mouseUp = stage.on("stagemouseup", handleMouseUp);
+
+		paintCanvas = new createjs.Container();
+		stage.addChild(paintCanvas);
+		createjs.Ticker.setFPS(31);
+		createjs.Ticker.addEventListener("tick", onTick);
+		//SD:Reference to exported splat vectors
+		splats = [
+			{bounds:new createjs.Rectangle(-120.4,-138.7,240.9,277.4), class:lib.Splat1},
+			{bounds:new createjs.Rectangle(-106.1,-106.7,212,213.6),class:lib.Splat3},
+			{bounds:new createjs.Rectangle(-139.9,-142.6,279.9,285.4),class:lib.Splat4},
+			{bounds:new createjs.Rectangle(-126.2,-125,252.4,250.1),class:lib.Splat5},
+			{bounds:new createjs.Rectangle(-104.5,-105.8,209,211.6),class:lib.Splat6},
+			{bounds:new createjs.Rectangle(-82.4,-81.8,164.9,163.8),class:lib.Splat7}
+		]
+		splatImages = [];
+		for(var i=0;i<splats.length;i++) {
+			var item = splats[i];
+			var bounds = item.bounds;
+			var _splatClass = item.class;
+			var splat = new _splatClass("#000000");
+			splat.cache(bounds.x, bounds.y, bounds.width*scale, bounds.height*scale);
+			splatImages.push(splat);
+		}
+	}
+
+	function handleMouseDown(event) {
+		txt.visible = false;
+		if (mouseMove) {
+			stage.off("stagemousemove", mouseMove);
+		}
+		mouseMove = stage.on("stagemousemove", handleMouseMove);
+		selectedColor = colors[selectedIndex];
+		selectedIndex = ++index%colors.length;
+		selectedSplatIndex = ++index2%splats.length;
+		selectedSplat = splatImages[selectedSplatIndex];
+
+		//SD:Holds Splat graphic
+		var layer0 = new createjs.Container();
+		//SD:Holds Drip animation
+		var layer1 = new createjs.Container();
+
+		if (currentPaintCanvas != null) {
+			currentPaintCanvas.cache(0, 0, canvas.width, canvas.height);
+			currentPaintCanvas.removeAllChildren();
+		}
+
+		currentPaintCanvas = new createjs.Container();
+		currentPaintCanvas.addChild(layer0,layer1);
+		paintCanvas.addChild(currentPaintCanvas);
+
+		addSplat()
+	}
+
+	function addSplat () {
+		var colorShape = new createjs.Shape();
+		var bounds = splats[selectedSplatIndex].bounds;
+		colorShape.graphics.f(colors[selectedIndex]).dr(bounds.x, bounds.y, bounds.width, bounds.height);
+		var cont = new createjs.Container();
+		cont.addChild(selectedSplat);
+		cont.addChild(colorShape);
+
+		cont.cache(bounds.x, bounds.y, bounds.width, bounds.height);
+		cont.updateCache("destination-in");
+
+		var splat = new createjs.Bitmap(cont.cacheCanvas);
+		var _scale = (0.5+Math.random()*.55) *scale;
+		splat.regX = splat.image.width>>1;
+		splat.regY = splat.image.height>>1;
+		splat.scaleX = splat.scaleY = _scale;
+		splat.rotation = Rnd.float(-180,180);
+		currentPaintCanvas.getChildAt(0).addChild(splat);
+		splat.x = stage.mouseX;
+		splat.y = stage.mouseY;
+	}
+
+	function addDrip(x, y, color, scaleX, scaleY, layer) {
+		var drip = new lib.dripMC(color);
+		drip.scaleX = scaleX;
+		drip.scaleY = scaleY;
+		drip.x = x;
+		drip.y = y;
+
+		layer.addChild(drip)
+	}
+
+	function handleMouseMove(event) {
+		var scaleX = (.1 + Rnd.random())*scale;
+		var scaleY = (.1 + Rnd.random())*scale;
+		if ((Math.random()*10000)<1800) {
+			addDrip(stage.mouseX, stage.mouseY, colors[selectedIndex], scaleX / 1.5, scaleY / 1.05, currentPaintCanvas.getChildAt(1));
+		}
+		addSplat();
+	}
+
+	function handleMouseUp(event) {
+		stage.off("stagemousemove", mouseMove);
+		if (Rnd.bit(0.8) == 1) {
+			addSplat();
+		}
+	}
+
+	function clearCanvas() {
+		txt.visible = true;
+		txt.color = colors[selectedIndex];
+		paintCanvas.removeAllChildren();
+		return false;
+	}
+
+	function onTick() {
+		stage.update();
+	}
+</script>
+
+
+</body></html>
