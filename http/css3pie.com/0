@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+	<title>CSS3 PIE: CSS3 decorations for IE</title>
+
+    <!--[if lt IE 9]>
+    <script>
+        document.execCommand("BackgroundImageCache", false, true);
+    </script>
+    <![endif]-->
+
+	<link rel="alternate" type="application/rss+xml" href="http://css3pie.com/feed/" title="CSS3 PIE: CSS3 decorations for IE latest posts" />
+	<link rel="alternate" type="application/rss+xml" href="http://css3pie.com/comments/feed/" title="CSS3 PIE: CSS3 decorations for IE latest comments" />
+	<link rel="pingback" href="http://css3pie.com/wp/xmlrpc.php" />
+    <link rel="shortcut icon" href="http://css3pie.com/wp/wp-content/themes/pie-wp-theme/img/favicon.ico" />
+		<link rel='archives' title='January 2013' href='http://css3pie.com/2013/01/' />
+	<link rel='archives' title='May 2012' href='http://css3pie.com/2012/05/' />
+	<link rel='archives' title='September 2011' href='http://css3pie.com/2011/09/' />
+	<link rel='archives' title='July 2011' href='http://css3pie.com/2011/07/' />
+	<link rel='archives' title='April 2011' href='http://css3pie.com/2011/04/' />
+	<link rel='archives' title='December 2010' href='http://css3pie.com/2010/12/' />
+	<link rel='archives' title='November 2010' href='http://css3pie.com/2010/11/' />
+	<link rel='archives' title='July 2010' href='http://css3pie.com/2010/07/' />
+	<link rel='archives' title='June 2010' href='http://css3pie.com/2010/06/' />
+	
+	<link rel="stylesheet" type="text/css" href="http://css3pie.com/wp/wp-content/themes/pie-wp-theme/css/common.css" />
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+		
+	<link rel='dns-prefetch' href='https://s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="CSS3 PIE: CSS3 decorations for IE &raquo; CSS3 PIE Comments Feed" href="http://css3pie.com/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/css3pie.com\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://css3pie.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://css3pie.com/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://css3pie.com/wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.2" />
+<link rel="canonical" href="http://css3pie.com/" />
+<link rel='shortlink' href='http://css3pie.com/' />
+<link rel="alternate" type="application/json+oembed" href="http://css3pie.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcss3pie.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://css3pie.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcss3pie.com%2F&#038;format=xml" />
+<!-- 
+			Plugin: Super Simple Google Analytics 
+	Plugin URL: Super Simple Google Analytics
+
+
+	-->
+
+<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-16169358-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+    <script type="text/javascript" 
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+            <link rel='stylesheet' type='text/css' href='http://css3pie.com/wp/wp-includes/js/farbtastic/farbtastic.css' />
+        <style type='text/css'>        #demo {
+            width: 600px;
+            position: relative;
+            z-index: 2;
+            font-size: 11px;
+            font-family: sans-serif;
+        }
+
+        #target {
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 200px;
+            text-align: center;
+            padding: 60px 0;
+            background: #EEE;
+            border: 1px solid #999;
+            font-size: 18px;
+
+            /* default CSS3 values: */
+            /*-webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            -webkit-box-shadow: #666 0 2px 3px;
+            -moz-box-shadow: #666 0 2px 3px;
+            box-shadow: #666 0 2px 3px;
+            background: -webkit-gradient(linear, 0 0, 0 bottom, from(#9F9), to(#393));
+            background: -webkit-linear-gradient(#9F9, #393);
+            background: -moz-linear-gradient(#9F9, #393);
+            background: -ms-linear-gradient(#9F9, #393);
+            background: -o-linear-gradient(#9F9, #393);
+            -pie-background: linear-gradient(#9F9, #393);*/
+        }
+
+        #controls {
+            margin: 0 0 20px 220px;
+        }
+
+        #controls input {
+            font-family: monospace;
+            font-size: 1em;
+        }
+
+        #controls fieldset {
+            border: 1px solid #CCC;
+            padding: 3px 10px 5px;
+            margin: 0 0 10px;
+        }
+
+        #controls fieldset legend {
+            line-height: normal;
+            color: #000;
+        }
+
+        #controls fieldset fieldset {
+            margin: 0 0 5px;
+            padding-left: 5px;
+            line-height: 25px;
+        }
+
+        #controls ul, #controls li {
+            display: block;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #controls .toggle {
+            float: left;
+        }
+        #controls .details {
+            float: right;
+        }
+        #controls .details label {
+            margin-left: 2px;
+        }
+
+        .colorPicker {
+            position: absolute;
+            z-index: 100;
+            margin-top: 20px;
+            border: 1px solid #CCC;
+            background: #FFF;
+            -webkit-box-shadow: #999 2px 2px 6px;
+            -moz-box-shadow: #999 2px 2px 6px;
+            box-shadow: #999 2px 2px 6px;
+            /*behavior: url(/pie/PIE.htc);*/
+        }
+
+        #output {
+            display: block;
+            border: 1px solid #CCC;
+            background: #EEE;
+            margin: 0 0 20px;
+            padding: 20px;
+            white-space: pre;
+        }</style></head>
+
+<body class="home page-template-default page page-id-3">
+<div id="page">
+
+    <header id="pageHeader">
+        <a href="http://css3pie.com/" title="Home" rel="home">
+            <img src="http://css3pie.com/wp/wp-content/themes/pie-wp-theme/img/logo.png" alt="CSS3 PIE" class="logo" />
+        </a>
+
+        <p class="tagline">Progressive Internet Explorer</p>
+
+        <!--[if IE 8]><nav id="mainNav" class="ie8"><![endif]-->
+        <![if !(IE 8)]><nav id="mainNav"><![endif]>
+            <ul id="menu-main-menu" class="menu"><li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3 current_page_item menu-item-36"><a href="http://css3pie.com/">Home</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://css3pie.com/about/">About</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://css3pie.com/documentation/">Documentation</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://css3pie.com/demos/">Demos and Example Sites</a></li>
+<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="http://css3pie.com/contact/">Contact</a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-58"><a href="http://css3pie.com/forum/">User Forum</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="http://css3pie.com/blog/">Blog</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="http://github.com/lojjic/PIE">Project @ GitHub</a></li>
+</ul>
+            <p><a class="outbound" href="http://css3pie.com/download"><strong>Download</strong></a></p>
+
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                <button type="submit" class="outbound"><strong>Donate</strong></button>
+            </form>
+
+            <ul class="social">
+                <li class="rss"><a href="http://css3pie.com/feed" title="RSS feed for the PIE blog">RSS feed for the PIE blog</a></li>
+                <li class="twitter"><a href="http://twitter.com/css3pie" title="Follow @css3pie on Twitter">Follow @css3pie on Twitter</a></li>
+            </ul>
+
+        </nav>
+        
+    </header>
+
+    <div id="pageContent">
+<section id="content">
+
+<h1><a href="http://css3pie.com/">CSS3 PIE</a></h1>
+
+    <div class="content">
+
+    
+<div id="intro">
+    <p class="text"><strong>PIE</strong> makes Internet Explorer 6-9 capable of rendering several of the most useful <strong>CSS3</strong> decoration features.</p>
+    <p class="more"><a href="http://css3pie.com/about/" target="_blsnk">Learn More</a></p>
+</div>
+
+<h2>Try the <strong>Demo</strong></h2>
+<p>This quick demo shows just a few of the CSS3 properties PIE can render. Use the controls to adjust the CSS3 applied to the box. Load this page in IE to see that it is rendered properly!</p>
+
+    <div id="demo">
+
+        <div id="target">
+            Mmmmm, pie.
+        </div>
+
+        <div id="controls">
+            <fieldset id="featureControls">
+                <legend>CSS3 features</legend>
+
+                <fieldset>
+                    <legend>border-radius</legend>
+
+                    <div class="toggle">
+                        <input type="checkbox" id="borderRadiusToggle" class="featureToggle" checked="checked" />
+                        <label for="borderRadiusToggle">Enable</label>
+                    </div>
+
+                    <div class="details">
+                        <label for="borderRadiusSize">Radius size:</label>
+                        <input type="text" id="borderRadiusSize" value="8" size="3" />
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>box-shadow</legend>
+
+                    <div class="toggle">
+                        <input type="checkbox" id="boxShadowToggle" class="featureToggle" checked="checked" />
+                        <label for="boxShadowToggle">Enable</label>
+                    </div>
+
+                    <div class="details">
+                        <label for="boxShadowBlur">Blur size:</label>
+                        <input type="text" id="boxShadowBlur" value="3" size="3" />
+
+                        <label for="boxShadowX">X offset:</label>
+                        <input type="text" id="boxShadowX" value="0" size="3" />
+
+                        <label for="boxShadowY">Y offset:</label>
+                        <input type="text" id="boxShadowY" value="2" size="3" />
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>linear-gradient</legend>
+
+                    <div class="toggle">
+                        <input type="checkbox" id="gradientToggle" class="featureToggle" checked="checked" />
+                        <label for="gradientToggle">Enable</label>
+                    </div>
+
+                    <div class="details">
+                        <label for="gradientColor1">Top color:</label>
+                        <input type="text" class="color" id="gradientColor1" value="#EEFF99" size="7" />
+
+                        <label for="gradientColor2">Bottom color:</label>
+                        <input type="text" class="color" id="gradientColor2" value="#66EE33" size="7" />
+                    </div>
+                </fieldset>
+            </fieldset>
+            
+            <fieldset id="pieControls">
+                <legend>Options</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="pieToggle" checked="checked" />
+                        <label for="pieToggle">Enable PIE (only affects IE)</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="codeToggle" />
+                        <label for="codeToggle">Show CSS</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+
+        <code id="output">
+            
+        </code>
+    </div>
+    <p class="more"><a href="http://css3pie.com/demos/">See More</a></p>
+
+    </div>
+</section>
+
+        <footer id="pageFooter">
+            <nav id="footNav">
+                <ul id="menu-footer-menu" class="menu"><li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-3 current_page_item menu-item-40"><a href="http://css3pie.com/">Home</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="http://css3pie.com/about/">About PIE</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="http://css3pie.com/documentation/">Documentation</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="http://css3pie.com/demos/">Demos and Example Sites</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="http://css3pie.com/contact/">Contact</a></li>
+<li id="menu-item-59" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59"><a href="http://css3pie.com/forum/">User Forum</a></li>
+<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="http://css3pie.com/blog/">Blog</a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a href="http://github.com/lojjic/PIE">Project @ GitHub</a></li>
+</ul>            </nav>
+
+            <p id="copyright">&copy;2011 <a href="http://sencha.com" target="_blank">Sencha Inc.</a>. Part of Sencha 
+Labs. Created and maintained by 
+Jason Johnston.</p>
+        </footer>
+    </div>
+</div>
+
+<script type='text/javascript' src='http://css3pie.com/wp/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+    <script type='text/javascript' src='http://css3pie.com/wp/wp-content/themes/pie-wp-theme/js/farbtastic/farbtastic.min.js'></script>
+    <script type='text/javascript'>        $( function() {
+
+            var loaded = false,
+                behaviorId,
+                behaviorUrl = 'http://css3pie.com/pie/PIE.htc';
+
+            function getBorderRadiusCss() {
+                var on = $( '#borderRadiusToggle' ).is(':checked'),
+                    size = $( '#borderRadiusSize' ).val();
+                return on ? [ '-webkit-border-radius: ' + size + 'px;', '-moz-border-radius: ' + size + 'px;', 'border-radius: ' + size + 'px;' ] : []
+            }
+
+            function getBoxShadowCss() {
+                var on = $( '#boxShadowToggle' ).is(':checked'),
+                    x = $( '#boxShadowX' ).val(),
+                    y = $( '#boxShadowY' ).val(),
+                    blur = $( '#boxShadowBlur' ).val(),
+                    cssVal = on ? '#666 ' + x + 'px ' + y + 'px ' + blur + 'px;' : '';
+                return cssVal ? [ '-webkit-box-shadow: ' + cssVal, '-moz-box-shadow: ' + cssVal, 'box-shadow: ' + cssVal ] : [];
+            }
+
+            function getGradientCss() {
+                var on = $( '#gradientToggle' ).is(':checked'),
+                    color1 = $( '#gradientColor1' ).val(),
+                    color2 = $( '#gradientColor2' ).val(),
+                    css = [ 'background: ' + color1 + ';' ];
+                if( on ) {
+                    css.push( 'background: -webkit-gradient(linear, 0 0, 0 bottom, from(' + color1 + '), to(' + color2 + '));' );
+                    css.push( 'background: -webkit-linear-gradient(' + color1 + ', ' + color2 + ');' );
+                    css.push( 'background: -moz-linear-gradient(' + color1 + ', ' + color2 + ');' );
+                    css.push( 'background: -ms-linear-gradient(' + color1 + ', ' + color2 + ');' );
+                    css.push( 'background: -o-linear-gradient(' + color1 + ', ' + color2 + ');' );
+                    css.push( 'background: linear-gradient(' + color1 + ', ' + color2 + ');' );
+                    if( $( '#pieToggle' ).is(':checked') ) {
+                        css.push( '-pie-background: linear-gradient(' + color1 + ', ' + color2 + ');' );
+                    }
+                }
+                return css;
+            }
+
+            function updateCss() {
+                var tgtEl = $( '#target' )[0],
+                    css = [ 'border: 1px solid #696;', 'padding: 60px 0;', 'text-align: center; width: 200px;' ].concat( getBorderRadiusCss() ).concat( getBoxShadowCss() ).concat( getGradientCss() );
+
+                if( $( '#pieToggle' ).is(':checked') ) {
+                    css.push( 'behavior: url(' + behaviorUrl + ');' );
+                }
+                $( '#output' ).html( css.join( '<br>' ) );
+
+                tgtEl.style.cssText = css.join( '' );
+
+                if( tgtEl.addBehavior ) {
+                    if( $( '#pieToggle' ).is(':checked') ) {
+                        if( !behaviorId ) {
+                            behaviorId = tgtEl.addBehavior( behaviorUrl );
+                        }
+                    }
+                    else if( behaviorId ) {
+                        tgtEl.removeBehavior( behaviorId );
+                        behaviorId = null;
+                    }
+                }
+            }
+
+            function updateDetailsVis() {
+                $( '#controls .toggle > input' ).each( function() {
+                    var checked = this.checked,
+                        deets = $( this ).closest( 'fieldset' ).find( '.details' );
+                    if( loaded ) {
+                        deets[ checked ? 'fadeIn' : 'fadeOut' ]( 'fast' );
+                    } else {
+                        deets[ checked ? 'show' : 'hide' ]();
+                    }
+                } );
+            }
+
+            function updateCodeVis() {
+                var checked = $( '#codeToggle' ).is( ':checked' ),
+                    code = $( '#output' );
+                if( loaded ) {
+                    code[ checked ? 'slideDown' : 'slideUp' ]( 'fast' );
+                } else {
+                    code[ checked ? 'show' : 'hide' ]();
+                }
+            }
+
+            $( '#controls input' ).change( updateCss );
+            $( '#controls .toggle > input' ).change( updateDetailsVis );
+            $( '#codeToggle' ).change( updateCodeVis );
+
+            $( '#controls input.color' ).each( function() {
+                var inp = $( this ),
+                    picker = $( '<div class="colorPicker"/>' ),
+                    farb = $.farbtastic( picker, function( c ) {
+                        if( c ) {
+                            inp[0].value = c.toUpperCase();
+                            inp.change();
+                        }
+                    } );
+
+                inp.focus( function() {
+                    farb.setColor( this.value );
+                    picker.css( inp.position() ).fadeIn();
+                    $( document ).bind( 'mousedown', function handler() {
+                        picker.fadeOut();
+                        $( this ).unbind( 'mousedown', handler )
+                    } );
+                } );
+
+                picker.insertAfter( inp ).hide().mousedown( function( e ) {
+                    e.stopPropagation();
+                } );
+            } );
+
+            updateCss();
+            updateDetailsVis();
+            updateCodeVis();
+            loaded = true;
+        } );  </script>
+<!-- Proudly powered by <a href="http://wordpress.org/">WordPress</a> and <a href="http://carringtontheme.com">Carrington JAM</a> -->
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.238 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2017-09-24 09:53:07 -->
+
+<!-- Compression = gzip -->
