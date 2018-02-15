@@ -1,0 +1,83 @@
+-By Muhammad Adi Nugroho, S.Adm.Neg.
+-curl -H "Time-Zone: Asia/Jakarta" -X GET https://r3---sn-htgx20capjpq-jb3l.googlevideo.com/videoplayback?mt=1518689506&mv=m&ms=au%2Crdu&ip=103.47.134.30&key=yt6&gir=yes&pcm2=yes&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgcr%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&mm=31%2C29&mn=sn-htgx20capjpq-jb3l%2Csn-npoe7ne7&id=o-AFPUBssXvvHRyChQ3wK1q9XQWBnrbRKTT99sRRhjb2gQ&ei=MV2FWrDuHM6cowOn1KT4BA&fvip=3&lmt=1475668747164268&gcr=id&requiressl=yes&source=youtube&keepalive=yes&dur=2486.333&itag=134&pl=24&mime=video%2Fmp4&c=WEB&expire=1518711185&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278&initcwndbps=563750&clen=16605524&ipbits=0&alr=yes&signature=E29137D1AFEB20098FA0AD9367DFFFC1244FCB7C.7810C6C1DB08AE764C4C8722E532BE0A4C86682A&cpn=YsLrZeEZCAxLwhBz&cver=2.20180214&range=6957519-7380232&rn=891&rbuf=149661
+-Via GitBash
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$ curl -H "Time-Zone: Asia/Jakarta" -X GET https://r3---sn-htgx20capjpq-jb3l.googlevideo.com/videoplayback?mt=1518689506&mv=m&ms=au%2Crdu&ip=103.47.134.30&key=yt6&gir=yes&pcm2=yes&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgcr%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire&mm=31%2C29&mn=sn-htgx20capjpq-jb3l%2Csn-npoe7ne7&id=o-AFPUBssXvvHRyChQ3wK1q9XQWBnrbRKTT99sRRhjb2gQ&ei=MV2FWrDuHM6cowOn1KT4BA&fvip=3&lmt=1475668747164268&gcr=id&requiressl=yes&source=youtube&keepalive=yes&dur=2486.333&itag=134&pl=24&mime=video%2Fmp4&c=WEB&expire=1518711185&aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278&initcwndbps=563750&clen=16605524&ipbits=0&alr=yes&signature=E29137D1AFEB20098FA0AD9367DFFFC1244FCB7C.7810C6C1DB08AE764C4C8722E532BE0A4C86682A&cpn=YsLrZeEZCAxLwhBz&cver=2.20180214&range=6957519-7380232&rn=891&rbuf=149661
+[1] 1600
+[2] 5824
+[3] 5448
+[4] 4508
+[5] 2644
+[6] 5752
+[7] 5192
+[8] 5416
+[9] 4988
+[10] 1584
+[11] 2392
+[12] 4500
+[13] 1376
+[14] 1104
+[15] 5744
+[16] 1864
+[17] 4376
+[18] 5584
+[19] 2596
+[20] 3840
+[21] 2116
+[22] 2848
+[23] 1868
+[24] 4608
+[25] 1428
+[26] 5968
+[27] 980
+[28] 2672
+[29] 4736
+[30] 940
+[31] 5404
+[32] 2044
+[33] 5628
+[34] 1776
+[2]   Done                    mv=m
+[3]   Done                    ms=au%2Crdu
+[4]   Done                    ip=103.47.134.30
+[5]   Done                    key=yt6
+[6]   Done                    gir=yes
+[7]   Done                    pcm2=yes
+[8]   Done                    sparams=aitags%2Cclen%2Cdur%2Cei%2Cgcr%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpcm2%2Cpl%2Crequiressl%2Csource%2Cexpire
+[9]   Done                    mm=31%2C29
+[10]   Done                    mn=sn-htgx20capjpq-jb3l%2Csn-npoe7ne7
+[11]   Done                    id=o-AFPUBssXvvHRyChQ3wK1q9XQWBnrbRKTT99sRRhjb2gQ
+[12]   Done                    ei=MV2FWrDuHM6cowOn1KT4BA
+[13]   Done                    fvip=3
+[14]   Done                    lmt=1475668747164268
+[15]   Done                    gcr=id
+[16]   Done                    requiressl=yes
+[17]   Done                    source=youtube
+[18]   Done                    keepalive=yes
+[19]   Done                    dur=2486.333
+[20]   Done                    itag=134
+[21]   Done                    pl=24
+[22]   Done                    mime=video%2Fmp4
+[23]   Done                    c=WEB
+[24]   Done                    expire=1518711185
+[25]   Done                    aitags=133%2C134%2C135%2C136%2C160%2C242%2C243%2C244%2C247%2C278
+[26]   Done                    initcwndbps=563750
+[27]   Done                    clen=16605524
+[28]   Done                    ipbits=0
+[29]   Done                    alr=yes
+[30]   Done                    signature=E29137D1AFEB20098FA0AD9367DFFFC1244FCB7C.7810C6C1DB08AE764C4C8722E532BE0A4C86682A
+[31]   Done                    cpn=YsLrZeEZCAxLwhBz
+[32]   Done                    cver=2.20180214
+[33]   Done                    range=6957519-7380232
+[34]+  Done                    rn=891
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+[1]+  Done                    curl -H "Time-Zone: Asia/Jakarta" -X GET https://r3---sn-htgx20capjpq-jb3l.googlevideo.com/videoplayback?mt=1518689506
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$
