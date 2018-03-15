@@ -1,0 +1,122 @@
+<HTML>
+<HEAD>
+
+<--dari blog ini format web page-->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create',
+"UA-18003-38",
+'auto',
+{ 'sampleRate': 0.1 });
+ga('set', 'location', window.location.href.split(/[?#0-9]/)[0]);
+ga('set', 'anonymizeIp', true);
+ga('require', 'cleanUrlTracker', {stripQuery:true});
+ga('require', 'eventTracker');
+ga('require', 'outboundLinkTracker');
+ga('require', 'urlChangeTracker');
+ga('send', 'pageview');
+</script>
+<script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3101730221-analytics_autotrack.js"></script>
+<script type="text/javascript">
+ga('create',
+"UA-18003-38",
+'auto',
+'fullTracker');
+ga('fullTracker.set', 'location', window.location.href.split(/[?#0-9]/)[0]);
+ga('fullTracker.set', 'anonymizeIp', true);
+</script>
+
+<SCRIPT TYPE = "text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=Object(o),
+      m=Object(o)[0];a.async=1;a.src=g;Object(a,m)
+      })(window,"http://aplikasiadi2.blogspot.co.id/2015/10/googleanalyticsobject.html","script","https://www.google-analytics.com/analytics.js",'ga');
+      ga("create", "UA-68738604-1", "auto");
+   ga('require', 'displayfeatures');
+   ga("send", "pageview");
+   
+   </SCRIPT>
+   
+  <script type="text/javascript">
+          var e=function(a){return void 0!==a},f=function(a,b,c){return a.call.apply(a.bind,arguments)},g=function(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(c,d);return a.apply(b,c)}}return function(){return a.apply(b,arguments)}},k=function(a,b,c){k=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?f:g;return k.apply(null,arguments)};var q=function(a,b){if(!l(a))throw"trackingId must be a string";var c;if(c=e(b))c=typeof b,c=!("object"==c&&null!=b||"function"==c);if(c)throw"Argument opt_conf must be an object";this.j=a;this.a=b||{};this.f=this.a._globalName||"ga";delete this.a._globalName;this.i=e(this.a._trackPageview)?this.a._trackPageview:!0;delete this.a._trackPageview;this.h=e(this.a._trackLinks)?this.a._trackLinks:!0;delete this.a._trackLinks;this.c=this.a._actionFilter;delete this.a._actionFilter;m(this);e(this.a.cookiePath)||
+(this.a.cookiePath=n());this.b("create",this.j,this.a);e(this.a.anonymizeIp)||this.b("set","anonymizeIp",!0);e(this.a.historyImportTask)||this.b("set","historyImportTask",!1);this.i&&this.b("send","pageview");p(this.g,this)},r=/^(UA|YT|MO|GP)-(\d+)-(\d+)$/,t=location.pathname,u=/^(\/([^;,\/]*\/)?)/,m=function(a){var b=a.f;a=document.createElement("script");var c=document.getElementsByTagName("script")[0];window.GoogleAnalyticsObject=b;window[b]=window[b]||function(){(window[b].q=window[b].q||[]).push(arguments)};
+window[b].l=1*new Date;a.async=!0;a.src="https://www.google-analytics.com/analytics.js";c.parentNode.insertBefore(a,c)};q.prototype.g=function(){v(document.body,"click",function(a){a=a||window.event;a=a.target||a.srcElement;a=3==a.nodeType?a.parentNode:a;do{var b=a,c=b.getAttribute("data-ga-event"),d=void 0;c?d=w(c):this.h&&b.nodeName&&"a"==b.nodeName.toLowerCase()&&(d=x(b));d&&(this.c&&(d.eventAction=this.c(d.eventAction)),this.b("send","event",d));if(a==document.body)break}while(a=a.parentNode)},this)};
+q.prototype.b=function(a){window[this.f].apply(window,arguments)};
+var l=function(a){return"string"==typeof a&&r.test(a)},n=function(a){return(a=(a||t).match(u))&&a[1]||"/"},y=function(a,b,c,d){var h={};d&&(d=parseFloat(d));if(!a||!b||e(d)&&isNaN(d))return!1;h.eventCategory=a;h.eventAction=b;c&&(h.eventLabel=c.toString());d&&(h.eventValue=d);return h},w=function(a){a=a.replace(/\'?\s*,\s*\'?/g,"_SEPARATOR_");a=a.replace(/(^\'|\'$)/g,"");a=a.split("_SEPARATOR_");return y(a[0],a[1],a[2],a[3])},x=function(a){return y(a.hostname!=location.hostname&&a.hostname?"AutoTrack: Outbound Click":
+"AutoTrack: Link Click",a.getAttribute("href"),t)},v=function(a,b,c,d){d&&(c=k(c,d));if(a.addEventListener)a.addEventListener(b,c,!1);else if(a.attachEvent)return a.attachEvent("on"+b,c)},p=function(a,b){b&&(a=k(a,b));if(document.addEventListener)try{v(document,"DOMContentLoaded",a)}catch(h){v(window,"load",a)}else if(!document.uniqueID&&document.expando)var c=document.createElement("tempnode"),d=window.setInterval(function(){try{c.doScroll("left")}catch(b){return}window.clearInterval(d);d=c=null;
+a()},50);else"readyState"in document?d=window.setInterval(function(){/loaded|complete/.test(document.readyState)&&(window.clearInterval(d),d=null,a())},50):v(window,"load",a)};var z=["glue","tracking","AutoTrack"],A=this;z[0]in A||!A.execScript||A.execScript("var "+z[0]);for(var B;z.length&&(B=z.shift());)!z.length&&e(q)?A[B]=q:A=A[B]?A[B]:A[B]={};q.prototype.ga=q.prototype.b;q.getCookiePath=n;q.getDefaultLinkEventParamsByElement=x;q.getEventParams=y;q.getEventParamsByAttr=w;q.isTrackingIdValid=l;q.listen=v;q.onDomReady=p;
+
+          new glue.tracking.AutoTrack(
+            "UA-18003-38",
+            {
+              _trackPageview: false,
+              _actionFilter: function(action) {
+                return action
+                    ? action[0] == "#"
+                        ? action.split(/[?;0-9]/)[0]
+                        : action.split(/[?#0-9]/)[0]
+                    : "";
+              },
+              sampleRate: 0.1,
+            }
+          );
+          ga('set', 'location', window.location.href.split(/[?#0-9]/)[0]);
+          ga('set', 'anonymizeIp', true);
+          ga('send', 'pageview');
+        </script>
+
+		<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68738604-1',"https://aplikasiadi2.blogspot.com/2015/10/googleanalyticsobject.html", 'auto');
+ga('require', 'displayfeatures');  
+ga('send', 'pageview');
+
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P38GQ3');</script>
+   
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68738604-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-68738604-1');
+</script>
+
+</HEAD>
+
+<BODY>
+
+<p>GTM-GTM-P38GQ3 hanya run di Notepad, tidak di web</p>
+<noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P38GQ3');</script></noscript>
+
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P38GQ3"></iframe>
+
+<a href="https://www.google.com/analytics/web/?et&authuser=0#management/Settings/a68738604w105607407p109914907/%3Fm.page%3DTrackingCode/" target="_">https://www.google.com/analytics/web/?et&authuser=0#management/Settings/a68738604w105607407p109914907/%3Fm.page%3DTrackingCode/</a>
+<BR>
+<a href="https://aplikasiadi2.blogspot.com/2015/10/googleanalyticsobject.html" target="_">https://aplikasiadi2.blogspot.com/2015/10/googleanalyticsobject.html</a>
+<BR>
+<A HREF="https://aplikasiadi2.blogspot.com/2015/10/googleanalyticsobject.html?utm_source=analytics_test&utm_medium=referral" target="_blank">https://aplikasiadi2.blogspot.com/2015/10/googleanalyticsobject.html?utm_source=analytics_test&utm_medium=referral</A>
+
+</BR>
+
+</BODY>
+
+</HTML>
