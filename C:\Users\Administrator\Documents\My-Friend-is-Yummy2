@@ -1,0 +1,1575 @@
+
+window
+Window
+​
+[default properties]
+​​
+AbortController: ()
+​​​
+length: 0
+​​​
+name: "AbortController"
+​​​
+prototype: AbortControllerPrototype
+​​​​
+abort: function abort()
+​​​​
+constructor: function ()
+​​​​
+signal: Getter
+​​​​
+__proto__: Object { … }
+​​​
+Symbol(Symbol.hasInstance): undefined
+​​​
+__proto__: function ()
+​​
+AbortSignal: function ()
+​​
+AnalyserNode: function ()
+​​
+Animation: function ()
+​​
+AnimationEvent: function ()
+​​
+AnonymousContent: function ()
+​​
+Array: function Array()
+​​
+ArrayBuffer: function ArrayBuffer()
+​​
+Attr: function ()
+​​
+Audio: function Audio()
+​​
+AudioBuffer: function ()
+​​
+AudioBufferSourceNode: function ()
+​​
+AudioContext: function ()
+​​
+AudioDestinationNode: function ()
+​​
+AudioListener: function ()
+​​
+AudioNode: function ()
+​​
+AudioParam: function ()
+​​
+AudioProcessingEvent: function ()
+​​
+AudioScheduledSourceNode: function ()
+​​
+AudioStreamTrack: function ()
+​​
+BarProp: function ()
+​​
+BaseAudioContext: function ()
+​​
+BatteryManager: function ()
+​​
+BeforeUnloadEvent: function ()
+​​
+BiquadFilterNode: function ()
+​​
+Blob: function ()
+​​
+BlobEvent: function ()
+​​
+Boolean: function Boolean()
+​​
+BroadcastChannel: function ()
+​​
+CDATASection: function ()
+​​
+CSS: function ()
+​​
+CSS2Properties: function ()
+​​
+CSSConditionRule: function ()
+​​
+CSSCounterStyleRule: function ()
+​​
+CSSFontFaceRule: function ()
+​​
+CSSFontFeatureValuesRule: function ()
+​​
+CSSGroupingRule: function ()
+​​
+CSSImportRule: function ()
+​​
+CSSKeyframeRule: function ()
+​​
+CSSKeyframesRule: function ()
+​​
+CSSMediaRule: function ()
+​​
+CSSMozDocumentRule: function ()
+​​
+CSSNamespaceRule: function ()
+​​
+CSSPageRule: function ()
+​​
+CSSPrimitiveValue: function ()
+​​
+CSSRule: function ()
+​​
+CSSRuleList: function ()
+​​
+CSSStyleDeclaration: function ()
+​​
+CSSStyleRule: function ()
+​​
+CSSStyleSheet: function ()
+​​
+CSSSupportsRule: function ()
+​​
+CSSValue: function ()
+​​
+CSSValueList: function ()
+​​
+Cache: function ()
+​​
+CacheStorage: function ()
+​​
+CanvasCaptureMediaStream: function ()
+​​
+CanvasGradient: function ()
+​​
+CanvasPattern: function ()
+​​
+CanvasRenderingContext2D: function ()
+​​
+CaretPosition: function ()
+​​
+ChannelMergerNode: function ()
+​​
+ChannelSplitterNode: function ()
+​​
+CharacterData: function ()
+​​
+ClipboardEvent: function ()
+​​
+CloseEvent: function ()
+​​
+Comment: function ()
+​​
+CompositionEvent: function ()
+​​
+ConstantSourceNode: function ()
+​​
+ConvolverNode: function ()
+​​
+Crypto: function ()
+​​
+CryptoKey: function ()
+​​
+CustomEvent: function ()
+​​
+DOMCursor: function ()
+​​
+DOMError: function ()
+​​
+DOMException: function ()
+​​
+DOMImplementation: function ()
+​​
+DOMMatrix: function ()
+​​
+DOMMatrixReadOnly: function ()
+​​
+DOMParser: function ()
+​​
+DOMPoint: function ()
+​​
+DOMPointReadOnly: function ()
+​​
+DOMQuad: function ()
+​​
+DOMRect: function ()
+​​
+DOMRectList: function ()
+​​
+DOMRectReadOnly: function ()
+​​
+DOMRequest: function ()
+​​
+DOMStringList: function ()
+​​
+DOMStringMap: function ()
+​​
+DOMTokenList: function ()
+​​
+DataChannel: function ()
+​​
+DataTransfer: function ()
+​​
+DataTransferItem: function ()
+​​
+DataTransferItemList: function ()
+​​
+DataView: function DataView()
+​​
+Date: function Date()
+​​
+DelayNode: function ()
+​​
+DeviceLightEvent: function ()
+​​
+DeviceMotionEvent: function ()
+​​
+DeviceOrientationEvent: function ()
+​​
+DeviceProximityEvent: function ()
+​​
+Directory: function ()
+​​
+Document: function ()
+​​
+DocumentFragment: function ()
+​​
+DocumentType: function ()
+​​
+DragEvent: function ()
+​​
+DynamicsCompressorNode: function ()
+​​
+Element: function ()
+​​
+Error: function Error()
+​​
+ErrorEvent: function ()
+​​
+EvalError: function EvalError()
+​​
+Event: function ()
+​​
+EventSource: function ()
+​​
+EventTarget: function ()
+​​
+File: function ()
+​​
+FileList: function ()
+​​
+FileReader: function ()
+​​
+FileSystem: function ()
+​​
+FileSystemDirectoryEntry: function ()
+​​
+FileSystemDirectoryReader: function ()
+​​
+FileSystemEntry: function ()
+​​
+FileSystemFileEntry: function ()
+​​
+Float32Array: function Float32Array()
+​​
+Float64Array: function Float64Array()
+​​
+FocusEvent: function ()
+​​
+FontFace: function ()
+​​
+FontFaceSet: function ()
+​​
+FontFaceSetLoadEvent: function ()
+​​
+FormData: function ()
+​​
+Function: function Function()
+​​
+GainNode: function ()
+​​
+Gamepad: function ()
+​​
+GamepadButton: function ()
+​​
+GamepadEvent: function ()
+​​
+GamepadHapticActuator: function ()
+​​
+GamepadPose: function ()
+​​
+HTMLAllCollection: function ()
+​​
+HTMLAnchorElement: function ()
+​​
+HTMLAreaElement: function ()
+​​
+HTMLAudioElement: function ()
+​​
+HTMLBRElement: function ()
+​​
+HTMLBaseElement: function ()
+​​
+HTMLBodyElement: function ()
+​​
+HTMLButtonElement: function ()
+​​
+HTMLCanvasElement: function ()
+​​
+HTMLCollection: function ()
+​​
+HTMLDListElement: function ()
+​​
+HTMLDataElement: function ()
+​​
+HTMLDataListElement: function ()
+​​
+HTMLDetailsElement: function ()
+​​
+HTMLDirectoryElement: function ()
+​​
+HTMLDivElement: function ()
+​​
+HTMLDocument: function ()
+​​
+HTMLElement: function ()
+​​
+HTMLEmbedElement: function ()
+​​
+HTMLFieldSetElement: function ()
+​​
+HTMLFontElement: function ()
+​​
+HTMLFormControlsCollection: function ()
+​​
+HTMLFormElement: function ()
+​​
+HTMLFrameElement: function ()
+​​
+HTMLFrameSetElement: function ()
+​​
+HTMLHRElement: function ()
+​​
+HTMLHeadElement: function ()
+​​
+HTMLHeadingElement: function ()
+​​
+HTMLHtmlElement: function ()
+​​
+HTMLIFrameElement: function ()
+​​
+HTMLImageElement: function ()
+​​
+HTMLInputElement: function ()
+​​
+HTMLLIElement: function ()
+​​
+HTMLLabelElement: function ()
+​​
+HTMLLegendElement: function ()
+​​
+HTMLLinkElement: function ()
+​​
+HTMLMapElement: function ()
+​​
+HTMLMediaElement: function ()
+​​
+HTMLMenuElement: function ()
+​​
+HTMLMenuItemElement: function ()
+​​
+HTMLMetaElement: function ()
+​​
+HTMLMeterElement: function ()
+​​
+HTMLModElement: function ()
+​​
+HTMLOListElement: function ()
+​​
+HTMLObjectElement: function ()
+​​
+HTMLOptGroupElement: function ()
+​​
+HTMLOptionElement: function ()
+​​
+HTMLOptionsCollection: function ()
+​​
+HTMLOutputElement: function ()
+​​
+HTMLParagraphElement: function ()
+​​
+HTMLParamElement: function ()
+​​
+HTMLPictureElement: function ()
+​​
+HTMLPreElement: function ()
+​​
+HTMLProgressElement: function ()
+​​
+HTMLQuoteElement: function ()
+​​
+HTMLScriptElement: function ()
+​​
+HTMLSelectElement: function ()
+​​
+HTMLSourceElement: function ()
+​​
+HTMLSpanElement: function ()
+​​
+HTMLStyleElement: function ()
+​​
+HTMLTableCaptionElement: function ()
+​​
+HTMLTableCellElement: function ()
+​​
+HTMLTableColElement: function ()
+​​
+HTMLTableElement: function ()
+​​
+HTMLTableRowElement: function ()
+​​
+HTMLTableSectionElement: function ()
+​​
+HTMLTemplateElement: function ()
+​​
+HTMLTextAreaElement: function ()
+​​
+HTMLTimeElement: function ()
+​​
+HTMLTitleElement: function ()
+​​
+HTMLTrackElement: function ()
+​​
+HTMLUListElement: function ()
+​​
+HTMLUnknownElement: function ()
+​​
+HTMLVideoElement: function ()
+​​
+HashChangeEvent: function ()
+​​
+Headers: function ()
+​​
+History: function ()
+​​
+IDBCursor: function ()
+​​
+IDBCursorWithValue: function ()
+​​
+IDBDatabase: function ()
+​​
+IDBFactory: function ()
+​​
+IDBFileHandle: function ()
+​​
+IDBFileRequest: function ()
+​​
+IDBIndex: function ()
+​​
+IDBKeyRange: function ()
+​​
+IDBMutableFile: function ()
+​​
+IDBObjectStore: function ()
+​​
+IDBOpenDBRequest: function ()
+​​
+IDBRequest: function ()
+​​
+IDBTransaction: function ()
+​​
+IDBVersionChangeEvent: function ()
+​​
+IIRFilterNode: function ()
+​​
+IdleDeadline: function ()
+​​
+Image: function Image()
+​​
+ImageBitmap: function ()
+​​
+ImageBitmapRenderingContext: function ()
+​​
+ImageData: function ()
+​​
+ImageDocument: function ()
+​​
+Infinity: Infinity
+​​
+InputEvent: function ()
+​​
+InstallTrigger: InstallTriggerImpl {  }
+​​
+Int16Array: function Int16Array()
+​​
+Int32Array: function Int32Array()
+​​
+Int8Array: function Int8Array()
+​​
+InternalError: function InternalError()
+​​
+IntersectionObserver: function ()
+​​
+IntersectionObserverEntry: function ()
+​​
+Intl: Object { … }
+​​
+JSON: JSON { … }
+​​
+KeyEvent: function ()
+​​
+KeyboardEvent: function ()
+​​
+LocalMediaStream: function ()
+​​
+Location: function ()
+​​
+Map: function Map()
+​​
+Math: Math { … }
+​​
+MediaDeviceInfo: function ()
+​​
+MediaDevices: function ()
+​​
+MediaElementAudioSourceNode: function ()
+​​
+MediaEncryptedEvent: function ()
+​​
+MediaError: function ()
+​​
+MediaKeyError: function ()
+​​
+MediaKeyMessageEvent: function ()
+​​
+MediaKeySession: function ()
+​​
+MediaKeyStatusMap: function ()
+​​
+MediaKeySystemAccess: function ()
+​​
+MediaKeys: function ()
+​​
+MediaList: function ()
+​​
+MediaQueryList: function ()
+​​
+MediaQueryListEvent: function ()
+​​
+MediaRecorder: function ()
+​​
+MediaRecorderErrorEvent: function ()
+​​
+MediaSource: function ()
+​​
+MediaStream: function ()
+​​
+MediaStreamAudioDestinationNode: function ()
+​​
+MediaStreamAudioSourceNode: function ()
+​​
+MediaStreamEvent: function ()
+​​
+MediaStreamTrack: function ()
+​​
+MediaStreamTrackEvent: function ()
+​​
+MessageChannel: function ()
+​​
+MessageEvent: function ()
+​​
+MessagePort: function ()
+​​
+MimeType: function ()
+​​
+MimeTypeArray: function ()
+​​
+MouseEvent: function ()
+​​
+MouseScrollEvent: function ()
+​​
+MutationEvent: function ()
+​​
+MutationObserver: function ()
+​​
+MutationRecord: function ()
+​​
+NaN: NaN
+​​
+NamedNodeMap: function ()
+​​
+Navigator: function ()
+​​
+Node: function ()
+​​
+NodeFilter: function ()
+​​
+NodeIterator: function ()
+​​
+NodeList: function ()
+​​
+Notification: function ()
+​​
+Number: function Number()
+​​
+Object: function Object()
+​​
+OfflineAudioCompletionEvent: function ()
+​​
+OfflineAudioContext: function ()
+​​
+OfflineResourceList: function ()
+​​
+Option: function Option()
+​​
+OscillatorNode: function ()
+​​
+PageTransitionEvent: function ()
+​​
+PaintRequest: function ()
+​​
+PaintRequestList: function ()
+​​
+PannerNode: function ()
+​​
+Path2D: function ()
+​​
+Performance: function ()
+​​
+PerformanceEntry: function ()
+​​
+PerformanceMark: function ()
+​​
+PerformanceMeasure: function ()
+​​
+PerformanceNavigation: function ()
+​​
+PerformanceNavigationTiming: function ()
+​​
+PerformanceObserver: function ()
+​​
+PerformanceObserverEntryList: function ()
+​​
+PerformanceResourceTiming: function ()
+​​
+PerformanceTiming: function ()
+​​
+PeriodicWave: function ()
+​​
+PermissionStatus: function ()
+​​
+Permissions: function ()
+​​
+Plugin: function ()
+​​
+PluginArray: function ()
+​​
+PointerEvent: function ()
+​​
+PopStateEvent: function ()
+​​
+PopupBlockedEvent: function ()
+​​
+ProcessingInstruction: function ()
+​​
+ProgressEvent: function ()
+​​
+Promise: function Promise()
+​​
+Proxy: function Proxy()
+​​
+PushManager: function ()
+​​
+PushSubscription: function ()
+​​
+PushSubscriptionOptions: function ()
+​​
+RGBColor: function ()
+​​
+RTCCertificate: function ()
+​​
+RTCDTMFSender: function ()
+​​
+RTCDTMFToneChangeEvent: function ()
+​​
+RTCDataChannelEvent: function ()
+​​
+RTCIceCandidate: function ()
+​​
+RTCPeerConnection: function ()
+​​
+RTCPeerConnectionIceEvent: function ()
+​​
+RTCRtpReceiver: function ()
+​​
+RTCRtpSender: function ()
+​​
+RTCRtpTransceiver: function ()
+​​
+RTCSessionDescription: function ()
+​​
+RTCStatsReport: function ()
+​​
+RTCTrackEvent: function ()
+​​
+RadioNodeList: function ()
+​​
+Range: function ()
+​​
+RangeError: function RangeError()
+​​
+Rect: function ()
+​​
+ReferenceError: function ReferenceError()
+​​
+Reflect: Object { … }
+​​
+RegExp: function RegExp()
+​​
+Request: function ()
+​​
+Response: function ()
+​​
+SVGAElement: function ()
+​​
+SVGAngle: function ()
+​​
+SVGAnimateElement: function ()
+​​
+SVGAnimateMotionElement: function ()
+​​
+SVGAnimateTransformElement: function ()
+​​
+SVGAnimatedAngle: function ()
+​​
+SVGAnimatedBoolean: function ()
+​​
+SVGAnimatedEnumeration: function ()
+​​
+SVGAnimatedInteger: function ()
+​​
+SVGAnimatedLength: function ()
+​​
+SVGAnimatedLengthList: function ()
+​​
+SVGAnimatedNumber: function ()
+​​
+SVGAnimatedNumberList: function ()
+​​
+SVGAnimatedPreserveAspectRatio: function ()
+​​
+SVGAnimatedRect: function ()
+​​
+SVGAnimatedString: function ()
+​​
+SVGAnimatedTransformList: function ()
+​​
+SVGAnimationElement: function ()
+​​
+SVGCircleElement: function ()
+​​
+SVGClipPathElement: function ()
+​​
+SVGComponentTransferFunctionElement: function ()
+​​
+SVGDefsElement: function ()
+​​
+SVGDescElement: function ()
+​​
+SVGElement: function ()
+​​
+SVGEllipseElement: function ()
+​​
+SVGFEBlendElement: function ()
+​​
+SVGFEColorMatrixElement: function ()
+​​
+SVGFEComponentTransferElement: function ()
+​​
+SVGFECompositeElement: function ()
+​​
+SVGFEConvolveMatrixElement: function ()
+​​
+SVGFEDiffuseLightingElement: function ()
+​​
+SVGFEDisplacementMapElement: function ()
+​​
+SVGFEDistantLightElement: function ()
+​​
+SVGFEDropShadowElement: function ()
+​​
+SVGFEFloodElement: function ()
+​​
+SVGFEFuncAElement: function ()
+​​
+SVGFEFuncBElement: function ()
+​​
+SVGFEFuncGElement: function ()
+​​
+SVGFEFuncRElement: function ()
+​​
+SVGFEGaussianBlurElement: function ()
+​​
+SVGFEImageElement: function ()
+​​
+SVGFEMergeElement: function ()
+​​
+SVGFEMergeNodeElement: function ()
+​​
+SVGFEMorphologyElement: function ()
+​​
+SVGFEOffsetElement: function ()
+​​
+SVGFEPointLightElement: function ()
+​​
+SVGFESpecularLightingElement: function ()
+​​
+SVGFESpotLightElement: function ()
+​​
+SVGFETileElement: function ()
+​​
+SVGFETurbulenceElement: function ()
+​​
+SVGFilterElement: function ()
+​​
+SVGForeignObjectElement: function ()
+​​
+SVGGElement: function ()
+​​
+SVGGeometryElement: function ()
+​​
+SVGGradientElement: function ()
+​​
+SVGGraphicsElement: function ()
+​​
+SVGImageElement: function ()
+​​
+SVGLength: function ()
+​​
+SVGLengthList: function ()
+​​
+SVGLineElement: function ()
+​​
+SVGLinearGradientElement: function ()
+​​
+SVGMPathElement: function ()
+​​
+SVGMarkerElement: function ()
+​​
+SVGMaskElement: function ()
+​​
+SVGMatrix: function ()
+​​
+SVGMetadataElement: function ()
+​​
+SVGNumber: function ()
+​​
+SVGNumberList: function ()
+​​
+SVGPathElement: function ()
+​​
+SVGPathSegList: function ()
+​​
+SVGPatternElement: function ()
+​​
+SVGPoint: function ()
+​​
+SVGPointList: function ()
+​​
+SVGPolygonElement: function ()
+​​
+SVGPolylineElement: function ()
+​​
+SVGPreserveAspectRatio: function ()
+​​
+SVGRadialGradientElement: function ()
+​​
+SVGRect: function ()
+​​
+SVGRectElement: function ()
+​​
+SVGSVGElement: function ()
+​​
+SVGScriptElement: function ()
+​​
+SVGSetElement: function ()
+​​
+SVGStopElement: function ()
+​​
+SVGStringList: function ()
+​​
+SVGStyleElement: function ()
+​​
+SVGSwitchElement: function ()
+​​
+SVGSymbolElement: function ()
+​​
+SVGTSpanElement: function ()
+​​
+SVGTextContentElement: function ()
+​​
+SVGTextElement: function ()
+​​
+SVGTextPathElement: function ()
+​​
+SVGTextPositioningElement: function ()
+​​
+SVGTitleElement: function ()
+​​
+SVGTransform: function ()
+​​
+SVGTransformList: function ()
+​​
+SVGUnitTypes: function ()
+​​
+SVGUseElement: function ()
+​​
+SVGViewElement: function ()
+​​
+SVGZoomAndPan: function ()
+​​
+Screen: function ()
+​​
+ScreenOrientation: function ()
+​​
+ScriptProcessorNode: function ()
+​​
+ScrollAreaEvent: function ()
+​​
+Selection: function ()
+​​
+ServiceWorker: function ()
+​​
+ServiceWorkerContainer: function ()
+​​
+ServiceWorkerRegistration: function ()
+​​
+Set: function Set()
+​​
+SharedWorker: function ()
+​​
+SourceBuffer: function ()
+​​
+SourceBufferList: function ()
+​​
+SpeechSynthesis: function ()
+​​
+SpeechSynthesisErrorEvent: function ()
+​​
+SpeechSynthesisEvent: function ()
+​​
+SpeechSynthesisUtterance: function ()
+​​
+SpeechSynthesisVoice: function ()
+​​
+StereoPannerNode: function ()
+​​
+Storage: function ()
+​​
+StorageEvent: function ()
+​​
+StorageManager: function ()
+​​
+String: function String()
+​​
+StyleSheet: function ()
+​​
+StyleSheetApplicableStateChangeEvent: function ()
+​​
+StyleSheetList: function ()
+​​
+SubtleCrypto: function ()
+​​
+Symbol: function Symbol()
+​​
+SyntaxError: function SyntaxError()
+​​
+Text: function ()
+​​
+TextDecoder: function ()
+​​
+TextEncoder: function ()
+​​
+TextMetrics: function ()
+​​
+TextTrack: function ()
+​​
+TextTrackCue: function ()
+​​
+TextTrackCueList: function ()
+​​
+TextTrackList: function ()
+​​
+TimeEvent: function ()
+​​
+TimeRanges: function ()
+​​
+TrackEvent: function ()
+​​
+TransitionEvent: function ()
+​​
+TreeWalker: function ()
+​​
+TypeError: function TypeError()
+​​
+UIEvent: function ()
+​​
+URIError: function URIError()
+​​
+URL: function ()
+​​
+URLSearchParams: function ()
+​​
+Uint16Array: function Uint16Array()
+​​
+Uint32Array: function Uint32Array()
+​​
+Uint8Array: function Uint8Array()
+​​
+Uint8ClampedArray: function Uint8ClampedArray()
+​​
+UserProximityEvent: function ()
+​​
+VRDisplay: function ()
+​​
+VRDisplayCapabilities: function ()
+​​
+VRDisplayEvent: function ()
+​​
+VREyeParameters: function ()
+​​
+VRFieldOfView: function ()
+​​
+VRFrameData: function ()
+​​
+VRPose: function ()
+​​
+VRStageParameters: function ()
+​​
+VTTCue: function ()
+​​
+VTTRegion: function ()
+​​
+ValidityState: function ()
+​​
+VideoPlaybackQuality: function ()
+​​
+VideoStreamTrack: function ()
+​​
+WaveShaperNode: function ()
+​​
+WeakMap: function WeakMap()
+​​
+WeakSet: function WeakSet()
+​​
+WebAssembly: WebAssembly { … }
+​​
+WebGL2RenderingContext: function ()
+​​
+WebGLActiveInfo: function ()
+​​
+WebGLBuffer: function ()
+​​
+WebGLContextEvent: function ()
+​​
+WebGLFramebuffer: function ()
+​​
+WebGLProgram: function ()
+​​
+WebGLQuery: function ()
+​​
+WebGLRenderbuffer: function ()
+​​
+WebGLRenderingContext: function ()
+​​
+WebGLSampler: function ()
+​​
+WebGLShader: function ()
+​​
+WebGLShaderPrecisionFormat: function ()
+​​
+WebGLSync: function ()
+​​
+WebGLTexture: function ()
+​​
+WebGLTransformFeedback: function ()
+​​
+WebGLUniformLocation: function ()
+​​
+WebGLVertexArrayObject: function ()
+​​
+WebKitCSSMatrix: function ()
+​​
+WebSocket: function ()
+​​
+WheelEvent: function ()
+​​
+Window: function ()
+​​
+Worker: function ()
+​​
+XMLDocument: function ()
+​​
+XMLHttpRequest: function ()
+​​
+XMLHttpRequestEventTarget: function ()
+​​
+XMLHttpRequestUpload: function ()
+​​
+XMLSerializer: function ()
+​​
+XMLStylesheetProcessingInstruction: function ()
+​​
+XPathEvaluator: function ()
+​​
+XPathExpression: function ()
+​​
+XPathResult: function ()
+​​
+XSLTProcessor: function ()
+​​
+alert: function alert()
+​​
+applicationCache: OfflineResourceList { status: 0, onchecking: null, length: 0, … }
+​​
+atob: function atob()
+​​
+blur: function blur()
+​​
+btoa: function btoa()
+​​
+caches: CacheStorage {  }
+​​
+cancelAnimationFrame: function cancelAnimationFrame()
+​​
+cancelIdleCallback: function cancelIdleCallback()
+​​
+captureEvents: function captureEvents()
+​​
+clearInterval: function clearInterval()
+​​
+clearTimeout: function clearTimeout()
+​​
+close: function close()
+​​
+closed: false
+​​
+confirm: function confirm()
+​​
+console: Console { assert: assert(), clear: clear(), count: count(), … }
+​​
+content: Window https://i.pinimg.com/564x/cd/85/6d/cd856de6893662badd20972ff4b2b203.jpg
+​​
+createImageBitmap: function createImageBitmap()
+​​
+crypto: Crypto { subtle: SubtleCrypto }
+​​
+decodeURI: function decodeURI()
+​​
+decodeURIComponent: function decodeURIComponent()
+​​
+devicePixelRatio: 1
+​​
+document: ImageDocument {  }
+​​
+dump: function dump()
+​​
+encodeURI: function encodeURI()
+​​
+encodeURIComponent: function encodeURIComponent()
+​​
+escape: function escape()
+​​
+eval: function eval()
+​​
+external: External {  }
+​​
+fetch: function fetch()
+​​
+find: function find()
+​​
+focus: function focus()
+​​
+frameElement: null
+​​
+frames: Window https://i.pinimg.com/564x/cd/85/6d/cd856de6893662badd20972ff4b2b203.jpg
+​​
+fullScreen: false
+​​
+getComputedStyle: function getComputedStyle()
+​​
+getDefaultComputedStyle: function getDefaultComputedStyle()
+​​
+getSelection: function getSelection()
+​​
+history: History { length: 2, scrollRestoration: "auto", state: null }
+​​
+indexedDB: IDBFactory {  }
+​​
+innerHeight: 414
+​​
+innerWidth: 1366
+​​
+isFinite: function isFinite()
+​​
+isNaN: function isNaN()
+​​
+isSecureContext: true
+​​
+length: 0
+​​
+localStorage: Storage { length: 0 }
+​​
+location: Location https://i.pinimg.com/564x/cd/85/6d/cd856de6893662badd20972ff4b2b203.jpg
+​​
+locationbar: BarProp { visible: true }
+​​
+matchMedia: function matchMedia()
+​​
+menubar: BarProp { visible: true }
+​​
+moveBy: function moveBy()
+​​
+moveTo: function moveTo()
+​​
+mozInnerScreenX: 0
+​​
+mozInnerScreenY: 74
+​​
+mozPaintCount: 2
+​​
+mozRTCIceCandidate: function ()
+​​
+mozRTCPeerConnection: function ()
+​​
+mozRTCSessionDescription: function ()
+​​
+name: ""
+​​
+navigator: Navigator { doNotTrack: "unspecified", maxTouchPoints: 0, oscpu: "Windows NT 6.1", … }
+​​
+netscape: Object { … }
+​​
+onabort: null
+​​
+onabsolutedeviceorientation: null
+​​
+onafterprint: null
+​​
+onanimationcancel: null
+​​
+onanimationend: null
+​​
+onanimationiteration: null
+​​
+onanimationstart: null
+​​
+onauxclick: null
+​​
+onbeforeprint: null
+​​
+onbeforeunload: null
+​​
+onblur: null
+​​
+oncanplay: null
+​​
+oncanplaythrough: null
+​​
+onchange: null
+​​
+onclick: null
+​​
+onclose: null
+​​
+oncontextmenu: null
+​​
+ondblclick: null
+​​
+ondevicelight: null
+​​
+ondevicemotion: null
+​​
+ondeviceorientation: null
+​​
+ondeviceproximity: null
+​​
+ondrag: null
+​​
+ondragend: null
+​​
+ondragenter: null
+​​
+ondragexit: null
+​​
+ondragleave: null
+​​
+ondragover: null
+​​
+ondragstart: null
+​​
+ondrop: null
+​​
+ondurationchange: null
+​​
+onemptied: null
+​​
+onended: null
+​​
+onerror: null
+​​
+onfocus: null
+​​
+ongotpointercapture: null
+​​
+onhashchange: null
+​​
+oninput: null
+​​
+oninvalid: null
+​​
+onkeydown: null
+​​
+onkeypress: null
+​​
+onkeyup: null
+​​
+onlanguagechange: null
+​​
+onload: null
+​​
+onloadeddata: null
+​​
+onloadedmetadata: null
+​​
+onloadend: null
+​​
+onloadstart: null
+​​
+onlostpointercapture: null
+​​
+onmessage: null
+​​
+onmessageerror: null
+​​
+onmousedown: null
+​​
+onmouseenter: null
+​​
+onmouseleave: null
+​​
+onmousemove: null
+​​
+onmouseout: null
+​​
+onmouseover: null
+​​
+onmouseup: null
+​​
+onmozfullscreenchange: null
+​​
+onmozfullscreenerror: null
+​​
+onoffline: null
+​​
+ononline: null
+​​
+onpagehide: null
+​​
+onpageshow: null
+​​
+onpause: null
+​​
+onplay: null
+​​
+onplaying: null
+​​
+onpointercancel: null
+​​
+onpointerdown: null
+​​
+onpointerenter: null
+​​
+onpointerleave: null
+​​
+onpointermove: null
+​​
+onpointerout: null
+​​
+onpointerover: null
+​​
+onpointerup: null
+​​
+onpopstate: null
+​​
+onprogress: null
+​​
+onratechange: null
+​​
+onreset: null
+​​
+onresize: null
+​​
+onscroll: null
+​​
+onseeked: null
+​​
+onseeking: null
+​​
+onselect: null
+​​
+onselectstart: null
+​​
+onshow: null
+​​
+onstalled: null
+​​
+onstorage: null
+​​
+onsubmit: null
+​​
+onsuspend: null
+​​
+ontimeupdate: null
+​​
+ontoggle: null
+​​
+ontransitioncancel: null
+​​
+ontransitionend: null
+​​
+ontransitionrun: null
+​​
+ontransitionstart: null
+​​
+onunload: null
+​​
+onuserproximity: null
+​​
+onvolumechange: null
+​​
+onvrdisplayactivate: null
+​​
+onvrdisplayconnect: null
+​​
+onvrdisplaydeactivate: null
+​​
+onvrdisplaydisconnect: null
+​​
+onvrdisplaypresentchange: null
+​​
+onwaiting: null
+​​
+onwebkitanimationend: null
+​​
+onwebkitanimationiteration: null
+​​
+onwebkitanimationstart: null
+​​
+onwebkittransitionend: null
+​​
+onwheel: null
+​​
+open: function open()
+​​
+opener: null
+​​
+origin: "https://i.pinimg.com"
+​​
+outerHeight: 754
+​​
+outerWidth: 1382
+​​
+pageXOffset: 0
+​​
+pageYOffset: 0
+​​
+parent: Window https://i.pinimg.com/564x/cd/85/6d/cd856de6893662badd20972ff4b2b203.jpg
+​​
+parseFloat: function parseFloat()
+​​
+parseInt: function parseInt()
+​​
+performance: Performance { timeOrigin: 1525586967516, timing: PerformanceTiming, navigation: PerformanceNavigation, … }
+​​
+personalbar: BarProp { visible: true }
+​​
+postMessage: function postMessage()
+​​
+print: function print()
+​​
+prompt: function prompt()
+​​
+releaseEvents: function releaseEvents()
+​​
+requestAnimationFrame: function requestAnimationFrame()
+​​
+requestIdleCallback: function requestIdleCallback()
+​​
+resizeBy: function resizeBy()
+​​
+resizeTo: function resizeTo()
+​​
+screen: Screen { availWidth: 1366, availHeight: 738, width: 1366, … }
+​​
+screenX: -8
+​​
+screenY: -8
+​​
+scroll: function scroll()
+​​
+scrollBy: function scrollBy()
+​​
+scrollByLines: function scrollByLines()
+​​
+scrollByPages: function scrollByPages()
+​​
+scrollMaxX: 0
+​​
+scrollMaxY: 0
+​​
+scrollTo: function scrollTo()
+​​
+scrollX: 0
+​​
+scrollY: 0
+​​
+scrollbars: BarProp { visible: true }
+​​
+self: Window https://i.pinimg.com/564x/cd/85/6d/cd856de6893662badd20972ff4b2b203.jpg
+​​
+sessionStorage: Storage { length: 0 }
+​​
+setInterval: function setInterval()
+​​
+setResizable: function setResizable()
+​​
+setTimeout: function setTimeout()
+​​
+sidebar: External {  }
+​​
+sizeToContent: function sizeToContent()
+​​
+speechSynthesis: SpeechSynthesis { pending: false, speaking: false, paused: false, … }
+​​
+status: ""
+​​
+statusbar: BarProp { visible: true }
+​​
+stop: function stop()
+​​
+toolbar: BarProp { visible: true }
+​​
+top: Window https://i.pinimg.com/564x/cd/85/6d/cd856de6893662badd20972ff4b2b203.jpg
+​​
+undefined: undefined
+​​
+unescape: function unescape()
+​​
+uneval: function uneval()
+​​
+updateCommands: function updateCommands()
+​​
+window: Window https://i.pinimg.com/564x/cd/85/6d/cd856de6893662badd20972ff4b2b203.jpg
+​
+__proto__: WindowPrototype
+​​
+constructor: function ()
+​​
+__proto__: WindowProperties {  }
+The ‘content’ attribute of Window objects is deprecated.  Please use ‘window.top’ instead.
+cd856de6893662badd20972ff4b2b203.jpg
