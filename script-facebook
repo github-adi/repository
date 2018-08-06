@@ -1,0 +1,64 @@
+<html>
+<head>
+
+<script src="https://connect.facebook.net/en_US/all.js"></script>
+
+</head>
+<body>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{167185933303631}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{v2.12}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+ 
+</script>
+
+<SCRIPT>   
+FB.api(
+  '/me',
+  'GET',
+  {"fields":"id,name"},
+  function(response) {
+      // Insert your code here \\
+   appId      : '{167185933303631}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{v2.12}'
+  }
+);   
+</SCRIPT>
+<br>
+
+<A HREF="https://docs.google.com/document/d/1iGuOgjiHQGoBqgQPJfphsZOeYkFioEXS3ggViKMYuvI/pub" target="_blank">https://docs.google.com/document/d/1iGuOgjiHQGoBqgQPJfphsZOeYkFioEXS3ggViKMYuvI/pub</A>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.11&appId=167185933303631&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-comments" data-href="https://docs.google.com/document/d/1iGuOgjiHQGoBqgQPJfphsZOeYkFioEXS3ggViKMYuvI/pub" data-numposts="5"></div>
+
+<a href="https://www.facebook.com/impression.php/f96e15134d53e8/?api_key=167185933303631&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D" target="_blank">https://www.facebook.com/impression.php/f96e15134d53e8/?api_key=167185933303631&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D</a>
+
+</br>
+</body>
+</html>
