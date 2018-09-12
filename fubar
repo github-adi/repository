@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+
+      <script type='text/vbscript'>
+            Function IEBinary_getByteAt(strBinary, iOffset)
+               IEBinary_getByteAt = AscB(MidB(strBinary,iOffset+1,1))
+            End Function
+            Function IEBinary_getLength(strBinary)
+               IEBinary_getLength = LenB(strBinary)
+            End Function
+       </script>
+
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script language="JavaScript" type="text/javascript" src='https://fubar.com/js/canvasResize/jquery.exif.js'></script>
+        <script language="JavaScript" type="text/javascript" src='https://fubar.com/js/canvasResize/jquery.canvasResize.js'></script>
+        <script language="JavaScript" type="text/javascript" src='https://fubar.com/js/canvasResize/canvasResize.js'></script>
+<script>var $j = jQuery.noConflict();</script>
+
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://fubar.com/imgs/fubar_fb_share.jpg" />
+<meta property="og:site_name" content="fubar.com" />
+<meta property="fb:app_id" content="203517887171" />
+<meta property="og:description" content="Fubar: Connect with New Friends 24-7! Over 14 million REAL members. Join NOW (It's Free!)" />
+<title>fubar: Real people.  Real fun.</title>
+<link rel="shortcut icon" href="https://fubar.com/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" href="https://fubar.com/m/?g=css&1246" />
+<link type="text/css" rel="stylesheet" href="https://fubar.com/m/?f=css/login.css&1246" />
+<link type="text/css" rel="stylesheet" href="https://fubar.com/m/?f=css/header_simple.css&1246" />
+<link type="text/css" rel="stylesheet" href="https://fubar.com/m/?f=css/join.css&1246" />
+<script type="text/javascript" src="https://fubar.com/m/?g=js1&1228"></script>
+<script type="text/javascript" src="https://fubar.com/m/?g=js2&1228"></script>
+<script type="text/javascript" src="https://fubar.com/m/?g=join&1228"></script>
+<script type="text/javascript" src="https://fubar.com/m/?g=simple_home&1228"></script>
+<script type="text/javascript" src="https://fubar.com/m/?f=js/facebook.js&1228"></script>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-2419647-1'],['_trackPageview']);(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;g.src='https://ssl.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s);}(document,'script'));</script></head>
+
+<body class='_login_page_body' onload="javascript:document.login_form._user.focus();">
+
+<div id="pagecontent" class="_login_page clearfix"><div id='login-container'><h1 class='left-align'>Log in</h1><div class='clear'></div><div id='login-left'>
+		  	<div id='login-left-top'><p>Log in to access your account. If you don't have a fubar account, you can create one <a href="https://fubar.com/index.php?reset=1" class='new-link'>here</a>, its free and only takes a few seconds.</p></div>
+
+<div id='login-left-bottom'><p>If you used Facebook to log in the past,<br/> click below:</p></div>
+			<div id="facebook_login">
+	    		<a href="https://fubar.com" onclick="facebook_click_button('login');">
+	    			<img id="fb_login_image" src="https://fubar.com/imgs/facebook/login_using_facebook_large.gif" alt="Login using Facebook" onclick="alp_track('login_fb','','');"/>
+	   		    </a>
+	    		<div id="facebook_login_message"></div>
+	    	</div>
+		</div><div id='login-right'><div id='login-right-inner'><form id="login_form" name="login_form" method="post" action="/login.php">
+<input type="hidden" name="dest" value="/home.php">
+<br/><br/><input id='_user' class='required validate-email-login css-input' type='text' name='_user' value='' placeholder='email address'/><br/><br/><br/><input id="_pw" class="required validate-password css-input" type="password" name="_pw" value="" placeholder='password'/><br/><br/><a href="https://fubar.com/recoverpw.php" class='new-link'>forgot your password?</a><br/><br/><input id="loginbutton" type="submit" class='new-login-bt' style='background:url(/imgs/new-login-button.png) -10px no-repeat; border:none;' value="" onclick="alp_track('login_click','','');"/><br/><p>remember me: <input type="checkbox" name="remember_me" checked="checked"></p><br/><p class='validation-advice'></p></form></div></div></div><div class='clear'></div><meta name="viewport" content="width=device-width, initial-scale=.8, maximum-scale=.8">
+		<script>
+		function alp_track(type,user_email, anniversary){
+			if(anniversary){
+				new Ajax.Request('/a_invite_tracking.php', { 
+					parameters: { alp_tracking: 1,tracking_type: type, email:user_email}, 
+					onSuccess: function(response) {
+					} 
+				});
+			}
+		}
+		</script>
+		</div>
+
+<div id="fb-root"></div><script type="text/javascript">function setup_login_form() { new Validation('login_form'); }; Event.observe(document, 'dom:loaded', setup_login_form);window.fbAsyncInit = function(){FB.init({appId:'203517887171',channelUrl:'https://fubar.com/fb_channel.php',status:false,cookie:true,oauth:true,xfbml:true,version:'v2.0'});document.fire("fb:loaded");FB.Event.subscribe('edge.create', function(response) {if(response.indexOf('138483632849459') != -1) {fb_like_login(response);} else if(response.indexOf('videos.php') != -1 && response.indexOf('yid') != -1) {fb_like_video(response);} else {fb_like_record(response);}});};(function(){var e = document.createElement('script');e.src = document.location.protocol + 'https://connect.facebook.net/en_US/sdk.js';e.async = true;document.getElementById('fb-root').appendChild(e);}());
+document.observe('dom:loaded', function() {
+        if (Prototype.Browser.IE) {
+            $$('body').invoke('addClassName', 'ie');
+            if (parseInt(navigator.userAgent.substring(navigator.userAgent.indexOf("MSIE")+5)) <= 7) {
+                $$('body').invoke('addClassName', 'ie_old');
+            }
+        }
+    });function pagewatchforbadimages() { watchforfailedimages(); } document.observe('dom:loaded', pagewatchforbadimages);</script></body></html>
