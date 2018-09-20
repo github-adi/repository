@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<BODY>
+<div class="sample">
+	<img class="loading-renderer" src="https://render.myfonts.net/fonts/font_rend.php?id=3e49a4a4901bbb31fc9bccd386fe8ae1&amp;rs=32&amp;bg=fff200&amp;fg=ff2200&amp;t=o&amp;w=720&amp;rbe=&amp;ft=clig%2Cliga&amp;sc=&amp;rt=Muhammad+Adi+Nugroho%2CS.Adm.Neg." data-src="https://render.myfonts.net/fonts/font_rend.php?id=3e49a4a4901bbb31fc9bccd386fe8ae1&amp;rs=32&amp;bg=ffffff&amp;fg=000000&amp;rt=It%E2%80%99s%20unquestionably%20one%20of%20Judy%20G.%20Schwartzkopf%E2%80%99s%20exotic%20missives.&amp;sc=1&amp;t=o&amp;w=706" data-srcset="https://render.myfonts.net/fonts/font_rend.php?id=3e49a4a4901bbb31fc9bccd386fe8ae1&amp;rs=32&amp;bg=ffffff&amp;fg=000000&amp;rt=It%E2%80%99s%20unquestionably%20one%20of%20Judy%20G.%20Schwartzkopf%E2%80%99s%20exotic%20missives.&amp;sc=2&amp;t=o&amp;w=706 2x" alt="It’s unquestionably one of Judy G. Schwartzkopf’s exotic missives." data-view="rendered-text" data-rendered="true" data-type="testdrivesample" data-custom-text="It’s unquestionably one of Judy G. Schwartzkopf’s exotic missives." id="image-replacement-56101531" srcset="https://render.myfonts.net/fonts/font_rend.php?id=3e49a4a4901bbb31fc9bccd386fe8ae1&amp;rs=32&amp;bg=fff200&amp;fg=ff2200&amp;t=o&amp;w=720&amp;rbe=&amp;ft=clig%2Cliga&amp;rt=Muhammad+Adi+Nugroho%2CS.Adm.Neg.&amp;sc=2 2x">
+	<script>
+		window.MyFonts.FontPreview.render($j('#image-replacement-56101531'));
+	</script>
+</div>
+</BODY>
+</HEAD>
+</HTML>
