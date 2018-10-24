@@ -1,0 +1,2941 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jivox Interactivity Ad Framework Jivox</title>
+<style>
+		*{margin:0;padding:0;border:0px;}
+		body.landscape300x250{width:300px;height:250px;padding:0px;margin:0px;}
+		.landscape300x250 #scene-1{width:300px;height:250px; position:absolute;top:5000px;left:0;visibility:hidden;}
+						.landscape300x250 #scene-1 #asset110{position:absolute;left:0px;top:0px;width:300px;height:250px;z-index:1;opacity:1;}
+				object, embed { 
+ outline: 0; 
+}
+.zoomToAnim{backface-visibility:hidden; filter:blur(0);}
+#mask{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: #FFFFFF repeat scroll 0 0;display: none;z-index: 499;filter:alpha(opacity=60); -moz-opacity:0.6; -khtml-opacity: 0.6; opacity: 0.6;}
+#loader{position:absolute;z-index:99999999999;left:50%;top:50%;display:none;}
+#closeBtnModel{position:absolute;top:0px;left:0px;cursor:pointer;display:none;filter:alpha(opacity=80); -moz-opacity:0.8; -khtml-opacity: 0.8; opacity: 0.8; font-family:arial, tahoma; letter-spacing:0px; line-height:1; text-transform:none;right:0px;height:24px; width:24px;background: url('https://playercdn.jivox.com/1533615821/player/images/close_24x24.png');}
+
+</style>
+<script type="text/javascript" src="https://playercdn.jivox.com/1533615821/unit/js/gz/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="https://playercdn.jivox.com/1533615821/unit/js/gz/velocity-raf-disabled.min.js"></script>
+<script>
+var dyn__serviceList = {"geo":{"name":"Geography","optGroup":"Standard Services","city":{"name":"City"},"state":{"name":"State"},"postalCode":{"name":"Postal Code"},"dma":{"name":"DMA"},"country":{"name":"Country"},"ip":{"name":"IP Address"},"location":{"name":"Geo Location"}},"device":{"name":"Device","optGroup":"Standard Services","model":{"name":"Model"},"browserType":{"name":"Browser Type"},"osType":{"name":"Operating System"}},"holidays":{"name":"Holidays","optGroup":"Standard Services","holidayName":{"name":"Holiday Name"},"isHappening":{"name":"Is Happening"}},"time":{"name":"Time","optGroup":"Standard Services","local-time":{"name":"Local Time"},"local-date":{"name":"Local Date"},"local-date-time":{"name":"Local Date and Time"},"local-day-of-week":{"name":"Local Day of Week"},"time":{"name":"Time"},"date":{"name":"Date"},"date-time":{"name":"Date and Time"},"day-of-week":{"name":"Day of Week"}},"weather":{"name":"Weather","optGroup":"Standard Services","temp":{"name":"Temperature"},"wind":{"name":"Wind"},"weather":{"name":"Condition"},"pollen":{"name":"Pollen","disabled":true},"forecast":{"name":"Forecast","disabled":true},"UV":{"name":"UV","disabled":true},"historical":{"name":"Historical","disabled":true},"internationalWeather":{"name":"International Weather","disabled":true}},"adobe":{"name":"Adobe Audience Manager","optGroup":"DMP Services","segmentId":{"name":"Segment ID"}},"bluekai":{"name":"BlueKai","optGroup":"DMP Services","segmentId":{"name":"Category ID"}},"liveramp":{"name":"Liveramp","optGroup":"DMP Services","segmentId":{"name":"Segment ID"}},"lotame":{"name":"Lotame","optGroup":"DMP Services","segmentId":{"name":"Segment ID"}},"acxiom":{"name":"Acxiom","optGroup":"DMP Services","disabled":true,"segmentId":{"name":"Segment ID"}},"neustar":{"name":"Neustar","optGroup":"DMP Services","disabled":true,"segmentId":{"name":"Segment ID"}},"signal":{"name":"Signal","optGroup":"DMP Services","disabled":true,"segmentId":{"name":"Segment ID"}},"v12Group":{"name":"V12 Group","optGroup":"DMP Services","disabled":true,"segmentId":{"name":"Segment ID"}},"wfxtg":{"name":"Watson Advertising(IBM) WEATHERfx","optGroup":"Premium Services","current":{"name":"Current Forecast"},"tomorrow":{"name":"Tomorrow's Forecast"},"dayAfter":{"name":"Day After Forecast"},"twoWeeksForecast":{"name":"Two Weeks Forecast"}},"cookieData":{"name":"Sequential and Retargeting","optGroup":"Jivox Data Services","jvxdynsq-isSet":{"name":"Is creative viewed","optGroup":"Sequential Messaging"},"jvxdynsq":{"name":"Last viewed creative","optGroup":"Sequential Messaging"},"jvxdynsq_frequency":{"name":"Creative view count","optGroup":"Sequential Messaging"},"jvxdynsl":{"name":"Retargeting Cookie","optGroup":"Retargeting"},"jvxdynsl-isSet":{"name":"Retargeting Cookie Present","optGroup":"Retargeting"},"jvxdynsl-isSet_groups":{"name":"Retargeting Group Present","optGroup":"Retargeting"},"jvxdynsl_group1":{"name":"Retargeting Group 1","optGroup":"Retargeting"},"jvxdynsl_group2":{"name":"Retargeting Group 2","optGroup":"Retargeting"},"jvxdynsl_group3":{"name":"Retargeting Group 3","optGroup":"Retargeting"},"jvxdynsl_group4":{"name":"Retargeting Group 4","optGroup":"Retargeting"},"jvxdynsl_group5":{"name":"Retargeting Group 5","optGroup":"Retargeting"},"jvxdynsl_group6":{"name":"Retargeting Group 6","optGroup":"Retargeting"},"jvxdynsl_group7":{"name":"Retargeting Group 7","optGroup":"Retargeting"},"jvxdynsl_group8":{"name":"Retargeting Group 8","optGroup":"Retargeting"},"jvxdynsl_group9":{"name":"Retargeting Group 9","optGroup":"Retargeting"}},"pdhService":{"name":"Personalization Hub","optGroup":"Jivox Data Services","userViewed":{"name":"User Viewed Ad"},"userClicked":{"name":"User Clicked Ad"},"userConverted":{"name":"User Converted"},"viewedCreatives":{"name":"User Viewed Creative"},"clickedCreatives":{"name":"User Clicked Creative"},"convertedCreatives":{"name":"User Converted Creative"},"impressions":{"name":"Total Impressions"},"clicks":{"name":"Total Clicks"},"conversions":{"name":"Total Conversions"}},"aylien":{"name":"Aylien","optGroup":"Contextual Data Services","disabled":true,"pageCategory":{"name":"Page Category"}},"dataSift":{"name":"DataSift","optGroup":"Contextual Data Services","disabled":true,"anonymizedAndAggregatedFacebookNewsfeeddata":{"name":"Anonymized and aggregated Facebook newsfeed data"}},"evite":{"name":"Evite","optGroup":"Contextual Data Services","disabled":true,"events":{"name":"Events"},"attendee":{"name":"Attendee"},"host":{"name":"Host"},"accepted":{"name":"Accepted"},"date":{"name":"Date"},"time":{"name":"Time"},"dateAndTime":{"name":"Date and Time"},"location":{"name":"Location"}},"factual":{"name":"Factual","optGroup":"Contextual Data Services","disabled":true,"POI":{"name":"POI"},"segmentID":{"name":"Segment ID"}},"graceNote":{"name":"GraceNote","optGroup":"Contextual Data Services","disabled":true,"TVSchedule":{"name":"TV Schedule"},"TVShows":{"name":"TV Shows"},"movies":{"name":"Movies"},"movieShowtimes":{"name":"Movie Showtimes"},"TVSportsEvents":{"name":"TV Sports Events"},"TVMovies":{"name":"TV Movies"}},"grapeshot":{"name":"Grapeshot","optGroup":"Contextual Data Services","disabled":true,"pagecategory":{"name":"Page Category"}},"hubSpot":{"name":"HubSpot","optGroup":"Contextual Data Services","disabled":true},"meetUp":{"name":"MeetUp","optGroup":"Contextual Data Services","disabled":true,"events":{"name":"Events"}},"pollen.com":{"name":"Pollen.com","optGroup":"Contextual Data Services","disabled":true,"pollenCount":{"name":"Pollen Count"},"pollenLevel":{"name":"Pollen Level"}},"retailigence":{"name":"Retailigence","optGroup":"Contextual Data Services","disabled":true,"retailerLocation":{"name":"Retailer Location"}},"rottenTomatoes":{"name":"Rotten Tomatoes","optGroup":"Contextual Data Services","disabled":true,"moviesDatabase":{"name":"Movies Database"}},"shopLocal":{"name":"ShopLocal","optGroup":"Contextual Data Services","disabled":true,"productCircular":{"name":"Product Circular"}},"sportRadar":{"name":"SportRadar","optGroup":"Contextual Data Services","disabled":true,"football":{"name":"Football"},"basketball":{"name":"Basketball"},"hockey":{"name":"Hockey"},"soccer":{"name":"Soccer"},"eSports":{"name":"eSports"},"racing":{"name":"Racing"},"golf":{"name":"Golf"},"olympics":{"name":"Olympics"},"cricket":{"name":"Cricket"},"tennis":{"name":"Tennis"},"rugby":{"name":"Rugby"},"MMA":{"name":"MMA"},"badminton":{"name":"Badminton"},"bandy":{"name":"Bandy"},"cycling":{"name":"Cycling"},"volleyball":{"name":"Volleyball"},"curling":{"name":"Curling"},"darts":{"name":"Darts"},"floorball":{"name":"Floorball"},"futsal":{"name":"Futsal"},"handball":{"name":"Handball"},"pesapallo":{"name":"Pesapallo"},"snooker":{"name":"Snooker"},"squash":{"name":"Squash"},"waterpolo":{"name":"Waterpolo"}},"taggstar":{"name":"Taggstar","optGroup":"Contextual Data Services","disabled":true,"purchasesLast24Hours":{"name":"Purchases Last 24 Hours"},"countOfPeopleLooking":{"name":"Count of People Looking"}},"xignite":{"name":"Xignite","optGroup":"Contextual Data Services","disabled":true,"globalHistorical":{"name":"Global Historical"},"globalIndicesHistorical":{"name":"Global Indices Historical"},"globalQuotes":{"name":"Global Quotes"},"globalCurrencies":{"name":"Global Currencies"},"globalMetals":{"name":"Global Metals"},"rates":{"name":"Rates"},"factSetEstimates":{"name":"Fact Set Estimates"},"factSetFundamentals":{"name":"Fact Set Fundamentals"},"analysts":{"name":"Analysts"},"globalNews":{"name":"Global News"},"IPOs":{"name":"IPOs"}},"campaignProperties":{"name":"Campaign Properties","optGroup":"Campaign Services","creativeDim":{"name":"Creative Dimension","optGroup":"Creative Properties"},"isBase":{"name":"Is Base Unit","optGroup":"Creative Properties"},"placementId":{"name":"Placement Id","optGroup":"Trafficking"},"siteId":{"name":"Site Id","optGroup":"Trafficking"},"campaignId":{"name":"Campaign ID","optGroup":"Trafficking"}},"tagVarService":{"name":"DSP Data Signal","optGroup":"Campaign Services","DataSignal1":{"name":"Data Signal 1"},"DataSignal2":{"name":"Data Signal 2"},"DataSignal3":{"name":"Data Signal 3"},"DataSignal4":{"name":"Data Signal 4"},"DataSignal5":{"name":"Data Signal 5"},"DataSignal6":{"name":"Data Signal 6"},"DataSignal7":{"name":"Data Signal 7"},"DataSignal8":{"name":"Data Signal 8"},"DataSignal9":{"name":"Data Signal 9"},"DataSignal10":{"name":"Data Signal 10"}}};
+</script>
+
+
+</head>
+<body>
+<script id="jvxWidget" src = "https://playercdn.jivox.com/1533615821/widgets/jivoxWidgetApi/gz/jivoxWidgetApiV2.min.js" data-is-in-layout="1"></script><script>
+
+
+var creativeResolveBeginTime = "1540360177000";
+    creativeResolveBeginTime = new Date(Number(creativeResolveBeginTime));
+var playerParamsMap = {"reportingURL":"https:\/\/evs.jivox.com","creativeUnitType":"20","bDim":"300x250","bUnitId":"2000","siteId":"15bbf3202d5114","campaignId":"127836","es_pId":"JGKkjh","isDynamic":"1","ap_DataSignal1":"u2e4e80","ap_gdpr":"{{GDPR}}","ap_gdpr_consent":"{{CONSENT}}","jvxVer":"2","cMacro":"http:\/\/insight.adsrvr.org\/track\/clk?imp=c0f149c9-d24e-4a0a-b659-5c6f6370bb5d&ag=u2e4e80&sfe=e0787e8&sig=RT7Jxfvngvwj4n0ADH93SGcoRsw3gAtIqPPmCb5U0_8.&crid=jg27961q&cf=560141&fq=0&td_s=mail.yahoo.com&rcats=&mcat=&mste=mail.yahoo.com&mfld=2&mssi=fztyx4etav99&mfsi=adko7okxfx&sv=rightmedia&uhow=84&agsa=&rgco=Indonesia&rgre=West%20Java&rgme=&rgci=Bogor&rgz=&dt=PC&osf=Windows&os=Windows10&br=Firefox&svpid=20459933223&rlangs=en&mlang=&did=&rcxt=Other&tmpc=32&vrtd=&osi=&osv=&daid=&dnr=0&vpb=&svsc=&dur=ChwKB293NDV2cHgQhSIiDgjDu9tSEgd0dXJiaW5lCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90CjgKHmNoYXJnZS1hbGxHcmFwZXNob3RCcmFuZFNhZmV0eSIWCPb__________wESCWdyYXBlc2hvdBCFIg..&crrelr=&npt=&svscid=4454551&mdl=Firefox%20-%20Windows&atst=1&r=","r":"265572","objectName":"jvx_5bd007ef05459","adUnitId":"2000","jvxSessionId":"1540360175.3105","base":"1","creativeResolveBeginTime":"1540360177000","localTimeOffset":"-420","pageURL":"https:\/\/mail.yahoo.com\/","allowExp":"0","isSF":"1","serverURL":"https:\/\/as.jivox.com","userInitAction":0};
+var serverProtocolStr = 'https://';
+var layoutRendererJSON = {"adIdx":"165878","layout":{"inbanner":{"20":{"300x250":{"adUnitIdx":"2000","scenes":{"scene-1":{"components":{"asset110":{"location":"0,0,300,250","options":[],"layerId":"1"}}}}}}}}};
+var assetsDetailedJSON = {"customAsset.asset110":{"interactionIdentifier":"customAsset.asset110","icon":"https:\/\/assetscdn.jivox.com\/widgets\/2018\/10\/a48282z5bc87f9edc01b\/1\/WOT_300x250.html","label":"WOT_300x250","data":"\u003C!DOCTYPE html\u003E\n\u003C!--\n\tNOTES:\n\t1. All tokens are represented by '$' sign in the template.\n\t2. You can write your code only wherever mentioned.\n\t3. All occurrences of existing tokens will be replaced by their appropriate values.\n\t4. Blank lines will be removed automatically.\n\t5. Remove unnecessary comments before creating your template.\n--\u003E\n\u003Chtml\u003E\n\u003Chead\u003E\n\u003Cmeta charset=\"UTF-8\"\u003E\n\u003Cmeta name=\"authoring-tool\" content=\"Adobe_Animate_CC\"\u003E\n\u003Ctitle\u003EWOT_300x250\u003C\/title\u003E\n\u003C!-- write your code here --\u003E\n\u003Cstyle\u003E\n@font-face {\n  font-family: 'Stolzl Medium';\n  src: url('fonts\/Stolzl-Medium.eot');\n  src: url('fonts\/Stolzl-Medium.woff2') format('woff2'),\n       url('fonts\/Stolzl-Medium.woff') format('woff'),\n       url('fonts\/Stolzl-Medium.ttf') format('truetype'),\n       url('fonts\/Stolzl-Medium.svg#ProximaNova-Bold') format('svg'),\n       url('fonts\/Stolzl-Medium.eot?#iefix') format('embedded-opentype');\n  font-weight: bold;\n  font-style: normal; \n}\n\u003C\/style\u003E\n\u003Cscript src=\"libs\/createjs-2015.11.26.min.js\"\u003E\u003C\/script\u003E\n\u003Cscript src=\"WOT_300x250_jvx.js\"\u003E\u003C\/script\u003E\n\u003C!-- JIVOX PRE INIT BEGIN --\u003E\n\u003Cscript\u003E\nvar dynamicAssetData = parent.getDynamicAssetData('asset110');\nvar jvx_comp = AdobeAn.getComposition(\"9FC7C78CFFD5A54286F1A013A28B1A1E\");\nvar jvx_lib = jvx_comp.getLibrary();\nif(dynamicAssetData != null && jvx_lib != undefined && jvx_lib.properties != undefined && jvx_lib.properties.manifest != undefined){\n  for(var i = 0; i \u003C jvx_lib.properties.manifest.length; i++){\n    var id = jvx_lib.properties.manifest[i].id;\n    if(dynamicAssetData[\"lib_\" + id] != undefined){\n      try{ var match = createjs.RequestUtils.parseURI(jvx_lib.properties.manifest[i].src); if(match && match.extension) { jvx_lib.properties.manifest[i].type = createjs.RequestUtils.getTypeByExtension(match.extension); } } catch(e){}\n      jvx_lib.properties.manifest[i].src =  dynamicAssetData[\"lib_\" + id];\n }}}\nif(dynamicAssetData != null && jvx_lib != undefined && jvx_lib.jvxStrings != undefined){\n  for(var i = 0; i \u003C jvx_lib.jvxStrings.length; i++){\n    var id = jvx_lib.jvxStrings[i].id;\n    if(dynamicAssetData[\"lib_\" + id] != undefined){\n      jvx_lib.jvxStrings[i].text =  dynamicAssetData[\"lib_\" + id];\n      jvx_lib.jvxStrings[i].modified =  true;\n }}}\nif(parent.doAssetVariantReporting != undefined ){parent.doAssetVariantReporting('impression', 'asset110', 'BG300x250\/');parent.doAssetVariantReporting('impression', 'asset110', 'WoT_DCO_300x250');parent.doAssetVariantReporting('impression', 'asset110', 'WoT_DCO_300x250');}\n\u003C\/script\u003E\n\u003C!-- JIVOX PRE INIT END --\u003E\n\n\u003Cscript\u003E\nvar canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;\nfunction init() {\n\tcanvas = document.getElementById(\"canvas\");\n\tanim_container = document.getElementById(\"animation_container\");\n\tdom_overlay_container = document.getElementById(\"dom_overlay_container\");\n\tvar comp=AdobeAn.getComposition(\"9FC7C78CFFD5A54286F1A013A28B1A1E\");\n\tvar lib=comp.getLibrary();\n\tvar loader = new createjs.LoadQueue(false);\n\tloader.addEventListener(\"fileload\", function(evt){handleFileLoad(evt,comp)});\n\tloader.addEventListener(\"complete\", function(evt){handleComplete(evt,comp)});\n\tvar lib=comp.getLibrary();\n\tloader.loadManifest(lib.properties.manifest);\n}\nfunction handleFileLoad(evt, comp) {\n\tvar images=comp.getImages();\t\n\tif (evt && (evt.item.type == \"image\")) { images[evt.item.id] = evt.result; }\t\n}\nfunction handleComplete(evt,comp) {\n\t\/\/This function is always called, irrespective of the content. You can use the variable \"stage\" after it is created in token create_stage.\n\tvar lib=comp.getLibrary();\n\tvar ss=comp.getSpriteSheet();\n\tvar queue = evt.target;\n\tvar ssMetadata = lib.ssMetadata;\n\tfor(i=0; i\u003CssMetadata.length; i++) {\n\t\tss[ssMetadata[i].name] = new createjs.SpriteSheet( {\"images\": [queue.getResult(ssMetadata[i].name)], \"frames\": ssMetadata[i].frames} )\n\t}\n\texportRoot = new lib.WoT_DCO_300x250();\n\tstage = new lib.Stage(canvas);\n\tstage.addChild(exportRoot);\n\tstage.enableMouseOver();\t\n\t\/\/Registers the \"tick\" event listener.\n\tfnStartAnimation = function() {\n\t\tcreatejs.Ticker.setFPS(lib.properties.fps);\n\t\tcreatejs.Ticker.addEventListener(\"tick\", stage);\n\t}\t    \n\t\/\/Code to support hidpi screens and responsive scaling.\n\tfunction makeResponsive(isResp, respDim, isScale, scaleType) {\t\t\n\t\tvar lastW, lastH, lastS=1;\t\t\n\t\twindow.addEventListener('resize', resizeCanvas);\t\t\n\t\tresizeCanvas();\t\t\n\t\tfunction resizeCanvas() {\t\t\t\n\t\t\tvar w = lib.properties.width, h = lib.properties.height;\t\t\t\n\t\t\tvar iw = window.innerWidth, ih=window.innerHeight;\t\t\t\n\t\t\tvar pRatio = window.devicePixelRatio || 1, xRatio=iw\/w, yRatio=ih\/h, sRatio=1;\t\t\t\n\t\t\tif(isResp) {                \n\t\t\t\tif((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    \n\t\t\t\t\tsRatio = lastS;                \n\t\t\t\t}\t\t\t\t\n\t\t\t\telse if(!isScale) {\t\t\t\t\t\n\t\t\t\t\tif(iw\u003Cw || ih\u003Ch)\t\t\t\t\t\t\n\t\t\t\t\t\tsRatio = Math.min(xRatio, yRatio);\t\t\t\t\n\t\t\t\t}\t\t\t\t\n\t\t\t\telse if(scaleType==1) {\t\t\t\t\t\n\t\t\t\t\tsRatio = Math.min(xRatio, yRatio);\t\t\t\t\n\t\t\t\t}\t\t\t\t\n\t\t\t\telse if(scaleType==2) {\t\t\t\t\t\n\t\t\t\t\tsRatio = Math.max(xRatio, yRatio);\t\t\t\t\n\t\t\t\t}\t\t\t\n\t\t\t}\t\t\t\n\t\t\tcanvas.width = w*pRatio*sRatio;\t\t\t\n\t\t\tcanvas.height = h*pRatio*sRatio;\n\t\t\tcanvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';\t\t\t\t\n\t\t\tcanvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';\n\t\t\tstage.scaleX = pRatio*sRatio;\t\t\t\n\t\t\tstage.scaleY = pRatio*sRatio;\t\t\t\n\t\t\tlastW = iw; lastH = ih; lastS = sRatio;\t\t\n\t\t}\n\t}\n\tmakeResponsive(false,'both',false,1);\t\n\tAdobeAn.compositionLoaded(lib.properties.id);\n\tfnStartAnimation();\n\u003C!-- JIVOX POST INIT BEGIN --\u003E\n\u003C!-- JIVOX POST INIT END --\u003E\n}\n\u003C\/script\u003E\n\u003C!-- write your code here --\u003E\n\u003C\/head\u003E\n\u003Cbody onload=\"init();\" style=\"margin:0px;\"\u003E\n\t\u003Cdiv id=\"animation_container\" style=\"background-color:rgba(255, 255, 255, 1.00); width:300px; height:250px\"\u003E\n\t\t\u003Ccanvas id=\"canvas\" width=\"300\" height=\"250\" style=\"position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);\"\u003E\u003C\/canvas\u003E\n\t\t\u003Cdiv id=\"dom_overlay_container\" style=\"pointer-events:none; overflow:hidden; width:300px; height:250px; position: absolute; left: 0px; top: 0px; display: block;\"\u003E\n\t\t\u003C\/div\u003E\n\t\u003C\/div\u003E\n\u003C\/body\u003E\n\u003C\/html\u003E","externalPostURL":null,"eventType":"109","iconFileName":"WOT_300x250.html","urlFileName":null,"showInInteractNowBar":null,"type":"asset","orderNumber":3,"paramString":null,"secondaryVideoURL":null,"adFormat":null,"toEmailLabel":null,"fromEmailLabel":null,"messageLabel":null,"phoneRecipientLabel":null,"fromNameLabel":null,"postInteractionLaunchURL":null,"brandAwarenessLevel":"1","facebookUrlType":null,"isActionButton":null,"iconDimension":"[300,250]","assetDimension":null,"origIconDimension":"[300,250]","origAssetDimension":null,"assetBgColor":null,"iconBgColor":null,"iconFileType":"custom-html-widget-file","isIconActivePanel":null,"iconParamString":null,"autoPlay":null,"iconGlowColor":null,"isIconBgTransparent":null,"isWatermarkLogo":null,"fallbackImgURL":null,"fallbackImgFileName":null,"shareUrlType":null,"shareMsg":null,"fallbackType":null,"fallbackWidgetSrc":null,"fallbackWidgetURL":null,"fallbackWidgetFileName":null,"isCreatedByWidget":null,"clickHandler":"system","iconCustomEventQueryStr":null,"actionCustomEventQueryStr":null,"iconWidgetType":null,"modificationCount":null,"customEvents":null,"customActions":null,"disableClickThrough":null,"virtual":"1","groups":null,"additionalFiles":null,"dependentFiles":"fonts\/Stolzl-Medium.eot,fonts\/Stolzl-Medium.svg,fonts\/Stolzl-Medium.ttf,fonts\/Stolzl-Medium.woff,fonts\/Stolzl-Medium.woff2,images\/as5_01.png,images\/as5_02.png,images\/BG300x250.png,images\/bgto2_01.png,images\/bgto2_02.png,images\/bgtp1.png,images\/t1.png,images\/t2.png,libs\/createjs-2015.11.26.min.js,WOT_300x250.html,WOT_300x250.js,WOT_300x250_jvx.js","fallbackDependentFiles":null,"hoverIcon":null,"hoverIconFileName":null,"hoverOpacity":null,"hoverEffect":null,"scaleToFit":null,"widgetData":"{\"type\":\"canvas\",\"modifiedJS\":\"WOT_300x250_jvx.js\",\"version\":\"0.8.2\",\"canvas_js\":\"WOT_300x250.js\",\"scripts\":[\"libs\/createjs-2015.11.26.min.js\",\"WOT_300x250_jvx.js\"],\"aversion\":\"2\",\"compId\":\"9FC7C78CFFD5A54286F1A013A28B1A1E\",\"images\":[{\"prefix\":\"lib\",\"id\":\"as5_01\",\"url\":\"images\/as5_01.png\",\"supDyn\":\"1\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"as5_02\",\"url\":\"images\/as5_02.png\",\"supDyn\":\"1\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"BG300x250\",\"url\":\"images\/BG300x250.png\",\"supDyn\":\"1\",\"supIntr\":\"1\",\"dynamic\":1},{\"prefix\":\"lib\",\"id\":\"bgto2_01\",\"url\":\"images\/bgto2_01.png\",\"supDyn\":\"1\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"bgto2_02\",\"url\":\"images\/bgto2_02.png\",\"supDyn\":\"1\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"bgtp1\",\"url\":\"images\/bgtp1.png\",\"supDyn\":\"1\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"t1\",\"url\":\"images\/t1.png\",\"supDyn\":\"1\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"t2\",\"url\":\"images\/t2.png\",\"supDyn\":\"1\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"Tween12\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"Tween11\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"Tween10\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"Tween9\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"Tween8\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"Tween6\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"Tween2\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"Symbol1\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"Copy2\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"copy1\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"bg1\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"BG_VA\",\"supIntr\":\"1\"},{\"prefix\":\"lib\",\"id\":\"WoT_DCO_300x250\",\"supIntr\":\"1\"}],\"texts\":[{\"prefix\":\"lib\",\"id\":\"Copy2__1\",\"defaultValue\":\"Fill your week with inspiration at Wave of Tomorrow\",\"supDyn\":\"1\",\"fontSize\":\"26\",\"canScale\":1,\"canVertAlign\":1,\"webFont\":\"\",\"stringIndex\":0,\"dynamic\":1},{\"prefix\":\"lib\",\"id\":\"copy1__1\",\"defaultValue\":\"Featuring special artworks by local and international artists\",\"supDyn\":\"1\",\"fontSize\":\"23\",\"canScale\":1,\"canVertAlign\":1,\"webFont\":\"\",\"stringIndex\":1,\"dynamic\":1}]}","autoPlayOnMobile":null,"widgetAssets":null,"internalAsset":null,"lib_BG300x250":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_300x250.jpg","lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow"}};
+var adUnitNestedJSON = {"300x250":{"adIdx":"165878","versionId":"0","adUnitIdx":"2000","type":"banner","unitType":"inbanner","creativeUnitType":"20","dimension":"300x250","backgroundType":"image","url":null,"fileName":null,"dependentFiles":null,"backgroundColor":null,"fallbackType":null,"fallbackURL":null,"fallbackFileName":null,"fallbackDependentFiles":null,"fallbackWidgetSrc":null,"hasLayout":"1","hasVirtualAssets":"1","loadEvent":null,"clickEvent":null,"lastUpdatedAt":"2018-10-18 08:50:55","expansionUnitIdx":null,"paramString":null,"creativeWidgetType":null}};
+
+
+var mediaGalleryData = [];
+var abParamJSON = [];
+var creativeUnitType = '20';
+var widgetParamStr = "var jvxWidgetLoaded=false;var adUnitType=20;var isCampaign=1;var campaignId=127836;var adId=0;var isMobile=0; var creativeUnitType=20;var serverDateObj={'seconds':38,'minutes':9,'hours':2,'mday':24,'wday':3,'mon':10,'year':2018,'yday':296,'weekday':'Wednesday','month':'October','0':1540361378};var serverGMTDateObj={'seconds':38,'minutes':9,'hours':6,'mday':24,'wday':3,'mon':10,'year':2018,'yday':296,'weekday':'Wednesday','month':'October','0':1540361378};var objectName='jvx_5bd007ef05459';var clickTagURL='http://evs.jivox.com/jivox/serverAPIs/externalReporting/proxy.php?campaignId=127836&siteId=15bbf3202d5114&adUnitType=20&es_pId=JGKkjh&jvxSessionId=1540360175.3105&clickTagURL=http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fimp%3Dc0f149c9-d24e-4a0a-b659-5c6f6370bb5d%26ag%3Du2e4e80%26sfe%3De0787e8%26sig%3DRT7Jxfvngvwj4n0ADH93SGcoRsw3gAtIqPPmCb5U0_8.%26crid%3Djg27961q%26cf%3D560141%26fq%3D0%26td_s%3Dmail.yahoo.com%26rcats%3D%26mcat%3D%26mste%3Dmail.yahoo.com%26mfld%3D2%26mssi%3Dfztyx4etav99%26mfsi%3Dadko7okxfx%26sv%3Drightmedia%26uhow%3D84%26agsa%3D%26rgco%3DIndonesia%26rgre%3DWest%2520Java%26rgme%3D%26rgci%3DBogor%26rgz%3D%26dt%3DPC%26osf%3DWindows%26os%3DWindows10%26br%3DFirefox%26svpid%3D20459933223%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D32%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26svsc%3D%26dur%3DChwKB293NDV2cHgQhSIiDgjDu9tSEgd0dXJiaW5lCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90CjgKHmNoYXJnZS1hbGxHcmFwZXNob3RCcmFuZFNhZmV0eSIWCPb__________wESCWdyYXBlc2hvdBCFIg..%26crrelr%3D%26npt%3D%26svscid%3D4454551%26mdl%3DFirefox%2520-%2520Windows%26atst%3D1%26r%3Dhttps%253A%252F%252Fwaveoftomorrow.id%252F%253Futm_source%253Dsymphonypremium_cpm%2526utm_medium%253Dbanner_Std%2526utm_content%253D300x250_Desktop_Art%2526utm_campaign%253DWaveofTomorrow%2526utm_voucher_registration%253D247262Fp%2526utm_voucher_login%253D2472634q';var clickTag='http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fimp%3Dc0f149c9-d24e-4a0a-b659-5c6f6370bb5d%26ag%3Du2e4e80%26sfe%3De0787e8%26sig%3DRT7Jxfvngvwj4n0ADH93SGcoRsw3gAtIqPPmCb5U0_8.%26crid%3Djg27961q%26cf%3D560141%26fq%3D0%26td_s%3Dmail.yahoo.com%26rcats%3D%26mcat%3D%26mste%3Dmail.yahoo.com%26mfld%3D2%26mssi%3Dfztyx4etav99%26mfsi%3Dadko7okxfx%26sv%3Drightmedia%26uhow%3D84%26agsa%3D%26rgco%3DIndonesia%26rgre%3DWest%2520Java%26rgme%3D%26rgci%3DBogor%26rgz%3D%26dt%3DPC%26osf%3DWindows%26os%3DWindows10%26br%3DFirefox%26svpid%3D20459933223%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D32%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26svsc%3D%26dur%3DChwKB293NDV2cHgQhSIiDgjDu9tSEgd0dXJiaW5lCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90CjgKHmNoYXJnZS1hbGxHcmFwZXNob3RCcmFuZFNhZmV0eSIWCPb__________wESCWdyYXBlc2hvdBCFIg..%26crrelr%3D%26npt%3D%26svscid%3D4454551%26mdl%3DFirefox%2520-%2520Windows%26atst%3D1%26r%3Dhttps%253A%252F%252Fwaveoftomorrow.id%252F%253Futm_source%253Dsymphonypremium_cpm%2526utm_medium%253Dbanner_Std%2526utm_content%253D300x250_Desktop_Art%2526utm_campaign%253DWaveofTomorrow%2526utm_voucher_registration%253D247262Fp%2526utm_voucher_login%253D2472634q';var siteId='15bbf3202d5114';var eventReportingURL='https://evs.jivox.com';var sessionKey='';var serverProtocolStr='https://';var jvxSessionId='1540360175.3105';var placementId='JGKkjh';var isDynamic=1;var serverURL='https://as.jivox.com';var debugWidget=0;var ap_DataSignal1='u2e4e80';var ap_gdpr='{{GDPR}}';var ap_gdpr_consent='{{CONSENT}}';var dynamicData={};var widgetLoaded = function(){jvxWidgetLoaded = true;};window.addEventListener('load', widgetLoaded, false);";
+var jivoxWidget = 'https://playercdn.jivox.com/1533615821/widgets/jivoxWidgetApi/gz/jivoxWidgetApiV2.min.js';
+var unitTypeStr = 'inbanner';
+var galleryFileURL = '/unit/mediaGallery_v2.php';
+var trackersAllJSON = [];
+var trackersForVideo = "";
+var hasFlash = false;
+var orgHasFlash = false;
+var isMSIE = false;
+var enableWidgetEdit = '0';
+var editedWidgetsId = [];
+var editedCode = "";
+var browserName = 'Chrome';
+var browserVersion = '69.0.3497.100';
+
+
+
+var expansionOpen = false;
+var isInExpansion = false;
+
+
+var isFF = false;
+var useFlash = 1;
+var paramQueryStr = "adUnitType=20&campaignId=127836&base=1&creativeUnitType=20&versionId=0&adUnitId=2000&isDynamic=1&objectName=jvx_5bd007ef05459&clickThroughURL=http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fimp%3Dc0f149c9-d24e-4a0a-b659-5c6f6370bb5d%26ag%3Du2e4e80%26sfe%3De0787e8%26sig%3DRT7Jxfvngvwj4n0ADH93SGcoRsw3gAtIqPPmCb5U0_8.%26crid%3Djg27961q%26cf%3D560141%26fq%3D0%26td_s%3Dmail.yahoo.com%26rcats%3D%26mcat%3D%26mste%3Dmail.yahoo.com%26mfld%3D2%26mssi%3Dfztyx4etav99%26mfsi%3Dadko7okxfx%26sv%3Drightmedia%26uhow%3D84%26agsa%3D%26rgco%3DIndonesia%26rgre%3DWest%2520Java%26rgme%3D%26rgci%3DBogor%26rgz%3D%26dt%3DPC%26osf%3DWindows%26os%3DWindows10%26br%3DFirefox%26svpid%3D20459933223%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D32%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26svsc%3D%26dur%3DChwKB293NDV2cHgQhSIiDgjDu9tSEgd0dXJiaW5lCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90CjgKHmNoYXJnZS1hbGxHcmFwZXNob3RCcmFuZFNhZmV0eSIWCPb__________wESCWdyYXBlc2hvdBCFIg..%26crrelr%3D%26npt%3D%26svscid%3D4454551%26mdl%3DFirefox%2520-%2520Windows%26atst%3D1%26r%3Dhttps%253A%252F%252Fwaveoftomorrow.id%252F%253Futm_source%253Dsymphonypremium_cpm%2526utm_medium%253Dbanner_Std%2526utm_content%253D300x250_Desktop_Art%2526utm_campaign%253DWaveofTomorrow%2526utm_voucher_registration%253D247262Fp%2526utm_voucher_login%253D2472634q&serverURL=https://as.jivox.com&placementId=JGKkjh&clickTag=http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fimp%3Dc0f149c9-d24e-4a0a-b659-5c6f6370bb5d%26ag%3Du2e4e80%26sfe%3De0787e8%26sig%3DRT7Jxfvngvwj4n0ADH93SGcoRsw3gAtIqPPmCb5U0_8.%26crid%3Djg27961q%26cf%3D560141%26fq%3D0%26td_s%3Dmail.yahoo.com%26rcats%3D%26mcat%3D%26mste%3Dmail.yahoo.com%26mfld%3D2%26mssi%3Dfztyx4etav99%26mfsi%3Dadko7okxfx%26sv%3Drightmedia%26uhow%3D84%26agsa%3D%26rgco%3DIndonesia%26rgre%3DWest%2520Java%26rgme%3D%26rgci%3DBogor%26rgz%3D%26dt%3DPC%26osf%3DWindows%26os%3DWindows10%26br%3DFirefox%26svpid%3D20459933223%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D32%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26svsc%3D%26dur%3DChwKB293NDV2cHgQhSIiDgjDu9tSEgd0dXJiaW5lCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90CjgKHmNoYXJnZS1hbGxHcmFwZXNob3RCcmFuZFNhZmV0eSIWCPb__________wESCWdyYXBlc2hvdBCFIg..%26crrelr%3D%26npt%3D%26svscid%3D4454551%26mdl%3DFirefox%2520-%2520Windows%26atst%3D1%26r%3Dhttps%253A%252F%252Fwaveoftomorrow.id%252F%253Futm_source%253Dsymphonypremium_cpm%2526utm_medium%253Dbanner_Std%2526utm_content%253D300x250_Desktop_Art%2526utm_campaign%253DWaveofTomorrow%2526utm_voucher_registration%253D247262Fp%2526utm_voucher_login%253D2472634q&reportingURL=https://evs.jivox.com&jvxSessionId=1540360175.3105&siteId=15bbf3202d5114&isCampaign=1&es_pId=JGKkjh&ap_DataSignal1=u2e4e80&ap_gdpr=%7B%7BGDPR%7D%7D&ap_gdpr_consent=%7B%7BCONSENT%7D%7D&jvxUUId=qYwYh4OXCmwW&es_cgName=Visual_art_weekdays_Desktop&es_segName=Visual_art_weekdays_Desktop";
+var videoAssetsInScene = {};
+var eventHistory = [];
+var base = Number(1);
+var isMraid = Number(0);
+var sceneRotateInterval = null;
+var UIRTimer = null;
+var fitToScreenID = {};
+var anyVideoPlaying = false;
+
+//asset Variant, impression tracker fire only once 
+var impressionTrackerHistory = [];
+var cMacro = 'http://insight.adsrvr.org/track/clk?imp=c0f149c9-d24e-4a0a-b659-5c6f6370bb5d&ag=u2e4e80&sfe=e0787e8&sig=RT7Jxfvngvwj4n0ADH93SGcoRsw3gAtIqPPmCb5U0_8.&crid=jg27961q&cf=560141&fq=0&td_s=mail.yahoo.com&rcats=&mcat=&mste=mail.yahoo.com&mfld=2&mssi=fztyx4etav99&mfsi=adko7okxfx&sv=rightmedia&uhow=84&agsa=&rgco=Indonesia&rgre=West%20Java&rgme=&rgci=Bogor&rgz=&dt=PC&osf=Windows&os=Windows10&br=Firefox&svpid=20459933223&rlangs=en&mlang=&did=&rcxt=Other&tmpc=32&vrtd=&osi=&osv=&daid=&dnr=0&vpb=&svsc=&dur=ChwKB293NDV2cHgQhSIiDgjDu9tSEgd0dXJiaW5lCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90CjgKHmNoYXJnZS1hbGxHcmFwZXNob3RCcmFuZFNhZmV0eSIWCPb__________wESCWdyYXBlc2hvdBCFIg..&crrelr=&npt=&svscid=4454551&mdl=Firefox%20-%20Windows&atst=1&r=';
+var isMobileUnit = 0;
+var objectName = 'jvx_5bd007ef05459';
+var isMobile = '';
+var dynamicPropertiesObj = {};
+var maxDynAPICall = "5";
+var DYReportingKey = "Visual_art_weekdays_Desktop";
+var DYselectedGroup = "";
+var DYselectedRule = "Visual_art_weekdays_Desktop";
+var DYSegmentName = "Visual_art_weekdays_Desktop";
+var dynamicJSONData = {"trackers":{"1":["https:\/\/bs.serving-sys.com\/serving\/adServer.bs?cn=trd&mc=click&pli=26409915&PluID=0&ord=-1241942767"],"60":["https:\/\/bs.serving-sys.com\/serving\/adServer.bs?cn=trd&mc=click&pli=26409915&PluID=0&ord=-1241942767","https:\/\/id-gmtdmp.mookie1.com\/t\/v2\/activity?tagid=V2_596863&src.rand=-1241942767&\" style=\"display:none;","https:\/\/bs.serving-sys.com\/serving\/adServer.bs?cn=display&c=19&mc=imp&pli=26409915&PluID=0&ord=-1241942767&rtu=-1","https:\/\/id-gmtdmp.mookie1.com\/t\/v2\/activity?tagid=V2_596863&src.rand=-1241942767"]},"data":{"Sampoerna_WoTDB2":[{"Backgounds 300x250":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_300x250.jpg","Backgounds 320x50":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_320x50.jpg","_jvxRtnGroup":"visual_art_weekdays_desktop","copy_1st":"Featuring special artworks by local and international artists","copy_2nd":"Fill your week with inspirations at Wave of Tomorrow","Backgounds 970x250":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_970x250.jpg","_assetKey":"1","Rotation_group":"Visual_art_weekdays_Desktop","Backgounds 728x90":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_728x90.jpg","_jvxRtnWeight":0,"Reporting":"Visual_art_weekdays_Desktop","Backgounds 160x600":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_160x600.jpg"}]},"reporting-key":"Visual_art_weekdays_Desktop","clickThrough":"https:\/\/waveoftomorrow.id\/?utm_source=symphonypremium_cpm&utm_medium=banner_Std&utm_content=300x250_Desktop_Art&utm_campaign=WaveofTomorrow&utm_voucher_registration=247262Fp&utm_voucher_login=2472634q","selected-rule":"Visual_art_weekdays_Desktop","segment-name":"Visual_art_weekdays_Desktop","asset-data":{"asset110":{"lib_BG300x250":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_300x250.jpg","lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow"},"asset112":{"lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow","lib_VA_728x90":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_728x90.jpg"},"asset102":{"lib_VA_160x600":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_160x600.jpg","lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow"},"asset113":{"lib_copy1__1":"Featuring special artworks by local and international artists","lib_VA_728x90_2":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_728x90.jpg","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow"},"asset114":{"lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow","lib_VA_970x250":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_970x250.jpg"},"asset104":{"lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow","lib_VA_728x90":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_728x90.jpg"},"asset115":{"lib_VA_160x600":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_160x600.jpg","lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow"}}};
+dynamicPropertiesObj["DYReportingKey"] = DYReportingKey;
+dynamicPropertiesObj["DYSegmentName"] = DYSegmentName;
+var creativeVariant = dynamicJSONData["reporting-key"];
+var resolveDynDataURL = '//traffick.jivox.com/jivox/serverAPIs/resolveDynamicData.php';
+var creativeResolveEndTime = new Date();
+var creativeResolveElapseTime = Math.round((creativeResolveEndTime - creativeResolveBeginTime)/1000);
+recordEvent(66, '/es_et_' + creativeResolveElapseTime);
+(function (DYData) {
+    var dynProp = []; 
+    for (var key in DYData){
+        if (DYData.hasOwnProperty(key)) {
+            dynProp.push(encodeURIComponent(DYData[key]));
+        }
+    }
+    dynProp = dynProp.join("|");
+                setCookieObj(objectName+"_dynamicProperties", dynProp , 0, "/", ".jivox.com");
+    })(dynamicPropertiesObj);
+var defaultJSON = {
+	"anim" : {
+		"duration" : 400,
+		"easing"   : "swing",
+		"type"	   : "fadeIn"
+	}
+} 
+function setCookieObj(name, value, expires, path, domain) {
+	  var cookie = name + "=" + encodeURIComponent(value) + ";";
+	  if (expires) {
+		  	    if(expires instanceof Date) {
+	      	      if (isNaN(expires.getTime()))
+	       expires = new Date();
+	    }
+	    else
+	      expires = new Date(new Date().getTime() + parseInt(expires) * 1000 * 60 * 60 * 24);
+
+	    cookie += "expires=" + expires.toGMTString() + ";";
+	  }
+	  if (path)
+	    cookie += "path=" + path + ";";
+	  if (domain)
+	    cookie += "domain=" + domain + ";";
+	  document.cookie = cookie;
+}
+function removeParameter(queryStr,keyArray){
+	if(queryStr == null || queryStr == "") return "";
+	var queryStrArr = queryStr.split("&"),
+		queryStrArrLen = queryStrArr.length,
+		keyArrayLen = keyArray.length,
+		tempArr = [],
+		preStr = "",
+		postStr = "";
+	for(var i=0; i<queryStrArrLen; i++){
+		tempArr = queryStrArr[i].split("=");
+		if(!i){	preStr = ""; postStr = "&"; }
+		for(var j=0; j<keyArrayLen; j++){
+			if(tempArr[0]==keyArray[j]){
+				queryStr = queryStr.replace(preStr+tempArr[0]+"="+tempArr[1]+postStr,"");
+			}
+		}
+		preStr = "&";
+		postStr = "";
+	}
+	return queryStr;
+}
+function addParameter(queryStr,keyValueArr){
+	if(queryStr == null || queryStr == "") return "";
+	var keyValueArrLen = keyValueArr.length,
+		tempArr=null;
+	for(var i=0; i<keyValueArrLen; i++){
+		tempArr = keyValueArr[i].split("=");
+		if(queryStr.search(tempArr[0]) == -1){
+			queryStr += "&"+tempArr[0]+"="+tempArr[1];
+		}
+	}
+	return queryStr;
+}
+function getParameterValue(queryStr,key){
+	if(queryStr == null || queryStr == "") return "";
+	var queryStrArr = queryStr.split("&"),
+		queryStrArrLen = queryStrArr.length,
+		tempArr = null,
+		retVal = null;
+	for(var i=0; i<queryStrArrLen; i++){
+		tempArr = queryStrArr[i].split("=");
+		if(key == tempArr[0]) retVal = tempArr[1];
+	}
+	return retVal;
+}
+function objHasData(obj,key){
+	return obj.hasOwnProperty(key) && obj[key] != "" ? true : false;
+}
+function getParameterInJSON(queryStr){
+	var retJSON = {},
+		queryStrArr = queryStr.split("&"),
+		queryStrArrLen = queryStrArr.length,
+		keyValArr = null;
+	for(var loopVar=0; loopVar< queryStrArrLen; loopVar++){
+		keyValArr = queryStrArr[loopVar].split("=");
+		retJSON[keyValArr[0]] = keyValArr[1];
+	}
+	return retJSON;
+}
+function addAdnlQueryStr(paramArr){
+	var len = paramArr.length;
+	var retStr = "";
+	for(var loopVar = 0; loopVar<len; loopVar++){
+		if(typeof paramArr[loopVar] != undefined && paramArr[loopVar] != null){
+			retStr += "&"+ paramArr[loopVar];
+		}
+	}
+	return retStr;
+}
+function checkIsFlashAva(){
+	var hasFlashPlugin = (function(){
+		if(navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]){
+			hasFlash = navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin;
+		} 
+				return hasFlash;
+	})();
+	orgHasFlash = hasFlash;
+	if(!useFlash){
+		hasFlash = false;
+	}
+}
+
+	function fireTracker(trackerInfo,addnlParam){
+		if(isNaN(parseInt(trackerInfo,10))) return false;
+		trackerInfo += ""; 
+		var finalURL = "",
+			url = "https://evs.jivox.com/trk/"+trackerInfo+"/127836/15bbf3202d5114/20/jvxSId_1540360175.3105"+"/es_pId_JGKkjh"+""+"/ap_DataSignal1_u2e4e80/ap_gdpr_%7B%7BGDPR%7D%7D/ap_gdpr_consent_%7B%7BCONSENT%7D%7D";
+		if(trackersAllJSON.length){
+			checkForExternalTracker(trackerInfo);
+		}
+
+			    finalURL = url + "/r_" + Math.random();
+	    if(typeof addnlParam != "undefined"){
+			addnlParam = addnlParam.replace(/&/g, "/").replace(/=/g, "_");
+	    	finalURL += addnlParam;
+	    }
+				getRequest(finalURL,0);
+	}
+	function checkForExternalTracker(trackerInfo){
+		var externalTrackerJSON = getExternalTrackerJSON(trackerInfo);
+		
+		if(externalTrackerJSON == null) return false;
+		if(trackerInfo == 1){
+			var externalTrackerJSONLen = externalTrackerJSON.length,
+				value = null;
+			for(var i=0; i<externalTrackerJSONLen; i++){
+				value = externalTrackerJSON[i];
+				if(value['trackerType'] == 2){
+					getRequest(value['trackerURL'],1);
+				}
+			}
+		}
+		return true;
+	}
+		var imprScrTrackerCnt = 0;
+	function createImprTrackerFrame(frameId){
+				var imprFrame = document.createElement('iframe');
+		imprFrame.id = frameId;
+		imprFrame.width = 1;
+		imprFrame.height = 1;
+		imprFrame.style.display = 'none';
+		imprFrame.src = 'about:blank';
+		imprFrame.scrolling = 'no';
+		return imprFrame;
+	}
+		function getRequest(url,isTracker,elType){
+				if(!isTracker){
+			url += "/es_cgName_"+DYReportingKey;
+            if(DYSegmentName != ""){
+                url += "/es_segName_"+DYSegmentName;
+            }
+		}
+				var refParamIndex = url.indexOf("es_pId") != -1 ? url.indexOf("es_pId") : url.indexOf("jvxSId_");
+		if(refParamIndex != -1){
+			var tempURL = url.substr(refParamIndex, url.length),
+				startOfCustomParam = refParamIndex + tempURL.indexOf("/");
+									url = url.substr(0, startOfCustomParam) + "/es_encParams_" +  btoa(url.substr(startOfCustomParam, url.length));		}
+
+		var requestInt = window.setTimeout(function(url){
+			clearTimeout(requestInt);
+			if(typeof elType != "undefined" && elType == 'script'){
+												imprScrTrackerCnt++;
+				var imprFrameId = 'jvx_5bd007ef05459ImprTrackerFrame_'+imprScrTrackerCnt;
+				var iTrackerFrame = createImprTrackerFrame(imprFrameId);
+				document.body.appendChild(iTrackerFrame);
+				var iTrackerFrameWin = iTrackerFrame.contentWindow || iTrackerFrame.contentDocument;
+								var iTrackerScrStr = "<html><head></head><body><script src="+encodeURI(url)+"></" + "script></" + "body></" + "html>";
+				iTrackerFrameWin.document.open('text/html', 'replace');
+				iTrackerFrameWin.document.write(iTrackerScrStr);
+				iTrackerFrameWin.document.close();
+							}else{
+				var imgEl = document.createElement('img');
+				imgEl.src = url;
+			}
+		},1,url);
+
+	}
+	function getExternalTrackerJSON(eventId){
+		var reqJSON = null;
+		if(eventId == 1)	reqJSON = [];
+		var trackersAllJSONLen = trackersAllJSON.length,
+			value = null;
+		for(var i=0; i<trackersAllJSONLen; i++){
+			value = trackersAllJSON[i];
+			if(value['eventId'] == eventId){
+				if(eventId == 1){
+					reqJSON[reqJSON.length] = value;
+				}else{
+					reqJSON = value;
+				}
+			}
+		}
+		return reqJSON;
+	}
+	function recordEvent(eventId, addnlParam){
+	        fireTracker(eventId,addnlParam);
+	}
+	function recordEventByName(event_name, isInteractive, addnlParam, assetID){
+		var finalAdnlParam = null,
+			eventType = parseInt(getRequiredAssetDetail(assetID,"eventType"),10),
+			startEventId = null,
+			isInteractive = Number(isInteractive),
+			addnlParamVal = "";
+		if(typeof addnlParam == "string" && addnlParam != ""){
+			var addnlParamArr = addnlParam.split("&"),
+			queryStrArrLen = addnlParamArr.length,
+			tempArr = null;
+			for(var i=0; i<queryStrArrLen; i++){
+				tempArr = addnlParamArr[i].split("=");
+				addnlParamVal += "/"+tempArr[0]+"_"+(decodeURIComponent(tempArr[1]) == tempArr[1] ? encodeURIComponent(tempArr[1]) : tempArr[1]);
+			}
+		}
+		else if(typeof addnlParam == "object"){
+			for(var key in addnlParam){
+				addnlParamVal += "/"+key+"_"+(decodeURIComponent(addnlParam[key]) == addnlParam[key] ? encodeURIComponent(addnlParam[key]) : addnlParam[key]);
+			}
+		}
+		addnlParam = typeof addnlParam == "undefined" ? "" : addnlParamVal;	
+		if((isInteractive || isInteractive == "true")&& isInteractive != "false"){
+			startEventId = 10000000;
+		}else{
+			startEventId = 30000000;
+		}
+		finalAdnlParam = "/es_eName_"+(decodeURIComponent(event_name) == event_name ? encodeURIComponent(event_name) : event_name)+addnlParam;
+		fireTracker(startEventId,finalAdnlParam);
+	}
+		function doAssetVariantReporting(type, assetid, assetLabel){
+		var assetVariants = {"asset110":{"lib_BG300x250":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_300x250.jpg","lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow"},"asset112":{"lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow","lib_VA_728x90":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_728x90.jpg"},"asset102":{"lib_VA_160x600":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_160x600.jpg","lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow"},"asset113":{"lib_copy1__1":"Featuring special artworks by local and international artists","lib_VA_728x90_2":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_728x90.jpg","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow"},"asset114":{"lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow","lib_VA_970x250":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_970x250.jpg"},"asset104":{"lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow","lib_VA_728x90":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_728x90.jpg"},"asset115":{"lib_VA_160x600":"https:\/\/cdn.jivox.com\/files\/48282\/Sampurna WOT\/VA_160x600.jpg","lib_copy1__1":"Featuring special artworks by local and international artists","lib_Copy2__1":"Fill your week with inspirations at Wave of Tomorrow"}},
+			assetVariantReportingKey="";
+		if(assetVariants && assetVariants[assetid] && assetVariants[assetid]["_reporting-keys"]){
+			
+			if(assetLabel && assetVariants[assetid]["_reporting-keys"][assetLabel]){
+				assetVariantReportingKey = assetVariants[assetid]["_reporting-keys"][assetLabel];
+			}else{
+				var key = Object.keys(assetVariants[assetid]["_reporting-keys"])[0];
+				assetVariantReportingKey = assetVariants[assetid]["_reporting-keys"][key];
+			}
+			if(assetVariantReportingKey){
+				if(type == "impression"){
+					if(impressionTrackerHistory.indexOf(assetVariantReportingKey) != -1){
+						return;
+						}
+					impressionTrackerHistory.push(assetVariantReportingKey);
+				}
+				recordAssetVariation(type, assetVariantReportingKey, 1);
+			}
+		}
+		
+	}
+		function recordAssetVariation(type, assetVariants, dropCookie){
+			var queryString="",
+		eventType="",
+		finalURL = "",
+		cookieName="",
+		expiryTime=90;
+		
+			if(typeof assetVariants == "object"){
+			var len = assetVariants.length;
+			for(var i=0; i<len; i++){
+				queryString += "es_av"+(i+1)+"_"+encodeURIComponent(assetVariants[i]);
+				queryString += "/";
+			}
+		}else{
+			queryString = "es_av_"+encodeURIComponent(assetVariants)+"/";
+		}
+		
+			if(type == "impression"){
+			eventType = "impr";
+			cookieName = "_avi";
+			expiryTime = 90;
+			
+		}else if(type == "click"){
+			eventType = "clk";
+			cookieName = "_avc";
+			expiryTime = 90;
+		}
+		
+		if(expiryTime < 0){
+			expiryTime = 0;
+		}else if(expiryTime > 365){
+			expiryTime = 365;
+		}
+		
+		
+		var url = "https://evs.jivox.com/asvar/"+eventType+"/127836/15bbf3202d5114/20/jvxSId_1540360175.3105"+"/es_pId_JGKkjh"+""+"/ap_DataSignal1_u2e4e80/ap_gdpr_%7B%7BGDPR%7D%7D/ap_gdpr_consent_%7B%7BCONSENT%7D%7D"+"/"+queryString;
+		
+	    finalURL = url + "r_" + Math.random();
+				getRequest(finalURL,0);
+				
+		 if(typeof(dropCookie) == 'undefined' || dropCookie == 1 || dropCookie == true || dropCookie == 'true'){
+				 			setCookieObj(127836+cookieName, (typeof assetVariants == "object")?assetVariants[0]:assetVariants, expiryTime, "/", ".jivox.com");
+				 }
+	}
+		function recordInteractionEvent(assetID, assetEventType, eventId){
+		var assetInteractionsData = getRequiredJSON('interactions',assetID),
+			srcEvent,
+			options,
+			trackAsClickThrough=0,
+			assetDestAction,
+			eventType = (!isVideoElement(assetID) && assetID.search("scene-") == -1) ? getRequiredAssetDetail(assetID,'eventType') : "";
+		$.each(assetInteractionsData, function(index, data){
+			srcEvent = data['srcEvent'];
+			assetDestAction = data['destAction'];
+			if((assetDestAction == "open") && (srcEvent == assetEventType)){
+				options = (data.hasOwnProperty('options')) ? data['options'] : undefined;
+				if(typeof options != 'undefined' && trackAsClickThrough == 0){
+					trackAsClickThrough = options.hasOwnProperty('trackAsClickThrough') ? options['trackAsClickThrough'] : 0;
+				}
+			}
+		});
+		eventType = getEventIdOnType(eventType, assetEventType);
+		if(trackAsClickThrough == 1){
+			var addnlEvtParam = "/es_fireEvent_" + (parseInt(eventType) + 700);
+			fireTracker(eventId, addnlEvtParam);
+		}else{
+			fireTracker(eventId);
+		}
+	}
+	function raiseAndRecordEvent(eventName, assetID, assetEventType, eventId){
+		if(eventName){
+			raiseEvent(eventName);
+		}
+		recordInteractionEvent(assetID, assetEventType, eventId);
+	}
+	
+function raiseAndRecordEvent(eventName, assetID, assetEventType, eventId) {
+	if(eventName){
+		raiseEvent(eventName);
+	}
+		recordInteractionEvent(assetID, assetEventType, eventId);
+	}
+
+function externalTrackerForEvent(eventId,trackerType){
+	var obj = null;
+	$.each(trackersAllJSON, function(index, value){
+		if(value['eventId'] == eventId){
+			if(eventId != 1 || value['trackerType'] == 1){
+				obj = value;
+			}
+		}
+	});
+	return obj;
+}
+function fireEvent(assetID,eventNum){
+			var eventType = parseInt(getRequiredAssetDetail(assetID,"eventType"),10),   			eventId = (eventType+200) + eventNum;
+		fireTracker(eventId);
+	}
+function getEventIdOnType(eventId,eventType){
+	var retVal = null,
+		reqEventId = ((Number(eventId) + 200) * 100) + 50;
+	retVal = (eventType == "click") ? eventId :
+			 (eventType == "hover") ? reqEventId+1 : eventId;
+    return retVal;
+}
+function getAssetEventType(assetIdList) {
+	var eventTypes = {};
+	if(typeof assetIdList != "undefined") {
+		var assetIdArr = assetIdList.split(",");
+		var len = assetIdArr.length;
+		for(var aid = 0 ; aid < len ; aid++) {
+			eventTypes[assetIdArr[aid].trim()] = parseInt(getRequiredAssetDetail(assetIdArr[aid].trim(),"eventType"),10);
+		}
+	}
+	return eventTypes;
+}
+function createHTMLElement(containerID,element,ID,elementStyle,additionalAttr){
+	var sceneCntDiv = document.createElement(element);
+	sceneCntDiv.id = ID;
+	if(elementStyle != "" && elementStyle != null)	sceneCntDiv.setAttribute("style",elementStyle);
+	if(typeof additionalAttr != "undefined") sceneCntDiv.setAttribute(additionalAttr[0],additionalAttr[1]);
+	if(containerID=="body"){
+		document.body.appendChild(sceneCntDiv);
+	}else{
+		document.getElementById(containerID).appendChild(sceneCntDiv);
+	}
+}
+function layoutEventHandling(elementID,eventArr,callback){
+	var eventArrLen = eventArr.length;
+	var eventType;
+	for(var loopVar = 0; loopVar<eventArrLen; loopVar++){
+		eventType = eventArr[loopVar];
+		attachEventListener(document.getElementById(elementID),eventType,function(event){callback(event);},false);
+	}
+}
+function convertToStr(){
+	return arguments[0].toString();
+}
+function loadJS(attrJSON){
+	var script = document.createElement('script');
+	if(typeof attrJSON != "undefined"){
+		for(var key in attrJSON){
+			script.setAttribute(key,attrJSON[key]);
+		}
+	}
+	document.getElementsByTagName('head')[0].appendChild(script);
+}
+function loadLoader(){
+	
+var css = '',
+	head = document.head || document.getElementsByTagName('head')[0],
+	style = document.createElement('style');
+style.type = 'text/css';
+	css = '.jvx_5bd007ef05459loadingSpinner { position: absolute; border-top-color: transparent; height: 20px; vertical-align: middle; width: 20px; border: 3px solid #444; border-top-color: transparent; border-radius: 50%; -webkit-animation: spin 1s infinite linear; -moz-animation: spin 1s infinite linear; -ms-animation: spin 1s infinite linear; animation: spin 1s infinite linear; } @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } } @-ms-keyframes spin { 100% { -ms-transform: rotate(360deg); } } @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } } @-keyframes spin { 100% { transform: rotate(360deg); } }';
+	if(css){
+		if (style.styleSheet){
+		  style.styleSheet.cssText = css;
+		} else {
+		  style.appendChild(document.createTextNode(css));
+		}
+		head.appendChild(style);
+	}
+	function addDivComponent_v2(mainEl, nodeId, className, text, styleObj)
+	{
+		var node = document.createElement('div');
+        node.id = nodeId;
+		node.innerHTML = text;							
+		if(className != ''){
+			if(node.classList && node.classList.length > 0){
+				node.className += ' ' + className;
+			} else {
+				node.className =  className;	
+			}
+		}
+		if(styleObj != ''){
+			var css = '';
+			for (var name in styleObj) {
+				if(styleObj.hasOwnProperty(name)){
+					try{
+						node.style[name] = styleObj[name];
+					} catch(e){
+						css += name+':'+styleObj[name]+';';								}
+				}
+			}
+			if(css != '') node.style.cssText = css.toString();
+		}
+		return mainEl.appendChild(node);
+	}
+	
+
+	var	mainEl = document.getElementById('scenesContainer'),
+		lSize = parseInt('22'),
+		loaderId = '',
+		elHeight = '', elWidth = '',
+		tTop = '', tLeft = '',
+		topPos = '', leftPos = '';
+	
+			loaderId = 'loader';
+			elHeight = parseInt(mainEl.style.height.replace("px",""));
+	elWidth = parseInt(mainEl.style.width.replace("px",""));
+		
+	topPos = elHeight/2; 
+	leftPos = elWidth/2;
+		
+			var lStyles = {'top': topPos+"px", 'left': leftPos+"px", 'width': lSize + 'px', 'height': lSize + 'px', 'display':'block'},	
+			loader = addDivComponent_v2(mainEl, loaderId, 'jvx_5bd007ef05459loadingSpinner', '', lStyles);
+					
+	
+		document.getElementById("loader").style.display = "none";
+}
+function attachEventListener(target, eventType, functionRef, capture){
+	if(typeof target.addEventListener != "undefined"){
+		target.addEventListener(eventType, functionRef, capture);
+	}else{
+		target.attachEvent("on" + eventType, functionRef);
+	}
+};
+function getRequiredJSON(){
+try{
+	var requiredJSON = layoutRendererJSON['layout'][unitTypeStr];
+	if(arguments[0] != unitTypeStr){
+		requiredJSON = requiredJSON[creativeUnitType];
+		if(arguments[0] != creativeUnitType){
+			requiredJSON = requiredJSON[layoutObj.matchLayoutDim];
+			if(arguments[0] != layoutObj.matchLayoutDim){
+				requiredJSON = requiredJSON['scenes'];
+				if(arguments[0] != 'scenes'){
+					requiredJSON = requiredJSON[layoutObj.activeSceneID];
+					if(arguments[0] != layoutObj.activeSceneID){
+						requiredJSON.hasOwnProperty(arguments[0])? requiredJSON = requiredJSON[arguments[0]] : requiredJSON = false;
+						if(typeof arguments[1] != "undefined"){
+							requiredJSON.hasOwnProperty(arguments[1])? requiredJSON = requiredJSON[arguments[1]] : requiredJSON = false;
+						}
+					}
+				}
+			}
+		}
+	}
+	if(requiredJSON == undefined) requiredJSON = false;
+	return requiredJSON;
+}catch(e){
+	return false;
+}
+}
+function hideGroups(groupName){
+	var group = null,
+		assetID = null,
+		groupName = typeof groupName == "undefined" ? "" : groupName;
+	for(var key in assetsDetailedJSON){
+		group = assetsDetailedJSON[key]['groups']?assetsDetailedJSON[key]['groups'].split(','):"";
+		if(group != ""){
+			var index =  group.indexOf(groupName);
+			if(index != -1){
+				group = group[index];
+			}
+		}
+		if(group != "" && group != null && (group == groupName || groupName == "")){
+			assetID = key.replace("customAsset.","");
+			hideAsset(assetID);
+		}
+	}
+}
+function showGroups(groupName){
+	var assetID = null,
+		group = null,
+		groupName = typeof groupName == "undefined" ? "" : groupName;
+	for(var key in assetsDetailedJSON){
+		group = assetsDetailedJSON[key]['groups']?assetsDetailedJSON[key]['groups'].split(','):"";
+		if(group != ""){
+			var index = group.indexOf(groupName);
+			if(index != -1){
+				group = group[index];
+			}
+		}
+		if(group != "" && group != null &&(group == groupName || groupName == "")){
+			assetID = key.replace("customAsset.","");
+			showAsset(assetID);
+		}
+	}
+}
+function setStorageData(setName,useSessionStorage){
+	var setNameArr = setName.split("&"),
+		key = null,
+		value = null,
+		useLocalStorage = (typeof useSessionStorage == "undefined" || !Number(useSessionStorage)) ? 1 : 0;
+	$.each(setNameArr,function(index,data){
+		data = data.split("=");
+		key = data[0];
+		value = data[1];
+		if(typeof(Storage) != "undefined"){
+			if(useLocalStorage){
+				localStorage.setItem(key,value);
+			}else{
+				sessionStorage.setItem(key,value);
+			}
+		}else{
+					}
+	});
+}
+function getStorageData(getName,preferSessionStorage){
+	var useLocalStorage = (typeof preferSessionStorage == "undefined" || !Number(preferSessionStorage)) ? 1 : 0,
+		getNameArr = getName.split(","),
+		retVal = [];
+	if(typeof(Storage) != "undefined"){
+		if(useLocalStorage){
+			$.each(getNameArr,function(index,data){
+				retVal.push(localStorage.getItem(data));
+			});
+		}else{
+			$.each(getNameArr,function(index,data){
+				retVal.push(sessionStorage.getItem(data));
+			});
+		}
+	}else{
+			}
+	if(retVal.length == 1){
+		return retVal[0];
+	}else{
+		return retVal;
+	}
+}
+
+function setRequiredJSON(obj){
+	if(obj['setOnKey'] == "creativeUnitType"){
+		layoutRendererJSON['layout'][unitTypeStr][creativeUnitType] = obj['setJSON'];
+	}
+}
+function createDummyJSONForLayout(){
+	layoutRendererJSON =  JSON.parse('{"layout":{"'+unitTypeStr+'":{"'+creativeUnitType+'":{"'+layoutObj.matchLayoutDim+'":{"scenes":{"scene-1":{"components":{}}}}}}}}');
+}
+function addTransitionToLayoutJSON(){
+	var tempJSON = getRequiredJSON(creativeUnitType),
+		sceneData = null,
+		componentJOSN = null,
+		assetJSON = null,
+		obj = {};
+	for(var layoutDim in tempJSON){
+		sceneData = tempJSON[layoutDim]['scenes'];
+		for(var scene in sceneData){
+			componentJOSN = sceneData[scene]['components'];
+			for(var asset in componentJOSN){
+				assetJSON = componentJOSN[asset];
+				if(!assetJSON.hasOwnProperty("options")) assetJSON['options'] = {}
+				if(!assetJSON['options'].hasOwnProperty("transitionTime") && !assetJSON['options'].hasOwnProperty("fitToScreen")){
+					assetJSON['options']['transitionTime'] = 0.5; 
+					assetJSON['options']['transitionType'] = 'fade'; 
+				}
+			}
+		}
+	}
+	obj['setOnKey'] = "creativeUnitType";
+	obj['setJSON'] = tempJSON;
+	setRequiredJSON(obj);
+}
+function getRequiredInteraction(interactionsJSON,matchKeyValue){
+	if(!interactionsJSON) return false;
+	var key = matchKeyValue[0],
+		value = matchKeyValue[1],
+		reqJSON = false;
+	$.each(interactionsJSON, function(index, data) {
+		if(data[key] == value){
+			reqJSON = data;
+		}
+	});
+	return reqJSON;
+}
+function getRequiredAssetDetail(){
+	var reqdAssetDet = assetsDetailedJSON.hasOwnProperty('customAsset.'+arguments[0]) ?  assetsDetailedJSON['customAsset.'+arguments[0]] : null;
+	if(reqdAssetDet && typeof arguments[1] != "undefined"){
+		reqdAssetDet = reqdAssetDet.hasOwnProperty(arguments[1]) ? reqdAssetDet[arguments[1]] : null;
+	}
+	if(!reqdAssetDet && arguments[0] == "componentBG"){
+		if(typeof arguments[1] != "undefined"){
+			reqdAssetDet = checkIsDataAva(adUnitNestedJSON,layoutObj.matchLayoutDim,arguments[1]);
+		}
+	}
+	return reqdAssetDet;
+}
+function setRequiredAssetDetail(){
+	var keyValueArr = arguments[1].split("="),
+		key = keyValueArr[0],
+		value = keyValueArr[1];
+	if(assetsDetailedJSON.hasOwnProperty('customAsset.'+arguments[0]) && assetsDetailedJSON['customAsset.'+arguments[0]].hasOwnProperty(key)){
+		assetsDetailedJSON['customAsset.'+arguments[0]][key] = value;
+	}
+}
+function getWidgetParamStr(assetID){
+	var iconParamString = getRequiredAssetDetail(assetID,"paramString");
+		widgetParamJSON = {},
+		externalStartEventId  = Number(getRequiredAssetDetail(assetID,"eventType"))*100,
+		tempWidgetStr = " \n var assetID='"+assetID+"';var externalStartEventId="+externalStartEventId+";";
+		tempWidgetStr += "var playerParamsMap=" + JSON.stringify(playerParamsMap)+";";
+				tempWidgetStr += "\nvar oldAlert = window.alert;console.oldLog = console.log;\nconsole.log = function(){};window.alert = function(){};";
+			if(iconParamString != null){
+		var keyValueArr = iconParamString.split("&"),
+			valueArr = "";
+		$.each(keyValueArr, function(index, value) {
+		  valueArr = value.split("=");
+		  widgetParamJSON[valueArr[0]] = decodeURIComponent(valueArr[1]);
+		});
+		tempWidgetStr += " function getWidgetConfig(){ return "+JSON.stringify(widgetParamJSON)+"} \n";
+	}
+	return widgetParamStr+tempWidgetStr;
+}
+function log(param){
+	if(console && console.log){
+		console.log(param);
+	}
+}
+function createSWF(obj){
+	var id = obj.id, 
+		src = obj.src, 
+		width = obj.width, 
+		height = obj.height,
+		params = obj.params,
+		paramsHTMLStr = '',
+		str = '';
+
+	for(var paramName in params){
+		paramsHTMLStr += '<param name="'+paramName+'" value="'+params[paramName]+'" />';
+	}
+
+	str += '<object type="application/x-shockwave-flash" data="'+src+'" id="'+id+'" name="'+id+'" width="'+width+'" height="'+height+'">';
+	str += paramsHTMLStr;
+	str += '</object>';
+	return str;		
+}
+function assetHasWrapper(assetID){
+	if($("#"+assetID+"wrapper").length) 
+		return "#"+assetID+"wrapper";
+	else
+		return "#"+assetID;
+}
+function deactivateAsset(assetID){
+	$("#"+assetID+","+assetHasWrapper(assetID)).stop().css({"margin-top":"5000px","transform":"","left":"","top":"","opacity":"","height":"","width":""}).data("isInsideVP",false);
+	}
+function activateAsset(assetID){
+	$("#"+assetID+","+assetHasWrapper(assetID)).css({"margin":0 /*,"opacity":"1"*/}).data("isInsideVP",true);
+	}
+function setAssetToInit(assetID){
+	$("#"+assetID).css({"transform":"","left":"","top":""});
+}
+function findPosAsset(assetID){
+	var cord = [];
+	cord[0] = parseInt($("#"+assetID).css("left"),10);
+	cord[1] = parseInt($("#"+assetID).css("top"),10);
+	return cord;
+}
+function findDimAsset(assetID){
+	var dim = [];
+	dim[0] = parseInt($("#"+assetID).css("width"),10);
+	dim[1] = parseInt($("#"+assetID).css("height"),10);
+	return dim; 
+}
+function actualLocaionArr(assetID){
+	var assetComponents = getRequiredJSON('components',assetID)['location'];
+	if(assetComponents){
+		assetComponents = assetComponents.split(',');
+		return assetComponents;
+	}else{
+		return;
+	}
+}
+function findActualDimAsset(assetID){
+	var dim = [],
+		assetDimArr = actualLocaionArr(assetID);
+	if(typeof assetDimArr != 'undefined'){
+		dim[0] = parseInt(assetDimArr[2],10);
+		dim[1] = parseInt(assetDimArr[3],10);
+	}
+	return dim;  
+}
+function findActualPosAsset(assetID){
+	var cord = [],
+		assetPosArr = actualLocaionArr(assetID);
+	cord[0] = parseInt(assetPosArr[0],10),
+	cord[1] = parseInt(assetPosArr[1],10);
+	return cord;
+}
+function findLayoutDimArr(){
+	var dim = [],
+		layoutDimArr = layoutObj.matchLayoutDim.split("x");
+	dim[0] = parseInt(layoutDimArr[0],10);
+	dim[1] = parseInt(layoutDimArr[1],10);
+	return dim;
+}
+function clickedOnInteraction(){
+	clearInterval(sceneRotateInterval);
+}
+function activateModelLayer(assetID,showCloseBtn,showMask){
+	var self = layoutObj,
+		closeBtnModelLeft = "0",
+		closeBtnModelTop = "0",
+		closeBtnModelWidth = parseInt($("#closeBtnModel").css("width"),10),
+		closeBtnModelHeight = parseInt($("#closeBtnModel").css("height"),10),
+		layoutWidth = parseInt(layoutObj.matchLayoutDim.split(",")[0],10),
+		assetData = null,
+		zIndex = null,
+		countModelAsset =0;
+	if(typeof showCloseBtn == "undefined") showCloseBtn = 1;
+	if(typeof showMask == "undefined") showMask = 1;
+	if(!self.activeModelAssetIDs[self.activeSceneID].hasOwnProperty(assetID)) self.activeModelAssetIDs[self.activeSceneID][assetID] = {};
+	for(var assetID in self.activeModelAssetIDs[self.activeSceneID]){
+		countModelAsset++;
+	}
+	if((countModelAsset > 1 && 0 && !base) || (countModelAsset > 1 && base)){
+		closeBtnModelLeft =  layoutWidth - closeBtnModelWidth;
+	}else{
+		closeBtnModelLeft = findPosAsset(assetID)[0] + findDimAsset(assetID)[0];
+		if(closeBtnModelLeft+closeBtnModelWidth > layoutWidth)	closeBtnModelLeft -= closeBtnModelWidth;
+		if(closeBtnModelLeft > (layoutWidth - closeBtnModelWidth)) closeBtnModelLeft = layoutWidth - closeBtnModelWidth;
+		closeBtnModelTop = findPosAsset(assetID)[1] - closeBtnModelHeight;
+		if(closeBtnModelTop < 0) closeBtnModelTop += closeBtnModelHeight;
+		if(closeBtnModelTop < 0) closeBtnModelTop = 0;
+	}
+	if(showMask){
+		$("#mask").css({"display":"block","z-index":"499"});
+	}
+	if(showCloseBtn){
+		$("#closeBtnModel").css({"display":"block","z-index":"1000","left":closeBtnModelLeft+"px","top":closeBtnModelTop+"px"});
+	}
+	assetData = getRequiredJSON('components',assetID);
+	zIndex = assetData.hasOwnProperty('layerId') ? parseInt(assetData['layerId'],10) : 0;
+	$("#"+assetID+","+assetHasWrapper(assetID)).css({"z-index":500 + zIndex});
+	if(showMask){
+			}
+}
+function bindEventModelLayer(){
+	$("#closeBtnModel").on("click",function(){
+		deactivateModelLayer();
+				eventMsg(layoutObj.activeSceneID+".clickModelCloseBtn");
+	});
+}
+function isModelLayerActive(){
+	return $.isEmptyObject(layoutObj.activeModelAssetIDs[layoutObj.activeSceneID]) ? false : true;
+}
+function deactivateModelLayer(){
+	if(!isModelLayerActive()) return;
+	$("#closeBtnModel").css({"display":"none","z-index":"0"});
+	$("#mask").css({"display":"none","z-index":"0"});
+	for(var assetID in layoutObj.activeModelAssetIDs[layoutObj.activeSceneID]){
+		deactivateAsset(assetID);
+	}
+		layoutObj.activeModelAssetIDs[layoutObj.activeSceneID] = {};
+}
+
+function isWrapperForAssetReq(assetID){
+	var retVal = false,
+		customAssetID = "customAsset."+assetID,
+		assetDetailsJSON = assetsDetailedJSON[customAssetID],
+		assetIconFileType = assetDetailsJSON['iconFileType'],
+		assetClickHandler = assetDetailsJSON['clickHandler'];
+	if((assetIconFileType == "js" || assetIconFileType == "custom-widget" || assetIconFileType == "custom-html-widget-file" || assetIconFileType ==  "custom-js-widget-file" || assetIconFileType == "html" || assetIconFileType == "flash" || assetIconFileType == "text-widget" ) && assetClickHandler == "system"){
+		retVal = true;
+	}
+	return retVal;
+}
+function urlFormat(url){
+	if(url.indexOf("//") == 0){ // relative protocol url
+		url = url.replace("//", "");	// remove double slash and append serverProtocolStr
+	}
+	return (url.search("http")== -1) ? (serverProtocolStr + url) : url;
+}
+function isEventInInteractions(assetInteractionsData,assetEventType){
+	var retVal = false;
+	$.each(assetInteractionsData, function(index, data) {
+		if(data["srcEvent"] == assetEventType){
+			retVal = true;
+		}
+	});
+	return retVal;
+}
+function isInsideVP(assetID){
+	return (typeof $("#"+assetID).data("isInsideVP") == "undefined" || $("#"+assetID).data("isInsideVP")) ? true : false;
+}
+function animInitiateBy(assetID){
+	return (typeof $("#"+assetID).data("animInitiateBy") != "undefined") ? $("#"+assetID).data("animInitiateBy") : assetID;
+}
+function validateVal(val){
+	return (typeof val == "undefined" || val == null || val == "") ? false : true;
+}
+function checkAnimType(type){
+ return (type == "fadeIn" || type == "slideIn" || type == "zoomIn") ?
+         "appear" : ((type == "fadeOut" || type == "slideOut" || type == "zoomOut") ? "disappear" : null);
+}
+function getAminArr(options,type){
+  var str = checkIsDataAva(options,type);
+  if (!str) return [];
+  var A = [],firstIndex = 0,lastIndex = 0,lastDelimeter = ",",len = str.length;
+  for(var i=0;i<str.length;i++){
+    if(str[i] == "+" || str[i] == "," || i == (str.length-1)){
+      lastIndex = (i == len-1) ? len : i;
+      A[A.length] = [((lastDelimeter == ",") ? "parallel" : "squential"),str.slice(firstIndex, lastIndex)];
+      firstIndex = i + 1;
+      lastDelimeter = str[i];
+    }
+  }
+  return A;
+}
+function checkIsDataAva(){
+	var jsonData = arguments[0],
+		argLen = arguments.length,
+		returnVal = null;
+	if(!arguments[0]) return null;
+	$.each(arguments,function(index,value){
+		if(index && typeof value != "undefined" && jsonData.hasOwnProperty(value) && jsonData[value] !== null && jsonData[value] !== ""){
+			index < argLen - 1 ? jsonData = jsonData[value] : returnVal = jsonData[value];
+		}
+	});
+	return returnVal;
+}
+function hasAppearEffect(assetID){
+	return (validateVal(checkIsDataAva(getRequiredJSON("components",assetID),"options","appearanceEffects")) ? true : false);
+}
+function hasAnimDelayORSpeed(assetID,effect){
+	var returnVal = false,assetData = getRequiredJSON("components",assetID),
+		animJ = checkIsDataAva(assetData,"options",effect+"anceEffects"),
+		animDetail = null,delay,speed;
+	if(validateVal(animJ)){
+		animJ = animJ.split(",");
+		$.each(animJ,function(index,value){
+			animDetail = checkIsDataAva(assetData,"animations",value);
+			delay = animDetail.hasOwnProperty('delay') ? Number(animDetail['delay']) : 0;
+			speed = animDetail.hasOwnProperty('speed') ? Number(animDetail['speed']) : 0;
+			if(delay || speed){
+				returnVal = true;
+			}
+		});
+	}
+	return returnVal;
+}
+function getValueWithDefault(value,defaultVal){
+	return validateVal(value) ? value : defaultVal;
+}
+function isNeedClickThrough(assetID,assetEventType){
+	var retVal = false,
+		assetID = assetID.replace("wrapper","").replace("PlaceHolder",""),
+		assetInteractionsData = getRequiredJSON('interactions',assetID),
+		assetDetailsJSON = (assetID.search("asset") != -1) ? assetsDetailedJSON["customAsset."+assetID] : 0,
+		isClickInteractionInJSON = null;
+	if(assetEventType=="click" && !isEventInInteractions(assetInteractionsData,"click") && assetID != "scrollDownArrow" && assetID != "scrollUpArrow" && !isVideoElement(assetID)){
+		retVal = true;
+	}
+	if(assetDetailsJSON && assetDetailsJSON.hasOwnProperty('disableClickThrough') && Number(assetDetailsJSON['disableClickThrough'])){
+		retVal = false;
+	}
+	return retVal;
+}
+function Layout(){
+}
+Layout.prototype={
+	constructor:Layout,
+	globalAreaJSON: {},
+	matchLayoutDim: "",
+	layoutWidth: 0,
+	layoutHeight: 0,
+	activeSceneID: 'scene-1',
+	isSceneSwitchAnimComplete: true,
+	assetsTransitionJSON: {},
+    assetAnimArr : [],
+    animTypeJSON : {},
+    assetInvokeTransitionsJSON: {},
+	initTransitionsTimerJSON: {},
+	transitionTimersArray: new Array(),
+	enableFallback: true,
+	activeModelAssetIDs: {},
+	modelInitiaterAssetID: null,
+		assetHoverTimer: {},
+	isSceneInitialized: true,
+	preLayoutDim: null,
+	setDefaultParameters: function(){
+		checkIsFlashAva();
+					if(hasFlash){
+				this.enableFallback = false;
+			}
+			},
+	loadContainer: function(){
+        var style = "";
+        		createHTMLElement("body","div","eventHandler","position:absolute; top:-1000px; left:-1000px;");
+		createHTMLElement("body","div","mask",style);
+		createHTMLElement("body","div","closeBtnModel","");
+		createHTMLElement("body","div","scenesContainer",style);  		loadLoader();
+			},
+	loadJSLib: function(){
+			},
+	setBGAsCompnent: function(){
+		var backgroundDetails = adUnitNestedJSON[layoutObj.matchLayoutDim],
+			actualBackgroundType = backgroundDetails['backgroundType'];
+		if(!checkIsDataAva(backgroundDetails,"backgroundType")) return;
+		var backgroundType = actualBackgroundType,
+			backgroundURL = backgroundDetails['url'],
+			fallbackType = backgroundDetails['fallbackType'],
+			fallbackURL = backgroundDetails['fallbackURL'],
+			fallbackWidgetSrc = backgroundDetails['fallbackWidgetSrc'],
+			bgDimensionArr = backgroundDetails['dimension'].split("x"),
+			bgWidth = bgDimensionArr[0],
+			bgHeight = bgDimensionArr[1],
+			useBGElmentStr = "",
+			enableFallback = true;
+		if(!validateVal(backgroundURL) && !validateVal(fallbackURL) && !validateVal(fallbackWidgetSrc)){
+			return;
+		}
+		if(backgroundType == "flash"){
+							if(hasFlash){
+					var obj = {};
+					obj.id = "componentBG";
+					obj.src = backgroundURL;
+					obj.width = bgWidth;
+					obj.height = bgHeight;			
+					obj.params = {'movie' : backgroundURL, 
+								  'wmode' : 'transparent',
+								  'allowScriptAccess' : 'always'
+								  };
+					useBGElmentStr = createSWF(obj);
+				}
+						if(this.enableFallback){
+				if(fallbackType == "image"){
+					useBGElmentStr = '<img src="'+fallbackURL+'" width="'+bgWidth+'" height="'+bgHeight+'">';
+				}else if(fallbackType == "html5" || fallbackType == "swiffy"){
+					backgroundType = "html5";
+					backgroundURL = fallbackURL;
+				}else if(fallbackType == "widget"){
+					backgroundType = "widget";
+					backgroundURL = fallbackWidgetSrc;
+				}
+			}	
+		}
+		if(backgroundType == "html" || backgroundType == "html5"){
+			useBGElmentStr = '<iframe id="componentBG" src = "'+backgroundURL+'" marginwidth="0" marginHeight="0" style="width:'+bgWidth+'px;height:'+bgHeight+'px;" frameborder="0" scrolling="no" allowtransparency="true" style="visibility:hidden" onload="this.style.visibility=\'visible\';" seamless="seamless"><div></div>';
+		}
+		if(backgroundType == "widget"){
+			useBGElmentStr = '<iframe id="componentBG" style="width:'+bgWidth+'px;height:'+bgWidth+'px;" frameborder="0" scrolling="no" allowtransparency="true" style="visibility:hidden" onload="this.style.visibility=\'visible\';" seamless="seamless"><div></div>';
+		}
+		document.getElementById(this.activeSceneID).innerHTML = useBGElmentStr;
+		if(backgroundType == "widget"){
+			var widgetStr = '<body>'+backgroundURL+'</body>';
+			var bgAsIframeRef = document.getElementById("componentBG");
+			var bgAsFrameWindow = bgAsIframeRef.contentWindow || bgAsIframeRef.contentDocument;
+			bgAsFrameWindow.document.open('text/html', 'replace');
+			bgAsFrameWindow.document.write(widgetStr);
+			bgAsFrameWindow.document.close();
+		}
+			},
+	setWrapperForBGAsHTML: function(bgWidth,bgHeight){
+		useBGElmentStr = '<div id = "componentBGWrapper" style="position:absolute;left:0px;top:0px;width:'+bgWidth+'px;height:'+bgHeight+'px;"></div>';
+		document.getElementById(layoutObj.activeSceneID).insertAdjacentHTML( 'beforeend', useBGElmentStr );
+	},
+	openClickThrough: function(clickUrl){
+					var url = "http://insight.adsrvr.org/track/clk?imp=c0f149c9-d24e-4a0a-b659-5c6f6370bb5d&ag=u2e4e80&sfe=e0787e8&sig=RT7Jxfvngvwj4n0ADH93SGcoRsw3gAtIqPPmCb5U0_8.&crid=jg27961q&cf=560141&fq=0&td_s=mail.yahoo.com&rcats=&mcat=&mste=mail.yahoo.com&mfld=2&mssi=fztyx4etav99&mfsi=adko7okxfx&sv=rightmedia&uhow=84&agsa=&rgco=Indonesia&rgre=West%20Java&rgme=&rgci=Bogor&rgz=&dt=PC&osf=Windows&os=Windows10&br=Firefox&svpid=20459933223&rlangs=en&mlang=&did=&rcxt=Other&tmpc=32&vrtd=&osi=&osv=&daid=&dnr=0&vpb=&svsc=&dur=ChwKB293NDV2cHgQhSIiDgjDu9tSEgd0dXJiaW5lCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90CjgKHmNoYXJnZS1hbGxHcmFwZXNob3RCcmFuZFNhZmV0eSIWCPb__________wESCWdyYXBlc2hvdBCFIg..&crrelr=&npt=&svscid=4454551&mdl=Firefox%20-%20Windows&atst=1&r=https%3A%2F%2Fwaveoftomorrow.id%2F%3Futm_source%3Dsymphonypremium_cpm%26utm_medium%3Dbanner_Std%26utm_content%3D300x250_Desktop_Art%26utm_campaign%3DWaveofTomorrow%26utm_voucher_registration%3D247262Fp%26utm_voucher_login%3D2472634q";
+			if(typeof clickUrl != "undefined"){
+			    url = (validateVal(cMacro) && (clickUrl.search(cMacro) == -1)) ? cMacro+clickUrl: clickUrl;
+			}
+			eventMsg(layoutObj.activeSceneID+".clickThrough");
+			url = urlFormat(url);
+							window.open(url);
+															fireTracker(1);
+														},
+	loadCmacro: function(){
+					var rand = Math.random();
+			var imgElmt = document.createElement("img");
+			var cMacroURL = "http://insight.adsrvr.org/track/clk?imp=c0f149c9-d24e-4a0a-b659-5c6f6370bb5d&ag=u2e4e80&sfe=e0787e8&sig=RT7Jxfvngvwj4n0ADH93SGcoRsw3gAtIqPPmCb5U0_8.&crid=jg27961q&cf=560141&fq=0&td_s=mail.yahoo.com&rcats=&mcat=&mste=mail.yahoo.com&mfld=2&mssi=fztyx4etav99&mfsi=adko7okxfx&sv=rightmedia&uhow=84&agsa=&rgco=Indonesia&rgre=West%20Java&rgme=&rgci=Bogor&rgz=&dt=PC&osf=Windows&os=Windows10&br=Firefox&svpid=20459933223&rlangs=en&mlang=&did=&rcxt=Other&tmpc=32&vrtd=&osi=&osv=&daid=&dnr=0&vpb=&svsc=&dur=ChwKB293NDV2cHgQhSIiDgjDu9tSEgd0dXJiaW5lCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90CjgKHmNoYXJnZS1hbGxHcmFwZXNob3RCcmFuZFNhZmV0eSIWCPb__________wESCWdyYXBlc2hvdBCFIg..&crrelr=&npt=&svscid=4454551&mdl=Firefox%20-%20Windows&atst=1&r=https%3A%2F%2Fplayercdn.jivox.com%2F1533615821%2Fplayer%2Fimages%2Fpixeltracker.gif%3F" + "r_" + rand;
+			imgElmt.src = cMacroURL;
+				
+	},
+		init: function(){
+		this.setDefaultParameters();
+		this.loadContainer();
+		this.matchLayoutDim = this.findMatchLayoutDim();
+		if(!getRequiredJSON("components")) createDummyJSONForLayout();
+
+				this.renderLayoutContainer();
+		this.setBGAsCompnent();
+		this.applyContainersCss();
+		this.handleLayoutLoading();
+					},
+	deActivateAllScenesAsset: function(){
+		var allDimJSON = getRequiredJSON(creativeUnitType),
+			components = null,
+			scenesJSON = null;
+		for(var dim in allDimJSON){
+			scenesJSON = allDimJSON[dim]['scenes'];
+			for(var scene in scenesJSON){
+				components = scenesJSON[scene]['components']
+				for(var asset in components){
+					deactivateAsset(asset);
+					deactivateAsset(asset+scene);
+				}
+			}
+		}
+	},
+	preSettingOnOrientation: function(){
+		var self = this;
+		self.preLayoutDim = self.matchLayoutDim;
+		var fitToScreenAsset = self.getFitToSceneID(self.activeSceneID),
+			tempFitToScreenID = fitToScreenAsset+self.activeSceneID+"ft";
+		if(fitToScreenAsset){
+			$("#"+tempFitToScreenID).hide();
+		}
+		var nextSceneID = "scene-1",
+			currentSceneID = layoutObj.activeSceneID,
+			self = layoutObj;
+				layoutObj.pauseTransiton();
+		deactivateModelLayer();
+		$('#'+currentSceneID).css({"visibility":"hidden","top":"500000px","left":"0px","opacity":"0"});
+		self.addSceneID(currentSceneID);
+		layoutObj.activeSceneID = nextSceneID;
+		$("#"+nextSceneID).css({"visibility":"visible", "top" : '0px', "left":"0px", "opacity":"1"});
+		self.removeSceneID(nextSceneID);
+	},
+	postSettingOnOrientation: function(){
+		var self = this;
+		var centerSceneXY = corToCenterAlignOnWindow(layoutObj.layoutWidth,layoutObj.layoutHeight);	
+		$('#scenesContainer').css({"left":centerSceneXY[0]+"px","top":centerSceneXY[1]+"px"});
+        var fitToScreenAsset = layoutObj.getFitToSceneID(layoutObj.activeSceneID),
+			tempFitToScreenID = fitToScreenAsset+self.activeSceneID+"ft";
+		if(!fitToScreenAsset){
+			$("#"+layoutObj.activeSceneID).css({"background":""});
+		}else{
+			$("#"+layoutObj.activeSceneID).css({"background":"transparent"});
+			$("#"+tempFitToScreenID).css({"visibility":"visible", "top" : '0px', "left":"0px", "opacity":"1","margin-top":"0px","display":"block"});
+		}
+		if($("#scenesContainer #"+fitToScreenAsset).length) $("#scenesContainer #"+fitToScreenAsset).css({"margin-top":"5000px"});
+			},
+		onOrientationChange: function(){                       		if(layoutObj.matchLayoutDim == layoutObj.findMatchLayoutDim()){
+			centerAlignSceneCnt();
+			return;
+		}
+		layoutObj.deActiveScene();
+		layoutObj.deActivateAllScenesAsset();
+		layoutObj.preSettingOnOrientation();
+		layoutObj.matchLayoutDim = layoutObj.findMatchLayoutDim();
+		layoutObj.renderLayoutContainer();
+		layoutObj.applyContainersCss();
+				layoutObj.loadRenderLayoutComponent('scene-1');
+		layoutObj.postSettingOnOrientation();
+			},
+	handleLayoutLoading: function(){                       
+		var activeSceneDiv = document.getElementById(layoutObj.activeSceneID);
+		activeSceneDiv.style.display = "block";
+		this.initLayoutLoading();
+	},
+	applyContainersCss: function(){
+		try{
+		var layoutDimArr = this.matchLayoutDim.split("x"),
+			layoutWidth = parseInt(layoutDimArr[0],10),
+			layoutHeight = parseInt(layoutDimArr[1],10),
+			orientationMode = "portrait";
+		if(layoutWidth > layoutHeight){
+			orientationMode = "landscape";
+		}
+		var bodyCSSClassname = orientationMode + this.matchLayoutDim;
+		document.body.setAttribute("class",bodyCSSClassname);
+		}catch(e){}
+	},
+	jqueryAndSceneCntLoaded: function(){
+		$("#loader").remove().appendTo('body');
+		bindEventModelLayer();
+				jqueryAvailable();
+	},
+	initLayoutLoading: function(){
+		layoutObj.loadJSLib();
+		layoutEventHandling("scenesContainer",["click","mouseover","mouseout","mouseenter"],layoutObj.assetInteractionHandler);
+		layoutObj.jqueryAndSceneCntLoaded();
+		layoutObj.loadRenderLayoutComponent(layoutObj.activeSceneID);
+		window.parent.postMessage('jvx_5bd007ef05459:' + 'expansionLoaded', "*");
+	},
+	checkSceneAssetsLoaded: function(sceneID){
+		var retVal = true;
+		if($('#'+sceneID).is(':empty') || (!$('#'+sceneID+' div[id*=asset]').length && !$('#'+sceneID+' iframe[id*=asset]').length && !$('#'+sceneID+' object[id*=asset]').length && !$('#'+sceneID+' img[id*=asset]').length)) retVal = false;
+		return retVal;
+	},
+	loadRenderLayoutComponent : function(sceneID){
+		var self = this;
+		self.renderLayoutPreSetting();
+		if(!self.checkSceneAssetsLoaded(sceneID)){
+			self.renderLayoutComponents(sceneID);
+			self.isSceneAssetsLoaded(sceneID);
+			self.isSceneInitialized = true;
+		}else{
+			self.renderLayoutComponents(sceneID);
+			self.isSceneInitialized = false;
+		}
+	},
+	sceneRevisited: function(sceneID){
+		eventMsg(this.activeSceneID+".sceneLoaded");
+	},
+	renderLayoutPreSetting : function(){
+		try{
+		$("#"+this.activeSceneID).css({"visibility":"visible","top":"0px","left":"0px","opacity":"1"});
+				if(!fitToScreenID.hasOwnProperty(this.matchLayoutDim))	fitToScreenID[this.matchLayoutDim] = {};
+		}catch(e){}
+	},
+	renderLayoutCntPreSetting: function(){
+		var layoutDim = layoutObj.matchLayoutDim;
+			layoutDimArr = layoutDim.split("x");
+		layoutObj.layoutWidth = Number(layoutDimArr[0]);
+		layoutObj.layoutHeight = Number(layoutDimArr[1]);
+	},
+	renderLayoutContainer: function(){                     		this.renderLayoutCntPreSetting();
+        var style = "";
+        		var self = this;
+		var layoutCreativeJSONData = getRequiredJSON(creativeUnitType),
+			layoutScenesJSONData = getRequiredJSON('scenes'),
+			sceneContainerDiv = document.getElementById("scenesContainer"),
+			sceneDocumnetFragment=document.createDocumentFragment();
+		for(var scenes in layoutScenesJSONData){
+			if(document.getElementById(scenes) != null) continue;
+			var sceneDiv = document.createElement('div');
+			sceneDiv.id = scenes;
+			sceneDiv.setAttribute("style",style+"background:transparent");
+			sceneDocumnetFragment.appendChild(sceneDiv);
+		}
+		sceneContainerDiv.appendChild(sceneDocumnetFragment);
+	},
+	findMatchLayoutDim: function(){                      					var layoutCreativeJSONData = adUnitNestedJSON,
+				layoutCount = 0,
+				matchLayoutDim = 0;
+			for(var layoutDimension in layoutCreativeJSONData){
+				layoutDimensionArr = layoutDimension.split("x");
+				this.globalAreaJSON[layoutDimension] = parseInt(layoutDimensionArr[0]) * parseInt(layoutDimensionArr[1]);
+				matchLayoutDim = layoutDimension;
+				layoutCount++;
+			}
+			if(layoutCount == 1){
+				return matchLayoutDim;
+			}
+			var vpWidth = document.documentElement.clientWidth,
+				vpHeight = document.documentElement.clientHeight;
+						matchLayoutDim = this.getClosest(vpWidth, vpHeight, layoutCount);
+				return matchLayoutDim;
+	},
+	getClosest: function(width, height,layoutCount){
+		closest = null;
+		str = "";
+		excludeAddressBarHeight = 100;
+		var leastDiff = 10000; 
+		var layoutMatchRange = parseInt(1000);
+		var closestMatch = null;
+		var prevAssetWidth = 0;
+		var prevAssetHeight = 0;
+		var layoutCount = 0;
+		var tmpLayout = null;
+		var smallestWidth, smallestDim = null;
+			globalLayouts = this.globalAreaJSON;
+		for(var layoutItem in globalLayouts){
+			cords = layoutItem.split('x');
+			assetWidth = parseInt(cords[0]);
+			assetHeight = parseInt(cords[1]);
+			if(assetWidth == width && assetHeight == height){
+				 
+				return layoutItem;
+			}
+						if(((assetWidth == width) && (Math.abs(assetHeight - height)) <= excludeAddressBarHeight)){
+				if(prevAssetHeight != 0 && (Math.abs(prevAssetHeight-height) < Math.abs(assetHeight-height))){
+					continue;
+				}
+				closestMatch = layoutItem;
+				prevAssetHeight = assetHeight;			
+			}
+					}
+		if(closestMatch != null){
+			 
+			return closestMatch;
+		}
+		for(var layoutItem in globalLayouts){
+			cords = layoutItem.split('x');
+			assetWidth = parseInt(cords[0]);
+			assetHeight = parseInt(cords[1]);
+			if(assetWidth < width && (width - assetWidth) < leastDiff) {
+				leastDiff = (width - assetWidth);
+				closestMatch = layoutItem;
+			} 
+			if(!smallestWidth || assetWidth < smallestWidth) {
+				smallestWidth = assetWidth;
+				smallestDim = layoutItem;
+			}
+		}
+				if(!closestMatch && smallestDim) {
+			closestMatch = smallestDim;
+		}
+				if(closestMatch != null){
+			return closestMatch;
+		}
+	},
+	preSettingRLC: function(){
+		if(!this.assetsTransitionJSON.hasOwnProperty(this.activeSceneID)){
+			this.assetsTransitionJSON[this.activeSceneID] = {};
+        	this.assetInvokeTransitionsJSON[this.activeSceneID] = {};
+			        	this.activeModelAssetIDs[this.activeSceneID] = {};
+        				       }else{
+		    this.assetsTransitionJSON[this.activeSceneID] = {};
+			this.assetInvokeTransitionsJSON[this.activeSceneID] = {};
+	   }
+	   			if(!fitToScreenID[this.matchLayoutDim].hasOwnProperty(this.activeSceneID)){
+			fitToScreenID[this.matchLayoutDim][this.activeSceneID] = {"assetID":null};
+		}
+	},
+	renderLayoutComponents: function(sceneID){                    		this.activeSceneID = sceneID;
+		this.preSettingRLC();
+		var sceneData = getRequiredJSON('components');
+		for(var assetID in sceneData){
+			if(this.isNeedToLoadAsset(assetID)){
+				this.renderComponent(assetID);
+                                activateAsset(assetID);
+                			}
+		}
+        	},
+	isNeedToLoadAsset: function(assetID){
+		var isNeedToLoadAsset = true,
+			assetData = getRequiredJSON('components',assetID);
+		if(assetData.hasOwnProperty('options') && assetData['options'].hasOwnProperty('initVisible') && !parseInt(assetData['options']['initVisible'],10)){
+			isNeedToLoadAsset = false;
+		}
+				return isNeedToLoadAsset;
+	},
+	checkForWebMobileOnly: function(assetID){
+		var retVal = true,
+			assetData = getRequiredJSON('components',assetID),
+			layerOptionsJSON = getRequiredJSON('layerOptions');
+		if(layerOptionsJSON){
+			var ignoreLayerKey = "mobile";
+						var ignoreLayerArr =  (layerOptionsJSON.hasOwnProperty(ignoreLayerKey) && layerOptionsJSON[ignoreLayerKey] != null) ? layerOptionsJSON[ignoreLayerKey].split(",") : false;
+			if($.inArray(assetData['layerId']+"",ignoreLayerArr) != -1){
+				retVal = false;
+			}
+		}
+		return retVal;
+	},
+	resizePosAndDimAsset: function(assetID){
+		if(isVideoElement(assetID)){
+			var currentWidth = $('#'+assetID).attr('initWidth'),	
+				currentHeight = $('#'+assetID).attr('initHeight'),
+				assetWidth = findActualDimAsset(assetID)[0],
+				assetHeight = findActualDimAsset(assetID)[1];
+			if(currentWidth != assetWidth || currentHeight != assetHeight){
+				var scaleW = assetWidth	/ currentWidth,
+					scaleH = assetHeight / currentHeight;
+				$("#"+assetID)[0].contentWindow.postMessage('jvx_5bd007ef05459:jvxScalePlayer:'+scaleW+'x'+scaleH, "*");
+			}else{
+				$("#"+assetID)[0].contentWindow.postMessage('jvx_5bd007ef05459:jvxNoScalePlayer', "*");
+			}
+		}
+	},
+		isFitToScreen: function(assetID){
+		var layoutAssetInfo = getRequiredJSON('components',assetID);
+			options = layoutAssetInfo.hasOwnProperty("options") ? layoutAssetInfo["options"] : 0,
+			assetFitToScreen = (options && options.hasOwnProperty("fitToScreen")) ? Number(options["fitToScreen"]) : 0;
+		return assetFitToScreen;
+	},
+	renderComponent: function(assetID){                    	try{
+		if(!this.checkForWebMobileOnly(assetID)) return;
+		var self = this;
+		if(self.isFitToScreen(assetID) && $('#'+assetID+self.activeSceneID+"ft").length){
+			resizeFitToScreenImage(assetID);
+			return;
+		}else if(self.isFitToScreen(assetID) && $('#'+assetID).length){
+			fitToScreenCopyToBody(assetID);
+			return;
+		}else if($('#'+assetID).length){
+						this.resizePosAndDimAsset(assetID);
+						return;
+		}
+						if(!$('#'+assetID).length){
+			var layoutAssetInfo = getRequiredJSON('components',assetID),
+				customAssetID = "customAsset."+assetID,
+				assetDetailsJSON = assetsDetailedJSON[customAssetID],
+				assetIconFileType = assetDetailsJSON['iconFileType'],
+				assetIconFileName = assetDetailsJSON['iconFileName'],
+				assetURL = assetDetailsJSON['icon'],
+				dependentFile = assetDetailsJSON['dependentFiles'],
+				assetType = assetDetailsJSON['type'],
+				assetData = assetDetailsJSON['data'],
+				assetWidgetData = assetDetailsJSON['widgetData'],
+				assetIconDim = ((typeof assetDetailsJSON["origIconDimension"] == "string" && assetDetailsJSON["origIconDimension"] != "") ? assetDetailsJSON["origIconDimension"] : (typeof assetDetailsJSON["iconDimension"] == "string" && assetDetailsJSON["iconDimension"] != "" ? assetDetailsJSON["iconDimension"] : "[0,0]")).replace("[","").replace("]","").split(","),
+				assetDimensionArr = layoutAssetInfo['location'].split(","),
+				assetLeft = assetDimensionArr[0],
+				assetTop = assetDimensionArr[1],
+				assetWidth = assetDimensionArr[2],
+				assetHeight = assetDimensionArr[3],
+				assetEventType = assetDetailsJSON['eventType'],
+				assetFallbackType = assetDetailsJSON['fallbackType'],
+				assetFallbackImgURL = assetDetailsJSON['fallbackImgURL'],
+				assetFallbackWidgetURL = assetDetailsJSON['fallbackWidgetURL'],
+				assetFallbackWidgetSrc = assetDetailsJSON['fallbackWidgetSrc'],
+				componentElementStr = "",
+				assetClickHandler = assetDetailsJSON['clickHandler'],
+				assetIconGlowColor = assetDetailsJSON['iconGlowColor'],
+				assetIconParamString = assetDetailsJSON['iconParamString'],
+				assetParamString = assetDetailsJSON['paramString'],
+				assetClickTagURL = getParameterValue(assetIconParamString,"clickThroughURL"),
+				assetIconBgTransparent = Number(assetDetailsJSON['isIconBgTransparent']),
+				assetIconBgColor = (assetIconBgTransparent && assetIconBgTransparent != null) ? "transparent" : assetDetailsJSON['iconBgColor'],
+				assetWmode = assetIconBgTransparent ? "transparent" : "",
+				assetLayerID = layoutAssetInfo['layerId'],
+				disableClickThrough = assetDetailsJSON.hasOwnProperty('disableClickThrough') ? Number(assetDetailsJSON['disableClickThrough']) : 0,
+				showControlBar = (layoutAssetInfo.hasOwnProperty("options") && layoutAssetInfo["options"].hasOwnProperty("showControlBar")) ? layoutAssetInfo["options"]["showControlBar"] : 0,
+				assetParamQueryStr = paramQueryStr,
+								options = layoutAssetInfo.hasOwnProperty("options") ? layoutAssetInfo["options"] : 0,
+				transitionTime = (options && options.hasOwnProperty("transitionTime")) ? Number(options["transitionTime"]) : 0,
+				assetFitToScreen = (options && options.hasOwnProperty("fitToScreen")) ? Number(options["fitToScreen"]) : 0,
+				initVisible = (options && options.hasOwnProperty("initVisible")) ? Number(options["initVisible"]) : 1,
+				hoverIcon = checkIsDataAva(assetDetailsJSON,'hoverIcon'),
+				mouseHoverTime = checkIsDataAva(options,"mouseHoverTime"),
+				externalStartEventId  = Number(assetEventType)*100,
+				scaleToFit = checkIsDataAva(assetDetailsJSON,'scaleToFit') == "0" ? false : true,
+				isDynamic = checkIsDataAva(assetDetailsJSON,'virtual') == "1" ? true : false,
+				adFormat = validateVal(assetDetailsJSON['adFormat']) ? assetDetailsJSON['adFormat'] : "0";
+                assetParamQueryStr += addAdnlQueryStr([assetIconParamString,assetParamString]),
+                scaleAssetToFit = playerParamsMap['ab_'+assetID+'_scaleToFit'],
+                stretchAssetToFit = playerParamsMap['ab_'+assetID+'_stretchToFit'];
+									if(assetFitToScreen){
+				fitToScreenID[self.matchLayoutDim][self.activeSceneID]['assetID'] = assetID;
+			}
+			if(!disableClickThrough){
+				assetParamQueryStr = addParameter(assetParamQueryStr,["clickThroughURL=http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fimp%3Dc0f149c9-d24e-4a0a-b659-5c6f6370bb5d%26ag%3Du2e4e80%26sfe%3De0787e8%26sig%3DRT7Jxfvngvwj4n0ADH93SGcoRsw3gAtIqPPmCb5U0_8.%26crid%3Djg27961q%26cf%3D560141%26fq%3D0%26td_s%3Dmail.yahoo.com%26rcats%3D%26mcat%3D%26mste%3Dmail.yahoo.com%26mfld%3D2%26mssi%3Dfztyx4etav99%26mfsi%3Dadko7okxfx%26sv%3Drightmedia%26uhow%3D84%26agsa%3D%26rgco%3DIndonesia%26rgre%3DWest%2520Java%26rgme%3D%26rgci%3DBogor%26rgz%3D%26dt%3DPC%26osf%3DWindows%26os%3DWindows10%26br%3DFirefox%26svpid%3D20459933223%26rlangs%3Den%26mlang%3D%26did%3D%26rcxt%3DOther%26tmpc%3D32%26vrtd%3D%26osi%3D%26osv%3D%26daid%3D%26dnr%3D0%26vpb%3D%26svsc%3D%26dur%3DChwKB293NDV2cHgQhSIiDgjDu9tSEgd0dXJiaW5lCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90CjgKHmNoYXJnZS1hbGxHcmFwZXNob3RCcmFuZFNhZmV0eSIWCPb__________wESCWdyYXBlc2hvdBCFIg..%26crrelr%3D%26npt%3D%26svscid%3D4454551%26mdl%3DFirefox%2520-%2520Windows%26atst%3D1%26r%3Dhttps%253A%252F%252Fwaveoftomorrow.id%252F%253Futm_source%253Dsymphonypremium_cpm%2526utm_medium%253Dbanner_Std%2526utm_content%253D300x250_Desktop_Art%2526utm_campaign%253DWaveofTomorrow%2526utm_voucher_registration%253D247262Fp%2526utm_voucher_login%253D2472634q","clickTagURL="+assetClickTagURL]);
+							}else{
+				assetParamQueryStr =removeParameter(assetParamQueryStr,["clickTagURL","clickThroughURL"]);
+							}
+						if(assetIconGlowColor != null && assetIconGlowColor != ""){
+				self.iconGlowEffect(assetID);
+			}
+						if(assetIconFileType == "flash"){
+									if(hasFlash || orgHasFlash || !assetFallbackType){
+						var obj = {};
+						obj.id = assetID + 'PlaceHolder';
+						obj.src = assetURL;
+						obj.width = assetWidth;
+						obj.height = assetHeight;
+						obj.params = {'movie' : assetURL, 
+									  'wmode' : 'transparent',
+									  'allowScriptAccess' : 'always',
+									  'flashvars' : 'assetId='+assetID+'&eventId='+assetEventType+'&'+assetParamQueryStr
+									 };
+						componentElementStr = createSWF(obj);
+					}
+								assetIconBgColor = (assetIconBgColor.search("#") == -1) ? ("#"+assetIconBgColor) : assetIconBgColor
+				componentElementStr = '<div id='+assetID+' class="components" style="background:'+assetIconBgColor+'">'+componentElementStr+'</div>';
+				if(this.enableFallback && assetFallbackType != null){
+					if(assetFallbackType == "image"){
+						assetIconFileType = "image";
+						assetURL = assetFallbackImgURL;
+					}else if(assetFallbackType == "html5" || assetFallbackType == "swiffy"){
+						assetIconFileType = "custom-html-widget-file";
+						assetURL = assetFallbackImgURL;
+					}else if(assetFallbackType == "widget"){
+						assetIconFileType = "custom-widget";
+						componentElementStr = "";
+						assetURL = assetFallbackWidgetSrc;
+					}else if(assetFallbackType == "widget-url"){
+						assetIconFileType = "custom-html-widget-file";
+						componentElementStr = "";
+						assetURL = assetFallbackWidgetURL;
+					}else if(assetFallbackType == "widget-src"){
+						assetIconFileType = "custom-widget";
+						componentElementStr = "";
+						assetURL = assetFallbackWidgetSrc;
+					}
+					if(assetIconBgTransparent && (assetIconFileType == "custom-html-widget-file")){
+						assetURL = "/jivox/serverAPIs/getTransparentSwiffy.php?url="+assetURL;
+					}
+				}
+				if(!hasFlash && !orgHasFlash && !assetFallbackType){
+					componentElementStr = "";
+				}
+			}
+			if(assetIconFileType == "image" && assetType != "asset-video"){
+				componentElementStr = '<img id="'+assetID+'" src="'+assetURL+'" />';
+			}
+			if(assetIconFileType == "custom-html-widget-file"){
+				var baseURL = assetURL;
+				assetURL += "?externalWg=1&"+removeParameter(paramQueryStr,["versionId"])+"&assetID="+assetID+"&isMobile=&externalStartEventId="+externalStartEventId;
+				var iframeAssetURL = (assetData && assetWidgetData) ? "about:blank" : 'about:blank';
+				componentElementStr = '<iframe id="'+assetID+'"  src="'+iframeAssetURL+'"  marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowtransparency="true"'+
+										'style="visibility:hidden" onload="this.style.visibility=\'visible\';">';
+			}
+									if(!assetFitToScreen){
+				$(componentElementStr).appendTo('#'+this.activeSceneID);				
+				
+			}else{
+					fitToscreen(componentElementStr);				
+			}
+						if(assetIconFileType == "custom-html-widget-file"){
+									renderExtHTMLFile(assetURL,assetID,baseURL,assetData,assetWidgetData);
+							}
+						if(assetIconFileType == "custom-js-widget-file" || assetIconFileType == "custom-widget" || assetIconFileType == "text-widget"){
+				componentElementStr = '<iframe id="'+assetID+'" frameborder="0" scrolling="no" allowtransparency="true"'+
+										'style="visibility:hidden;"></iframe>';
+				$(componentElementStr).appendTo('#'+this.activeSceneID);
+				var widgetStr = "";
+				if(assetIconFileType == "custom-js-widget-file"){
+					widgetStr = '<body><script src="'+assetURL+'"><\/script></body>';
+				}
+				if(assetIconFileType == "custom-widget"){
+					var widgetParamInfo = getWidgetParamStr(assetID);
+					widgetStr = '<head><script>'+widgetParamInfo+'<\/script>';
+											widgetStr += '<script id="jvxWidget" src = "'+jivoxWidget+'"><\/script>';
+									
+					widgetStr += '<style>'+self.getStyeleCW()+'</style></head>';
+					widgetStr += '<body>'+assetURL+'</body>';
+					
+				}
+								var widgetIframeRef = document.getElementById(assetID);
+				attachEventListener(widgetIframeRef, "load", function(){ widgetIframeRef.style.visibility = 'visible'; }, false);
+				var widgetFrameWindow = widgetIframeRef.contentWindow || widgetIframeRef.contentDocument;
+				widgetFrameWindow.document.open('text/html', 'replace');
+				widgetFrameWindow.document.write(widgetStr);
+				widgetFrameWindow.document.close();
+			}
+			if(isWrapperForAssetReq(assetID)){
+												componentElementStr = '<div id="'+assetID+'wrapper" style="position:absolute;left:'+assetLeft+'px;top:'+assetTop+'px;width:'+assetWidth+'px;height:'+assetHeight+'px;z-index:'+assetLayerID+'"></div>';
+				$(componentElementStr).appendTo('#'+this.activeSceneID);
+			}
+						self.setHoverIcon({assetID:assetID,options:options,icon:assetURL,assetDetailsJSON:assetDetailsJSON});
+			if(self.assetHasInteractionOnEvent(assetID,"hover")){
+				self.setTimerOnHover(assetID);
+			}
+			self.postSettingRenderComponent(assetID);
+					}
+		
+                
+		if(scaleAssetToFit == 1){
+                        if(assetType == "asset-video" || assetIconFileType == "external-video"){
+                $('#'+assetID).css({width:'100%',height:assetHeight,'top':'0','left':'0'});
+            } else {
+                $('#'+assetID).css({width:'100%',height:'auto','top':'0','left':'0'});
+            }
+		}
+		if(stretchAssetToFit == 1){
+			$('#'+assetID).css({width:'100%',height:'100%','top':'0','left':'0'});
+		}	
+				
+	}catch(e){
+			}
+			doAssetVariantReporting("impression", assetID);
+		},
+	postSettingRenderComponent: function(assetID){
+		var disableClickThrough = Number(getRequiredAssetDetail(assetID,"disableClickThrough")),
+			interactionData = getRequiredJSON("interactions",assetID),
+			assetIconFileType = getRequiredAssetDetail(assetID,"iconFileType");
+		if(disableClickThrough){
+			$("#"+assetID).css({"cursor":"auto"});
+					}
+		if(interactionData){
+			$("#"+assetID).css({"cursor":"pointer"});
+		}
+		
+	},
+	getStyeleCW: function(){
+		return "body{padding:0;margin:0;}";
+	},
+		iconGlowEffect: function(assetID){
+					var assetInteraction = getRequiredJSON('interactions',assetID),
+				customAssetID = "customAsset."+assetID,
+				assetDetailsJSON = assetsDetailedJSON[customAssetID],
+				assetIconGlowColor = assetDetailsJSON['iconGlowColor'];
+			if($('#glowStyleContainer').length == 0){
+				$("<style type='text/css' id='glowStyleContainer'></style>").appendTo("head");
+			}
+			glowClass = '.shadowGlow'+assetID+'{box-shadow: 0 0 3px 3px '+assetIconGlowColor+';-moz-box-shadow: 0 0 3px 3px '+assetIconGlowColor+';-webkit-box-shadow: 0 0 3px 3px '+assetIconGlowColor+';/*-ms-filter: "progid:DXImageTransform.Microsoft.Glow(Strength=3,Color='+assetIconGlowColor+')";filter: progid:DXImageTransform.Microsoft.Glow(Strength=3, Color='+assetIconGlowColor+');*/}';
+
+		try{
+				$('#glowStyleContainer').append(glowClass);
+		}catch(e){ 				glowClass = document.getElementById('glowStyleContainer').styleSheet.cssText + glowClass;
+				document.getElementById('glowStyleContainer').styleSheet.cssText = glowClass;									
+		}
+			window.setTimeout(function(assetID){
+				$("#"+assetID).on({"mouseover":function(){
+					$(this).addClass('shadowGlow' + assetID);
+				},"mouseout":function(){
+					$(this).removeClass('shadowGlow' + assetID);
+				}});
+			},1,assetID);
+			},
+	setHoverIcon: function(o){
+		var hoverIcon = checkIsDataAva(o.assetDetailsJSON, 'hoverIcon'),
+		    hoverEffect = checkIsDataAva(o.assetDetailsJSON, 'hoverEffect'),
+			hoverOpacity = checkIsDataAva(o.assetDetailsJSON, 'hoverOpacity');
+		if(!validateVal(hoverIcon) && !validateVal(hoverEffect) && !validateVal(hoverOpacity)){
+			return;
+		}
+		var assetOpacity = checkIsDataAva(o.options,"opacity");
+ 		o.hoverIcon = getValueWithDefault(hoverIcon,o.icon);
+		o.hoverEffect = getValueWithDefault(hoverEffect,null);
+		o.assetOpacity = getValueWithDefault(assetOpacity,1);
+		o.hoverOpacity = getValueWithDefault(hoverOpacity,o.assetOpacity);
+		if(o.assetOpacity != 1){
+			$("#"+o.assetID).css({"opacity":o.assetOpacity});
+		}
+		if(o.icon != o.hoverIcon){
+			$("<img />").attr("src",o.hoverIcon);
+		}
+		if(o.hoverEffect == "fade"){
+			(function(o){
+				if(o.icon == o.hoverIcon){
+					$("#"+o.assetID).hover(function(){
+						$(this).stop().animate({opacity:o.hoverOpacity}, 250,function(){
+						});
+					},function(){
+						$(this).stop().animate({opacity:o.assetOpacity}, 250,function(){
+						});
+					});
+				}else{
+					$("#"+o.assetID).hover(function(){
+						$(this).stop().animate({opacity:0.3}, 250,function(){
+							$(this).attr('src',o.hoverIcon).animate({opacity:o.hoverOpacity},250);
+						});
+					},function(){
+						$(this).stop().animate({opacity:0.3},250, function(){
+							$(this).attr('src',o.icon).animate({opacity:o.assetOpacity},250);
+						});
+					});
+				}
+			})(o);
+		}else if(!o.hoverEffect || o.hoverEffect == "none"){
+			(function(o){
+				$("#"+o.assetID).hover(function(){
+					$(this).attr('src',o.hoverIcon).css({"opacity":o.hoverOpacity});
+				},function(){
+					$(this).attr('src',o.icon).css({"opacity":o.assetOpacity});;
+				});
+			})(o);
+		}
+	},
+	assetMouseOverCallback: function(assetID){
+		this.invokeInteractions(assetID);
+	},
+	assetClickCallback: function(assetID){
+		this.invokeInteractions(assetID);                  
+	},
+	disableEvent: function(obj){
+		var retVal = false,
+			assetID = obj.assetID;
+		if((obj.assetEventType != "click") && (!assetID.search("scene-") || !obj.assetInteractionsData )){
+			retVal = true;
+		}
+		if(getRequiredAssetDetail(assetID,"iconFileType") == "flash" && hasFlash && getRequiredAssetDetail(assetID,"clickHandler") != "system"){
+			retVal = true;
+		}
+		if((obj.assetEventType == "click") && (assetID == "scrollDownArrow" || assetID == "scrollUpArrow")){
+			retVal = true;
+		}
+				return retVal;
+	},
+	assetHasEventInteractionSet: function(obj){
+		var retVal = false,
+			assetEventType = obj.assetEventType,
+			assetInteractionsData = obj.assetInteractionsData,
+			srcEvent = null;
+		$.each(assetInteractionsData, function(index, data){
+			srcEvent = data['srcEvent'];
+			if((srcEvent == assetEventType) || (srcEvent == "mouseover" && assetEventType == "mouseout")){
+				retVal = true;
+			}
+		});
+		return retVal;
+	},
+	assetInteractionHandler: function(event){              		var self = layoutObj,
+			eventSrc = event.target || event.srcElement,
+			assetEventType = event.type,
+			assetID = eventSrc.id.replace("wrapper","").replace("PlaceHolder",""),
+			assetInteractionsData = getRequiredJSON('interactions',assetID),
+			options = getRequiredJSON('components',assetID),
+			mouseHoverTime = options.hasOwnProperty("mouseHoverTime") ? options["mouseHoverTime"] : 0,
+			obj = {assetID:assetID,assetEventType:assetEventType,assetInteractionsData:assetInteractionsData};
+				self.invokeInteractsAndTrans(obj);
+	},
+	invokeInteractsAndTrans: function(obj){
+				if(obj.assetEventType == "click" || typeof obj.assetEventType == "undefined"){
+			doAssetVariantReporting("click", obj.assetID);
+		}
+				if(layoutObj.disableEvent(obj)) return;
+		var assetID = obj.assetID,
+			assetEventType = obj.assetEventType;
+		if(isNeedClickThrough(assetID,assetEventType)){
+			layoutObj.openClickThrough();
+			clickedOnInteraction();
+			return;
+		}
+					if(!layoutObj.assetHasEventInteractionSet(obj)) return;
+				if(assetEventType == "click") clickedOnInteraction(); 
+		if(typeof assetEventType == "undefined") assetEventType = "click";
+		layoutObj.invokeInteractions(assetID,assetEventType);
+		layoutObj.invokedTransitions(assetID,assetEventType);
+		eventMsg(assetID+"."+assetEventType);
+	},
+	setTimerOnHover: function(assetID){
+				var self = layoutObj,
+			assetData = getRequiredJSON('components',assetID),
+			options = assetData.hasOwnProperty("options") ? assetData["options"] : 0,
+			mouseHoverTime = options && options.hasOwnProperty("mouseHoverTime") && !isMobile ? options["mouseHoverTime"] : 0;
+		$("#"+assetID).hover(function(){
+			self.assetHoverTimer[assetID] = setTimeout(function(){
+				layoutObj.invokeInteractions(assetID,"hover");
+				layoutObj.invokedTransitions(assetID,"hover");
+			},mouseHoverTime*1000);
+		},function(){
+			clearTimeout(self.assetHoverTimer[assetID]);
+		});
+		return true;
+	},
+	clearTimeOnHover: function(){
+		for(var key in layoutObj.assetHoverTimer){
+			clearTimeout(layoutObj.assetHoverTimer[key]);
+		}
+	},
+	invokeInteractions: function(assetID,assetEventType,noTracker){
+		var assetInteractionsData = getRequiredJSON('interactions',assetID),
+			eventBasedJSON = [],
+			srcEvent,
+			destObject,
+			options,
+			trackAsClickThrough=0,
+			assetDestAction,
+			eventType = (!isVideoElement(assetID) && assetID.search("scene-") == -1) ? getRequiredAssetDetail(assetID,'eventType') : "";
+		$.each(assetInteractionsData, function(index, data) {
+			srcEvent = data['srcEvent'];
+			destObject = data['destObject'];
+			assetDestAction = data['destAction'];
+			if(srcEvent == assetEventType){
+				eventBasedJSON.push(data);
+				options = (data.hasOwnProperty('options')) ? data['options'] : undefined;
+				if(typeof options != 'undefined' && trackAsClickThrough == 0){
+					trackAsClickThrough = options.hasOwnProperty('trackAsClickThrough') ? options['trackAsClickThrough'] : 0;
+				}
+			}
+		});
+		$.each(eventBasedJSON,function(index, data){
+						if(data['destAction'] == 'openExpansion'){
+				postMsgToParent("changeExpandEventTohover:"+assetEventType);
+			}
+			layoutObj.doInteraction(data);
+		});
+				if(eventBasedJSON.length && !layoutObj.hasOpenORCloseExpansion(assetID,assetEventType) && (typeof noTracker == "undefined" || noTracker) && assetEventType.indexOf("mouseover") == -1 && assetEventType .indexOf("mouseout") == -1 && assetEventType .indexOf(".click") == -1 && assetDestAction != 'openClickThrough'){
+			eventType = getEventIdOnType(eventType,assetEventType);
+			if(trackAsClickThrough == 1){
+				var addnlEvtParam = "/es_fireEvent_" + (parseInt(eventType) + 700);
+				fireTracker(eventType, addnlEvtParam);
+			}else{
+				var self = layoutObj;
+				if(self.assetHasInteractionOnDestAction(assetID,"skipAd")){
+					fireTracker(45);
+				}else{
+					fireTracker(eventType);
+				}
+			}
+		}
+			},
+	hasOpenORCloseExpansion: function(assetID,assetEventType){
+		var retVal = false,
+			assetInteractionsData = getRequiredJSON('interactions',assetID),
+			srcEvent = null;
+		$.each(assetInteractionsData,function(index, data){
+			srcEvent = data['srcEvent'];
+			if(srcEvent == assetEventType && (data['destAction'] == "openExpansion" || data['destAction'] == "closeExpansion")){
+				retVal = true;
+			}
+		});
+		return retVal;
+	},
+	assetHasInteractionOnEvent: function(assetID,assetEventType){
+		var retVal = false,
+			assetInteractionsData = getRequiredJSON('interactions',assetID),
+			srcEvent = null;
+		$.each(assetInteractionsData,function(index, data){
+			srcEvent = data['srcEvent'];
+			if(srcEvent == assetEventType){
+				retVal = true;
+			}
+		});
+		return retVal;
+	},
+	assetHasInteractionOnDestAction: function(assetID,destActionType){
+		var retVal = false,
+			assetInteractionsData = getRequiredJSON('interactions',assetID),
+			srcEvent = null;
+		$.each(assetInteractionsData,function(index, data){
+			srcEvent = data['destAction'];
+			if(srcEvent == destActionType){
+				retVal = true;
+			}
+		});
+		return retVal;
+	},
+	postMsgSkipAdToParent: function(assetIDHasSkip){
+		var self = this;
+		if(self.assetHasInteractionOnEvent(assetIDHasSkip,"click") && self.assetHasInteractionOnDestAction(assetIDHasSkip,"skipAd")){
+			postMsgToParent("skipStateChaged");
+		}
+	},
+	doInteraction: function(obj){
+		var destAction = obj['destAction'],
+			destObject = obj['destObject'],
+			assetDetailsJSON = null,
+			url = null,
+			destObjOption = checkIsDataAva(getRequiredJSON("components",destObject),"options"),
+			trackAsClickThrough;
+			if(obj.hasOwnProperty('options')){
+				trackAsClickThrough = obj['options'].hasOwnProperty('trackAsClickThrough') ? obj['options']['trackAsClickThrough'] : 0;
+			}else{
+				trackAsClickThrough = 0;
+			}
+		if(destAction == "show"){
+			if(!$("#"+destObject).length){
+				this.renderComponent(destObject);
+				if(checkIsDataAva(destObjOption,"appearanceEffects")){
+					deactivateAsset(destObject);
+				}
+			}
+			if(!hasAppearEffect(destObject)){
+				activateAsset(destObject);
+				if(checkIsDataAva(destObjOption,"modal") == 1){
+					if(self.modelInitiaterAssetID != assetID){
+						self.modelInitiaterAssetID = assetID;
+						deactivateModelLayer();
+					}
+					activateModelLayer(destObject);
+				}
+			}
+		}else if(destAction == "hide"){
+			if(!checkIsDataAva(destObjOption,"disappearanceEffects")){
+				deactivateAsset(destObject);
+			}
+		}else if(destAction == "animate"){
+
+		}else if(destAction == "switchScene"){
+			this.invokeSceneSwitch(obj);
+		}else if(destAction == "openExpansion" || destAction == "closeExpansion"){
+			if(destAction == "openExpansion"){
+				expansionOpen = true;
+			}else{
+				expansionOpen = false;
+			}
+			layoutObj.deActiveScene({animPause:0});
+						openClickThrough();
+					}else if(destAction == "open"){
+			layoutObj.openURLInteraction(destObject, trackAsClickThrough);
+		}else if(destAction == "play"){
+					}else if(destAction == "pause"){
+					}else if(destAction == "mute"){
+					}else if(destAction == "unmute"){
+					}else if(destAction == "openClickThrough"){
+			openClickThrough();
+		}else if(destAction == "skipAd"){
+			pauseAllVideos();
+						postMsgToParent("player."+destAction);
+		}else if(destAction == "initiate"){
+			if(getRequiredAssetDetail(destObject,"type")=="asset-video"){
+							}else{
+				reloadAsset(destObject);
+			}
+					}
+		this.msgConfiguredInWidget(obj);
+	},
+	openURLInteraction: function(assetID,trackAsClickThrough){
+		var url = getRequiredAssetDetail(assetID,"externalPostURL"),
+			eventType = getRequiredAssetDetail(assetID,"eventType"),
+			icon = getRequiredAssetDetail(assetID,"iconFileType");
+		url = (!url) ? getRequiredAssetDetail(assetID,"icon") : url;
+		var shareMsg = getRequiredAssetDetail(assetID,"shareMsg");
+		url += (shareMsg != null && shareMsg != "") ? "&text="+shareMsg : "";
+		var externalTrackerData = externalTrackerForEvent(eventType);
+		if(externalTrackerData){
+			url = externalTrackerData['trackerURL'];
+		}
+		url = urlFormat(url);
+					if(trackAsClickThrough == 1){
+								url = (validateVal(cMacro) && (url.search(cMacro) == -1)) ? cMacro+encodeURIComponent(url): url;
+							}
+				window.open(url);
+	},
+	msgConfiguredInWidget: function(obj){
+		var destAction = obj['destAction'],
+			destObject = obj['destObject'],
+			iconWidgetType = Number(getRequiredAssetDetail(destObject,"iconWidgetType"));
+		if(getRequiredAssetDetail(destObject,"iconFileType") != "custom-widget" || !$("#"+destObject).length) return;
+		if((iconWidgetType == "" || !iconWidgetType)){
+			try{
+				$("#"+destObject)[0].contentWindow.receiveMsgOnWidgetConfig(destAction);
+			}catch(e){}
+		}
+	},
+	invokedTransitions: function(assetID,eventType){           	},
+  		hideTransitionElement: function(assetID){
+		var needToDoTransition = true;
+		needToDoTransition = (typeof $("#"+assetID).data("animInitiateBy") != "undefined" && $("#"+assetID).data("animInitiateBy") != assetID ) ? false : true;
+		if(needToDoTransition){
+			deactivateAsset(assetID);
+		}
+	},
+	assetHasShowHideTransition: function(obj,sourceID){
+		var self = this,
+			transitionOutTime = obj.transitionOutTime,
+			transitionMode = obj.transitionMode,
+        	assetID = obj.assetID,
+        	object = {},
+        	sourceID = typeof sourceID != "undefined" ? sourceID : null;
+		this.transitionTimersArray[this.transitionTimersArray.length] = window.setTimeout(function(data,sourceID){
+			obj.assetID = data.assetID;
+			obj.displayMode = "hide";
+			obj.transitionMode = data.transitionMode;
+			if(self.isNeedToDoTransition(obj.assetID,"hide",sourceID)){
+				self.doThisAssetTransition(obj);
+			}
+		},transitionOutTime*1000,{assetID:assetID,transitionMode:transitionMode},sourceID);
+	},
+		isSceneAssetsLoaded: function(sceneID){
+		bgInlineEmpty(sceneID);
+		if(sceneID == "scene-1") eventMsg(sceneID+".sceneInitialised");
+		if(sceneID != "scene-1"){
+							$("#loader,#mask").show();
+							
+		} 
+		var iframeLoaded = 0,
+			imgLoaded = 0,
+			totalIframe = $("#"+sceneID+" iframe").size(),
+			totalImage = $("#"+sceneID+" img").size();
+		$("#"+sceneID+" iframe").each(function(){
+			if($(this)[0].contentWindow.document.readyState == 'complete'){
+				iframeLoaded++;
+			} else {
+				$(this).load(function(){
+					if($(this).attr("src") == "about:blank" ){
+						var currentFrame = $(this)[0];
+						var currentFrameWin = currentFrame.contentWindow;
+						if(currentFrameWin && currentFrameWin.jvxWidgetLoaded){ 							iframeLoaded++;
+						}
+					}	
+					else{
+						iframeLoaded++;
+					}
+				}).error(function(){
+					iframeLoaded++;
+				});
+			}
+		});
+					$("#"+sceneID+" img").one("load").each(function() {
+				$(this).load(function(){
+					imgLoaded++;
+				}).error(function(){
+					imgLoaded++;
+				});
+				if(this.complete) $(this).load();
+			});
+				
+		var checkLoader = setInterval(function(){
+			if(totalIframe <= iframeLoaded  && totalImage <= imgLoaded){
+				clearInterval(checkLoader);
+									$("#loader,#mask").hide();
+									sceneLoaded();
+				eventMsg(sceneID+".sceneAssetsLoaded");
+			}
+		},100);
+	},
+	invokeSceneSwitch: function(obj){
+	try{
+		var speed = 1000,
+			self = this,
+			currentSceneID = this.activeSceneID,
+			nextSceneID = obj['destObject'],
+			switchSceneMode = obj['options']['switchSceneMode'],
+			slideDirection = null,
+			dimArr = this.matchLayoutDim.split("x");
+		if(!self.isSceneSwitchAnimComplete) return;
+		self.isSceneSwitchAnimComplete = false;
+		self.deActiveScene();
+		self.activeSceneID = nextSceneID;
+		self.addSceneID(currentSceneID);
+		self.removeSceneID(nextSceneID);
+		layoutObj.loadRenderLayoutComponent(nextSceneID);
+		this.activeScene(nextSceneID);
+		self.removeSceneID(currentSceneID);
+		var curr_fitToScreen = layoutObj.getFitToSceneID(currentSceneID),
+			next_fitToScreen = layoutObj.getFitToSceneID(nextSceneID);
+		if($("#scenesContainer #"+next_fitToScreen).length) $("#scenesContainer #"+next_fitToScreen).css({"margin-top":"5000px"});
+		curr_fitToScreen += currentSceneID + "ft";
+		next_fitToScreen += nextSceneID + "ft";
+		if(switchSceneMode == "immediate"){
+			self.onSceneSwitchAnimComplete(currentSceneID,nextSceneID);
+					    $("#"+nextSceneID).css({"visibility":"visible", "top" : '0px', "left":"0px", "opacity":"1"});
+								}else if(switchSceneMode == "fade" || switchSceneMode == "move"){
+			$('#'+currentSceneID).css({"visibility":"visible","top":"0px","left":"0px"}).animate({opacity:'0'},speed,function(){
+					self.onSceneSwitchAnimComplete(currentSceneID,nextSceneID);
+			});
+					    $("#"+nextSceneID).css({"visibility":"visible", "top" : '0px', "left":"0px", "top":"0px","opacity":"0"})
+		        				.animate({opacity:'1'},speed,function(){
+											
+								});
+					}else if(switchSceneMode == "slide"){
+			slideDirection = obj['options']['sceneSlideDirection'];
+			if(slideDirection == "top"){
+				$('#'+currentSceneID).animate({top:'-'+dimArr[1]+'px'},speed,function(){
+					self.onSceneSwitchAnimComplete(currentSceneID,nextSceneID);
+				});
+						        $("#"+nextSceneID).css({"visibility":"visible", "top" : ''+dimArr[1]+'px', "left":"0px", "opacity":"1"})
+		        				.animate({top:'0px'},speed,function(){
+																	});	
+			 
+							}else if(slideDirection == "bottom"){
+				$('#'+currentSceneID).animate({top:''+dimArr[1]+'px'},speed,function(){
+					self.onSceneSwitchAnimComplete(currentSceneID,nextSceneID);
+				});
+						        $("#"+nextSceneID).css({"visibility":"visible", "top" : '-'+dimArr[1]+'px', "left":"0px", "opacity":"1"})
+		        				.animate({top:'0px'},speed,function(){
+																	});
+							}else if(slideDirection == "left"){
+				$('#'+currentSceneID).css({"top":"0px"}).animate({left:'-'+dimArr[0]+'px'},speed,function(){
+					self.onSceneSwitchAnimComplete(currentSceneID,nextSceneID);
+				});
+						        $("#"+nextSceneID).css({"visibility":"visible", "left" : ''+dimArr[0]+'px', "top":"0px", "opacity":"1"})
+		        				.animate({left:'0px'},speed,function(){
+																	});
+							}else if(slideDirection == "right"){
+				$('#'+currentSceneID).css({"top":"0px"}).animate({left:''+dimArr[0]+'px'},speed,function(){
+					self.onSceneSwitchAnimComplete(currentSceneID,nextSceneID);
+				});
+						        $("#"+nextSceneID).css({"visibility":"visible", "left" : '-'+dimArr[0]+'px', "top":"0px", "opacity":"1"})
+		        				.animate({left:'0px'},speed,function(){
+																	});
+							}
+		}
+	 }catch(e){
+	 }
+	},
+	onSceneSwitchAnimComplete: function(currentSceneID,nextSceneID){
+		var self = layoutObj;
+		self.isSceneSwitchAnimComplete = true;
+				$("#"+currentSceneID).css({"visibility":"hidden","opacity":"0","top":"500000px"});
+		self.addSceneID(currentSceneID);
+		self.filmStripArrowHandling(nextSceneID);
+	},
+	removeSceneID: function(sceneID){
+		var comp_ID;
+		$('#'+sceneID).children().each(function(){
+			comp_ID = $(this).attr("id");
+    	    if(comp_ID != undefined){
+				comp_ID = comp_ID.replace(sceneID,"");
+		    	$(this).attr("id",comp_ID);
+		    }
+		});
+		$("#"+sceneID+" div > object").each(function(){
+			$(this).attr("id", $(this).attr("id").replace(sceneID,""));
+			$(this).attr("name", $(this).attr("name").replace(sceneID,""));
+		});
+	},
+	addSceneID: function(sceneID){
+		var comp_ID;
+		$('#'+sceneID).children().each(function(){
+			comp_ID = $(this).attr("id");
+    	    if(comp_ID != undefined){
+		    	$(this).attr("id",comp_ID+sceneID);
+		    }
+		});
+		$("#"+sceneID+" div > object").each(function(){
+			$(this).attr("id",$(this).attr("id")+sceneID);
+			$(this).attr("name",$(this).attr("name")+sceneID);
+	  	});
+	},
+	getFitToSceneID: function(sceneID){
+		var fitToScreenAssetID = fitToScreenID[layoutObj.matchLayoutDim].hasOwnProperty(sceneID) ? fitToScreenID[layoutObj.matchLayoutDim][sceneID]['assetID'] : null;
+		return fitToScreenAssetID;
+	},
+	deActiveScene: function(o){
+		var animPause = (checkIsDataAva(o,"animPause")) ? o.animPause : 1;
+				deactivateModelLayer();
+		eventMsg(this.activeSceneID+".sceneUnloaded");
+		var assetComponentJSON = getRequiredJSON('components');
+		if(animPause){
+			this.pauseTransiton();
+			for(var assetID in assetComponentJSON){
+				$("#"+assetID).stop().velocity('stop',true).css({"transform":"","left":"","top":"","opacity":""});
+			}
+		}
+	},
+	activeScene: function(sceneID){
+				var assetComponentJSON = getRequiredJSON('components');
+		var options;
+		for(var assetID in assetComponentJSON){
+			if(!hasAppearEffect(assetID)){
+								activateAsset(assetID);
+			}
+			options = (assetComponentJSON[assetID].hasOwnProperty('options') && assetComponentJSON[assetID]['options']) ? assetComponentJSON[assetID]['options'] : false;
+			if(options && options.hasOwnProperty('initVisible') && !INT(options['initVisible'])){
+								removeAsset(assetID);
+							}
+			if(options.hasOwnProperty('transitionOutTime')){	
+				if($("#"+assetID).length) $("#"+assetID).data("animInitiateBy",assetID);	
+			}; 
+			if(options.hasOwnProperty('transitionTime')){ 	
+				deactivateAsset(assetID);	
+				if($("#"+assetID).length) $("#"+assetID).data("animInitiateBy",assetID);
+			}
+		}
+				if(!layoutObj.isSceneInitialized){
+			layoutObj.sceneRevisited();
+		}else{
+			eventMsg(sceneID+".sceneInitialised");
+		}
+	},
+	pauseTransiton: function(){
+		if(!this.transitionTimersArray.length) return;
+		for(var timer in this.transitionTimersArray){
+			clearTimeout(this.transitionTimersArray[timer]);
+		}
+	},
+			filmStripArrowHandling: function(nextSceneID){
+			}
+}
+var layoutObj = new Layout();
+						var addnlParam = "/clickMacro_http%3A%2F%2Finsight.adsrvr.org%2Ftrack%2Fclk%3Fimp%3Dc0f149c9-d24e-4a0a-b659-5c6f6370bb5d%26ag%3Du2e4e80%26sfe%3De0787e8%26sig%3DRT7Jxfvngvwj4n0ADH93SGco/cacheMacro_265572/pageUrl_https%3A%2F%2Fmail.yahoo.com%2F";
+			recordEvent(60, addnlParam);
+						function dyTrackers(){
+		if(dynamicJSONData && dynamicJSONData.hasOwnProperty("trackers") && dynamicJSONData.trackers.hasOwnProperty("1") && dynamicJSONData.trackers['1'].length>0){
+			var clickTrackers = dynamicJSONData['trackers']['1'];
+			for(var key in clickTrackers){
+				var DYclickTrackers = {
+					"eventId" : "1",
+					"placementId" : "JGKkjh",
+					"trackerType" : "2",
+					"trackerURL" : clickTrackers[key],
+				}
+			trackersAllJSON.push(DYclickTrackers);
+			}
+		}
+		
+				if(dynamicJSONData && dynamicJSONData.hasOwnProperty("trackers")){
+			if(dynamicJSONData.trackers.hasOwnProperty("60") && dynamicJSONData.trackers['60'].length>0){
+				var data = dynamicJSONData['trackers']['60'];
+				for(var key in data){
+					getRequest(data[key],1);
+				}
+			}
+						if(dynamicJSONData.trackers.hasOwnProperty("60_scr") && dynamicJSONData.trackers['60_scr'].length > 0){
+				var data = dynamicJSONData['trackers']['60_scr'];
+				for(var key in data){
+					getRequest(data[key],1,'script');
+				}
+			}
+		}
+			}
+	dyTrackers();
+layoutObj.init();
+function getDynamicAssetData(assetID){
+     	 if(typeof(dynamicJSONData) != 'undefined'){
+	  if(dynamicJSONData.hasOwnProperty('asset-data') && dynamicJSONData['asset-data'].hasOwnProperty(assetID)){
+		   for(var key in  dynamicJSONData['asset-data'][assetID]){
+			    var withSpace = dynamicJSONData['asset-data'][assetID][key];
+			    var withoutSpace = withSpace;
+				var isImageURL = false;
+				if(key != '_reporting-keys') {
+					 withoutSpace = withSpace.replace(/ /g, '%20');
+					 isImageURL = checkIsImageURL(withSpace);
+				}
+			    dynamicJSONData['asset-data'] [assetID][key] = (!isImageURL) ? withSpace : withoutSpace;
+		   }
+	   return dynamicJSONData['asset-data'] [assetID];
+	  }else{
+	   return {};
+	  }
+	 } else {
+	  return {};
+	 }
+}
+function checkIsImageURL(url) {
+    return(url.match(/\.(jpeg|jpg|gif|png|svg)$/) != null);
+}
+function renderExtHTMLFile(asseturl,assetID,iconURL,assetData,assetWidgetData){
+	var assetDynamicData = getDynamicAssetData(assetID);
+		if(assetDynamicData.hasOwnProperty('icon')){
+		assetData = assetWidgetData = null;
+	}
+	var obj = {},
+		url = asseturl;
+		baseURL = iconURL.substr(0,iconURL.lastIndexOf("/")+1),
+		appendStr = null,
+		widgetParamInfo = getWidgetParamStr(assetID);
+	appendStr = '<base href="'+baseURL+'" /><script>'+widgetParamInfo+'<\/script>';
+	obj.appendStr = appendStr;
+	obj.assetID = assetID;
+	obj.url = url;
+	obj.baseURL = baseURL;
+	if(assetData && assetWidgetData){
+		obj.widgetStr = assetData;
+		renderExtHTMLFileAsAsset(obj);
+		return;
+	}
+	(function(obj){
+			$.ajax({
+			type: "GET",
+			url: obj.url,
+			crossDomain: true,
+			success: function(widgetStr){
+				obj.widgetStr = widgetStr;
+				renderExtHTMLFileAsAsset(obj);
+			},
+			error: function(){
+				$("#"+obj.assetID).attr("src",obj.url);
+			}
+		});
+		}(obj));
+}
+function renderExtHTMLFileAsAsset(obj) {
+    var widgetStr = obj.widgetStr;
+	    var index = widgetStr.indexOf("<head>"),
+        appendStr = obj.appendStr,
+        assetID = obj.assetID;
+			if(widgetStr.search("jivoxWidgetApiV2.js") == -1){
+			appendStr += '<script id="jvxWidget" src = "'+jivoxWidget+'"><\/script>';
+		}
+	    if (index != -1) {
+        index += 6;
+        widgetStr = widgetStr.substr(0, index) + appendStr + widgetStr.substr(index, widgetStr.length - 1);
+    } else {
+        index = widgetStr.indexOf("<html>");
+        index += 6;
+        widgetStr = widgetStr.substr(0, index) + '<head>' + appendStr + '</head>' + widgetStr.substr(index, widgetStr.length - 1);
+    }
+    var widgetIframeRef = document.getElementById(assetID);
+    attachEventListener(widgetIframeRef, "load", function() {
+        widgetIframeRef.style.visibility = 'visible';
+    }, false);
+	$("#" + assetID).attr("extFilePath", obj.url);
+    var widgetFrameWindow = widgetIframeRef.contentWindow || widgetIframeRef.contentDocument;
+    widgetFrameWindow.document.open('text/html', 'replace');
+    widgetFrameWindow.document.write(widgetStr);
+    widgetFrameWindow.document.close();
+}
+attachEventListener(window, 'message', receiveMessage, false);
+function receiveMessage(e){
+	if(typeof e.data != "string"){
+		return;
+	}
+		var s = e.data.split(':', 10);
+		if(s && s.length >= 2){
+		var msg = s[1];
+		switch(msg){
+						case "openExpansion":
+				expansionOpen = true;
+				activateDefaultScene();
+				eventMsg("openExpansion");
+				eventMsg(layoutObj.activeSceneID+".openExpansion");
+			    break;
+			case "closeExpansion":
+				expansionOpen = false;
+				layoutObj.deActiveScene();
+				eventMsg("closeExpansion");
+				eventMsg(layoutObj.activeSceneID+".closeExpansion");
+			    break;
+			case "closeExpansionComplete":
+				shiftToDefaultScene();
+				postMsgToAllFrame("closeExpansionComplete");
+				eventMsg("closeExpansionComplete");
+				break;
+			case "openExpansionComplete":
+				postMsgToAllFrame("openExpansionComplete");
+				eventMsg("openExpansionComplete");
+				break;
+			case "reRenderLayout":
+				postMsgToAllFrame("orientationChange");
+				layoutObj.onOrientationChange();
+				eventMsg("orientationChange");
+				eventMsg(layoutObj.activeSceneID+"orientationChange");
+				break;
+			case "clickThroughFromAdChoice":
+				preSettinOnWO();
+				break;
+						case "pauseInteraction":
+				eventMsg("pauseInteraction");
+				break;
+					}
+	}
+}
+
+function postMsgToAllFrame(msg){
+	}
+function postMsgToParent(msg){
+	window.parent.postMessage('jvx_5bd007ef05459:'+msg, "*");
+}
+function shiftToDefaultScene(){
+	var currentSceneID = layoutObj.activeSceneID,
+		nextSceneID = 'scene-1',
+		self = layoutObj;
+	self.deActiveScene(currentSceneID);
+	$('#'+currentSceneID).css({"visibility":"hidden","top":"500000px","left":"0px","opacity":"0"})
+	self.addSceneID(currentSceneID);
+	self.activeSceneID = nextSceneID;
+	self.removeSceneID(nextSceneID);
+	$("#"+nextSceneID).css({"visibility":"visible", "top" : '0px', "left":"0px", "opacity":"1"});
+}
+function activateDefaultScene(){
+	var nextSceneID = 'scene-1',
+		self = layoutObj;
+	self.activeSceneID = nextSceneID;
+	self.loadRenderLayoutComponent(nextSceneID);
+	self.activeScene(nextSceneID);
+}
+function INT(str){
+	return parseInt(str,10);
+}
+function openClickThrough(url){
+	layoutObj.openClickThrough(url);
+}
+function loadCmacro(){
+	layoutObj.loadCmacro();
+}
+function openURL(url){
+	window.open(urlFormat(url));
+}
+function getUnitType(){
+	return ("banner" == "banner" ) ? "base" : "expansion"; 
+}
+function showAsset(assetID,initiater){
+	if(assetID == undefined) return;
+	if($("#" + assetID).length && $("#"+assetID).css("margin-top") == "0px"){
+		return;
+	}
+	initiater = (initiater == undefined) ? assetID : initiater;
+	var self = layoutObj,
+		assetInfo = getRequiredJSON("components",assetID),
+		options = checkIsDataAva(assetInfo,"options");
+	self.renderComponent(assetID);
+		if(!hasAppearEffect(assetID)){
+		activateAsset(assetID);
+	}
+    }
+function hideAsset(assetID,initiater){
+	var self = layoutObj;
+	if(typeof assetID == "undefined") return;
+	var initiater = (typeof initiater == "undefined") ? assetID : initiater;
+	var assetInfo = getRequiredJSON("components",assetID),
+		options = assetInfo.hasOwnProperty("options") ? assetInfo["options"] : null;
+	if(!validateVal(options)){
+		deactivateAsset(assetID);
+		return;
+	}
+    }
+function removeAsset(assetID){
+	if(assetID == undefined) return;
+	if($("#"+assetID).length) $("#"+assetID).remove();
+	if($(assetHasWrapper(assetID)).length) $(assetHasWrapper(assetID)).remove();
+}
+function invokeAsset(assetID,assetEventType,fireEvent){
+	var self = layoutObj;
+	if(typeof assetEventType == "undefined") assetEventType = "click";
+	if(typeof fireEvent == "undefined"){ 
+		var fireEvent = 1;
+	}else{
+		fireEvent = Number(fireEvent);
+	}
+	self.invokeInteractions(assetID,assetEventType,fireEvent);
+	self.invokedTransitions(assetID,assetEventType);
+}
+function invokeAnim(assetID,animID){
+	var o = {initiater:assetID,assetID:assetID,animID:animID};
+	layoutObj.doThisAnim(o);
+}
+function reloadAsset(assetID){
+	removeAsset(assetID);
+	layoutObj.renderComponent(assetID);
+}
+function getElementStr(obj){
+try{
+	var self = layoutObj,
+		assetID = obj.assetID;
+	if(!self.checkForWebMobileOnly(assetID)) return;
+	var layoutAssetInfo = getRequiredJSON('components',assetID),
+		customAssetID = "customAsset."+assetID,
+		assetDetailsJSON = assetsDetailedJSON[customAssetID],
+		assetIconFileType = assetDetailsJSON['iconFileType'],
+		assetURL = assetDetailsJSON['icon'],
+		assetType = assetDetailsJSON['type'],
+		assetData = assetDetailsJSON['data'],
+		assetLeft = typeof obj.left == undefined ? 0 : obj.left,
+		assetTop = typeof obj.top == undefined ? 0 : obj.top,
+		assetWidth = obj.width,
+		assetHeight = obj.height,
+		assetEventType = assetDetailsJSON['eventType'],
+		assetFallbackType = assetDetailsJSON['fallbackType'],
+		assetFallbackImgURL = assetDetailsJSON['fallbackImgURL'],
+		assetFallbackWidgetURL = assetDetailsJSON['fallbackWidgetURL'],
+		assetFallbackWidgetSrc = assetDetailsJSON['fallbackWidgetSrc'],
+		componentElementStr = "",
+		assetClickHandler = assetDetailsJSON['clickHandler'],
+		assetIconGlowColor = assetDetailsJSON['iconGlowColor'],
+		assetIconParamString = assetDetailsJSON['iconParamString'],
+		assetClickTagURL = getParameterValue(assetIconParamString,"clickThroughURL"),
+		assetIconBgTransparent = Number(assetDetailsJSON['isIconBgTransparent']),
+		assetIconBgColor = (assetIconBgTransparent && assetIconBgTransparent != null) ? "transparent" : assetDetailsJSON['iconBgColor'],
+		assetWmode = assetIconBgTransparent ? "transparent" : "",
+		disableClickThrough = assetDetailsJSON.hasOwnProperty('disableClickThrough') ? Number(assetDetailsJSON['disableClickThrough']) : 0,
+		adlnParam = typeof obj.adlnParam != "undefined" ? obj.adlnParam : "",
+		assetParamQueryStr = paramQueryStr +"&"+ assetIconParamString + adlnParam;
+				if(!disableClickThrough){
+			assetParamQueryStr = addParameter(assetParamQueryStr,["clickThroughURL=http://insight.adsrvr.org/track/clk?imp=c0f149c9-d24e-4a0a-b659-5c6f6370bb5d&ag=u2e4e80&sfe=e0787e8&sig=RT7Jxfvngvwj4n0ADH93SGcoRsw3gAtIqPPmCb5U0_8.&crid=jg27961q&cf=560141&fq=0&td_s=mail.yahoo.com&rcats=&mcat=&mste=mail.yahoo.com&mfld=2&mssi=fztyx4etav99&mfsi=adko7okxfx&sv=rightmedia&uhow=84&agsa=&rgco=Indonesia&rgre=West%20Java&rgme=&rgci=Bogor&rgz=&dt=PC&osf=Windows&os=Windows10&br=Firefox&svpid=20459933223&rlangs=en&mlang=&did=&rcxt=Other&tmpc=32&vrtd=&osi=&osv=&daid=&dnr=0&vpb=&svsc=&dur=ChwKB293NDV2cHgQhSIiDgjDu9tSEgd0dXJiaW5lCjcKHWNoYXJnZS1hbGxHcmFwZXNob3RDYXRlZ29yaWVzIhYI9___________ARIJZ3JhcGVzaG90CjgKHmNoYXJnZS1hbGxHcmFwZXNob3RCcmFuZFNhZmV0eSIWCPb__________wESCWdyYXBlc2hvdBCFIg..&crrelr=&npt=&svscid=4454551&mdl=Firefox%20-%20Windows&atst=1&r=https%3A%2F%2Fwaveoftomorrow.id%2F%3Futm_source%3Dsymphonypremium_cpm%26utm_medium%3Dbanner_Std%26utm_content%3D300x250_Desktop_Art%26utm_campaign%3DWaveofTomorrow%26utm_voucher_registration%3D247262Fp%26utm_voucher_login%3D2472634q","clickTagURL="+assetClickTagURL]);
+					}else{
+			assetParamQueryStr =removeParameter(assetParamQueryStr,["clickTagURL","clickThroughURL"]);
+					}
+				if(assetIconFileType == "flash"){
+							if(hasFlash){
+					var obj = {};
+					obj.id = assetID + 'PlaceHolder';
+					obj.src = assetURL;
+					obj.width = assetWidth;
+					obj.height = assetHeight;
+					obj.params = {'movie' : assetURL, 
+								  'wmode' : 'transparent',
+								  'allowScriptAccess' : 'always',
+								  'flashvars' : 'assetId='+assetID+'&eventId='+assetEventType+'&'+assetParamQueryStr
+								 };
+					componentElementStr = createSWF(obj);
+				}
+						assetIconBgColor = (assetIconBgColor.search("#") == -1) ? ("#"+assetIconBgColor) : assetIconBgColor
+			componentElementStr = '<div id='+assetID+' class="components" style="background:'+assetIconBgColor+'">'+componentElementStr+'</div>';
+			if(self.enableFallback){
+				if(assetFallbackType == "image"){
+					assetIconFileType = "image";
+					assetURL = assetFallbackImgURL;
+				}else if(assetFallbackType == "html5" || assetFallbackType == "swiffy"){
+					assetIconFileType = "custom-html-widget-file";
+					assetURL = assetFallbackImgURL;
+				}else if(assetFallbackType == "widget"){
+					assetIconFileType = "custom-widget";
+					componentElementStr = "";
+					assetURL = assetFallbackWidgetSrc;
+				}else if(assetFallbackType == "widget-url"){
+					assetIconFileType = "custom-html-widget-file";
+					componentElementStr = "";
+					assetURL = assetFallbackWidgetURL;
+				}else if(assetFallbackType == "widget-src"){
+					assetIconFileType = "custom-widget";
+					componentElementStr = "";
+					assetURL = assetFallbackWidgetSrc;
+				}
+				if(assetIconBgTransparent && (assetIconFileType == "custom-html-widget-file")){
+					assetURL = "/jivox/serverAPIs/getTransparentSwiffy.php?url="+assetURL;
+				}
+			}
+		}
+		if(assetIconFileType == "image" && assetType != "asset-video"){
+			componentElementStr = '<img id="'+assetID+'" src="'+assetURL+'" />';
+		}
+		if(assetIconFileType == "custom-html-widget-file"){
+			assetURL += "?"+removeParameter(paramQueryStr,["versionId"])+"&assetID="+assetID+"&isMobile=";
+			componentElementStr = '<iframe id="'+assetID+'" marginwidth="0" marginheight="0" src="'+assetURL+'" frameborder="0" scrolling="no" allowtransparency="true"'+
+									'style="visibility:hidden" onload="this.style.visibility=\'visible\';">';
+		}
+				return componentElementStr;
+}catch(e){
+	}
+}
+function closeBase(){
+	window.parent.postMessage('jvx_5bd007ef05459:closeBase', "*");
+}
+ // end of adHasVideo check
+function getFlashMovieObject(movieName){
+	if(!hasFlash){
+		var obj = document.getElementById(movieName);
+		if(obj){
+			return obj;
+		}
+	}else{
+		if (window.document[movieName]){
+		  return window.document[movieName];
+		}
+		if(navigator.appName.indexOf("Microsoft Internet")==-1){
+			if (document.embeds && document.embeds[movieName])
+				return document.embeds[movieName];
+			else
+				 return document.getElementById(movieName);
+		}else{
+			return document.getElementById(movieName);
+		}
+	}
+}
+function isVideoElement(assetID){
+	return (videoAssetsInScene.hasOwnProperty(layoutObj.activeSceneID) && videoAssetsInScene[layoutObj.activeSceneID].hasOwnProperty(assetID)) ? true : false;
+}
+function isAssetActive(assetID){
+	return ($("#"+assetID).css("margin-top") == "0px") ? true : false;
+}
+
+function settingForSynMsg(){
+	attachEventListener(window, "storage", listenSyncMsg, false);
+	attachEventListener(window, "storage", listenInvokeB2E, false);
+	attachEventListener(window, "storage", listenEventB2E, false);
+}
+settingForSynMsg();
+function saveSyncMsg(msg){
+	var synObj = {};
+	synObj.msg = msg;
+	synObj = JSON.stringify(synObj);
+	sessionStorage.setItem("syncMsg", synObj);
+}
+function listenSyncMsg(e){
+		var data = sessionStorage.getItem("syncMsg");
+	if(isJson(data)){
+		data = JSON.parse(data);
+		var msg = (data && data.hasOwnProperty("msg")) ? data['msg'] : null;
+		if(msg){
+			handleMsg(msg);
+		}
+	}
+}
+function listenInvokeB2E(e){
+	if(e.key.indexOf("invokeB2E_"+objectName+"_") == -1) return;
+	var eventSrc = e.target || e.srcElement;
+	if(eventSrc.objectName != objectName){
+		return;
+	}
+	var key = e.key.replace("invokeB2E_"+objectName+"_",""),
+		value = e.newValue.replace("_invokeB2E",""),
+		lenIframe = $("iframe[id*=asset]").length;
+	if(lenIframe){
+		for(var loopVar = 0; loopVar<lenIframe; loopVar++){
+			try{
+				$("iframe[id*=asset]")[loopVar].contentWindow.window[key](value);
+			}catch(e){
+				$("iframe[id*=asset]")[loopVar].contentWindow.postMessage('layoutWidgetListner:invokeB2E:'+key+":"+value, "*");
+			}
+		}
+	}
+}
+function invokeBaseMethod(key,value){ 
+	saveKeyValueOnStorage({key:key,value:value,uniqueKey:"invokeB2E"}); 
+}
+function invokeExpMethod(key,value){ 
+	saveKeyValueOnStorage({key:key,value:value,uniqueKey:"invokeB2E"});
+}
+function saveKeyValueOnStorage(obj){
+	var value = typeof obj.value == "undefined" ? "" : obj.value,
+		key = typeof obj.key == "undefined" ? "" : obj.key,
+		uniqueKey = obj.uniqueKey;
+	if(typeof Storage != "undefined"){
+		var stored_data = sessionStorage.getItem(uniqueKey+"_jvx_5bd007ef05459_"+key);
+		if(stored_data == value){
+			sessionStorage.setItem(uniqueKey+"_jvx_5bd007ef05459_"+key,value+"_"+uniqueKey);
+		}else{
+			sessionStorage.setItem(uniqueKey+"_jvx_5bd007ef05459_"+key, value);
+		}
+	}
+}
+function isJson(str) {
+    try{ JSON.parse(str); }catch(e){ return false; }
+    return true;
+}
+function raiseEventOnBase(msg){ saveKeyValueOnStorage({key:msg,uniqueKey:"raiseB2E"}); }
+function raiseEventOnExp(msg){ saveKeyValueOnStorage({key:msg,uniqueKey:"raiseB2E"}); }
+function listenEventB2E(e){
+	var eventSrc = e.target || e.srcElement;
+	if(eventSrc.objectName != objectName){
+		return;
+	}
+	var key = e.key.replace("raiseB2E_"+objectName+"_","");
+	notifyEventFramework(key);
+}
+function raiseEvent(msg){
+	eventMsg(msg);
+	handleMsg(msg);
+}
+function raiseAllEventsInHistory(){
+	$.each(eventHistory, function(index,value) {
+		notifyEventFramework(value);
+	});
+}
+function clearAllEventsInHistory(){
+	eventHistory = [];
+}
+function eventMsg(msg){
+	var dotIndex = msg.indexOf("."),
+		assetID = (dotIndex != -1) ? msg.substr(0,dotIndex) : null;
+	if(assetID && (isVideoElement(assetID) || assetID.search("scene-") != -1)) {
+		handleMsg(msg);
+	}
+	if(msg.search("sceneUnloaded")!= -1) clearAllEventsInHistory();
+	if(msg.search("sceneAssetsLoaded")!= -1){
+		raiseAllEventsInHistory();
+		clearAllEventsInHistory();
+	}else{
+		if($.inArray(msg,eventHistory) == -1){
+			eventHistory[eventHistory.length] = msg;
+			if($("#loader").css("display") != "none") return;
+		}
+	}
+		notifyEventFramework(msg);
+	
+}
+function modifyEventMsgText(msg){
+	var dotIndex = msg.indexOf("."),
+		assetID = (dotIndex != -1) ? msg.substr(0,dotIndex) : null,
+		eventTypeStr = msg.substr(dotIndex+1,msg.length-1),
+		retVal = "";
+	eventTypeStr = (eventTypeStr == "click") ? "clicked" : 
+				   (eventTypeStr.search("COMPLETE") != -1) ? eventTypeStr.toLowerCase() : eventTypeStr;
+	retVal = (assetID == null) ? msg : (assetID+"."+eventTypeStr);
+	return retVal;
+}
+function notifyEventFramework(msg){
+	if(typeof msg == "undefined" || msg == "" || msg == null){
+		return;
+	}
+		msg = modifyEventMsgText(msg);
+	$('#eventHandler').trigger(msg, ['event', msg]);
+	var lenIframe = $("iframe[id*=asset]").length;
+	// adding things to handle primary player, if exists
+	if($("iframe[id=player]").length){
+		$("iframe[id=player]")[0].contentWindow.postMessage('layoutWidgetListner:eventListner:raiseEvent:'+msg, "*");
+	}
+	try{
+		for(var loopVar = 0; loopVar<lenIframe; loopVar++){
+            $("iframe[id*=custom]")[loopVar].contentWindow.eventListner(msg);
+		}
+	}catch(e){
+	      if($("iframe[id*=asset]").length){
+		  for(var loopVar = 0; loopVar<lenIframe; loopVar++){
+		  	$("iframe[id*=asset]")[loopVar].contentWindow.postMessage('layoutWidgetListner:eventListner:raiseEvent:'+msg, "*");
+		  }
+		}
+	}
+}
+function handleMsg(msg){
+	var dotIndex = msg.indexOf("."),
+		assetID = msg.substr(0,dotIndex),
+		eventTypeStr = msg.substr(dotIndex+1,msg.length-1),
+		assetEventType = eventTypeStr.search("pauseClicked") != -1 ? "paused" : 
+						 eventTypeStr.search("playClicked") != -1 ? "playing" :	eventTypeStr,
+		interctionsJSON = getRequiredJSON("interactions",assetID),
+		interactionJSON = getRequiredInteraction(interctionsJSON,["srcEvent",assetEventType]),
+		tempAssetEventType = assetEventType.toUpperCase(); 	switch(tempAssetEventType){
+		case "CLICKMODELCLOSEBTN":
+			handleClickModelCloseBtnMsg(msg);
+		break;
+	}
+			layoutObj.invokeInteractions(assetID,assetEventType);
+	layoutObj.invokedTransitions(assetID,assetEventType);
+}
+function handleClickModelCloseBtnMsg(){
+	}
+function anyModelAssetIsActive(assetID){
+	var retVal = false;
+	var sceneModelAssets = layoutObj.activeModelAssetIDs[layoutObj.activeSceneID];
+	for(var asset in sceneModelAssets){
+		if(assetID == asset) continue;
+		if(isAssetActive(asset)) retVal = true;
+	}
+	return retVal;
+}
+attachEventListener(window, 'message', receiveAPIMessage, false);
+function receiveAPIMessage(e)
+{
+	if(typeof e.data != "string"){
+		return;
+	}
+		var s = e.data.split(':', 10);
+	if(s[0] == 'jvx_5bd007ef05459') s.shift();
+	if(s && s.length >= 2 )
+	{
+		var apiMethod =  s[1]; 						if(s[0] == 'jvxAPI'){
+			if(s[2] != undefined){
+				if(s[1] == "openClickThrough" || s[1] == "openURL" || s[1] == "recordEventByName" || s[1] == "trackDCMClick"){
+					s[2] = decodeURIComponent(s[2]);
+				}
+				var sParam = s.splice(2,s.length-2);
+				window[apiMethod].apply(this,sParam);
+			}else{
+				window[apiMethod]();
+			}
+		}else if(s[0] == 'jvxAPIGetData'){
+			var reqData = null;
+			if(s[2] != undefined){
+				var sParam = s.splice(2,s.length-2);
+				reqData = window[apiMethod].apply(this,sParam);
+			}else{
+				reqData = window[apiMethod]();
+			}
+			var lenIframe = $("iframe[id*=asset]").length;
+			if(lenIframe){
+			  for(var loopVar = 0; loopVar<lenIframe; loopVar++){
+			  	$("iframe[id*=asset]")[loopVar].contentWindow.postMessage('layoutWidgetListner:eventListner'+':'+apiMethod+':'+reqData, "*");
+			  }
+			}
+		}
+	}
+}
+function getAssetInteractionDetails(asstetIds){
+	var scenesRef = getRequiredJSON(creativeUnitType)[layoutDimArr.join('x')]['scenes'];
+		var interactionsObj = {};
+		for(var a in scenesRef){
+			interactionsObj[a]= (scenesRef[a].hasOwnProperty('interactions')) ? scenesRef[a]['interactions'] : {};
+		}
+		var arguments = JSON.parse(decodeURIComponent(asstetIds));
+		var assetId = "";
+		for (key in arguments) {
+			assetId += String(arguments[key])+",";
+		}
+		assetId = assetId.substring(0,assetId.length-1);
+		assetId = (assetId !== "undefined" && assetId !== "" && assetId !== " " && assetId !== undefined)? assetId.split(",") : [];
+		var allInteractionAssets={};
+		if(assetId.length > 0){
+			for(var a in interactionsObj){
+				var subset={};
+				for(var i=0; i < assetId.length; i++){
+					if(interactionsObj[a].hasOwnProperty(assetId[i])){
+						subset[assetId[i]] = interactionsObj[a][assetId[i]];
+					}
+				}
+				allInteractionAssets[a]=subset;
+			}
+		}else{
+			allInteractionAssets = interactionsObj;
+		}
+		return encodeURIComponent(JSON.stringify(allInteractionAssets[layoutObj.activeSceneID]));
+}
+function invokeMethodOnLoad(methodName,param1){
+	var checkForLoad = setInterval(function(){
+		if($("#loader").css("display") == "none"){
+			clearInterval(checkForLoad);
+			if(param1 != undefined){
+				eval("methodName(param1)");
+			}else{
+				eval("methodName()");
+			}
+		}
+	},100);
+}
+function preSettinOnWO(){
+	layoutObj.clearTimeOnHover();
+	}
+	var oldWindowOpen = window.open;
+    window.open = function(url, sName, sFeatures, bReplace) {
+    	preSettinOnWO();
+        oldWindowOpen(url);
+    };
+function corToCenterAlignOnWindow(objWidth,objHeight){
+	var objX =  ($(window).width() - objWidth) / 2 ;
+	var objY =  ($(window).height() - objHeight) / 2 ;
+	return [objX,objY];
+}
+function findCorToCenterAlign(assetDimArr){
+	var cord = [];
+		assetWidth = Number(assetDimArr[0]),
+		assetHeight = Number(assetDimArr[1]);
+	cord[0] = (layoutObj.layoutWidth - assetWidth)/2;
+	cord[1] = (layoutObj.layoutHeight - assetHeight)/2;
+	return cord;
+}
+function splitStrToArr(str){
+	return str.replace('[',"").replace(']',"").split(",");
+}
+function isAssetInLayout(assetID){
+	return getRequiredJSON("components",assetID);
+}
+function isAssetAnInteraction(assetID){
+	var iconFileType = getRequiredAssetDetail(assetID,"iconFileType"),
+		retVal = false;
+	if(iconFileType == "url" || iconFileType == "fbshare" || iconFileType == "gplusshare" || iconFileType =="twittershare"){
+		retVal = true;
+	}
+	return retVal;
+	}
+function postDYDataToExtWidget(data){
+	var lenIframe = $("iframe[id*=asset]").length;
+	if($("iframe[id*=asset]").length){
+		for(var i = 0; i<lenIframe; i++){
+			$("iframe[id*=asset]")[i].contentWindow.postMessage('layoutWidgetListner:resolveDynDataURL:'+resolveDynDataURL, "*");
+			$("iframe[id*=asset]")[i].contentWindow.postMessage('layoutWidgetListner:dynamicData:'+encodeURIComponent(JSON.stringify(data)), "*");
+		}
+	}
+}
+function sceneLoaded(){
+	window.parent.postMessage('jvx_5bd007ef05459:' + 'sceneLoaded', "*");
+			postDYDataToExtWidget(dynamicJSONData['data']);
+				$("#"+layoutObj.activeSceneID).css({'cursor':'pointer'});
+			doCSSReflow();
+}
+function doCSSReflow(){
+	setTimeout(function(){
+		document.body.style.position = "relative";
+		document.body.offsetHeight;
+		document.body.style.position = "";
+	},2000);
+}
+function centerAlignSceneCnt(){
+	var centerSceneXY = [0,0],
+		layoutArr = layoutObj.matchLayoutDim.split("x");
+	centerSceneXY = corToCenterAlignOnWindow(Number(layoutArr[0]),Number(layoutArr[1]));	
+			centerSceneXY[0] = (centerSceneXY[0] < 0 ) ? 0 : centerSceneXY[0];
+	centerSceneXY[1] = (centerSceneXY[1] < 0 ) ? 0 : centerSceneXY[1];
+		var centerAlignStyle = {'position':'absolute','left':centerSceneXY[0],'top':centerSceneXY[1]};	
+	$('#scenesContainer').css(centerAlignStyle);
+}
+function jqueryAvailable(){
+		}
+function fitToscreen(componentElementStr){
+		componentElementStr = (componentElementStr.replace("<img", "<div")).replace("/>", "><div>");
+    var assetID = fitToScreenID[layoutObj.matchLayoutDim][layoutObj.activeSceneID]['assetID'],
+		tempID = assetID+layoutObj.activeSceneID+"ft";
+	if(!$("#"+tempID).length){
+		$(componentElementStr).insertBefore($("#scenesContainer"));
+	}
+	$("#"+assetID).attr({"id":tempID});
+	cssForFitToScreen(tempID);
+}
+function bgInlineEmpty(ID){
+	$("#"+ID).css({"background":""});
+	document.getElementById(ID).style.backgroundImage="";
+	document.getElementById(ID).style.backgroundColor="";
+	document.getElementById(ID).style.backgroundRepeat="";
+}
+function cssForFitToScreen(assetID){
+	var cssStyle = "#"+assetID+"{position:absolute;left:0;top:0;width:100%;height:100%;background: transparent url('"+$("#"+assetID).attr("src")+"') no-repeat center; }";
+	$('head').append('<style>'+cssStyle+'<\/style>');
+	invokeMethodOnLoad(function(){
+		$("#"+layoutObj.activeSceneID).css({"background":"transparent"});
+	});
+	$("#"+assetID).removeAttr("src").unbind("click").on("click",function(){
+		openClickThrough();
+	});
+}
+function resizeFitToScreenImage(assetID){
+	fitToScreenID[layoutObj.matchLayoutDim][layoutObj.activeSceneID]['assetID'] = assetID;
+	$("#"+assetID+layoutObj.activeSceneID+"ft").show();
+	doCSSReflow();
+}
+function fitToScreenCopyToBody(assetID){
+	var tempID = assetID+layoutObj.activeSceneID+"ft";
+	if($("#"+assetID).length){
+		$("#"+assetID).clone().insertBefore($("#scenesContainer"));
+		$("#"+assetID).attr({"id":tempID});
+		$("#scenesContainer #"+assetID).css({"margin-top":"5000px"});
+		cssForFitToScreen(tempID);
+	}
+}
+function cancelEvent(e){
+	if (!e) var e = window.event;
+	e.cancelBubble = true;
+	if (e.stopPropagation) e.stopPropagation();        
+}
+function mouseoverMinTimeDone(){
+	clearInterval(sceneRotateInterval);
+	clearTimeout(UIRTimer);
+}
+function replaceHTML(asset_ID, data, targetElemID){
+	try{
+		if(asset_ID == "self"){
+			var appendElemID = (targetElemID == undefined) ? assetID : targetElemID;
+			var appendElem = document.getElementById(appendElemID) ? document.getElementById(appendElemID) : document.body;
+			appendElem.innerHTML = data;
+		}else{
+			var assetHTML = document.getElementById(asset_ID);
+			var appendAssestElem = assetHTML.contentDocument.getElementById(targetElemID) ? assetHTML.contentDocument.getElementById(targetElemID) : assetHTML.contentDocument.body;
+			appendAssestElem.innerHTML = data;
+		}
+			
+	}catch(e){
+		assetHTML.contentWindow.postMessage('layoutWidgetListner:replaceHTML:'+data+':'+targetElemID, "*");
+	}
+}
+function appendHTML(asset_ID, data, targetElemID){
+	try{
+		if(asset_ID == "self"){
+			var appendElemID = (targetElemID == undefined) ? assetID : targetElemID;
+			var appendElem = document.getElementById(appendElemID) ? document.getElementById(appendElemID) : document.body;
+			appendElem.innerHTML += data;
+		}else{
+			var assetHTML = document.getElementById(asset_ID);
+			var appendAssestElem = assetHTML.contentDocument.getElementById(targetElemID) ? assetHTML.contentDocument.getElementById(targetElemID) : assetHTML.contentDocument.body;
+			appendAssestElem.innerHTML += data;
+		}
+			
+	}catch(e){
+		assetHTML.contentWindow.postMessage('layoutWidgetListner:appendHTML:'+data+':'+targetElemID, "*");
+	}
+}
+
+function trackDCMClick(clickUrl,creativeVariantDCM){
+	//Function definition will be available only when $isDynamic and $dcm params are set
+	}
+
+
+</script>
+<!-- Jivox � 2018 -->
+</body>
+</html>
