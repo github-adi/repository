@@ -1,0 +1,161 @@
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><script>(function(){window.viewReq=[];window.vu=function(b){var a=new Image;a.src=b.replace("&amp;","&");viewReq.push(a)};}).call(this);</script><script>vu("https://securepubads.g.doubleclick.net/pcs/view?xai\u003dAKAOjsu8p2qBmFcvq7eI9d7Q8aWs3LlO6RG92Z8woMVmhw4w8XZ84LHrKgQ8rnwjiYwCQ2sT4oStj-I7LD1bta9tf00EVShxBW49qV_B506dX56I25uxh7V6kMX4DdfoKORyNF23pQ5zOenZbNZ7I8fw4e17TKUlvfjKva_HIw8_DRY2x_W7qBfFuLFAfO0mxWvCpYF2Rny7ZGbBgEumG-5TmdbZhcJH9C5hE4jURZ6QWuxt7mkAPSnOPJSiTePkmtvRzEy5ESJQqHp0fsWrVIMCTxvQIei-ZaI\u0026sai\u003dAMfl-YQn4bgrknkc9drx0UoxMVMlmyELHlGpiSb_qHKYXkcYmQ-fUuVLk9p4bHGWfycW-_yB3S4M4a78tPObEwHnPElDnmbJdLreJKlMMs-W0JcvcB7Lso6DNH8dGVE\u0026sig\u003dCg0ArKJSzAwDu2sYsaALEAE\u0026urlfix\u003d1\u0026adurl\u003d")</script><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+  <link href="https://cdn.okezone.com/underwood/assets/stylesheets/video-js.css" rel="stylesheet">
+  
+<script src="https://cdn.okezone.com/www/2016/js/jquery-3.1.1.min.js"></script>
+
+<!--<script src="https://cdn.okezone.com/underwood/js/videojs/hls/video.js"></script>  -->
+ 
+<style>
+/popslide/
+.frame-1vid{position: relative;}
+.closevideoslider{
+    background: url('https://cdn.okezone.com/underwood/ads/rexona/butt_closed1.png') no-repeat;
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background-size: 100%;
+    opacity: 1;
+    top: 1px;
+    right: 1px;
+    z-index: 999999;
+    cursor: pointer;
+}
+.closevideoslider2{
+    background: url('https://cdn.okezone.com/underwood/ads/rexona/butt_closed1.png') no-repeat;
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background-size: 100%;
+    opacity:1;
+    top: 1px;
+    right: 1px;
+    z-index: 999999;
+    cursor: pointer;
+}
+.videoslider{
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    z-index: 9999999;
+    margin: 0;
+    bottom: 0px;
+    position: fixed;
+    width: 550px;
+    overflow: hidden;
+    height: 210px;
+    left:-100%;
+}
+.videoslider2{
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    z-index: 9999999;
+    margin: 0;
+    bottom: 42px;
+    position: fixed;
+    width: 279px;
+    overflow: hidden;
+    height: 208px;
+    left:-100%;
+}
+.videoslider .btn{position: absolute; bottom: 0px; left:0px; width:100%; text-align: center; right:0px; margin: 0 auto -70px; }
+.videoslider .btn img{border-radius: 4px; text-align: center; opacity: 1;}
+.videoslider .btn img:hover{opacity: 0.8}
+.videoslider.hilang{left:0%; display: block;}/display:block/
+.videoslider a.target{display: block; position: absolute; z-index: 99999999; top:0px; left:0px; right:0px;height: 620px; width:100%}/display:block/
+.videoslider a {width: 35px;height: 35px;display: block;position: absolute;top: 0;cursor: pointer;}
+.xyz12video {position: absolute;top: 15px;right: 11px;}
+.xyz12video-2 {position: absolute; top: 15px; left: 205px; display: none;}
+.xyz12video-3 {position: absolute;top: 15px;left: 205px;display: none;}
+.popslide-srcvideo {width: 550px; height: 210px; background-repeat: no-repeat;}
+.closeanchor {right: 3px;top: 9px;}
+ 
+  video.video-js{top: 18px;
+    right: 29px; position: absolute;width: 305px;
+    height: 173px;
+}
+
+.Mutebutton{
+  position: absolute;
+  top: 15px;
+  left: 175px;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://cdn.okezone.com/underwood/img/mute.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 999999;
+  cursor: pointer;
+}
+
+.Mutebutton.UnMutebutton{
+  background-image: url(https://cdn.okezone.com/underwood/img/voice.png);
+}
+
+</style>
+
+<!-- back -->
+  
+<!-- front -->
+<div id="videoslider" class="videoslider" style="left: 0px;">
+  <div class="popslide-srcvideo" style="background-image:url('https://cdn.okezone.com/underwood/ads/vivo/oktober/Artboar1100copy.jpg');">
+    
+   <video id="my-videos" class="video-js" loop="" autoplay="" muted="" width="325" height="200">
+    <source src="https://cdn.okezone.com/underwood/ads/vivo/oktober/vivomp4preview.mp4" type="video/mp4"> 
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+ 
+  </div>
+        <!-- link front -->
+<a href="http://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvtJ9PX58jRRSDkPQxRviI664KyDLJ6l-9ALUjx3FQmkRoCkb5ZMwChMSe4pkfxS89BLeISUVc_BqBYjRRo4LkadjvqUwySYQ9KsfU3bVSsx0_p9asTjdOXzFneRSxryHiJ0h9PkeJY7-yCZ-Dbjezi8_K38R2jshOaG1PhVzrw3q-fhLXv6VlsVR9TC2z_mGVkuexlLNX_4v6AhZxBlnKDC6B3WgTb543SLQR1zf_M7l5Q-EZy4PO1ettCmYYy_3x6BYBeZDmePAsPF-_vlklUfv0&amp;sai=AMfl-YRBNqegd7VVT43FIRkbQOi-pN1445vQs_Doodf_MGC2CEAbTM0JNVuGR7L5UqRX4rJNBRnlugGv8uYJE5FC98aHg0k2ms0b-ZeQqezoAFJSth9wHVIgo1IEON0&amp;sig=Cg0ArKJSzJ2uOlqN5XUcEAE&amp;urlfix=1&amp;adurl=http://bit.ly/2P225hl" target="_blank" style="width: 100%;height: 100%; position: absolute; left:0; top: 0;"></a>
+              
+            <!-- -->
+    <div class="closevideoslider"></div>
+    <div class="Mutebutton"></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $( ".videoslider" ).animate({ "left": "0px" }, 2000, 'linear'); 
+
+        $(".closevideoslider").click(function(){
+            $( ".videoslider" ).animate({ "left": "-100%" }, 2000, 'linear' , function() {  
+                 
+                  $(parent.document).find('.floating-slider-ads').remove();
+                  $(parent.document).find('.singleimageslider').remove();
+                  $(parent.document).find('.popslidevideo').remove();
+                  $(parent.document).find('.vidx').remove();
+                  $(parent.document).find('.videoslider').remove();
+            });
+        });
+
+        
+
+        $(".Mutebutton").click( function (){
+          if( $("video").prop('muted') ) {
+                $("video").prop('muted', false);
+                $(this).addClass('UnMutebutton');
+          } else {
+            $("video").prop('muted', true);
+            $(this).removeClass('UnMutebutton');
+          }
+        });
+        
+    });
+
+</script>
+
+<script src="https://tpc.googlesyndication.com/pagead/js/r20181031/r20110914/activeview/osd_listener.js"></script><script type="text/javascript">osdlfm(-1,'','B65EIPsPfW-DtDsH0gAfH763YBwAAAAAQATgByAEJwAIC4AIA4AQBoAYg0ggFCIBhEAE','',2799040491,true,'ud\u003d1\u0026la\u003d0\u0026alp\u003dxai\u0026alh\u003d2569592544\u0026',3,'CAASEuRoYQcIouFMK8t5SNKX5KNPaA','https://pagead2.googlesyndication.com/pcs/activeview?xai\u003dAKAOjsvXBNxAVFRS9gNFE8_m3yxxjGr2qWF5YII8aUIexzCOJnl-ybvtB04rFVFqwvWg7JaiVFXQjgENxHig08vh9ohjehAdRPyOIn3NzLk\u0026sig\u003dCg0ArKJSzGG7yGtMJbJUEAE','');</script><script>if (window.top && window.top.postMessage) {window.top.postMessage('{"googMsgType":"adpnt"}','*');}</script><div style="bottom:0;right:0;width:540px;height:210px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:pixelated !important;z-index:2147483647;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAAB+SURBVBjTbZALDsAwCELxBtz/tMtEsF1mso/pKyLAf5Xq/UFtB/Yp+2G6JiAS6ZphU8TR5dyv0KNNHp1nW99OXOtjfMN8m4FYarhxzh0R1teIpjlGhM4MSe8t1JUZvSHPBLUfMOFkr9hZ6eSHfJNgTBC48rbpjzaH5+UEm/gDTsYGAlMcMRQAAAAASUVORK5CYII=') !important;"></div></body>
