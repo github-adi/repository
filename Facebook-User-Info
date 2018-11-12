@@ -1,0 +1,13 @@
+-via:
+Facebook User Info
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 853
+Content-Type: text/html;charset=UTF-8
+Date: Mon, 12 Nov 2018 13:45:22 GMT
+Server: Mashape/5.0.6
+X-Ratelimit-Requests-Limit: 100
+X-Ratelimit-Requests-Remaining: 86
+
+{"photo":"https:\/\/scontent.fhel6-1.fna.fbcdn.net\/v\/t34.0-1\/p100x100\/16176889_112685309244626_578204711_n.jpg?_nc_cat=1&_nc_ht=scontent.fhel6-1.fna&oh=c95c620e047b905df338818b579053b4&oe=5BEB7DA7","photo_id":"112685309244626","id":"4","alias":"zuck","name":"Mark Zuckerberg","url":"https:\/\/www.facebook.com\/4","items":[{"type":"work","info":"","id":"","name":"Facebook","url":"https:\/\/www.facebook.com\/facebook\/","year_from":"","year_to":"","alias":"facebook"},{"type":"work","info":"","id":"","name":"Chan Zuckerberg Initiative","url":"https:\/\/www.facebook.com\/chanzuckerberginitiative\/","year_from":"","year_to":"","alias":"chanzuckerberginitiative"},{"type":"education","info":"computer science","id":"","name":"Harvard University","url":"https:\/\/www.facebook.com\/Harvard\/","year_from":"2002","year_to":"2004","alias":"Harvard"}]}
