@@ -1,0 +1,363 @@
+<HTML>
+<body>
+
+<script>
+window.alogObjectConfig = {
+    product: '658',  
+    page: 'hiclub-id-index', 
+    monkey_page: '',  
+    speed_page: '',  
+    speed: {
+        sample: 1   
+    },
+    monkey: {
+        sample: 1   
+    },
+    exception: {
+        sample: 1  
+    },
+    feature: {
+        sample: ''  
+    },
+    csp: {
+        sample: '', 
+        'default-src': [
+            {match: '*bae.baidu.com', target: 'Accept,Warn'},
+            {match: '*.baidu.com,*.bdstatic.com,*.bdimg.com,localhost,*.hao123.com,*.hao123img.com', target: 'Accept'},
+            {match: /^(127|172|192|10)(\.\d+){3}$/, target: 'Accept'},
+            {match: '*', target: 'Accept,Warn'}
+        ]
+    }
+};
+
+void function(a,b,c,d,e,f,g){if(a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,"https:"===a.location.protocol){if(d="https://gss2.bdstatic.com/70cFsjip0QIZ8tyhnq"+d,!a.alogObjectConfig||!a.alogObjectConfig.sample)return}else d="http://img.baidu.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.random();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d,g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.min.js","alog"),void function(){function a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.method,flag:"catch"})})}(window);
+</script>
+
+<script>!function(){var e={},o={};if(window.getConf=function(o){return e[o]},window.getText=function(e){return o[e]},e.isLogined=Boolean(Number("")),e.noLoginID="",e.noLoginUserName='Visitor'+"".substr(1),e.userId=Number("0"),e.userName='',e.userIconOrigin="",e.userIcon=e.userIconOrigin||"http://static01.cliponyu.com/resource/defaultImg.jpg",e.userRoomId=Number("")||0,e.defaultIcon="http://static01.cliponyu.com/resource/defaultImg.jpg",e.defaultIconRound="http://static01.cliponyu.com/resource/defaultImgRound.jpg",e.passType="",e.email="",e.phone="",e.env="online",e.newApiConfig="",e.apiUrlPrefix="http://me.cliponyu.com",e.appH5Config="http://www.hiclub.live",e.appApiConfig="http://api.facestream.tv",e.country='id',e.host="www.cliponyu.com",e.pageType=/^index/.test("index")?"index":"index",e.cdn='http://static01.cliponyu.com',e.resourceCdn="http://static01.cliponyu.com",e.fbShareId=e.fbAppId="1435277960090526",e.vipIcon="http://img.cliponyu.com/M00/00/0B/CvQhFlPh4QKAXhKUAAAEm4REH9o055.gif",e.vipIconTitle="VIP",e.vipImg='<img class="vip-img" src="'+e.vipIcon+'" alt="'+e.vipIconTitle+'">',e.nobleInfo={},e.isLogined&&(e.nobleInfo=JSON.parse('null'),e.nobleInfo.nobleLevel)){var n=' 3 December';e.nobleInfo.remainFromStr=n,e.nobleInfo.remainToStr='',n=' 2 January',e.nobleInfo.subRemainFromStr=n}e.nobleIcon={1:{icon:"http://static01.cliponyu.com/resource/id/noble/level-1.png",title:"Baron",img:'<img class="noble-img" src="http://static01.cliponyu.com/resource/id/noble/level-1.png" alt="Baron">'},2:{icon:"http://static01.cliponyu.com/resource/id/noble/level-2.png",title:"Viscount",img:'<img class="noble-img" src="http://static01.cliponyu.com/resource/id/noble/level-2.png" alt="Viscount">'},3:{icon:"http://static01.cliponyu.com/resource/id/noble/level-3.png",title:"Earl",img:'<img class="noble-img" src="http://static01.cliponyu.com/resource/id/noble/level-3.png" alt="Earl">'},4:{icon:"http://static01.cliponyu.com/resource/id/noble/level-4.png",title:"Marquess",img:'<img class="noble-img" src="http://static01.cliponyu.com/resource/id/noble/level-4.png" alt="Marquess">'},5:{icon:"http://static01.cliponyu.com/resource/id/noble/level-5.png",title:"Duke",img:'<img class="noble-img" src="http://static01.cliponyu.com/resource/id/noble/level-5.png" alt="Duke">'},6:{icon:"http://static01.cliponyu.com/resource/id/noble/level-6.png",title:"King",img:'<img class="noble-img" src="http://static01.cliponyu.com/resource/id/noble/level-6.png" alt="King">'}},e.weekIcon="http://static01.cliponyu.com/resource/operate/weekIcon.gif",e.weekIconTitle="Star of Week",e.monthIcon="http://static01.cliponyu.com/resource/operate/monthIcon.gif",e.monthIconTitle="Star of Month",e.yearIcon="http://static01.cliponyu.com/resource/yearlystar.png",e.yearIconTitle="Star of Year",e.isOpenJP=Boolean(""),e.tn=null===window.location.search.match(/(^|&|\\?)tn=([^&]*)(&|$)/i)?"/":window.location.search.match(/(^|&|\\?)tn=([^&]*)(&|$)/i)[2],e.pageStartTime=(new Date).getTime(),e.dir="ltr",e.websocket="im.cliponyu.com",e.xhrpolling="imxhr.cliponyu.com",e.socketIO="http://rest.cliponyu.com",e.offlineSocketIO="http://10.94.172.73:8998",e.isMe=Boolean(Number("")||Number("")),e.wordsFilter="3P (bego anjing anus ass babi baka bajingan bangsat bencong bitch blind blowjob bol boobs bool budek bugil buluk buta butt crazy depth devil dick dog dongo fuck f*ck geblek gembel gila goblok itil jablay jelek jembut keparat kontol meki memek naked ngentot ngewe nipple nude pantat pecun pelacur peler penis pentil perek pig pussy sarap sepong setan shit shine silly sinting sissy tahi tai telanjang tete titit tits toket tolol udik ): ugly vagina whore",o.ok='OK',o.more='More',o.cancel='Cancel',o.wealthIconTitle='Wealth icon',o.incomeIconTitle='Income icon',o.actionFailed='Operasi gagal',o.follow='follow',o.followed='followed',o.unfollow='unfollow',o.followSuccess='Follow berhasil',o.unfollowSuccess='Unfollow berhasil',o.sameUser='Tidak bisa pilih',o.reply='Reply',o.praise='like',o.praised='dislike',o.snsDelete='Delete',o.snsSend='send',o.following='Following',o.followers='Followers'}();</script>
+
+<script>!function(){var t=window.getConf,e={params:{country:'id',level:"1",page:"hiclub-index",type:"click",channel:""},tn:t("tn")};"room"===t("pageType")&&t("isUgc")&&(e.params.isUGC=!0);var a={url:"/img/gut.gif",send:function(t,a){t=t||{};var r,n=e,o=a&&a.url||this.url,i=a&&a.params||n.params,d=t.r=+new Date,l=window,u=encodeURIComponent,g=l["UT"+d]=new Image,s=[];if(i)for(var p in i)i[p]!==r&&t[p]===r&&(t[p]=i[p]);for(r in t)s.push(u(r)+"="+u(t[r]));g.onload=g.onerror=function(){l["UT"+d]=null},g.src=o+"?"+s.join("&"),g=s=null},attr:function(t,e){var a=t.getAttribute("log-mod");if(a){var r=t.getAttribute("log-index");r&&(e.modIndex=r),e.modId=a}else t.parentNode&&"BODY"!=t.parentNode.tagName.toUpperCase()&&this.attr(t.parentNode,e)},link:function(t){var e={},a=t.getAttribute("href",2);a&&(/^(javascript|#)/.test(a)?(e.ac="b",e.url="none"):(e.ac="a",e.url=a));var r=t.getAttribute("log-index");r&&(e.linkIndex=r);var n=t.getAttribute("data-sort")||"";n&&(e.sort=n,e.value=t.getAttribute("data-val")||"");var o=t.getAttribute("log-oid");return o&&(e.offerid=o),this.attr(t,e),e}};window.UT=a}();</script>
+
+<script>if(0!==(document.referrer||"").indexOf(location.protocol+"//"+location.host)){if(document.cookie="gl_tn="+(location.search.match(/\btn=([A-Za-z0-9_\-\%\.]+)/i)||[0,"/"])[1]+"; path=/",document.cookie="gl_ref="+(document.referrer?document.referrer&&document.referrer.match(/\/{2}([^\/]+)\/{1}/)[1]:"")+"; path=/",location.search.match(/\btn=([A-Za-z0-9_\-\%\.]+)/i)){var tnExpires=new Date;tnExpires.setTime(tnExpires.getTime()+864e5),document.cookie="hiclub_tn="+location.search.match(/\btn=([A-Za-z0-9_\-\%\.]+)/i)[1]+"; path=/; ;expires="+tnExpires.toGMTString()}}else{var glRef=document.referrer.replace(location.protocol+"//"+location.host,"").match(/\/{1}[^\.|\?|\/]*/)[0];document.cookie="gl_ref="+glRef+"; path=/"}</script>
+
+<script>!function(e,n,t,a,o){n[t]?n[t](a,o,!1):n.attachEvent("on"+a,o)}(window,document,"addEventListener","mousedown",function(e){e=e||event;for(var n=e.target||e.srcElement,t=0;2>=t&&("BODY"!==n.tagName&&"HTML"!==n.tagName);t++){if("A"===n.tagName){var a=UT.link(n);a.position="links",UT.send(a);break}n=n.parentNode}});</script>
+
+<script>var navigationInfo;if("performance"in window&&"getEntriesByType"in window.performance&&window.performance.getEntriesByType("resource")instanceof Array){var navigationTime=performance.timing;navigationInfo={launch:navigationTime.domainLookupStart-navigationTime.navigationStart,dns:navigationTime.domainLookupEnd-navigationTime.domainLookupStart,tcp:navigationTime.connectEnd-navigationTime.connectStart,firstByte:navigationTime.responseStart-navigationTime.requestStart}}else navigationInfo={};var accessLogData={type:"access",tn:getConf("tn")};"room"===getConf("pageType")||"himax"===getConf("pageType")?(accessLogData.isLive="",accessLogData.roomStatus="",accessLogData.roomId="",accessLogData.isSign=getConf("isSign")?"1":"0",accessLogData.isLogined=getConf("isLogined")?"1":"0",accessLogData.isUGC=getConf("isUgc")?!0:!1):"multiplayerroom"===getConf("pageType")&&(accessLogData.roomId="");for(var key in navigationInfo)accessLogData[key]=navigationInfo[key];UT.send(accessLogData);</script>
+
+<script>var moduleMaster=function(){function e(e,n){return document.getElementsByClassName||(document.getElementsByClassName=function(e,n){for(var r=(n||document).getElementsByTagName("*"),t=[],a=0;a<r.length;a++)for(var i=r[a],o=i.className.split(" "),d=0;d<o.length;d++)if(o[d]===e){t.push(i);break}return t}),document.getElementsByClassName(e,n)}function n(n){var r="g_fis_bigrender_"+n,t=e(r)[0];return t?t.innerHTML:""}function r(e){return i[e]||(i[e]={moduleId:e.replace(/-/g,"_"),isLoaded:!1,requireHandlers:[],events:{}}),i[e]}function t(e,n){var t=r(e),a=t.moduleId,i=document.getElementById(a);(!t.isLoaded&&!s[a]&&i&&!i.innerHTML||n)&&(delete t.exports,d?d.asyncLoad({id:a}):o.push(a)),t.isLoaded=!0}function a(e,n){var t=r(e);return t.events[n]||(t.events[n]={handlers:[],handlerObj:{}}),t.events[n]}var i={},o=[],d=window.BigPipe,s={};return{require:function(e,n){var a=r(e),i=this;return n&&(a.hasOwnProperty("exports")?n(a.exports):(a.requireHandlers.push(n),t(e))),function(n){return i.require(e,n)}},exports:function(e,n){var t=r(e);if(!t.hasOwnProperty("exports")){t.isLoaded=!0,t.exports=n;for(var a=0,i=t.requireHandlers.length;i>a;a++){var o=t.requireHandlers[a];o&&o(n)}t.requireHandlers=[]}},on:function(e,n,t,i){if(t){var o=(r(e),n.split(".")),d=a(e,o[0]);o[1]?d.handlerObj[o[1]]=t:d.handlers.push(t),"data"in d&&i&&t(d.data,!0)}},one:function(e,n,t,a){if(t){var i=(r(e),this);i.on(e,n,function(r,a){i.off(e,n,arguments.callee),t(r,a)},a)}},off:function(e,n,t){var i=(r(e),n.split(".")),o=a(e,i[0]);if(i[1])delete o.handlerObj[i[1]];else if(t){var d=!1;for(var s in o.handlers)o.handlers[s]===t&&(delete o.handlers[s],d=!0);if(!d)for(var l in o.handlerObj)o.handlerObj[l]===t&&delete o.handlers[l]}else o.handlers=[],o.handlerObj={}},trigger:function(e,n,t){{var i=this;r(e)}if(n){var o=a(e,n);o.data=t;for(var d in o.handlers)o.handlers[d](t,!1);for(var s in o.handlerObj)o.handlerObj[s](t,!1)}return function(n,r){return i.trigger(e,n,r)}},loadModule:function(e,n){n&&(r(e).moduleId=n),t(e)},reloadModule:function(e,n){n&&(r(e).moduleId=n),t(e,!0)},setModuleId:function(e,n){r(e).moduleId=n},setBigPipe:function(e){if(!d){d=e;for(var r,t=n("step1"),a=n("step2"),i=/id:\s*"([^"]+)"/g;r=i.exec(t);)r[1]&&(s[r[1]]=!0);for(;r=i.exec(a);)r[1]&&(s[r[1]]=!0);setTimeout(function(){window.eval&&window.eval(t)},500),setTimeout(function(){window.eval&&window.eval(a)},1e3);for(var l in o)!s[o[l]]&&d.asyncLoad({id:o[l]});o=[]}}}}();</script>
+
+<!--[if lt IE 9]>
+<script src="http://www.cliponyu.com/static/common/js/html5-shiv.min_3855464.js"></script>
+<script src="http://www.cliponyu.com/static/common/js/es5-shim.min_c247d1d.js"></script>
+<script src="http://www.cliponyu.com/static/common/js/es5-sham.min_ef0a798.js"></script>
+<![endif]-->
+
+<script> alog('speed.set', 'ht', +new Date); </script>
+
+<script>
+            (function () {
+                var EMPTY_FUN = function () {};
+                var cs = window.console
+                if (!cs) {
+                    cs = window.console = {};
+                }
+                if (!cs.log) {
+                    cs.log = EMPTY_FUN;
+                }
+                if (!cs.warn) {
+                    cs.warn = EMPTY_FUN;
+                }
+            })();
+        </script>
+
+		<script id="modIndexRecommandTpl" type="text/html">
+            {{each list}}
+                <li>
+                    {{if +$value.roomType === 0 || +$value.roomType === 2}}
+                    <a href="/liveroom/{{$value.roomId}}">
+                        <img src="{{$value.artistic_photo || $value.roomImg || 'http://static01.cliponyu.com/resource/id/def-room-img.png'}}">
+                        <em class="over-mask"></em>
+                        {{if $value.isLive}}
+                            <em class="live-wrapper nomal-live-wrapper"></em>
+                        {{/if}}
+                        {{if $value.daka}}
+                            <em class="live-daka" style="background: url(http://static01.cliponyu.com/resource/id/sony.png)"></em>
+                        {{/if}}
+                        {{if !$value.isLive}}
+                            {{if $value.liveTime}}
+                                <em class="live-time">{{$value.liveTime}}</em>
+                            {{/if}}
+                        {{/if}}
+                        <em class="over-icon"></em>
+                        <em class="name-wrapper toe">{{$value.honor}}</em>
+                    </a>
+                    {{/if}}
+                    {{if +$value.roomType === 1}}
+                    <a href="/multiplayerroom/{{$value.roomId}}">
+                        <img src=" {{$value.multiRoomImg || 'http://static01.cliponyu.com/resource/id/def-room-img.png'}}">
+                        <em class="over-mask"></em>
+                        {{if $value.isLive}}
+                            {{if +$value.liveType === 0}}
+                                <em class="live-wrapper vedio-live-wrapper"></em>
+                            {{else}}
+                                <em class="live-wrapper voice-live-wrapper"></em>
+                            {{/if}}
+                        {{/if}}
+                        {{if !$value.isLive}}
+                            {{if $value.liveTime}}
+                                <em class="live-time">{{$value.liveTime}}</em>
+                            {{/if}}
+                        {{/if}}
+                        {{if $value.daka}}
+                            <em class="live-daka" style="background: url(http://static01.cliponyu.com/resource/id/sony.png)"></em>
+                        {{/if}}
+                        <em class="over-icon"></em>
+                        <em class="name-wrapper toe">{{$value.roomName}}</em>
+                    </a>
+                    {{/if}}
+                </li>
+            {{/each}}
+        </script>
+		
+		<script id="modIndexClips" type="text/html">
+        {{each list}}
+            <li>
+                <a href="/sns/myclips?uid={{$value.uid}}">
+                    <div class="cf">
+                        <div class="clips-head">
+                            <img src="{{$value.icon || 'http://static01.cliponyu.com/resource/defaultImg.jpg'}}">
+                            {{if $value.userIsFollowed}}
+                                <span data-userid="{{$value.uid}}">{{$value.following}}</span>
+                            {{else}}
+                                <span class="clips-follow" data-userid="{{$value.uid}}">{{$value.follow}}</span>
+                            {{/if}}
+                        </div>
+                        <div class="clips-content cf">
+                            <div class="clips-userinfo cf">
+                                <h3 class="clips-name toe">{{$value.nickName}}</h3>
+                                <span class="user-icon">
+                                    <img src="{{$value.incomLevel}}">
+                                </span>
+                            </div>
+                            <div class="clips-text cf">
+                                {{if $value.feed.content && $value.feed.imgSrc.length}}
+                                    <div class="clips-word" title="{{$value.feed.content}}">{{$value.feed.content}}</div>
+                                    <div class="clips-img">
+                                        <img src="{{$value.feed.imgSrc[0]}}" class="sns-img">
+                                        {{if $value.feed.imgSrc.length > 1}}
+                                            <i class="img-num">{{$value.feed.imgSrc.length}}</i>
+                                        {{/if}}
+                                    </div>
+                                {{else if $value.feed.content}}
+                                    <div class="clips-word clips-word-only" title="{{$value.feed.content}}">{{$value.feed.content}}</div>
+                                {{else if $value.feed.imgSrc.length}}
+                                     <div class="clips-img clips-img-only">
+                                        <img src="{{$value.feed.imgSrc[0]}}" class="sns-img">
+                                        {{if $value.feed.imgSrc.length > 1}}
+                                            <i class="img-num">{{$value.feed.imgSrc.length}}</i>
+                                        {{/if}}
+                                    </div>       
+                                {{/if}}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        {{/each}}
+    </script>
+	
+	<script id="modHomePublicGuild" type="text/html">{{if guildMedal}}<span class="medal-icon" data-guildid-hook="{{guildId}}" data-guildmedal-hook="{{guildMedal}}" data-guildlevel-hook="{{guildLevel}}">Family：</span>{{/if}}</script><script id="modHomePublicAnchorlistTpl" type="text/html"><div class="mod-homepublic-anchorlist overflow-cut"><ul>{{each content}}<li><div class="wrap" data-roomid="{{$value.uid}}">{{if +$value.roomType === 0 || +$value.roomType === 2}}<a href="/liveroom/{{$value.roomId}}" class="photo"><img alt="{{$value.nickName}}" class="anchor-poto" src="/static/hiclub/widget/homepublic/mod-homepublic-anchorlist/img/blank_6fcb521.gif" data-lazyload="{{$value.roomImg || defRoomImg}}">{{else if +$value.roomType === 1}}<a href="/multiplayerroom/{{$value.roomId}}" class="photo"><img alt="{{$value.roomName}}" class="anchor-poto" src="/static/hiclub/widget/homepublic/mod-homepublic-anchorlist/img/blank_6fcb521.gif" data-lazyload="{{$value.multiRoomImg || defRoomImg}}">{{/if}}<span class="play-bg"></span><span class="play"></span>{{if $value.isLive}}{{if +$value.roomType === 1 && +$value.liveType === 1}}<span class="audio-live-icon"></span>{{else if +$value.roomType === 1 && +$value.liveType === 0}}<span class="radio-live-icon"></span>{{else}}<span class="live-icon"></span>{{/if}}{{/if}}{{if !$value.isLive}}{{if $value.liveTime}}<em class="live-time">{{$value.liveTime}}</em>{{/if}}{{/if}}</a><p class="name"><span class="nike-name toe">{{if +$value.roomType === 1}}{{$value.roomName}}</span>{{else}}{{$value.nickName}}</span><img src="{{$value.incomLevel}}" class="rank-icon">{{/if}}</p><p class="status">{{$value.likeNum}}{{if $value.openMicStatus}}<span class="is-mark"></span>{{/if}}</p>{{if +$value.roomType === 0 || +$value.roomType === 2}}{{each optTemp.customerList as custom index}}{{if custom.uid == $value.uid}}<img src="{{custom.icon}}" alt="{{custom.title}}" title="{{custom.title}}">{{/if}}{{/each}}{{/if}}<p class="guild-icon-container"></p>{{if +$value.roomType === 1}}<p class="description toe">{{$value.description}}</p>{{/if}}{{if +$value.roomType === 0 || +$value.roomType === 2}}<p class="medal-list">{{if $value.isYearStar}}<img src="{{optTemp.weekStar.yearIcon}}" alt="{{optTemp.weekStar.yearIconTitle}}" title="{{optTemp.weekStar.yearIconTitle}}">{{/if}}{{if $value.isMonthStar}}<img src="{{optTemp.weekStar.monthIcon}}" alt="{{optTemp.weekStar.monthIconTitle}}" title="{{optTemp.weekStar.monthIconTitle}}">{{/if}}{{if $value.isWeekStar}}<img src="{{optTemp.weekStar.weekIcon}}" alt="{{optTemp.weekStar.weekIconTitle}}" title="{{optTemp.weekIconTitle}}">{{/if}}{{if optTemp.userId == $value.uid}}<img src="{{optTemp.week.godIcon}}" alt="{{optTemp.week.godTitle}}" title="{{optTemp.week.godTitle}}">{{/if}}{{if optTemp.goddessId == $value.uid}}<img src="{{optTemp.week.goddessIcon}}" alt="{{optTemp.week.goddessTitle}}" title="{{optTemp.week.goddessTitle}}">{{/if}}{{if medalList}}{{each $value.medalList}}<img src="{{medalList[$value.id].iconSmall}}" alt="{{medalList[$value.id].name}}" title="{{medalList[$value.id].name}}">{{/each}}{{else}}{{each $value.medalList}}<span data-medal-hook="{{$value.id}}"></span>{{/each}}{{/if}}</p>{{/if}}</div></li>{{/each}}</ul></div></script>
+
+	<script> alog('speed.set', 'drt', +new Date); </script>
+<script>
+    void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;if("https:"===a.location.protocol){if(d="https://gss2.bdstatic.com/70cFsjip0QIZ8tyhnq"+d,!k||!l)return}else d="http://img.baidu.com"+d;k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.min.js");
+</script>
+
+<script type="text/javascript" src="http://static01.cliponyu.com/static/common/pkg/basicLoad_c63fbba.js"></script><script type="text/javascript" src="http://static01.cliponyu.com/static/common/pkg/jquery_7bcf3b2.js"></script><script type="text/javascript" src="http://static01.cliponyu.com/static/common/pkg/public_cb7ef6d.js"></script><script type="text/javascript" src="http://static01.cliponyu.com/static/common/pkg/commonpublic_2aa4d1c.js"></script><script type="text/javascript" src="http://static01.cliponyu.com/static/hiclub/pkg/homepublic_589f2d4.js"></script><script type="text/javascript" src="http://static01.cliponyu.com/static/hiclub/pkg/index_e0cd41e.js"></script><script type="text/javascript" src="http://static01.cliponyu.com/static/hiclub/widget/cdntest/cdntest_78e6ae4.js"></script><script type="text/javascript">
+!function(){            var $ = require('common:widget/ui/jquery/jquery.js');
+            $(document).on('click', 'a[href="javascript:;"]', function (e) {
+                e.preventDefault();
+            });
+        }();
+!function(){    require('common:widget/public/mod-public-login/mod-public-login.js').init({"isShow":true,"url":{"online":"https:\/\/id.globalwappass.com\/loginSmarty?country=id&tpl=globalmusic&group=hiclub&platform=pc&language=id&redirect_url=http%3A%2F%2Fwww.cliponyu.com%2Fuser%2Fpass%2Fuserpass%2FcallBack%3Fback_url%3D","offline":"http:\/\/id.globalwappass.com:8098\/loginSmarty?country=eg&tpl=pp&group=hiclub&platform=pc&language=en&redirect_url=http%3A%2F%2Fdebug-id.cliponyu.com%3A8065%2Fuser%2Fpass%2Fuserpass%2FcallBack%3Fback_url%3D"},"textMap":{"loginIn":"Login","registerOr":"atau","register":"Register","LoginwithFacebook":"Login with Facebook","LoginwithTwitter":"Login with Twitter","LoginwithEmail":"Login with Email","LoginwithKaskus":"Login with Kaskus","LoginwithGoogle":"Login with Google","defaultUserName":"Email","defaultPassword":"Password"},"conf":{"isRegisterOpen":true,"isBaiduAccountIframeShow":true,"isBaiduAccountOpen":false,"isKaskusAccountOpen":true,"isTwitterAccountOpen":true,"isFacebookAccountOpen":true,"isGoogleAccountOpen":false,"rightImg":false,"isHref":"","loginBg":"http:\/\/static01.cliponyu.com\/resource\/sandy.jpg","loginhrefUrl":"","target":"_self"}});
+}();
+!function(){    require('common:widget/public/mod-public-property/mod-public-property.js').init(
+        {"rechargeTitle":"Saldo tidak cukup","rechargeText":"Saldo tidak cukup. Top up sekarang?","rechargeButton":"Top up","vipTitle":"Jadi VIP","vipText":"Anda bukan member. Jadi member?","vipButton":"Jadi member","cancelButton":"Batal","userChanged":"User sudah login. Silahkan refresh.","refresh":"refresh","notAdmin":"Anda bukan admin","notAnchor":"Anda bukan room owner","confirm":"OK","becomeAdmin":"Selamat Anda menjadi admin room ini","fireAdmin":"Hak admin Anda telah dicabut oleh room owner"},
+        {
+            balance: 0,
+            balanceAdv: {"picSrc":"","linkUrl":"","target":"_self"},
+        },
+        {
+            isVIP: Boolean(Number('') || Number('')),
+            isAdmin: Boolean(Number('')),
+            vipAdv: {"picSrc":"","linkUrl":"","target":"_self"},
+            isCurAnchor: Boolean() || Boolean(Number('')),
+            nobleConfs: {"textMap":{"nobleState":"Status","nobleExpire":"Expire Date","none":"none","nonePromptText":"You haven\u2019t applied any aristocratic privilege, apply it right now!","noblePromptText":"Perpanjang status #{level} dengan cara akumulasi top up #{gold} gold sebelum #{date}","nobleRetainText":"Berhasil pertahankan level\uff0cstatus #{level} Anda berlaku sampai #{date}","nobleHelp":"How to become nobility?","requireGold1":"Top up akumulasi s\/d #{gold}","requireGold2":"dalam 1 hari sebelum 24:00  gratis menjadi #{level}\uff01","requireGold3":"Top up akumulasi s\/d #{gold} gold di bulan berikutnya akan tetap menjadi #{level}!","rechargeToday":"Top up akumulasi hari ini","rechargeCurrentLevel":"Sudah top up akumulasi","topup":"Top up","tips":"TIPS","operationFailed":"Operation failed","cancelInvisibleOperation":"You are now in invisible mode, so you cannot do this operation.<br>Do you want to cancel invisible mode?","cancelInvisible":"Cancel invisibility","noPrivilege":"No right","noInvisiblePrivilege":"The hide privilege can only be used by Nobility whose level is equal or higher than Earl. Do you want to become Nobility?","buy":"Apply","beInvisibleSuccess":"You are now in invisible mode.","beInvisibleFailed":"Setting invisible mode failed","cancelInvisibleSuccess":"Invisible mode has been cancelled","cancelInvisibleFailed":"Cancelling invisible mode failed","retainSuccess":"Berhasil pertahankan level\uff0cwaktu perpanjangan berikutnya tanggal #{from}-#{to}","normalUser":"Ordinary user","willDegrade1":"Expiration Reminder","willDegrade1Detail":"Status #{level} Anda akan expire pada #{to},<br>top up pertahankan level?","retain":"Pertahankan level","willDegrade2":"Tidak pertahankan level","willDegrade2Detail":"Jika batal pertahankan level, mulai dari #{subFrom} Anda akan turun level menjadi #{subLevel}, tidak memiliki privillege #{level} lagi.","giveUp":"Give Up","degraded":"Gagal pertahankan level","degradedDetail":"Selama periode pertahankan level jika akumulasi top up tidak mencapai #{superRetainRequire} gold, status Anda dari #{superLevel} turun menjadi #{level}<br>Jika Anda memiliki pertanyaan <a href=\"javascript:;\" onclick=\"window.open('https:\/\/chat1c.livechatinc.com\/licence\/4752481\/open_chat.cgi?lang=en&groups=0&'+'dc='+escape(document.cookie+';l='+document.location+';r='+document.referer+';s='+typeof lc_session),'Czat_1983981','width=530,height=520,resizable=yes,scrollbars=no,status=1');return false;\" rel=\"nofollow\">silahkan hubungi CS kami<\/a>","degradedDetailForNormalUser":"Waktu pertahankan level sebelumnya top up akumulasi yang berhasil #{superRetainRequire} gold, status Anda dari #{superLevel} turun menjadi #{level}<br>Jika Anda memiliki pertanyaan <a href=\"javascript:;\" onclick=\"window.open('https:\/\/chat1c.livechatinc.com\/licence\/4752481\/open_chat.cgi?lang=en&groups=0&'+'dc='+escape(document.cookie+';l='+document.location+';r='+document.referer+';s='+typeof lc_session),'Czat_1983981','width=530,height=520,resizable=yes,scrollbars=no,status=1');return false;\" rel=\"nofollow\">silahkan hubungi CS kami<\/a>","upgraded":"Applied successfully!","upgradedDetail":"Congratulations! You are now Cliponyu\u2019s #{icon} #{level}!<br>Your expiration date is #{to}.<br><a data-event=\"buyNoble\" href=\"javascript:;\">Bagaimana cara pertahankan level?<\/a>","nobleIcon":"#{theIcon} #{theLevel} medal","nobleIconDetail":"This medal belongs to #{theLevel}.<br>To own this privilege, apply to be #{theLevel}!","applyIcon":"Apply","howRetain":"Bagaimana cara pertahankan level?","howRetainDetail":"#{from} - #{to} top up akumulasi s\/d #{retainRequire} gold baru dapat mempertahankan level!"},"conf":{"nobleHelpHref":"\/helppage?name=noble","detail":{"1":{"privilegesNew":[],"privileges":["topListed","nobleCars","cantBeKickedOut","nobleMedal","nobleEntryBar","nobleEmotions","violetNickname","stayTuned"],"updateGold":"20000","retainGold":"4000"},"2":{"privilegesNew":[],"privileges":["topListed","nobleCars","cantBeKickedOut","nobleMedal","nobleEntryBar","nobleEmotions","violetNickname","stayTuned"],"updateGold":"60000","retainGold":"12000"},"3":{"privilegesNew":["invisibleMode"],"privileges":["topListed","nobleCars","cantBeKickedOut","nobleMedal","nobleEntryBar","nobleEmotions","violetNickname","stayTuned"],"updateGold":"100000","retainGold":"20000"},"4":{"privilegesNew":["invisibleMode"],"privileges":["topListed","nobleCars","cantBeKickedOut","nobleMedal","nobleEntryBar","nobleEmotions","violetNickname","stayTuned"],"updateGold":"200000","retainGold":"40000"},"5":{"privilegesNew":["invisibleMode","privateChatInInvisibleMode"],"privileges":["topListed","nobleCars","cantBeKickedOut","nobleMedal","nobleEntryBar","nobleEmotions","violetNickname","stayTuned"],"updateGold":"400000","retainGold":"80000"},"6":{"privilegesNew":["invisibleMode","privateChatInInvisibleMode"],"privileges":["topListed","nobleCars","cantBeKickedOut","nobleMedal","nobleEntryBar","nobleEmotions","violetNickname","stayTuned"],"updateGold":"2000000","retainGold":"200000"}},"privileges":{"invisibleMode":{"name":"Invisible Mode","desc":"Nobility whose level is higher than Viscount can enter the live room in invisible mode","imgSrc":"http:\/\/static01.cliponyu.com\/resource\/%E9%9A%90%E8%BA%AB1.png"},"privateChatInInvisibleMode":{"name":"Private Chat in Invisible Mode","desc":"Nobility whose level is higher than Marquess can chat privately while they are in invisible mode","imgSrc":"http:\/\/static01.cliponyu.com\/resource\/%E7%A7%81%E8%81%8A1.png"},"topListed":{"name":"Top listed","desc":"You will be listed high up on the visitors list","imgSrc":"http:\/\/static01.cliponyu.com\/resource\/toplisted1.png"},"nobleCars":{"name":"Noble Cars","desc":"You can buy Noble Cars while others have no right to buy even if they have more golds","imgSrc":"http:\/\/static01.cliponyu.com\/resource\/%E5%BA%A7%E9%A9%BE1.png"},"cantBeKickedOut":{"name":"Can't be Kicked Out","desc":"You won\u2019t be kicked out of any room by admins","imgSrc":"http:\/\/static01.cliponyu.com\/resource\/id\/noble\/cantBeKickedOut.png"},"nobleMedal":{"name":"Noble Medal","desc":"You will have a noble medal","imgSrc":"http:\/\/static01.cliponyu.com\/resource\/noblemedal1.png"},"nobleEntryBar":{"name":"Noble Entry Bar","desc":"There will be a special entry bar showed in the chat area when you enter the live room","imgSrc":"http:\/\/static01.cliponyu.com\/resource\/bar1.png"},"nobleEmotions":{"name":"Noble Emotions","desc":"Special emotions are designed for nobility. Some emotions can only be used by the nobility whose level is higher than Viscount","imgSrc":"http:\/\/static01.cliponyu.com\/resource\/%E8%A1%A8%E6%83%851.png"},"violetNickname":{"name":"Violet Nickname","desc":"Nobility\u2019s nickname will be purple","imgSrc":"http:\/\/static01.cliponyu.com\/resource\/%E7%B4%AB%E5%90%8D1.png"},"stayTuned":{"name":"Stay tuned","desc":"","imgSrc":"http:\/\/static01.cliponyu.com\/resource\/id\/noble\/stayTuned.png"}}}}
+        }
+    );
+}();
+!function(){    require.async('common:widget/commonpublic/mod-commonpublic-header/mod-commonpublic-header.js', function (header) {
+        header.init(
+            {"isShow":true,"textMap":{"nav":[{"word":"HOME","href":"\/","pageType":["index"],"target":"_self"},{"word":"VIDEO","href":"\/videoclassify","pageType":["videoclassify"],"target":"_self"},{"word":"FAMILY","href":"\/guild","pageType":["guild"],"target":"_self"},{"word":"TOP20","href":"\/rank","pageType":["rank"],"target":"_self"},{"word":"TOP UP","href":"\/topup","pageType":["topupnew"],"target":"_self"},{"word":"STORE","href":"\/store","pageType":["store","car"],"target":"_self"},{"word":"FORUM","href":"http:\/\/bbs.cliponyu.com\/forum.php","pageType":["forum"],"target":"_blank"}],"subNav":[{"word":"Mobile APP","href":"\/mobile\/index","bg":"http:\/\/static01.cliponyu.com\/resource\/newBase\/app_icon.png","target":"_self"},{"word":"Cliponyu Client","href":"\/livePartner","bg":"http:\/\/static01.cliponyu.com\/resource\/clientlogo.png","target":"_self"}],"login":"Login","goLive":"Go Live","webLive":"Web live","partnerLive":"Client live","searchDefault":"Search for something","popUpOK":"Awas!","popUpText":"Klik tombol di sudut kanan atas langsung dapat Go Live!","myGold":"My Gold","myGoldTpl":"My Gold xxxx","userSub":[{"word":"My profile","href":"\/sns\/myclips","icon":"http:\/\/static01.cliponyu.com\/resource\/newBase\/profile.png","target":"_self"},{"word":"My account","href":"\/user\/account\/giftgot#GiftsReceivedhash","icon":"http:\/\/static01.cliponyu.com\/resource\/newBase\/account.png","target":"_self"},{"word":"Top up","href":"\/topup","icon":"http:\/\/static01.cliponyu.com\/resource\/newBase\/top_up.png","target":"_self"},{"word":"Password","href":"\/user\/pass\/userpass\/resetpwd","icon":"http:\/\/static01.cliponyu.com\/resource\/newBase\/password.png","target":"_self"},{"word":"Log out","class":"header-logout","href":"javascript:;","icon":"http:\/\/static01.cliponyu.com\/resource\/newBase\/logout.png","target":"_self"}],"beInvisible":"Be Invisible","cancelInvisible":"Cancel Invisible"},"conf":{"isCaptureOpen":true,"logo":"http:\/\/static01.cliponyu.com\/resource\/newBase\/logo.jpg","defaultIcon":"http:\/\/static01.cliponyu.com\/resource\/defaultImg.jpg"},"message":{"isShow":true,"tip":" new messages","cli":"Friends Message","sys":"System Message","tit":"Notification","infomHref":"\/user\/info\/message","square":"You have <span class=\"totalFont\"><\/span> new messages","bellHref":"\/user\/info\/message?type=3","newsHref":"\/user\/info\/message?type=0"}},
+            0
+        );
+    });
+}();
+!function(){    require.async('hiclub:widget/index/mod-index-banner/mod-index-banner.js', function (banner) {
+        banner.init(1800);
+    });
+}();
+!function(){    require.async('hiclub:widget/index/mod-index-recommand/mod-index-recommand.js', function (recommand) {
+    console.log("http:\/\/static01.cliponyu.com\/resource\/id\/sony.png")
+        recommand.init({"isShow":true,"textMap":{"live":"live"},"daka":"2466230","conf":{"dakaImg":"http:\/\/static01.cliponyu.com\/resource\/id\/sony.png"}}, false);
+    });
+}();
+!function(){require.async('hiclub:widget/index/mod-index-hosttype/mod-index-hosttype.js',
+    function(hosttype) { 
+        hosttype.run(2);
+    }
+);
+}();
+!function(){    require.async('hiclub:widget/index/mod-index-hotnews/mod-index-hotnews.js',
+        function(getIndexNews){ 
+            getIndexNews.run();
+    });
+    
+}();
+!function(){    require.async('hiclub:widget/index/mod-index-clips/mod-index-clips.js', function (clips) {
+        clips.init({"title":"Timeline","follow":"follow","following":"following"});
+    });
+}();
+!function(){    require.async('hiclub:widget/index/mod-index-rankhost/mod-index-rankhost.js',
+        function(rankLevel){ 
+            rankLevel.run();
+        });
+}();
+!function(){    require.async('hiclub:widget/index/mod-index-rankfans/mod-index-rankfans.js',
+        function(rankfans){ 
+            rankfans.run();
+        });
+}();
+!function(){    require.async('hiclub:widget/index/mod-index-rankwealth/mod-index-rankwealth.js',
+        function(rankwealth){ 
+            rankwealth.run();
+        });
+}();
+!function(){    require('hiclub:widget/homepublic/mod-homepublic-anchorlist/mod-homepublic-anchorlist.js').init({"customerList":[{"uid":"1428720150","icon":"http:\/\/static01.cliponyu.com\/resource\/cliponyu_customer.png","title":"Official"},{"uid":"1574951422","icon":"http:\/\/static01.cliponyu.com\/resource\/cliponyu_customer.png","title":"Official"},{"uid":"1442687984","icon":"http:\/\/static01.cliponyu.com\/resource\/cliponyu_customer.png","title":"Official"},{"uid":"1442686680","icon":"http:\/\/static01.cliponyu.com\/resource\/cliponyu_customer.png","title":"Official"},{"uid":"1442686668","icon":"http:\/\/static01.cliponyu.com\/resource\/cliponyu_customer.png","title":"Official"},{"uid":"1446398351","icon":"http:\/\/static01.cliponyu.com\/resource\/cliponyu_customer.png","title":"Official"}],"weekStar":{"weekIcon":"http:\/\/static01.cliponyu.com\/resource\/operate\/weekIcon.gif","monthIcon":"http:\/\/static01.cliponyu.com\/resource\/operate\/monthIcon.gif","yearIcon":"http:\/\/static01.cliponyu.com\/resource\/yearlystar.png","weekIconTitle":"Star of Week","monthIconTitle":"Star of Month","yearIconTitle":"Star of Year","goPageTitle":"Real-time weekly ranking. Click to the campaign page."},"vip":{"icon":"http:\/\/img.cliponyu.com\/M00\/00\/0B\/CvQhFlPh4QKAXhKUAAAEm4REH9o055.gif","title":"VIP"},"guard":{"icon":"http:\/\/static01.cliponyu.com\/resource\/id\/r\/image\/2016-04-12\/d31d166f89a5d48f91553dee9985fd44.png","title":"Guardian"},"noble":{"1":{"icon":"http:\/\/static01.cliponyu.com\/resource\/id\/noble\/level-1.png","title":"Baron"},"2":{"icon":"http:\/\/static01.cliponyu.com\/resource\/id\/noble\/level-2.png","title":"Viscount"},"3":{"icon":"http:\/\/static01.cliponyu.com\/resource\/id\/noble\/level-3.png","title":"Earl"},"4":{"icon":"http:\/\/static01.cliponyu.com\/resource\/id\/noble\/level-4.png","title":"Marquess"},"5":{"icon":"http:\/\/static01.cliponyu.com\/resource\/id\/noble\/level-5.png","title":"Duke"},"6":{"icon":"http:\/\/static01.cliponyu.com\/resource\/id\/noble\/level-6.png","title":"King"}}}, 'http://static01.cliponyu.com/resource/id/def-room-img.png');
+}();
+!function(){require('hiclub:widget/index/mod-index-classficationhost/mod-index-classficationhost.js').init({list: [{"name":"Beauty Girls","urlName":"beauty-girl","typeId":{"online":"3","offline":"3"},"isShow":true},{"name":"Video Talk Show","urlName":"talk-show","typeId":{"online":"6","offline":"6"},"isShow":true},{"name":"Karaoke Online","urlName":"karaoke-online","typeId":{"online":"2","offline":"2"},"isShow":true},{"name":"Best Dance Music","urlName":"dance-videos","typeId":{"online":"1","offline":"1"},"isShow":true},{"name":"Video Kocak Lucu","urlName":"video-kocak-lucu","typeId":{"online":"5","offline":"5"},"isShow":true},{"name":"Virtual DJ Online","urlName":"virtual-dj-online","typeId":{"online":"4","offline":"4"},"isShow":true},{"name":"Game & Cosplay","urlName":"game-cosplay","typeId":{"online":"7","offline":"7"},"isShow":true},{"name":"Live Fans","urlName":"live-fans","typeId":{"online":"ugc","offline":"ugc"},"isShow":true},{"name":"Multi Video Chat Room","urlName":"multi","typeId":{"online":"multi","offline":"multi"},"isShow":true}],sysEnv: 'online',status: false});}();
+!function(){    require.async('hiclub:widget/index/mod-index-testvideo/mod-index-testvideo.js', function (testvideo) {
+        testvideo.init({"isShow":true,"conf":{"videoSrc":"http:\/\/static01.cliponyu.com\/resource\/id\/out_cliponyu480_320.webm"}});
+    });
+}();
+!function(){    require.async('hiclub:widget/homepublic/mod-homepublic-feed/mod-homepublic-feed.js',
+        function (feed) {
+            feed.run();
+    });
+}();
+!function(){    require('common:widget/public/mod-public-kaskus/mod-public-kaskus.js').run();
+}();
+!function(){    require("hiclub:widget/cdntest/cdntest.js")({"isShow":true,"arr":[{"name":"static01","src":"http:\/\/static01.cliponyu.com\/resource\/id\/cdntest.png"},{"name":"wshifen","src":"http:\/\/hiclub-static.wshifen.com\/resource\/id\/cdntest.png"},{"name":"cdnga","src":"http:\/\/static01.cliponyu.com.cdnga.net\/resource\/id\/cdntest.png"}]});
+}();
+!function(){        require.async('hiclub:widget/index/index.js', function (index) {
+            index.init({"kickOut":"Anda telah dikeluarkan dari room ini.","refuseEnter":"Anda tidak dapat masuk ke room ini."});
+        });
+    }();
+!function(){            var __lc = {};
+            __lc.license = 4752481;
+            (function() {
+                var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0]; 
+                s.parentNode.insertBefore(lc, s);
+            })();
+        }();
+</script>
+
+<div style="width:1px;height:1px;overflow:hidden;position:fixed">
+
+<script>
+    with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://img.baidu.com/hunter/cliponyu.js?st='+~(new Date()/864e5)];
+    </script>
+
+<script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            if(getConf('country') === 'id'){
+                ga('create', 'UA-62354166-1', 'auto');
+             }else{
+                ga('create', 'UA-62354166-3', 'auto');
+             }
+           
+            ga('send', 'pageview');
+      
+       </script>
+
+<script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 950122787;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/950122787/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<script>
+        !function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(
+            window,
+            document,
+            'script',
+            'https://connect.facebook.net/en_US/fbevents.js'
+        );
+        fbq('init', '876971395725974');
+        fbq('track', 'PageView');
+        // 如果是注册成功页
+        if (getConf('pageType') === 'regsuccess') {
+            // alert(getConf('pageType'));
+            fbq('track', 'CompleteRegistration');
+        }
+        // 如果是充值页
+        if (getConf('pageType') === 'topupnew') {
+            // alert(getConf('pageType'));
+            fbq('track', 'Purchase', {value: '0.00', currency:'USD'});
+        }
+    </script>
+
+
+<script src="https://platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">twttr.conversion.trackPid('nus60', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nus60&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="https://t.co/i/adsct?txn_id=nus60&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+</noscript>
+
+<noscript>
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=876971395725974&ev=PageView&noscript=1" />
+</noscript>
+<div>
+
+</body>
+</HTML>
