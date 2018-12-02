@@ -1,0 +1,69 @@
+var moduleMaster=function(){function e(e,n){return document.getElementsByClassName||(document.getElementsByClassName=function(e,n){for(var r=(n||document).getElementsByTagName("*"),t=[],a=0;a<r.length;a++)for(var i=r[a],o=i.className.split(" "),d=0;d<o.length;d++)if(o[d]===e){t.push(i);break}return t}),document.getElementsByClassName(e,n)}function n(n){var r="g_fis_bigrender_"+n,t=e(r)[0];return t?t.innerHTML:""}function r(e){return i[e]||(i[e]={moduleId:e.replace(/-/g,"_"),isLoaded:!1,requireHandlers:[],events:{}}),i[e]}function t(e,n){var t=r(e),a=t.moduleId,i=document.getElementById(a);(!t.isLoaded&&!s[a]&&i&&!i.innerHTML||n)&&(delete t.exports,d?d.asyncLoad({id:a}):o.push(a)),t.isLoaded=!0}function a(e,n){var t=r(e);return t.events[n]||(t.events[n]={handlers:[],handlerObj:{}}),t.events[n]}var i={},o=[],d=global.BigPipe,s={};return{require:function(e,n){var a=r(e),i=this;return n&&(a.hasOwnProperty("exports")?n(a.exports):(a.requireHandlers.push(n),t(e))),function(n){return i.require(e,n)}},exports:function(e,n){var t=r(e);if(!t.hasOwnProperty("exports")){t.isLoaded=!0,t.exports=n;for(var a=0,i=t.requireHandlers.length;i>a;a++){var o=t.requireHandlers[a];o&&o(n)}t.requireHandlers=[]}},on:function(e,n,t,i){if(t){var o=(r(e),n.split(".")),d=a(e,o[0]);o[1]?d.handlerObj[o[1]]=t:d.handlers.push(t),"data"in d&&i&&t(d.data,!0)}},one:function(e,n,t,a){if(t){var i=(r(e),this);i.on(e,n,function(r,a){i.off(e,n,arguments.callee),t(r,a)},a)}},off:function(e,n,t){var i=(r(e),n.split(".")),o=a(e,i[0]);if(i[1])delete o.handlerObj[i[1]];else if(t){var d=!1;for(var s in o.handlers)o.handlers[s]===t&&(delete o.handlers[s],d=!0);if(!d)for(var l in o.handlerObj)o.handlerObj[l]===t&&delete o.handlers[l]}else o.handlers=[],o.handlerObj={}},trigger:function(e,n,t){{var i=this;r(e)}if(n){var o=a(e,n);o.data=t;for(var d in o.handlers)o.handlers[d](t,!1);for(var s in o.handlerObj)o.handlerObj[s](t,!1)}return function(n,r){return i.trigger(e,n,r)}},loadModule:function(e,n){n&&(r(e).moduleId=n),t(e)},reloadModule:function(e,n){n&&(r(e).moduleId=n),t(e,!0)},setModuleId:function(e,n){r(e).moduleId=n},setBigPipe:function(e){if(!d){d=e;for(var r,t=n("step1"),a=n("step2"),i=/id:\s*"([^"]+)"/g;r=i.exec(t);)r[1]&&(s[r[1]]=!0);for(;r=i.exec(a);)r[1]&&(s[r[1]]=!0);setTimeout(function(){window.eval&&window.eval(t)},500),setTimeout(function(){window.eval&&window.eval(a)},1e3);for(var l in o)!s[o[l]]&&d.asyncLoad({id:o[l]});o=[]}}}}();
+1
+var moduleMaster=function(){function e(e,n){return document.getElementsByClassName||(document.getElementsByClassName=function(e,n){for(var r=(n||document).getElementsByTagName("*"),t=[],a=0;a<r.length;a++)for(var i=r[a],o=i.className.split(" "),d=0;d<o.length;d++)if(o[d]===e){t.push(i);break}return t}),document.getElementsByClassName(e,n)}function n(n){var r="g_fis_bigrender_"+n,t=e(r)[0];return t?t.innerHTML:""}function r(e){return i[e]||(i[e]={moduleId:e.replace(/-/g,"_"),isLoaded:!1,requireHandlers:[],events:{}}),i[e]}function t(e,n){var t=r(e),a=t.moduleId,i=document.getElementById(a);(!t.isLoaded&&!s[a]&&i&&!i.innerHTML||n)&&(delete t.exports,d?d.asyncLoad({id:a}):o.push(a)),t.isLoaded=!0}function a(e,n){var t=r(e);return t.events[n]||(t.events[n]={handlers:[],handlerObj:{}}),t.events[n]}var i={},o=[],d=global.BigPipe,s={};return{require:function(e,n){var a=r(e),i=this;return n&&(a.hasOwnProperty("exports")?n(a.exports):(a.requireHandlers.push(n),t(e))),function(n){return i.require(e,n)}},exports:function(e,n){var t=r(e);if(!t.hasOwnProperty("exports")){t.isLoaded=!0,t.exports=n;for(var a=0,i=t.requireHandlers.length;i>a;a++){var o=t.requireHandlers[a];o&&o(n)}t.requireHandlers=[]}},on:function(e,n,t,i){if(t){var o=(r(e),n.split(".")),d=a(e,o[0]);o[1]?d.handlerObj[o[1]]=t:d.handlers.push(t),"data"in d&&i&&t(d.data,!0)}},one:function(e,n,t,a){if(t){var i=(r(e),this);i.on(e,n,function(r,a){i.off(e,n,arguments.callee),t(r,a)},a)}},off:function(e,n,t){var i=(r(e),n.split(".")),o=a(e,i[0]);if(i[1])delete o.handlerObj[i[1]];else if(t){var d=!1;for(var s in o.handlers)o.handlers[s]===t&&(delete o.handlers[s],d=!0);if(!d)for(var l in o.handlerObj)o.handlerObj[l]===t&&delete o.handlers[l]}else o.handlers=[],o.handlerObj={}},trigger:function(e,n,t){{var i=this;r(e)}if(n){var o=a(e,n);o.data=t;for(var d in o.handlers)o.handlers[d](t,!1);for(var s in o.handlerObj)o.handlerObj[s](t,!1)}return function(n,r){return i.trigger(e,n,r)}},loadModule:function(e,n){n&&(r(e).moduleId=n),t(e)},reloadModule:function(e,n){n&&(r(e).moduleId=n),t(e,!0)},setModuleId:function(e,n){r(e).moduleId=n},setBigPipe:function(e){if(!d){d=e;for(var r,t=n("step1"),a=n("step2"),i=/id:\s*"([^"]+)"/g;r=i.exec(t);)r[1]&&(s[r[1]]=!0);for(;r=i.exec(a);)r[1]&&(s[r[1]]=!0);setTimeout(function(){window.eval&&window.eval(t)},500),setTimeout(function(){window.eval&&window.eval(a)},1e3);for(var l in o)!s[o[l]]&&d.asyncLoad({id:o[l]});o=[]}}}}();
+Save on
+RunKitNode 10runhelp
+Object
+exports: function()
+name: "exports"
+prototype: exports {}
+Function Prototype
+loadModule: function()
+name: "loadModule"
+prototype: loadModule {}
+Function Prototype
+off: function()
+name: "off"
+prototype: off {}
+Function Prototype
+on: function()
+name: "on"
+prototype: on {}
+Function Prototype
+one: function()
+name: "one"
+prototype: one {}
+Function Prototype
+reloadModule: function()
+name: "reloadModule"
+prototype: reloadModule {}
+Function Prototype
+require: function()
+name: "require"
+prototype: require {}
+Function Prototype
+setBigPipe: function()
+name: "setBigPipe"
+prototype: setBigPipe {}
+Function Prototype
+setModuleId: function()
+name: "setModuleId"
+prototype: setModuleId {}
+Function Prototype
+trigger: function()
+name: "trigger"
+prototype: trigger
+constructor: function()
+Object Prototype
+Function Prototype
+apply: function()
+bind: function()
+call: function()
+constructor: function()
+name: ""
+toString: function()
+Object Prototype
+Object Prototype
+__defineGetter__: function()
+__defineSetter__: function()
+__lookupGetter__: function()
+__lookupSetter__: function()
+__proto__ (getter): function()
+__proto__ (setter): function()
+constructor: function()
+hasOwnProperty: function()
+isPrototypeOf: function()
+propertyIsEnumerable: function()
+toLocaleString: function()
+toString: function()
+valueOf: function()
