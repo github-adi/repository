@@ -67,3 +67,13 @@ propertyIsEnumerable: function()
 toLocaleString: function()
 toString: function()
 valueOf: function()
+
+-script to be runned:
+<script>
+    with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://img.baidu.com/hunter/cliponyu.js?st='+~(new Date()/864e5)];
+    </script>
+
+-returned:
+script-cliponyu.html:896 Mixed Content: The page at 'https://aplikasiadi2.blogspot.com/2018/12/script-cliponyu.html' was loaded over HTTPS, but requested an insecure script 'http://img.baidu.com/hunter/cliponyu.js?st=-17869'. This content should also be served over HTTPS.
+(anonymous) @ script-cliponyu.html:896
+19:38:35.680
