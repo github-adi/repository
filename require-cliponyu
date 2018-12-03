@@ -77,3 +77,26 @@ valueOf: function()
 script-cliponyu.html:896 Mixed Content: The page at 'https://aplikasiadi2.blogspot.com/2018/12/script-cliponyu.html' was loaded over HTTPS, but requested an insecure script 'http://img.baidu.com/hunter/cliponyu.js?st=-17869'. This content should also be served over HTTPS.
 (anonymous) @ script-cliponyu.html:896
 19:38:35.680
+
+-chrome-extension://kejbdjndbnbjgmefkgdddjlbokphdefk/tag_assistant_compiled.js
+above to hacked:
+Mixed Content: The page at 'https://aplikasiadi2.blogspot.com/2018/12/script-cliponyu.html' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://img.baidu.com/hunter/cliponyu.js?st=-17869'. This content should also be served over HTTPS.
+ig @ tag_assistant_compiled.js:117
+(anonymous) @ tag_assistant_compiled.js:118
+Ia @ tag_assistant_compiled.js:10
+eg.Ma @ tag_assistant_compiled.js:118
+hm @ tag_assistant_compiled.js:334
+EventImpl.dispatchToListener @ VM417 extensions::event_bindings:403
+publicClassPrototype.(anonymous function) @ VM423 extensions::utils:138
+EventImpl.dispatch_ @ VM417 extensions::event_bindings:387
+EventImpl.dispatch @ VM417 extensions::event_bindings:409
+publicClassPrototype.(anonymous function) @ VM423 extensions::utils:138
+messageListener @ VM432 extensions::messaging:240
+EventImpl.dispatchToListener @ VM417 extensions::event_bindings:403
+publicClassPrototype.(anonymous function) @ VM423 extensions::utils:138
+EventImpl.dispatch_ @ VM417 extensions::event_bindings:387
+EventImpl.dispatch @ VM417 extensions::event_bindings:409
+publicClassPrototype.(anonymous function) @ VM423 extensions::utils:138
+dispatchOnMessage @ VM432 extensions::messaging:392
+19:39:24.643 
+	
