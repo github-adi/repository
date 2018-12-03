@@ -79,7 +79,7 @@ script-cliponyu.html:896 Mixed Content: The page at 'https://aplikasiadi2.blogsp
 19:38:35.680
 
 -chrome-extension://kejbdjndbnbjgmefkgdddjlbokphdefk/tag_assistant_compiled.js
-above to hacked:
+-above to be hacked: returned:
 Mixed Content: The page at 'https://aplikasiadi2.blogspot.com/2018/12/script-cliponyu.html' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://img.baidu.com/hunter/cliponyu.js?st=-17869'. This content should also be served over HTTPS.
 ig @ tag_assistant_compiled.js:117
 (anonymous) @ tag_assistant_compiled.js:118
