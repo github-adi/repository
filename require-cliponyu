@@ -118,3 +118,22 @@ EventImpl.dispatch_	@	VM393 extensions::event_bindings:387
 EventImpl.dispatch	@	VM393 extensions::event_bindings:409
 publicClassPrototype.(anonymous function)	@	VM399 extensions::utils:138
 dispatchOnMessage	@	VM400 extensions::messaging:392
+
+tag_assistant_compiled.js:117 GET https://static01.cliponyu.com/static/common/pkg/basicLoad_c63fbba.js net::ERR_CERT_COMMON_NAME_INVALID
+ig	@	tag_assistant_compiled.js:117
+(anonymous)	@	tag_assistant_compiled.js:118
+Ia	@	tag_assistant_compiled.js:10
+eg.Ma	@	tag_assistant_compiled.js:118
+hm	@	tag_assistant_compiled.js:334
+EventImpl.dispatchToListener	@	VM393 extensions::event_bindings:403
+publicClassPrototype.(anonymous function)	@	VM399 extensions::utils:138
+EventImpl.dispatch_	@	VM393 extensions::event_bindings:387
+EventImpl.dispatch	@	VM393 extensions::event_bindings:409
+publicClassPrototype.(anonymous function)	@	VM399 extensions::utils:138
+messageListener	@	VM400 extensions::messaging:240
+EventImpl.dispatchToListener	@	VM393 extensions::event_bindings:403
+publicClassPrototype.(anonymous function)	@	VM399 extensions::utils:138
+EventImpl.dispatch_	@	VM393 extensions::event_bindings:387
+EventImpl.dispatch	@	VM393 extensions::event_bindings:409
+publicClassPrototype.(anonymous function)	@	VM399 extensions::utils:138
+dispatchOnMessage	@	VM400 extensions::messaging:392
