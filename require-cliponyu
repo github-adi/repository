@@ -176,3 +176,141 @@ EventImpl.dispatch @ VM393 extensions::event_bindings:409
 publicClassPrototype.(anonymous function) @ VM399 extensions::utils:138
 dispatchOnMessage @ VM400 extensions::messaging:392
 20:09:04.593 
+
+-via windows edge:
+
+_AdSenseView
+
+function rh(a){Q.call(this,"AdSense",a);this.H=a}: 
+arguments: null
+caller: null
+
+ki: function (a,c,f){for(var d=Array(arguments.length-2),e=2;e<arguments.length;e++)d[e-2]=arguments[e];return b.prototype[c].apply(a,d)}
+arguments: null
+caller: null
+length: 3
+name: ""
+
+prototype: Object
+
+__proto__: function() { [native code] }
+length: 1
+name: "rh"
+
+O: Object
+
+_GetHelper: function (){return this[a]}
+arguments: null
+caller: null
+length: 0
+
+prototype: Object
+
+__proto__: function() { [native code] }
+
+constructor: function Q(a,b){this.Oh=a;this.H=b}
+arguments: null
+caller: null
+length: 2
+name: "Q"
+
+prototype: Object
+
+__proto__: function() { [native code] }
+
+Da: function (a,b,c){C.Da(b,c)}
+arguments: null
+caller: null
+length: 3
+name: ""
+
+prototype: Object
+
+__proto__: function() { [native code] }
+
+ga: function (){}
+arguments: null
+caller: null
+length: 0
+
+prototype: Object
+
+__proto__: function() { [native code] }
+
+ka: function (a,b){a==Da&&mh(this.H,b)}
+arguments: null
+caller: null
+length: 2
+name: ""
+
+prototype: Object
+
+__proto__: function() { [native code] }
+
+ld: function (){return this[a]}
+arguments: null
+caller: null
+length: 0
+
+prototype: Object
+
+__proto__: function() { [native code] }
+
+Sa: function (){return this[a]}
+arguments: null
+caller: null
+length: 0
+
+prototype: Object
+
+__proto__: function() { [native code] }
+
+__proto__: Object
+
+prototype: Object
+
+constructor: function rh(a){Q.call(this,"AdSense",a);this.H=a}
+arguments: null
+caller: null
+
+ki: function (a,c,f){for(var d=Array(arguments.length-2),e=2;e<arguments.length;e++)d[e-2]=arguments[e];return b.prototype[c].apply(a,d)}
+arguments: null
+caller: null
+length: 3
+name: ""
+
+prototype: Object
+
+constructor: function (a,c,f){for(var d=Array(arguments.length-2),e=2;e<arguments.length;e++)d[e-2]=arguments[e];return b.prototype[c].apply(a,d)}
+
+__proto__: Object
+
+__proto__: function() { [native code] }
+length: 1
+name: "rh"
+
+O: Object
+
+prototype: Object
+
+__proto__: function() { [native code] }
+
+__proto__: Object
+
+__proto__: function() { [native code] }
+
+apply: function apply() { [native code] }
+arguments: <Permission denied>
+
+bind: function bind() { [native code] }
+
+call: function call() { [native code] }
+caller: <Permission denied>
+
+constructor: function Function() { [native code] }
+length: 0
+name: ""
+
+toString: function toString() { [native code] }
+
+__proto__: Object
