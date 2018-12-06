@@ -314,3 +314,62 @@ name: ""
 toString: function toString() { [native code] }
 
 __proto__: Object
+
+-via F12:
+
+WEBGL_compressed_texture_s3tc
+{
+   [functions]: ,
+   __proto__: {
+      [functions]: ,
+      __proto__: null
+   },
+   COMPRESSED_RGB_S3TC_DXT1_EXT: 33776,
+   COMPRESSED_RGBA_S3TC_DXT1_EXT: 33777,
+   COMPRESSED_RGBA_S3TC_DXT3_EXT: 33778,
+   COMPRESSED_RGBA_S3TC_DXT5_EXT: 33779,
+   prototype: {
+      [functions]: ,
+      __proto__: {
+         [functions]: ,
+         __proto__: null
+      },
+      COMPRESSED_RGB_S3TC_DXT1_EXT: 33776,
+      COMPRESSED_RGBA_S3TC_DXT1_EXT: 33777,
+      COMPRESSED_RGBA_S3TC_DXT3_EXT: 33778,
+      COMPRESSED_RGBA_S3TC_DXT5_EXT: 33779,
+      constructor: {
+         [functions]: ,
+         __proto__: { },
+         COMPRESSED_RGB_S3TC_DXT1_EXT: 33776,
+         COMPRESSED_RGBA_S3TC_DXT1_EXT: 33777,
+         COMPRESSED_RGBA_S3TC_DXT3_EXT: 33778,
+         COMPRESSED_RGBA_S3TC_DXT5_EXT: 33779,
+         prototype: {
+            [functions]: ,
+            __proto__: { },
+            COMPRESSED_RGB_S3TC_DXT1_EXT: 33776,
+            COMPRESSED_RGBA_S3TC_DXT1_EXT: 33777,
+            COMPRESSED_RGBA_S3TC_DXT3_EXT: 33778,
+            COMPRESSED_RGBA_S3TC_DXT5_EXT: 33779,
+            constructor: {
+               [functions]: ,
+               __proto__: { },
+               COMPRESSED_RGB_S3TC_DXT1_EXT: 33776,
+               COMPRESSED_RGBA_S3TC_DXT1_EXT: 33777,
+               COMPRESSED_RGBA_S3TC_DXT3_EXT: 33778,
+               COMPRESSED_RGBA_S3TC_DXT5_EXT: 33779,
+               prototype: {
+                  [functions]: ,
+                  __proto__: { },
+                  COMPRESSED_RGB_S3TC_DXT1_EXT: 33776,
+                  COMPRESSED_RGBA_S3TC_DXT1_EXT: 33777,
+                  COMPRESSED_RGBA_S3TC_DXT3_EXT: 33778,
+                  COMPRESSED_RGBA_S3TC_DXT5_EXT: 33779,
+                  constructor: { }
+               }
+            }
+         }
+      }
+   }
+}
