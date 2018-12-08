@@ -217,6 +217,83 @@ EventImpl.dispatch	@	VM313 extensions::event_bindings:409
 publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
 dispatchOnMessage	@	VM328 extensions::messaging:392
 
+GET https://static01.cliponyu.com/static/hiclub/pkg/index_e0cd41e.js net::ERR_CERT_COMMON_NAME_INVALID
+ig @ tag_assistant_compiled.js:117
+(anonymous) @ tag_assistant_compiled.js:118
+Ia @ tag_assistant_compiled.js:10
+eg.Ma @ tag_assistant_compiled.js:118
+hm @ tag_assistant_compiled.js:334
+EventImpl.dispatchToListener @ VM313 extensions::event_bindings:403
+publicClassPrototype.(anonymous function) @ VM319 extensions::utils:138
+EventImpl.dispatch_ @ VM313 extensions::event_bindings:387
+EventImpl.dispatch @ VM313 extensions::event_bindings:409
+publicClassPrototype.(anonymous function) @ VM319 extensions::utils:138
+messageListener @ VM328 extensions::messaging:240
+EventImpl.dispatchToListener @ VM313 extensions::event_bindings:403
+publicClassPrototype.(anonymous function) @ VM319 extensions::utils:138
+EventImpl.dispatch_ @ VM313 extensions::event_bindings:387
+EventImpl.dispatch @ VM313 extensions::event_bindings:409
+publicClassPrototype.(anonymous function) @ VM319 extensions::utils:138
+dispatchOnMessage @ VM328 extensions::messaging:392
+19:09:37.702 
+
+GET https://static01.cliponyu.com/static/hiclub/widget/cdntest/cdntest_78e6ae4.js net::ERR_CERT_COMMON_NAME_INVALID
+ig	@	tag_assistant_compiled.js:117
+(anonymous)	@	tag_assistant_compiled.js:118
+Ia	@	tag_assistant_compiled.js:10
+eg.Ma	@	tag_assistant_compiled.js:118
+hm	@	tag_assistant_compiled.js:334
+EventImpl.dispatchToListener	@	VM313 extensions::event_bindings:403
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+EventImpl.dispatch_	@	VM313 extensions::event_bindings:387
+EventImpl.dispatch	@	VM313 extensions::event_bindings:409
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+messageListener	@	VM328 extensions::messaging:240
+EventImpl.dispatchToListener	@	VM313 extensions::event_bindings:403
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+EventImpl.dispatch_	@	VM313 extensions::event_bindings:387
+EventImpl.dispatch	@	VM313 extensions::event_bindings:409
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+dispatchOnMessage	@	VM328 extensions::messaging:392
+
+XHR finished loading: GET "http://img.baidu.com/hunter/cliponyu.js?st=-17874".
+ig	@	tag_assistant_compiled.js:117
+(anonymous)	@	tag_assistant_compiled.js:118
+Ia	@	tag_assistant_compiled.js:10
+eg.Ma	@	tag_assistant_compiled.js:118
+hm	@	tag_assistant_compiled.js:334
+EventImpl.dispatchToListener	@	VM313 extensions::event_bindings:403
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+EventImpl.dispatch_	@	VM313 extensions::event_bindings:387
+EventImpl.dispatch	@	VM313 extensions::event_bindings:409
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+messageListener	@	VM328 extensions::messaging:240
+EventImpl.dispatchToListener	@	VM313 extensions::event_bindings:403
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+EventImpl.dispatch_	@	VM313 extensions::event_bindings:387
+EventImpl.dispatch	@	VM313 extensions::event_bindings:409
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+dispatchOnMessage	@	VM328 extensions::messaging:392
+
+tag_assistant_compiled.js:117 XHR failed loading: GET "https://static01.cliponyu.com/static/common/pkg/basicLoad_c63fbba.js".
+ig	@	tag_assistant_compiled.js:117
+(anonymous)	@	tag_assistant_compiled.js:118
+Ia	@	tag_assistant_compiled.js:10
+eg.Ma	@	tag_assistant_compiled.js:118
+hm	@	tag_assistant_compiled.js:334
+EventImpl.dispatchToListener	@	VM313 extensions::event_bindings:403
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+EventImpl.dispatch_	@	VM313 extensions::event_bindings:387
+EventImpl.dispatch	@	VM313 extensions::event_bindings:409
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+messageListener	@	VM328 extensions::messaging:240
+EventImpl.dispatchToListener	@	VM313 extensions::event_bindings:403
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+EventImpl.dispatch_	@	VM313 extensions::event_bindings:387
+EventImpl.dispatch	@	VM313 extensions::event_bindings:409
+publicClassPrototype.(anonymous function)	@	VM319 extensions::utils:138
+dispatchOnMessage	@	VM328 extensions::messaging:392
+
 -via windows edge:
 
 _AdSenseView
