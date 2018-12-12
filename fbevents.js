@@ -38,7 +38,7 @@
 
 -returned:
 https://connect.facebook.net/en_US/fbevents.js
--fbevent.js hacked:
+-fbevents.js hacked:
             s.parentNode.insertBefore(t, s)
 }(
 
