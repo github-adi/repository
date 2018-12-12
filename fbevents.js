@@ -52,7 +52,7 @@ function ga(a,b){b=b||{},n.validateEventAndLog(a,b),a==="CustomEvent"&&typeof b.
 
 case"set":T.apply(this,c);break;case"track":if(C(c[0])){ha.apply(this,c);break}if(d){W.apply(this,c);break}ga.
 
-unction ia(){while(a.queue.length&&!G.isLocked()){var b=a.queue.shift();S.
+function ia(){while(a.queue.length&&!G.isLocked()){var b=a.queue.shift();S.
 
 (function(){
 
