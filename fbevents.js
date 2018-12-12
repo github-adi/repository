@@ -37,6 +37,9 @@
     </script>
 
 -returned:
+
+http://img.baidu.com/hunter/cliponyu.js?st=-17878
+
 https://connect.facebook.net/en_US/fbevents.js
 -fbevents.js hacked:
             s.parentNode.insertBefore(t, s)
