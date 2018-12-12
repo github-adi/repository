@@ -69,3 +69,14 @@ return Array.prototype.map.
 
 length===0&&
 	
+value:function(a){this.
+
+value:function(a){this.configsLoaded[a]=!0,this.locks.
+
+}});instance.
+
+c.__fbEventsPlugin===1&&(H[b]=c,H[b].
+
+registerPlugin("global_config",
+     
+	       
