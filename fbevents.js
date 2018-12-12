@@ -39,6 +39,22 @@
 -returned:
 
 https://www.facebook.com/tr/?id=876971395725974&ev=PageView&dl=https%3A%2F%2Faplikasiadi2.blogspot.com%2F2018%2F12%2Fscript-cliponyu.html&rl=&if=false&ts=1544617555724&sw=1024&sh=1366&v=2.8.34&r=stable&ec=0&o=30&fbp=fb.2.1544609158209.1862539373&it=1544617552444&coo=false
+-=876971395725974&ev=PageView hacked:
+sendGET(b,c,d)}}g.src
+
+return}if(b.sendGET.
+
+function Z(a,b,c){if(a!=null&&r.pixelHasActiveBridge(a)){r.sendEvent(a,b,c||{});return}d.
+
+has(e.id))continue;
+
+function ga(a,b){b=b||{},n.validateEventAndLog(a,b),a==="CustomEvent"&&typeof b.event==="string"&&(a=b.event),W.
+
+case"set":T.apply(this,c);break;case"track":if(C(c[0])){ha.apply(this,c);break}if(d){W.apply(this,c);break}ga.
+
+unction ia(){while(a.queue.length&&!G.isLocked()){var b=a.queue.shift();S.
+
+(function(){
 
 http://img.baidu.com/hunter/cliponyu.js?st=-17878
 
