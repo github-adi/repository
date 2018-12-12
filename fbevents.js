@@ -56,4 +56,13 @@ function(b){return b===a})==!1)&&
 
 function ia(){while(a.queue.length&&!G.isLocked()){var b=a.queue.shift();S.
 
+(function(){i
+
+function(b){return 
+
+return Array.prototype.map.
+
+,each:function(a,b){r.
+
+length===0&&
 	
