@@ -38,6 +38,9 @@
 
 -returned:
 https://connect.facebook.net/en_US/fbevents.js
+-fbevent.js hacked:
+            s.parentNode.insertBefore(t, s)
+}(
 
 https://connect.facebook.net/signals/config/876971395725974?v=2.8.34&r=stable
 -stable hacked:
