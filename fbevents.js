@@ -38,6 +38,8 @@
 
 -returned:
 
+https://www.facebook.com/tr/?id=876971395725974&ev=PageView&dl=https%3A%2F%2Faplikasiadi2.blogspot.com%2F2018%2F12%2Fscript-cliponyu.html&rl=&if=false&ts=1544617555724&sw=1024&sh=1366&v=2.8.34&r=stable&ec=0&o=30&fbp=fb.2.1544609158209.1862539373&it=1544617552444&coo=false
+
 http://img.baidu.com/hunter/cliponyu.js?st=-17878
 
 https://connect.facebook.net/en_US/fbevents.js
