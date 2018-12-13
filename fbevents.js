@@ -161,3 +161,47 @@ function ka(b,c){if(Object.prototype.hasOwnProperty.call(H,b))return;J.call(c,"_
 
 fbq.
 	       
+7. https://static01.cliponyu.com/static/hiclub/widget/cdntest/cdntest_78e6ae4.js
+
+cdntest_78e6ae4.js hacked:
+
+chrome-extension://kejbdjndbnbjgmefkgdddjlbokphdefk/tag_assistant_compiled.js
+
+-returned:
+
+"Ignored failed script "+a+" Status: "+c.status)}};c.
+
+function(d){!d.src||""==d.src||c[d.src]||hg(this,d.src)||d.src==a||(c[d.src]=!0,
+
+function(a,b,c){za(null!=a.length);Array.prototype.forEach.
+
+eg.prototype.Ma=function(a,b){var c={};
+
+hm=function(a){var b=eg.S();Hc();var c=a.message,d=a.tabId,e=a.url;switch(c){case "DomTags":if(mg(e)||S.location.href.match(fd())||og(b,e))break;im();case "JsVariables":qg(b);break;case "ExternalScriptTags":e!=S.location.href||em[a.url]||(em[a.url]=!0,b.
+
+hacked debugger:///VM118 extensions::event_bindings:
+return $Function.apply(callback, null, args);
+
+hacked debugger:///VM124 extensions::utils:
+return $Function.apply(impl[func], impl, arguments);
+
+hacked debugger:///VM118 extensions::event_bindings:
+var result = this.wrapper.dispatchToListener(listeners[i].callback,
+
+hacked debugger:///VM118 extensions::event_bindings:
+return this.dispatch_($Array.slice(arguments), undefined);
+
+hacked debugger:///VM124 extensions::utils:
+return $Function.apply(impl[func], impl, arguments);
+
+hacked debugger:///VM136 extensions::messaging:
+var rv = requestEvent.dispatch(request, sender, responseCallback);
+
+hacked debugger:///VM118 extensions::event_bindings:
+return $Function.apply(callback, null, args);
+
+hacked debugger:///VM124 extensions::utils:
+return $Function.apply(impl[func], impl, arguments);
+
+hacked debugger:///VM136 extensions::messaging:
+port.onMessage.dispatch(msg, port);
