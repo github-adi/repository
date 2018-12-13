@@ -56,6 +56,24 @@ function ia(){while(a.queue.length&&!G.isLocked()){var b=a.queue.shift();S.
 
 (function(){
 
+function(b){return 
+
+function r(a,b){if(Array.prototype.map)return Array.prototype.map.
+
+each:function(a,b){r.
+
+).length===0&&b
+
+",value:function(a){this.
+
+value:function(a){this.configsLoaded[a]=!0,this.locks.
+
+instance.optIn("876971395725974", "AutomaticSetup", true);instance.
+
+function ka(b,c){if(Object.prototype.hasOwnProperty.call(H,b))return;J.call(c,"__fbEventsPlugin")&&c.__fbEventsPlugin===1&&(H[b]=c,H[b].
+
+fbq.
+	
 2. http://img.baidu.com/hunter/cliponyu.js?st=-17878
 
 3. https://connect.facebook.net/en_US/fbevents.js
@@ -95,6 +113,4 @@ value:function(a){this.configsLoaded[a]=!0,this.locks.
 
 c.__fbEventsPlugin===1&&(H[b]=c,H[b].
 
-registerPlugin("global_config",
-     
-	       
+registerPlugin("global_config",	       
