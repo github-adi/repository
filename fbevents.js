@@ -76,6 +76,10 @@ fbq.
 	
 2. http://img.baidu.com/hunter/cliponyu.js?st=-17878
 
+17878 runned <script></script>:
+
+with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://img.baidu.com/hunter/cliponyu.js?st='+~(new Date()/864e5)];
+											    
 3. https://connect.facebook.net/en_US/fbevents.js
 -fbevents.js hacked <script></script>:
             s.parentNode.insertBefore(t, s)
