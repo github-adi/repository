@@ -1,4 +1,4 @@
--runned:
+-runned <script></script>:
 <script>
         !function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
@@ -38,8 +38,8 @@
 
 -returned:
 
-https://www.facebook.com/tr/?id=876971395725974&ev=PageView&dl=https%3A%2F%2Faplikasiadi2.blogspot.com%2F2018%2F12%2Fscript-cliponyu.html&rl=&if=false&ts=1544617555724&sw=1024&sh=1366&v=2.8.34&r=stable&ec=0&o=30&fbp=fb.2.1544609158209.1862539373&it=1544617552444&coo=false
--=876971395725974&ev=PageView hacked:
+1. https://www.facebook.com/tr/?id=876971395725974&ev=PageView&dl=https%3A%2F%2Faplikasiadi2.blogspot.com%2F2018%2F12%2Fscript-cliponyu.html&rl=&if=false&ts=1544617555724&sw=1024&sh=1366&v=2.8.34&r=stable&ec=0&o=30&fbp=fb.2.1544609158209.1862539373&it=1544617552444&coo=false
+-=876971395725974&ev=PageView hacked fbevents.js:
 sendGET(b,c,d)}}g.src
 
 return}if(b.sendGET.
@@ -56,15 +56,15 @@ function ia(){while(a.queue.length&&!G.isLocked()){var b=a.queue.shift();S.
 
 (function(){
 
-http://img.baidu.com/hunter/cliponyu.js?st=-17878
+2. http://img.baidu.com/hunter/cliponyu.js?st=-17878
 
-https://connect.facebook.net/en_US/fbevents.js
--fbevents.js hacked:
+3. https://connect.facebook.net/en_US/fbevents.js
+-fbevents.js hacked <script></script>:
             s.parentNode.insertBefore(t, s)
 }(
 
-https://connect.facebook.net/signals/config/876971395725974?v=2.8.34&r=stable
--stable hacked:
+4. https://connect.facebook.net/signals/config/876971395725974?v=2.8.34&r=stable
+-stable hacked fbevents.js:
 function c(a){var c=g.createElement("script");c.src=a;c.async=!0;a=b();a&&a.parentNode?a.parentNode
 
 function y(a,b,c){d.
