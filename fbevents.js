@@ -118,3 +118,46 @@ value:function(a){this.configsLoaded[a]=!0,this.locks.
 c.__fbEventsPlugin===1&&(H[b]=c,H[b].
 
 registerPlugin("global_config",	       
+
+5. https://aplikasiadi2.blogspot.com/img/gut.gif?type=access&tn=%2F&launch=258&dns=0&tcp=554&firstByte=465&r=1544699327337&country=id&level=1&page=hiclub-index&channel=
+page=hiclub-index&channel= hacked <script></script>:
+
+function(){l["UT"+d]=null},g.src
+
+.send(accessLogData);
+
+6. https://connect.facebook.net/signals/config/876971395725974?v=2.8.35&r=canary
+r=canary hacked fbevents.js:26:
+
+");c.src=a;c.async=!0;a=b();a&&a.parentNode?a.parentNode.
+
+])}function y(a,b,c){d.
+
+,function(b){return b===a})==!1)&&
+
+userData:b||{},eventCount:0};N.push(d);O[a]=d;b!=null&&$("identity");V();R.
+
+break;case"init":M=!0;U.
+
+function ia(){while(a.queue.length&&!G.isLocked()){var b=a.queue.shift();S.
+
+onUnlocked(function(){
+
+function(b){return
+
+function r(a,b){if(Array.prototype.map)return Array.prototype.map.
+
+each:function(a,b){r.
+
+length===0&&
+
+value:function(a){this.
+
+value:function(a){this.configsLoaded[a]=!0,this.locks.
+
+instance.
+
+function ka(b,c){if(Object.prototype.hasOwnProperty.call(H,b))return;J.call(c,"__fbEventsPlugin")&&c.__fbEventsPlugin===1&&(H[b]=c,H[b].
+
+fbq.
+	       
