@@ -1,0 +1,214 @@
+-Run:
+
+query {
+  repository(owner:"octocat", name:"Hello-World") {
+    issues(last:20, states:CLOSED) {
+      edges {
+        node {
+          title
+          url
+          labels(first:5) {
+            edges {
+              node {
+                name
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+-Returned:
+
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "edges": [
+          {
+            "node": {
+              "title": "test",
+              "url": "https://github.com/octocat/Hello-World/issues/409",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test",
+              "url": "https://github.com/octocat/Hello-World/issues/410",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test",
+              "url": "https://github.com/octocat/Hello-World/issues/411",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test",
+              "url": "https://github.com/octocat/Hello-World/issues/412",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test",
+              "url": "https://github.com/octocat/Hello-World/issues/413",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test",
+              "url": "https://github.com/octocat/Hello-World/issues/414",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test123",
+              "url": "https://github.com/octocat/Hello-World/issues/415",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test123",
+              "url": "https://github.com/octocat/Hello-World/issues/416",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test123",
+              "url": "https://github.com/octocat/Hello-World/issues/417",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test123",
+              "url": "https://github.com/octocat/Hello-World/issues/418",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test123",
+              "url": "https://github.com/octocat/Hello-World/issues/419",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test123",
+              "url": "https://github.com/octocat/Hello-World/issues/420",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test123",
+              "url": "https://github.com/octocat/Hello-World/issues/421",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test123",
+              "url": "https://github.com/octocat/Hello-World/issues/422",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "test123",
+              "url": "https://github.com/octocat/Hello-World/issues/423",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "-title=test",
+              "url": "https://github.com/octocat/Hello-World/issues/424",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "Testing Rest API",
+              "url": "https://github.com/octocat/Hello-World/issues/426",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "What is an issue",
+              "url": "https://github.com/octocat/Hello-World/issues/431",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "Testing if I can create an issue with GitHub API",
+              "url": "https://github.com/octocat/Hello-World/issues/439",
+              "labels": {
+                "edges": []
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "Testing Github API",
+              "url": "https://github.com/octocat/Hello-World/issues/440",
+              "labels": {
+                "edges": []
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
