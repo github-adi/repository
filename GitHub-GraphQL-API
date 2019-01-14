@@ -256,3 +256,59 @@ $ curl -H "Time-Zone: Asia/Jakarta" -X GET https://api.github.com/graphql
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~
 $
+
+-Run:
+
+query FindIssueID {
+  repository(owner:"octocat", name:"Hello-World") {
+    issue(number:349) {
+      id
+    }
+  }
+}
+
+mutation AddReactionToIssue {
+  addReaction(input:{subjectId:"MDU6SXNzdWUyMzEzOTE1NTE=",content:HOORAY}) {
+    reaction {
+      content
+    }
+    subject {
+      id
+    }
+  }
+}
+
+-Syntax:
+
+FindIssueID
+
+-Returned:
+
+{
+  "data": {
+    "repository": {
+      "issue": {
+        "id": "MDU6SXNzdWUyMzEzOTE1NTE="
+      }
+    }
+  }
+}
+
+-Syntax:
+
+AddReactionToIssue
+
+-Returned:
+
+{
+  "data": {
+    "addReaction": {
+      "reaction": {
+        "content": "HOORAY"
+      },
+      "subject": {
+        "id": "MDU6SXNzdWUyMzEzOTE1NTE="
+      }
+    }
+  }
+}
