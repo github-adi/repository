@@ -235,3 +235,24 @@ query {
     }
   }
 }
+
+-Run:
+
+-syntax:
+
+curl -H "Time-Zone: Asia/Jakarta" -X GET https://api.github.com/graphql
+
+-Returned:
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$ curl -H "Time-Zone: Asia/Jakarta" -X GET https://api.github.com/graphql
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   141  100   141    0     0     69      0  0:00:02  0:00:02 --:--:--    71{
+  "message": "This endpoint requires you to be authenticated.",
+  "documentation_url": "https://developer.github.com/v3/#authentication"
+}
+
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$
