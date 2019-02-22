@@ -1,0 +1,42 @@
+> var tvt = tvt || {}; tvt.captureVariables = function(a){for(var b=
+... new Date,c={},d=Object.keys(a||{}),e=0,f;f=d[e];e++)if(a.hasOwnProperty(f)&&"undefined"!=typeof a[f])try{var g=[];c[f]=JSON.stringify(a[f],function(a,b){try{if("function"!==typeof b){if("object"===typeof b&&null!==b){if(b instanceof HTMLElement||b instanceof Node||-1!=g.indexOf(b))return;g.push(b)}return b}}catch(H){}})}catch(l){}a=document.createEvent("CustomEvent");a.initCustomEvent("TvtRetrievedVariablesEvent",!0,!0,{variables:c,date:b});global.dispatchEvent(a)};global .setTimeout(function() {tvt.captureVariables({'dataLayer.hide': (function(a){a=a.split(".");for(var b=global,c=0;c<a.length&&(b=b[a[c]],b);c++);return b})('dataLayer.hide'),'gaData': global ['gaData'],'dataLayer': global ['dataLayer']})}, 2000);
+Timeout {
+  _called: false,
+  _idleTimeout: 2000,
+  _idlePrev:
+   TimersList {
+     _idleNext: [Circular],
+     _idlePrev: [Circular],
+     _timer: Timer { '0': [Function: listOnTimeout], _list: [Circular] },
+     _unrefed: false,
+     msecs: 2000,
+     nextTick: false },
+  _idleNext:
+   TimersList {
+     _idleNext: [Circular],
+     _idlePrev: [Circular],
+     _timer: Timer { '0': [Function: listOnTimeout], _list: [Circular] },
+     _unrefed: false,
+     msecs: 2000,
+     nextTick: false },
+  _idleStart: 14001,
+  _onTimeout: [Function],
+  _timerArgs: undefined,
+  _repeat: null,
+  _destroyed: false,
+  domain:
+   Domain {
+     domain: null,
+     _events: { error: [Function: debugDomainError] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     members: [] },
+  [Symbol(asyncId)]: 846,
+  [Symbol(triggerId)]: 5 }
+> ReferenceError: document is not defined
+    at Object.tvt.captureVariables (repl:2:333)
+    at Timeout._onTimeout (repl:2:506)
+    at ontimeout (timers.js:488:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:283:5)
+>
