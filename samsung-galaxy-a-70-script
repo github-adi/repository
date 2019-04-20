@@ -1,0 +1,38 @@
+<html><head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P38GQ3');</script>
+<!-- End Google Tag Manager -->
+
+<script>var inDapIF=true,inGptIF=true;</script></head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><script>window.dicnf = {};(function(){window.viewReq=[];window.vu=function(b){var a=new Image;a.src=b.replace("&amp;","&");viewReq.push(a)};}).call(this);</script><script>vu("https://securepubads.g.doubleclick.net/pcs/view?xai\u003dAKAOjssvXRm_-OJLNsoEMyUPqsnXvdvOkqlnQhM0MHLucmYQXAIufHWLJpj53IkqVWvqz_96guavnzrVNyWLc0u_ay81IxrVttPzkwDsTjFNvHYHscEgR1sTbH9NOOF4onrg9PSljG_Jpgqvvz_GwyZhVoJ_H2R0UFtl7cIaFTiMZpHZDe8THMHn70po7Tg0rcXQ9mln2L2VWmxwvOs8_z30QDHQQAPvfOfTLqjBoviF4Td_SqLSQ3qFTkuG-8pwYdBQXs4Szh7zTkPlUpavhA\u0026sai\u003dAMfl-YQ2Xu62V58FbBnqKDznN9VmFfH1fcBDHwZgwFa6v6nIlSbO3xT0SywgJZfsvQ6WZtgEOL98jy3Y3vqUpA12ihehdGfdDSsqnPVy93m8GoOYlCmV2Yk-k1xr4WU\u0026sig\u003dCg0ArKJSzJ6adeThEbUJEAE\u0026urlfix\u003d1\u0026adurl\u003d")</script><div class="creative_div_wrapper_experiment" style="display:inline"><div id="google_image_div" style="overflow:hidden; position:absolute">
+    <a id="IAB-click">
+        <img src="https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCHrLSDtwEQARgBMgizAXN9JvDw9Q" border="0" width="300" height="250" alt="" class="img_ad">
+    </a>
+</div>
+<script>
+        var IABClick = document.getElementById("IAB-click"),
+		IABSize = '300x250'.trim().split(/\s*x\s*/),
+		DMPCat  = 'handphone'.trim().split(/\s*,\s*/);
+        document.querySelector(".img_ad").setAttribute("width",IABSize[0]); 
+        document.querySelector(".img_ad").setAttribute("height",IABSize[1]); 
+        IABClick.addEventListener("click",generateDMPLP);
+console.log(DMPCat);
+        function generateDMPLP(){
+            if(typeof parent.window.createDMPTracker === 'function'){
+            	parent.window.createDMPTracker(DMPCat,'https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuv74XvJCnjzHPhSOtQNYDtIsYxVgaMaWDHDfygLa9EgjjbjhpRJUhAoDwSuiQOmynBoeleob9iult_7Wc-E3zaxm8_vJgXnlSkTBHe5DtuOF-fjTSjM30jkwu6HB6OuO5qAKj4RmbwY4ywH51oj8FcE7cUZv64k5DDRnqwSvVGd4Mnk8rcL9v7u4zgAa30YTxIshtKQkWTueWNdaDqDaulfR4XveIWqrMbRI_NMzNJ_rC9qVP2kE6LWXm3wZkUA5WQdcUwSA&sai=AMfl-YR3rITPTipl4t0qDhicSMc4SL29r8EFWdiOHMLbJgpGus0JQGbIJGTqGExvS8bUxrg-m6F4Seho1IQHOmZOdnLxaRkX8Rq4UItOj2AS5aBNLryV-ojllTJn0i4&sig=Cg0ArKJSzM6HCORIsjRrEAE&urlfix=1&adurl=https://www.samsung.com/id/galaxy-a-series/?cid=ID_Paid_DIS_KAPG_A70_PO_A70_PIC_LRN-ALL-GE-UP-CROSS-UPP_300X250_20190421_UP_I_01_NA_Desktop-Showcase_IM_SMART_NA_NA_NA_NA_038-GalaxyA70-Preorder');
+            }else{
+            	parent.window.open('https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuv74XvJCnjzHPhSOtQNYDtIsYxVgaMaWDHDfygLa9EgjjbjhpRJUhAoDwSuiQOmynBoeleob9iult_7Wc-E3zaxm8_vJgXnlSkTBHe5DtuOF-fjTSjM30jkwu6HB6OuO5qAKj4RmbwY4ywH51oj8FcE7cUZv64k5DDRnqwSvVGd4Mnk8rcL9v7u4zgAa30YTxIshtKQkWTueWNdaDqDaulfR4XveIWqrMbRI_NMzNJ_rC9qVP2kE6LWXm3wZkUA5WQdcUwSA&sai=AMfl-YR3rITPTipl4t0qDhicSMc4SL29r8EFWdiOHMLbJgpGus0JQGbIJGTqGExvS8bUxrg-m6F4Seho1IQHOmZOdnLxaRkX8Rq4UItOj2AS5aBNLryV-ojllTJn0i4&sig=Cg0ArKJSzM6HCORIsjRrEAE&urlfix=1&adurl=https://www.samsung.com/id/galaxy-a-series/?cid=ID_Paid_DIS_KAPG_A70_PO_A70_PIC_LRN-ALL-GE-UP-CROSS-UPP_300X250_20190421_UP_I_01_NA_Desktop-Showcase_IM_SMART_NA_NA_NA_NA_038-GalaxyA70-Preorder', '_blank');
+            }  
+        }
+</script>
+
+</div><script src="https://www.googletagservices.com/activeview/js/current/osd_listener.js?cache=r20110914"></script><script type="text/javascript">osdlfm(-1,'','Bz0SUIwq7XJTwA4K87gSosoHIBQAAAAAQATgByAEJwAIC4AIA4AQBoAYf0ggFCIBhEAE','',3451293804,true,'ud\u003d1\u0026la\u003d0\u0026alp\u003dxai\u0026alh\u003d3695775023\u0026xdi\u003d0\u0026',3,'CAASEuRopuZaUuw-TRLYgS-INRtSGg','https://pagead2.googlesyndication.com/pcs/activeview?xai\u003dAKAOjssrxpHvwrOBrZh5_2_TDVTJ_SpThk3dojHZZYX0Ft9r_NsAKB8uQZ-gMulwYsC7GQXRtmrvK9oX8Zdhv5IIXod8mQzzyXq2_dtr7p7FPFw\u0026sig\u003dCg0ArKJSzNjkxT3QS8zHEAE','');</script><script>if (window.top && window.top.postMessage) {window.top.postMessage('{"googMsgType":"adpnt"}','*');}</script><div style="bottom:0;right:0;width:300px;height:250px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:pixelated !important;z-index:2147483647;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAAB7SURBVBjTdZABDsAgCAPLD/r/1y62gLg5Y6bEo+0A7iu8PhVVc23uKhaB2Ke+gpigTlf9vi4HXdocVXm3/siF9Dhyo3lx8UqctJMIUYxU35rmsk+9fi0mxj276Oxu7dxlknj9l1gPhJgT7HkcEyxh2nvSQBn8aHeSOfEHRu4F8XUU1l4AAAAASUVORK5CYII=') !important;"></div>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P38GQ3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body></html>
