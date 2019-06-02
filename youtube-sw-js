@@ -1,0 +1,11 @@
+-via DevTools>Application:
+-source:
+https://www.youtube.com/sw.js
+-via nodejs:
+> var z=Date.now||function(){return+new Date};
+undefined
+> z;
+[Function: now]
+> new Date;
+2019-06-02T12:24:47.508Z
+>
