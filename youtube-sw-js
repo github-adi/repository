@@ -1,13 +1,19 @@
 -via DevTools>Application:
 -source:
 https://www.youtube.com/sw.js
--1st saf-via console:
+-2nd saf-via console:
 use strict';
 "use strict"
 function m(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}
 undefined
 m
 ƒ m(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}
+
+-3rd saf:
+function p(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:m(a)}}
+undefined
+p
+ƒ p(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:m(a)}}
 
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
