@@ -15,6 +15,11 @@ undefined
 p
 ƒ p(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:m(a)}}
 
+-4th saf:
+var r="function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c){a!=Array.prototype&&a!=Object.prototype&&(a[b]=c.value)},u="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this;
+
+undefined
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
