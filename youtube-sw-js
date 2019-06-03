@@ -9,6 +9,11 @@ undefined
 m
 ƒ m(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}
 
+-if b=0 return b<a:
+-via console:
+0<1
+true
+
 -3rd saf:
 function p(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:m(a)}}
 undefined
