@@ -14,6 +14,18 @@ m
 0<1
 true
 
+length
+0
+
+-if b=0 so a=1
+then
+done:!1
+
+-if a(b++)
+maka 1*0=0
+then
+done:!0
+
 -3rd saf:
 function p(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:m(a)}}
 undefined
