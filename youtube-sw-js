@@ -53,6 +53,12 @@ VM43:4 Uncaught SyntaxError: Unexpected end of input
 y
 ƒ y(a,b){if(b){var c=u;a=a.split(".");for(var g=0;g<a.length-1;g++){var h=a[g];h in c||(c[h]={});c=c[h]}a=a[a.length-1];g=c[a];b=b(g);b!=g&&null!=b&&r(c,a,{configurable:!0,writable:!0,value:b})}}
 
+-seventh saf:
+function c(){this.c=null}
+undefined
+c
+ƒ c(){this.c=null}
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
