@@ -127,6 +127,13 @@ undefined
 this.c
 undefined
 
+-via jslint:
+«g»()
+
+/*property
+    g, prototype
+*/
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
