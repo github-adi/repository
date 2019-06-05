@@ -150,6 +150,24 @@ d
     e, f, prototype
 */
 
+-thirteenth saf:
+-via jslint:
+«e»()
+variable
+d
+1
+d(l)
+parameter
+l
+1
+«return»(n)
+parameter
+n
+
+/*property
+    e, prototype
+*/
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
