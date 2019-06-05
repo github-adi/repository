@@ -78,6 +78,18 @@ undefined
 g
 ƒ g(d){return d instanceof b?d:new b(function(e){e(d)})}
 
+-via jslint:
+global
+g
+0
+g(d)
+parameter
+d
+0
+«b»(e)
+parameter
+e
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
