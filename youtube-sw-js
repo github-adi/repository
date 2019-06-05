@@ -134,6 +134,22 @@ undefined
     g, prototype
 */
 
+-twelfth saf:
+-via jslint:
+«f»(d)
+parameter
+d
+closure
+d
+1
+«e»()
+outer
+d
+
+/*property
+    e, f, prototype
+*/
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
