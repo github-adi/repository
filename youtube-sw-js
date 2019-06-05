@@ -44,6 +44,15 @@ undefined
 
 ƒ y(a,b){if(b){var c=u;a=a.split(".");for(var g=0;g<a.length-1;g++){var h=a[g];h in c||(c[h]={});c=c[h]}a=a[a.length-1];g=c[a];b=b(g);b!=g&&null!=b&&r(c,a,{configurable:!0,writable:!0,value:b})}}
 
+-sixth saf:
+y("Promise",function(a){function b(d){this.d=0;this.g=void 0;this.c=[];var e=this.e();try{d(e.resolve,e.reject)}catch(f){e.reject(f)}}
+y
+
+
+VM43:4 Uncaught SyntaxError: Unexpected end of input
+y
+ƒ y(a,b){if(b){var c=u;a=a.split(".");for(var g=0;g<a.length-1;g++){var h=a[g];h in c||(c[h]={});c=c[h]}a=a[a.length-1];g=c[a];b=b(g);b!=g&&null!=b&&r(c,a,{configurable:!0,writable:!0,value:b})}}
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
