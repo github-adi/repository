@@ -114,6 +114,19 @@ h
     e, prototype, setTimeout
 */
 
+-elevanth saf:
+c.prototype.g=function(){for(;this.c&&this.c.length;){var d=this.c;this.c=[];for(var e=0;e<d.length;++e){var f=d[e];d[e]=null;try{f()}catch(l){this.f(l)}}}this.c=null};
+
+VM33:1 Uncaught ReferenceError: c is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM33:1
+d=this.c
+undefined
+d
+undefined
+this.c
+undefined
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
