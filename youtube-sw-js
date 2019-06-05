@@ -135,6 +135,8 @@ undefined
 */
 
 -twelfth saf:
+c.prototype.f=function(d){this.e(function(){throw d;})};
+
 -via jslint:
 «f»(d)
 parameter
@@ -151,6 +153,8 @@ d
 */
 
 -thirteenth saf:
+b.prototype.e=function(){function d(l){return function(n){f||(f=!0,l.call(e,n))}}
+
 -via jslint:
 «e»()
 variable
