@@ -195,6 +195,11 @@ Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}A
 global
 e
 
+-via console:
+new TypeError
+TypeError
+    at <anonymous>:1:1
+    
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
