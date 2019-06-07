@@ -234,6 +234,10 @@ e=void
 Bluetooth
 undefined
 
+-via console:
+e=void 0
+undefined
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
