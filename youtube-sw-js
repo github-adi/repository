@@ -208,6 +208,10 @@ VM49:1 Uncaught SyntaxError: Unexpected token )
 new TypeError
 TypeError
     at <anonymous>:1:1
+
+-via console:
+"A Promise cannot resolve to itself"
+"A Promise cannot resolve to itself"
     
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
