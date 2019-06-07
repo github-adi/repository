@@ -175,6 +175,16 @@ n
 -fourteenth saf:
 var e=this,f=!1;return{resolve:d(this.m),reject:d(this.f)}};
 
+-fifteenth saf:
+-via jslint:
+«m»(d)
+parameter
+d
+
+/*property
+    m, prototype
+*/
+
 -via console:
 var e=this,f=!1;return{resolve:d(this.m),reject:d(this.f)}};
 VM60:1 Uncaught SyntaxError: Illegal return statement
