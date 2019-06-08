@@ -372,6 +372,20 @@ w
     prototype, then
 */
 
+-tanda tanya q berapa kalau parameternya 1?:
+q=function(1)
+
+-via jslint:
+«q»undefined
+
+-if:
+1=function(v)
+
+-via jslint:
+«anonymous»(v)
+parameter
+v
+
 
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
