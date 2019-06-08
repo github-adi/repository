@@ -262,6 +262,19 @@ d
     i, j, prototype
 */
 
+-nineteentth saf:
+b.prototype.j=function(d,e){if(0!=this.d)throw Error("Cannot settle("+d+", "+e+"): Promise already settled in state"+this.d);this.d=d;this.g=e;this.k()};
+
+-via jslint:
+«j»(d, e)
+parameter
+d, e
+
+/*property
+    d, j, prototype
+*/
+
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
