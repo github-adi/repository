@@ -305,6 +305,22 @@ then 0*0
 then:
 this.c=null
 
+-twenty one saf:
+var k=new c;b.prototype.n=function(d){var e=this.e();d.h(e.resolve,e.reject)};
+
+-via jslint:
+global
+k
+1
+«n»(d)
+parameter
+d
+variable
+e
+
+/*property
+    e, h, n, prototype, reject, resolve
+*/
 
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
