@@ -238,6 +238,18 @@ undefined
 e=void 0
 undefined
 
+-seventeenth saf:
+b.prototype.f=function(d){this.j(2,d)};
+
+-via jslint:
+«f»(d)
+parameter
+d
+
+/*property
+    f, j, prototype
+*/
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
