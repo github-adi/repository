@@ -274,6 +274,16 @@ d, e
     d, j, prototype
 */
 
+-twentieth:
+b.prototype.k=function(){if(null!=this.c){for(var d=0;d<this.c.length;++d)k.d(this.c[d]);this.c=null}};
+
+-via jslint:
+«k»()
+
+/*property
+    c, k, prototype
+*/
+
 
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
