@@ -250,6 +250,18 @@ d
     f, j, prototype
 */
 
+-eighteenth saf:
+b.prototype.i=function(d){this.j(1,d)};
+
+-via jslint:
+«i»(d)
+parameter
+d
+
+/*property
+    i, j, prototype
+*/
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
