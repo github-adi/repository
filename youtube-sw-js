@@ -284,6 +284,27 @@ b.prototype.k=function(){if(null!=this.c){for(var d=0;d<this.c.length;++d)k.d(th
     c, k, prototype
 */
 
+-if:
+d=0;d<this
+-via console:
+0<0
+false
+length
+0
+
+-so false:
+++d
+
+-if:
+this.c[d])
+then 0*0
+-via console:
+0*0
+0
+
+then:
+this.c=null
+
 
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
