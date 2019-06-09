@@ -459,6 +459,28 @@ d
     catch, prototype, then
 */
 
+Memakai property then
+then=function(void 0,d)
+
+-via jslint:
+«then»undefined
+
+-twenty seven:
+b.prototype.h=function(d,e){function f(){switch(l.d){case 1:d(l.g);break;case 2:e(l.g);break;default:throw Error("Unexpected state: "+l.d);}}
+
+-via jslint:
+«h»(d, e)
+parameter
+d, e
+variable
+f
+1
+f()
+
+/*property
+    d, g, h, prototype
+*/
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
