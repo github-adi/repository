@@ -393,6 +393,12 @@ var l,n,x=new b(function(q,t){l=q;n=t});
 global
 l
 
+if new b
+new adalah baru
+new b disatukan:
+newbie
+artinya pemula atau awal atau 1.
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
