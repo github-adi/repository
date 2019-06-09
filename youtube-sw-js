@@ -459,7 +459,7 @@ d
     catch, prototype, then
 */
 
-Memakai property then dan property void 0,d
+Memakai property then dan parameter void 0,d
 then=function(void 0,d)
 
 -via jslint:
