@@ -424,6 +424,29 @@ this.h(f(d,l),f(e,n));return x};
     h
 */
 
+if 1.23Expected 'return' to be in a function:
+then
+var x=function(d,l);
+
+-via jslint:
+global
+x
+1
+«x»(d, l)
+parameter
+d, l
+
+then
+var x=function(e,n);
+
+-via jslint:
+global
+x
+1
+«x»(e, n)
+parameter
+e, n
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
