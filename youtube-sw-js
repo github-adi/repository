@@ -416,6 +416,13 @@ n=function(t);
 parameter
 t
 
+-twnety five saf:
+this.h(f(d,l),f(e,n));return x};
+
+-via jslint:
+/*property
+    h
+*/
 
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
