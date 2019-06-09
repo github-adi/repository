@@ -492,6 +492,15 @@ l
     c, d, push
 */
 
+if null is 0
+then
+var l=this;
+var 0==this
+
+-via jslint:
+global
+l
+
 
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
