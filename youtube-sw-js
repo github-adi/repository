@@ -447,6 +447,18 @@ x
 parameter
 e, n
 
+-twenty six saf:
+b.prototype.catch=function(d){return this.then(void 0,d)};
+
+-via jslint:
+«catch»(d)
+parameter
+d
+
+/*property
+    catch, prototype, then
+*/
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
