@@ -491,6 +491,16 @@ f
 1
 fundefined
 
+-if case 1:d(l.g);
+then
+function f(l:d);
+
+-via jslint:
+global
+f
+1
+fundefined
+
 -twenty eight saf:
 var l=this;null==this.c?k.d(f):this.c.push(f)};
 
