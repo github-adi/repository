@@ -664,7 +664,8 @@ w
 
 if q[v]=w;t--;0==t&&l(q);
 then
-var q[v]=w;t--;var 0==t&&l(q);
+var q[v]=w;t--;
+var 0==t&&l(q);
 
 -via jslint:
 global
