@@ -556,6 +556,21 @@ b=function(d);
 parameter
 d
 
+-thirtieth saf:
+b.race=function(d){return new b(function(e,f){for(var l=p(d),n=l.next();!n.done;n=l.next())g(n.value).h(e,f)})};
+
+-via jslint:
+«race»(d)
+parameter
+d
+1
+«b»(e, f)
+parameter
+e, f
+
+/*property
+    race
+*/
 
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
