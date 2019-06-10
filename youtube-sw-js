@@ -481,6 +481,16 @@ f()
     d, g, h, prototype
 */
 
+-if wwitch switch(l.d)
+then
+function f(l.d);
+
+-via jslint:
+global
+f
+1
+fundefined
+
 -twenty eight saf:
 var l=this;null==this.c?k.d(f):this.c.push(f)};
 
