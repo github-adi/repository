@@ -596,6 +596,20 @@ h(e, f)
 parameter
 e, f
 
+-thirty one saf:
+b.all=function(d){var e=p(d),f=e.next();return f.done?g([]):new b(function(l,n){function x(v){return function(w){q[v]=w;t--;0==t&&l(q)}}
+
+-via jslint:
+«all»(d)
+parameter
+d
+variable
+e
+
+/*property
+    all
+*/
+-
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
