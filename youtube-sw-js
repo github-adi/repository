@@ -671,6 +671,12 @@ w
 1
 qundefined
 
+-if t--;0==t&&l(q);
+then
+t--;
+0==t(q);
+0==l(q);
+
 -
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
