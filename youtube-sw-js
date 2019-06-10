@@ -547,6 +547,16 @@ e, f
     reject, resolve
 */
 
+-if new b is newbie is pemula or same above
+then
+b=function(d);
+
+-via jslint:
+«b»(d)
+parameter
+d
+
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
