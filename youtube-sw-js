@@ -609,6 +609,67 @@ e
 /*property
     all
 */
+
+-if var e=p(d);
+then
+var e=function p(d);
+
+-via jslint:
+global
+e
+1
+p(d)
+parameter
+d
+
+-if f=e.next();return f.done?g([]):
+then
+e=function();
+
+-via jslint:
+«e»()
+
+-if new b(function(l,n);
+then
+b=function(l,n);
+
+-via jslint:
+«b»(l, n)
+parameter
+l, n
+
+-if function x(v);
+then
+var b=function x(v);
+
+-via jslint:
+global
+b
+1
+x(v)
+parameter
+v
+
+-if return function(w) 
+then
+var b=function(w);
+
+-via jslint:
+global
+b
+1
+«b»(w)
+parameter
+w
+
+if q[v]=w;t--;0==t&&l(q);
+then
+var q[v]=w;t--;var 0==t&&l(q);
+
+-via jslint:
+global
+q
+
 -
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
