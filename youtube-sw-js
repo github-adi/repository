@@ -584,6 +584,18 @@ p(d)
 parameter
 d
 
+-for  nembie 2nd function
+then
+var n=function h(e,f);
+
+-via jslint:
+global
+n
+1
+h(e, f)
+parameter
+e, f
+
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
 undefined
