@@ -684,6 +684,67 @@ var q=[],t=0;do q.push(void 0),t++,g(f.value).h(x(q.length-1),n),f=e.next();whil
 global
 q
 
+-if t=0;
+then
+var t=0;
+
+-via jslint:
+global
+t
+
+-if do q.push(void 0);
+then
+function push(void 0);
+
+-via jslint:
+global
+push
+1
+pushundefined
+
+-if t++,
+then
+t++,
+
+-if g(f.value);
+then
+function g(f.value);
+
+-via jslint:
+global
+g
+1
+gundefined
+
+-if h(x(q.length-1),n)
+then
+var h=function x(q.length-1);
+
+-via jslint:
+global
+h
+1
+xundefined
+
+then
+var h=function n(q.length-1);
+
+-via jslint:
+global
+h
+1
+nundefined
+
+if f=e.next();while(!f.done);
+then
+var e=function();
+
+-via jslint:
+global
+e
+1
+«e»()
+
 -
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
