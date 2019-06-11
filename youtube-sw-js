@@ -677,6 +677,13 @@ t--;
 0==t(q);
 0==l(q);
 
+-thirty two saf:
+var q=[],t=0;do q.push(void 0),t++,g(f.value).h(x(q.length-1),n),f=e.next();while(!f.done)})};
+
+-via jslint:
+global
+q
+
 -
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
