@@ -758,6 +758,19 @@ global
 b
 1
 «b»()
+
+-thirty four saf:
+var z=Date.now||function(){return+new Date};
+
+-via jslint:
+global
+z
+1
+«now»()
+
+/*property
+    now
+*/
 -
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
