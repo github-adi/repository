@@ -745,6 +745,19 @@ e
 1
 «e»()
 
+-thirty three saf:
+return b});
+
+-via jslint:
+-if 1.1Expected 'return' to be in a function:
+then
+var b=function();
+
+-via jslint:
+global
+b
+1
+«b»()
 -
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
