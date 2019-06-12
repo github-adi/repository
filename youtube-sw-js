@@ -793,6 +793,27 @@ Copyright (c) Microsoft Corporation. All rights reserved.
  and limitations under the License.
 */
 (Sumber JavaScript harus obtain Apache Licenses).
+
+-forty eight saf:
+function A(a){return new Promise(function(b,c){var g=a.length,h=null;if(g)for(var k=function(f,l){f||h||(h=l);g--;g||(h?c(h):b())},d=p(a),e=d.next();!e.done;e=d.next())e.value.then(k.bind(null,!0),k.bind(null,!1));
+
+-via jslint:
+global
+A
+1
+A(a)
+parameter
+a
+1
+«Promise»(b, c)
+parameter
+b, c
+variable
+g
+
+/*property
+    length
+*/
 -
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
