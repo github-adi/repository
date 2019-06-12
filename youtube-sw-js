@@ -814,6 +814,118 @@ g
 /*property
     length
 */
+
+-if var g=a.length,h=null;
+then
+var g=function (a);
+
+-via jslint:
+global
+g
+1
+«g»(a)
+parameter
+a
+
+then
+var h=function (0);
+global
+h
+1
+«h»undefined
+
+if(g)for(var k=function(f,l);
+then
+karena (g) sudah jadi function, maka
+then
+var k=function(f,l)
+
+-via jslint:
+global
+k
+1
+«k»(f, l)
+parameter
+f, l
+
+-if f||h||(h=l);
+then
+var h=function (1);
+
+-via jslint:
+global
+h
+1
+«h»undefined
+
+-if g--;
+then
+g--;
+
+-if g--;g||(h?c(h):b())}
+then
+c.h.g=function b(h);
+
+-via jslint:
+b(h)
+parameter
+h
+
+/*property
+    g, h
+*/
+
+-if d=p(a),e=d.next()
+then
+var d=function p(a);
+
+-via jslint:
+global
+d
+1
+p(a)
+parameter
+a
+
+then
+var e=function d();
+
+-via jslint:
+global
+e
+1
+d()
+
+-if !e.done;e=d.next();
+var e=function(d);
+
+-via jslint:
+global
+e
+1
+«e»(d)
+parameter
+d
+
+-if e.value.then(k.bind(null,!0),k.bind(null,!1));
+then
+var k=function bind(null,!0);
+
+-via jslint:
+global
+k
+1
+bindundefined
+
+then
+var k=function bind(null,!1));
+
+-via jslint:
+global
+k
+1
+bindundefined
+
 -
 -via nodejs:
 > var z=Date.now||function(){return+new Date};
