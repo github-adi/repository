@@ -940,3 +940,18 @@ var else=function b();
 
 -via jslint:
 b()
+
+-fifty saf:
+function B(a){return self.btoa(String.fromCharCode.apply(null,new Uint8Array(a))).replace(/\+/g,"-").replace(/\//g,"_")}
+
+-via jslint:
+global
+B
+1
+B(a)
+parameter
+a
+
+/*property
+    apply, btoa, fromCharCode, replace
+*/
