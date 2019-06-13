@@ -956,7 +956,7 @@ a
     apply, btoa, fromCharCode, replace
 */
 
--if{return self.btoa(String.fromCharCode.apply(null,new Uint8Array(a))).replace(/\+/g,"-").replace(/\//g,"_")}
+-if{return self.btoa(String.fromCharCode.apply(null,new Uint8Array(a))).
 then
 var fromCharCode=function Uint8Array(a);
 
@@ -979,6 +979,7 @@ Uint8Array(null)
 parameter
 null
 
+-if replace(/\+/g,"-").
 then
 function replace(/\+/g,"-");
 
@@ -988,6 +989,7 @@ replace
 1
 replaceundefined
 
+-if replace(/\//g,"_")}
 then
 function replace(/\//g,"_");
 
