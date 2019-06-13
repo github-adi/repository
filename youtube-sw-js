@@ -1025,3 +1025,42 @@ d
 /*property
     key, objectStore, onerror, onsuccess, put, then, transaction, value
 */
+
+-if transaction("swpushnotificationsstore","readwrite");
+then
+transaction(function("swpushnotificationsstore","readwrite"));
+
+-via jslint:
+«transaction»undefined
+
+-if objectStore("swpushnotificationsstore");
+then
+objectStore(function("swpushnotificationsstore"));
+
+-via jslint:
+«objectStore»undefined
+
+-if put(c);
+then
+put(function(c));
+
+-via jslint:
+«put»(c)
+parameter
+c
+
+-if d.onsuccess=h;
+then
+var onsuccess=h;function();
+
+-via jslint:
+global
+onsuccess
+
+-if d.onerror=k;
+then
+var onerror=k;function();
+
+-via jslint:
+global
+onerror
