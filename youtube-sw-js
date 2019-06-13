@@ -955,3 +955,44 @@ a
 /*property
     apply, btoa, fromCharCode, replace
 */
+
+-if{return self.btoa(String.fromCharCode.apply(null,new Uint8Array(a))).replace(/\+/g,"-").replace(/\//g,"_")}
+then
+var fromCharCode=function Uint8Array(a);
+
+-via jslint:
+global
+fromCharCode
+1
+Uint8Array(a)
+parameter
+a
+
+then
+var apply=function Uint8Array(null);
+
+-via jslint:
+global
+apply
+1
+Uint8Array(null)
+parameter
+null
+
+then
+function replace(/\+/g,"-");
+
+-via jslint:
+global
+replace
+1
+replaceundefined
+
+then
+function replace(/\//g,"_");
+
+-via jslint:
+global
+replace
+1
+replaceundefined
