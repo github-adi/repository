@@ -778,6 +778,13 @@ z
 new Date
 Wed Jun 12 2019 16:33:40 GMT+0700 (Indochina Time)
 
+-via nodejs:
+> var z=Date.now||function(){return+new Date};
+undefined
+> z;
+[Function: now]
+>
+
 -thirty five-47 saf:
 Copyright (c) Microsoft Corporation. All rights reserved.
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use
@@ -925,13 +932,3 @@ global
 k
 1
 bindundefined
-
--
--via nodejs:
-> var z=Date.now||function(){return+new Date};
-undefined
-> z;
-[Function: now]
-> new Date;
-2019-06-02T12:24:47.508Z
->
