@@ -998,3 +998,30 @@ global
 replace
 1
 replaceundefined
+
+-fifty one saf:
+;var C=null;function D(a,b){var c={};c.key=a;c.value=b;return E().then(function(g){return new Promise(function(h,k){var d=g.transaction("swpushnotificationsstore","readwrite").objectStore("swpushnotificationsstore").put(c);d.onsuccess=h;d.onerror=k})})}
+
+-via jslint:
+global
+C, D
+1
+D(a, b)
+parameter
+a, b
+variable
+c
+1
+«then»(g)
+parameter
+g
+1
+«Promise»(h, k)
+parameter
+h, k
+variable
+d
+
+/*property
+    key, objectStore, onerror, onsuccess, put, then, transaction, value
+*/
