@@ -1079,3 +1079,11 @@ F()
 /*property
     then
 */
+
+-via console:
+function F(){return D("IndexedDBCheck","testing IndexedDB").then(function(){return G("IndexedDBCheck")}).then(function(a){return"testing IndexedDB"==a?Promise.resolve():Promise.reject()}).then(function(){return!0}).catch(function(){return!1})}
+
+undefined
+F
+ƒ F(){return D("IndexedDBCheck","testing IndexedDB").then(function(){return G("IndexedDBCheck")}).then(function(a){return"testing IndexedDB"==a?Promise.resolve():Promise.reject()}).then(function(){retu…
+
