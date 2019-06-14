@@ -1087,3 +1087,66 @@ undefined
 F
 ƒ F(){return D("IndexedDBCheck","testing IndexedDB").then(function(){return G("IndexedDBCheck")}).then(function(a){return"testing IndexedDB"==a?Promise.resolve():Promise.reject()}).then(function(){retu…
 
+-if D("IndexedDBCheck","testing IndexedDB");
+then
+function D("IndexedDBCheck","testing IndexedDB");
+
+-via jslint:
+global
+D
+1
+Dundefined
+
+-if then(function()
+then
+D(function("IndexedDBCheck","testing IndexedDB"));
+
+-via jslint:
+«D»undefined
+
+-if {return G("IndexedDBCheck")});
+then
+function G("IndexedDBCheck");
+
+-via jslint:
+global
+G
+1
+Gundefined
+
+-if then(function(a);
+then
+then(function(a));
+
+-via jslint:
+«then»(a)
+parameter
+a
+  
+-if return"testing IndexedDB"==a?:
+returned error
+
+-if Promise.reject()});
+then
+var Promise=function reject();
+
+-via jslint:
+global
+Promise
+1
+reject()
+ 
+-if then(function());return!0;
+then
+then(function(!0));
+
+-via jslint:
+«then»undefined
+
+-if catch(function(){return!1});
+then
+catch(function(!1);
+
+-via jslint:
+«catch»undefined
+
