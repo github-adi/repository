@@ -1200,5 +1200,38 @@ a
 1
 E()
 
+-if var h=b.transaction("swpushnotificationsstore");
+then
+var b=function transaction("swpushnotificationsstore"); 
+
+-via jslint:
+global
+b
+1
+transactionundefined
+
+-if objectStore("swpushnotificationsstore");
+then
+var b=function objectStore("swpushnotificationsstore");
+
+-via jslint:
+global
+b
+1
+objectStoreundefined
+
+-if get(a);
+then
+var b=function get(a);
+
+-via jslint:
+global
+b
+1
+get(a)
+parameter
+a
+
+
 
 
