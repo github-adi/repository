@@ -1157,5 +1157,34 @@ var catch=function(){return function !1()};
 1
 «return»undefined
 
+-fifty three saf:
+function G(a){return E().then(function(b){return new Promise(function(c,g){var h=b.transaction("swpushnotificationsstore").objectStore("swpushnotificationsstore").get(a);h.onsuccess=function(){var k=h.result;c(k?k.value:null)};
+
+-via jslint:
+global
+G
+1
+G(a)
+parameter
+a
+1
+«then»(b)
+parameter
+b
+1
+«Promise»(c, g)
+parameter
+c, g
+variable
+h
+1
+«onsuccess»()
+variable
+k
+
+/*property
+    get, objectStore, onsuccess, result, then, transaction, value
+*/
+
 
 
