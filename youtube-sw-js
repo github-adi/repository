@@ -1232,6 +1232,31 @@ get(a)
 parameter
 a
 
+-if h.onsuccess=function(){var k=h.result;
+then
+var onsuccess=function(){var k=h.result};
 
+-via jslint:
+global
+onsuccess
+1
+«onsuccess»()
+variable
+k
 
+/*property
+    result
+*/
+
+-if c(k?k.value:null)}; 
+then 1
+k ditanya dengan lambang tanda tanya, maka salah karena k adalah variabel bukan parameter sebuah function;
+then 2
+function c(0);
+
+-via jslint:
+global
+c
+1
+cundefined
 
