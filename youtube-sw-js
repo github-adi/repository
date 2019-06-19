@@ -1186,5 +1186,19 @@ k
     get, objectStore, onsuccess, result, then, transaction, value
 */
 
+-if function G(a){return E();
+then
+function G(a){return function E()};
+
+-via jslint:
+global
+G
+1
+G(a)
+parameter
+a
+1
+E()
+
 
 
