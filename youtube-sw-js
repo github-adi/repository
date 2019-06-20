@@ -1272,7 +1272,7 @@ h.onerror=function(){g('Unable to get key "'+a+'" from object store.')}})},funct
 
 -if h.onerror=function(){g('Unable to get key "'+a+'" from object store.')}})},function(){return null})};
 then
-var onerror=function(){var k=h; return null; function g('Unable to get key "'+a+'" from object store.'};
+var onerror=function(){var k=h; return null;function g('Unable to get key "'+a+'" from object store.')};
 
 -via jslint:
 global
