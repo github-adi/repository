@@ -1260,3 +1260,13 @@ c
 1
 cundefined
 
+-fifty four saf:
+h.onerror=function(){g('Unable to get key "'+a+'" from object store.')}})},function(){return null})}
+
+-via jslint:
+«onerror»()
+
+/*property
+    onerror
+*/
+
