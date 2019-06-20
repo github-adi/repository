@@ -1356,7 +1356,7 @@ a
     result, target
 */
 
--then huruf a bukan kelompok Property, tetapi Parameter dari Function H.
+-then huruf a bukan kelompok Property, tetapi Parameter dari Function H atau urutan angka 0.
 
 -fifty eight saf:
 ;function I(){return self.clients.matchAll({type:"window",includeUncontrolled:!0}).then(function(a){if(a){a=p(a);for(var b=a.next();!b.done;b=a.next())b.value.postMessage({type:"update_unseen_notifications_count_signal"})}})}
