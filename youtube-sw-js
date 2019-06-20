@@ -1375,3 +1375,80 @@ a
     clients, includeUncontrolled, matchAll, then, type
 */
 
+-if return self.clients.matchAll({type:"window",includeUncontrolled:!0});
+then
+function clients({type:"window",includeUncontrolled:!0});
+
+-via jslint:
+global
+clients
+1
+clientsundefined
+
+/*property
+    type
+*/
+
+-if if(a);
+then
+function if(a);
+
+-via jslint:
+if(a)
+parameter
+a
+
+-if a=p(a);
+then
+var a=function p(a);
+
+-via jslint:
+global
+a
+1
+p(a)
+parameter
+a
+
+-if for(var b=a.next();
+then
+var b=a.function next();
+
+global
+b
+
+/*property
+    function
+*/
+
+-if !b.done;
+then
+!b adalah urutan 0.
+done adalah urutan 1.
+
+-if b=a.next());
+then
+var b=a.function next();
+
+-via jslint:
+global
+b
+
+/*property
+    function
+*/
+
+-if b.value.postMessage({type:"update_unseen_notifications_count_signal"};
+then
+function value ({type:"update_unseen_notifications_count_signal"};
+
+-via jslint:
+global
+value
+1
+valueundefined
+
+/*property
+    type
+*/
+
