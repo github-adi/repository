@@ -1308,3 +1308,7 @@ g
     result
 */
 
+-if return C?Promise.resolve(C), 
+then
+maka C adalah Parameter bukan Variabel.
+
