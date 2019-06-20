@@ -1332,3 +1332,11 @@ ifundefined
     function, indexedDB, onerror, onsuccess, result
 */
 
+-fifty six saf:
+c.onupgradeneeded=H})}
+then
+c.onupgradeneeded=function H();
+
+-via jslint:
+H()
+
