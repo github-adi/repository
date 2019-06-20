@@ -1284,3 +1284,27 @@ g, k
 1
 gundefined
 
+-fifty five saf:
+function E(){return C?Promise.resolve(C):new Promise(function(a,b){var c=self.indexedDB.open("swpushnotificationsdb");c.onerror=b;c.onsuccess=function(){var g=c.result;if(g.objectStoreNames.contains("swpushnotificationsstore"))C=g,a(C);else return self.indexedDB.deleteDatabase("swpushnotificationsdb"),E()};
+
+-via jslint:
+global
+E
+1
+E()
+1
+«Promise»(a, b)
+parameter
+a, b
+variable
+c
+1
+«onsuccess»()
+variable
+g
+
+/*property
+    contains, indexedDB, objectStoreNames, onerror, onsuccess, open, resolve,
+    result
+*/
+
