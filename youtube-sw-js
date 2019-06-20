@@ -1340,3 +1340,19 @@ c.onupgradeneeded=function H();
 -via jslint:
 H()
 
+-fifty seven saf:
+function H(a){a=a.target.result;a.objectStoreNames.contains("swpushnotificationsstore")&&a.deleteObjectStore("swpushnotificationsstore");a.createObjectStore("swpushnotificationsstore",{keyPath:"key"})}
+
+-via jslint:
+global
+H
+1
+H(a)
+parameter
+a
+
+/*property
+    contains, createObjectStore, deleteObjectStore, keyPath, objectStoreNames,
+    result, target
+*/
+
