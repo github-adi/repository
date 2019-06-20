@@ -1312,3 +1312,23 @@ g
 then
 maka C adalah Parameter bukan Variabel.
 
+-then
+new Promise(function(a,b){var c=self.indexedDB.function open("swpushnotificationsdb");c.onerror=b;c.onsuccess=function(){var g=c.result;function if(g.objectStoreNames.contains("swpushnotificationsstore"))var C=g,function a(C);else return self.indexedDB.function deleteDatabase("swpushnotificationsdb");function E()};
+
+-via jslint:
+«Promise»(a, b)
+parameter
+a, b
+variable
+c
+1
+«onsuccess»()
+variable
+g
+1
+ifundefined
+
+/*property
+    function, indexedDB, onerror, onsuccess, result
+*/
+
