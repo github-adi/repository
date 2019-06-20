@@ -1358,3 +1358,20 @@ a
 
 -then huruf a bukan kelompok Property, tetapi Parameter dari Function H.
 
+-fifty eight saf:
+;function I(){return self.clients.matchAll({type:"window",includeUncontrolled:!0}).then(function(a){if(a){a=p(a);for(var b=a.next();!b.done;b=a.next())b.value.postMessage({type:"update_unseen_notifications_count_signal"})}})}
+
+-via jslint:
+global
+I
+1
+I()
+1
+«then»(a)
+parameter
+a
+
+/*property
+    clients, includeUncontrolled, matchAll, then, type
+*/
+
