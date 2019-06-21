@@ -1502,3 +1502,62 @@ b
 1
 appendundefined
 
+-if var c="[]";
+then
+
+-via jslint:
+global
+c
+
+-if a.payload.chrome.extraUrlParams&&(c=JSON.stringify(a.payload.chrome.extraUrlParams));
+then
+var a=function extraUrlParams&&(c=JSON.stringify(a.payload.chrome.extraUrlParams));
+
+-via jslint:
+global
+a
+1
+extraUrlParamsundefined
+
+-if b.append("extra_url_params",c);
+then
+var b=function append("extra_url_params",c);
+
+-via jslint:
+global
+b
+1
+appendundefined
+
+-if b.append("hashed_identifier",a.hashedIdentifier||"");
+then
+var b=function append("hashed_identifier",a.hashedIdentifier||"");
+
+-via jslint:
+global
+b
+1
+appendundefined
+
+-if b.append("identifier_salt",a.identifierSalt||"");
+then
+var b=function append("identifier_salt",a.identifierSalt||"");
+
+-via jslint:
+global
+b
+1
+appendundefined
+
+-if return fetch("/notifications_ajax?action_convert_endpoint_to_url=1",{credentials:"include",
+then
+var endpoints=functioo fetch("/notifications_ajax?action_convert_endpoint_to_url=1",{credentials:"include"});
+
+-via jslint:
+global
+endpoints
+
+/*property
+    credentials
+*/
+
