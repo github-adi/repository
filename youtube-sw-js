@@ -1467,3 +1467,38 @@ a
     chrome, endpoints, payload
 */
 
+-if if(!(a.payload&&a.payload.chrome&&a.payload.chrome.endpoints));
+then
+if(function !(a.payload&&a.payload.chrome&&a.payload.chrome.endpoints));
+
+-via jslint:
+«if»undefined
+
+-if Promise.resolve();
+then
+var Promise=function resolve();
+
+-via jslint:
+global
+Promise
+1
+resolve()
+
+-if var b=new FormData;
+then
+var b=new FormData;
+
+-via jslint:
+global
+FormData, b
+
+-if b.append("json_navigation_endpoints",JSON.stringify(a.payload.chrome.endpoints));
+then
+var b=function append("json_navigation_endpoints",JSON.stringify(a.payload.chrome.endpoints));
+
+-via jslint:
+global
+b
+1
+appendundefined
+
