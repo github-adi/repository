@@ -1452,3 +1452,18 @@ valueundefined
     type
 */
 
+-fifty nine saf:
+function J(a){if(!(a.payload&&a.payload.chrome&&a.payload.chrome.endpoints))return Promise.resolve();var b=new FormData;b.append("json_navigation_endpoints",JSON.stringify(a.payload.chrome.endpoints));var c="[]";a.payload.chrome.extraUrlParams&&(c=JSON.stringify(a.payload.chrome.extraUrlParams));b.append("extra_url_params",c);b.append("hashed_identifier",a.hashedIdentifier||"");b.append("identifier_salt",a.identifierSalt||"");return fetch("/notifications_ajax?action_convert_endpoint_to_url=1",{credentials:"include",
+
+-via jslint:
+global
+J
+1
+J(a)
+parameter
+a
+
+/*property
+    chrome, endpoints, payload
+*/
+
