@@ -1721,3 +1721,73 @@ c
     showNotification, tag, then, timestampSec, title
 */
 
+-if a.deviceId&&D("DeviceId",a.deviceId);
+then
+var a=function deviceId&&D("DeviceId",a.deviceId);
+
+-via jslint:
+global
+a
+1
+deviceIdundefined
+
+-if a.timestampSec&&L(a.timestampSec);
+then
+var a=function timestampSec&&L(a.timestampSec);
+
+-via jslint:
+global
+a
+1
+timestampSecundefined
+
+-if var c=a.payload.chrome;return self.;
+then
+var c=function payload(a);
+
+-via jslint:
+global
+c
+1
+payload(a)
+parameter
+a
+
+-if registration.showNotification(c.title,{body:c.body,icon:c.iconUrl,data:{nav:b,id:c.notificationId,attributionTag:c.attributionTag},
+then
+var showNotification=function(body:c.body,icon:c.iconUrl,data:{nav:b,id:c.notificationId,attributionTag:c.attributionTag});
+
+-via jslint:
+global
+showNotification
+1
+«showNotification»undefined
+
+-if tag:c.title+c.body+c.iconUrl,requireInteraction:!0});
+then
+var timestampSec=function b(tag:c.title+c.body+c.iconUrl,requireInteraction:!0);
+
+-via jslint:
+global
+timestampSec
+1
+bundefined
+
+-if then(function(){M(a.displayCap)});
+then
+then(function(){function M(a.displayCap)}:
+
+-via jslint:
+«then»()
+variable
+M
+1
+Mundefined
+
+-if catch(function(){})};
+then
+catch(function());
+
+-via jslint:
+«catch»()
+
