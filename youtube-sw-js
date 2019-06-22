@@ -1791,3 +1791,22 @@ catch(function());
 -via jslint:
 «catch»()
 
+-sixty-two saf:
+function N(a){return G("DeviceId").then(function(b){b=O(null,b,null,a);return fetch("/notifications_ajax?action_notification_click=1",{credentials:"include",method:"POST",body:b})})}
+
+-via jslint:
+global
+N
+1
+N(a)
+parameter
+a
+1
+«then»(b)
+parameter
+b
+
+/*property
+    body, credentials, method, then
+*/
+
