@@ -1841,3 +1841,13 @@ b
 parameter
 a, b, null, null
 
+-if return fetch("/notifications_ajax?action_notification_click=1",{credentials:"include",method:"POST",body:b})})};
+then
+var fetch=function("/notifications_ajax?action_notification_click=1",{credentials:"include",method:"POST",body:b});
+
+-via jslint:
+global
+fetch
+1
+«fetch»undefined
+
