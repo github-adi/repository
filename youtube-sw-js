@@ -1561,3 +1561,140 @@ endpoints
     credentials
 */
 
+-sixth saf:
+method:"POST",body:b}).then(function(g){return g.ok?g.json().then(function(h){if(!h.successful_conversion)return Promise.resolve();if(a.payload.chrome.postedEndpoint){var k=a.payload.chrome.postedEndpoint,d=new FormData;d.append("record_notification_interactions_endpoint",JSON.stringify(k));fetch("/notifications_ajax?action_record_notification_interactions=1",{credentials:"include",method:"POST",body:d})}return K(a,h.url)}).catch(function(){return Promise.resolve()}):Promise.resolve()})}
+
+-if then(function(g);
+then
+then(function(g);
+
+-via jslint:
+«then»(g)
+parameter
+g
+
+-if return g.ok?g.json();
+then
+var g=function json();
+
+-via jslint:
+global
+g
+1
+json()
+
+-so g is ok.
+
+-if then(function(h){if(!h.successful_conversion);
+then
+then(function(h){function if(!h.successful_conversion)};
+
+-via jslint:
+«then»(h)
+parameter
+h
+1
+ifundefined
+
+-if return Promise.resolve();
+then
+var Promise=function resolve();
+
+-via jslint:
+global
+Promise
+1
+resolve()
+
+-if if(a.payload.chrome.postedEndpoint)
+then
+function if(a,payload,chrome,postedEndpoint){var k=a.payload.chrome.postedEndpoint};
+
+-via jslint:
+if(a, payload, chrome, postedEndpoint)
+parameter
+a, chrome, payload, postedEndpoint
+variable
+k
+
+/*property
+    chrome, payload, postedEndpoint
+*/
+
+-if d=new FormData;
+then
+var d=new FormData;
+
+-via jslint:
+global
+FormData, d
+
+-if d.append("record_notification_interactions_endpoint");
+then
+var d=function append("record_notification_interactions_endpoint");
+
+-via jslint:
+global
+d
+1
+appendundefined
+
+-if JSON.stringify(k);
+then
+var JSON=function stringify(k);
+
+-via jslint:
+global
+JSON
+1
+stringify(k)
+parameter
+k
+
+-if fetch("/notifications_ajax?action_record_notification_interactions=1",{credentials:"include",method:"POST",body:d};
+then
+var endpoints=function fetch("/notifications_ajax?action_record_notification_interactions=1",{credentials:"include";method:"POST";body:d});
+
+-via jslint:
+global
+endpoints
+1
+fetchundefined
+
+-if return K(a,h.url)});
+then
+function K(a,h.url);
+
+-via jslint:
+global
+K
+1
+Kundefined
+
+-if catch(function();
+then
+catch(function());
+
+-via jslint:
+«catch»()
+
+-if return Promise.resolve()}):
+then
+var Promise=function resolve():
+
+-via jslint:
+global
+Promise
+1
+resolve()
+
+-if Promise.resolve()})}
+then
+var Promise=function resolve();
+
+-via jslint:
+global
+Promise
+1
+resolve()
+
