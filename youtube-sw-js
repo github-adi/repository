@@ -1810,3 +1810,34 @@ b
     body, credentials, method, then
 */
 
+-if return G("DeviceId");
+then
+function G("DeviceId");
+
+-via jslint:
+global
+G
+1
+Gundefined
+
+-if then(function(b);
+then
+then(function(b);
+
+-via jslint:
+«then»(b)
+parameter
+b
+
+-if b=O(null,b,null,a);
+then
+var b=O=function(null,b,null,a);
+
+-via jslint:
+global
+b
+1
+«O»(null, b, null, a)
+parameter
+a, b, null, null
+
