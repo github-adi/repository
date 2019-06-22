@@ -1698,3 +1698,26 @@ Promise
 1
 resolve()
 
+-sixteen-one saf:
+function K(a,b){a.deviceId&&D("DeviceId",a.deviceId);a.timestampSec&&L(a.timestampSec);var c=a.payload.chrome;return self.registration.showNotification(c.title,{body:c.body,icon:c.iconUrl,data:{nav:b,id:c.notificationId,attributionTag:c.attributionTag},tag:c.title+c.body+c.iconUrl,requireInteraction:!0}).then(function(){M(a.displayCap)}).catch(function(){})}
+
+-via jslint:
+global
+K
+1
+K(a, b)
+parameter
+a, b
+variable
+c
+1
+«then»()
+1
+«catch»()
+
+/*property
+    attributionTag, body, catch, chrome, data, deviceId, displayCap, icon,
+    iconUrl, id, nav, notificationId, payload, registration, requireInteraction,
+    showNotification, tag, then, timestampSec, title
+*/
+
