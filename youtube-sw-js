@@ -1851,3 +1851,22 @@ fetch
 1
 «fetch»undefined
 
+-sixty three saf;
+function P(){return Promise.all([G("TimestampLowerBound"),Q(),G("DeviceId")]).then(function(a){var b=p(a);a=b.next().value;var c=b.next().value;b=b.next().value;if(!a)return Promise.reject(null);a=O(c,b,a);return fetch("/notifications_ajax?action_get_notifications=1",{credentials:"include",method:"POST",body:a}).then(R)})}
+
+-via jslint:
+global
+P
+1
+P()
+1
+«then»(a)
+parameter
+a
+variable
+b, c
+
+/*property
+    all, next, then, value
+*/
+
