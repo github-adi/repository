@@ -2007,3 +2007,20 @@ then
 parameter
 R
 
+-sixty-four saf:
+function R(a){return a.ok?a.json().then(S).catch(function(){}):Promise.resolve()};
+
+-via jslint:
+global
+R
+1
+R(a)
+parameter
+a
+1
+«catch»()
+
+/*property
+    catch, json, ok, resolve, then
+*/
+
