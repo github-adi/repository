@@ -2065,3 +2065,18 @@ Promise
 1
 «resolve»()
 
+-sixty-five saf:
+function S(a){if(a.errors)return Promise.reject(a.errors);a.device_id&&D("DeviceId",a.device_id);a.ts&&L(a.ts);if(a.notifications){var b=[];a.notifications.forEach(function(c){b.push(self.registration.showNotification(c.title,{body:c.message,icon:c.iconUrl,data:{nav:c.nav,id:c.id,attributionTag:c.attributionTag},tag:c.title+c.message+c.iconUrl,requireInteraction:c.requireInteraction}))});
+
+-via jslint:
+global
+S
+1
+S(a)
+parameter
+a
+
+/*property
+    errors
+*/
+
