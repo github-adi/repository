@@ -2024,3 +2024,44 @@ a
     catch, json, ok, resolve, then
 */
 
+-if return a.ok?a.json();
+then
+var a=json=function();
+
+-via jslint:
+global
+a
+1
+«json»()
+
+so a is ok.
+
+-if then(S);
+then
+var then=function(S);
+
+-via jslint:
+global
+then
+1
+«then»(S)
+parameter
+S
+
+-if catch(function(){}):
+then
+var catch=(function(){});
+
+-via jslint:
+«catch»()
+
+-if Promise.resolve()};
+then
+var Promise=resolve=function();
+
+-via jslint:
+global
+Promise
+1
+«resolve»()
+
