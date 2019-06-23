@@ -2080,3 +2080,79 @@ a
     errors
 */
 
+-if if(a.errors);
+then
+var if=function(a.errors);
+
+-via jslint:
+«if»undefined
+
+-if return Promise.reject(a.errors);
+then
+var Promise=reject=function(a.errors);
+
+-via jslint:
+global
+Promise
+1
+«reject»undefined
+
+-if a.device_id&&D("DeviceId",a.device_id);
+then
+var a=device_id&&D=function("DeviceId",a.device_id);
+
+-via jslint:
+global
+a
+1
+«D»undefined
+
+-if a.ts&&L(a.ts);
+then
+var a=ts&&L=function(a.ts);
+
+-via jslint:
+global
+a
+1
+«L»undefined
+
+-if if(a.notifications);
+then
+var if=function(a.notifications);
+
+-via jslint:
+«if»undefined
+
+-if var b=[];
+then
+var b=function([]);
+
+-via jslint:
+global
+b
+1
+«b»undefined
+
+-if a.notifications.forEach(function(c);
+then
+var a=notifications=forEach(function(c));
+
+-via jslint:
+global
+a
+1
+«forEach»(c)
+parameter
+c
+
+-if b.push(self.registration.showNotification(c.title,{body:c.message,icon:c.iconUrl,data:{nav:c.nav,id:c.id,attributionTag:c.attributionTag},tag:c.title+c.message+c.iconUrl,requireInteraction:c.requireInteraction}))});
+then
+var b=push=function(self.registration.showNotification(c.title,{body:c.message,icon:c.iconUrl,data:{nav:c.nav,id:c.id,attributionTag:c.attributionTag},tag:c.title+c.message+c.iconUrl,requireInteraction:c.requireInteraction}));
+
+-via jslint:
+global
+b
+1
+«push»undefined
+
