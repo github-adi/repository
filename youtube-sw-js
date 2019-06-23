@@ -1870,3 +1870,140 @@ b, c
     all, next, then, value
 */
 
+-if return Promise.all([G("TimestampLowerBound");
+then
+var Promise=all=function([G("TimestampLowerBound")]);
+
+-via jslint:
+global
+Promise
+1
+«all»undefined
+
+-if Q();
+then
+var Q=function();
+
+-via jslint:
+global
+Q
+1
+«Q»()
+
+-if G("DeviceId")]);
+then
+var G=function("DeviceId")]);
+
+-via jslint:
+global
+G
+1
+«G»undefined
+
+-if then(function(a);
+then
+var then=(function(a));
+
+-via jslint:
+global
+then
+1
+«then»(a)
+parameter
+a
+
+-if var b=p(a);
+then
+var b=p=function(a);
+
+-via jslint:
+global
+b
+1
+«p»(a)
+parameter
+a
+
+-if a=b.next();
+then
+var a=b=next=function();
+
+-via jslint:
+global
+a
+1
+«next»()
+
+-if value;var c=b.next();
+then
+value;var c=b=next=function();
+
+-via jslint:
+global
+c
+1
+«next»()
+
+-if value;b=b.next();
+then
+value;var b=b=next=function();
+
+-via jslint:
+global
+b
+1
+«next»()
+
+-if value;if(!a);
+then
+value;var if=function(!a):
+
+-via jslint:
+«if»undefined
+
+-if return Promise.reject(null);
+then
+var Promise=reject=function(null);
+
+-via jslint:
+global
+Promise
+1
+«reject»(null)
+parameter
+null
+
+-if a=O(c,b,a);
+then
+var a=O=function(c,b,a);
+
+-via jslint:
+global
+a
+1
+«O»(c, b, a)
+parameter
+a, b, c
+
+-if return fetch("/notifications_ajax?action_get_notifications=1",{credentials:"include",method:"POST",body:a});
+then
+var fetch=function("/notifications_ajax?action_get_notifications=1",{credentials:"include",method:"POST",body:a});
+
+-via jslint:
+global
+fetch
+1
+«fetch»undefined
+
+-if then(R);
+then
+var then=function(R);
+
+-via jslint:
+global
+then
+1
+«then»(R)
+parameter
+R
+
