@@ -2270,3 +2270,106 @@ b
     all, catch, resolve, then
 */
 
+-if var b=[U(a);
+then
+var b=[U=function(a)];
+
+-via jslint:
+global
+b
+1
+«U»(a)
+parameter
+a
+
+-if G("RegistrationTimestamp");
+then
+var G=function("RegistrationTimestamp");
+
+-via jslint:
+global
+G
+1
+«G»undefined
+
+-if then(V);
+then
+var then=function(V);
+
+-via jslint:
+global
+then
+1
+«then»(V)
+parameter
+V
+
+-if W();
+then
+var W=function();
+
+-via jslint:
+global
+W
+1
+«W»()
+
+-if X();
+then
+var X=function();
+
+-via jslint:
+global
+X
+1
+«X»()
+
+-if Promise.all(b);
+then
+var Promise=all=function(b);
+
+-via jslint:
+global
+Promise
+1
+«all»(b)
+parameter
+b
+
+-if catch(function();
+then
+var catch(function());
+
+-via jslint:
+«catch»()
+
+-if D("IDToken",a);
+then
+var D=function("IDToken",a);
+
+-via jslint:
+global
+D
+1
+«D»undefined
+
+-if Y();
+then
+var Y=function();
+
+-via jslint:
+global
+Y
+1
+«Y»()
+
+-if return Promise.resolve();
+then
+var Promise=resolve=function();
+
+-via jslint:
+global
+Promise
+1
+«resolve»()
+
