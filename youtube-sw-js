@@ -2624,3 +2624,134 @@ b, c
     all, next, then, value
 */
 
+-if D("RegistrationTimestamp",0);
+then
+var D=function("RegistrationTimestamp",0);
+
+-via jslint:
+global
+D
+1
+«D»undefined
+
+-if Promise.all([Q(),
+then
+var Promise=all=function([Q=function()]);
+
+-via jslint:
+global
+Promise
+1
+«all»undefined
+1
+«Q»()
+
+-if aa();
+then
+var aa=function();
+
+-via jslint:
+global
+aa
+1
+«aa»()
+
+-if ba()]);
+then
+var ba=function([()]);
+
+-via jslint:
+global
+ba
+1
+«ba»undefined
+
+-if var b=p(a);
+then
+var b=p=function(a);
+
+-via jslint:
+global
+b
+1
+«p»(a)
+parameter
+a
+
+-if a=b.next();
+then
+var a=b=next=function();
+
+-via jslint:
+global
+a
+1
+«next»()
+
+-if value;var c=b.next();
+then
+value;var c=b=next=function();
+
+-via jslint:
+global
+c
+1
+«next»()
+
+-if value;b=b.next();
+
+value;var b=b=next=function();
+
+-via jslint:
+global
+b
+1
+«next»()
+
+-if value;c&&(c=B(c));
+then
+value;c&&(c=B=function(c));
+
+-via jslint:
+«B»(c)
+parameter
+c
+
+-if b&&(b=B(b));
+then
+b&&(b=B=function(b));
+
+-via jslint:
+«B»(b)
+parameter
+b
+
+-if Z(a,c,b);
+then
+var Z=function(a,c,b);
+
+-via jslint:
+global
+Z
+1
+«Z»(a, c, b)
+parameter
+a, b, c
+
+-if catch(function();
+then
+var catch=(function());
+
+-via jslint:
+«catch»()
+
+-if Z();
+then
+var Z=function();
+
+-via jslint:
+global
+Z
+1
+«Z»()
+
