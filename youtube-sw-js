@@ -2444,3 +2444,49 @@ b
     reject, resolve, then
 */
 
+-if return G("IDToken");
+then
+var G=function("IDToken");
+
+-via jslint:
+global
+G
+1
+«G»undefined
+
+-if then(function(b);
+then
+var then=(function(b));
+
+-via jslint:
+global
+then
+1
+«then»(b)
+parameter
+b
+
+-if return a==b?;
+then
+It is Error JavaScript Programming.
+
+-if Promise.resolve():
+then
+var Promise=resolve=function();
+
+-via jslint:
+global
+Promise
+1
+«resolve»()
+
+-if Promise.reject();
+then
+var Promise=reject=function();
+
+-via jslint:
+global
+Promise
+1
+«reject»()
+
