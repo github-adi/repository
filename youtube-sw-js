@@ -2388,3 +2388,40 @@ a
     reject, resolve
 */
 
+-if a=a||0;
+then
+var a=a||0;
+
+-via jslint:
+global
+a
+
+-if return 9E7>=z()-a?;
+then
+var 9E7>=z=function();
+
+-via jslint:
+There are no functions.
+
+So -a can't to be runned too.
+
+-if Promise.resolve():
+then
+var Promise=resolve=function():
+
+-via jslint:
+global
+Promise
+1
+«resolve»()
+
+-if Promise.reject()};
+then
+var Promise=reject=function();
+
+-via jslint:
+global
+Promise
+1
+«reject»()
+
