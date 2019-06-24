@@ -2562,3 +2562,46 @@ b
     reject, resolve, then
 */
 
+-if return G("Endpoint");
+then
+var G=function("Endpoint");
+
+-via jslint:
+global
+G
+1
+«G»undefined
+
+-if return Q();
+then
+var Q=function();
+
+-via jslint:
+global
+Q
+1
+«Q»()
+
+-if return a==b?;
+So a==b is Error JavaScript Programming.
+
+-if Promise.resolve():
+then
+var Promise=resolve=function():
+
+-via jslint:
+global
+Promise
+1
+«resolve»()
+
+-if Promise.reject();
+then
+var Promise=reject=function();
+
+-via jslint:
+global
+Promise
+1
+«reject»()
+
