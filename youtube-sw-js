@@ -2492,3 +2492,20 @@ Promise
 1
 «reject»()
 
+-seventy-one saf:
+function W(){return G("Permission").then(function(a){return Notification.permission==a?Promise.resolve():Promise.reject()})};
+
+-via jslint:
+global
+W
+1
+W()
+1
+«then»(a)
+parameter
+a
+
+/*property
+    permission, reject, resolve, then
+*/
+
