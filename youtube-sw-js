@@ -2251,3 +2251,22 @@ close
 1
 «close»()
 
+-sixty-eight saf:
+function T(a){var b=[U(a),G("RegistrationTimestamp").then(V),W(),X()];Promise.all(b).catch(function(){D("IDToken",a);Y();return Promise.resolve()})}
+
+-via jslint:
+global
+T
+1
+T(a)
+parameter
+a
+variable
+b
+1
+«catch»()
+
+/*property
+    all, catch, resolve, then
+*/
+
