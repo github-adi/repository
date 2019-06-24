@@ -2541,3 +2541,24 @@ Promise
 1
 «reject»()
 
+-seventy-two saf:
+function X(){return G("Endpoint").then(function(a){return Q().then(function(b){return a==b?Promise.resolve():Promise.reject()})})}
+
+-via jslint:
+global
+X
+1
+X()
+1
+«then»(a)
+parameter
+a
+1
+«then»(b)
+parameter
+b
+
+/*property
+    reject, resolve, then
+*/
+
