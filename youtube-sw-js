@@ -2166,3 +2166,35 @@ return A(b).then(function(){M(a.display_cap)})}return Promise.resolve()};
     display_cap, then
 */
 
+-if return A(b);
+then
+var A=function(b);
+
+-via jslint:
+global
+A
+1
+«A»(b)
+parameter
+b
+
+-if M(a.display_cap);
+then
+var M=function(a.display_cap);
+
+-via jslint:
+global
+M
+1
+«M»undefined
+
+-if return Promise.resolve()};
+then
+var Promise=resolve=function();
+
+-via jslint:
+global
+Promise
+1
+«resolve»()
+
