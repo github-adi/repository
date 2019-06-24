@@ -2198,3 +2198,22 @@ Promise
 1
 «resolve»()
 
+-sixty-seven saf:
+function M(a){-1!=a&&self.registration.getNotifications().then(function(b){for(var c=0;c<b.length-a;c++)b[c].close()})};
+
+-via jslint:
+global
+M
+1
+M(a)
+parameter
+a
+1
+«then»(b)
+parameter
+b
+
+/*property
+    getNotifications, registration, then
+*/
+
