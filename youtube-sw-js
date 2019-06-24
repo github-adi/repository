@@ -2425,3 +2425,22 @@ Promise
 1
 «reject»()
 
+-seventieth saf:
+function U(a){return G("IDToken").then(function(b){return a==b?Promise.resolve():Promise.reject()})};
+
+-via jslint:
+global
+U
+1
+U(a)
+parameter
+a
+1
+«then»(b)
+parameter
+b
+
+/*property
+    reject, resolve, then
+*/
+
