@@ -1,6 +1,8 @@
 -via DevTools>Application:
 -source:
 https://www.youtube.com/sw.js
+-Runned via Notepad:
+file:///C:/Program%20Files/Notepad++/youtube-sw-js.html
 -2nd saf-via console:
 use strict';
 "use strict"
