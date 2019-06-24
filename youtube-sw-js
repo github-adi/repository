@@ -2509,3 +2509,35 @@ a
     permission, reject, resolve, then
 */
 
+-if return G("Permission");
+then
+var G=function("Permission");
+
+-via jslint:
+global
+G
+1
+«G»undefined
+
+-if return Notification.permission==a?Promise.resolve():
+then
+var Notification=permission==a=Promise=resolve=function():
+
+-via jslint:
+global
+Notification
+1
+«resolve»()
+
+So permission==a is Error JavaScript Programming.
+
+-if Promise.reject();
+then
+var Promise=reject=function();
+
+-via jslint:
+global
+Promise
+1
+«reject»()
+
