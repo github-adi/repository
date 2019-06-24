@@ -2217,3 +2217,37 @@ b
     getNotifications, registration, then
 */
 
+-if -1!=a&&self.registration.getNotifications();
+then
+var -1!=a&&self=registration=getNotifications=function();
+
+-via jslint:
+There are no functions.
+
+-if for(var c=0;c<b.length-a;c++);
+then
+var for=function(var c=0;c<b.length-a;c++);
+
+-via jslint:
+«for»undefined
+
+-if b[c];
+then
+var b=function[c];
+
+-via jslint:
+global
+b
+1
+«b»undefined
+
+-if close();
+then
+var close=function();
+
+-via jslint:
+global
+close
+1
+«close»()
+
