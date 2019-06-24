@@ -2373,3 +2373,18 @@ Promise
 1
 «resolve»()
 
+-sixty-nine saf:
+function V(a){a=a||0;return 9E7>=z()-a?Promise.resolve():Promise.reject()};
+
+-via jslint:
+global
+V
+1
+V(a)
+parameter
+a
+
+/*property
+    reject, resolve
+*/
+
