@@ -2156,3 +2156,13 @@ b
 1
 «push»undefined
 
+-sixty-six saf:
+return A(b).then(function(){M(a.display_cap)})}return Promise.resolve()};
+
+-via jslint:
+«then»()
+
+/*property
+    display_cap, then
+*/
+
