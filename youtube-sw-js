@@ -2605,3 +2605,22 @@ Promise
 1
 «reject»()
 
+-seventy-three saf:
+function Y(){D("RegistrationTimestamp",0);Promise.all([Q(),aa(),ba()]).then(function(a){var b=p(a);a=b.next().value;var c=b.next().value;b=b.next().value;c&&(c=B(c));b&&(b=B(b));Z(a,c,b)}).catch(function(){Z()})}
+
+-via jslint:
+global
+Y
+1
+Y()
+1
+«then»(a)
+parameter
+a
+variable
+b, c
+
+/*property
+    all, next, then, value
+*/
+
