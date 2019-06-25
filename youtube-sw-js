@@ -2863,3 +2863,106 @@ Promise
 1
 «G»undefined
 
+-if G("NotificationsDisabled");
+then
+var G=function("NotificationsDisabled");
+
+-via jslint:
+global
+G
+1
+«G»undefined
+
+-if ca()]);
+then
+var ca=function([()]);
+
+-via jslint:
+global
+ca
+1
+«ca»undefined
+
+-if var k=p(h);
+then
+var k=p=function(h);
+
+-via jslint:
+global
+k
+1
+«p»(h)
+parameter
+h
+
+-if h=k.next().value;
+then
+var h=k=next=function();
+
+-via jslint:
+global
+h
+1
+«next»()
+
+-if var d=k.next().value;
+then
+var d=k=next=function();value;
+
+-via jslint:
+global
+d
+1
+«next»()
+
+-if k=k.next().value;
+then
+var k=k=next=function():value;
+
+-via jslint:
+global
+k
+1
+«next»()
+
+-if h=O(a,h,null,null,d,b,c,k);
+then
+var h=O=function(a,h,null,null,d,b,c,k);
+
+-via jslint:
+global
+h
+1
+«O»(a, h, null, null, d, b, c, k)
+parameter
+a, b, c, d, h, k, null, null
+
+-if fetch("/notifications_ajax?action_register_device=1",{credentials:"include",method:"POST",body:h});
+then
+var fetch=function("/notifications_ajax?action_register_device=1",{credentials:"include",method:"POST",body:h});
+
+-via jslint:
+global
+fetch
+1
+«fetch»undefined
+
+-if then(da);
+then
+var then=function(da);
+
+-via jslint:
+global
+then
+1
+«then»(da)
+parameter
+da
+
+-if catch(function();
+then
+var catch(function());
+
+-via jslint:
+«catch»()
+
