@@ -2783,3 +2783,83 @@ It is True.
 0:a
 It is True.
 
+-if b=void 0===b?null:b;
+then
+b=0
+to be comparisoned:
+0===b
+It is True.
+0=b;
+It is True.
+
+-if c=void 0===c?null:c;
+then
+c=0
+to be comparisoned:
+0===c
+It is True.
+0=c
+It is True.
+
+-if F();
+then
+var F=function();
+ 
+-via jslint:
+ global
+F
+1
+«F»()
+
+-if g&&(D("Endpoint",a);
+then
+function g&&=(=function D("Endpoint",a));
+
+-via jslint:
+global
+g
+1
+gundefined
+
+-if D("P256dhKey",b);
+then
+function g&&(function D("P256dhKey",b));
+
+-via jslint:
+global
+g
+1
+gundefined
+
+-if D("AuthKey",c);
+then
+function g&&(function D("AuthKey",c));
+
+-via jslint:
+global
+g
+1
+gundefined
+
+-if D("Permission",Notification.permission);
+then
+function g&&(function  D("Permission",Notification.permission));
+
+-via jslint:
+global
+g
+1
+gundefined
+
+-if Promise.all([G("DeviceId");
+then
+var Promise=all=function([G=function("DeviceId")]);
+
+-via jslint:
+global
+Promise
+1
+«all»undefined
+1
+«G»undefined
+
