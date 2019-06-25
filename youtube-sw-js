@@ -2983,3 +2983,21 @@ f
     append, id
 */
 
+-if var f=new FormData;
+then
+var f=new FormData;
+
+-via jslint:
+global
+FormData, f
+
+-if a&&f.append("endpoint",a);
+then
+var af=append=function("endpoint",a);
+
+-via jslint:
+global
+af
+1
+«append»undefined
+
