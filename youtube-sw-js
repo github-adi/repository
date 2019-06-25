@@ -2755,3 +2755,22 @@ Z
 1
 «Z»()
 
+-seventy-four saf:
+function Z(a,b,c){a=void 0===a?null:a;b=void 0===b?null:b;c=void 0===c?null:c;F().then(function(g){g&&(D("Endpoint",a),D("P256dhKey",b),D("AuthKey",c),D("Permission",Notification.permission),Promise.all([G("DeviceId"),G("NotificationsDisabled"),ca()]).then(function(h){var k=p(h);h=k.next().value;var d=k.next().value;k=k.next().value;h=O(a,h,null,null,d,b,c,k);fetch("/notifications_ajax?action_register_device=1",{credentials:"include",method:"POST",body:h}).then(da).catch(function(){})}))})}
+
+-via jslint:
+global
+Z
+1
+Z(a, b, c)
+parameter
+a, b, c
+1
+«then»(g)
+parameter
+g
+
+/*property
+    then
+*/
+
