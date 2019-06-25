@@ -3001,3 +3001,33 @@ af
 1
 «append»undefined
 
+-if b&&f.append("device_id",b);
+then
+var bf=append=function("device_id",b);
+
+-via jslint:
+global
+bf
+1
+«append»undefined
+
+-if c&&f.append("timestamp_lower_bound",c);
+then
+var cf=append=function("timestamp_lower_bound",c);
+
+-via jslint:
+global
+cf
+1
+«append»undefined
+
+-if g&&(f.append("notification_id",g.id);
+then
+var g(function f(function append("notification_id",g.id)));
+
+-via jslint:
+global
+g
+1
+fundefined
+
