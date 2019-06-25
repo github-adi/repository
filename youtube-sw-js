@@ -2813,13 +2813,13 @@ F
 
 -if g&&(D("Endpoint",a);
 then
-function g&&=(=function D("Endpoint",a));
+var g=(D=function("Endpoint",a));
 
 -via jslint:
 global
 g
 1
-gundefined
+«D»undefined
 
 -if D("P256dhKey",b);
 then
