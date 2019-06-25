@@ -2774,3 +2774,12 @@ g
     then
 */
 
+-if a=void 0===a?null:a;;
+then
+a=0
+to Comparison:
+0===a
+It is True.
+0:a
+It is True.
+
