@@ -2966,3 +2966,20 @@ var catch(function());
 -via jslint:
 «catch»()
 
+-seventy-five saf:
+function O(a,b,c,g,h,k,d,e){var f=new FormData;a&&f.append("endpoint",a);b&&f.append("device_id",b);c&&f.append("timestamp_lower_bound",c);g&&(f.append("notification_id",g.id),f.append("attribution_tag",g.attributionTag));h&&f.append("notifications_disabled",(!!h).toString());k&&f.append("p256dh_key",k);d&&f.append("auth_key",d);e&&f.append("registration_token",e);f.append("permission",Notification.permission);return f}
+
+-via jslint:
+global
+O
+1
+O(a, b, c, g, h, k, d, e)
+parameter
+a, b, c, d, e, g, h, k
+variable
+f
+
+/*property
+    append, id
+*/
+
