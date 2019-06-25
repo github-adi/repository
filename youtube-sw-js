@@ -3031,3 +3031,73 @@ g
 1
 fundefined
 
+-if f.append("attribution_tag",g.attributionTag));
+then
+var f=append=function("attribution_tag",g.attributionTag);
+
+-via jslint:
+global
+f
+1
+«append»undefined
+
+-if h&&f.append("notifications_disabled",(!!h).toString());
+then
+var hf=append=function("notifications_disabled",(!!h).toString());
+
+-via jslint:
+global
+hf
+1
+«append»undefined
+
+-if k&&f.append("p256dh_key",k);
+then
+var kf=append=function("p256dh_key",k);
+
+-via jslint:
+global
+kf
+1
+«append»undefined
+
+-if d&&f.append("auth_key",d);
+then
+var df=append=function("auth_key",d);
+
+-via jslint:
+global
+df
+1
+«append»undefined
+
+-if e&&f.append("registration_token",e);
+then
+var ef=append=function("registration_token",e);
+
+-via jslint:
+global
+ef
+1
+«append»undefined
+
+-if f.append("permission",Notification.permission);
+then
+var f=append=function("permission",Notification.permission);
+
+-via jslint:
+global
+f
+1
+«append»undefined
+
+-if return f;
+then
+var f=function();
+
+-via jslint:
+global
+f
+1
+«f»()
+
