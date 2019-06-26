@@ -3474,3 +3474,13 @@ L(a)
 parameter
 a
 
+-if D("TimestampLowerBound",a)};
+then
+var D=function("TimestampLowerBound",a);
+
+-via jslint:
+global
+D
+1
+«D»undefined
+
