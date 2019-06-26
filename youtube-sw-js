@@ -3484,3 +3484,17 @@ D
 1
 «D»undefined
 
+-eighty-two saf:
+self.oninstall=function(a){a.waitUntil(self.skipWaiting())};
+then
+self.oninstall=function(a){a.waitUntil(self.skipWaiting())};
+
+-via jslint:
+«oninstall»(a)
+parameter
+a
+
+/*property
+    oninstall, skipWaiting, waitUntil
+*/
+
