@@ -3508,3 +3508,15 @@ a
 1
 «waitUntil»undefined
 
+-eighty-three saf:
+self.onactivate=function(a){a.waitUntil(self.clients.claim())};
+
+-via jslint:
+«onactivate»(a)
+parameter
+a
+
+/*property
+    claim, clients, onactivate, waitUntil
+*/
+
