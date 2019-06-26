@@ -3306,4 +3306,20 @@ Promise
 parameter
 null
  
- 
+-seventy-nine saf:
+function ba(){return self.registration.pushManager.getSubscription().then(function(a){return a&&a.getKey?Promise.resolve(a.getKey("auth")):Promise.resolve(null)})}
+
+-via jslint:
+global
+ba
+1
+ba()
+1
+«then»(a)
+parameter
+a
+
+/*property
+    getKey, getSubscription, pushManager, registration, resolve, then
+*/
+
