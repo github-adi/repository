@@ -3463,3 +3463,14 @@ var catch(function());
 -via jslint:
 «catch»()
 
+-eighty-one saf:
+function L(a){D("TimestampLowerBound",a)};
+
+-via jslint:
+global
+L
+1
+L(a)
+parameter
+a
+
