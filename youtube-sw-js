@@ -3369,3 +3369,29 @@ Promise
 parameter
 null
 
+-eightieth saf:
+function ca(){return fetch("/notifications_ajax?action_get_registration_token=1",{credentials:"include",method:"POST"}).then(function(a){if(a.ok)return a.json().then(function(b){return b.registration_token}).catch(function(){})})}
+
+-via jslint:
+global
+ca
+1
+ca()
+1
+«then»(a)
+parameter
+a
+
+global
+ca
+1
+ca()
+1
+«then»(a)
+parameter
+a
+
+/*property
+    credentials, method, ok, then
+*/
+
