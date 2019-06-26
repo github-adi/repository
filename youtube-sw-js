@@ -3498,3 +3498,13 @@ a
     oninstall, skipWaiting, waitUntil
 */
 
+-if a.waitUntil(self.skipWaiting();
+then
+var a=waitUntil=function(self.skipWaiting());
+
+-via jslint:
+global
+a
+1
+«waitUntil»undefined
+
