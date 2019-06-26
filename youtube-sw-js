@@ -3323,3 +3323,49 @@ a
     getKey, getSubscription, pushManager, registration, resolve, then
 */
 
+-if return self.registration.pushManager.getSubscription();
+then
+var self(registration(pushManager(getSubscription(function()))));
+
+-via jslint:
+global
+self
+1
+«getSubscription»()
+
+-if then(function(a);
+then
+var then(function(a));
+
+-via jslint:
+global
+then
+1
+«then»(a)
+parameter
+a
+
+-if return a&&a.getKey?Promise.resolve(a.getKey("auth"));
+then
+var aa(Promise(resolve(function(a.getKey("auth"))))):
+
+-via jslint:
+global
+aa
+1
+«resolve»undefined
+
+So getKey is a Parameter that undefined.
+
+-if Promise.resolve(null);
+then
+var Promise=resolve=function(null);
+
+-via jslint:
+global
+Promise
+1
+«resolve»(null)
+parameter
+null
+
