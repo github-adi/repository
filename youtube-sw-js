@@ -3258,3 +3258,52 @@ a
     getKey, getSubscription, pushManager, registration, resolve, then
 */
 
+-if return self.registration.pushManager.getSubscription();
+then
+var self=function registration(pushManager,getSubscription);
+
+-via jslint:
+global
+self
+1
+registration(pushManager, getSubscription)
+parameter
+getSubscription, pushManager
+
+-if then(function(a);
+then
+var then(function(a));
+
+-via jslint:
+global
+then
+1
+«then»(a)
+parameter
+a
+
+-if return a&&a.getKey?Promise.resolve(a.getKey("p256dh"));
+then
+var aa=function resolve(a.getKey("p256dh"),Promise):
+
+-via jslint:
+global
+aa
+1
+resolveundefined
+
+So getKey is returned undefined.
+
+-if Promise.resolve(null);
+then
+var Promise=resolve=function(null);
+ 
+-via jslint:
+global
+Promise
+1
+«resolve»(null)
+parameter
+null
+ 
+ 
