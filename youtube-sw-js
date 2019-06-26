@@ -3520,3 +3520,15 @@ a
     claim, clients, onactivate, waitUntil
 */
 
+-if a.waitUntil(self.clients.claim();
+then
+var a=waitUntil=function(self=clients=claim=function());
+
+-via jslint:
+global
+a
+1
+«waitUntil»undefined
+1
+«claim»()
+
