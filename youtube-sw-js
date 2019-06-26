@@ -3532,3 +3532,17 @@ a
 1
 «claim»()
 
+-eighty-four saf:
+self.onmessage=function(a){var b=a.data;a=b.type;b=b.data;"notifications_register"==a?(D("IDToken",b),Y()):"notifications_check_registration"==a&&T(b)};
+
+-via jslint:
+«onmessage»(a)
+parameter
+a
+variable
+b
+
+/*property
+    data, onmessage, type
+*/
+
