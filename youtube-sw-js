@@ -3173,7 +3173,7 @@ b
 
 -if catch(function();
 then
-catch(function();
+var catch=(function());
 
 -via jslint:
 «catch»()
