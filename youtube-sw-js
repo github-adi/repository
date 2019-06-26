@@ -3101,3 +3101,24 @@ f
 1
 «f»()
 
+-seventy-six-saf:
+function da(a){D("RegistrationTimestamp",z());a.ok&&a.json().then(function(b){b.ts&&L(b.ts);b.device_id&&D("DeviceId",b.device_id)}).catch(function(){})}
+
+-via jslint:
+global
+da
+1
+da(a)
+parameter
+a
+1
+«then»(b)
+parameter
+b
+1
+«catch»()
+
+/*property
+    catch, device_id, json, ok, then, ts
+*/ 
+
