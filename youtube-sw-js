@@ -3178,3 +3178,20 @@ var catch=(function());
 -via jslint:
 «catch»()
 
+-seventy-seven saf:
+function Q(){return self.registration.pushManager.getSubscription().then(function(a){return a?Promise.resolve(a.endpoint):Promise.resolve(null)})}
+
+-via jslint:
+global
+Q
+1
+Q()
+1
+«then»(a)
+parameter
+a
+
+/*property
+    endpoint, getSubscription, pushManager, registration, resolve, then
+*/
+
