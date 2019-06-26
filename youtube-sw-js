@@ -3241,3 +3241,20 @@ Promise
 parameter
 null
 
+-seventy-eight saf:
+function aa(){return self.registration.pushManager.getSubscription().then(function(a){return a&&a.getKey?Promise.resolve(a.getKey("p256dh")):Promise.resolve(null)})}
+
+-via jslint:
+global
+aa
+1
+aa()
+1
+«then»(a)
+parameter
+a
+
+/*property
+    getKey, getSubscription, pushManager, registration, resolve, then
+*/
+
