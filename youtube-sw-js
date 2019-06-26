@@ -3607,3 +3607,17 @@ then
 parameter
 b
 
+-eighty-five saf:
+self.onnotificationclick=function(a){a.notification.close();var b=a.notification.data,c=self.clients.matchAll({type:"window",includeUncontrolled:!0});c.then(function(g){a:{var h=b.nav;g=p(g);for(var k=g.next();!k.done;k=g.next())if(k=k.value,k.url==h){k.focus();break a}self.clients.openWindow(h)}});
+
+-via jslint:
+«onnotificationclick»(a)
+parameter
+a
+variable
+b
+
+/*property
+    close, data, notification, onnotificationclick
+*/
+
