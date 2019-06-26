@@ -3122,3 +3122,59 @@ b
     catch, device_id, json, ok, then, ts
 */ 
 
+-if D("RegistrationTimestamp",z());
+then
+var D=function("RegistrationTimestamp"(var z=function()));
+
+-via jslint:
+global
+D
+1
+«D»undefined
+
+-if a.ok&&a.json();
+then
+var a=oka=json=function();
+
+-via jslint:
+global
+a
+1
+«json»()
+
+-if then(function(b);
+then
+then(function(b));
+
+-via jslint:
+«then»(b)
+parameter
+b
+
+-if b.ts&&L(b.ts);
+then
+var b=tsL=function(b.ts);
+
+-via jslint:
+global
+b
+1
+«tsL»undefined
+
+-if b.device_id&&D("DeviceId",b.device_id)});
+then
+var b=device_idD=function("DeviceId",b.device_id);
+
+-via jslint:
+global
+b
+1
+«device_idD»undefined
+
+-if catch(function();
+then
+catch(function();
+
+-via jslint:
+«catch»()
+
