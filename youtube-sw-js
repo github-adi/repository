@@ -3395,3 +3395,71 @@ a
     credentials, method, ok, then
 */
 
+-if return fetch("/notifications_ajax?action_get_registration_token=1",{credentials:"include",method:"POST"});
+then
+var fetch=function("/notifications_ajax?action_get_registration_token=1",{credentials:"include",method:"POST"});
+
+-via jslint:
+global
+fetch
+1
+«fetch»undefined
+
+-if then(function(a);
+then
+var then(function(a));
+
+-via jslint:
+global
+then
+1
+«then»(a)
+parameter
+a
+
+-if if(a.ok);
+then
+var if=function(a.ok);
+
+-via jslint:
+«if»undefined
+
+-if return a.json();
+then
+var a=json=function();
+
+-via jslint:
+global
+a
+1
+«json»()
+
+-if then(function(b);
+then
+var then(function(b));
+
+-via jslint:
+global
+then
+1
+«then»(b)
+parameter
+b
+
+-if return b.registration_token});
+then
+var b=registration_token=function();
+
+-via jslint:
+global
+b
+1
+«registration_token»()
+
+-if catch(function();
+then
+var catch(function());
+
+-via jslint:
+«catch»()
+
