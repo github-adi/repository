@@ -3660,3 +3660,90 @@ c
     clients, matchAll, type
 */
 
+-if c.then(function(g);
+then
+var c=then(function(g));
+
+-via jslint:
+global
+c
+1
+«then»(g)
+parameter
+g
+
+-if a:{var h=b.nav;g=p(g);
+then
+var h=b.nav=function(g);
+
+-via jslint:
+global
+h
+1
+«nav»(g)
+parameter
+g
+
+then
+var g=p=function(g);
+
+-via jslint:
+global
+g
+1
+«p»(g)
+parameter
+g
+
+-if for(var k=g.next();
+then
+var k=g.next=function();
+
+-via jslint:
+global
+k
+1
+«next»()
+
+/*property
+    next
+*/
+
+-if !k.done;k=g.next();
+then
+var k=g.next.k.done=function();
+
+-via jslint:
+global
+k
+1
+«done»()
+
+/*property
+    done, k, next
+*/
+
+-then
+var k=k.value.k.focus=function();
+
+-via jslint:
+global
+k
+1
+«focus»()
+
+/*property
+    focus, k, value
+*/
+
+-if k.url==h;
+So must be h==k.url
+
+-then
+var k=g.self.clients.openWindow=function(h);
+
+-via jslint:
+/*property
+    clients, openWindow, self
+*/
+
