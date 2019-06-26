@@ -3546,3 +3546,64 @@ b
     data, onmessage, type
 */
 
+-if var b=a.data;
+then
+var b=a=data=function();
+
+-via jslint:
+global
+b
+1
+«data»()
+
+-if a=b.type;
+then
+var a=b=type=function();
+
+-via jslint:
+global
+a
+1
+«type»()
+
+if b=b.data;
+then
+var b=b=data=function();
+
+-via jslint:
+global
+b
+1
+«data»()
+
+-if "notifications_register"==a?
+then
+It is Error JavaScript Programming.
+Must be debugged a=="notifications_register"
+
+-if (D("IDToken",b);
+then
+(D=function("IDToken",b));
+
+-via jslint:
+«D»undefined
+
+-if Y();
+then
+var Y=function();
+
+-via jslint:
+global
+Y
+1
+«Y»()
+
+-if "notifications_check_registration"==a&&T(b)};
+then
+"notifications_check_registration"==aT=function(b);
+
+-via jslint:
+«aT»(b)
+parameter
+b
+
