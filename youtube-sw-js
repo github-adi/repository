@@ -3621,3 +3621,42 @@ b
     close, data, notification, onnotificationclick
 */
 
+-if a.notification.close();
+then
+var a=close=function(notification);
+
+-via jslint:
+global
+a
+1
+«close»(notification)
+parameter
+notification
+
+-if var b=a.notification.data,c=self.clients.matchAll({type:"window",includeUncontrolled:!0});
+then
+var b=a.notification.data=function({type:"window",includeUncontrolled:!0});
+
+-via jslint:
+global
+b
+1
+«data»undefined
+
+/*property
+    data, notification, type
+*/
+
+then
+var c=self.clients.matchAll=function({type:"window",includeUncontrolled:!0});
+
+-via jslint:
+global
+c
+1
+«matchAll»undefined
+
+/*property
+    clients, matchAll, type
+*/
+
