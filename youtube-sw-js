@@ -3755,3 +3755,29 @@ a.waitUntil(c);a.waitUntil(N(b))};
     waitUntil
 */
 
+-if a.waitUntil(c);
+then
+var a=waitUntil=function(c);
+
+-via jslint:
+global
+a
+1
+«waitUntil»(c)
+parameter
+c
+
+-if a.waitUntil(N(b);
+then
+var a=waitUntil=function(N=function(b));
+
+-via jslint:
+global
+a
+1
+«waitUntil»undefined
+1
+«N»(b)
+parameter
+b
+
