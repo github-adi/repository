@@ -3914,3 +3914,16 @@ P
 1
 «P»()
 
+-eighty-eighth saf:
+a.waitUntil(I())};
+then
+var a=waitUntil=function(I=function());
+
+-via jslint:
+global
+a
+1
+«waitUntil»undefined
+1
+«I»()
+
