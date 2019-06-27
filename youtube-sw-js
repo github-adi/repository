@@ -3747,3 +3747,11 @@ var k=g.self.clients.openWindow=function(h);
     clients, openWindow, self
 */
 
+-eighty-six saf:
+a.waitUntil(c);a.waitUntil(N(b))};
+
+-via jslint:
+/*property
+    waitUntil
+*/
+
