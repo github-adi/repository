@@ -3781,3 +3781,19 @@ a
 parameter
 b
 
+-eighty-sevenrh saf:
+self.onpush=function(a){a.waitUntil(G("NotificationsDisabled").then(function(b){if(b)return Promise.resolve();if(a.data&&a.data.text().length)try{return J(a.data.json())}catch(c){return Promise.resolve(c.message)}return P()}));
+
+-via jslint:
+«onpush»(a)
+parameter
+a
+1
+«then»(b)
+parameter
+b
+
+/*property
+    onpush, then, waitUntil
+*/
+
