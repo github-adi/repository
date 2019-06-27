@@ -3797,3 +3797,120 @@ b
     onpush, then, waitUntil
 */
 
+-if self.onpush=function(a);
+then
+var self=onpush=function(a);
+
+-via jslint:
+global
+self
+1
+«onpush»(a)
+parameter
+a
+
+-if a.waitUntil(G("NotificationsDisabled");
+then
+var a=waitUntil(G=function("NotificationsDisabled"));
+
+-via jslint:
+global
+a
+1
+«G»undefined
+
+-if then(function(b);
+then
+var then(function(b));
+
+-via jslint:
+global
+then
+1
+«then»(b)
+parameter
+b
+
+-if if(b);
+then
+var if=function(b);
+
+-via jslint:
+«if»(b)
+parameter
+b
+
+-if return Promise.resolve();
+then
+var Promise=resolve=function();
+
+-via jslint:
+global
+Promise
+1
+«resolve»()
+
+-if if(a.data&&a.data.text();
+then
+var if=function(a.dataa.data.text=function());
+
+-via jslint:
+«if»undefined
+
+-if if(a.data&&a.data.text().length)
+then
+var b=a.dataa.data.text.length=function();
+
+-via jslint:
+global
+b
+1
+«length»()
+
+/*property
+    data, dataa, length, text
+*/
+
+-if try{return J(a.data.json())};
+then
+var J=a.data.json=function();
+
+-via jslint:
+global
+J
+1
+«json»()
+
+/*property
+    data, json
+*/
+
+-if catch(c);
+then
+var catch=function(c);
+
+-via jslint:
+«catch»(c)
+parameter
+c
+
+-if return Promise.resolve(c.message);
+then
+var Promise=resolve=function(c.message);
+
+-via jslint:
+global
+Promise
+1
+«resolve»undefined
+
+-if return P();
+then
+var P=function();
+
+-via jslint:
+global
+P
+1
+«P»()
+
