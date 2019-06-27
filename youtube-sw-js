@@ -3927,3 +3927,13 @@ a
 1
 «I»()
 
+-eighth-nine saf:
+self.onpushsubscriptionchange=function(){Y()};
+
+-via jslint:
+«onpushsubscriptionchange»()
+
+/*property
+    onpushsubscriptionchange
+*/
+
