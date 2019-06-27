@@ -3937,3 +3937,23 @@ self.onpushsubscriptionchange=function(){Y()};
     onpushsubscriptionchange
 */
 
+-if self.onpushsubscriptionchange=function();
+then
+var self=onpushsubscriptionchange=function();
+
+-via jslint:
+global
+self
+1
+«onpushsubscriptionchange»()
+
+-if Y();
+then
+var Y=function();
+
+-via jslint:
+global
+Y
+1
+«Y»()
+
