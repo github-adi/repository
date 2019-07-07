@@ -1,0 +1,61 @@
+-Source:
+https://www.facebook.com/ajax/bz
+
+-Returned via DevTools:
+-Preview:
+for (;;);{__ar: 1, payload: null, bootloadable: {}, ixData: {}, bxData: {}, gkxData: {}, qexData: {},…}
+bootloadable: {}
+bxData: {}
+gkxData: {}
+ixData: {}
+lid: "6710907904994317918"
+payload: null
+qexData: {}
+__ar: 1
+
+-HEADERS:
+Request URL: https://www.facebook.com/ajax/bz
+Request Method: POST
+Status Code: 200 
+Remote Address: 157.240.25.35:443
+Referrer Policy: origin-when-cross-origin
+access-control-allow-credentials: true
+access-control-allow-methods: OPTIONS
+access-control-allow-origin: https://www.facebook.com
+access-control-expose-headers: X-FB-Debug, X-Loader-Length
+cache-control: private, no-cache, no-store, must-revalidate
+content-encoding: br
+content-type: application/x-javascript; charset=utf-8
+date: Sun, 07 Jul 2019 13:10:07 GMT
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+pragma: no-cache
+status: 200
+strict-transport-security: max-age=15552000; preload
+vary: Origin, Accept-Encoding
+x-content-type-options: nosniff
+x-fb-debug: J5Ung44rwi0UZFaJN2q99oyglrO9BqHmkEz05gexMGuZuKXVOBRhiNf/GcV4XE8tauntEThYnDYeL8qBB7a6fA==
+x-frame-options: DENY
+Provisional headers are shown
+Content-Type: application/x-www-form-urlencoded
+Origin: https://www.facebook.com
+Referer: https://www.facebook.com/plugins/feedback.php?app_id=706784402717449&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Dfd238b088437cc%26domain%3Dwww.dream.co.id%26origin%3Dhttps%253A%252F%252Fwww.dream.co.id%252Ff29a213396ddcc4%26relation%3Dparent.parent&color_scheme=light&container_width=0&height=100&href=https%3A%2F%2Fwww.dream.co.id%2Fshowbiz%2Ftak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html&locale=en_US&numposts=3&sdk=joey&version=v3.3&width=600
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+__a: 1
+__be: 1
+__dyn: 7xe6EgU4e3W3mbx679p63m1FwAxu13wKxK3m8zEdEc8uK16w921bwOw-wpUe8hw8C1rw5VCwjE2-yU5C1wxO2u0IobEa84u784e0GU6W26V8y1vw4Ugao421lw4Nw
+__pc: PHASED:plugin_feedback_pkg
+__req: 2
+__rev: 1000915224
+__s: :woj0c1:uwwhs1
+__sp: 1
+__user: 1525467741
+dpr: 1
+fb_dtsg: AQGbvTUDeswb:AQEQTP00xZkm
+jazoest: 22143
+locale: en_US
+ph: C3
+q: [{"user":"1525467741","page_id":"uwwhs1","posts":[["gk2_exposure",{"identifier":"946894","hash":"AT4GpegMFDlEDgat"},1562504948680.1,0],["require_cond_exposure_logging",{"identifier":"Aa3PD23okLd_kse2QEoV1M8nGTcitovmebeYaHkSb9mlM266ldc13Z0040rnxYjdWEHlkZD1DiIcVb-mR8DFzkpoycQ"},1562504948680.62,0]],"trigger":"gk2_exposure","send_method":"ajax"}]
+ts: 1562505008677
+
+-Response:
+for (;;);{"__ar":1,"payload":null,"bootloadable":{},"ixData":{},"bxData":{},"gkxData":{},"qexData":{},"lid":"6710907904994317918"}
