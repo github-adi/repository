@@ -1,0 +1,36 @@
+-Source: 
+https://cdns.klimg.com/a.dream.co.id/assets/js/v.0.81/dream_new.js
+-Saf 5:
+m.fn.extend({hover:function(a,b){return this.mouseenter(a).mouseleave(b||a)},
+
+-Network:
+-HEADERS:
+Request URL: https://app.dream.co.id/sosial/fb/
+Request Method: POST
+Status Code: 200 
+Remote Address: 103.6.0.15:443
+Referrer Policy: no-referrer-when-downgrade
+access-control-allow-origin: *
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+content-length: 0
+content-type: text/html
+date: Mon, 08 Jul 2019 11:11:54 GMT
+expires: Mon, 08 Jul 2019 11:26:53 GMT
+pragma: no-cache
+server: nginx
+status: 200
+vary: Accept-Encoding,User-Agent
+x-content-type-options: nosniff
+Provisional headers are shown
+Accept: */*
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: https://www.dream.co.id
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+fbtotal: 
+fblike: 2014
+fbcomment: 237
+fbshare: 140
+fbcommentsbox: 
+url: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+
