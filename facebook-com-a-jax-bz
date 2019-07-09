@@ -1,0 +1,317 @@
+-Source:
+https://www.facebook.com/ajax/bz
+
+-Returned via DevTools:
+-Preview:
+
+for (;;);{__ar: 1, payload: null,…}
+bootloadable: {BanzaiODS: {r: ["gH/8j", "QIUF4"], rds: {m: ["BanzaiODS", "BanzaiScuba"]}},…}
+Banzai: {r: ["gH/8j", "QIUF4"], rds: {m: ["BanzaiODS", "BanzaiScuba"]}, be: 1}
+be: 1
+r: ["gH/8j", "QIUF4"]
+0: "gH/8j"
+1: "QIUF4"
+rds: {m: ["BanzaiODS", "BanzaiScuba"]}
+m: ["BanzaiODS", "BanzaiScuba"]
+0: "BanzaiODS"
+1: "BanzaiScuba"
+BanzaiODS: {r: ["gH/8j", "QIUF4"], rds: {m: ["BanzaiODS", "BanzaiScuba"]}}
+r: ["gH/8j", "QIUF4"]
+0: "gH/8j"
+1: "QIUF4"
+rds: {m: ["BanzaiODS", "BanzaiScuba"]}
+m: ["BanzaiODS", "BanzaiScuba"]
+0: "BanzaiODS"
+1: "BanzaiScuba"
+BanzaiScuba: {r: ["gH/8j", "QIUF4"], rds: {m: ["BanzaiODS", "BanzaiScuba"]}}
+r: ["gH/8j", "QIUF4"]
+0: "gH/8j"
+1: "QIUF4"
+rds: {m: ["BanzaiODS", "BanzaiScuba"]}
+m: ["BanzaiODS", "BanzaiScuba"]
+0: "BanzaiODS"
+1: "BanzaiScuba"
+BanzaiStream: {r: ["gH/8j", "ZU1ro", "QIUF4"], rds: {m: ["BanzaiODS", "BanzaiScuba"]}, be: 1}
+be: 1
+r: ["gH/8j", "ZU1ro", "QIUF4"]
+0: "gH/8j"
+1: "ZU1ro"
+2: "QIUF4"
+rds: {m: ["BanzaiODS", "BanzaiScuba"]}
+m: ["BanzaiODS", "BanzaiScuba"]
+0: "BanzaiODS"
+1: "BanzaiScuba"
+PerfXSharedFields: {r: ["gH/8j"], be: 1}
+be: 1
+r: ["gH/8j"]
+0: "gH/8j"
+ResourceTimingBootloaderHelper: {r: ["gH/8j"], rds: {m: ["BanzaiODS", "VisualCompletionGating", "BanzaiScuba"], r: ["QIUF4"]}, be: 1}
+be: 1
+r: ["gH/8j"]
+0: "gH/8j"
+rds: {m: ["BanzaiODS", "VisualCompletionGating", "BanzaiScuba"], r: ["QIUF4"]}
+m: ["BanzaiODS", "VisualCompletionGating", "BanzaiScuba"]
+0: "BanzaiODS"
+1: "VisualCompletionGating"
+2: "BanzaiScuba"
+r: ["QIUF4"]
+0: "QIUF4"
+SnappyCompressUtil: {r: ["gH/8j"], be: 1}
+be: 1
+r: ["gH/8j"]
+0: "gH/8j"
+TimeSliceHelper: {r: ["32Pm3", "fRSWM"], be: 1}
+be: 1
+r: ["32Pm3", "fRSWM"]
+0: "32Pm3"
+1: "fRSWM"
+TimeSliceInteractionsLiteTypedLogger: {r: ["gH/8j", "IY90i", "ZN6iu", "QIUF4"], rds: {m: ["BanzaiODS", "BanzaiScuba"]}, be: 1}
+be: 1
+r: ["gH/8j", "IY90i", "ZN6iu", "QIUF4"]
+0: "gH/8j"
+1: "IY90i"
+2: "ZN6iu"
+3: "QIUF4"
+rds: {m: ["BanzaiODS", "BanzaiScuba"]}
+m: ["BanzaiODS", "BanzaiScuba"]
+0: "BanzaiODS"
+1: "BanzaiScuba"
+WebSpeedInteractionsTypedLogger: {r: ["gH/8j", "IY90i", "WwS8Y", "QIUF4"], rds: {m: ["BanzaiODS", "BanzaiScuba"]}, be: 1}
+be: 1
+r: ["gH/8j", "IY90i", "WwS8Y", "QIUF4"]
+0: "gH/8j"
+1: "IY90i"
+2: "WwS8Y"
+3: "QIUF4"
+rds: {m: ["BanzaiODS", "BanzaiScuba"]}
+m: ["BanzaiODS", "BanzaiScuba"]
+0: "BanzaiODS"
+1: "BanzaiScuba"
+bxData: {}
+css: ["GB7L9"]
+0: "GB7L9"
+gkxData: {676837: {result: false, hash: "AT5e4wMPJpowrfKP"}, 849406: {result: false, hash: "AT4W3lWhLf9sl22l"},…}
+676837: {result: false, hash: "AT5e4wMPJpowrfKP"}
+hash: "AT5e4wMPJpowrfKP"
+result: false
+849406: {result: false, hash: "AT4W3lWhLf9sl22l"}
+hash: "AT4W3lWhLf9sl22l"
+result: false
+946894: {result: false, hash: "AT4GpegMFDlEDgat"}
+hash: "AT4GpegMFDlEDgat"
+result: false
+ixData: {}
+js: ["gH/8j", "6grXX", "QIUF4"]
+0: "gH/8j"
+1: "6grXX"
+2: "QIUF4"
+jsmods: {require: [["TuringClientSignalCollectionTrigger", "startStaticSignalCollection", [],…],…],…}
+define: [["cr:682513", ["BanzaiOriginal"], {__rc: ["BanzaiOriginal",…]}, -1],…]
+0: ["cr:682513", ["BanzaiOriginal"], {__rc: ["BanzaiOriginal",…]}, -1]
+0: "cr:682513"
+1: ["BanzaiOriginal"]
+0: "BanzaiOriginal"
+2: {__rc: ["BanzaiOriginal",…]}
+__rc: ["BanzaiOriginal",…]
+0: "BanzaiOriginal"
+1: "Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"
+3: -1
+1: ["cr:717822", ["TimeSliceImpl"], {__rc: ["TimeSliceImpl",…]}, -1]
+0: "cr:717822"
+1: ["TimeSliceImpl"]
+0: "TimeSliceImpl"
+2: {__rc: ["TimeSliceImpl",…]}
+__rc: ["TimeSliceImpl",…]
+3: -1
+2: ["cr:986633", ["setTimeoutAcrossTransitionsBlue"], {__rc: ["setTimeoutAcrossTransitionsBlue",…]}, -1]
+0: "cr:986633"
+1: ["setTimeoutAcrossTransitionsBlue"]
+0: "setTimeoutAcrossTransitionsBlue"
+2: {__rc: ["setTimeoutAcrossTransitionsBlue",…]}
+__rc: ["setTimeoutAcrossTransitionsBlue",…]
+3: -1
+3: ["cr:708886", ["EventProfilerImpl"], {__rc: ["EventProfilerImpl",…]}, -1]
+0: "cr:708886"
+1: ["EventProfilerImpl"]
+0: "EventProfilerImpl"
+2: {__rc: ["EventProfilerImpl",…]}
+__rc: ["EventProfilerImpl",…]
+3: -1
+4: ["cr:696703", [], {,…}, -1]
+0: "cr:696703"
+1: []
+2: {,…}
+__rc: [null, "Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"]
+3: -1
+5: ["cr:682174", ["BanzaiNew"], {,…}, -1]
+0: "cr:682174"
+1: ["BanzaiNew"]
+0: "BanzaiNew"
+2: {,…}
+3: -1
+6: ["cr:806696", ["clearTimeoutBlue"], {__rc: ["clearTimeoutBlue",…]}, -1]
+0: "cr:806696"
+1: ["clearTimeoutBlue"]
+0: "clearTimeoutBlue"
+2: {__rc: ["clearTimeoutBlue",…]}
+__rc: ["clearTimeoutBlue",…]
+0: "clearTimeoutBlue"
+1: "Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"
+3: -1
+7: ["cr:925100", ["RunBlue"], {,…}, -1]
+0: "cr:925100"
+1: ["RunBlue"]
+0: "RunBlue"
+2: {,…}
+__rc: ["RunBlue", "Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"]
+0: "RunBlue"
+1: "Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"
+3: -1
+8: ["cr:695720", ["SnappyCompressUtil"], {__rc: ["SnappyCompressUtil",…]}, -1]
+0: "cr:695720"
+1: ["SnappyCompressUtil"]
+0: "SnappyCompressUtil"
+2: {__rc: ["SnappyCompressUtil",…]}
+__rc: ["SnappyCompressUtil",…]
+0: "SnappyCompressUtil"
+1: "Aa2nJgHVDrPq8oebBkgGDeZwtoVz8HS5PjlAeYiIghOJOlGQ2IqBcqLHEYcDKdHzZHspMRlfthINqo4J80jEypn-AO4"
+3: -1
+9: ["cr:692209", ["cancelIdleCallbackBlue"], {__rc: ["cancelIdleCallbackBlue",…]}, -1]
+0: "cr:692209"
+1: ["cancelIdleCallbackBlue"]
+0: "cancelIdleCallbackBlue"
+2: {__rc: ["cancelIdleCallbackBlue",…]}
+__rc: ["cancelIdleCallbackBlue",…]
+0: "cancelIdleCallbackBlue"
+1: "Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"
+3: -1
+require: [["TuringClientSignalCollectionTrigger", "startStaticSignalCollection", [],…],…]
+0: ["TuringClientSignalCollectionTrigger", "startStaticSignalCollection", [],…]
+0: "TuringClientSignalCollectionTrigger"
+1: "startStaticSignalCollection"
+2: []
+3: [{signalsToCollect: [30000, 30001, 30003, 30004, 30005, 30002, 30007, 30008, 30009]}]
+0: {signalsToCollect: [30000, 30001, 30003, 30004, 30005, 30002, 30007, 30008, 30009]}
+signalsToCollect: [30000, 30001, 30003, 30004, 30005, 30002, 30007, 30008, 30009]
+0: 30000
+1: 30001
+2: 30003
+3: 30004
+4: 30005
+5: 30002
+6: 30007
+7: 30008
+8: 30009
+1: ["TuringClientSignalCollectionTrigger", "retrieveSignals", [],…]
+0: "TuringClientSignalCollectionTrigger"
+1: "retrieveSignals"
+2: []
+3: [{requestSignals: [30000, 30001, 30003, 30004, 30005, 30002, 30007, 30008, 30009]}]
+0: {requestSignals: [30000, 30001, 30003, 30004, 30005, 30002, 30007, 30008, 30009]}
+requestSignals: [30000, 30001, 30003, 30004, 30005, 30002, 30007, 30008, 30009]
+0: 30000
+1: 30001
+2: 30003
+3: 30004
+4: 30005
+5: 30002
+6: 30007
+7: 30008
+8: 30009
+2: ["BanzaiODS"]
+0: "BanzaiODS"
+3: ["BanzaiScuba"]
+0: "BanzaiScuba"
+lid: "6711542911928541831"
+payload: null
+qexData: {}
+resource_map: {gH/8j: {type: "js",…}, QIUF4: {type: "js",…}, ZU1ro: {type: "js",…}, 32Pm3: {type: "js",…},…}
+6grXX: {type: "js",…}
+crossOrigin: 1
+src: "https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/3sfSl43uCxO.js?_nc_eui2=AeEvwslEYx2DjFTt12sReNVonWnDBUB8HjTP-8YlqEjKX47KqJNqGuxP_Ghv0yXncCJWKKZT3w2_EOWKiVhh0nc-Zo7O149wgNqgIOtBUfsTvw"
+type: "js"
+32Pm3: {type: "js",…}
+crossOrigin: 1
+src: "https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/hTT5_v0w2cY.js?_nc_eui2=AeFX5yFAUCVdDfF1uMBnGYl2MVAitY8jxVcvpZvyK72OBna1iT2KNyQAYl5uGIRfukWp1aEtp44HHiZBDBcJT-GO1vt9Z_21oFepRP2tcZipRA"
+type: "js"
+GB7L9: {type: "css",…}
+crossOrigin: 1
+src: "https://static.xx.fbcdn.net/rsrc.php/v3/yu/l/0,cross/a7PL659yIXY.css?_nc_eui2=AeFfcz6x8Y4s4XMj_n-ety1HxVUmVw1YP10x155ZsHlrIU1j8orEX0h6ES5x8ZyETU5q9WDX0pRlm3sUcZFcrwLkgmBsfCH2vBaPdbpEP76ZJA"
+type: "css"
+IY90i: {type: "js",…}
+crossOrigin: 1
+src: "https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yU/l/en_US/43tS60x1uLS.js?_nc_eui2=AeEI31uRM4T6ZqwH8sv2k2utltlMrsEmtysqbg8L_m1tPaN7G_QKVyQBNitTy4eIK8FKdDNJpOm-H6qj3tF8NbrprWOieVn4slPnCtoHqqM31g"
+type: "js"
+QIUF4: {type: "js",…}
+crossOrigin: 1
+src: "https://static.xx.fbcdn.net/rsrc.php/v3i-RG4/yp/l/en_US/K8b1GZ05EJ8.js?_nc_eui2=AeGiHkm82zSq1i-LM7ZbjnytBId64AAhjIzPgtoBASTA0iXT7gjsY-M1JH4U77kQi-cXBjJ7-IvS9pt9TOmHljwfyToMgA_4nEvMUThYTcHRvQ"
+type: "js"
+WwS8Y: {type: "js",…}
+crossOrigin: 1
+src: "https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/Ap9eBkjyoY8.js?_nc_eui2=AeH-xSRHzKDM6nLQFbZlFtilMU4WgBderU0bt2DZyO4q0J_O3RLKtem7aLtuR_W3cYlxQtLQ0qEI0PpFkXdhTpPWc-ixrqf0EWYFoBugvfkMYQ"
+type: "js"
+ZN6iu: {type: "js",…}
+crossOrigin: 1
+src: "https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/2oRn35iGBSq.js?_nc_eui2=AeFescmtjisZRsJGDJj4qEggJa_X-kU-cpD1Wzhzisdy8f3TPwdNt_t0KzpPhM524RHHYhPdLqCgWwaeF6rW-OgIUVAFmJz7-8ret4p43S_cyQ"
+type: "js"
+ZU1ro: {type: "js",…}
+crossOrigin: 1
+src: "https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/QKWIqWeZBgJ.js?_nc_eui2=AeGSG2k3l0wSHbs6QbjNu0fJyTpfNO1D9_t0liJoz8ovTGQdVJNO4ezyGNaZuGouwXQrwtADUSWEpyIDoIANJSgjMu6d8c1cLdGqxZ68EfnVlQ"
+type: "js"
+fRSWM: {type: "js",…}
+crossOrigin: 1
+src: "https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/-pJLBi9cY7c.js?_nc_eui2=AeGaVCYMM9r9gWoh1VbO_e42s8HYoLHsqUcA-tgYNfqUfud_lQaqXGeqVtkzVW0-tRgvFpJvT6zV6pQ4Yvrdfda3d3RiHILQmrNgUC69mqP2BA"
+type: "js"
+gH/8j: {type: "js",…}
+crossOrigin: 1
+src: "https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/WPMxzEh6HDB.js?_nc_eui2=AeFDp_PwnSps8gV8jbEad0jHU9aXwrEh3cIwod_emRZ-UWzIE2GlcCxYO_qEe69TPmBMZsSsnxigEIG2IX5i64CE9HjBB4l642pVYXLeFtrkIA"
+type: "js"
+__ar: 1
+
+-Response:
+for (;;);{"__ar":1,"payload":null,"jsmods":{"require":[["TuringClientSignalCollectionTrigger","startStaticSignalCollection",[],[{"signalsToCollect":[30000,30001,30003,30004,30005,30002,30007,30008,30009]}]],["TuringClientSignalCollectionTrigger","retrieveSignals",[],[{"requestSignals":[30000,30001,30003,30004,30005,30002,30007,30008,30009]}]],["BanzaiODS"],["BanzaiScuba"]],"define":[["cr:682513",["BanzaiOriginal"],{"__rc":["BanzaiOriginal","Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"]},-1],["cr:717822",["TimeSliceImpl"],{"__rc":["TimeSliceImpl","Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"]},-1],["cr:986633",["setTimeoutAcrossTransitionsBlue"],{"__rc":["setTimeoutAcrossTransitionsBlue","Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"]},-1],["cr:708886",["EventProfilerImpl"],{"__rc":["EventProfilerImpl","Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"]},-1],["cr:696703",[],{"__rc":[null,"Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"]},-1],["cr:682174",["BanzaiNew"],{"__rc":["BanzaiNew","Aa0wn99FBxXvBUPTY7hbrTH5JJAEY_AbbHbVASMiYS7gdvvjIX6XoH5uFdR_iP5j9Hrd0OTctyRbwODjlQ"]},-1],["cr:806696",["clearTimeoutBlue"],{"__rc":["clearTimeoutBlue","Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"]},-1],["cr:925100",["RunBlue"],{"__rc":["RunBlue","Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"]},-1],["cr:695720",["SnappyCompressUtil"],{"__rc":["SnappyCompressUtil","Aa2nJgHVDrPq8oebBkgGDeZwtoVz8HS5PjlAeYiIghOJOlGQ2IqBcqLHEYcDKdHzZHspMRlfthINqo4J80jEypn-AO4"]},-1],["cr:692209",["cancelIdleCallbackBlue"],{"__rc":["cancelIdleCallbackBlue","Aa0ws_Ml8HUZsqxqwE9NO9yxa8Xgy0cmb208pNxtHM2sdcVxb3LFnKV_gXu5k8kz1K6zF3dW1ysMdTF2Q-DQQ1I"]},-1]]},"js":["gH\/8j","6grXX","QIUF4"],"css":["GB7L9"],"bootloadable":{"BanzaiODS":{"r":["gH\/8j","QIUF4"],"rds":{"m":["BanzaiODS","BanzaiScuba"]}},"BanzaiScuba":{"r":["gH\/8j","QIUF4"],"rds":{"m":["BanzaiODS","BanzaiScuba"]}},"Banzai":{"r":["gH\/8j","QIUF4"],"rds":{"m":["BanzaiODS","BanzaiScuba"]},"be":1},"BanzaiStream":{"r":["gH\/8j","ZU1ro","QIUF4"],"rds":{"m":["BanzaiODS","BanzaiScuba"]},"be":1},"ResourceTimingBootloaderHelper":{"r":["gH\/8j"],"rds":{"m":["BanzaiODS","VisualCompletionGating","BanzaiScuba"],"r":["QIUF4"]},"be":1},"TimeSliceHelper":{"r":["32Pm3","fRSWM"],"be":1},"SnappyCompressUtil":{"r":["gH\/8j"],"be":1},"PerfXSharedFields":{"r":["gH\/8j"],"be":1},"TimeSliceInteractionsLiteTypedLogger":{"r":["gH\/8j","IY90i","ZN6iu","QIUF4"],"rds":{"m":["BanzaiODS","BanzaiScuba"]},"be":1},"WebSpeedInteractionsTypedLogger":{"r":["gH\/8j","IY90i","WwS8Y","QIUF4"],"rds":{"m":["BanzaiODS","BanzaiScuba"]},"be":1}},"resource_map":{"gH\/8j":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yX\/r\/WPMxzEh6HDB.js?_nc_eui2=AeFDp_PwnSps8gV8jbEad0jHU9aXwrEh3cIwod_emRZ-UWzIE2GlcCxYO_qEe69TPmBMZsSsnxigEIG2IX5i64CE9HjBB4l642pVYXLeFtrkIA","crossOrigin":1},"QIUF4":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i-RG4\/yp\/l\/en_US\/K8b1GZ05EJ8.js?_nc_eui2=AeGiHkm82zSq1i-LM7ZbjnytBId64AAhjIzPgtoBASTA0iXT7gjsY-M1JH4U77kQi-cXBjJ7-IvS9pt9TOmHljwfyToMgA_4nEvMUThYTcHRvQ","crossOrigin":1},"ZU1ro":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yU\/r\/QKWIqWeZBgJ.js?_nc_eui2=AeGSG2k3l0wSHbs6QbjNu0fJyTpfNO1D9_t0liJoz8ovTGQdVJNO4ezyGNaZuGouwXQrwtADUSWEpyIDoIANJSgjMu6d8c1cLdGqxZ68EfnVlQ","crossOrigin":1},"32Pm3":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y7\/r\/hTT5_v0w2cY.js?_nc_eui2=AeFX5yFAUCVdDfF1uMBnGYl2MVAitY8jxVcvpZvyK72OBna1iT2KNyQAYl5uGIRfukWp1aEtp44HHiZBDBcJT-GO1vt9Z_21oFepRP2tcZipRA","crossOrigin":1},"fRSWM":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yK\/r\/-pJLBi9cY7c.js?_nc_eui2=AeGaVCYMM9r9gWoh1VbO_e42s8HYoLHsqUcA-tgYNfqUfud_lQaqXGeqVtkzVW0-tRgvFpJvT6zV6pQ4Yvrdfda3d3RiHILQmrNgUC69mqP2BA","crossOrigin":1},"IY90i":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i7M54\/yU\/l\/en_US\/43tS60x1uLS.js?_nc_eui2=AeEI31uRM4T6ZqwH8sv2k2utltlMrsEmtysqbg8L_m1tPaN7G_QKVyQBNitTy4eIK8FKdDNJpOm-H6qj3tF8NbrprWOieVn4slPnCtoHqqM31g","crossOrigin":1},"ZN6iu":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y9\/r\/2oRn35iGBSq.js?_nc_eui2=AeFescmtjisZRsJGDJj4qEggJa_X-kU-cpD1Wzhzisdy8f3TPwdNt_t0KzpPhM524RHHYhPdLqCgWwaeF6rW-OgIUVAFmJz7-8ret4p43S_cyQ","crossOrigin":1},"WwS8Y":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ya\/r\/Ap9eBkjyoY8.js?_nc_eui2=AeH-xSRHzKDM6nLQFbZlFtilMU4WgBderU0bt2DZyO4q0J_O3RLKtem7aLtuR_W3cYlxQtLQ0qEI0PpFkXdhTpPWc-ixrqf0EWYFoBugvfkMYQ","crossOrigin":1},"6grXX":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yl\/r\/3sfSl43uCxO.js?_nc_eui2=AeEvwslEYx2DjFTt12sReNVonWnDBUB8HjTP-8YlqEjKX47KqJNqGuxP_Ghv0yXncCJWKKZT3w2_EOWKiVhh0nc-Zo7O149wgNqgIOtBUfsTvw","crossOrigin":1},"GB7L9":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yu\/l\/0,cross\/a7PL659yIXY.css?_nc_eui2=AeFfcz6x8Y4s4XMj_n-ety1HxVUmVw1YP10x155ZsHlrIU1j8orEX0h6ES5x8ZyETU5q9WDX0pRlm3sUcZFcrwLkgmBsfCH2vBaPdbpEP76ZJA","crossOrigin":1}},"ixData":{},"bxData":{},"gkxData":{"946894":{"result":false,"hash":"AT4GpegMFDlEDgat"},"849406":{"result":false,"hash":"AT4W3lWhLf9sl22l"},"676837":{"result":false,"hash":"AT5e4wMPJpowrfKP"}},"qexData":{},"lid":"6711542911928541831"}
+
+-HEADERS:
+Request URL: https://www.facebook.com/ajax/bz
+Request Method: POST
+Status Code: 200 
+Remote Address: 157.240.24.35:443
+Referrer Policy: origin-when-cross-origin
+access-control-allow-credentials: true
+access-control-allow-methods: OPTIONS
+access-control-allow-origin: https://www.facebook.com
+access-control-expose-headers: X-FB-Debug, X-Loader-Length
+cache-control: private, no-cache, no-store, must-revalidate
+content-encoding: br
+content-type: application/x-javascript; charset=utf-8
+date: Tue, 09 Jul 2019 06:14:16 GMT
+expires: Sat, 01 Jan 2000 00:00:00 GMT
+pragma: no-cache
+status: 200
+strict-transport-security: max-age=15552000; preload
+vary: Origin, Accept-Encoding
+x-content-type-options: nosniff
+x-fb-debug: EfLBbK+ZLlO1E3fcpg/cEnw6PIghK0LnjkW7DsRweAa3fckNiG+7U4u+7QEjIn57DSvuJuu6H6ZRAgbN3nSDKQ==
+x-frame-options: DENY
+Provisional headers are shown
+Content-Type: application/x-www-form-urlencoded
+Origin: https://www.facebook.com
+Referer: https://www.facebook.com/plugins/feedback.php?app_id=706784402717449&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df2bca53dce7491c%26domain%3Dwww.dream.co.id%26origin%3Dhttps%253A%252F%252Fwww.dream.co.id%252Ff2f10874e215bd8%26relation%3Dparent.parent&color_scheme=light&container_width=0&height=100&href=https%3A%2F%2Fwww.dream.co.id%2Fshowbiz%2Ftak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html&locale=en_US&numposts=3&sdk=joey&version=v3.3&width=600&_rdc=1&_rdr
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+__a: 1
+__be: 1
+__dyn: 7xe6EgU4e3W3mbx679p63m1FwAxu13wKxK3m8zEdEc8uK16w921bwOw-wpUe8hw8C1rw5VCwjE2-yU5C1wxO2u0IobEa84u784e0GU6W26V8y1vw4Ugao421lw4Nw
+__pc: PHASED:plugin_feedback_pkg
+__req: 2
+__rev: 1000918457
+__s: :jg4h98:nthmum
+__sp: 1
+__user: 1525467741
+dpr: 1
+fb_dtsg: AQE2tz_BV13B:AQHJ20NG-kai
+jazoest: 21867
+locale: en_US
+ph: C3
+q: [{"user":"1525467741","page_id":"nthmum","posts":[["gk2_exposure",{"identifier":"946894","hash":"AT4GpegMFDlEDgat"},1562652796471.345,0],["require_cond_exposure_logging",{"identifier":"Aa2pKi6jnXq3yHIqVxcmNE5IYJvBMtgD6x1CDCOKcsfQbT56Og5aykoGAEmje7pUh4YGg9iLERVBfqGpRXAitLXX9hY"},1562652796471.48,0]],"trigger":"gk2_exposure","send_method":"ajax"}]
+ts: 1562652856461
+
