@@ -392,3 +392,10 @@ __d("TuringSignalData",[],(function(a,b,c,d,e,f){"use strict";a={};e.exports=a})
 __d("TuringSignalBuffer",["TuringSignalData"],(function(a,b,c,d,e,f){"use strict";__p&&__p();a={initialize:function(a){__p&&__p();for(var a=a,c=Array.isArray(a),d=0,a=c?a:a[typeof Symbol==="function"?Symbol.iterator:"@@iterator"]();;){var e;if(c){if(d>=a.length)break;e=a[d++]}else{d=a.next();if(d.done)break;e=d.value}e=e;b("TuringSignalData")[e]=[]}},overwriteSignal:function(a,c){b("TuringSignalData")[a]=[c]},appendSignal:function(a,c){var d=b("TuringSignalData")[a].length;d>0&&b("TuringSignalData")[a][d-1].timestamp>=c.timestamp&&(c.error={message:"Invalid timestamp."});b("TuringSignalData")[a].push(c)},retrieveSignals:function(a){__p&&__p();var c={};for(var a=a,d=Array.isArray(a),e=0,a=d?a:a[typeof Symbol==="function"?Symbol.iterator:"@@iterator"]();;){var f;if(d){if(e>=a.length)break;f=a[e++]}else{e=a.next();if(e.done)break;f=e.value}f=f;c[f]=b("TuringSignalData")[f]}return c},retrieveAll:function(){return b("TuringSignalData")}};e.exports=a}),null);
 __d("TuringClientSignalCollectionTrigger",["Promise","Banzai","SignalCollector","TuringSignalBuffer"],(function(a,b,c,d,e,f){"use strict";__p&&__p();var g=!1,h,i=!1,j="turing_client_signal";a={startStaticSignalCollection:function(a){g||(g=!0,h=new(b("Promise"))(function(c,d){var e=b("SignalCollector").collectStaticSignals(a.signalsToCollect);Object.keys(e).forEach(function(a){a=a;var c=e[a];b("TuringSignalBuffer").overwriteSignal(a,c)});c()}))},startDynamicSignalCollection:function(a){},retrieveSignals:function(a){if(i)return;i=!0;h.then(function(){var c={};a.requestedSignals?c=b("TuringSignalBuffer").retrieveSignals(a.requestedSignals):c=b("TuringSignalBuffer").retrieveAll();b("Banzai").post(j,c)})}};e.exports=a}),null);
 
+-JavaScript DevTools:
+https://cdn.onesignal.com/sdks/OneSignalSDK.js
+-via Initiator:
+https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+-Saf ke 18:
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+
