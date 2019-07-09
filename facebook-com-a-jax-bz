@@ -315,3 +315,17 @@ ph: C3
 q: [{"user":"1525467741","page_id":"nthmum","posts":[["gk2_exposure",{"identifier":"946894","hash":"AT4GpegMFDlEDgat"},1562652796471.345,0],["require_cond_exposure_logging",{"identifier":"Aa2pKi6jnXq3yHIqVxcmNE5IYJvBMtgD6x1CDCOKcsfQbT56Og5aykoGAEmje7pUh4YGg9iLERVBfqGpRXAitLXX9hY"},1562652796471.48,0]],"trigger":"gk2_exposure","send_method":"ajax"}]
 ts: 1562652856461
 
+-Source:
+https://www.dream.co.id/manifest.json
+
+-Returned:
+{
+  "short_name": "Dream",
+  "name": "Dream",
+  "gcm_sender_id": "482941778795",
+  "start_url": "/",
+  "theme_color": "#d90738",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
+
