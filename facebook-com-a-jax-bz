@@ -430,3 +430,38 @@ window.kly.channel
 window.kly.category
 {id: 71, name: "showbiz", full_slug: "showbiz"}full_slug: "showbiz"id: 71name: "showbiz"__proto__: Object
 
+-tracked web page via DevTools:
+https://plenty.analisis.io/events
+-via tracked js initiator:
+https://static0-web-prod-vidio.akamaized.net/ahoy/ahoy-falcon-2019-04-29-05-29-15.js
+-Saf ke 22:
+post(this.config.batchEventsUrl,JSON.stringify(this.eventQueue),callback)}};this.trackEvent=function(event)
+
+-Via Network->Headers:
+Request URL: https://plenty.analisis.io/events
+Request Method: POST
+Status Code: 200 
+Remote Address: 34.95.75.42:443
+Referrer Policy: strict-origin-when-cross-origin
+access-control-allow-headers: Accept, Content-Type, X-Requested-With
+access-control-allow-methods: POST
+access-control-allow-origin: https://www.vidio.com
+access-control-max-age: 1728000
+alt-svc: clear
+content-length: 2
+content-type: application/json
+date: Fri, 12 Jul 2019 05:58:01 GMT
+server: nginx
+server-node: vidioplenty-prod-ig-sg-v014-zv0k
+status: 200
+via: 1.1 google
+x-hail-hydra: Join the Darkside, we have cookies. Visit us at http://www.kmklabs.com/careers
+Provisional headers are shown
+Content-Type: application/json; charset=UTF-8
+Origin: https://www.vidio.com
+Referer: https://www.vidio.com/
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+[{id: "67d41380-a425-406b-8b28-476c27fc7c93", visit_token: "68c49094-4379-436a-a4c3-ca19e51cdc18",…},…]
+0: {id: "67d41380-a425-406b-8b28-476c27fc7c93", visit_token: "68c49094-4379-436a-a4c3-ca19e51cdc18",…}
+1: {id: "7d4dfa60-61b6-4026-a787-49cdca1a3a89", visit_token: "68c49094-4379-436a-a4c3-ca19e51cdc18",…}
+
