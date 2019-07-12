@@ -465,3 +465,32 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
 0: {id: "67d41380-a425-406b-8b28-476c27fc7c93", visit_token: "68c49094-4379-436a-a4c3-ca19e51cdc18",…}
 1: {id: "7d4dfa60-61b6-4026-a787-49cdca1a3a89", visit_token: "68c49094-4379-436a-a4c3-ca19e51cdc18",…}
 
+-Hacked Source:
+https://cdns.klimg.com/a.dream.co.id/assets/img/redesign/new_dream_desktop.png
+
+-Initiator:
+https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+
+-Syntax Code Saf 217:
+ <a href="/" class="logo"><img src="https://cdns.klimg.com/a.dream.co.id/assets/img/redesign/new_dream_desktop.png" height="66" alt="dream.co.id logo"></a>
+
+-via Network->Headers:
+Request URL: https://cdns.klimg.com/a.dream.co.id/assets/img/redesign/new_dream_desktop.png
+Request Method: GET
+Status Code: 200  (from memory cache)
+Remote Address: 203.12.21.10:443
+Referrer Policy: no-referrer-when-downgrade
+accept-ranges: bytes
+cache-control: max-age=315360000, public
+content-length: 37519
+content-type: image/png
+date: Wed, 10 Jul 2019 12:25:08 GMT
+expires: Thu, 31 Dec 2037 23:55:55 GMT
+last-modified: Sat, 30 Mar 2013 21:47:15 GMT
+pragma: public
+server: nginx
+status: 200
+Provisional headers are shown
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+
