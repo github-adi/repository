@@ -589,3 +589,10 @@ Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
 v: 150706
 
+-via Initiator:
+webpack:///./build/ts-to-es6/src/entries/sdk.js
+
+-Syntax Code Saf ke 12:
+import { OneSignalShimLoader } from "../utils/OneSignalShimLoader";
+OneSignalShimLoader.start();
+
