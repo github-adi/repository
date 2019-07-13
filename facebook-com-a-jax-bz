@@ -552,3 +552,40 @@ Origin: https://www.dream.co.id
 Referer: https://cdns.klimg.com/a.dream.co.id/assets/css/v.3.21/main.css
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
 
+-Hacked Source:
+https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=150706
+
+-Via Initiator:
+webpack:///./build/ts-to-es6/src/utils/OneSignalShimLoader.js
+
+-Syntax Code Saf ke 8:
+static addScriptToPage(url) {
+        const scriptElement = document.createElement('script');
+        scriptElement.src = url;
+        scriptElement.async = true;
+        document.head.appendChild(scriptElement);
+    }
+
+-Via Network->Headers:
+Request URL: https://cdn.onesignal.com/sdks/OneSignalPageSDKES6.js?v=150706
+Request Method: GET
+Status Code: 200  (from disk cache)
+Remote Address: 104.16.205.165:443
+Referrer Policy: no-referrer-when-downgrade
+cache-control: public, max-age=259200
+cf-cache-status: HIT
+cf-ray: 4f4284ca0f21a9a6-SIN
+content-encoding: gzip
+content-type: application/javascript
+date: Wed, 10 Jul 2019 12:25:09 GMT
+etag: W/"f4ebb281698a883231242a4d72c8502e"
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+expires: Sat, 13 Jul 2019 12:25:09 GMT
+server: cloudflare
+status: 200
+vary: Accept-Encoding
+Provisional headers are shown
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+v: 150706
+
