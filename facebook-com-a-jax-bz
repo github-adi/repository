@@ -494,3 +494,28 @@ Provisional headers are shown
 Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
 
+-Hacked Source Codes:
+https://www.newshub.id/dmp/pixel.js?segmen=1&interest=1,17
+
+-Initiator->View Source:
+https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+
+-Syntax Code Saf ke 812:
+<script type="text/javascript" src="https://www.newshub.id/dmp/pixel.js?segmen=1&interest=1,17"></script>
+
+-Network->Headers:
+Request URL: https://www.newshub.id/dmp/pixel.js?segmen=1&interest=1,17
+Request Method: GET
+Status Code: 204 
+Remote Address: 104.155.230.110:443
+Referrer Policy: no-referrer-when-downgrade
+content-type: application/javascript
+date: Sat, 13 Jul 2019 06:07:53 GMT
+server: nginx
+status: 204
+Provisional headers are shown
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+segmen: 1
+interest: 1,17
+
