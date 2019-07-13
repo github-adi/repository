@@ -519,3 +519,36 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
 segmen: 1
 interest: 1,17
 
+-Hacked Source Codes:
+https://cdns.klimg.com/a.dream.co.id/assets/fonts/metropolis-regular-webfont.woff
+
+-Via Initiator:
+https://cdns.klimg.com/a.dream.co.id/assets/js/v.0.81/dream_new.js
+
+-Syntax Codes Saf ke 7981:
+return F("@media "+t+" { #"+v+" { position: absolute; } }",
+
+-Via Network->Headers:
+Request URL: https://cdns.klimg.com/a.dream.co.id/assets/fonts/metropolis-regular-webfont.woff
+Request Method: GET
+Status Code: 200  (from memory cache)
+Remote Address: 203.12.21.10:443
+Referrer Policy: no-referrer-when-downgrade
+accept-ranges: bytes
+access-control-allow-origin: *
+cache-control: max-age=315360000, public
+content-encoding: gzip
+content-length: 19825
+content-type: application/font-woff
+date: Wed, 10 Jul 2019 12:25:09 GMT
+expires: Thu, 31 Dec 2037 23:55:55 GMT
+last-modified: Sat, 30 Mar 2013 21:47:15 GMT
+pragma: public
+server: nginx
+status: 200
+vary: Accept-Encoding,User-Agent
+Provisional headers are shown
+Origin: https://www.dream.co.id
+Referer: https://cdns.klimg.com/a.dream.co.id/assets/css/v.3.21/main.css
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+
