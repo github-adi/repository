@@ -633,3 +633,39 @@ Provisional headers are shown
 Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
 
+-Hacked Source:
+https://cdns.klimg.com/kapanlagi.com/v5/i/socialtabs/klshare16icon-facebook_45.png
+
+-Via Initiator:
+https://cdns.klimg.com/a.kapanlagi.com/v5/js/plugin.socmed.js?v1.6
+
+-Syntax Code Saf ke 138:
+			// Image preloader.
+			var image_cdn='https://cdns.klimg.com/kapanlagi.com/v5/i/socialtabs/';
+			(new Image()).src = image_cdn+'klshare16icon-facebook_45.png';
+			(new Image()).src = image_cdn+'klshare16icon-twitter_45.png';
+			(new Image()).src = image_cdn+'klshare16icon-facebook_45-hover.png';
+			(new Image()).src = image_cdn+'klshare16icon-twitter_45-hover.png';
+
+-Via Network->Headers:
+Request URL: https://cdns.klimg.com/kapanlagi.com/v5/i/socialtabs/klshare16icon-facebook_45.png
+Request Method: GET
+Status Code: 200  (from memory cache)
+Remote Address: 203.12.21.10:443
+Referrer Policy: no-referrer-when-downgrade
+accept-ranges: bytes
+access-control-allow-origin: *
+cache-control: max-age=315360000, public
+content-length: 3926
+content-type: image/png
+date: Wed, 10 Jul 2019 12:25:11 GMT
+expires: Thu, 31 Dec 2037 23:55:55 GMT
+last-modified: Thu, 08 Sep 2016 23:33:42 GMT
+pragma: public
+server: nginx
+status: 200
+Provisional headers are shown
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+
+			
