@@ -668,4 +668,51 @@ Provisional headers are shown
 Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
 
-			
+-Hacked Source:
+https://onesignal.com/api/v1/sync/f098e2b2-dc31-4cab-b8e6-59e726731be6/web?callback=__jp0
+
+-via Initiator:
+webpack:///./node_modules/jsonp/index.js
+
+-Syntax Code ke 83:
+// create script
+  script = document.createElement('script');
+  script.src = url;
+  target.parentNode.insertBefore(script, target);
+
+  return cancel;
+}
+
+-via Network->Headers:
+Request URL: https://onesignal.com/api/v1/sync/f098e2b2-dc31-4cab-b8e6-59e726731be6/web?callback=__jp0
+Request Method: GET
+Status Code: 200 
+Remote Address: 104.16.204.165:443
+Referrer Policy: no-referrer-when-downgrade
+access-control-allow-headers: SDK-Version
+access-control-allow-origin: *
+age: 1431
+cache-control: public, max-age=300
+cf-bgj: minify
+cf-cache-status: HIT
+cf-polished: origSize=3310
+cf-ray: 4f6c86e56c24c34a-SIN
+content-encoding: gzip
+content-type: text/javascript; charset=utf-8
+date: Mon, 15 Jul 2019 14:46:37 GMT
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+expires: Mon, 15 Jul 2019 14:51:37 GMT
+server: cloudflare
+status: 200, 200 OK
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-powered-by: Phusion Passenger 5.3.7
+x-request-id: b942c020-4a79-4cee-98ff-bee0ef6f8c50
+x-runtime: 0.136082
+x-xss-protection: 1; mode=block
+Provisional headers are shown
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+callback: __jp0
+
