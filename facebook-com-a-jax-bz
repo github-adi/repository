@@ -728,3 +728,40 @@ Content-Type: image/png
 Provisional headers are shown
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
 
+-Hacked Source:
+https://app.dream.co.id/cron/breakingnews-ajax
+
+-Via Initiator:
+https://cdns.klimg.com/a.dream.co.id/assets/js/v.0.82/dream_new.js
+
+-Syntax Code Saf ke 2354:
+};
+        xhr.open('GET', url);
+        xhr.setRequestHeader('Content-Type', 'text/plain');
+        xhr.send(JSON.stringify(params));
+    }
+	
+-Via Network->Headers:
+Request URL: https://app.dream.co.id/cron/breakingnews-ajax
+Request Method: GET
+Status Code: 200 
+Remote Address: 103.6.0.15:443
+Referrer Policy: no-referrer-when-downgrade
+access-control-allow-origin: *
+cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+content-length: 2
+content-type: text/html
+date: Thu, 18 Jul 2019 09:09:54 GMT
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+pragma: no-cache
+server: nginx
+status: 200
+vary: Accept-Encoding,User-Agent
+x-content-type-options: nosniff
+Provisional headers are shown
+Content-Type: text/plain
+Origin: https://www.dream.co.id
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+	
+	
