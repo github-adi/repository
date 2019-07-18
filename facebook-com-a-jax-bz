@@ -764,4 +764,35 @@ Origin: https://www.dream.co.id
 Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
 	
-	
+-Hacked Source:
+https://d.infeed.id/wgt-v2&publisherId=51765890&wrapperPage=https%253A%252F%252Fwww.dream.co.id%252Finfeed%252Fwrapper.html&seoUrl=true&slots=inf-1%2Cinf-2%2Cinf-3%2Cinf-4%2Cinf-5%2Cinf-6&templateID=120&channel=showbiz&domain=www.dream.co.id
+
+-Via Initiator:
+chrome-extension://kejbdjndbnbjgmefkgdddjlbokphdefk/tag_assistant_compiled.js
+
+-Syntax Code Saf ke 117:
+send()}catch(e){Be(xe,null,null,"Ignored unreadable script "+a+" Reason:"+e)}},
+
+-Via Network->Headers:
+Request URL: https://d.infeed.id/wgt-v2&publisherId=51765890&wrapperPage=https%253A%252F%252Fwww.dream.co.id%252Finfeed%252Fwrapper.html&seoUrl=true&slots=inf-1%2Cinf-2%2Cinf-3%2Cinf-4%2Cinf-5%2Cinf-6&templateID=120&channel=showbiz&domain=www.dream.co.id
+Request Method: GET
+Status Code: 200 
+Remote Address: 35.240.192.0:443
+Referrer Policy: no-referrer-when-downgrade
+cache-control: public
+content-encoding: gzip
+content-length: 5826
+content-type: application/javascript
+date: Thu, 18 Jul 2019 09:40:05 GMT
+expires: Thu, 18 Jul 2019 09:25:05 GMT
+last-modified: Thu, 18 Jul 2019 09:25:05 GMT
+pragma: no-cache
+server: nginx
+status: 200
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-xss-protection: 1;mode=block
+Provisional headers are shown
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+
