@@ -796,3 +796,34 @@ Provisional headers are shown
 Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
 
+-Hacked Source:
+https://sample-api-v2.crazyegg.com/n/810263/all
+
+-Via Initiator:
+https://script.crazyegg.com/pages/scripts/0081/0263.js?434309
+
+-Syntax Code Saf ke 1:
+send()},f.matchSite=function(e,t){return CE2.re.ipHost.test(e)
+
+-Via Network->Headers:
+Request URL: https://sample-api-v2.crazyegg.com/n/810263/all
+Request Method: GET
+Status Code: 200 OK
+Remote Address: 50.17.185.34:443
+Referrer Policy: no-referrer-when-downgrade
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+Cache-control: no-cache="set-cookie"
+Connection: keep-alive
+Content-Length: 28
+Content-Type: text/html;charset=utf-8
+Date: Fri, 19 Jul 2019 05:55:11 GMT
+Server: nginx/1.12.1
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Provisional headers are shown
+Origin: https://www.dream.co.id
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+
