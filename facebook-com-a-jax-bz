@@ -827,3 +827,175 @@ Origin: https://www.dream.co.id
 Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
 
+-Source Code:
+https://hbopenbid.pubmatic.com/translator?source=prebid-client
+
+-Via Initiator:
+https://ads.pubmatic.com/AdServer/js/pwt/156536/456/pwt.js
+
+-Syntax Code Saf ke 1:
+","XMLHttpRequest"),i.setRequestHeader("Content-Type",r.contentType||"text/plain"),"function"==typeof d&&d(a.origin),"POST"
+
+-Via Network->Headers:
+Request URL: https://hbopenbid.pubmatic.com/translator?source=prebid-client
+Request Method: POST
+Status Code: 200 
+Remote Address: 103.231.98.193:443
+Referrer Policy: no-referrer-when-downgrade
+access-control-allow-credentials: true
+access-control-allow-origin: https://www.dream.co.id
+cache-control: no-cache, no-store, must-revalidate
+content-encoding: gzip
+content-type: application/json
+date: Sat, 20 Jul 2019 09:17:07 GMT
+status: 200
+x-openrtb-version: 2.3
+Provisional headers are shown
+Content-Type: text/plain
+Origin: https://www.dream.co.id
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+source: prebid-client
+{id: "1563614227464", at: 1, cur: ["USD"], imp: [,…], site: {,…}, device: {,…}, user: {geo: {}},…}
+at: 1
+cur: ["USD"]
+0: "USD"
+device: {,…}
+dnt: 0
+geo: {}
+h: 768
+js: 1
+language: "en-US"
+ua: "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+w: 1366
+ext: {,…}
+wrapper: {profile: 456, wiid: "46568a1e-2049-4a96-b41b-4e6fe9e2b8b7-eefff", wv: "prebid_prebid_2.8.0",…}
+profile: 456
+transactionId: "d2d2ff7e-a86c-4cf8-8281-6dceecbfe4e3"
+wiid: "46568a1e-2049-4a96-b41b-4e6fe9e2b8b7-eefff"
+wp: "pbjs"
+wv: "prebid_prebid_2.8.0"
+id: "1563614227464"
+imp: [,…]
+0: {id: "20071c39b5e52d", tagid: "div-gpt-ad-dream-immersive-oop", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 1, h: 1, topframe: 1}
+h: 1
+pos: 0
+topframe: 1
+w: 1
+bidfloorcur: "USD"
+ext: {}
+id: "20071c39b5e52d"
+secure: 1
+tagid: "div-gpt-ad-dream-immersive-oop"
+1: {id: "3c88b586c920cf", tagid: "div-gpt-ad-dream-lb", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 970, h: 90, topframe: 1}
+h: 90
+pos: 0
+topframe: 1
+w: 970
+bidfloorcur: "USD"
+ext: {}
+id: "3c88b586c920cf"
+secure: 1
+tagid: "div-gpt-ad-dream-lb"
+2: {id: "409d2958250d47", tagid: "div-gpt-ad-dream-lb", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 728, h: 90, topframe: 1}
+h: 90
+pos: 0
+topframe: 1
+w: 728
+bidfloorcur: "USD"
+ext: {}
+id: "409d2958250d47"
+secure: 1
+tagid: "div-gpt-ad-dream-lb"
+3: {id: "515f1c3a950ddd", tagid: "div-gpt-ad-dream-lb", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 970, h: 250, topframe: 1}
+h: 250
+pos: 0
+topframe: 1
+w: 970
+bidfloorcur: "USD"
+ext: {}
+id: "515f1c3a950ddd"
+secure: 1
+tagid: "div-gpt-ad-dream-lb"
+4: {id: "6aaaa6b6d1266a", tagid: "div-gpt-ad-dream-sc1", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 300, h: 600, topframe: 1}
+h: 600
+pos: 0
+topframe: 1
+w: 300
+bidfloorcur: "USD"
+ext: {}
+id: "6aaaa6b6d1266a"
+secure: 1
+tagid: "div-gpt-ad-dream-sc1"
+5: {id: "7178a3751a3802", tagid: "div-gpt-ad-dream-sc2", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 300, h: 250, topframe: 1}
+h: 250
+pos: 0
+topframe: 1
+w: 300
+bidfloorcur: "USD"
+ext: {}
+id: "7178a3751a3802"
+secure: 1
+tagid: "div-gpt-ad-dream-sc2"
+6: {id: "816eddd579bbff", tagid: "div-gpt-ad-dream-marcomm1-oop", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 1, h: 1, topframe: 1}
+h: 1
+pos: 0
+topframe: 1
+w: 1
+bidfloorcur: "USD"
+ext: {}
+id: "816eddd579bbff"
+secure: 1
+tagid: "div-gpt-ad-dream-marcomm1-oop"
+7: {id: "974dba2eb7890b", tagid: "div-gpt-ad-dream-popup-oop", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 1, h: 1, topframe: 1}
+h: 1
+pos: 0
+topframe: 1
+w: 1
+bidfloorcur: "USD"
+ext: {}
+id: "974dba2eb7890b"
+secure: 1
+tagid: "div-gpt-ad-dream-popup-oop"
+8: {id: "109d4843fefc1a8", tagid: "div-gpt-ad-dream-newsTag1-oop", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 1, h: 1, topframe: 1}
+bidfloorcur: "USD"
+ext: {}
+id: "109d4843fefc1a8"
+secure: 1
+tagid: "div-gpt-ad-dream-newsTag1-oop"
+9: {id: "11c7fea65cda674", tagid: "div-gpt-ad-dream-newsTag2-oop", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 1, h: 1, topframe: 1}
+bidfloorcur: "USD"
+ext: {}
+id: "11c7fea65cda674"
+secure: 1
+tagid: "div-gpt-ad-dream-newsTag2-oop"
+10: {id: "123d77d0cf823", tagid: "div-gpt-ad-dream-sc-1", secure: 1, ext: {}, bidfloorcur: "USD",…}
+banner: {pos: 0, w: 300, h: 250, topframe: 1}
+h: 250
+pos: 0
+topframe: 1
+w: 300
+bidfloorcur: "USD"
+ext: {}
+id: "123d77d0cf823"
+secure: 1
+tagid: "div-gpt-ad-dream-sc-1"
+site: {,…}
+domain: "www.dream.co.id"
+page: "https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html"
+publisher: {id: "156536"}
+id: "156536"
+ref: "https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html"
+user: {geo: {}}
+geo: {}
+
