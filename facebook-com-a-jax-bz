@@ -1070,3 +1070,51 @@ Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
 family: Oswald
 
+-Hacked Source:
+https://www.youtube.com/embed/6syoUP8sYoI?ec=Reguler&el=&muted=1&autoplay=0&utm_source=dream.co.id-desktop&utm_medium=skrin&utm_campaign=DRM01-Reguler&ref=null
+
+-Via Initiator:
+view Source: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+
+-Syntax Code Saf ke 603:
+ <iframe id="native-video-1" src="https://www.youtube.com/embed/6syoUP8sYoI?ec=Reguler&el=&muted=1&autoplay=0&utm_source=dream.co.id-desktop&utm_medium=skrin&utm_campaign=DRM01-Reguler&ref=null" style="height:360px;width:100%;" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+
+-Via Network->Headers:
+Request URL: https://www.youtube.com/embed/6syoUP8sYoI?ec=Reguler&el=&muted=1&autoplay=0&utm_source=dream.co.id-desktop&utm_medium=skrin&utm_campaign=DRM01-Reguler&ref=null
+Request Method: GET
+Status Code: 200 
+Remote Address: 74.125.24.91:443
+Referrer Policy: no-referrer-when-downgrade
+alt-svc: quic=":443"; ma=2592000; v="46,43,39"
+cache-control: no-cache
+content-encoding: br
+content-type: text/html; charset=utf-8
+date: Sun, 21 Jul 2019 09:48:18 GMT
+expires: Tue, 27 Apr 1971 19:44:06 EST
+server: YouTube Frontend Proxy
+set-cookie: SIDCC=AN0-TYv8oJNdoIGzGSgwlhr7f8n8c4r_3QVFwPcb6l3oQVZo2vNtVbPsrxpFo5CKWtcUXoIQaXIb; expires=Sat, 19-Oct-2019 09:48:18 GMT; path=/; domain=.youtube.com; priority=high
+status: 200
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-xss-protection: 0
+:authority: www.youtube.com
+:method: GET
+:path: /embed/6syoUP8sYoI?ec=Reguler&el=&muted=1&autoplay=0&utm_source=dream.co.id-desktop&utm_medium=skrin&utm_campaign=DRM01-Reguler&ref=null
+:scheme: https
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9,id;q=0.8
+cookie: VISITOR_INFO1_LIVE=EXkxAolT86M; PREF=al=en&f1=50000000&f5=30; _ga=GA1.2.523613952.1547602393; SID=egexjOwUP5agvvT_BU6WnWZy1QzJ59lAC4jaGuAKGZhjT3DFJRdMjrAKnmsoqULd7jgmrA.; HSID=AFllbWrnz4IDW73GC; SSID=A7AkRX_kWW4vKFhJ3; APISID=bysjOGQ5-xOfNYow/AWdeS4TK65POm48t0; SAPISID=WwduxMP6Pb3IEnGx/AGV13UwjBzprZZDqM; LOGIN_INFO=AFmmF2swRQIhAO-7p7bfasqDsOxQYcDAs09IYN3gXpGub0h74D5slPw9AiBvbym8YNhKrQsfzbTHNQX26dUQGFBFfHYLJYyr3uohWg:QUQ3MjNmejNRYnVMWUlJU0hVOEx0LVphX252ZXM0ODJ3blVYQUFmTmpyQnNMeXlFNDdaQW55cm5IMDJZRTU0OEw2a1NMTXRlOVlHb0NaTkNia1pBZFVZcWRZQ2F6VEF5QXpyNnVxUHBTa29KcUxXdnNlUXp2OHdnMmpiM002U3U4TGZZYjNnU3I2Q3dBWTY0ZjhiaVpSaEZVXzJZT2JlSDVWc1pzWFRFc2JGZjQ4amVGUlA1NW5j; enabledapps.uploader=0; YSC=CutfObbscz4; SIDCC=AN0-TYtz60iYblqBEahheHPeZieI9LVLxQ2dDm_P1wVwOxFBOrgouss2XTDWGeXke2TnlUVnKzyn
+referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+x-client-data: CIq2yQEIo7bJAQjEtskBCNG3yQEIqZ3KAQioo8oBCLylygEIsafKAQjiqMoBCPGpygEIl63KAQjNrcoBCL6vygE=
+ec: Reguler
+el: 
+muted: 1
+autoplay: 0
+utm_source: dream.co.id-desktop
+utm_medium: skrin
+utm_campaign: DRM01-Reguler
+ref: null
+
