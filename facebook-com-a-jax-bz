@@ -1036,3 +1036,37 @@ Origin: https://www.youtube.com
 Referer: https://www.youtube.com/embed/6syoUP8sYoI?ec=Reguler&el=&muted=1&autoplay=0&utm_source=dream.co.id-desktop&utm_medium=skrin&utm_campaign=DRM01-Reguler&ref=null
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
 
+-Hacked Source:
+https://fonts.googleapis.com/css?family=Oswald
+
+-Via Initiator:
+https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+
+-Syntax Code Saf ke 886:
+<link rel="stylesheet" href="https://cdns.klimg.com/a.kapanlagi.com/v5/css/plugin.socmed.css">
+
+-Via Network->Headers:
+Request URL: https://fonts.googleapis.com/css?family=Oswald
+Request Method: GET
+Status Code: 200  (from memory cache)
+Remote Address: 172.217.194.95:443
+Referrer Policy: no-referrer-when-downgrade
+access-control-allow-origin: *
+alt-svc: quic=":443"; ma=2592000; v="46,43,39"
+cache-control: private, max-age=86400, stale-while-revalidate=604800
+content-encoding: br
+content-type: text/css; charset=utf-8
+date: Sun, 21 Jul 2019 07:23:06 GMT
+expires: Sun, 21 Jul 2019 07:23:06 GMT
+last-modified: Sun, 21 Jul 2019 07:23:06 GMT
+link: <https://fonts.gstatic.com>; rel=preconnect; crossorigin
+server: ESF
+status: 200
+timing-allow-origin: *
+x-frame-options: SAMEORIGIN
+x-xss-protection: 0
+Provisional headers are shown
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+family: Oswald
+
