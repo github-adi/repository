@@ -999,3 +999,40 @@ ref: "https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ar
 user: {geo: {}}
 geo: {}
 
+-Hacked Source:
+https://googleads.g.doubleclick.net/pagead/id
+
+-Via Initiator:
+https://www.youtube.com/yts/jsbin/www-embed-player-vflXGJLOo/www-embed-player.js
+
+-Syntax Code Saf ke 424:
+c=void 0===c?"GET":c;d=void 0===d?"":d;var k=qe();
+
+-Via Network->Headers:
+Request URL: https://googleads.g.doubleclick.net/pagead/id
+Request Method: GET
+Status Code: 200 
+Remote Address: 74.125.68.156:443
+Referrer Policy: no-referrer-when-downgrade
+access-control-allow-credentials: true
+access-control-allow-origin: https://www.youtube.com
+alt-svc: quic="googleads.g.doubleclick.net:443"; ma=2592000; v="46,43,39",quic=":443"; ma=2592000; v="46,43,39"
+cache-control: no-cache, no-store, must-revalidate
+content-disposition: attachment; filename="f.txt"
+content-encoding: gzip
+content-length: 133
+content-type: application/json; charset=UTF-8
+date: Sun, 21 Jul 2019 09:12:08 GMT
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+p3p: policyref="https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+pragma: no-cache
+server: cafe
+status: 200
+timing-allow-origin: *
+x-content-type-options: nosniff
+x-xss-protection: 0
+Provisional headers are shown
+Origin: https://www.youtube.com
+Referer: https://www.youtube.com/embed/6syoUP8sYoI?ec=Reguler&el=&muted=1&autoplay=0&utm_source=dream.co.id-desktop&utm_medium=skrin&utm_campaign=DRM01-Reguler&ref=null
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+
