@@ -1197,3 +1197,35 @@ callback_uid: 2c89ef1eb5a45c
 auction: 0e34bc70-f82a-4ce1-ba7b-e281001a3f90
 (empty)
 
+-Hacked Source:
+https://cse.google.com/adsense/search/async-ads.js
+
+-Via Initiator:
+chrome-extension://kejbdjndbnbjgmefkgdddjlbokphdefk/tag_assistant_compiled.js
+
+-Syntax Code Saf ke 118:
+eg.prototype.Ma=function(a,b){var c={};
+
+-Via Network->Headers:
+Request URL: https://cse.google.com/adsense/search/async-ads.js
+Request Method: GET
+Status Code: 200  (from disk cache)
+Remote Address: 172.217.26.78:443
+Referrer Policy: no-referrer-when-downgrade
+accept-ranges: bytes
+alt-svc: quic=":443"; ma=2592000; v="46,43,39"
+cache-control: private, max-age=3600
+content-encoding: gzip
+content-type: text/javascript; charset=UTF-8
+date: Mon, 22 Jul 2019 11:24:44 GMT
+etag: "9539891698096678746"
+expires: Mon, 22 Jul 2019 11:24:44 GMT
+server: sffe
+status: 304
+vary: Accept-Encoding
+x-content-type-options: nosniff
+x-xss-protection: 0
+Provisional headers are shown
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+
