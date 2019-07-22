@@ -1229,3 +1229,44 @@ Provisional headers are shown
 Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
 
+-Hacked Source:
+https://www.googletagmanager.com/gtm.js?id=GTM-TDL3FQ9
+
+-Via Initiator:
+-View Source: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+
+-Syntax Code Saf ke 131:
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TDL3FQ9');
+		
+-Via Network->Headers:
+Request URL: https://www.googletagmanager.com/gtm.js?id=GTM-TDL3FQ9
+Request Method: GET
+Status Code: 200  (from disk cache)
+Remote Address: 172.217.26.72:443
+Referrer Policy: no-referrer-when-downgrade
+access-control-allow-credentials: true
+access-control-allow-headers: Cache-Control
+access-control-allow-origin: http://www.googletagmanager.com
+alt-svc: quic=":443"; ma=2592000; v="46,43,39"
+cache-control: private, max-age=900
+content-encoding: br
+content-length: 24410
+content-type: application/javascript; charset=UTF-8
+date: Mon, 22 Jul 2019 11:24:37 GMT
+expires: Mon, 22 Jul 2019 11:24:37 GMT
+last-modified: Mon, 22 Jul 2019 09:00:00 GMT
+server: Google Tag Manager
+status: 200
+vary: Accept-Encoding
+x-xss-protection: 0
+Provisional headers are shown
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+id: GTM-TDL3FQ9
+
