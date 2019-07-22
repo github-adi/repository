@@ -1146,3 +1146,54 @@ ts: 1563710438219
 sw: 1366
 sh: 768
 
+-Hacked Source:
+https://as.innity.com/synd/?cb=1563775409727&ver=2&hb=1&output=js&pub=536&zone=62258&url=https%253A%252F%252Fwww.dream.co.id%252Fshowbiz%252Ftak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html&width=728&height=90&vpw=1366&vph=768&callback=json&callback_uid=2c89ef1eb5a45c&auction=0e34bc70-f82a-4ce1-ba7b-e281001a3f90&
+
+-Via Initiator:
+https://ads.pubmatic.com/AdServer/js/pwt/156536/456/pwt.js
+
+-Syntax Code Saf ke 1:
+bids.forEach((function(e){o[e.bidId]||(r.addNoBid(e),k.emit(x.EVENTS.NO_BID,e))})),t&&0===i&&e()}}})(A,e);
+
+-Via Network->Headers:
+Request URL: https://as.innity.com/synd/?cb=1563775409727&ver=2&hb=1&output=js&pub=536&zone=62258&url=https%253A%252F%252Fwww.dream.co.id%252Fshowbiz%252Ftak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html&width=728&height=90&vpw=1366&vph=768&callback=json&callback_uid=2c89ef1eb5a45c&auction=0e34bc70-f82a-4ce1-ba7b-e281001a3f90&
+Request Method: GET
+Status Code: 200 OK
+Remote Address: 149.129.240.178:443
+Referrer Policy: no-referrer-when-downgrade
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://www.dream.co.id
+Access-Control-Max-Age: 86400
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0, post-check=0, pre-check=0
+Connection: close
+Content-Encoding: gzip
+Content-Length: 647
+Content-Type: application/json; charset=utf-8
+Date: Mon, 22 Jul 2019 06:03:29 GMT
+Expires: Sat, 03 Sep 1983 02:00:00 GMT
+Last-Modified: Mon, 22 Jul 2019 06:03:29 GMT
+P3P: policyref=http://www.innity.com/p3p/p3p.xml,CP="CURa ADMa DEVa OUR BUS UNI COM NAV INT"
+Pragma: no-cache
+Server: Apache
+Vary: Accept-Encoding
+Provisional headers are shown
+Content-Type: text/plain
+Origin: https://www.dream.co.id
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+cb: 1563775409727
+ver: 2
+hb: 1
+output: js
+pub: 536
+zone: 62258
+url: https%3A%2F%2Fwww.dream.co.id%2Fshowbiz%2Ftak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+width: 728
+height: 90
+vpw: 1366
+vph: 768
+callback: json
+callback_uid: 2c89ef1eb5a45c
+auction: 0e34bc70-f82a-4ce1-ba7b-e281001a3f90
+(empty)
+
