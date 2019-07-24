@@ -1270,3 +1270,33 @@ Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
 id: GTM-TDL3FQ9
 
+-Hacked Source:
+https://cdns.klimg.com/a.kapanlagi.com/v5/js/plugin.socmed.js?v1.6
+
+-Via Initiator:
+View Source: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+
+-Syntax Code Saf ke 54:
+<script type="text/javascript" src="https://cdns.klimg.com/a.kapanlagi.com/v5/js/plugin.socmed.js?v1.6" async defer></script>
+
+-Via Network->Headers:
+Request URL: https://cdns.klimg.com/a.kapanlagi.com/v5/js/plugin.socmed.js?v1.6
+Request Method: GET
+Status Code: 200  (from disk cache)
+Remote Address: 203.12.21.54:443
+Referrer Policy: no-referrer-when-downgrade
+cache-control: max-age=315360000, public
+content-encoding: gzip
+content-type: application/javascript
+date: Mon, 22 Jul 2019 06:00:30 GMT
+expires: Thu, 31 Dec 2037 23:55:55 GMT
+last-modified: Wed, 29 May 2019 20:09:14 GMT
+pragma: public
+server: nginx
+status: 200
+vary: Accept-Encoding
+Provisional headers are shown
+Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+v1.6: 
+
