@@ -1369,3 +1369,36 @@ Provisional headers are shown
 Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam-ariel-noah-kenapa-1906266.html
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
 
+-Hacked Source:
+https://cdns.klimg.com/a.dream.co.id/assets/fonts/metropolis-semibold-webfont.woff
+
+-Via Initiator:
+https://cdns.klimg.com/a.dream.co.id/assets/js/v.0.82/dream_new.js
+
+-Syntax Code Saf ke 7981:
+M.touch=function(){var n;return"ontouchstart"in e||e.DocumentTouch&&t instanceof DocumentTouch?n=!0:F(["@media (",S.join("touch-enabled),("),v,")","{#modernizr{top:9px;position:absolute}}"].join(""),function(e){n=9===e
+
+-Via Network->Headers:
+Request URL: https://cdns.klimg.com/a.dream.co.id/assets/fonts/metropolis-semibold-webfont.woff
+Request Method: GET
+Status Code: 200  (from memory cache)
+Remote Address: 203.12.21.54:443
+Referrer Policy: no-referrer-when-downgrade
+accept-ranges: bytes
+access-control-allow-origin: *
+cache-control: max-age=315360000, public
+content-encoding: gzip
+content-length: 20038
+content-type: application/font-woff
+date: Mon, 22 Jul 2019 06:00:33 GMT
+expires: Thu, 31 Dec 2037 23:55:55 GMT
+last-modified: Sat, 30 Mar 2013 21:47:15 GMT
+pragma: public
+server: nginx
+status: 200
+vary: Accept-Encoding,User-Agent
+Provisional headers are shown
+Origin: https://www.dream.co.id
+Referer: https://cdns.klimg.com/a.dream.co.id/assets/css/v.3.22/main.css
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+
