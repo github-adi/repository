@@ -1300,3 +1300,43 @@ Referer: https://www.dream.co.id/showbiz/tak-pernah-berkonflik-denny-cagur-ancam
 User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
 v1.6: 
 
+-Hacked Source:
+https://static-playback.vidio.static6.com/playback/5adfab2/playback.css
+
+-Via Initiator:
+https://static-playback.vidio.static6.com/playback/base.js
+
+-Syntax Code Saf ke 1:
+onerror=function(){r("FAILED")},o.src=playback.Revision.url+"/playback.js",
+
+-Via Network->Headers:
+Request URL: https://static-playback.vidio.static6.com/playback/5adfab2/playback.css
+Request Method: GET
+Status Code: 200 
+Remote Address: 23.195.156.34:443
+Referrer Policy: strict-origin-when-cross-origin
+accept-ranges: bytes
+access-control-allow-methods: GET,POST
+access-control-allow-origin: *
+cache-control: public, max-age=0
+content-encoding: gzip
+content-length: 34784
+content-type: text/css
+date: Wed, 24 Jul 2019 10:28:30 GMT
+etag: "9d83d9cce62596abf7377db8d7207ded"
+expires: Thu, 29 Aug 2019 22:28:30 GMT
+last-modified: Tue, 23 Jul 2019 08:04:47 GMT
+server: UploadServer
+status: 304
+vary: Accept-Encoding
+x-goog-generation: 1563869087525504
+x-goog-hash: crc32c=mosyGQ==, md5=nYPZzOYllqv3N3241yB97Q==
+x-goog-metageneration: 1
+x-goog-storage-class: MULTI_REGIONAL
+x-goog-stored-content-encoding: gzip
+x-goog-stored-content-length: 34784
+x-guploader-uploadid: AEnB2UoJcsivdP_EuMM55orhiZCxGQS0I1Dxci7W0U3oSpzUVUcxgNxe4N7CCp8FDuLGvVJO_NA6FhyDYzL0pIQrLfm5CGCUtw
+Provisional headers are shown
+Referer: https://www.vidio.com/
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
+
