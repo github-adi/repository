@@ -68,3 +68,37 @@ Logger.log(i);
 [19-09-30 15:30:08:047 ICT] 2.0
 [19-09-30 15:30:08:048 ICT] Strawberry
 [19-09-30 15:30:08:048 ICT] 3.0
+
+//second forEach loop example\\
+function forEachLoopTemp() {
+
+var celciusArray = [0,13,18,11,24];
+var farenheitArray = {};
+
+celciusArray.forEach(function(celciusTemp) {
+
+//call function below here\\
+
+var farenheitTemp = convertCtoF(celciusTemp);
+
+Logger.log(farenheitTemp);
+
+});
+
+}
+
+//function to convert celcius to farenheit and next to above\\
+function convertCtoF(t) {
+
+return (t * 9/5) + 32;
+
+}
+
+-Returned:
+
+[19-09-30 16:15:46:682 ICT] 32.0
+[19-09-30 16:15:46:682 ICT] 55.4
+[19-09-30 16:15:46:683 ICT] 64.4
+[19-09-30 16:15:46:683 ICT] 51.8
+[19-09-30 16:15:46:683 ICT] 75.2
+
