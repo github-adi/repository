@@ -1,0 +1,46 @@
+//for loop\\
+function forLoop() {
+ 
+var fruitsArray = ["Apple","Banana","Pear","Strawberry"];
+var arrayLength = fruitsArray.length;
+
+Logger.log(fruitsArray);
+Logger.log(arrayLength);
+
+}
+
+-Returned via gs editor:
+
+[19-09-29 23:07:17:941 PDT] [Apple, Banana, Pear, Strawberry]
+[19-09-29 23:07:17:942 PDT] 4.0
+
+
+//for loop\\
+function forLoop() {
+ 
+var fruitsArray = ["Apple","Banana","Pear","Strawberry"];
+var arrayLength = fruitsArray.length;
+
+Logger.log(fruitsArray);
+Logger.log(arrayLength);
+
+for (var i = 0; i < arrayLength; i++) {
+
+Logger.log(i);
+Logger.log(fruitsArray[i]);
+
+}
+}
+
+-Returned via gs editor:
+
+[19-09-30 13:12:37:697 ICT] [Apple, Banana, Pear, Strawberry]
+[19-09-30 13:12:37:697 ICT] 4.0
+[19-09-30 13:12:37:698 ICT] 0.0
+[19-09-30 13:12:37:698 ICT] Apple
+[19-09-30 13:12:37:698 ICT] 1.0
+[19-09-30 13:12:37:699 ICT] Banana
+[19-09-30 13:12:37:699 ICT] 2.0
+[19-09-30 13:12:37:699 ICT] Pear
+[19-09-30 13:12:37:699 ICT] 3.0
+[19-09-30 13:12:37:700 ICT] Strawberry
