@@ -44,3 +44,27 @@ Logger.log(fruitsArray[i]);
 [19-09-30 13:12:37:699 ICT] Pear
 [19-09-30 13:12:37:699 ICT] 3.0
 [19-09-30 13:12:37:700 ICT] Strawberry
+
+//forEach loop example\\
+function forEachLoop() {
+
+var fruitsArray = ["Apple","Banana","Pear","Strawberry"];
+fruitsArray.forEach(function(item,i) {
+
+Logger.log(item);
+Logger.log(i);
+
+});
+
+}
+
+-Returned:
+
+[19-09-30 15:30:08:045 ICT] Apple
+[19-09-30 15:30:08:045 ICT] 0.0
+[19-09-30 15:30:08:046 ICT] Banana
+[19-09-30 15:30:08:046 ICT] 1.0
+[19-09-30 15:30:08:047 ICT] Pear
+[19-09-30 15:30:08:047 ICT] 2.0
+[19-09-30 15:30:08:048 ICT] Strawberry
+[19-09-30 15:30:08:048 ICT] 3.0
