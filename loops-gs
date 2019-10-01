@@ -102,3 +102,42 @@ return (t * 9/5) + 32;
 [19-09-30 16:15:46:683 ICT] 51.8
 [19-09-30 16:15:46:683 ICT] 75.2
 
+---
+//second forEach loop example\\
+function forEachLoopTemp() {
+
+var celciusArray = [0,13,19,11,24,29,34,17,4];
+var farenheitArray = {};
+
+celciusArray.forEach(function(celciusTemp) {
+
+//call function below here\\
+
+var farenheitTemp = convertCtoF(celciusTemp);
+
+celciusArray.push(celciusTemp);
+
+});
+
+Logger.log("Celcius Array:");
+Logger.log(celciusArray);
+
+Logger.log("Farenheit Array:");
+Logger.log(farenheitArray);
+
+}
+
+//function to convert celcius to farenheit and next to above\\
+function convertCtoF(t) {
+
+return (t * 9/5) + 32;
+
+}
+
+-Returned:
+
+[19-10-01 16:59:37:679 ICT] Celcius Array:
+[19-10-01 16:59:37:680 ICT] [0.0, 13.0, 19.0, 11.0, 24.0, 29.0, 34.0, 17.0, 4.0, 0.0, 13.0, 19.0, 11.0, 24.0, 29.0, 34.0, 17.0, 4.0]
+[19-10-01 16:59:37:680 ICT] Farenheit Array:
+[19-10-01 16:59:37:681 ICT] {}
+
