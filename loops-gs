@@ -14,7 +14,6 @@ Logger.log(arrayLength);
 [19-09-29 23:07:17:941 PDT] [Apple, Banana, Pear, Strawberry]
 [19-09-29 23:07:17:942 PDT] 4.0
 
-
 //for loop\\
 function forLoop() {
  
@@ -203,4 +202,33 @@ Logger.log(property);
 [19-10-02 16:04:16:445 ICT] name
 [19-10-02 16:04:16:446 ICT] age
 [19-10-02 16:04:16:446 ICT] title
+
+//forEach does not work for objects\\
+function forInObjectLoop() {
+
+var employee = {
+
+name: "Muhammad Adi Nugroho",
+age :54,
+title: "Developer"
+
+}
+
+for (var property in employee) {
+
+Logger.log(property);
+Logger.log(employee[property]);
+
+}
+
+}
+
+-Returned:
+
+[19-10-02 16:13:13:029 ICT] name
+[19-10-02 16:13:13:030 ICT] Muhammad Adi Nugroho
+[19-10-02 16:13:13:030 ICT] age
+[19-10-02 16:13:13:031 ICT] 54.0
+[19-10-02 16:13:13:031 ICT] title
+[19-10-02 16:13:13:032 ICT] Developer
 
