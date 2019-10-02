@@ -179,3 +179,28 @@ return (t * 9/5) + 32;
 [19-10-01 16:59:37:680 ICT] Farenheit Array:
 [19-10-01 16:59:37:681 ICT] {}
 
+//forEach does not work for objects\\
+function forInObjectLoop() {
+
+var employee = {
+
+name: "Muhammad Adi Nugroho",
+age :54,
+title: "Developer"
+
+}
+
+for (var property in employee) {
+
+Logger.log(property);
+
+}
+
+}
+
+-Returned:
+
+[19-10-02 16:04:16:445 ICT] name
+[19-10-02 16:04:16:446 ICT] age
+[19-10-02 16:04:16:446 ICT] title
+
