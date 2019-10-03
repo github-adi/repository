@@ -1,0 +1,12 @@
+function getName() {
+  
+  var ss = SpreadsheetApp.getActive();
+  var name = ss.getName();
+  
+  Logger.log(name);
+   
+}
+
+-Returned via gs editor:
+
+[19-10-03 02:40:36:522 PDT] spreadsheet-service
