@@ -11,3 +11,19 @@ function getName() {
 -Returned via gs editor:
 
 [19-10-03 02:40:36:522 PDT] spreadsheet-service
+
+//get data out of spreadsheet\\
+function getDate() {
+  
+  var ss = SpreadsheetApp.getActive();
+  var sheet = ss.getActiveSheet();
+  var data = sheet.getDataRange();
+    
+  Logger.log(data);
+   
+}
+
+--Returned:
+
+[19-10-04 16:55:37:762 ICT] Range
+
