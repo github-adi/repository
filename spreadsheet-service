@@ -1,3 +1,4 @@
+//get Name of Spreadsheet\\
 function getName() {
   
   var ss = SpreadsheetApp.getActive();
