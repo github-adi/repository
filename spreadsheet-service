@@ -27,3 +27,21 @@ function getDate() {
 
 [19-10-04 16:55:37:762 ICT] Range
 
+//get data out of spreadsheet\\
+function getDate() {
+  
+  var ss = SpreadsheetApp.getActive();
+  var sheet = ss.getActiveSheet();
+  var data = sheet.getDataRange();
+  var values = data.getValues();
+  
+  Logger.log(values);
+  
+  
+}
+
+-Returned:
+
+[19-10-05 16:57:30:300 ICT] [[Name, Cost, Quantity], [Apple, 2000.0, 2.0], [Banana, 1000.0, 3.0], [Pear, 2500.0, 5.0], [Strowberry, 1500.0, 4.0]]
+
+
