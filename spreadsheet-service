@@ -44,4 +44,18 @@ function getDate() {
 
 [19-10-05 16:57:30:300 ICT] [[Name, Cost, Quantity], [Apple, 2000.0, 2.0], [Banana, 1000.0, 3.0], [Pear, 2500.0, 5.0], [Strowberry, 1500.0, 4.0]]
 
+//get data out more directly\\
+function getDate() {
+  
+  var sheet = SpreadsheetApp.getActiveSheet();
+    
+  Logger.log(sheet.getDataRange().getValues());
+  
+  
+}
+
+-Returned:
+
+[19-10-06 16:37:47:329 ICT] [[Name, Cost, Quantity], [Apple, 2000.0, 2.0], [Banana, 1000.0, 3.0], [Pear, 2500.0, 5.0], [Strowberry, 1500.0, 4.0]]
+
 
