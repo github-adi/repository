@@ -58,4 +58,19 @@ function getDate() {
 
 [19-10-06 16:37:47:329 ICT] [[Name, Cost, Quantity], [Apple, 2000.0, 2.0], [Banana, 1000.0, 3.0], [Pear, 2500.0, 5.0], [Strowberry, 1500.0, 4.0]]
 
+//get sheet by name\\
+function getData3() {
+  
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet1 = ss.getSheetByName("Sheet1");
+     
+  Logger.log(sheet1.getDataRange().getValues());
+  
+  
+}
+
+-Returned:
+
+[19-10-06 16:59:11:551 ICT] [[Name, Cost, Quantity], [Apple, 2000.0, 2.0], [Banana, 1000.0, 3.0], [Pear, 2500.0, 5.0], [Strowberry, 1500.0, 4.0]]
+
 
