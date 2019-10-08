@@ -107,5 +107,22 @@ function getData5() {
 
 [19-10-07 16:34:21:691 ICT] [[Name, Cost, Quantity], [Apple, 2000.0, 2.0], [Banana, 1000.0, 3.0], [Pear, 2500.0, 5.0], [Strowberry, 1500.0, 4.0]]
 
+//get range of data by coordinates\\
+function getData5() {
+  
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet1 = ss.getSheetByName("Sheet1");
+  
+  var data = sheet1.getRange(1,1,4,1).getValues();
+  
+  Logger.log(data);
+   
+  
+}
+
+-Returned:
+
+[19-10-08 18:12:03:323 ICT] [[Name], [Apple], [Banana], [Pear]]
+
 
 
