@@ -1,0 +1,16 @@
+//calculate total for each row\\
+function calculateRowTotal() {
+  
+  var ss = SpreadsheetApp.getActive();
+  var sheet1 = ss.getSheetByName("Sheet1");
+  var data = sheet1.getRange(2,1,6,3).getValues();
+  
+  Logger.log(data);
+    
+  
+}
+
+-Returned via gs editor:
+
+[19-10-09 15:56:03:800 ICT] [[IBM, 2000000.0, 5.0], [DELL, 1500000.0, 4.0], [AXIOO, 1000000.0, 3.0], [ACER, 1100000.0, 2.0], [ASUS, 950000.0, 1.0], [, , ]]
+
