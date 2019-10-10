@@ -42,3 +42,38 @@ function calculateRowTotal() {
 [19-10-09 16:21:06:016 ICT] [ASUS, 950000.0, 1.0]
 [19-10-09 16:21:06:016 ICT] [, , ]
 
+//pointer ditaruh ke-2-calculate total for each row\\
+function calculateRowTotal() {
+  
+  var ss = SpreadsheetApp.getActive();
+  var sheet1 = ss.getSheetByName("Sheet1");
+  var data = sheet1.getRange(2,1,6,3).getValues();
+  
+  Logger.log(data);
+  
+  //pointer ditaruh paling bawah\\  
+  data.forEach(function(row) {
+  
+  Logger.log(row);  
+  Logger.log(row[0]);  
+  
+  });
+  
+}
+
+-Returned:
+
+[19-10-10 16:10:11:295 ICT] [[IBM, 2000000.0, 5.0], [DELL, 1500000.0, 4.0], [AXIOO, 1000000.0, 3.0], [ACER, 1100000.0, 2.0], [ASUS, 950000.0, 1.0], [, , ]]
+[19-10-10 16:10:11:296 ICT] [IBM, 2000000.0, 5.0]
+[19-10-10 16:10:11:297 ICT] IBM
+[19-10-10 16:10:11:298 ICT] [DELL, 1500000.0, 4.0]
+[19-10-10 16:10:11:298 ICT] DELL
+[19-10-10 16:10:11:299 ICT] [AXIOO, 1000000.0, 3.0]
+[19-10-10 16:10:11:299 ICT] AXIOO
+[19-10-10 16:10:11:300 ICT] [ACER, 1100000.0, 2.0]
+[19-10-10 16:10:11:300 ICT] ACER
+[19-10-10 16:10:11:301 ICT] [ASUS, 950000.0, 1.0]
+[19-10-10 16:10:11:301 ICT] ASUS
+[19-10-10 16:10:11:302 ICT] [, , ]
+[19-10-10 16:10:11:303 ICT] 
+
