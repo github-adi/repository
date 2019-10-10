@@ -77,3 +77,66 @@ function calculateRowTotal() {
 [19-10-10 16:10:11:302 ICT] [, , ]
 [19-10-10 16:10:11:303 ICT] 
 
+//pointer ditaruh ke-2-calculate total for each row\\
+function calculateRowTotal() {
+  
+  var ss = SpreadsheetApp.getActive();
+  var sheet1 = ss.getSheetByName("Sheet1");
+  var data = sheet1.getRange(2,1,6,3).getValues();
+  
+  Logger.log(data);
+  
+  //pointer ditaruh paling bawah\\  
+  data.forEach(function(row) {
+  
+  Logger.log(row);  
+  Logger.log(row[0]);  
+  Logger.log(row[1]);
+  Logger.log(row[2]);
+  
+  var merk = row[0];
+  var harga = row[1];
+  var jumlah = row[2];
+  
+  var total = harga * jumlah;
+  
+  Logger.log(total);
+  
+  });
+  
+}
+
+-Returned:
+
+[19-10-10 16:30:59:093 ICT] [[IBM, 2000000.0, 5.0], [DELL, 1500000.0, 4.0], [AXIOO, 1000000.0, 3.0], [ACER, 1100000.0, 2.0], [ASUS, 950000.0, 1.0], [, , ]]
+[19-10-10 16:30:59:095 ICT] [IBM, 2000000.0, 5.0]
+[19-10-10 16:30:59:095 ICT] IBM
+[19-10-10 16:30:59:096 ICT] 2000000.0
+[19-10-10 16:30:59:097 ICT] 5.0
+[19-10-10 16:30:59:098 ICT] 1.0E7
+[19-10-10 16:30:59:098 ICT] [DELL, 1500000.0, 4.0]
+[19-10-10 16:30:59:099 ICT] DELL
+[19-10-10 16:30:59:099 ICT] 1500000.0
+[19-10-10 16:30:59:100 ICT] 4.0
+[19-10-10 16:30:59:101 ICT] 6000000.0
+[19-10-10 16:30:59:101 ICT] [AXIOO, 1000000.0, 3.0]
+[19-10-10 16:30:59:102 ICT] AXIOO
+[19-10-10 16:30:59:103 ICT] 1000000.0
+[19-10-10 16:30:59:103 ICT] 3.0
+[19-10-10 16:30:59:104 ICT] 3000000.0
+[19-10-10 16:30:59:104 ICT] [ACER, 1100000.0, 2.0]
+[19-10-10 16:30:59:105 ICT] ACER
+[19-10-10 16:30:59:106 ICT] 1100000.0
+[19-10-10 16:30:59:106 ICT] 2.0
+[19-10-10 16:30:59:107 ICT] 2200000.0
+[19-10-10 16:30:59:108 ICT] [ASUS, 950000.0, 1.0]
+[19-10-10 16:30:59:108 ICT] ASUS
+[19-10-10 16:30:59:109 ICT] 950000.0
+[19-10-10 16:30:59:110 ICT] 1.0
+[19-10-10 16:30:59:111 ICT] 950000.0
+[19-10-10 16:30:59:111 ICT] [, , ]
+[19-10-10 16:30:59:112 ICT] 
+[19-10-10 16:30:59:113 ICT] 
+[19-10-10 16:30:59:114 ICT] 
+[19-10-10 16:30:59:114 ICT] 0.0
+
