@@ -13,3 +13,40 @@ function addRowTotal() {
 -Returned via gs editor:
 
 [19-10-12 17:14:25:542 ICT] [[IBM, 2000000.0, 5.0], [DELL, 1500000.0, 4.0], [AXIOO, 1000000.0, 3.0], [ACER, 1100000.0, 2.0], [ASUS, 950000.0, 1.0], [, , ]]
+
+//pointer di paling bawah kiri-add total for each row into sheet1\\
+function addRowTotal() {
+  
+  var ss = SpreadsheetApp.getActive();
+  var sheet1 = ss.getSheetByName("Sheet1");
+  
+  var data = sheet1.getRange(2,1,6,3).getValues();
+  
+  Logger.log(data);
+  
+  data.forEach(function(row) {
+  
+  var merk = row[0];
+  var harga = row[1];
+  var jumlah = row[2];
+  
+  var total = harga * jumlah;
+  
+  row.push(total);
+  
+  Logger.log(row);
+  
+  });
+  
+}
+
+-Returned:
+
+[19-10-15 17:34:23:358 ICT] [[IBM, 2000000.0, 5.0], [DELL, 1500000.0, 4.0], [AXIOO, 1000000.0, 3.0], [ACER, 1100000.0, 2.0], [ASUS, 950000.0, 1.0], [, , ]]
+[19-10-15 17:34:23:359 ICT] [IBM, 2000000.0, 5.0, 1.0E7]
+[19-10-15 17:34:23:360 ICT] [DELL, 1500000.0, 4.0, 6000000.0]
+[19-10-15 17:34:23:360 ICT] [AXIOO, 1000000.0, 3.0, 3000000.0]
+[19-10-15 17:34:23:361 ICT] [ACER, 1100000.0, 2.0, 2200000.0]
+[19-10-15 17:34:23:362 ICT] [ASUS, 950000.0, 1.0, 950000.0]
+[19-10-15 17:34:23:363 ICT] [, , , 0.0]
+
