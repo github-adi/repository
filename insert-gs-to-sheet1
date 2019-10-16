@@ -134,3 +134,48 @@ function addRowTotal() {
 [19-10-16 15:43:00:957 ICT] [, , , 0.0]
 [19-10-16 15:43:00:957 ICT] [[1.0E7], [6000000.0], [3000000.0], [2200000.0], [950000.0], [0.0]]
 
+//pointer di paling bawah kiri-add total for each row into sheet1\\
+function addRowTotal() {
+  
+  var ss = SpreadsheetApp.getActive();
+  var sheet1 = ss.getSheetByName("Sheet1");
+  
+  var data = sheet1.getRange(2,1,6,3).getValues();
+  
+  Logger.log(data);
+  
+  var totalArray = [];
+  
+  data.forEach(function(row) {
+  
+  var merk = row[0];
+  var harga = row[1];
+  var jumlah = row[2];
+  
+  var total = harga * jumlah;
+  
+  row.push(total);
+  
+  totalArray.push([total]);
+  
+  Logger.log(row);
+  
+  });
+  
+  Logger.log(totalArray);
+  
+  //paste data back into sheet1-pointernya di TOTAL-hasilnya terlihat di sheet1\\
+  sheet1.getRange(2,4,6,1).setValues(totalArray);
+     
+}
+
+-Returned:
+
+TOTAL
+10000000
+6000000
+3000000
+2200000
+950000
+0
+
