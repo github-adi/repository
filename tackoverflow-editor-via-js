@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+    </style>
+    <script src="https://stackoverflow.com/scripts/snippet-javascript-console.min.js?v=1"></script>
+</head>
+<body>
+    <div id="buttons"></div>
+    <script type="text/javascript">
+        function generateButtons() {
+  var i;
+  var buttonDiv = document.getElementById("buttons");
+  for (var i = 0; i < 6; i++) {
+      generateButton(i, buttonDiv);
+  }
+}
+
+function generateButton(iteration, container) {
+      var button = document.createElement("button");
+      button.innerHTML = iteration;
+      button.className = "buttonclass";
+      button.onclick = function() { alert(iteration); }
+      container.appendChild(button);
+}
+
+generateButtons();
+    </script>
+</body>
+</html>
