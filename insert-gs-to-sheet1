@@ -478,7 +478,7 @@ var lastColumn = sheet1.getLastColumn();
 sheet1.getRange(lastRow + 1,1).setValue("TOTAL");
 sheet1.getRange(lastRow + 1, lastColumn).setFormula("=sum(D2:D8)");
 //or-gantian dipakai\\
-sheet1.getRange(lastRow + 1, lastColumn).setFormula("=sum(D2:D + lastRow + ")");
+sheet1.getRange(lastRow + 1, lastColumn).setFormula("=sum(D2:D" + lastRow + ")");
 }
 
 -Returned:
