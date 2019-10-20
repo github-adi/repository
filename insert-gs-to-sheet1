@@ -671,3 +671,83 @@ TOTAL			0
 			0
 TOTAL			31450000
 
+//pointer di paling bawah kiri-add total for each row into sheet1\\
+function addRowTotals() {
+  
+  var ss = SpreadsheetApp.getActive();
+  var sheet1 = ss.getSheetByName("Sheet1");
+  var lastRow = sheet1.getLastRow();
+  var data = sheet1.getRange(2,1,lastRow,3).getValues();
+  
+  Logger.log(data);
+  
+  var totalArray = [];
+  
+  data.forEach(function(row) {
+  
+  var merk = row[0];
+  var harga = row[1];
+  var jumlah = row[2];
+    
+  var total = harga * jumlah;
+  
+  row.push(total);
+  
+  totalArray.push([total]);
+  
+  Logger.log(row);
+  
+  });
+  
+  Logger.log(totalArray);
+  
+  //paste data back into sheet1-pointernya di TOTAL-hasilnya terlihat di sheet1\\
+  sheet1.getRange(2,4,lastRow - 0,1).setValues(totalArray);
+    
+  }
+  
+  //Adding Custom Menus to Run Programs\
+  //add menu-pointer dibawah TOTAL yang dikosongin\\
+  function onOpen() {
+  
+  var ui = SpreadsheetApp.getUi();
+  
+  ui.createMenu("Custom Menu")
+      .addItem("Add Row Totals","addRowTotals")
+      .addItem("Add Grand Total","grandTotal")
+      .addItem("Format Table","formatTable")
+      .addToUi();  
+    
+  }
+  
+//Adding Formulas With Apps Script\\
+//add grand total row\\
+function grandTotal() {
+
+var ss = SpreadsheetApp.getActive();
+var sheet1 = ss.getSheetByName("Sheet1");
+var lastRow = sheet1.getLastRow();
+var lastColumn = sheet1.getLastColumn();
+
+sheet1.getRange(lastRow + 1,1).setValue("TOTAL");
+sheet1.getRange(lastRow + 1, lastColumn).setFormula("=sum(D2:D8)");
+
+}
+
+//Formating Data in Google Sheets with Apps Script\\
+//format table\\
+function formatTable() {
+
+var ss = SpreadsheetApp.getActive();
+var sheet1 = ss.getSheetByName("Sheet1");
+var lastRow = sheet1.getLastRow();
+var lastColumn = sheet1.getLastColumn();
+var dataRange = sheet1.getDataRange();
+
+//apply LIGHT_GREEN banding, add header, add footer||
+dataRange.applyRowBanding(SpreadsheetApp.BandingTheme.LIGHT_GREEN, true, true);
+
+}
+
+-Returned warna hijau di atas dan di bawah sheet1
+
