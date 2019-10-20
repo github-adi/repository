@@ -935,3 +935,20 @@ sheet1.getRange(lastRow,1,1,lastColumn).setFontWeight("bold");
 
 -Returned Bold paling atas dan paling bawah di sheet1.
 
+//Automaticaly Adding Charts with Apps Script\\
+//add a chart\\
+function addChart() {
+
+var ss = SpreadsheetApp.getActive();
+var sheet1 = ss.getSheetByName("Sheet1");
+var lastRow = sheet1.getLastRow();
+var lastColumn = sheet1.getLastColumn();
+var dataRange = sheet1.getRange("A1:B9");
+
+Logger.log(dataRange.getValues());
+
+}
+-Returned:
+
+[19-10-20 20:24:27:720 ICT] [[MERK, HARGA], [IBM, 2000000.0], [DELL, 1500000.0], [AXIOO, 1000000.0], [ACER, 1100000.0], [ASUS, 950000.0], [, ], [SAMSUNG, 1550000.0], [TOTAL, ]]
+
