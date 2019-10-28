@@ -1,0 +1,65 @@
+-Format JavaScript yang ada tulisan 'use strict' harus mengalami re-edit untuk bisa run. Script awal yang di bawah ini:
+-chrome-extension://pkedcjkdefgpdelpbcmbmeomcjbeemfm/cast_sender.js
+
+(function(){'use strict';var f,aa=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}
+
+-Mengalami Re-edit:
+
+function myFunction() {
+    'use strict';
+    var f, aa = function(a) {
+        var b = 0;
+        return function() {
+            return b < a.length ? {
+                done: !1,
+                value: a[b++]
+            } : {
+                done: !0
+            }
+        }
+    }
+    
+    Logger.log(aa);
+    }
+    
+-Hanya Run di Format Console gs tidak di Console js.
+-Returned:
+
+[19-10-28 16:16:30:369 ICT] 
+function (a) {
+    var b = 0;
+    return function () {
+        return b < a.length ? {done:!1, value:a[b++]} : {done:!0};
+    };
+}
+
+-Sedang Function Use Strict ke 2:
+ba=function(a){var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:aa(a)}}
+
+-Mengalami Re-edit:
+
+function ba(a){
+
+var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:aa(a)}
+
+}
+
+-Hanya run via Console js editor:
+
+function ba(a){
+
+var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:aa(a)}
+
+}
+
+undefined
+
+ba
+
+ƒ ba(a){
+
+
+var b="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return b?b.call(a):{next:aa(a)}
+
+
+}
