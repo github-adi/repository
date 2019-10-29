@@ -1,3 +1,4 @@
+-Git Clone:
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~
 $ git clone https://github.com/github-adi/repository/tree/master
@@ -21,4 +22,17 @@ and retry the checkout with 'git checkout -f HEAD'
 
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~
+$
+
+-Git init:
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$ git init https://github.com/github-adi/repository
+fatal: cannot mkdir https://github.com/github-adi/repository: Invalid argument
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$ git init
+Initialized empty Git repository in C:/Users/Administrator/.git/
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master)
 $
