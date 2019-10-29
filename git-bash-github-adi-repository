@@ -1,0 +1,24 @@
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$ git clone https://github.com/github-adi/repository/tree/master
+Cloning into 'master'...
+fatal: repository 'https://github.com/github-adi/repository/tree/master/' not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$ git clone https://github.com/github-adi/repository
+Cloning into 'repository'...
+remote: Enumerating objects: 27, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 11485 (delta 14), reused 0 (delta 0), pack-reused 11458
+Receiving objects: 100% (11485/11485), 36.75 MiB | 1.87 MiB/s, done.
+Resolving deltas: 100% (4614/4614), done.
+error: Untracked working tree file 'C:\Program Files\Notepad++\Box2dWeb21a3min.js' would be overwritten by merge.
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry the checkout with 'git checkout -f HEAD'
+
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~
+$
