@@ -36,3 +36,13 @@ Initialized empty Git repository in C:/Users/Administrator/.git/
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master)
 $
+
+-git config user.name:
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git config user.name
+Muhammad Adi Nugroho
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
