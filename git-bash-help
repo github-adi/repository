@@ -97,4 +97,68 @@ $
 
 file:///C:/Program%20Files/Git/mingw32/share/doc/git-doc/git-config.html
 
+-git status
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git status
+On branch master
+You are currently bisecting, started from branch 'master'.
+  (use "git bisect reset" to get back to the original branch)
+
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .babelrc
+        .bash_history
+        .config/
+        .gitconfig
+        .node_repl_history
+        .ssh/
+        .viminfo
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        KLN INFEED-dream-co-id
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TM.blf
+        NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Searches/
+        Tracing/
+        UsersAdministratorDocumentscircleciconfig.yml
+        Videos/
+        YandexDisk/
+        demos/
+        jsfiddle-api@0.0.1
+        jsfiddler
+        mesa/
+        node
+        node_modules/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        package-lock.json
+        tmrowapp-contrib/
+
+
+It took 3.15 seconds to enumerate untracked files. 'status -uno'
+may speed it up, but you have to be careful not to forget to add
+new files yourself (see 'git help status').
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
 
