@@ -162,3 +162,10 @@ nothing added to commit but untracked files present (use "git add" to track)
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+-A99FVXM MINGW32 ~ (master|BISECTING)
+$ vim README
+
+-Returned:
+-README [unix] {06:59 01/01/1970} 0.0-1 A11
+--VISUAL--
+
