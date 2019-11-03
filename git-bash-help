@@ -176,3 +176,65 @@ $ vim README
 -/benchmarks.rb [unix] {06:59 01/01/1970} A
 benchmarks.rb [New File]
 
+-git commit
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ 
+On branch master
+You are currently bisecting, started from branch 'master'.
+
+
+Initial commit
+
+Untracked files:
+        .babelrc
+        .bash_history
+        .config/
+        .gitconfig
+        .node_repl_history
+        .ssh/
+        .viminfo
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        KLN INFEED-dream-co-id
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.0.regtrans-ms
+        NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.1.regtrans-ms
+        NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.2.regtrans-ms
+        NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.blf
+        NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TM.blf
+        NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Searches/
+        Tracing/
+        UsersAdministratorDocumentscircleciconfig.yml
+        Videos/
+        YandexDisk/
+        demos/
+        jsfiddle-api@0.0.1
+        jsfiddler
+        mesa/
+        node
+        node_modules/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        package-lock.json
+        tmrowapp-contrib/
+
+nothing added to commit but untracked files present
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
