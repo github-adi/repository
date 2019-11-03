@@ -166,6 +166,13 @@ $
 $ vim README
 
 -Returned:
--README [unix] {06:59 01/01/1970} 0.0-1 A11
+-README [unix] {06:59 01/01/1970} 0.0-1 A
 --VISUAL--
+
+-vim benchmarks.rb
+
+-Returned:
+
+-/benchmarks.rb [unix] {06:59 01/-1/1970} A
+benchmarks.rb [New File]
 
