@@ -97,6 +97,16 @@ $
 
 file:///C:/Program%20Files/Git/mingw32/share/doc/git-doc/git-config.html
 
+-git --info-path
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git --info-path
+C:\Program Files\Git\mingw32/share/info
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+
 -git status
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
