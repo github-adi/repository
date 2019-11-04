@@ -115,7 +115,18 @@ fatal: Cannot change to 'C:Program': No such file or directory
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+-git --exec-path
 
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git --exec-path[=C:\Program Files\Git\cmd\git-ui]
+C:\Program Files\Git\mingw32/libexec/git-core
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+
+
+-----------------------------------
 -git status: dibawah ini dari sebuah buku yang mengtracked bukunya sendiri yang kosong ke saya. Yang diatas mengtracked buku atau save atau proyek saya sendiri.
 untuk buku dibawah:
 https://git-scm.com/book/id/v1/Memulai-Git
