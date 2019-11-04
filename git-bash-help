@@ -332,3 +332,52 @@ usage: git add [<options>] [--] <pathspec>...
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+-git add --interactive
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add --interactive
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> p
+No changes.
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> s
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> update
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> r
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> a
+
+What now> diff
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> help
+status        - show paths with changes
+update        - add working tree state to the staged set of changes
+revert        - revert staged set of changes back to the HEAD version
+patch         - pick hunks and update selectively
+diff          - view diff between HEAD and index
+add untracked - add contents of untracked files to the staged set of changes
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: help
+What now> quit
+Bye.
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
