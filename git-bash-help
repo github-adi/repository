@@ -307,6 +307,73 @@ Specific git-branch actions:
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+-git commit -m "ADI"
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git commit -m "My First Commit" https://github.com/github-adi/repository/blob/master/git-bash-help
+error: pathspec 'https://github.com/github-adi/repository/blob/master/git-bash-help' did not match any file(s) known to git.
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git commit -m "ADI"
+On branch master
+You are currently bisecting, started from branch 'master'.
+
+
+Initial commit
+
+Untracked files:
+        .babelrc
+        .bash_history
+        .config/
+        .gitconfig
+        .node_repl_history
+        .ssh/
+        .viminfo
+        3D Objects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        KLN INFEED-dream-co-id
+        Links/
+        MicrosoftEdgeBackups/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TM.blf
+        NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Searches/
+        Tracing/
+        UsersAdministratorDocumentscircleciconfig.yml
+        Videos/
+        YandexDisk/
+        demos/
+        jsfiddle-api@0.0.1
+        jsfiddler
+        mesa/
+        node
+        node_modules/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        package-lock.json
+        simplegit-progit/
+        tmrowapp-contrib/
+
+nothing added to commit but untracked files present
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ "ADI"
+bash: ADI: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -----------------------------------
 -git status: dibawah ini dari sebuah buku yang mengtracked bukunya sendiri yang kosong ke saya. Yang diatas mengtracked buku atau save atau proyek saya sendiri.
 untuk buku dibawah:
