@@ -447,6 +447,20 @@ The file will have its original line endings in your working directory.
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+-git add KLN INFEED-dream-co-id
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add KLN INFEED-dream-co-id
+fatal: pathspec 'KLN' did not match any files
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add .config/
+warning: LF will be replaced by CRLF in .config/configstore/update-notifier-npm.json.
+The file will have its original line endings in your working directory.
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -----------------------------------
 -git status: dibawah ini dari sebuah buku yang mengtracked bukunya sendiri yang kosong ke saya. Yang diatas mengtracked buku atau save atau proyek saya sendiri.
 untuk buku dibawah:
