@@ -637,6 +637,17 @@ bash: $: command not found
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $ fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.1.regtrans-ms' did not match any files
 
+-git add OneDrive/
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add OneDrive/
+error: open("OneDrive/.849C9593-D756-4E56-8D6E-42412F2A707B"): Permission denied
+error: unable to index file OneDrive/.849C9593-D756-4E56-8D6E-42412F2A707B
+fatal: adding files failed
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -----------------------------------
 -git status: dibawah ini dari sebuah buku yang mengtracked bukunya sendiri yang kosong ke saya. Yang diatas mengtracked buku atau save atau proyek saya sendiri.
 untuk buku dibawah:
