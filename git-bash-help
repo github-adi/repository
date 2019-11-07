@@ -682,6 +682,17 @@ $ git add YandexDisk/
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $ git add demos/
 
+-git add jsfiddle-api@0.0.1
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add jsfiddle-api@0.0.1
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add jsfiddler
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add mesa/
+
 -----------------------------------
 -git status: dibawah ini dari sebuah buku yang mengtracked bukunya sendiri yang kosong ke saya. Yang diatas mengtracked buku atau save atau proyek saya sendiri.
 untuk buku dibawah:
