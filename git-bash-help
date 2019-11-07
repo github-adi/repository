@@ -563,6 +563,80 @@ fatal: adding files failed
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.0.regtrans-ms
+fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.0.regtrans-ms' did not match any files
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.1.regtrans-ms
+fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.1.regtrans-ms' did not match any files
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.2.regtrans-ms
+fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.2.regtrans-ms' did not match any files
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.blf
+fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.blf' did not match any files
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TM.blf
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TMContainer00000000000000000001.regtrans-ms
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+$ git add NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.0.regtrans-ms
+fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.0.regtrans-ms' did not match any files
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.1.regtrans-ms
+fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.1.regtrans-ms' did not match any files
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.2.regtrans-ms
+fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.2.regtrans-ms' did not match any files
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.blf
+fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.blf' did not match any files
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TM.blf
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add NTUSER.DAT{0ed1b5f8-3d86-11e8-a9df-7cfe90913f20}.TMContainer00000000000000000001.regtrans-ms
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+bash: syntax error near unexpected token `('
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ $ git add NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.0.regtrans-ms
+bash: $: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.0.regtrans-ms' did not match any files
+bash: fatal:: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+bash: syntax error near unexpected token `('
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ $ git add NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.1.regtrans-ms
+bash: $: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ fatal: pathspec 'NTUSER.DAT{0ed1b5f7-3d86-11e8-a9df-7cfe90913f20}.TxR.1.regtrans-ms' did not match any files
+
 -----------------------------------
 -git status: dibawah ini dari sebuah buku yang mengtracked bukunya sendiri yang kosong ke saya. Yang diatas mengtracked buku atau save atau proyek saya sendiri.
 untuk buku dibawah:
