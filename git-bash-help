@@ -542,6 +542,16 @@ $ git add MicrosoftEdgeBackups/
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $ git add MicrosoftEdgeBackups/
 
+-git add Music/
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add Music/
+warning: LF will be replaced by CRLF in Music/iTunes/iTunes Media/.iTunes Preferences.plist.
+The file will have its original line endings in your working directory.
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -----------------------------------
 -git status: dibawah ini dari sebuah buku yang mengtracked bukunya sendiri yang kosong ke saya. Yang diatas mengtracked buku atau save atau proyek saya sendiri.
 untuk buku dibawah:
