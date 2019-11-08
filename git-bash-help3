@@ -32,3 +32,21 @@ $ git add tmrowapp-contrib/
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+-ob_spec &
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ job_spec &
+[1] 6892
+bash: job_spec: command not found
+[1]+  Exit 127                job_spec
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ job_spec clone&init
+[1] 644
+bash: job_spec: command not found
+bash: init: command not found
+[1]+  Exit 127                job_spec clone
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
