@@ -1,0 +1,34 @@
+-git add ntuser.dat.LOG1
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add ntuser.dat.LOG1
+error: open("ntuser.dat.LOG1"): Permission denied
+error: unable to index file ntuser.dat.LOG1
+fatal: adding files failed
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add ntuser.dat.LOG2
+error: open("ntuser.dat.LOG2"): Permission denied
+error: unable to index file ntuser.dat.LOG2
+fatal: adding files failed
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add ntuser.ini
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add package-lock.json
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory.
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ git add tmrowapp-contrib/
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
