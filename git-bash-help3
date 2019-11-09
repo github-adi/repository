@@ -63,3 +63,6 @@ bash: alias: clone: not found
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+-break [n]
+Ber-arti for, while, or until loop. Baru kemudian n.
+
