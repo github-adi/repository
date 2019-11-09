@@ -50,3 +50,16 @@ bash: init: command not found
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+-alias -p name=value clone
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ alias -p name=value clone
+alias [name[='value]'
+alias ll='ls -l'
+alias ls='ls -F --color=auto --show-control-chars'
+alias node='winpty node.exe'
+bash: alias: clone: not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
