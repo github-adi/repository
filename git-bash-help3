@@ -83,5 +83,12 @@ cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+-command -pVv command C:/Users/Administrator/UsersAdministrator.gitconfig/.git/
 
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ command -pVv command C:/Users/Administrator/UsersAdministrator.gitconfig/.git/
+command
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
 
