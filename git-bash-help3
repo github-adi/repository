@@ -66,3 +66,22 @@ $
 -break [n]
 Ber-arti for, while, or until loop. Baru kemudian n.
 
+-cd -L|-P -e -@ dir
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ cd -L|-P -e -@ dir
+bash: -P: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ cd -L -e -@ dir
+bash: cd: -@: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+
+
