@@ -92,3 +92,17 @@ command
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
+-compgen -abcdefgjksuv -o option
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ compgen -abcdefgjksuv -o option
+bash: compgen: option: invalid option name
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ compgen -abcdefgjksuv -o
+bash: compgen: -o: option requires an argument
+compgen: usage: compgen [-abcdefgjksuv] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] [word]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
