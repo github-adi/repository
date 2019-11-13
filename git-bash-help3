@@ -1,3 +1,11 @@
+-omplete -DE
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ complete -DE
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -complete -pr
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
