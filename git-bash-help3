@@ -1,4 +1,21 @@
--omplete -DE
+-complete -G
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ complete -G
+bash: complete: -G: option requires an argument
+complete: usage: complete [-abcdefgjksuv] [-pr] [-DE] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ complete -W
+bash: complete: -W: option requires an argument
+complete: usage: complete [-abcdefgjksuv] [-pr] [-DE] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ complete -F
+bash: complete: -F: option requires an argument
+complete: usage: complete [-abcdefgjksuv] [-pr] [-DE] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] [name ...]
+
+-complete -DE
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $ complete -DE
