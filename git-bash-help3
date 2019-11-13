@@ -1,3 +1,13 @@
+-complete -pr
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ complete -pr
+complete -o bashdefault -o default -o nospace -F __git_wrap__gitk_main gitk
+complete -o bashdefault -o default -o nospace -F __git_wrap__git_main git
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -complete -abcdefgjksuv
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
