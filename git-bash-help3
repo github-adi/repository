@@ -1,3 +1,23 @@
+-complete -P
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ complete -P
+bash: complete: -P: option requires an argument
+complete: usage: complete [-abcdefgjksuv] [-pr] [-DE] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ complete -S
+bash: complete: -S: option requires an argument
+complete: usage: complete [-abcdefgjksuv] [-pr] [-DE] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ complete -name "Muhammad Adi Nugroho"
+bash: complete: -n: invalid option
+complete: usage: complete [-abcdefgjksuv] [-pr] [-DE] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -complete -X
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
