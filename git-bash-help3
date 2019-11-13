@@ -1,3 +1,13 @@
+-complete -X
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ complete -X
+bash: complete: -X: option requires an argument
+complete: usage: complete [-abcdefgjksuv] [-pr] [-DE] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -complete -C
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
