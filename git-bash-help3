@@ -1,3 +1,16 @@
+-compgen word
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ compgen word
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+
+-----
+-Mulai dari sini, tulisan ter-akhir mulai dari saf 1. Ini untuk menghemat scroll kebawah.
+-----
+
 -git add ntuser.dat.LOG1
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
