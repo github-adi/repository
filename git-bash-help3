@@ -1,3 +1,11 @@
+-complete name
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ complete name "Muhammad Adi Nugroho"
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ 
+
 -complete -P
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
