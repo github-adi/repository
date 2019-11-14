@@ -1,3 +1,25 @@
+-coproc NAME
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ coproc NAME
+[1] 5048
+/usr/bin/bash: line 1: NAME: command not found
+[1]+  Exit 127                coproc COPROC NAME
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ coproc redirections
+[1] 5272
+/usr/bin/bash: line 2: redirections: command not found
+[1]+  Exit 127                coproc COPROC redirections
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ coproc command
+[1] 3008
+[1]+  Done                    coproc COPROC command
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -coproc NAME command redirections
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
