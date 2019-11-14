@@ -1,3 +1,14 @@
+-continue n
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ continue n
+bash: continue: only meaningful in a `for', `while', or `until' loop
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ for n=1
+> n
+bash: syntax error near unexpected token `n'
+
 -compopt -DE
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
