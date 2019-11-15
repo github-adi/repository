@@ -1,3 +1,25 @@
+-declare name
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ declare name
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ declare =v
+bash: declare: `=v': not a valid identifier
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ declare v
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ declare name =v
+bash: declare: `=v': not a valid identifier
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ declare name v
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -declare -aAfFgilnrtux
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
