@@ -1,3 +1,23 @@
+-dirs -clpv
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ dirs -clpv
+bash: dirs: -clpv: invalid number
+dirs: usage: dirs [-clpv] [+N] [-N]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ dirs +N
+bash: dirs: +N: invalid number
+dirs: usage: dirs [-clpv] [+N] [-N]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ dirs -N
+bash: dirs: -N: invalid number
+dirs: usage: dirs [-clpv] [+N] [-N]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -declare name
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
