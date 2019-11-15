@@ -1,3 +1,23 @@
+-echo -neE
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ echo -neE
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ echo arg
+arg
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ echo arg C:\Program Files\Git\mingw32/share/info
+arg C:Program FilesGitmingw32/share/info
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ echo arg C:\Program Files\Git\mingw32\share\info
+arg C:Program FilesGitmingw32shareinfo
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -disown -h
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
