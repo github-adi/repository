@@ -1,3 +1,21 @@
+-disown -h
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ disown -h
+bash: disown: current: no such job
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ disown -ar
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ disown jobspec hacker | pid
+bash: disown: jobspec: no such job
+bash: disown: hacker: no such job
+bash: pid: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -dirs -clpv
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
