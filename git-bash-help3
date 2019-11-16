@@ -1,3 +1,22 @@
+-exec -cl
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ exec -cl
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ exec -a name
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ exec command
+bash: exec: command: not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ exec argume
+bash: exec: argume: not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -eval arg
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
