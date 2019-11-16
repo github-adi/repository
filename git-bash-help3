@@ -1,3 +1,12 @@
+-enable na
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ enable na
+bash: enable: na: not a shell builtin
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -enable -f
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
