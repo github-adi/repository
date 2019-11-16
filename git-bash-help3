@@ -1,3 +1,13 @@
+-enable -f
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ enable -f
+bash: enable: -f: option requires an argument
+enable: usage: enable [-a] [-dnps] [-f filename] [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -enable -a
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
