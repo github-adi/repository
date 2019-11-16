@@ -1,3 +1,6 @@
+-exit n
+Ada kata-kata logout dan shell menghilang.
+
 -exec -cl
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
