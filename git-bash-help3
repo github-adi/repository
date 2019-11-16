@@ -1,3 +1,21 @@
+-export name
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ export name
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ export =value
+bash: export: `=value': not a valid identifier
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ export value
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ export ex
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -exit n
 Ada kata-kata logout dan shell menghilang.
 
