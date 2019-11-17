@@ -1,3 +1,73 @@
+-fc -e
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ fc -e
+bash: fc: -e: option requires an argument
+fc: usage: fc [-e ename] [-lnr] [first] [last] or fc -s [pat=rep] [command]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ fc -lnr
+         fc -e
+         false
+         export ex
+         export value
+         export =value
+         export name
+         export -fn
+         exit n
+         exec argume
+         exec command
+         exec -a name
+         exec -cl
+         eval arg init
+         eval arg ...
+         eval -arg
+         eval arg
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ fc first
+bash: fc: history specification out of range
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ fc last
+bash: fc: history specification out of range
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ fc -s
+fc -lnr
+         fc -lnr
+         fc -lnr
+         fc -e
+         false
+         export ex
+         export value
+         export =value
+         export name
+         export -fn
+         exit n
+         exec argume
+         exec command
+         exec -a name
+         exec -cl
+         eval arg init
+         eval arg ...
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ fc pat=rep
+bash: fc: history specification out of range
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+-fc command
+command -pw command C:/Users/Administrator/Users>Administator.gitconfig.git/
+-
+-
+/tmp/bash-fc.As(tidak terbaca) [unix] (15:33 17/11/2019)
+
 -false
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
