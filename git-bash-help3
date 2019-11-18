@@ -1,3 +1,32 @@
+-for do COMMAND
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ for do COMMAND
+bash: syntax error near unexpected token `COMMAND'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ for do
+> init
+bash: syntax error near unexpected token `init'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ for COMMAND
+> do
+> COMMAND
+> .git
+> Muhammad Adi Nugroho
+> 2*2
+> -o
+> --option
+> help
+> quit
+> exit
+> for do Command
+bash: syntax error near unexpected token `Command'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -for NAME
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
