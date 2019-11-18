@@ -1,3 +1,31 @@
+-function name
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ function name init;
+bash: syntax error near unexpected token `init'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ function name
+> git
+bash: syntax error near unexpected token `git'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ {Adi}
+bash: {Adi}: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ function name
+> {adi;}
+bash: syntax error near unexpected token `{adi'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ function command
+> push
+bash: syntax error near unexpected token `push'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -for exp1
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
