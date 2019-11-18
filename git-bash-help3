@@ -1,3 +1,35 @@
+-hash -lr
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ hash -lr
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ hash -p
+bash: hash: -p: option requires an argument
+hash: usage: hash [-lr] [-p pathname] [-dt] [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ hash -dt
+bash: hash: -t: option requires an argument
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ hash -t
+bash: hash: -t: option requires an argument
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ hash -d
+hash: hash table empty
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ hash name
+bash: hash: name: not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -getopts optstring
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
