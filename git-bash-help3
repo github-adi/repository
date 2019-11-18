@@ -1,3 +1,20 @@
+-help pattern
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ help pattern
+bash: help: no help topics match `pattern'.  Try `help help' or `man -k pattern' or `info pattern'.
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ man -k pattern
+bash: man: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ info pattern
+bash: info: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -help -dms
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
