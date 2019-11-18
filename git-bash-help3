@@ -1,3 +1,12 @@
+-fg job_spec
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ fg job_spec
+bash: fg: job_spec: no such job
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -fc -e
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
