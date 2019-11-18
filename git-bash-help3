@@ -1,3 +1,31 @@
+-for exp1
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ for exp1
+> -o
+bash: syntax error near unexpected token `-o'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ for exp2
+> exp2
+bash: syntax error near unexpected token `exp2'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ for do COMMAN
+bash: syntax error near unexpected token `COMMAN'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ for do COMMAND
+bash: syntax error near unexpected token `COMMAND'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ for do
+> o
+bash: syntax error near unexpected token `o'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -for do COMMAND
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
