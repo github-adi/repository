@@ -1,3 +1,23 @@
+-getopts optstring
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ getopts optstring
+getopts: usage: getopts optstring name [arg]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ getopts optstring arg
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+-getopts name arg
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ getopts name arg
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -getopts optstring name arg
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
