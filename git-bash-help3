@@ -1,3 +1,14 @@
+-for NAME
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ for NAME
+> in WORDS
+> World
+bash: syntax error near unexpected token `World'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -fg job_spec
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
