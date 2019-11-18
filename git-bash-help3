@@ -1,3 +1,33 @@
+-history -c
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ history -c
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ history -d
+bash: history: -d: option requires an argument
+history: usage: history [-c] [-d offset] [n] or history -anrw [filename] or history -ps arg [arg...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ history n
+bash: history: n: numeric argument required
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ history -ps arg
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ history -ps
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ history arg
+bash: history: arg: numeric argument required
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ history -ps arg arg
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -help pattern
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
