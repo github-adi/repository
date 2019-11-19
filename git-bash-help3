@@ -1,3 +1,9 @@
+-if COMMANDS
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ if COMMANDS
+>
+
 -history -c
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
