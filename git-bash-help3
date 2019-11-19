@@ -1,3 +1,29 @@
+-then COMMANDS
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ then COMMANDS
+bash: syntax error near unexpected token `then'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ COMMANDS
+bash: COMMANDS: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ if elif
+bash: syntax error near unexpected token `elif'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ if elif C
+bash: syntax error near unexpected token `elif'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ if C
+> elif
+bash: syntax error near unexpected token `elif'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -if COMMANDS
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
