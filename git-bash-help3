@@ -30,6 +30,23 @@ jobs: usage: jobs [-lnprs] [jobspec ...] or jobs -x command [args]
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $ 
 
+-jobs -command
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ jobs -command
+bash: jobs: -c: invalid option
+jobs: usage: jobs [-lnprs] [jobspec ...] or jobs -x command [args]
+
+-jobs -args
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ jobs -args
+bash: jobs: -a: invalid option
+jobs: usage: jobs [-lnprs] [jobspec ...] or jobs -x command [args]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -then COMMANDS
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
