@@ -6,18 +6,29 @@ $ jobs -lnprs
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $
 
--jobs jobspec
+-jobs -jobspec
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
-$ jobs jobspec
-bash: jobs: jobspec: no such job
+$ jobs -jobspec
+bash: jobs: -j: invalid option
+jobs: usage: jobs [-lnprs] [jobspec ...] or jobs -x command [args]
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
-$ jobs jobs
-bash: jobs: jobs: no such job
+$ 
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
-$
+$ jobs -x
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ 
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ jobs -args
+bash: jobs: -a: invalid option
+jobs: usage: jobs [-lnprs] [jobspec ...] or jobs -x command [args]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ 
 
 -then COMMANDS
 
