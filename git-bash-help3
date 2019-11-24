@@ -1,3 +1,39 @@
+-popd -n
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ popd -n
+bash: popd: directory stack empty
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ popd -N
+bash: popd: -N: invalid number
+popd: usage: popd [-n] [+N | -N]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+-popd +N
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ popd +N
+bash: popd: +N: invalid number
+popd: usage: popd [-n] [+N | -N]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ popd --1
+bash: popd: directory stack empty
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ popd --2
+bash: popd: directory stack empty
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ popd --10
+bash: popd: directory stack empty
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -mapfile --callback
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
