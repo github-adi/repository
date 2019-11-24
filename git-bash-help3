@@ -1,3 +1,20 @@
+-kill -s
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ kill -s
+bash: kill: -s: option requires an argument
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ kill -n
+bash: kill: -n: option requires an argument
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ kill -sigs
+bash: kill: sigs: invalid signal specification
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -jobs -lnprs
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
