@@ -1,3 +1,18 @@
+-mapfile --origin
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ mapfile --origin
+bash: mapfile: --: invalid option
+mapfile: usage: mapfile [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ mapfile -s
+bash: mapfile: -s: option requires an argument
+mapfile: usage: mapfile [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ 
+
 -mapfile --delim
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
