@@ -1,4 +1,21 @@
--let -arg
+-local -option
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ local -option
+bash: local: can only be used in a function
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ local -name
+bash: local: can only be used in a function
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ local -value
+bash: local: can only be used in a function
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+let -arg
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $ let -arg
