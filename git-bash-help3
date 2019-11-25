@@ -1,4 +1,27 @@
--popd -n
+-printf -v
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ printf -v
+bash: printf: -v: option requires an argument
+printf: usage: printf [-v var] format [arguments]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ printf --var
+bash: printf: --: invalid option
+printf: usage: printf [-v var] format [arguments]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ printf -format
+bash: printf: -f: invalid option
+printf: usage: printf [-v var] format [arguments]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ printf -arguments
+bash: printf: -a: invalid option
+printf: usage: printf [-v var] format [arguments]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
 $ popd -n
