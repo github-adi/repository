@@ -1,3 +1,24 @@
+-readarray -n
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray -n
+bash: readarray: -n: option requires an argument
+readarray: usage: readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray --count
+bash: readarray: --: invalid option
+readarray: usage: readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray --origin
+bash: readarray: --: invalid option
+readarray: usage: readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray -s
+bash: readarray: -s: option requires an argument
+readarray: usage: readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
 
 -read -ers
 
