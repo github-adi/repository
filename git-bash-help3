@@ -1,3 +1,42 @@
+-readarray -u
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray -u
+bash: readarray: -u: option requires an argument
+readarray: usage: readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray -fd
+bash: readarray: -f: invalid option
+readarray: usage: readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray -callback
+bash: readarray: allback: invalid callback quantum
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray -C
+bash: readarray: -C: option requires an argument
+readarray: usage: readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray -c
+bash: readarray: -c: option requires an argument
+readarray: usage: readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray --quantum
+bash: readarray: --: invalid option
+readarray: usage: readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray -array
+bash: readarray: -a: invalid option
+readarray: usage: readarray [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readarray -t
+
 -readarray -n
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
