@@ -1,3 +1,31 @@
+-readonly -aAf
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readonly -aAf
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readonly -name
+bash: readonly: -m: invalid option
+readonly: usage: readonly [-aAf] [name[=value] ...] or readonly -p
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readonly -value
+bash: readonly: -v: invalid option
+readonly: usage: readonly [-aAf] [name[=value] ...] or readonly -p
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ readonly -p
+declare -r BASHOPTS="cmdhist:complete_fullquote:expand_aliases:extquote:force_fignore:hostcomplete:interactive_comments:login_shell:progcomp:promptvars:sourcepath"
+declare -ir BASHPID
+declare -ar BASH_VERSINFO=([0]="4" [1]="4" [2]="12" [3]="1" [4]="release" [5]="i686-pc-msys")
+declare -ir EUID="197108"
+declare -ir PPID="9916"
+declare -r SHELLOPTS="braceexpand:emacs:hashall:histexpand:history:interactive-comments:monitor"
+declare -ir UID="197108"
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -readarray -u
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
