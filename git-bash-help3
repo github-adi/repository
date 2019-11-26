@@ -1,3 +1,12 @@
+-pwd -LPW
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ pwd -LPW
+C:/Users/Administrator
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -pushd -n
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
