@@ -1,3 +1,21 @@
+-set -arg
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ set -arg
+bash: set: -g: invalid option
+set: usage: set [-abefhkmnptuvxBCHP] [-o option-name] [--] [arg ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ set --
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ set --arg
+bash: set: --: invalid option
+set: usage: set [-abefhkmnptuvxBCHP] [-o option-name] [--] [arg ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -set -abefhkmnptuvxBCHP
 langsung nutup shellnya. Begitu juga untuk returned set --name.
 
