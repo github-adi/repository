@@ -1,3 +1,12 @@
+-shift -n
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ shift -n
+bash: shift: -n: numeric argument required
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ 
+
 -set -arg
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
