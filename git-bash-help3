@@ -1,5 +1,5 @@
 -set -abefhkmnptuvxBCHP
-langsung nutup shellnya.
+langsung nutup shellnya. Begitu juga untuk returned set --name.
 
 -Di bawah ini, mousenya ada click open yang membuka folder Administrator:  
 -set -o
