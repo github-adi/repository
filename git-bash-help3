@@ -1,3 +1,23 @@
+-select -NAME
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ select -NAME
+> Muhammad Adi Nugroho
+bash: syntax error near unexpected token `Muhammad'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ select -do
+> command
+bash: syntax error near unexpected token `command'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ select -command
+> "Muhammad_Adi_Nugroho"
+bash: syntax error near unexpected token `"Muhammad_Adi_Nugroho"'
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -return -n
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
