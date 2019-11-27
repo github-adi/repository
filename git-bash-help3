@@ -1,3 +1,39 @@
+-set -o
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ set -o
+allexport       off
+braceexpand     on
+emacs           on
+errexit         off
+errtrace        off
+functrace       off
+hashall         on
+histexpand      on
+history         on
+igncr           off
+ignoreeof       off
+interactive-comments    on
+keyword         off
+monitor         on
+noclobber       off
+noexec          off
+noglob          off
+nolog           off
+notify          off
+nounset         off
+onecmd          off
+physical        off
+pipefail        off
+posix           off
+privileged      off
+verbose         off
+vi              off
+xtrace          off
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -select -NAME
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
