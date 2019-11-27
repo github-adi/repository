@@ -1,3 +1,13 @@
+-return -n
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ return -n
+bash: return: -n: numeric argument required
+bash: return: can only `return' from a function or sourced script
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -readonly -aAf
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
