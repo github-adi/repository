@@ -1,3 +1,6 @@
+-set -abefhkmnptuvxBCHP
+langsung nutup shellnya.
+
 -Di bawah ini, mousenya ada click open yang membuka folder Administrator:  
 -set -o
 
