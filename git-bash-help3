@@ -1,3 +1,21 @@
+-umask -p
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ umask -p
+umask 0022
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ umask -S
+u=rwx,g=rx,o=rx
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ umask -mode
+bash: umask: -m: invalid option
+umask: usage: umask [-p] [-S] [mode]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -ulimit -SHabcdefiklmnpqrstuvxPT
 
 $ ulimit -SHabcdefiklmnpqrstuvxPT
