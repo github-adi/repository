@@ -1,3 +1,12 @@
+-source filename -arguments
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ source filename -arguments
+bash: filename: No such file or directory
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -shopt -pqsu
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
