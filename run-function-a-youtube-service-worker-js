@@ -1,0 +1,69 @@
+v
+ƒ v(a){if(!(a.payload&&a.payload.chrome&&a.payload.chrome.endpoint))return Promise.resolve();const b=new FormData;b.append("json_navigation_endpoints",JSON.stringify([a.payload.chrome.endpoint]));let c…
+M
+ƒ M(){return self.registration.pushManager.getSubscription().then(a=>a&&a.getKey?Promise.resolve(a.getKey("p256dh")):Promise.resolve(null))}
+D
+ƒ D(){return self.registration.pushManager.getSubscription().then(a=>a?Promise.resolve(a.endpoint):Promise.resolve(null))}
+A
+ƒ A(a){return r("DeviceId").then(b=>{b={credentials:"include",method:"POST",body:B({deviceId:b,c:a})};return fetch("/notifications_ajax?action_notification_click=1",b)})}
+I
+ƒ I(a){a=a||0;return 9E7>=h()-a?Promise.resolve():Promise.reject()}
+w
+ƒ w(a,b){a.deviceId&&n("DeviceId",a.deviceId);a.timestampSec&&y(a.timestampSec);const c=a.payload.chrome;return self.registration.showNotification(c.title,{body:c.body,icon:c.iconUrl,data:{nav:b,id:c.n…
+q
+ƒ q(){return n("IndexedDBCheck","testing IndexedDB").then(()=>r("IndexedDBCheck")).then(a=>"testing IndexedDB"===a?Promise.resolve():Promise.reject()).then(()=>!0).catch(()=>!1)}
+Q
+ƒ Q(a){n("RegistrationTimestamp",h());a.ok&&a.json().then(b=>{b.ts&&y(b.ts);b.device_id&&n("DeviceId",b.device_id)}).catch(()=>{})}
+z
+ƒ z(a){-1!==a&&self.registration.getNotifications().then(b=>{for(let c=0;c<b.length-a;c++)b[c].close()})}
+Proxy
+ƒ Proxy() { [native code] }
+p
+ƒ p(){return m?Promise.resolve(m):new Promise((a,b)=>{const c=self.indexedDB.open("swpushnotificationsdb");c.onerror=b;c.onsuccess=()=>{const e=c.result;if(e.objectStoreNames.contains("swpushnotificati…
+P
+ƒ P(){return fetch("/notifications_ajax?action_get_registration_token=1",{credentials:"include",method:"POST"}).then(a=>{if(a.ok)return a.json().then(b=>b.registration_token).catch(()=>{})})}
+t
+ƒ t(a){a=a.target.result;a.objectStoreNames.contains("swpushnotificationsstore")&&a.deleteObjectStore("swpushnotificationsstore");a.createObjectStore("swpushnotificationsstore",{keyPath:"key"})}
+y
+ƒ y(a){n("TimestampLowerBound",a)}
+u
+ƒ u(){return self.clients.matchAll({type:"window",includeUncontrolled:!0}).then(a=>{if(a)for(const b of a)b.postMessage({type:"update_unseen_notifications_count_signal"})})}
+O
+ƒ O(a=null,b=null,c=null){q().then(e=>{e&&(n("Endpoint",a),n("P256dhKey",b),n("AuthKey",c),n("Permission",Notification.permission),Promise.all([r("DeviceId"),r("NotificationsDisabled"),P()]).then(([d,f…
+s
+VM244:1 Uncaught ReferenceError: s is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM244:1
+SecurityPolicyViolationEvent.constructor
+ƒ Function() { [native code] }
+D
+ƒ D(){return self.registration.pushManager.getSubscription().then(a=>a?Promise.resolve(a.endpoint):Promise.resolve(null))}
+F
+ƒ F(a){if(a.errors)return Promise.reject(a.errors);a.device_id&&n("DeviceId",a.device_id);a.ts&&y(a.ts);if(a.notifications){const b=[];a.notifications.forEach(c=>{b.push(self.registration.showNotificat…
+G
+ƒ G(a){const b=[H(a),r("RegistrationTimestamp").then(I),J(),K()];Promise.all(b).catch(()=>{n("IDToken",a);L();return Promise.resolve()})}
+h
+ƒ now() { [native code] }
+H
+ƒ H(a){return r("IDToken").then(b=>a===b?Promise.resolve():Promise.reject())}
+J
+ƒ J(){return r("Permission").then(a=>Notification.permission===a?Promise.resolve():Promise.reject())}
+k
+a=>new Promise((b,c)=>{let e=a.length,d=null;if(e){var f=(g,x)=>{g||d||(d=x);e--;e||(d?c(d):b())};
+for(const g of a)g.then(f.bind(null,!0),f.bind(null,!1))}else b()})
+K
+ƒ K(){return r("Endpoint").then(a=>D().then(b=>a===b?Promise.resolve():Promise.reject()))}
+l
+a=>self.btoa(String.fromCharCode.apply(null,new Uint8Array(a))).replace(/\+/g,"-").replace(/\//g,"_")
+L
+ƒ L(){n("RegistrationTimestamp",0);Promise.all([D(),M(),N()]).then(([a,b,c])=>{O(a,b?l(b):null,c?l(c):null)}).catch(()=>{O()})}
+C
+ƒ C(){return Promise.all([r("TimestampLowerBound"),D(),r("DeviceId")]).then(([a,b,c])=>{if(!a)return Promise.reject(null);a={credentials:"include",method:"POST",body:B({endpoint:b,deviceId:c,ts:a})};re…
+v
+ƒ v(a){if(!(a.payload&&a.payload.chrome&&a.payload.chrome.endpoint))return Promise.resolve();const b=new FormData;b.append("json_navigation_endpoints",JSON.stringify([a.payload.chrome.endpoint]));let c…
+B
+ƒ B(a){const b=new FormData;a.endpoint&&b.append("endpoint",a.endpoint);a.deviceId&&b.append("device_id",a.deviceId);a.ts&&b.append("timestamp_lower_bound",a.ts);a.c&&(b.append("notification_id",a.c.id…
+m
+IDBDatabase {name: "swpushnotificationsdb", version: 1, objectStoreNames: DOMStringList, onabort: null, onclose: null, …}name: "swpushnotificationsdb"objectStoreNames: DOMStringList {0: "swpushnotificationsstore", length: 1}onabort: nullonclose: nullonerror: nullonversionchange: nullversion: 1__proto__: IDBDatabase
+M
+ƒ M(){return self.registration.pushManager.getSubscription().then(a=>a&&a.getKey?Promise.resolve(a.getKey("p256dh")):Promise.resolve(null))}
