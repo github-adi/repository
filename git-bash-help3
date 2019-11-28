@@ -1,3 +1,35 @@
+-true
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ true
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ type -afptP
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ type -name
+bash: type: -n: invalid option
+type: usage: type [-afptP] name [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ type --name
+bash: type: --: invalid option
+type: usage: type [-afptP] name [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ type -afptP name
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ type -afptP -name --name
+bash: type: -n: invalid option
+type: usage: type [-afptP] name [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -trap -lp
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
