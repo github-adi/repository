@@ -1,3 +1,19 @@
+-unalias -a
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ unalias -a
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ unalias -a name
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ unalias -name
+bash: unalias: -n: invalid option
+unalias: usage: unalias [-a] name [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ 
+
 -umask -p
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
