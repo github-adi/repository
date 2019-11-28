@@ -1,3 +1,53 @@
+-shopt -pqsu
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ shopt -pqsu
+bash: shopt: cannot set and unset shell options simultaneously
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ shopt -o
+allexport       off
+braceexpand     on
+emacs           on
+errexit         off
+errtrace        off
+functrace       off
+hashall         on
+histexpand      on
+history         on
+igncr           off
+ignoreeof       off
+interactive-comments    on
+keyword         off
+monitor         on
+noclobber       off
+noexec          off
+noglob          off
+nolog           off
+notify          off
+nounset         off
+onecmd          off
+physical        off
+pipefail        off
+posix           off
+privileged      off
+verbose         off
+vi              off
+xtrace          off
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ shopt --optname
+bash: shopt: --: invalid option
+shopt: usage: shopt [-pqsu] [-o] [optname ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ shopt -optname
+bash: shopt: -t: invalid option
+shopt: usage: shopt [-pqsu] [-o] [optname ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -shift -n
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
