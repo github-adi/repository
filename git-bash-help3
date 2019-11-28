@@ -1,3 +1,26 @@
+-text -expr
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ text -expr
+bash: text: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ time -p
+real 0.00
+user 0.00
+sys 0.00
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ time --pipeline
+bash: --pipeline: command not found
+
+real    0m0.239s
+user    0m0.000s
+sys     0m0.046s
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -source filename -arguments
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
