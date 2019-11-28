@@ -1,3 +1,13 @@
+-times
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ times
+0m0.125s 0m0.234s
+0m0.107s 0m0.894s
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -text -expr
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
