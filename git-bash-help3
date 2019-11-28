@@ -1,3 +1,17 @@
+-ulimit -SHabcdefiklmnpqrstuvxPT
+
+$ ulimit -SHabcdefiklmnpqrstuvxPT
+bash: ulimit: -b: invalid option
+ulimit: usage: ulimit [-SHabcdefiklmnpqrstuvxPT] [limit]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ ulimit -limit
+bash: ulimit: -l: invalid option
+ulimit: usage: ulimit [-SHabcdefiklmnpqrstuvxPT] [limit]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ 
+
 -typeset -aAfFgilnrtux
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
