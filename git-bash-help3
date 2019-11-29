@@ -1,3 +1,16 @@
+-variables
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ variables
+bash: variables: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ variables -Names and meanings of so
+bash: variables: command not found
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -until  -COMMANDS
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
