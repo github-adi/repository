@@ -1,3 +1,16 @@
+-wait -n
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ wait -n
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ wait -id
+bash: wait: -i: invalid option
+wait: usage: wait [-n] [id ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -variables
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
