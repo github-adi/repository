@@ -1,3 +1,17 @@
+-until  -COMMANDS
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ until  -COMMANDS
+> 
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ until -do commands
+>
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ until -done
+>
+
 -unset -F
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
