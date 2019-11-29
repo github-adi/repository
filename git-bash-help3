@@ -1,3 +1,21 @@
+-while -COMMANDS
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ while -COMMANDS
+>
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ while -do COMMANDS
+>
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ while -done
+>
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ while -done COMMANDS
+>
+
 -wait -n
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
