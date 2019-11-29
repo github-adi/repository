@@ -1,3 +1,21 @@
+-unset -F
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ unset -F
+bash: unset: -F: invalid option
+unset: usage: unset [-f] [-v] [-n] [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ unset -v
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$ unset -name
+bash: unset: -a: invalid option
+unset: usage: unset [-f] [-v] [-n] [name ...]
+
+Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
+$
+
 -unalias -a
 
 Administrator@TXXC520ZA99FVXM MINGW32 ~ (master|BISECTING)
