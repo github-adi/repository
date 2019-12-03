@@ -1,5 +1,13 @@
--saf 102-106 via jslint:
--terhacked name functionnya hanya v saja.
+-saf 102-106 vi DevTools:
+
+plusone-js-saf-102-106.html:8 Uncaught ReferenceError: t is not defined
+    at plusone-js-saf-102-106.html:8
+(anonymous) @ plusone-js-saf-102-106.html:8
+
+-Artinya programming script ini salah karena functionnya tidak run.
+
+-via jslint:
+-terhacked name functionnya hanya v saja dari 3, sisanya property.
 
 return this.T
 3.4Expected ';' and instead saw '}'.
@@ -13,7 +21,7 @@ Property Directive
     T, prototype, v, w
 */
 
--jadi kalau kita hacked re-edit kemudian di run di devtool:
+-Sekarang programmingnya sudah mempunyai function. Jadi kalau kita hacked re-edit kemudian di run di devtool:
 
 v = function() {
         return this.T
