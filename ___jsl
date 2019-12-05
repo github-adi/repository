@@ -17,10 +17,20 @@ Property Directive
 */
 
 -Hasil hacked, ditemukan bahwa functionnya adalah «toString»()
+-Maka di programming ulang kemudian di run di devtool:
 
-
- 
-    
+toString = function() {
+        return "Const{" + this.T + "}"
+    };
+ƒ () {
+        return "Const{" + this.T + "}"
+    }
+toString
+ƒ () {
+        return "Const{" + this.T + "}"
+    }
+toString.prototype
+{constructor: ƒ}constructor: ƒ ()arguments: nullcaller: nulllength: 0name: "toString"prototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM35:1[[Scopes]]: Scopes[1]__proto__: Object
 
 -saf 102-106 via DevTools:
 
