@@ -4,7 +4,23 @@ plusone-js-saf-107-110.html:8 Uncaught ReferenceError: t is not defined
     at plusone-js-saf-107-110.html:8
 (anonymous) @ plusone-js-saf-107-110.html:8
 
+-Berdasarkan hasil hacked di atas, programmingnya functionnya salah.
+-Via jslint:
 
+Function Report
+0
+«toString»()
+JSLint edition 2019-09-17
+Property Directive
+/*property
+    T, prototype, toString
+*/
+
+-Hasil hacked, ditemukan bahwa functionnya adalah «toString»()
+
+
+ 
+    
 
 -saf 102-106 via DevTools:
 
