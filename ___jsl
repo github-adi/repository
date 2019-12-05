@@ -4,7 +4,7 @@ plusone-js-saf-107-110.html:8 Uncaught ReferenceError: t is not defined
     at plusone-js-saf-107-110.html:8
 (anonymous) @ plusone-js-saf-107-110.html:8
 
--Berdasarkan hasil hacked di atas, programmingnya functionnya salah.
+-Berdasarkan hasil hacked di atas, programming functionnya salah.
 -Via jslint:
 
 Function Report
@@ -17,7 +17,7 @@ Property Directive
 */
 
 -Hasil hacked, ditemukan bahwa functionnya adalah «toString»()
--Maka di programming ulang kemudian di run di devtool:
+-Maka script tersebut di programming ulang kemudian di run di devtool:
 
 toString = function() {
         return "Const{" + this.T + "}"
