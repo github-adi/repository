@@ -32,6 +32,9 @@ toString
 toString.prototype
 {constructor: ƒ}constructor: ƒ ()arguments: nullcaller: nulllength: 0name: "toString"prototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM35:1[[Scopes]]: Scopes[1]__proto__: Object
 
+this.__gapi_jstiming__
+{load: a, srt: 2, pt: 437, Pz: {…}, Timer: ƒ, …}Pz: __proto__: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()Timer: ƒ a(n)Yr: 1getLabels: ƒ (a)getTick: ƒ (a,c,f)load: at: start: (2) [1575547973159, null]0: 15755479731591: nulllength: 2__proto__: Array(0)tbnd_: (2) [1575547973157, "_tbnd"]tbsd_: (2) [1575547973594, "wtsrt_"]wtsrt_: (2) [1575547973159, "_wtsrt"]_tbnd: (2) [1575547973157, undefined]_wtsrt: (2) [1575547973157, undefined]__proto__: Objecttick: ƒ (q,t,v)arguments: nullcaller: nulllength: 3name: ""prototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: cb=gapi.loaded_0:339[[Scopes]]: Scopes[2]__proto__: Objectpt: 437report: ƒ (a,c,f)arguments: nullcaller: nulllength: 3name: ""prototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: cb=gapi.loaded_0:344[[Scopes]]: Scopes[2]srt: 2__proto__: Object
+
 -saf 102-106 via DevTools:
 
 plusone-js-saf-102-106.html:8 Uncaught ReferenceError: t is not defined
