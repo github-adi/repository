@@ -1,3 +1,10 @@
+v
+ƒ () {
+        this.N = ""
+    }
+v.prototype
+{constructor: ƒ}constructor: ƒ ()arguments: nullcaller: nulllength: 0name: "v"prototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: plusone-js-saf-117-121.html:10[[Scopes]]: Scopes[1]__proto__: Object
+
 pa
 ƒ (a) {
         if (a instanceof t && a.constructor === t && a.ga === oa)
