@@ -31,6 +31,23 @@ plusone-js-saf-122-126.html:8 Uncaught ReferenceError: v is not defined
     at plusone-js-saf-122-126.html:8
 (anonymous) @ plusone-js-saf-122-126.html:8
 
+v.prototype.w = !0;
+VM27:1 Uncaught ReferenceError: v is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM27:1
+v=!0;
+true
+v
+true
+prototype=!0;
+true
+prototype;
+true
+w=!0
+true
+w;
+true
+
 v = function() {
         return this.N.toString()
     };
