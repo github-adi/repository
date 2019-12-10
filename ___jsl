@@ -21,6 +21,7 @@ Property Directive
     R, fa, i
 */
 
+-Ini di copy paste di DevTool:
 var w = function(a, b) {
         this.R = a === qa && b || "";
         this.fa = ra
