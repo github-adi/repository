@@ -51,6 +51,16 @@ x && y;
 y && x;
 "a"
 
+-Lambang Or ini ber-arti kalau salah satu dari 2 masih dikenal maka true:
+x || "a"
+"a"
+y || "b"
+"b"
+x || y;
+"a"
+y || x;
+"b"
+
 -Saf 131-135:
 
 plusone-js-saf-131-135.html:8 Uncaught ReferenceError: v is not defined
