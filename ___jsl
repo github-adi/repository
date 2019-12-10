@@ -33,10 +33,14 @@ w
         this.fa = ra
     }
 
--Untuk R:
-RTCCertificate.prototype
-RTCCertificate {Symbol(Symbol.toStringTag): "RTCCertificate", getFingerprints: ƒ, constructor: ƒ}expires: (...)getFingerprints: ƒ getFingerprints()constructor: ƒ RTCCertificate()arguments: nullcaller: nulllength: 0name: "RTCCertificate"prototype: RTCCertificate {Symbol(Symbol.toStringTag): "RTCCertificate", getFingerprints: ƒ, constructor: ƒ}__proto__: ƒ ()[[Scopes]]: Scopes[0]No propertiesSymbol(Symbol.toStringTag): "RTCCertificate"get expires: ƒ expires()__proto__: Object
+--a harus String:
 
+R =-"a"
+"a"
+R === "qa"
+false
+R === "a"
+true
 -Saf 131-135:
 
 plusone-js-saf-131-135.html:8 Uncaught ReferenceError: v is not defined
