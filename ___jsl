@@ -8,6 +8,19 @@ undefined
 w
 undefined
 
+Function Report
+global
+w
+1
+«w»(a, b)
+parameter
+a, b
+JSLint edition 2019-09-17
+Property Directive
+/*property
+    R, fa, i
+*/
+
 -Saf 131-135:
 
 plusone-js-saf-131-135.html:8 Uncaught ReferenceError: v is not defined
