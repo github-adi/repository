@@ -41,6 +41,16 @@ R === "qa"
 false
 R === "a"
 true
+
+x = "a"
+"a"
+y = "b"
+"b"
+x && y;
+"b"
+y && x;
+"a"
+
 -Saf 131-135:
 
 plusone-js-saf-131-135.html:8 Uncaught ReferenceError: v is not defined
