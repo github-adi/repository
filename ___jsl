@@ -27,6 +27,19 @@ true
 w 
 true
 
+v = function() {
+        return this.R.toString()
+    }
+ƒ () {
+        return this.R.toString()
+    }
+v
+ƒ () {
+        return this.R.toString()
+    }
+v.prototype
+{constructor: ƒ}constructor: ƒ ()arguments: nullcaller: nulllength: 0name: "v"prototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM195:1[[Scopes]]: Scopes[1]0: Global {parent: Window, postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, …}__proto__: Object
+
 -Saf 136-140:
 
 plusone-js-saf-136-140.html:8 Uncaught ReferenceError: v is not defined
