@@ -4,6 +4,29 @@ plusone-js-saf-141-145.html:8 Uncaught ReferenceError: w is not defined
     at plusone-js-saf-141-145.html:8
 (anonymous) @ plusone-js-saf-141-145.html:8
 
+w.prototype.w = !0;
+VM35:1 Uncaught ReferenceError: w is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM35:1
+w = !0:
+VM56:1 Uncaught SyntaxError: Unexpected token ':'
+w = !0;
+true
+w
+true
+w.constructor
+ƒ Boolean() { [native code] }
+w.__defineGetter__
+ƒ __defineGetter__() { [native code] }
+prototype = !0;
+true
+prototype
+true
+w = !0;
+true
+w 
+true
+
 -Saf 136-140:
 
 plusone-js-saf-136-140.html:8 Uncaught ReferenceError: v is not defined
