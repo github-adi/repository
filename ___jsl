@@ -17,6 +17,9 @@ toString
 toString.prototype
 {constructor: ƒ}constructor: ƒ ()arguments: nullcaller: nulllength: 0name: "toString"prototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM35:1[[Scopes]]: Scopes[1]0: Global {parent: Window, postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, …}__proto__: Object
 
+"SafeUrl{" + this.R + "}"
+"SafeUrl{undefined}"
+
 -Saf 141-145:
 
 plusone-js-saf-141-145.html:8 Uncaught ReferenceError: w is not defined
