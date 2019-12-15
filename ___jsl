@@ -1,4 +1,23 @@
--Saf 146-149:
+-Saf 150-155:
+
+sa
+/^(?:(?:https?|mailto|ftp):|[^:/?#]*(?:[/?#]|$))/i
+sa.dotAll
+false
+ra
+{}__proto__: Object
+qa
+{}__proto__: Object
+qa.toString
+ƒ toString() { [native code] }
+x
+ƒ () {
+        this.P = ""
+    }
+x.prototype
+{constructor: ƒ}constructor: ƒ ()length: 0name: "x"arguments: nullcaller: nullprototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: plusone-js-saf-150-155.html:11[[Scopes]]: Scopes[1]__proto__: Object
+
+Saf 146-149:
 
 plusone-js-saf-146-149.html:8 Uncaught ReferenceError: w is not defined
     at plusone-js-saf-146-149.html:8
