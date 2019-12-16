@@ -23,6 +23,43 @@ true
 w.toString
 ƒ toString() { [native code] }
 
+x = function() {
+        return this.P
+    }
+ƒ () {
+        return this.P
+    }
+x
+ƒ () {
+        return this.P
+    }
+x.prototype
+{constructor: ƒ}constructor: ƒ ()length: 0name: "x"arguments: nullcaller: nullprototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM210:1[[Scopes]]: Scopes[1]__proto__: Object
+prototype = function() {
+        return this.P
+    }
+ƒ () {
+        return this.P
+    }
+prototype
+ƒ () {
+        return this.P
+    }
+prototype.prototype
+{constructor: ƒ}constructor: ƒ ()length: 0name: "prototype"arguments: nullcaller: nullprototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM249:1[[Scopes]]: Scopes[1]__proto__: Object
+v = function() {
+        return this.P
+    }
+ƒ () {
+        return this.P
+    }
+v
+ƒ () {
+        return this.P
+    }
+v.prototype
+{constructor: ƒ}constructor: ƒ ()length: 0name: "v"arguments: nullcaller: nullprototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM291:1[[Scopes]]: Scopes[1]__proto__: Object
+
 -Saf 150-155:
 
 sa
