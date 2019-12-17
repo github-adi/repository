@@ -1,3 +1,12 @@
+-Postingan hacked ini terdiri 2 script language programming di tag <head></head>, yaitu:
+<script src="sebuah http ber-akhiran (format) js"</script>
+dan
+<script>salah satu saf function js di atas</script>
+Di run via DevTool menghasilkan sebuah script js baru yaitu:
+https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.xh-S9KbEGSE.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQc/rs=AGLTcCMI6cckfOgfLoXSkY9UoCFGZek6-A/cb=gapi.loaded_0
+yang asal-usul terhacked terdiri dari 16 function js di atas, yaitu:
+functions: Lb saf 20, Qb saf 23, Rb saf 23, (anonymous) saf 23, Ob saf 23, I.load saf 23, od saf 50, bb saf 50, db saf 14, (anonymous) saf 50, Nb saf 20,  Rb saf 21, (anonymous) saf 23, Ob saf 23, I.load saf 23, (anonymous) saf 67.
+ 
 -Saf 156-160:
 
 plusone-js-saf-156-160.html:8 Uncaught ReferenceError: x is not defined
