@@ -1,3 +1,20 @@
+-Saf 161-164:
+
+Warnings
+JSLint was unable to finish.
+1.30Unexpected 'this'.
+        return "SafeStyle{" + this.P + "}"
+2.4Expected ';' and instead saw '}'.
+    }
+Function Report
+0
+«toString»()
+JSLint edition 2019-12-11
+Property Directive
+/*property
+    P, prototype, toString
+*/
+
 -Cookies:
 
 24A cookie associated with a cross-site resource at <URL> was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at <URL> and <URL>.
