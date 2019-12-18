@@ -33,6 +33,9 @@ toString
 toString.prototype
 {constructor: ƒ}constructor: ƒ ()length: 0name: "toString"arguments: nullcaller: nullprototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM26:1[[Scopes]]: Scopes[1]__proto__: Object
 
+"SafeStyle{" + this.P + "}"
+"SafeStyle{undefined}"
+
 -Cookies:
 
 24A cookie associated with a cross-site resource at <URL> was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at <URL> and <URL>.
