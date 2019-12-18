@@ -1,5 +1,6 @@
 -Saf 161-164:
 
+-via jslint:
 Warnings
 JSLint was unable to finish.
 1.30Unexpected 'this'.
@@ -14,6 +15,23 @@ Property Directive
 /*property
     P, prototype, toString
 */
+
+-via DevTool:
+plusone-js-saf-161-164.html:8 Uncaught ReferenceError: x is not defined
+    at plusone-js-saf-161-164.html:8
+(anonymous) @ plusone-js-saf-161-164.html:8
+toString = function() {
+        return "SafeStyle{" + this.P + "}"
+    }
+ƒ () {
+        return "SafeStyle{" + this.P + "}"
+    }
+toString
+ƒ () {
+        return "SafeStyle{" + this.P + "}"
+    }
+toString.prototype
+{constructor: ƒ}constructor: ƒ ()length: 0name: "toString"arguments: nullcaller: nullprototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM26:1[[Scopes]]: Scopes[1]__proto__: Object
 
 -Cookies:
 
