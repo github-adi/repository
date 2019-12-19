@@ -4,6 +4,26 @@ plusone-js-saf-165-169.html:8 Uncaught ReferenceError: x is not defined
     at plusone-js-saf-165-169.html:8
 (anonymous) @ plusone-js-saf-165-169.html:8
 
+-via jslint:
+Warnings
+JSLint was unable to finish.
+1.8Unexpected 'this'.
+        this.P = a;
+2.15Unexpected 'this'.
+        return this
+3.4Expected ';' and instead saw '}'.
+    };
+Function Report
+0
+«i»(a)
+parameter
+a
+JSLint edition 2019-12-11
+Property Directive
+/*property
+    P, i, prototype
+*/
+
 -Saf 161-164:
 
 -via jslint:
