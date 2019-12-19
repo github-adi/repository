@@ -24,6 +24,22 @@ Property Directive
     P, i, prototype
 */
 
+i = function(a) {
+        P = a;
+        return 
+    };
+ƒ (a) {
+        P = a;
+        return 
+    }
+i
+ƒ (a) {
+        P = a;
+        return 
+    }
+i.prototype
+{constructor: ƒ}constructor: ƒ (a)length: 1name: "i"arguments: nullcaller: nullprototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM27:1[[Scopes]]: Scopes[1]__proto__: Object
+
 -Saf 161-164:
 
 -via jslint:
