@@ -31,6 +31,16 @@ plusone-js-170-173.html:8 Uncaught ReferenceError: x is not defined
 
 -Saf 170-173:
 
+-Hasil berbeda syntax code var ta = function dengan ta = function: Ini dengan var ta:
+ta
+undefined
+var ta;
+undefined
+ta.prototype
+VM145:1 Uncaught TypeError: Cannot read property 'prototype' of undefined
+    at <anonymous>:1:4
+(anonymous) @ VM145:1
+
 plusone-js-170-173.html:8 Uncaught ReferenceError: x is not defined
     at plusone-js-170-173.html:8
 (anonymous) @ plusone-js-170-173.html:8
