@@ -4,6 +4,27 @@ plusone-js-170-173.html:8 Uncaught ReferenceError: x is not defined
     at plusone-js-170-173.html:8
 (anonymous) @ plusone-js-170-173.html:8
 
+-via jslint:
+Warnings
+0.5Undeclared 'x'.
+(new x).i("");
+0.6Expected '()' before ')'.
+(new x).i("");
+2.8Unexpected 'this'.
+        this.O = ""
+2.19Expected ';' and instead saw '}'.
+        this.O = ""
+Function Report
+global
+ta
+1
+«ta»()
+JSLint edition 2019-12-11
+Property Directive
+/*property
+    O, i
+*/
+
 -Saf 165-169:
 
 plusone-js-saf-165-169.html:8 Uncaught ReferenceError: x is not defined
