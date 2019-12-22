@@ -1,3 +1,26 @@
+-Kalau gapi loaded 0-nya yang merupakan makhluk baru, dibikin seperti format dibawah, tidak menghasilkan js baru:
+-via jslint:
+Warnings
+JSLint was unable to finish.
+1.17Unexpected 'this'.
+    var window = this;
+2.10Expected ';' and instead saw ','.
+    var qb, Mb, vf, Na, Te;
+2.10Unexpected ','.
+    var qb, Mb, vf, Na, Te;
+Function Report
+0
+«loaded_0»(_)
+parameter
+_
+variable
+qb, window
+JSLint edition 2019-12-11
+Property Directive
+/*property
+    loaded_0
+*/
+
 -25A Cookies:
 
 25A cookie associated with a cross-site resource at <URL> was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at <URL> and <URL>.
