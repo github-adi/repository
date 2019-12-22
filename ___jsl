@@ -1,5 +1,6 @@
 -Kalau gapi loaded 0-nya yang merupakan makhluk baru, dibikin seperti format dibawah, tidak menghasilkan js baru:
 
+-Bica dicopy dan paste:
 file:///C:/Users/Administrator/Documents/gapi_loaded_0.html
 
 -via jslint:
@@ -32,6 +33,20 @@ cb=gapi.loaded_0:1 Uncaught ReferenceError: gapi is not defined
 (anonymous) @ cb=gapi.loaded_0:1
 gapi_loaded_0.html:8 Uncaught SyntaxError: missing ) after argument list
 Navigated to file:///C:/Users/Administrator/Documents/gapi_loaded_0.html
+
+-Re-edit hacked:
+loaded_0 = function(_) {
+        var qb, Mb, vf, Na, Te;
+};
+ƒ (_) {
+        var qb, Mb, vf, Na, Te;
+}
+loaded_0
+ƒ (_) {
+        var qb, Mb, vf, Na, Te;
+}
+loaded_0.prototype
+{constructor: ƒ}constructor: ƒ (_)length: 1name: "loaded_0"arguments: nullcaller: nullprototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM76:1[[Scopes]]: Scopes[1]__proto__: Object
 
 -25A Cookies:
 
