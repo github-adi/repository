@@ -1,4 +1,7 @@
 -Kalau gapi loaded 0-nya yang merupakan makhluk baru, dibikin seperti format dibawah, tidak menghasilkan js baru:
+
+file:///C:/Users/Administrator/Documents/gapi_loaded_0.html
+
 -via jslint:
 Warnings
 JSLint was unable to finish.
@@ -20,6 +23,15 @@ Property Directive
 /*property
     loaded_0
 */
+
+cb=gapi.loaded_0:1 Uncaught ReferenceError: gapi is not defined
+    at cb=gapi.loaded_0:1
+gapi_loaded_0.html:8 Uncaught SyntaxError: missing ) after argument list
+cb=gapi.loaded_0:1 Uncaught ReferenceError: gapi is not defined
+    at cb=gapi.loaded_0:1
+(anonymous) @ cb=gapi.loaded_0:1
+gapi_loaded_0.html:8 Uncaught SyntaxError: missing ) after argument list
+Navigated to file:///C:/Users/Administrator/Documents/gapi_loaded_0.html
 
 -25A Cookies:
 
