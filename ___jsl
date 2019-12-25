@@ -1,3 +1,25 @@
+-2 script parser:
+
+JSLint was unable to finish.
+0.55Unexpected 'this'.
+_.b=function(a){return function(){return _.aa[a].apply(this,arguments)}};
+0.60Unexpected 'arguments'.
+_.b=function(a){return function(){return _.aa[a].apply(this,arguments)}};
+0.70Expected ';' and instead saw '}'.
+_.b=function(a){return function(){return _.aa[a].apply(this,arguments)}};
+Function Report
+0
+«b»(a)
+parameter
+a
+0
+«return»()
+JSLint edition 2019-12-11
+Property Directive
+/*property
+    aa, apply, b
+*/
+
 -Kalau gapi loaded 0-nya yang merupakan makhluk baru, dibikin seperti format dibawah, tidak menghasilkan js baru:
 
 -Bica dicopy dan paste:
