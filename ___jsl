@@ -1,5 +1,7 @@
 -2 script parser:
 
+-Via jslint:
+
 JSLint was unable to finish.
 0.55Unexpected 'this'.
 _.b=function(a){return function(){return _.aa[a].apply(this,arguments)}};
@@ -20,9 +22,21 @@ Property Directive
     aa, apply, b
 */
 
+-Kalau diperhatikan istilah return bisa dipakai di jslint sebagai function, tetapi di DevTool menjadi Illegal return statement:
+
+b=function(a){}
+ƒ (a){}
+b
+ƒ (a){}
+b.prototype
+{constructor: ƒ}constructor: ƒ (a)length: 1name: "b"arguments: nullcaller: nullprototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM28:1[[Scopes]]: Scopes[1]__proto__: Object
+return=function(){return _.aa[a].apply()};
+VM64:1 Uncaught SyntaxError: Illegal return statement
+
 -Kalau gapi loaded 0-nya yang merupakan makhluk baru, dibikin seperti format dibawah, tidak menghasilkan js baru:
 
 -Bica dicopy dan paste:
+
 file:///C:/Users/Administrator/Documents/gapi_loaded_0.html
 
 -via jslint:
