@@ -1,9 +1,12 @@
--gapi.loaded_0.js saf 1 bagian a1 di run via salah satu format function myFunction();
+-gapi.loaded_0.js saf 1 bagian sub a1 di run via salah satu format function myFunction();
 
 https://jsfiddle.net/adinugroho/zy16ah2s/1/
 
 -sub a2:
 https://jsfiddle.net/adinugroho/cw85vepL/
+
+-sub a3, karena function parameternya kosong, maka syntax-codenya toString():
+https://jsfiddle.net/adinugroho/L2ap8xz9/
 
 -2 script parser:
 
