@@ -8,6 +8,14 @@ https://jsfiddle.net/adinugroho/cw85vepL/
 -sub a3, karena function parameternya kosong, maka syntax-codenya toString():
 https://jsfiddle.net/adinugroho/L2ap8xz9/
 
+-Saf function ke-2:
+
+_._DumpException=function(a){throw a;};
+
+-tafsir di-atas, throw a artinya mengeluarkan a. Maka:
+
+_._DumpException = function(){};
+
 -2 script parser:
 
 -Via jslint:
