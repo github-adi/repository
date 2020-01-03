@@ -28,7 +28,7 @@ document.getElementById("demo").innerHTML = qb(1);
 
 </body>
 </html>
-f
+
 -Returned 1. Secara hipotesis sesuai sub-saf done:!1.
 
 <!DOCTYPE html>
