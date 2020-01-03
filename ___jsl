@@ -1,3 +1,55 @@
+-Saf:
+_.aa=[];
+
+-Via DevTools:
+_.aa=[];
+VM16:1 Uncaught ReferenceError: _ is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM16:1
+aa=[];
+[]length: 0__proto__: Array(0)
+
+-Saf:
+qb=function(a){var c=0;return function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}};
+
+-Maka:
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var qb = function (a) {
+  return arguments.length;
+}
+document.getElementById("demo").innerHTML = qb(1);
+</script>
+
+</body>
+</html>
+f
+-Returned 1. Secara hipotesis sesuai sub-saf done:!1.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var qb = function (a) {
+  return a * 0;
+}
+document.getElementById("demo").innerHTML = qb(1);
+</script>
+
+</body>
+</html>
+
+-Perkalian sesuai hipotesis value:a[c++]}.
+-Returned 0. Secara hipotesis sesuai sub-saf done:!0. 
+
 -gapi.loaded_0.js saf 1 bagian sub a1 di run via salah satu format function myFunction();
 
 https://jsfiddle.net/adinugroho/zy16ah2s/1/
