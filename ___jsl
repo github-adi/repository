@@ -12,6 +12,8 @@ aa=[];
 -Saf:
 qb=function(a){var c=0;return function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}};
 
+-Sub saf var c=0;return function(){return c<a ditafsirkan, parameter a minimal 1:
+
 -Maka:
 <!DOCTYPE html>
 <html>
