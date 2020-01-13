@@ -63,6 +63,25 @@ document.getElementById("demo").innerHTML = PK(4);
 undefined
 -Ini sesuai hipotesis var c="undefined"!
 
+-Sub saf:
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var c = function(a){};
+document.getElementById("demo").innerHTML = c(4);
+</script>
+
+</body>
+</html>
+
+-Hasilnya:
+undefined
+-Ini sesuai hipotesis var c="undefined"!
+
 -Saf:
 _.aa=[];
 
