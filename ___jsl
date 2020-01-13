@@ -1,4 +1,49 @@
 -Saf:
+_.PK=function(a){var c="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return c?c.call(a):{next:qb(a)}};
+
+-Re-edit:
+var PK=function(a){var c="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator]};
+var c=function(a){};
+var qb=function(a){};
+
+-Via jslint:
+Warnings
+0.36Expected '!==' and instead saw '!='.
+var PK=function(a){var c="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator]};
+0.80Line is longer than 80 characters.
+var PK=function(a){var c="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator]};
+0.88Expected ';' and instead saw '}'.
+var PK=function(a){var c="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator]};
+1.17Empty block.
+var c=function(a){};
+2.18Empty block.
+var qb=function(a){};
+Function Report
+global
+PK, Symbol, c, qb
+0
+«PK»(a)
+parameter
+a
+variable
+c
+global
+Symbol
+1
+«c»(a)
+parameter
+a
+2
+«qb»(a)
+parameter
+a
+JSLint edition 2019-12-11
+Property Directive
+/*property
+    iterator
+*/
+
+-Saf:
 _.aa=[];
 
 -Via DevTools:
