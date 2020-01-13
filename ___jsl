@@ -43,6 +43,26 @@ Property Directive
     iterator
 */
 
+-Via function myFunction:
+-Sub saf:
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var PK=function(a){var c="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator]};
+document.getElementById("demo").innerHTML = PK(4);
+</script>
+
+</body>
+</html>
+
+-Hasilnya:
+undefined
+-Ini sesuai hipotesis var c="undefined"!
+
 -Saf:
 _.aa=[];
 
