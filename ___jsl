@@ -61,7 +61,7 @@ document.getElementById("demo").innerHTML = PK(4);
 
 -Hasilnya:
 undefined
--Ini sesuai hipotesis var c="undefined"!
+-Ini sesuai hipotesis {var c="undefined"!
 
 -Sub saf:
 <!DOCTYPE html>
