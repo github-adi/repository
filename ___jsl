@@ -80,6 +80,15 @@ document.getElementById("demo").innerHTML = c(4);
 
 -Hasilnya:
 undefined
+
+-Via DevTool:
+var c=call=function(a){};
+undefined
+c
+ƒ (a){}
+call
+ƒ (a){}
+
 -Ini sesuai hipotesis var c="undefined"!
 
 -Saf:
