@@ -91,6 +91,10 @@ call
 
 -Ini sesuai hipotesis var c="undefined"!
 
+-Sub saf {next:qb(a)}};
+Ini sudah ada tepat saf dibawah ini.
+-Ini sesuai hipotesis {next:qb(a)}};
+
 -Saf:
 _.aa=[];
 
