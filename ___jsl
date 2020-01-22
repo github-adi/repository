@@ -1,7 +1,7 @@
 -Saf:
 _.jb="function"==typeof Object.create?Object.create:function(a){var c=function(){};c.prototype=a;return new c};
 
--Via function myFunction:
+-Re-edit via function myFunction:
 <!DOCTYPE html>
 <html>
 <body>
@@ -21,6 +21,23 @@ document.getElementById("demo").innerHTML = jb(1);
 -Hasilnya:
 function create() { [native code] }
 
+-Hasil diatas sama dengan via jslint:
+Function Report
+0
+«create»(a)
+parameter
+a
+variable
+c
+0
+«c»()
+JSLint edition 2020-01-17
+Property Directive
+/*property
+    create, jb, prototype
+*/
+
+-Ini sesuai hipotesis "function".
 
 -Saf:
 _.PK=function(a){var c="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return c?c.call(a):{next:qb(a)}};
