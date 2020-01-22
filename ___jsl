@@ -1,4 +1,7 @@
 -Saf:
+_.jb="function"==typeof Object.create?Object.create:function(a){var c=function(){};c.prototype=a;return new c};
+
+-Via function myFunction:
 <!DOCTYPE html>
 <html>
 <body>
