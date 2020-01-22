@@ -1,4 +1,25 @@
 -Saf:
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var jb = function (a) {
+  return Object.create;
+}
+document.getElementById("demo").innerHTML = jb(1);
+</script>
+
+</body>
+</html>
+
+-Hasilnya:
+function create() { [native code] }
+
+
+-Saf:
 _.PK=function(a){var c="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return c?c.call(a):{next:qb(a)}};
 
 -Re-edit:
