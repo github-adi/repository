@@ -2,6 +2,26 @@
 _.jb="function"==typeof Object.create?Object.create:function(a){var c=function(){};c.prototype=a;return new c};
 
 -Re-edit via function myFunction:
+-Sub saf typeof:
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var jb = function (a) {
+  return typeof Object.create;
+}
+document.getElementById("demo").innerHTML = jb(1);
+</script>
+
+</body>
+</html>
+
+-Hasilnya function
+
+-Sub saf Object.create:
 <!DOCTYPE html>
 <html>
 <body>
