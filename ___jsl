@@ -31,6 +31,28 @@ document.getElementById("demo").innerHTML = Mb(4);
 -Hasilnya function
 -Sesuai hipotesis "function"
 
+-Sub saf:
+Na="undefined"!=typeof window&&window
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var Na = function(a) {
+  typeof window&&window;
+}
+document.getElementById("demo").innerHTML = Na(4);
+</script>
+
+</body>
+</html>
+
+-Hasilnya undefined
+-Ini sesuai hipotesis Na="undefined"!
+
 -Saf:
 _.jb="function"==typeof Object.create?Object.create:function(a){var c=function(){};c.prototype=a;return new c};
 
