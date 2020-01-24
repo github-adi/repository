@@ -1,4 +1,17 @@
 -Saf:
+if("function"==typeof Object.setPrototypeOf)Mb=Object.setPrototypeOf;else{var Xb;a:{var fa={a:!0},bc={};try{bc.__proto__=fa;Xb=bc.a;break a}catch(a){}Xb=!1}Mb=Xb?function(a,c){a.__proto__=c;if(a.__proto__!==c)throw new TypeError(a+" is not extensible");return a}:null}_.fe=Mb;vf="function"==typeof Object.defineProperties?Object.defineProperty:function(a,c,f){a!=Array.prototype&&a!=Object.prototype&&(a[c]=f.value)};
+
+-Via jslint:
+Function Report
+There are no functions.
+JSLint edition 2020-01-17
+
+Property Directive
+/*property
+    setPrototypeOf
+*/
+
+-Saf:
 _.jb="function"==typeof Object.create?Object.create:function(a){var c=function(){};c.prototype=a;return new c};
 
 -Re-edit via function myFunction:
