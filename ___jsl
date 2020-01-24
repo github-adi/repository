@@ -11,6 +11,26 @@ Property Directive
     setPrototypeOf
 */
 
+-Via function myFunction:
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var Mb = function(a) {
+  return typeof Object.setPrototypeOf;
+}
+document.getElementById("demo").innerHTML = Mb(4);
+</script>
+
+</body>
+</html>
+
+-Hasilnya function
+-Sesuai hipotesis "function"
+
 -Saf:
 _.jb="function"==typeof Object.create?Object.create:function(a){var c=function(){};c.prototype=a;return new c};
 
